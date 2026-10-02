@@ -1,0 +1,98 @@
+{
+  "status": "FROZEN_BEFORE_SOURCE_PREPARATION_OR_SCORING",
+  "config": {
+    "experiment": 21,
+    "channel": "BASE52_AUTHOR_f2675ec5",
+    "source_chunk_length": 128,
+    "test_chunks": 64,
+    "blocks": {
+      "A": [
+        0,
+        32
+      ],
+      "B": [
+        32,
+        64
+      ]
+    },
+    "languages": [
+      "la",
+      "it"
+    ],
+    "modes": [
+      "preserved",
+      "deleted"
+    ],
+    "ordered_replicates": 3,
+    "shuffle_replicates": 1,
+    "ordered_seed": "202102100+1000*language_index+replicate",
+    "shuffle_encoder_seed": "202102190+1000*language_index",
+    "shuffle_source_seed": "202102199+1000*language_index",
+    "known_key": true,
+    "matching_language_prior": true,
+    "score": "APPROXIMATE_PATH_MAX_NOT_POSTERIOR",
+    "support_scope": "EXACT_LOCAL_CODEBOOK_LANGUAGE_OVERAPPROXIMATES_STOCHASTIC_ENCODER_SUPPORT",
+    "model_order": 2,
+    "baseline_order": 0,
+    "tau": 20,
+    "additive": 0.5,
+    "single_probability": "17/36 except final forced singleton",
+    "gap_drop": 0.03,
+    "max_dfa_states": 100000,
+    "max_dfa_edges": 1000000,
+    "max_viterbi_states": 1000000,
+    "max_encoder_draws_per_chunk": 1000000,
+    "primary_gate": {
+      "coverage": 1.0,
+      "character_edit_accuracy": 0.99,
+      "exact_chunk_accuracy": 0.8
+    },
+    "manuscripts_read": false,
+    "original_word_boundaries_recovered": false
+  },
+  "hashes": {
+    "data/language-screen/boccaccio.json": "6dc1234d2b37114a9d53e5f0c12a34ac8c6f8ab280f6e15943cf3b47a3fc0666",
+    "data/language-screen/dante.json": "2624e800c087ccd7b1efc1cfd680f6ae772fdf186cb73ba8f11516ea1519458b",
+    "data/latin-sources.json": "c52e540f6067c9581e390afa5126b9b73b1776fb1639ad4c9ef3b8dda84c8766",
+    "data/naibbe-review/author-f2675ec5/LICENSE": "e8fb5c1110aaa38618eab2013d1e7c5cae343efd21ea9859478df4930f7746bc",
+    "data/naibbe-review/author-f2675ec5/README.md": "b9e78e849a3478341d1c3167b7c3ae960e18f57b4857a0297d296adfe480ec99",
+    "data/naibbe-review/author-f2675ec5/archive-inventory.json": "b6e95a96e45482dd9007f126afc52785e3c54146546fab0831e243914cb55c5c",
+    "data/naibbe-review/author-f2675ec5/naibbe.py": "3f5e353d2c50f4e6a6b81567ca31cee4f0537a490b6346d054d26661648a6003",
+    "data/naibbe-review/author-f2675ec5/naibbe_tables.csv": "4e7cfd54b7ec66515d39a51e11ec97e8e19b643b0b189124eebc3982e707dcec",
+    "data/raw/language-screen/boccaccio-21424.html": "057489f9ae0890a55f7c8405cb76f4c3ef8b475e08196afd6a9db14c2e38c8bf",
+    "data/raw/language-screen/dante-1012.txt": "568035b4af7bda4f69f8ed5dea160f59bcf5b9371c7f2a62a97f94b826c0c1c6",
+    "data/raw/latin/caesar-gallic.xml": "15ec3ef2a36352742ddb75d4f7da23a143899b6b60ee3a7ca3192d4917ca1568",
+    "data/raw/latin/cicero-catilinam.xml": "3e0f7f8d3d12c1bb43b2b27838a51bc81c32427e71dcc207ef7c8c8b2e5e91aa",
+    "notes/experiment-021-design.md": "4011342433738367d6647509892f0a507ce8e3e5396af60e5093beacda10479f",
+    "notes/naibbe-and-units-primary-review.md": "7e36a60c11953fe7a472817d2f45adb775f0e290a7eb164b8cb7af14396c6dbd",
+    "notes/naibbe-channel-review.md": "81bdd01e2f97b6c0af62f92d53a44dceb1f9391177b64b0aec5b7fe70a550bef",
+    "src/language_sources.py": "65ccd5708566d4a08c4ee5fd84a71ca43b79a7203a7f44cc0a0826915fc2c29d",
+    "src/naibbe_channel.py": "9fe1dd906bc6424e41bd4fd50668a1c22e5be79c113600a8574a3158b8a35b86",
+    "src/naibbe_decode.py": "b92a7089200b1ac64ea4cddc4db09ac46bdd76bf4906e8a9039a4a8eb32af51b",
+    "src/naibbe_inverse.py": "7a871857b0c1ef2cc36438881e3ca45d262a83846fd2394f8fde161b232e74f9",
+    "src/naibbe_oracle.py": "e332b2a6cc7418fb26c906195269828820a4689c4a72d1d3b0a4c420673fbf1d",
+    "src/naibbe_sources.py": "779d400d469f055a0c4ba64151f2de466d720450323613a8127eb8eb664b09f6"
+  },
+  "synthetic_checks": {
+    "channel": {
+      "normalization_checks": 4,
+      "real_source_or_codebook_read": false
+    },
+    "decoder": {
+      "status": "PASS",
+      "brute_force_viterbi_cases": 20,
+      "budget_failure_checked": true,
+      "equal_score_local_tie_checked": true,
+      "real_codebook_or_source_read": false
+    },
+    "sources": {
+      "status": "PASS",
+      "synthetic_comparisons": 15,
+      "real_sources_read": false
+    },
+    "inverse": {
+      "status": "PASS",
+      "pure_synthetic_checks": 7222
+    }
+  }
+}
