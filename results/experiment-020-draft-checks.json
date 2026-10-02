@@ -1,0 +1,49 @@
+{
+  "status": "DRAFT_IMPLEMENTATION_SYNTHETIC_CHECKS_PASS_NOT_REAL_CALIBRATION",
+  "created_utc": "2026-10-02T09:20:19.984475+00:00",
+  "source_hashes": {
+    "notes/experiment-020-design.md": "52c553bca8a5bee94cf54e0e19b2caf9611cc1ec844417573d38392dda7188d9",
+    "src/check_omission_channel.py": "0b4f2a25f3f166d2b902a76d471146d2b7b027582cd0c00747dc376f72080b1b",
+    "src/check_omission_oracle.py": "33585bdb0b9621e45ab9577b8ad758be0b1c239e14621f0213be3a8cd218bba9",
+    "src/omission_channel.py": "18cb632a506befb6f2482967071abc8dc5299856416eba232fca5478321327c2",
+    "src/omission_inputs.py": "3ce53272678037836b124872fcb64285f84a296fc9d7b966e647f53b19c00107",
+    "src/omission_oracle.py": "7c9b0b7820dccc1308d38b379ad73a7264994103c09cde9c883dbf5eee841c7f"
+  },
+  "python_version": "3.12.14",
+  "numpy_version": "2.5.3",
+  "real020_preparation_run": false,
+  "real020_recovery_run": false,
+  "manuscript_application": false,
+  "character_check": {
+    "command": "OPENBLAS_NUM_THREADS=1 .venv/bin/python -B src/check_omission_channel.py",
+    "exit_code": 0,
+    "scope": "SYNTHETIC_ONLY_NO_CORPUS_OR_FROZEN_MODEL_READS",
+    "numeric_comparisons": 555,
+    "maximum_absolute_error": 1.5543122344752192e-15
+  },
+  "sequence_check": {
+    "command": "OPENBLAS_NUM_THREADS=1 .venv/bin/python -B src/check_omission_oracle.py",
+    "exit_code": 0,
+    "scope": "SYNTHETIC_ONLY_NO_SOURCE_OR_MANUSCRIPT_READS",
+    "checks": {
+      "numerical_comparisons": 269,
+      "complete_segments": 16,
+      "enumerated_concrete_paths": 577,
+      "concrete_oov_winner_segments": 4,
+      "exact_float_lexicographic_ties": 6,
+      "same_observation_different_truth_checks": 2,
+      "layout_rows": 4,
+      "internal_reset_complete_rows": 2,
+      "evaluation_cases": 4
+    },
+    "maximum_absolute_error": 1.7763568394002505e-15
+  },
+  "integration_smoke": {
+    "ast_modules": 5,
+    "synthetic_manifest_valid_cases": 1,
+    "synthetic_manifest_rejection_cases": 6,
+    "no_real020_artifact_directories": true
+  },
+  "preserved019_artifact_hashes": 263,
+  "limitation": "Synthetic arithmetic and implementation checks only. This is an unfrozen code snapshot; real source recovery and manuscript decipherment remain unestablished."
+}

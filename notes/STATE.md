@@ -5,6 +5,27 @@ Last completed work classified as PROGRESS: experiment019 COMPLETED, with36encod
 controls,9plain invariance cases,native two-split scoring and independent audits.
 No verified connected reading, phonetic value, word meaning or language identified.
 
+Current implementation checkpoint: experiment020 is DRAFT BEFORE FREEZE, with
+notes/experiment-020-design.md and five Python production/check modules saved.
+No data/omission-oracle or results/omission-oracle directory exists; no020 real
+source counts, preparation, recovery scores or manuscript application has run.
+The draft gives the true key and matching source-language prior, then asks for
+continuous recovery after literal a/e/i/o/u deletion (all-vowel words unchanged).
+Character completion includes infinite insertion mass, nonnegative OOV exclusion,
+and bounded top-two concrete-word search. HMM inference sums aggregate OOV mass
+but uses concrete OOV weights for MAP, preserving None/reset/physical-row layout.
+Both pure synthetic checks pass: character555 numerical comparisons (max error
+1.5543122344752192e-15); sequence269 comparisons/577 enumerated concrete paths
+(max1.7763568394002505e-15). Source/real-model data were not read by those checks.
+Independent implementation review prompted pre-truth prediction hashing, separate
+all-word/nontrivial confidence bins, mandatory prepared/input inventory checks,
+and toys for winning OOV words, exact-score lexical ties and full rows with resets.
+These checks establish arithmetic agreement on toys, not recovery or decipherment.
+Next: complete pre-freeze review, freeze protocol/all five modules/dependency
+closure, prepare once, freeze the58 prepared outputs, then run the18 oracle cases
+and independently audit inputs/inference/metrics. Do not freeze or score implicitly
+from this checkpoint, or report020 as a completed calibration. Preserve failures.
+
 151input hashes were frozen before preparation/statistics;48prepared output hashes;
 51calibration-freeze hashes before native;6native-freeze hashes before stats audit.
 All019processes terminal exit0: prepare20876,calibrate62582,native51440,audit80843.
@@ -39,7 +60,7 @@ P16pages/223rows/2449known+31unknown. Four generations of training locus/raw
 lists are identical. No new f49v text was inspected or scored. f49v/f58r/v unscored.
 See notes/experiment-019-scope-clarification.md; never rewrite old frozen reports.
 
-Next: review/freeze a concrete020 continuous-recovery experiment before new counts.
+The concrete020 protocol now exists as a draft; review/freeze before new counts.
 notes/experiment-019-followup-review.md is a proposal ONLY, not frozen/run: remove
 normalized a/e/i/o/u within words, keep all-those-symbol words unchanged, retain
 boundaries, then fixed homophonic encoding. First reveal the true key and test
@@ -53,7 +74,8 @@ of their unordered truth. No manual word repair, no broader glyph expansion by f
 
 GitHub private repository: https://github.com/Sskift/voynich-research, main.
 016snapshot d4b8db3;017/pre01862c5deb;completed01822298d2;draft019a1baf81.
-Current checkpoint adds completed019; use git log for its ID. Push explicitly authorized.
+Completed019 checkpoint5908e99. Current checkpoint adds the unrun020 draft and
+checked implementation; use git log for its ID. Push explicitly authorized.
 
 ## Current results
 
