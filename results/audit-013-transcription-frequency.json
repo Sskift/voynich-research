@@ -1,0 +1,1837 @@
+{
+  "status": "PASS",
+  "scope": "Independent raw-source selection, coverage, and prefix-bound audit; no decipherment.",
+  "frozen_manifest_count": 6,
+  "frozen_hash_checks": 86,
+  "unique_frozen_files": 73,
+  "frozen_manifests": [
+    "data/language-screen/source-freeze.json",
+    "data/transcription-frequency/input-freeze.json",
+    "data/transcription-units/selection-freeze.json",
+    "data/variable-frequency/control-freeze.json",
+    "data/variable-frequency/envelope-freeze.json",
+    "data/variable-frequency/input-freeze.json"
+  ],
+  "selected_loci": 1388,
+  "source_locus_checks": 4164,
+  "source_word_slots": 59415,
+  "paired_slots": {
+    "primary": 4822,
+    "comma_join": 4974
+  },
+  "paired_exclusions": {
+    "primary": 754,
+    "comma_join": 722
+  },
+  "verified_profile_records": 36,
+  "verified_coverage_records": 36,
+  "unique_coverage_conditions": 18,
+  "independently_recomputed_bounds": 72,
+  "gc016_bound_regressions": 6,
+  "rejected_bounds": {
+    "blocks": 36,
+    "full": 36
+  },
+  "primary_condition": {
+    "source": "ZL",
+    "split": "train",
+    "spacing": "primary",
+    "scope": "full",
+    "envelope": "blocks"
+  },
+  "primary_decision": "INCOMPATIBLE_WITH_EMPIRICAL_ENVELOPE",
+  "primary_lower": {
+    "numerator": 571625,
+    "denominator": 501732,
+    "value": 1.1393034528393644
+  },
+  "primary_upper": {
+    "numerator": 2072,
+    "denominator": 1991,
+    "value": 1.040683073832245
+  },
+  "reused_control_status": "PASS",
+  "unscored_pages_preserved": [
+    "f49v",
+    "f58r",
+    "f58v"
+  ],
+  "limitations": "One manuscript, three shape transcriptions. Paired slots are positional, not verified physical alignment. Only compatibility with the fixed empirical envelopes; controls are reused, not new blind validation. An upper-endpoint length witness exists only when lower <= upper.",
+  "verified_profiles": [
+    {
+      "source": "GC",
+      "split": "train",
+      "spacing": "primary",
+      "scope": "full",
+      "words": 6586,
+      "units": 23721,
+      "types": 127,
+      "coverage": {
+        "selected_loci": 980,
+        "eligible_loci": 980,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 6586,
+        "unreadable_words": 0,
+        "full_known_words": 6586,
+        "paired_known_words": 3501,
+        "paired_word_fraction": 0.5315821439416945,
+        "full_known_units": 23721,
+        "paired_known_units": 12968
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 2888125,
+            "denominator": 1992564,
+            "value": 1.449451560903439
+          },
+          "upper": {
+            "numerator": 28589,
+            "denominator": 23721,
+            "value": 1.2052190042578306
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 125173648,
+            "denominator": 80153259,
+            "value": 1.5616788332960985
+          },
+          "upper": {
+            "numerator": 27757,
+            "denominator": 23721,
+            "value": 1.1701445976139286
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "GC",
+      "split": "train",
+      "spacing": "primary",
+      "scope": "paired",
+      "words": 3501,
+      "units": 12968,
+      "types": 95,
+      "coverage": {
+        "selected_loci": 980,
+        "eligible_loci": 980,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 6586,
+        "unreadable_words": 0,
+        "full_known_words": 6586,
+        "paired_known_words": 3501,
+        "paired_word_fraction": 0.5315821439416945,
+        "full_known_units": 23721,
+        "paired_known_units": 12968
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 1593125,
+            "denominator": 1089312,
+            "value": 1.4625056916659323
+          },
+          "upper": {
+            "numerator": 15143,
+            "denominator": 12968,
+            "value": 1.1677205428747686
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 8630914,
+            "denominator": 5477359,
+            "value": 1.5757437115222865
+          },
+          "upper": {
+            "numerator": 15143,
+            "denominator": 12968,
+            "value": 1.1677205428747686
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "ZL",
+      "split": "train",
+      "spacing": "primary",
+      "scope": "full",
+      "words": 6354,
+      "units": 29865,
+      "types": 63,
+      "coverage": {
+        "selected_loci": 980,
+        "eligible_loci": 980,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 6520,
+        "unreadable_words": 166,
+        "full_known_words": 6354,
+        "paired_known_words": 3501,
+        "paired_word_fraction": 0.5509915014164306,
+        "full_known_units": 29865,
+        "paired_known_units": 16919
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 571625,
+            "denominator": 501732,
+            "value": 1.1393034528393644
+          },
+          "upper": {
+            "numerator": 2072,
+            "denominator": 1991,
+            "value": 1.040683073832245
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 123873424,
+            "denominator": 100913835,
+            "value": 1.2275167621961844
+          },
+          "upper": {
+            "numerator": 2072,
+            "denominator": 1991,
+            "value": 1.040683073832245
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "ZL",
+      "split": "train",
+      "spacing": "primary",
+      "scope": "paired",
+      "words": 3501,
+      "units": 16919,
+      "types": 45,
+      "coverage": {
+        "selected_loci": 980,
+        "eligible_loci": 980,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 6520,
+        "unreadable_words": 166,
+        "full_known_words": 6354,
+        "paired_known_words": 3501,
+        "paired_word_fraction": 0.5509915014164306,
+        "full_known_units": 29865,
+        "paired_known_units": 16919
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 1615625,
+            "denominator": 1421196,
+            "value": 1.1368066051410222
+          },
+          "upper": {
+            "numerator": 17595,
+            "denominator": 16919,
+            "value": 1.0399550800874757
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 70022480,
+            "denominator": 57169301,
+            "value": 1.224826590060984
+          },
+          "upper": {
+            "numerator": 17595,
+            "denominator": 16919,
+            "value": 1.0399550800874757
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "IT",
+      "split": "train",
+      "spacing": "primary",
+      "scope": "full",
+      "words": 6392,
+      "units": 30609,
+      "types": 20,
+      "coverage": {
+        "selected_loci": 980,
+        "eligible_loci": 980,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 6403,
+        "unreadable_words": 11,
+        "full_known_words": 6392,
+        "paired_known_words": 3501,
+        "paired_word_fraction": 0.5477158948685857,
+        "full_known_units": 30609,
+        "paired_known_units": 16915
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 2936875,
+            "denominator": 2571156,
+            "value": 1.1422391329036434
+          },
+          "upper": {
+            "numerator": 31781,
+            "denominator": 30609,
+            "value": 1.0382893920088863
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 127286512,
+            "denominator": 103427811,
+            "value": 1.2306797443484518
+          },
+          "upper": {
+            "numerator": 31781,
+            "denominator": 30609,
+            "value": 1.0382893920088863
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "IT",
+      "split": "train",
+      "spacing": "primary",
+      "scope": "paired",
+      "words": 3501,
+      "units": 16915,
+      "types": 20,
+      "coverage": {
+        "selected_loci": 980,
+        "eligible_loci": 980,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 6403,
+        "unreadable_words": 11,
+        "full_known_words": 6392,
+        "paired_known_words": 3501,
+        "paired_word_fraction": 0.5477158948685857,
+        "full_known_units": 30609,
+        "paired_known_units": 16915
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 53875,
+            "denominator": 47362,
+            "value": 1.13751530763059
+          },
+          "upper": {
+            "numerator": 17549,
+            "denominator": 16915,
+            "value": 1.037481525273426
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 70049568,
+            "denominator": 57155785,
+            "value": 1.2255901655449226
+          },
+          "upper": {
+            "numerator": 17549,
+            "denominator": 16915,
+            "value": 1.037481525273426
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "GC",
+      "split": "development",
+      "spacing": "primary",
+      "scope": "full",
+      "words": 1242,
+      "units": 4653,
+      "types": 69,
+      "coverage": {
+        "selected_loci": 185,
+        "eligible_loci": 185,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 1242,
+        "unreadable_words": 0,
+        "full_known_words": 1242,
+        "paired_known_words": 680,
+        "paired_word_fraction": 0.5475040257648953,
+        "full_known_units": 4653,
+        "paired_known_units": 2575
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 288125,
+            "denominator": 195426,
+            "value": 1.4743432296623786
+          },
+          "upper": {
+            "numerator": 1811,
+            "denominator": 1551,
+            "value": 1.1676337846550613
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 24975136,
+            "denominator": 15722487,
+            "value": 1.5884977993621492
+          },
+          "upper": {
+            "numerator": 1768,
+            "denominator": 1551,
+            "value": 1.1399097356544166
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "GC",
+      "split": "development",
+      "spacing": "primary",
+      "scope": "paired",
+      "words": 680,
+      "units": 2575,
+      "types": 59,
+      "coverage": {
+        "selected_loci": 185,
+        "eligible_loci": 185,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 1242,
+        "unreadable_words": 0,
+        "full_known_words": 1242,
+        "paired_known_words": 680,
+        "paired_word_fraction": 0.5475040257648953,
+        "full_known_units": 4653,
+        "paired_known_units": 2575
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 13325,
+            "denominator": 8652,
+            "value": 1.5401063337956542
+          },
+          "upper": {
+            "numerator": 2996,
+            "denominator": 2575,
+            "value": 1.163495145631068
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 14437904,
+            "denominator": 8700925,
+            "value": 1.659352769964113
+          },
+          "upper": {
+            "numerator": 2922,
+            "denominator": 2575,
+            "value": 1.1347572815533982
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "ZL",
+      "split": "development",
+      "spacing": "primary",
+      "scope": "full",
+      "words": 1220,
+      "units": 5914,
+      "types": 29,
+      "coverage": {
+        "selected_loci": 185,
+        "eligible_loci": 185,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 1248,
+        "unreadable_words": 28,
+        "full_known_words": 1220,
+        "paired_known_words": 680,
+        "paired_word_fraction": 0.5573770491803278,
+        "full_known_units": 5914,
+        "paired_known_units": 3335
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 141875,
+            "denominator": 124194,
+            "value": 1.142365975812036
+          },
+          "upper": {
+            "numerator": 6135,
+            "denominator": 5914,
+            "value": 1.0373689550219818
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 12297952,
+            "denominator": 9991703,
+            "value": 1.2308164083740278
+          },
+          "upper": {
+            "numerator": 6135,
+            "denominator": 5914,
+            "value": 1.0373689550219818
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "ZL",
+      "split": "development",
+      "spacing": "primary",
+      "scope": "paired",
+      "words": 680,
+      "units": 3335,
+      "types": 28,
+      "coverage": {
+        "selected_loci": 185,
+        "eligible_loci": 185,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 1248,
+        "unreadable_words": 28,
+        "full_known_words": 1220,
+        "paired_known_words": 680,
+        "paired_word_fraction": 0.5573770491803278,
+        "full_known_units": 5914,
+        "paired_known_units": 3335
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 11125,
+            "denominator": 9338,
+            "value": 1.191368601413579
+          },
+          "upper": {
+            "numerator": 3463,
+            "denominator": 3335,
+            "value": 1.0383808095952023
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 14464992,
+            "denominator": 11268965,
+            "value": 1.2836131800924042
+          },
+          "upper": {
+            "numerator": 3463,
+            "denominator": 3335,
+            "value": 1.0383808095952023
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "IT",
+      "split": "development",
+      "spacing": "primary",
+      "scope": "full",
+      "words": 1222,
+      "units": 6052,
+      "types": 19,
+      "coverage": {
+        "selected_loci": 185,
+        "eligible_loci": 185,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 1223,
+        "unreadable_words": 1,
+        "full_known_words": 1222,
+        "paired_known_words": 680,
+        "paired_word_fraction": 0.5564648117839607,
+        "full_known_units": 6052,
+        "paired_known_units": 3333
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 585625,
+            "denominator": 508368,
+            "value": 1.1519706197085575
+          },
+          "upper": {
+            "numerator": 3133,
+            "denominator": 3026,
+            "value": 1.0353602115003304
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 6345364,
+            "denominator": 5112427,
+            "value": 1.2411647149191567
+          },
+          "upper": {
+            "numerator": 3133,
+            "denominator": 3026,
+            "value": 1.0353602115003304
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "IT",
+      "split": "development",
+      "spacing": "primary",
+      "scope": "paired",
+      "words": 680,
+      "units": 3333,
+      "types": 19,
+      "coverage": {
+        "selected_loci": 185,
+        "eligible_loci": 185,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 1223,
+        "unreadable_words": 1,
+        "full_known_words": 1222,
+        "paired_known_words": 680,
+        "paired_word_fraction": 0.5564648117839607,
+        "full_known_units": 6052,
+        "paired_known_units": 3333
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 4375,
+            "denominator": 3636,
+            "value": 1.2032453245324533
+          },
+          "upper": {
+            "numerator": 3451,
+            "denominator": 3333,
+            "value": 1.0354035403540354
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 1327312,
+            "denominator": 1023837,
+            "value": 1.2964094870570217
+          },
+          "upper": {
+            "numerator": 3451,
+            "denominator": 3333,
+            "value": 1.0354035403540354
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "GC",
+      "split": "reserve",
+      "spacing": "primary",
+      "scope": "full",
+      "words": 2449,
+      "units": 9276,
+      "types": 71,
+      "coverage": {
+        "selected_loci": 223,
+        "eligible_loci": 223,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 2480,
+        "unreadable_words": 31,
+        "full_known_words": 2449,
+        "paired_known_words": 641,
+        "paired_word_fraction": 0.26173948550428744,
+        "full_known_units": 9276,
+        "paired_known_units": 2696
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 619375,
+            "denominator": 389592,
+            "value": 1.5898042054251627
+          },
+          "upper": {
+            "numerator": 11381,
+            "denominator": 9276,
+            "value": 1.2269297110823632
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 13422104,
+            "denominator": 7835901,
+            "value": 1.7128986188059292
+          },
+          "upper": {
+            "numerator": 7,
+            "denominator": 6,
+            "value": 1.1666666666666667
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "GC",
+      "split": "reserve",
+      "spacing": "primary",
+      "scope": "paired",
+      "words": 641,
+      "units": 2696,
+      "types": 54,
+      "coverage": {
+        "selected_loci": 223,
+        "eligible_loci": 223,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 2480,
+        "unreadable_words": 31,
+        "full_known_words": 2449,
+        "paired_known_words": 641,
+        "paired_word_fraction": 0.26173948550428744,
+        "full_known_units": 9276,
+        "paired_known_units": 2696
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 356875,
+            "denominator": 226464,
+            "value": 1.5758575314398757
+          },
+          "upper": {
+            "numerator": 3189,
+            "denominator": 2696,
+            "value": 1.1828635014836795
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 1933406,
+            "denominator": 1138723,
+            "value": 1.697872090051751
+          },
+          "upper": {
+            "numerator": 3189,
+            "denominator": 2696,
+            "value": 1.1828635014836795
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "ZL",
+      "split": "reserve",
+      "spacing": "primary",
+      "scope": "full",
+      "words": 2282,
+      "units": 11277,
+      "types": 31,
+      "coverage": {
+        "selected_loci": 223,
+        "eligible_loci": 223,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 2329,
+        "unreadable_words": 47,
+        "full_known_words": 2282,
+        "paired_known_words": 641,
+        "paired_word_fraction": 0.28089395267309375,
+        "full_known_units": 11277,
+        "paired_known_units": 3295
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 312500,
+            "denominator": 236817,
+            "value": 1.319584320382405
+          },
+          "upper": {
+            "numerator": 12272,
+            "denominator": 11277,
+            "value": 1.0882326859980491
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 54176000,
+            "denominator": 38104983,
+            "value": 1.421756309404468
+          },
+          "upper": {
+            "numerator": 1666,
+            "denominator": 1611,
+            "value": 1.0341402855369335
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "ZL",
+      "split": "reserve",
+      "spacing": "primary",
+      "scope": "paired",
+      "words": 641,
+      "units": 3295,
+      "types": 26,
+      "coverage": {
+        "selected_loci": 223,
+        "eligible_loci": 223,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 2329,
+        "unreadable_words": 47,
+        "full_known_words": 2282,
+        "paired_known_words": 641,
+        "paired_word_fraction": 0.28089395267309375,
+        "full_known_units": 11277,
+        "paired_known_units": 3295
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 17875,
+            "denominator": 13839,
+            "value": 1.2916395693330442
+          },
+          "upper": {
+            "numerator": 3609,
+            "denominator": 3295,
+            "value": 1.0952959028831564
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 15494336,
+            "denominator": 11133805,
+            "value": 1.3916478688103484
+          },
+          "upper": {
+            "numerator": 3506,
+            "denominator": 3295,
+            "value": 1.0640364188163884
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "IT",
+      "split": "reserve",
+      "spacing": "primary",
+      "scope": "full",
+      "words": 2275,
+      "units": 11351,
+      "types": 19,
+      "coverage": {
+        "selected_loci": 223,
+        "eligible_loci": 223,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 2303,
+        "unreadable_words": 28,
+        "full_known_words": 2275,
+        "paired_known_words": 641,
+        "paired_word_fraction": 0.28175824175824177,
+        "full_known_units": 11351,
+        "paired_known_units": 3294
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 1283125,
+            "denominator": 953484,
+            "value": 1.3457226340452488
+          },
+          "upper": {
+            "numerator": 12359,
+            "denominator": 11351,
+            "value": 1.088802748656506
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 55611664,
+            "denominator": 38355029,
+            "value": 1.4499184448537374
+          },
+          "upper": {
+            "numerator": 11737,
+            "denominator": 11351,
+            "value": 1.0340058144656858
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "IT",
+      "split": "reserve",
+      "spacing": "primary",
+      "scope": "paired",
+      "words": 641,
+      "units": 3294,
+      "types": 19,
+      "coverage": {
+        "selected_loci": 223,
+        "eligible_loci": 223,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 2303,
+        "unreadable_words": 28,
+        "full_known_words": 2275,
+        "paired_known_words": 641,
+        "paired_word_fraction": 0.28175824175824177,
+        "full_known_units": 11351,
+        "paired_known_units": 3294
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 40625,
+            "denominator": 30744,
+            "value": 1.3213960447567006
+          },
+          "upper": {
+            "numerator": 1201,
+            "denominator": 1098,
+            "value": 1.0938069216757742
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 880360,
+            "denominator": 618357,
+            "value": 1.423708310894839
+          },
+          "upper": {
+            "numerator": 3499,
+            "denominator": 3294,
+            "value": 1.062234365513054
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "GC",
+      "split": "train",
+      "spacing": "comma_join",
+      "scope": "full",
+      "words": 6230,
+      "units": 23721,
+      "types": 127,
+      "coverage": {
+        "selected_loci": 980,
+        "eligible_loci": 980,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 6230,
+        "unreadable_words": 0,
+        "full_known_words": 6230,
+        "paired_known_words": 3496,
+        "paired_word_fraction": 0.56115569823435,
+        "full_known_units": 23721,
+        "paired_known_units": 13312
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 2888125,
+            "denominator": 1992564,
+            "value": 1.449451560903439
+          },
+          "upper": {
+            "numerator": 28589,
+            "denominator": 23721,
+            "value": 1.2052190042578306
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 125173648,
+            "denominator": 80153259,
+            "value": 1.5616788332960985
+          },
+          "upper": {
+            "numerator": 27757,
+            "denominator": 23721,
+            "value": 1.1701445976139286
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "GC",
+      "split": "train",
+      "spacing": "comma_join",
+      "scope": "paired",
+      "words": 3496,
+      "units": 13312,
+      "types": 92,
+      "coverage": {
+        "selected_loci": 980,
+        "eligible_loci": 980,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 6230,
+        "unreadable_words": 0,
+        "full_known_words": 6230,
+        "paired_known_words": 3496,
+        "paired_word_fraction": 0.56115569823435,
+        "full_known_units": 23721,
+        "paired_known_units": 13312
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 401875,
+            "denominator": 279552,
+            "value": 1.4375679658882783
+          },
+          "upper": {
+            "numerator": 7791,
+            "denominator": 6656,
+            "value": 1.1705228365384615
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 1088599,
+            "denominator": 702832,
+            "value": 1.5488751223621007
+          },
+          "upper": {
+            "numerator": 7791,
+            "denominator": 6656,
+            "value": 1.1705228365384615
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "ZL",
+      "split": "train",
+      "spacing": "comma_join",
+      "scope": "full",
+      "words": 5902,
+      "units": 29781,
+      "types": 63,
+      "coverage": {
+        "selected_loci": 980,
+        "eligible_loci": 980,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 6068,
+        "unreadable_words": 166,
+        "full_known_words": 5902,
+        "paired_known_words": 3496,
+        "paired_word_fraction": 0.59234157912572,
+        "full_known_units": 29781,
+        "paired_known_units": 17394
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 2850625,
+            "denominator": 2501604,
+            "value": 1.139518884683587
+          },
+          "upper": {
+            "numerator": 1148,
+            "denominator": 1103,
+            "value": 1.0407978241160472
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 123548368,
+            "denominator": 100629999,
+            "value": 1.2277488743689642
+          },
+          "upper": {
+            "numerator": 1148,
+            "denominator": 1103,
+            "value": 1.0407978241160472
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "ZL",
+      "split": "train",
+      "spacing": "comma_join",
+      "scope": "paired",
+      "words": 3496,
+      "units": 17394,
+      "types": 45,
+      "coverage": {
+        "selected_loci": 980,
+        "eligible_loci": 980,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 6068,
+        "unreadable_words": 166,
+        "full_known_words": 5902,
+        "paired_known_words": 3496,
+        "paired_word_fraction": 0.59234157912572,
+        "full_known_units": 29781,
+        "paired_known_units": 17394
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 41875,
+            "denominator": 37464,
+            "value": 1.1177396967755713
+          },
+          "upper": {
+            "numerator": 9038,
+            "denominator": 8697,
+            "value": 1.0392089226169943
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 907448,
+            "denominator": 753517,
+            "value": 1.2042833804678594
+          },
+          "upper": {
+            "numerator": 9038,
+            "denominator": 8697,
+            "value": 1.0392089226169943
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "IT",
+      "split": "train",
+      "spacing": "comma_join",
+      "scope": "full",
+      "words": 6392,
+      "units": 30609,
+      "types": 20,
+      "coverage": {
+        "selected_loci": 980,
+        "eligible_loci": 980,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 6403,
+        "unreadable_words": 11,
+        "full_known_words": 6392,
+        "paired_known_words": 3496,
+        "paired_word_fraction": 0.5469336670838548,
+        "full_known_units": 30609,
+        "paired_known_units": 17382
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 2936875,
+            "denominator": 2571156,
+            "value": 1.1422391329036434
+          },
+          "upper": {
+            "numerator": 31781,
+            "denominator": 30609,
+            "value": 1.0382893920088863
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 127286512,
+            "denominator": 103427811,
+            "value": 1.2306797443484518
+          },
+          "upper": {
+            "numerator": 31781,
+            "denominator": 30609,
+            "value": 1.0382893920088863
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "IT",
+      "split": "train",
+      "spacing": "comma_join",
+      "scope": "paired",
+      "words": 3496,
+      "units": 17382,
+      "types": 20,
+      "coverage": {
+        "selected_loci": 980,
+        "eligible_loci": 980,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 6403,
+        "unreadable_words": 11,
+        "full_known_words": 6392,
+        "paired_known_words": 3496,
+        "paired_word_fraction": 0.5469336670838548,
+        "full_known_units": 30609,
+        "paired_known_units": 17382
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 116875,
+            "denominator": 104292,
+            "value": 1.12065163195643
+          },
+          "upper": {
+            "numerator": 6007,
+            "denominator": 5794,
+            "value": 1.0367621677597514
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 35458192,
+            "denominator": 29366889,
+            "value": 1.207420779232012
+          },
+          "upper": {
+            "numerator": 6007,
+            "denominator": 5794,
+            "value": 1.0367621677597514
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "GC",
+      "split": "development",
+      "spacing": "comma_join",
+      "scope": "full",
+      "words": 1196,
+      "units": 4653,
+      "types": 69,
+      "coverage": {
+        "selected_loci": 185,
+        "eligible_loci": 185,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 1196,
+        "unreadable_words": 0,
+        "full_known_words": 1196,
+        "paired_known_words": 742,
+        "paired_word_fraction": 0.6204013377926422,
+        "full_known_units": 4653,
+        "paired_known_units": 2890
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 288125,
+            "denominator": 195426,
+            "value": 1.4743432296623786
+          },
+          "upper": {
+            "numerator": 1811,
+            "denominator": 1551,
+            "value": 1.1676337846550613
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 24975136,
+            "denominator": 15722487,
+            "value": 1.5884977993621492
+          },
+          "upper": {
+            "numerator": 1768,
+            "denominator": 1551,
+            "value": 1.1399097356544166
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "GC",
+      "split": "development",
+      "spacing": "comma_join",
+      "scope": "paired",
+      "words": 742,
+      "units": 2890,
+      "types": 60,
+      "coverage": {
+        "selected_loci": 185,
+        "eligible_loci": 185,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 1196,
+        "unreadable_words": 0,
+        "full_known_words": 1196,
+        "paired_known_words": 742,
+        "paired_word_fraction": 0.6204013377926422,
+        "full_known_units": 4653,
+        "paired_known_units": 2890
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 72875,
+            "denominator": 48552,
+            "value": 1.5009680342725324
+          },
+          "upper": {
+            "numerator": 3369,
+            "denominator": 2890,
+            "value": 1.1657439446366782
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 7896152,
+            "denominator": 4882655,
+            "value": 1.6171840934901196
+          },
+          "upper": {
+            "numerator": 3283,
+            "denominator": 2890,
+            "value": 1.1359861591695501
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "ZL",
+      "split": "development",
+      "spacing": "comma_join",
+      "scope": "full",
+      "words": 1137,
+      "units": 5907,
+      "types": 29,
+      "coverage": {
+        "selected_loci": 185,
+        "eligible_loci": 185,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 1165,
+        "unreadable_words": 28,
+        "full_known_words": 1137,
+        "paired_known_words": 742,
+        "paired_word_fraction": 0.6525945470536499,
+        "full_known_units": 5907,
+        "paired_known_units": 3756
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 566875,
+            "denominator": 496188,
+            "value": 1.142460115923803
+          },
+          "upper": {
+            "numerator": 6128,
+            "denominator": 5907,
+            "value": 1.037413238530557
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 24568816,
+            "denominator": 19959753,
+            "value": 1.2309178375103138
+          },
+          "upper": {
+            "numerator": 6128,
+            "denominator": 5907,
+            "value": 1.037413238530557
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "ZL",
+      "split": "development",
+      "spacing": "comma_join",
+      "scope": "paired",
+      "words": 742,
+      "units": 3756,
+      "types": 26,
+      "coverage": {
+        "selected_loci": 185,
+        "eligible_loci": 185,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 1165,
+        "unreadable_words": 28,
+        "full_known_words": 1137,
+        "paired_known_words": 742,
+        "paired_word_fraction": 0.6525945470536499,
+        "full_known_units": 5907,
+        "paired_known_units": 3756
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 40625,
+            "denominator": 35056,
+            "value": 1.1588601095390232
+          },
+          "upper": {
+            "numerator": 974,
+            "denominator": 939,
+            "value": 1.0372736954206603
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 1320540,
+            "denominator": 1057627,
+            "value": 1.2485876400659213
+          },
+          "upper": {
+            "numerator": 974,
+            "denominator": 939,
+            "value": 1.0372736954206603
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "IT",
+      "split": "development",
+      "spacing": "comma_join",
+      "scope": "full",
+      "words": 1222,
+      "units": 6052,
+      "types": 19,
+      "coverage": {
+        "selected_loci": 185,
+        "eligible_loci": 185,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 1223,
+        "unreadable_words": 1,
+        "full_known_words": 1222,
+        "paired_known_words": 742,
+        "paired_word_fraction": 0.6072013093289689,
+        "full_known_units": 6052,
+        "paired_known_units": 3755
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 585625,
+            "denominator": 508368,
+            "value": 1.1519706197085575
+          },
+          "upper": {
+            "numerator": 3133,
+            "denominator": 3026,
+            "value": 1.0353602115003304
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 6345364,
+            "denominator": 5112427,
+            "value": 1.2411647149191567
+          },
+          "upper": {
+            "numerator": 3133,
+            "denominator": 3026,
+            "value": 1.0353602115003304
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "IT",
+      "split": "development",
+      "spacing": "comma_join",
+      "scope": "paired",
+      "words": 742,
+      "units": 3755,
+      "types": 19,
+      "coverage": {
+        "selected_loci": 185,
+        "eligible_loci": 185,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 1223,
+        "unreadable_words": 1,
+        "full_known_words": 1222,
+        "paired_known_words": 742,
+        "paired_word_fraction": 0.6072013093289689,
+        "full_known_units": 6052,
+        "paired_known_units": 3755
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 18500,
+            "denominator": 15771,
+            "value": 1.1730391224399215
+          },
+          "upper": {
+            "numerator": 3886,
+            "denominator": 3755,
+            "value": 1.0348868175765646
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 16036096,
+            "denominator": 12688145,
+            "value": 1.263864497134924
+          },
+          "upper": {
+            "numerator": 3886,
+            "denominator": 3755,
+            "value": 1.0348868175765646
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "GC",
+      "split": "reserve",
+      "spacing": "comma_join",
+      "scope": "full",
+      "words": 2308,
+      "units": 9273,
+      "types": 71,
+      "coverage": {
+        "selected_loci": 223,
+        "eligible_loci": 223,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 2339,
+        "unreadable_words": 31,
+        "full_known_words": 2308,
+        "paired_known_words": 736,
+        "paired_word_fraction": 0.3188908145580589,
+        "full_known_units": 9273,
+        "paired_known_units": 3103
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 176875,
+            "denominator": 111276,
+            "value": 1.589516158021496
+          },
+          "upper": {
+            "numerator": 11377,
+            "denominator": 9273,
+            "value": 1.226895287393508
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 53661328,
+            "denominator": 31333467,
+            "value": 1.7125882686394072
+          },
+          "upper": {
+            "numerator": 10819,
+            "denominator": 9273,
+            "value": 1.1667205866494124
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "GC",
+      "split": "reserve",
+      "spacing": "comma_join",
+      "scope": "paired",
+      "words": 736,
+      "units": 3103,
+      "types": 60,
+      "coverage": {
+        "selected_loci": 223,
+        "eligible_loci": 223,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 2339,
+        "unreadable_words": 31,
+        "full_known_words": 2308,
+        "paired_known_words": 736,
+        "paired_word_fraction": 0.3188908145580589,
+        "full_known_units": 9273,
+        "paired_known_units": 3103
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 428125,
+            "denominator": 260652,
+            "value": 1.6425156914199777
+          },
+          "upper": {
+            "numerator": 3773,
+            "denominator": 3103,
+            "value": 1.2159200773445054
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 18555280,
+            "denominator": 10485037,
+            "value": 1.769691418351695
+          },
+          "upper": {
+            "numerator": 3663,
+            "denominator": 3103,
+            "value": 1.1804705124073478
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "ZL",
+      "split": "reserve",
+      "spacing": "comma_join",
+      "scope": "full",
+      "words": 2107,
+      "units": 11246,
+      "types": 31,
+      "coverage": {
+        "selected_loci": 223,
+        "eligible_loci": 223,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 2154,
+        "unreadable_words": 47,
+        "full_known_words": 2107,
+        "paired_known_words": 736,
+        "paired_word_fraction": 0.34931181775035597,
+        "full_known_units": 11246,
+        "paired_known_units": 3799
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 1248125,
+            "denominator": 944664,
+            "value": 1.3212369689116976
+          },
+          "upper": {
+            "numerator": 12239,
+            "denominator": 11246,
+            "value": 1.0882980615329896
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 27047368,
+            "denominator": 19000117,
+            "value": 1.42353691822003
+          },
+          "upper": {
+            "numerator": 11629,
+            "denominator": 11246,
+            "value": 1.0340565534412236
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "ZL",
+      "split": "reserve",
+      "spacing": "comma_join",
+      "scope": "paired",
+      "words": 736,
+      "units": 3799,
+      "types": 25,
+      "coverage": {
+        "selected_loci": 223,
+        "eligible_loci": 223,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 2154,
+        "unreadable_words": 47,
+        "full_known_words": 2107,
+        "paired_known_words": 736,
+        "paired_word_fraction": 0.34931181775035597,
+        "full_known_units": 11246,
+        "paired_known_units": 3799
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 108125,
+            "denominator": 79779,
+            "value": 1.3553065343010064
+          },
+          "upper": {
+            "numerator": 4257,
+            "denominator": 3799,
+            "value": 1.1205580415898921
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 18744896,
+            "denominator": 12836821,
+            "value": 1.460244401631837
+          },
+          "upper": {
+            "numerator": 3927,
+            "denominator": 3799,
+            "value": 1.0336930771255595
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "IT",
+      "split": "reserve",
+      "spacing": "comma_join",
+      "scope": "full",
+      "words": 2275,
+      "units": 11351,
+      "types": 19,
+      "coverage": {
+        "selected_loci": 223,
+        "eligible_loci": 223,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 2303,
+        "unreadable_words": 28,
+        "full_known_words": 2275,
+        "paired_known_words": 736,
+        "paired_word_fraction": 0.32351648351648354,
+        "full_known_units": 11351,
+        "paired_known_units": 3801
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 1283125,
+            "denominator": 953484,
+            "value": 1.3457226340452488
+          },
+          "upper": {
+            "numerator": 12359,
+            "denominator": 11351,
+            "value": 1.088802748656506
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 55611664,
+            "denominator": 38355029,
+            "value": 1.4499184448537374
+          },
+          "upper": {
+            "numerator": 11737,
+            "denominator": 11351,
+            "value": 1.0340058144656858
+          },
+          "rejects": true
+        }
+      }
+    },
+    {
+      "source": "IT",
+      "split": "reserve",
+      "spacing": "comma_join",
+      "scope": "paired",
+      "words": 736,
+      "units": 3801,
+      "types": 19,
+      "coverage": {
+        "selected_loci": 223,
+        "eligible_loci": 223,
+        "missing_or_ineligible_loci": 0,
+        "source_word_slots": 2303,
+        "unreadable_words": 28,
+        "full_known_words": 2275,
+        "paired_known_words": 736,
+        "paired_word_fraction": 0.32351648351648354,
+        "full_known_units": 11351,
+        "paired_known_units": 3801
+      },
+      "verified_bounds": {
+        "blocks": {
+          "lower": {
+            "numerator": 221875,
+            "denominator": 159642,
+            "value": 1.38982849124917
+          },
+          "upper": {
+            "numerator": 608,
+            "denominator": 543,
+            "value": 1.1197053406998159
+          },
+          "rejects": true
+        },
+        "full": {
+          "lower": {
+            "numerator": 19232480,
+            "denominator": 12843579,
+            "value": 1.4974393041067446
+          },
+          "upper": {
+            "numerator": 3923,
+            "denominator": 3801,
+            "value": 1.0320968166272033
+          },
+          "rejects": true
+        }
+      }
+    }
+  ],
+  "hashes": {
+    "src/audit_transcription_frequency.py": "03a76f3f82ab06ef51b76b74bdc207959a8ff8cc882be2da1a475ecb9bcfed58",
+    "src/audit_transcription_units.py": "848e3c3c122a14281688d4d72f1b547eeec35acab50dba00b11f1cba085556a0",
+    "src/audit_language_constraints.py": "c2385e365cdf5acf4a3c0073ec5f468a15b35abb2e002ceba56ff93ebd2559c9",
+    "src/audit_variable_frequency.py": "497059f56a82b8bb9a2432e60a1640bd6dc157dc03f8ba9da4c03e996ff3d111",
+    "data/transcription-frequency/input-freeze.json": "38b6b9db6c4780ca670e45adfa281ac837f13207ff9aedb1484c8c48c20ea434",
+    "results/transcription-frequency/bounds.json": "b695000cba718417bfcee8e264db5f79bcf42d7ecde59b681c8f0ba4b8642a6b",
+    "data/transcription-units/selection.json": "258d8c5b6317b1ff48267a87107d5ec0c4f3788e4bab641aa79a4ecbe7881a6b",
+    "results/transcription-units/profiles.json": "5486685cef52f4627246190bc06702ac47d6270aadf8ccbe4cc863ecc19f6337",
+    "results/variable-frequency/native.json": "c8413a2d4d7ded87d12a6a68d5714e8b481519bf2b67577fe16ba11e1c3a0152"
+  }
+}

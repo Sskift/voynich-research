@@ -1,0 +1,24 @@
+{
+  "round": "013",
+  "experiment": "017",
+  "status": "COMPLETED_CONDITIONAL_CONSTRAINT_NO_DECIPHERMENT",
+  "new_network_sources": [],
+  "parent_provenance": {
+    "data/round-010-sources.json": "29845c2817cd39db4115a364e1e850db9308146b8dabbc415963662e4e189124",
+    "data/round-012-sources.json": "d6092428c2a9072ee668ca8442d55cb1e5cb8b5befffe224dc3197a6f0ad6347"
+  },
+  "artifact_hashes": {
+    "notes/experiment-017-design.md": "1f8b62b58736f1f0bb36332387765d47a4b745f80d68791da9108c27988ea25d",
+    "notes/report-013-zh.md": "3318d1a86c64eedd5d30c73a5cc1c67193e1b6035fc7f32537a6c2a852a42392",
+    "notes/experiment-016-report-correction.md": "31f2a88030860c62ba136f208b5381b18448b71af50b18199b506f25df1c0c39",
+    "notes/experiment-016-transfer-clarification.md": "c884f918fa29b01d31cef11ae19d4d013bc62e5dfeba3d6561b13e608207868a",
+    "src/transcription_frequency.py": "34d3993f7703e0b060469e105fa5c1c9bfe439ea8092c1f0421d9d6b4b4d27e8",
+    "src/audit_transcription_frequency.py": "03a76f3f82ab06ef51b76b74bdc207959a8ff8cc882be2da1a475ecb9bcfed58",
+    "data/transcription-frequency/input-freeze.json": "38b6b9db6c4780ca670e45adfa281ac837f13207ff9aedb1484c8c48c20ea434",
+    "results/transcription-frequency/bounds.json": "b695000cba718417bfcee8e264db5f79bcf42d7ecde59b681c8f0ba4b8642a6b",
+    "results/transcription-frequency/audit-run.log": "a0b8e0dc99290110a9981842f9513eae2f0ac8f6647d428c505eddb865e64062",
+    "results/audit-013-transcription-frequency.json": "1c41d6af44211b5932bdff654c092a32baa0fc809ec4555c50f9ec8525f2fbb3"
+  },
+  "source_scope": "Existing frozen GC/ZL/IT selection and experiment016 Latin envelopes and controls. Source licenses and attributions remain in the parent provenance.",
+  "limitation": "All72 empirical-envelope comparisons reject, not exclusion of all Latin. No new blind control or reserve consumed. Experiment018 is preparation only and outside this completed-round manifest."
+}

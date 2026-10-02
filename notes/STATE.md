@@ -1,21 +1,39 @@
 # Continuation state
 
 Objective: 试着破解伏尼契手稿. Goal remains ACTIVE; not achieved or blocked.
-Last completed work classified as PROGRESS: experiment016 necessary frequency
-bounds were derived, exhaustively checked, calibrated across known Latin works,
-applied to nativeGC and independently audited. Three full test controls and21
-5000-unit test blocks PASS. Source-only75block envelope a=.1344,b=151/5001.
-Native79H needs expansion>=1.44945156 but permits<=1.20521900;16H/16P also conflict.
-This is incompatibility with the stated source envelopes, NOT exclusion of all
-Latin or a decipherment. No meaning, phonetics or connected reading established.
-Next research: explicitly design a GC/EVA representation sensitivity for these
-bounds before choosing another decoder; no017design or scores yet. f49v remains
-UNSCORED. No live research jobs. Preserve all010–016frozen inputs/code/results.
-GitHub snapshot: creation and push explicitly authorized by the user; research goal
-remains active. Repository visibility defaults to private for this snapshot.
+Last completed work classified as PROGRESS: experiment017 applied the same016
+frequency bound to all72frozen GC/ZL/IT, spacing, scope and split combinations.
+All72conflict with the prespecified empirical Latin envelopes. PrimaryZL lower
+1.13930345 > upper1.04068307. Independentraw-source/prefixaudit PASS; report013.
+No language/phonetics/connected reading established; goal remains active.
+Current active research: experiment018 protocol written before new source-plus-
+SPACE counts. NativeGC symbols each emit one letter OR SPACE; visible gaps ignored,
+unknowns/physicalrows cut context. All candidate language gates/newhidden-space
+controls must be prepared/frozen before fits. GenericnewC++solver has synthetic
+selfcheckPASS; input preparation and Pythonrunner implemented but not run. The018
+inputfreeze has NOT yet been created. NO018source counts/calibration/actualfits yet.
+Two subagents assisted proof/audits/implementation.
+Preserve all010–017frozeninputs/code/results; f49v remains UNSCORED.
+GitHubprivate repository: https://github.com/Sskift/voynich-research, main.
+Initial snapshot through016 is d4b8db3. This checkpoint adds completed017 and
+unfinished018 preparation; use git log for its commit ID. The user explicitly
+authorized repository creation and pushing current progress.
 
 ## Current results
 
+- `notes/report-013-zh.md`: COMPLETED017, all72prespecified comparisons conflict
+  with empirical Latin envelopes. PrimaryZL lower571625/501732=1.13930345 exceeds
+  upper2072/1991=1.04068307. This is not exclusion of an entire language.
+- `results/audit-013-transcription-frequency.json`:PASS86hashchecks (73unique),
+  4164rawsource records,59415wordslots,36profiles,72bounds,6GCregressions to016.
+  `data/transcription-frequency/input-freeze.json` preserves the017input chain.
+- `notes/experiment-016-report-correction.md` and
+  `notes/experiment-016-transfer-clarification.md`: qualify the endpoint witness
+  and empirical control-transfer interpretation without changing016numerical results.
+- `notes/experiment-018-design.md`, `src/gap_inputs.py`, `src/gap_inference.py`,
+  `src/gap_search.cpp`, `bin/gap_search`: PREPARATION ONLY, no language gates or fits.
+  `results/gap-inference/solver-selfcheck.json`: pure synthetic numeric selfcheckPASS,
+  505blackbox scores and64production-budget cachechecks; no recovery claim.
 - `notes/report-001-zh.md`: line/paragraph-position baselines and ambiguous m expansion.
 - `notes/report-002-zh.md`: labels and externally proposed picture matches.
 - `notes/report-003-zh.md`: fixed boundary-rule search and label position controls.
@@ -426,17 +444,25 @@ The necessary fixed1/2-letter frequency route is now COMPLETED (experiment016).
 It rules out compatibility with its stated Latin source-frequency envelopes on
 nativeGC. It does not rule out all Latin or assign any plaintext. Readreport012.
 
-Next research, after the requested GitHub snapshot: define and freeze a comparison
-of these same bounds using already archivedEVA units.013showed representation can
-materially change frequency screens. Do not count or select a new decoder before
-recording its scope. No017design or score currently exists. No user approval is
-needed to continue the research; repository creation/push is explicitly authorized.
+The GC/EVA frequency comparison is now COMPLETED (017), independently audited.
+All72prespecified conditions reject. Do not repackage it as a pending task or
+select a source/spacing subset by desirable scores. Neither016nor017excludes all
+Latin. Keep016report condition and transfer clarifications linked fromreport013.
 
-Preserve all earlier frozenfiles and failedruns. f49v remains unscored; its26L0
-markers and26=P0passages require an explicit layout-aware scope before use. Goal
-completion still requires independently supported connected readings and successful
-predictions beyond fitted text. Audits, knowncipherrecovery and text structure above
-shuffles are progress, not a solution.
+Current next execution is018, notes/experiment-018-design.md. Review/freeze the
+implemented source-plus-SPACE gate, hiddenSPACEcontrols and glyph->letter/SPACEsolver.
+Before execution, add verification of prepared-manifest.json derived-file hashes
+to the runner, which currently verifies only the input-freeze hash map.
+The genuine new assumption is that observed word gaps need not be plaintextgaps.
+No null outputs, collapsing spaces, context-dependent values or word repairs.
+GC is fixed before gates; source-only Latin/German/Italian references exclude
+controlworks. Fit EVERY gate-admitted+decoder-calibrated language at samebudget,
+then complete9samebudgetshuffled fits per language and independent audits.
+At this checkpoint, code is implemented but not run; no018referencecounts or fits.
+
+Do not consume f49v to select a model. AlloldH/P/f1rpages remain development.
+Goalcompletion still requires independently supported connected readings and
+predictions beyond fitted text, not numeric scores, apparentwords or greenaudits.
 
 Leupold original source now verified: official IIIF
 https://www.e-rara.ch/i3f/v20/22444610/manifest and page images canvas11/12.

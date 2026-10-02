@@ -1,0 +1,599 @@
+{
+  "status": "PASS",
+  "scope": "Pure synthetic numeric and search/cache checks; no manuscript reads or language-recovery claim.",
+  "cli": "gap_search MODEL GRAMS COUNTS INITIAL SEED RESTARTS STEPS CYCLES POLISH OUTPUT A",
+  "model_format": "Little-endian float64, contiguous row-major P1/P2/P3/P4 arrays of sizes A/A^2/A^3/A^4.",
+  "synthetic_alphabet": 3,
+  "synthetic_space_label": 2,
+  "synthetic_segments": [
+    [
+      0,
+      1,
+      2,
+      3,
+      0
+    ],
+    [
+      3,
+      2,
+      1
+    ],
+    [
+      0
+    ]
+  ],
+  "synthetic_cipher_frequencies": [
+    3,
+    2,
+    2,
+    2
+  ],
+  "prediction_weight_by_order": {
+    "1": 3,
+    "2": 2,
+    "3": 2,
+    "4": 2
+  },
+  "N": 9,
+  "checked_black_box_scores": 505,
+  "max_external_score_error": 8.881784197001252e-16,
+  "order_perturbations": [
+    {
+      "order": 1,
+      "scores": 81,
+      "max_delta_error": 7.216449660063518e-16,
+      "nonzero_score_changes": 81
+    },
+    {
+      "order": 2,
+      "scores": 81,
+      "max_delta_error": 6.175615574477433e-16,
+      "nonzero_score_changes": 81
+    },
+    {
+      "order": 3,
+      "scores": 81,
+      "max_delta_error": 6.938893903907228e-16,
+      "nonzero_score_changes": 81
+    },
+    {
+      "order": 4,
+      "scores": 81,
+      "max_delta_error": 6.938893903907228e-16,
+      "nonzero_score_changes": 81
+    }
+  ],
+  "uniform_model_mle_keys": 81,
+  "all_space_score": -2.46753464940833,
+  "identical_nonspace_homophone_score": -2.46753464940833,
+  "space_can_be_added_and_removed": [
+    {
+      "initial": 0,
+      "expected": 1,
+      "returned": 1,
+      "score": -0.01005033585350145
+    },
+    {
+      "initial": 1,
+      "expected": 0,
+      "returned": 0,
+      "score": -0.01005033585350145
+    }
+  ],
+  "production_budget_synthetic_search": {
+    "restarts": 16,
+    "steps": 25000,
+    "cycles": 3,
+    "polish_limit": 100,
+    "temperature_start_per_N": 0.02,
+    "temperature_end_per_N": 5e-05,
+    "accepted_replace_swap_rename": [
+      7373,
+      246,
+      121
+    ],
+    "max_cache_error": 5.329070518200751e-15,
+    "independently_checked_output_scores": [
+      -1.3371223382456747,
+      -1.3371223382456747,
+      -1.3371223382456747,
+      -1.3371223382456747,
+      -1.3371223382456747,
+      -1.3371223382456747,
+      -1.3371223382456747,
+      -1.3371223382456747,
+      -1.3371223382456747,
+      -1.3371223382456747,
+      -1.3371223382456747,
+      -1.3371223382456747,
+      -1.3371223382456747,
+      -1.3371223382456747,
+      -1.3371223382456747,
+      -1.3371223382456747
+    ],
+    "diagnostics": [
+      {
+        "restart": 0,
+        "score": -1.3371223382456747,
+        "N": 9,
+        "prediction_weight": 9,
+        "cache_checks": 4,
+        "max_cache_error": 1.7763568394002505e-15,
+        "polish_passes": 1,
+        "proposals_replace_swap_rename": [
+          40023,
+          7100,
+          2589
+        ],
+        "accepted_replace_swap_rename": [
+          517,
+          14,
+          7
+        ],
+        "replacement_labels_considered": [
+          19964,
+          20044,
+          19786
+        ],
+        "rename_labels_considered": [
+          1707,
+          1729,
+          1742
+        ]
+      },
+      {
+        "restart": 1,
+        "score": -1.3371223382456747,
+        "N": 9,
+        "prediction_weight": 9,
+        "cache_checks": 4,
+        "max_cache_error": 5.329070518200751e-15,
+        "polish_passes": 1,
+        "proposals_replace_swap_rename": [
+          39772,
+          7141,
+          2548
+        ],
+        "accepted_replace_swap_rename": [
+          545,
+          17,
+          10
+        ],
+        "replacement_labels_considered": [
+          19880,
+          19787,
+          20229
+        ],
+        "rename_labels_considered": [
+          1707,
+          1667,
+          1722
+        ]
+      },
+      {
+        "restart": 2,
+        "score": -1.3371223382456747,
+        "N": 9,
+        "prediction_weight": 9,
+        "cache_checks": 4,
+        "max_cache_error": 1.7763568394002505e-15,
+        "polish_passes": 1,
+        "proposals_replace_swap_rename": [
+          40036,
+          7090,
+          2543
+        ],
+        "accepted_replace_swap_rename": [
+          435,
+          15,
+          11
+        ],
+        "replacement_labels_considered": [
+          19880,
+          19973,
+          20061
+        ],
+        "rename_labels_considered": [
+          1702,
+          1690,
+          1694
+        ]
+      },
+      {
+        "restart": 3,
+        "score": -1.3371223382456747,
+        "N": 9,
+        "prediction_weight": 9,
+        "cache_checks": 4,
+        "max_cache_error": 1.7763568394002505e-15,
+        "polish_passes": 1,
+        "proposals_replace_swap_rename": [
+          40242,
+          7044,
+          2462
+        ],
+        "accepted_replace_swap_rename": [
+          451,
+          18,
+          9
+        ],
+        "replacement_labels_considered": [
+          19969,
+          20034,
+          20096
+        ],
+        "rename_labels_considered": [
+          1627,
+          1653,
+          1644
+        ]
+      },
+      {
+        "restart": 4,
+        "score": -1.3371223382456747,
+        "N": 9,
+        "prediction_weight": 9,
+        "cache_checks": 4,
+        "max_cache_error": 1.7763568394002505e-15,
+        "polish_passes": 1,
+        "proposals_replace_swap_rename": [
+          40119,
+          7006,
+          2459
+        ],
+        "accepted_replace_swap_rename": [
+          422,
+          10,
+          5
+        ],
+        "replacement_labels_considered": [
+          20249,
+          19964,
+          19873
+        ],
+        "rename_labels_considered": [
+          1613,
+          1628,
+          1677
+        ]
+      },
+      {
+        "restart": 5,
+        "score": -1.3371223382456747,
+        "N": 9,
+        "prediction_weight": 9,
+        "cache_checks": 4,
+        "max_cache_error": 1.7763568394002505e-15,
+        "polish_passes": 1,
+        "proposals_replace_swap_rename": [
+          40167,
+          7035,
+          2521
+        ],
+        "accepted_replace_swap_rename": [
+          412,
+          15,
+          9
+        ],
+        "replacement_labels_considered": [
+          20030,
+          19922,
+          20064
+        ],
+        "rename_labels_considered": [
+          1641,
+          1735,
+          1666
+        ]
+      },
+      {
+        "restart": 6,
+        "score": -1.3371223382456747,
+        "N": 9,
+        "prediction_weight": 9,
+        "cache_checks": 4,
+        "max_cache_error": 3.552713678800501e-15,
+        "polish_passes": 1,
+        "proposals_replace_swap_rename": [
+          39883,
+          6986,
+          2604
+        ],
+        "accepted_replace_swap_rename": [
+          434,
+          17,
+          7
+        ],
+        "replacement_labels_considered": [
+          19974,
+          20119,
+          19880
+        ],
+        "rename_labels_considered": [
+          1753,
+          1697,
+          1758
+        ]
+      },
+      {
+        "restart": 7,
+        "score": -1.3371223382456747,
+        "N": 9,
+        "prediction_weight": 9,
+        "cache_checks": 4,
+        "max_cache_error": 1.7763568394002505e-15,
+        "polish_passes": 1,
+        "proposals_replace_swap_rename": [
+          39837,
+          6914,
+          2520
+        ],
+        "accepted_replace_swap_rename": [
+          494,
+          14,
+          9
+        ],
+        "replacement_labels_considered": [
+          20040,
+          19948,
+          19931
+        ],
+        "rename_labels_considered": [
+          1668,
+          1667,
+          1705
+        ]
+      },
+      {
+        "restart": 8,
+        "score": -1.3371223382456747,
+        "N": 9,
+        "prediction_weight": 9,
+        "cache_checks": 4,
+        "max_cache_error": 1.7763568394002505e-15,
+        "polish_passes": 1,
+        "proposals_replace_swap_rename": [
+          40227,
+          6921,
+          2457
+        ],
+        "accepted_replace_swap_rename": [
+          434,
+          11,
+          8
+        ],
+        "replacement_labels_considered": [
+          20011,
+          20324,
+          19945
+        ],
+        "rename_labels_considered": [
+          1648,
+          1688,
+          1578
+        ]
+      },
+      {
+        "restart": 9,
+        "score": -1.3371223382456747,
+        "N": 9,
+        "prediction_weight": 9,
+        "cache_checks": 4,
+        "max_cache_error": 1.7763568394002505e-15,
+        "polish_passes": 1,
+        "proposals_replace_swap_rename": [
+          40209,
+          6897,
+          2528
+        ],
+        "accepted_replace_swap_rename": [
+          478,
+          20,
+          8
+        ],
+        "replacement_labels_considered": [
+          19900,
+          20097,
+          20158
+        ],
+        "rename_labels_considered": [
+          1677,
+          1708,
+          1671
+        ]
+      },
+      {
+        "restart": 10,
+        "score": -1.3371223382456747,
+        "N": 9,
+        "prediction_weight": 9,
+        "cache_checks": 4,
+        "max_cache_error": 3.552713678800501e-15,
+        "polish_passes": 1,
+        "proposals_replace_swap_rename": [
+          40227,
+          6978,
+          2498
+        ],
+        "accepted_replace_swap_rename": [
+          434,
+          12,
+          8
+        ],
+        "replacement_labels_considered": [
+          19839,
+          20170,
+          20062
+        ],
+        "rename_labels_considered": [
+          1678,
+          1650,
+          1668
+        ]
+      },
+      {
+        "restart": 11,
+        "score": -1.3371223382456747,
+        "N": 9,
+        "prediction_weight": 9,
+        "cache_checks": 4,
+        "max_cache_error": 1.7763568394002505e-15,
+        "polish_passes": 1,
+        "proposals_replace_swap_rename": [
+          39880,
+          7078,
+          2523
+        ],
+        "accepted_replace_swap_rename": [
+          463,
+          16,
+          3
+        ],
+        "replacement_labels_considered": [
+          19847,
+          20110,
+          19854
+        ],
+        "rename_labels_considered": [
+          1675,
+          1695,
+          1676
+        ]
+      },
+      {
+        "restart": 12,
+        "score": -1.3371223382456747,
+        "N": 9,
+        "prediction_weight": 9,
+        "cache_checks": 4,
+        "max_cache_error": 1.7763568394002505e-15,
+        "polish_passes": 1,
+        "proposals_replace_swap_rename": [
+          40080,
+          7030,
+          2449
+        ],
+        "accepted_replace_swap_rename": [
+          446,
+          18,
+          2
+        ],
+        "replacement_labels_considered": [
+          19925,
+          20098,
+          20026
+        ],
+        "rename_labels_considered": [
+          1678,
+          1622,
+          1598
+        ]
+      },
+      {
+        "restart": 13,
+        "score": -1.3371223382456747,
+        "N": 9,
+        "prediction_weight": 9,
+        "cache_checks": 4,
+        "max_cache_error": 3.552713678800501e-15,
+        "polish_passes": 1,
+        "proposals_replace_swap_rename": [
+          40017,
+          7064,
+          2450
+        ],
+        "accepted_replace_swap_rename": [
+          494,
+          17,
+          9
+        ],
+        "replacement_labels_considered": [
+          19967,
+          20049,
+          19850
+        ],
+        "rename_labels_considered": [
+          1634,
+          1611,
+          1655
+        ]
+      },
+      {
+        "restart": 14,
+        "score": -1.3371223382456747,
+        "N": 9,
+        "prediction_weight": 9,
+        "cache_checks": 4,
+        "max_cache_error": 3.552713678800501e-15,
+        "polish_passes": 1,
+        "proposals_replace_swap_rename": [
+          40028,
+          7016,
+          2549
+        ],
+        "accepted_replace_swap_rename": [
+          466,
+          19,
+          10
+        ],
+        "replacement_labels_considered": [
+          19717,
+          20027,
+          20155
+        ],
+        "rename_labels_considered": [
+          1699,
+          1675,
+          1724
+        ]
+      },
+      {
+        "restart": 15,
+        "score": -1.3371223382456747,
+        "N": 9,
+        "prediction_weight": 9,
+        "cache_checks": 4,
+        "max_cache_error": 1.7763568394002505e-15,
+        "polish_passes": 1,
+        "proposals_replace_swap_rename": [
+          39961,
+          7020,
+          2461
+        ],
+        "accepted_replace_swap_rename": [
+          448,
+          13,
+          6
+        ],
+        "replacement_labels_considered": [
+          19948,
+          20046,
+          20026
+        ],
+        "rename_labels_considered": [
+          1671,
+          1608,
+          1643
+        ]
+      }
+    ]
+  },
+  "single_step_cache_checks": 2,
+  "rejected_invalid_inputs": {
+    "missing_initial_restart": "gap_search: initial keys must contain exactly one row per restart",
+    "forbidden_boundary_slot": "gap_search: extra initial key fields: boundary slots are not allowed",
+    "out_of_range_initial": "gap_search: initial row must contain G labels in [0,A)",
+    "truncated_model": "gap_search: model byte count does not match P1/P2/P3/P4 and A",
+    "nonfinite_model": "gap_search: model log probabilities must be finite",
+    "zero_frequency": "gap_search: counts must contain G positive integers",
+    "wrong_prediction_mass": "gap_search: gram prediction mass must equal N",
+    "wrong_terminal_counts": "gap_search: gram final-position weights must equal each cipher frequency",
+    "out_of_range_gram": "gap_search: gram cipher index out of range",
+    "polish_over_limit": "gap_search: polish must be 0..100"
+  },
+  "hashes": {
+    "src/gap_search.cpp": "b555aaf9db1afc4807452cdd60dd7cb44d0c0e16bfc5df43fd12e350e2b3369e",
+    "bin/gap_search": "3e05d8ed12ff3764aa60a00b037a5756c7e1f45ce690fc41de5b2cdf25b21f25",
+    "src/check_gap_solver.py": "a95dfb037fe7425fd9f6f4fa343c4211f5130b41d5a82f5f7bef858187ef6ee3"
+  }
+}

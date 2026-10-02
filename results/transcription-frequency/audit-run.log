@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "scope": "Independent raw-source selection, coverage, and prefix-bound audit; no decipherment.",
+  "frozen_manifest_count": 6,
+  "frozen_hash_checks": 86,
+  "unique_frozen_files": 73,
+  "frozen_manifests": [
+    "data/language-screen/source-freeze.json",
+    "data/transcription-frequency/input-freeze.json",
+    "data/transcription-units/selection-freeze.json",
+    "data/variable-frequency/control-freeze.json",
+    "data/variable-frequency/envelope-freeze.json",
+    "data/variable-frequency/input-freeze.json"
+  ],
+  "selected_loci": 1388,
+  "source_locus_checks": 4164,
+  "source_word_slots": 59415,
+  "paired_slots": {
+    "primary": 4822,
+    "comma_join": 4974
+  },
+  "paired_exclusions": {
+    "primary": 754,
+    "comma_join": 722
+  },
+  "verified_profile_records": 36,
+  "verified_coverage_records": 36,
+  "unique_coverage_conditions": 18,
+  "independently_recomputed_bounds": 72,
+  "gc016_bound_regressions": 6,
+  "rejected_bounds": {
+    "blocks": 36,
+    "full": 36
+  },
+  "primary_condition": {
+    "source": "ZL",
+    "split": "train",
+    "spacing": "primary",
+    "scope": "full",
+    "envelope": "blocks"
+  },
+  "primary_decision": "INCOMPATIBLE_WITH_EMPIRICAL_ENVELOPE",
+  "primary_lower": {
+    "numerator": 571625,
+    "denominator": 501732,
+    "value": 1.1393034528393644
+  },
+  "primary_upper": {
+    "numerator": 2072,
+    "denominator": 1991,
+    "value": 1.040683073832245
+  },
+  "reused_control_status": "PASS",
+  "unscored_pages_preserved": [
+    "f49v",
+    "f58r",
+    "f58v"
+  ],
+  "limitations": "One manuscript, three shape transcriptions. Paired slots are positional, not verified physical alignment. Only compatibility with the fixed empirical envelopes; controls are reused, not new blind validation. An upper-endpoint length witness exists only when lower <= upper.",
+  "hashes": {
+    "src/audit_transcription_frequency.py": "03a76f3f82ab06ef51b76b74bdc207959a8ff8cc882be2da1a475ecb9bcfed58",
+    "src/audit_transcription_units.py": "848e3c3c122a14281688d4d72f1b547eeec35acab50dba00b11f1cba085556a0",
+    "src/audit_language_constraints.py": "c2385e365cdf5acf4a3c0073ec5f468a15b35abb2e002ceba56ff93ebd2559c9",
+    "src/audit_variable_frequency.py": "497059f56a82b8bb9a2432e60a1640bd6dc157dc03f8ba9da4c03e996ff3d111",
+    "data/transcription-frequency/input-freeze.json": "38b6b9db6c4780ca670e45adfa281ac837f13207ff9aedb1484c8c48c20ea434",
+    "results/transcription-frequency/bounds.json": "b695000cba718417bfcee8e264db5f79bcf42d7ecde59b681c8f0ba4b8642a6b",
+    "data/transcription-units/selection.json": "258d8c5b6317b1ff48267a87107d5ec0c4f3788e4bab641aa79a4ecbe7881a6b",
+    "results/transcription-units/profiles.json": "5486685cef52f4627246190bc06702ac47d6270aadf8ccbe4cc863ecc19f6337",
+    "results/variable-frequency/native.json": "c8413a2d4d7ded87d12a6a68d5714e8b481519bf2b67577fe16ba11e1c3a0152"
+  }
+}
