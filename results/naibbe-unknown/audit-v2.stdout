@@ -1,0 +1,15 @@
+{"audited_inputs": "la"}
+{"audited_inputs": "it"}
+{"audited_recovery": "la-r0-preserved"}
+{"audited_recovery": "la-r0-deleted"}
+{"audited_recovery": "la-r1-preserved"}
+{"audited_recovery": "la-r1-deleted"}
+{"audited_recovery": "la-r2-preserved"}
+{"audited_recovery": "la-r2-deleted"}
+{"audited_recovery": "it-r0-preserved"}
+{"audited_recovery": "it-r0-deleted"}
+{"audited_recovery": "it-r1-preserved"}
+{"audited_recovery": "it-r1-deleted"}
+{"audited_recovery": "it-r2-preserved"}
+{"audited_recovery": "it-r2-deleted"}
+{"status": "PASS", "counts": {"hash_assertions": 303, "private_keys_replayed": 6, "structural_proposals": 6, "encoded_rows": 1920, "encoded_letters": 245760, "card_draws": 247138, "rejections": 689, "deleted_gaps": 4756, "true_paths_supported": 3840, "grammar_edges": 1511654, "initializers_replayed": 12, "fit_proposals": 8640000, "independent_max_path_rows": 4608}, "maximum_errors": {"dense_language_model": 3.552713678800501e-15, "lattice_constant": 0.0, "rank_proxy": 0.0, "selected_training_objective": 1.0302755981683731e-08, "archived_path_score": 1.1368683772161603e-12, "independent_viterbi": 2.2737367544323206e-13, "oracle_training_total": 0.0, "row_metric_path_score": 2.1600499167107046e-12, "True-key objective diagnosis": 0.0}}

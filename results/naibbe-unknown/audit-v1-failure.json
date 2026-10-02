@@ -1,0 +1,9 @@
+{
+  "status": "AUDITOR_COMPARISON_BUG",
+  "reason": "Row metric equality incorrectly required exact equality of independently accumulated floating-point score. Max-path and payload checks passed before this assertion; retain exact metric checks and compare score within the already specified 1e-7 tolerance. No production, prediction, score or protocol changes.",
+  "hashes": {
+    "results/naibbe-unknown/audit-v1-source.py.txt": "fbe12e18855dbe1481196049d7576b4081991c59e8e5d80b2690b80d40455d2b",
+    "results/naibbe-unknown/audit.stdout": "f9b850ba6eb7a289392049a8b2b5b4e22016c897a6f1e7f9633ef5d2425ee33f",
+    "results/naibbe-unknown/audit.stderr": "559678a89930ed004c2d8195f8aac155e2555c9bc8ca32415820c1410d40f498"
+  }
+}

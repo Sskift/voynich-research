@@ -1,0 +1,13 @@
+{"scored": "la-r0-preserved"}
+{"scored": "la-r0-deleted"}
+{"scored": "la-r1-preserved"}
+{"scored": "la-r1-deleted"}
+{"scored": "la-r2-preserved"}
+{"scored": "la-r2-deleted"}
+{"scored": "it-r0-preserved"}
+{"scored": "it-r0-deleted"}
+{"scored": "it-r1-preserved"}
+{"scored": "it-r1-deleted"}
+{"scored": "it-r2-preserved"}
+{"scored": "it-r2-deleted"}
+{"status": "UNKNOWN_KEY_CALIBRATION_COMPLETE_NOT_A_MANUSCRIPT_READING", "primary_gates": 24, "primary_gates_passed": 0, "all_primary_gates_pass": false, "native_scored": false, "original_word_boundaries_recovered": false}

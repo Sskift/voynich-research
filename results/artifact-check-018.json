@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "indexed_sha256_checks": 354,
+  "frozen_sha256_checks": 303,
+  "previous_round_017_unchanged_sha256_checks": 102,
+  "csv_rows": 48,
+  "local_report_links": 9,
+  "independent_audit": "PASS",
+  "failed_audit_preserved": true,
+  "source_index_sha256": "4473cecf99277901057930d045b405089232c07260306503ed8ec50428495462"
+}

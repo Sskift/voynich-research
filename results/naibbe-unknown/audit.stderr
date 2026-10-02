@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/skift/playground/voynich-research/src/audit_naibbe_unknown.py", line 505, in <module>
+    main()
+  File "/home/skift/playground/voynich-research/src/audit_naibbe_unknown.py", line 462, in main
+    require(expected_rows == archived_rows[name], 'Recovery row metrics')
+  File "/home/skift/playground/voynich-research/src/audit_naibbe_unknown.py", line 31, in require
+    raise AssertionError(message)
+AssertionError: Recovery row metrics

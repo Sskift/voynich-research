@@ -1,0 +1,515 @@
+"""Independent022 audit. No production imports or optimizer feedback.
+
+Source/LM reconstruction and base52 replay reuse the independent021 reference,
+not its production modules. This auditor only runs after prediction freeze.
+"""
+from collections import Counter, defaultdict
+import csv
+import hashlib
+import itertools
+import json
+import math
+from pathlib import Path
+import random
+import struct
+import sys
+import traceback
+
+import audit_naibbe_oracle as old
+
+ROOT = Path(__file__).resolve().parents[1]
+D, R = 'data/naibbe-unknown', 'results/naibbe-unknown'
+LETTERS = ''.join(c for c in 'abcdefghijklmnopqrstuvwxyz' if c not in 'jkw')
+ROLES = ('unigram', 'prefix', 'suffix')
+WEIGHTS = (20, 8, 8, 8, 4, 4)
+TABLES = ('alpha', 'beta1', 'beta2', 'beta3', 'gamma1', 'gamma2')
+COUNTS, ERRORS = Counter(), defaultdict(float)
+
+
+def require(ok, message):
+    if not ok:
+        raise AssertionError(message)
+
+
+def read(path):
+    return json.loads((ROOT / path).read_text())
+
+
+def sha(path):
+    return hashlib.sha256((ROOT / path).read_bytes()).hexdigest()
+
+
+def digest(obj):
+    return hashlib.sha256(json.dumps(obj, sort_keys=True, separators=(',', ':'),
+        ensure_ascii=False, allow_nan=False).encode()).hexdigest()
+
+
+def close(a, b, name, tolerance=1e-7):
+    error = abs(a - b)
+    ERRORS[name] = max(ERRORS[name], error)
+    require(math.isfinite(a) and math.isfinite(b) and error <= tolerance, name + ' mismatch')
+
+
+def cases():
+    return [(lang, rep, mode, f'{lang}-r{rep}-{mode}')
+            for lang in ('la', 'it') for rep in range(3) for mode in ('preserved', 'deleted')]
+
+
+def integrity():
+    # Presence of this complete freeze is required before any private parsing.
+    prediction = read(R + '/prediction-freeze.json')
+    require(prediction['status'] == 'ALL_PREDICTIONS_FROZEN_BEFORE_TRUTH_SCORING', 'Predictions not frozen')
+    paths = [D + '/input-freeze.json', D + '/prepared-freeze.json',
+             R + '/fit-freeze.json', R + '/prediction-freeze.json', R + '/score-freeze.json']
+    files, manifests = {}, {}
+    for path in paths:
+        manifest = read(path)
+        require(manifest['hashes'], 'Empty freeze')
+        for name, value in manifest['hashes'].items():
+            require(sha(name) == value, 'Changed frozen artifact ' + name)
+            require(name not in files or files[name] == value, 'Conflicting freezes')
+            files[name] = value
+            COUNTS['hash_assertions'] += 1
+        manifests[path] = manifest
+    require([len(manifests[p]['hashes']) for p in paths] == [28, 104, 48, 36, 87], 'Freeze closure sizes')
+    for child, field, parent in (
+        (paths[1], 'input_freeze_sha256', paths[0]),
+        (paths[2], 'prepared_freeze_sha256', paths[1]),
+        (paths[3], 'fit_freeze_sha256', paths[2]),
+        (paths[4], 'prediction_freeze_sha256', paths[3])):
+        require(manifests[child][field] == sha(parent), 'Freeze chain')
+    return files
+
+
+def public_inventory():
+    rows = list(csv.DictReader((ROOT / 'data/naibbe-review/author-f2675ec5/naibbe_tables.csv')
+                              .read_text(encoding='utf-8-sig').splitlines()))
+    counts = [Counter(row['glyphs'] for row in rows if row['code'].startswith(role + '_')) for role in ROLES]
+    atoms = [dict(role=r, glyph=g, multiplicity=n) for r, c in enumerate(counts) for g, n in sorted(c.items())]
+    singles = set(counts[0])
+    forbidden = [[p, s] for p, a in enumerate(atoms) if a['role'] == 1
+                  for s, b in enumerate(atoms) if b['role'] == 2 and a['glyph'] + b['glyph'] in singles]
+    duplicate = next(i for i, a in enumerate(atoms) if a['role'] == 0 and a['glyph'] == 'dar')
+    inv = dict(G=len(atoms), atoms=atoms, duplicate=duplicate, forbidden=forbidden)
+    require(inv == read(D + '/public/inventory.json'), 'Public inventory leak/mismatch')
+    flat = [len(atoms), duplicate]
+    for a in atoms:
+        flat += [a['role'], a['multiplicity']]
+    flat.append(len(forbidden))
+    for p, s in forbidden:
+        flat += [p, s]
+    require(flat == list(map(int, (ROOT / D / 'public/inventory.txt').read_text().split())), 'Inventory binary interface')
+    return inv
+
+
+def check_private_key(saved, inv):
+    rng = random.Random(saved['key_seed'])
+    before = digest(rng.getstate())
+    surfaces = [[a['glyph'] for a in inv['atoms'] if a['role'] == r] for r in range(3)]
+    rejected = []
+    for attempt in range(1, 10001):
+        table = {}
+        letter = LETTERS[rng.randrange(23)]
+        two = sorted(rng.sample(range(6), 2))
+        unique = [g for g in surfaces[0] if g != 'dar']
+        rng.shuffle(unique)
+        pending = iter(unique)
+        for ti, name in enumerate(TABLES):
+            for a in LETTERS:
+                table[f'unigram_{name}_{a}'] = 'dar' if a == letter and ti in two else next(pending)
+        for role, glyphs in zip(ROLES[1:], surfaces[1:]):
+            shuffled = list(glyphs)
+            rng.shuffle(shuffled)
+            table.update((f'{role}_{t}_{a}', g) for (t, a), g in zip(itertools.product(TABLES, LETTERS), shuffled))
+        support = {a + b: sum(table[f'prefix_{p}_{a}'] + table[f'suffix_{s}_{b}'] not in surfaces[0]
+                            for p in TABLES for s in TABLES) for a in LETTERS for b in LETTERS}
+        dead = [p for p, n in support.items() if n == 0]
+        if dead:
+            rejected.append(dict(proposal=attempt, reason='NO_ACCEPTING_TABLE_PAIR', dead_pairs=dead,
+                                 table_sha256=digest(table)))
+            continue
+        require(saved['table'] == table and saved['proposal_count'] == attempt, 'Private sampling replay')
+        require(saved['rejected_structural_keys'] == rejected, 'Structural rejection replay')
+        meta = saved['metadata']
+        require(meta['rng_state_before_sha256'] == before and meta['rng_state_after_sha256'] == digest(rng.getstate()), 'Key RNG states')
+        require(meta['accepted_table_sha256'] == digest(table) and meta['accepted_table_pair_counts'] == support, 'Private support metadata')
+        COUNTS['private_keys_replayed'] += 1
+        COUNTS['structural_proposals'] += attempt
+        return table
+    raise AssertionError('Reference private key generation exhausted')
+
+
+def grammar(inv):
+    words = defaultdict(list)
+    singles = {a['glyph'] for a in inv['atoms'] if a['role'] == 0}
+    for i, a in enumerate(inv['atoms']):
+        if a['role'] == 0:
+            words[a['glyph']].append((i, -1))
+    for p, a in enumerate(inv['atoms']):
+        if a['role'] != 1:
+            continue
+        for s, b in enumerate(inv['atoms']):
+            if b['role'] == 2 and a['glyph'] + b['glyph'] not in singles:
+                words[a['glyph'] + b['glyph']].append((p, s))
+    return words
+
+
+def lattice(tokens, mode, words):
+    # Enumerate all substrings, independently of the production trie.
+    edges, offset, total = [], 0, sum(map(len, tokens))
+    for token_id, token in enumerate(tokens):
+        spans = [(0, len(token))] if mode == 'preserved' else (
+            (start, end) for start in range(len(token)) for end in range(start + 1, len(token) + 1))
+        for start, end in spans:
+            for p, s in words.get(token[start:end], ()):
+                final = offset + end == total
+                value = (0. if final else math.log(17 / 36)) if s < 0 else math.log(19 / 36)
+                if mode == 'deleted' and not final:
+                    value += math.log(.97 if end == len(token) else .03)
+                edges.append((offset + start, offset + end, p, s, token_id, value))
+        offset += len(token)
+    edges.sort(key=lambda e: e[:5])
+    return (total + 1, len(tokens), edges)
+
+
+def verify_lattice_file(path, expected):
+    lines = iter((ROOT / path).read_text().splitlines())
+    require(int(next(lines)) == len(expected), 'Lattice row count')
+    for positions, tokens, edges in expected:
+        require(list(map(int, next(lines).split())) == [positions, tokens, len(edges)], 'Lattice header')
+        for e in edges:
+            values = next(lines).split()
+            require(tuple(map(int, values[:5])) == e[:5], 'Lattice edge inventory/order')
+            close(float(values[5]), e[5], 'lattice_constant', 1e-12)
+            COUNTS['grammar_edges'] += 1
+    require(next(lines, None) is None, 'Extra lattice bytes')
+
+
+def key_view(slots, inv):
+    require(len(slots) == 414, 'Slot length')
+    owners = [set() for _ in inv['atoms']]
+    mass, counts = [0] * 413, [0] * 413
+    for i, g in enumerate(slots):
+        require(type(g) is int and 0 <= g < 413 and inv['atoms'][g]['role'] == i // 138, 'Slot roles')
+        owners[g].add(i % 23)
+        mass[g] += WEIGHTS[(i // 23) % 6]
+        counts[g] += 1
+    require(all(len(s) == 1 for s in owners) and counts == [a['multiplicity'] for a in inv['atoms']], 'Key multiplicity/function')
+    labels = [next(iter(s)) for s in owners]
+    blocked = Counter()
+    for p, s in inv['forbidden']:
+        blocked[labels[p], labels[s]] += mass[p] * mass[s]
+    require(all(n < 2704 for n in blocked.values()), 'Key zero acceptance')
+    return labels, mass, blocked
+
+
+def check_initializer(name, inv, lattices, model):
+    counts, paths = Counter(), []
+    for size, _, edges in lattices:
+        outgoing = defaultdict(list)
+        for i, e in enumerate(edges):
+            outgoing[e[0]].append(i)
+        remaining = [math.inf] * size
+        remaining[-1] = 0
+        for pos in range(size - 2, -1, -1):
+            remaining[pos] = min((1 + remaining[edges[i][1]] for i in outgoing[pos]), default=math.inf)
+        require(math.isfinite(remaining[0]), 'Initializer grammar no path')
+        pos, path = 0, []
+        while pos != size - 1:
+            i = min(i for i in outgoing[pos] if remaining[pos] == 1 + remaining[edges[i][1]])
+            path.append(i)
+            _, pos, p, s, _, _ = edges[i]
+            counts[p] += 1
+            if s >= 0:
+                counts[s] += 1
+        paths.append(path)
+    actual = read(f'{D}/public/fit/{name}.initial.json')
+    diag = actual['diagnostics']
+    require(diag['atom_counts'] == [counts[g] for g in range(413)] and diag['initial_parse_edge_ids'] == paths,
+            'Initializer must use public grammar counts only')
+    total = math.fsum(model['p0'][c] for c in LETTERS)
+    prior = [model['p0'][c] / total for c in LETTERS]
+    rate = [math.log(prior[i % 23]) + math.log(WEIGHTS[(i // 23) % 6] / 52) for i in range(414)]
+
+    def fill(slots, gs, positions):
+        for g, pos in zip(sorted(gs, key=lambda g: (-counts[g], g)), sorted(positions, key=lambda p: (-rate[p], p))):
+            slots[pos] = g
+
+    base = [-1] * 414
+    for r in (1, 2):
+        fill(base, [i for i, a in enumerate(inv['atoms']) if a['role'] == r], range(r * 138, (r + 1) * 138))
+    candidates = []
+    for a in range(23):
+        for t1, t2 in itertools.combinations(range(6), 2):
+            slots = list(base)
+            pair = {t1 * 23 + a, t2 * 23 + a}
+            for p in pair:
+                slots[p] = inv['duplicate']
+            fill(slots, [g for g in range(137) if g != inv['duplicate']], [p for p in range(138) if p not in pair])
+            labels, mass = [0] * 413, [0] * 413
+            for p, g in enumerate(slots):
+                labels[g] = p % 23
+                mass[g] += WEIGHTS[(p // 23) % 6]
+            score = math.fsum(counts[g] * (math.log(prior[labels[g]]) + math.log(mass[g] / 52)) for g in range(413) if counts[g])
+            candidates.append((score, slots))
+    best_score, slots = min(candidates, key=lambda v: (-v[0], v[1]))
+    close(best_score, diag['rank_proxy_score'], 'rank_proxy', 1e-7)
+    # Exact slot replay uses the archived production P0 (already independently
+    # checked), since tiny Fraction-vs-binary64 differences can change ties.
+    require(digest(slots) == diag['rank_slots_sha256'], 'Rank initializer slots')
+    if diag['repair_attempts'] == 0:
+        key_view(slots, inv)
+        require(slots == actual['slots'], 'Unnecessary initializer change')
+    else:
+        rng = random.Random(2200022)
+        for attempt in range(1, 10001):
+            proposal = list(slots)
+            for _ in range(414):
+                role = rng.randrange(3)
+                pos = role * 138 + rng.randrange(138)
+                if role:
+                    other = role * 138 + rng.randrange(138)
+                    proposal[pos], proposal[other] = proposal[other], proposal[pos]
+                elif proposal[pos] != inv['duplicate']:
+                    other = rng.choice([p for p in range(138) if proposal[p] != inv['duplicate']])
+                    proposal[pos], proposal[other] = proposal[other], proposal[pos]
+                else:
+                    letter = rng.randrange(23)
+                    target = {t * 23 + letter for t in rng.sample(range(6), 2)}
+                    previous = {p for p in range(138) if proposal[p] == inv['duplicate']}
+                    displaced = [proposal[p] for p in sorted(target - previous)]
+                    for p, g in zip(sorted(previous - target), displaced):
+                        proposal[p] = g
+                    for p in target:
+                        proposal[p] = inv['duplicate']
+            try:
+                key_view(proposal, inv)
+            except AssertionError:
+                continue
+            require(attempt == diag['repair_attempts'] and proposal == actual['slots'], 'Initializer repair replay')
+            break
+        else:
+            raise AssertionError('Initializer repair exhausted')
+    require(list(map(int, (ROOT / D / f'public/fit/{name}.slots').read_text().split())) == actual['slots'], 'Initializer slot interface')
+    COUNTS['initializers_replayed'] += 1
+
+
+def log_edges(row, key):
+    labels, mass, blocked = key
+    answer = []
+    for start, end, p, s, token, constant in row[2]:
+        atoms = [p] if s < 0 else [p, s]
+        text = ''.join(LETTERS[labels[g]] for g in atoms)
+        value = constant + math.fsum(math.log(mass[g] / 52) for g in atoms)
+        if s >= 0:
+            value -= math.log((2704 - blocked[labels[p], labels[s]]) / 2704)
+        answer.append((start, end, text, atoms, value))
+    return answer
+
+
+def decode_reference(row, key, model):
+    edges = log_edges(row, key)
+    outgoing = defaultdict(list)
+    for edge in edges:
+        outgoing[edge[0]].append(edge)
+    chart = [dict() for _ in range(row[0])]
+    chart[0]['^^'] = 0.
+    for pos in range(row[0] - 1):
+        for history, initial in chart[pos].items():
+            for _, end, text, _, channel in outgoing[pos]:
+                value, h = initial + channel, history
+                for c in text:
+                    value += math.log(model['p2'][h][c])
+                    h = (h + c)[-2:]
+                chart[end][h] = max(value, chart[end].get(h, -math.inf))
+    require(chart[-1], 'Reference has no complete path')
+    return max(value + math.log(model['p2'][h]['$']) for h, value in chart[-1].items())
+
+
+def check_decoded(row, key, model, predicted):
+    edges = log_edges(row, key)
+    position, text, atoms, channels = 0, '', [], []
+    for i in predicted['edges']:
+        start, end, plain, gs, value = edges[i]
+        require(start == position, 'Decoded path disconnected')
+        position = end
+        text += plain
+        atoms += gs
+        channels.append(value)
+    require(position == row[0] - 1, 'Decoded path incomplete')
+    padded = '^^' + text + '$'
+    value = math.fsum(channels) + math.fsum(math.log(model['p2'][padded[i-2:i]][padded[i]]) for i in range(2, len(padded)))
+    close(value, predicted['score'], 'archived_path_score')
+    require(atoms == predicted['atoms'] and [LETTERS.index(c) for c in text] == predicted['letters'], 'Archived payload')
+    optimum = decode_reference(row, key, model)
+    close(optimum, predicted['score'], 'independent_viterbi')
+    COUNTS['independent_max_path_rows'] += 1
+    return text
+
+
+def main():
+    files = integrity()
+    inv, sources = public_inventory(), old.rebuild_sources()
+    words = grammar(inv)
+    models, traces, keys = {}, {}, {}
+    ids = {(a['role'], a['glyph']): i for i, a in enumerate(inv['atoms'])}
+    for lang in ('la', 'it'):
+        models[lang] = old.language_model(sources[lang, 'train']['text'])
+        old.compare(models[lang], read(f'{D}/public/{lang}/model.json'), 'independent LM')
+        dense = struct.unpack('<' + 'd' * (24 ** 3), (ROOT / D / f'public/{lang}/model.bin').read_bytes())
+        expected = [math.log(models[lang]['p2'].get(a + b, models[lang]['p0'])[c])
+                    for a in LETTERS + '^' for b in LETTERS + '^' for c in LETTERS + '$']
+        for a, b in zip(expected, dense):
+            close(a, b, 'dense_language_model', 1e-12)
+        source = sources[lang, 'test']['text']
+        for rep in range(3):
+            saved = read(f'{D}/private/keys/{lang}-r{rep}.json')
+            table = check_private_key(saved, inv)
+            slots = [ids[r, table[f'{role}_{t}_{a}']] for r, role in enumerate(ROLES) for t in TABLES for a in LETTERS]
+            keys[lang, rep] = (slots, key_view(slots, inv))
+            actual = read(f'{D}/private/generation/{lang}-r{rep}.json')['rows']
+            require(len(actual) == 320, 'Generated row count')
+            rng = random.Random(saved['encoder_seed'])
+            for i, row in enumerate(actual):
+                plain = source[i * 128:(i + 1) * 128]
+                expected = dict(id=f'{lang}-{i:03d}', plaintext=plain, **old.replay(plain, table, rng))
+                require(expected == row, 'Independent source and encoding replay')
+                COUNTS['encoded_rows'] += 1
+                COUNTS['encoded_letters'] += len(plain)
+                COUNTS['card_draws'] += len(row['draws'])
+                COUNTS['rejections'] += row['ambiguity_retries']
+                COUNTS['deleted_gaps'] += sum(row['deleted'])
+            traces[lang, rep] = actual
+        print(json.dumps(dict(audited_inputs=lang)), flush=True)
+    summary = read(R + '/summary.json')
+    archived_rows = {d['case']: d['rows'] for d in read(R + '/row-scores.json')}
+    diagnostics = {d['case']: d for d in read(R + '/key-diagnostics.json')}
+    rebuilt_summary = []
+    for lang, rep, mode, name in cases():
+        rows = traces[lang, rep]
+        observed = [[u['cipher'] for u in r['units']] if mode == 'preserved' else r['observed'] for r in rows]
+        lattices = [lattice(t, mode, words) for t in observed]
+        true_slots = keys[lang, rep][0]
+        fit_atom_counts = Counter()
+        for ri, (trace_row, row) in enumerate(zip(rows, lattices)):
+            present = {e[:4] for e in row[2]}
+            pos, text = 0, ''
+            for unit in trace_row['units']:
+                gs = []
+                for code in unit['codes']:
+                    role, table, letter = code.split('_')
+                    g = true_slots[ROLES.index(role) * 138 + TABLES.index(table) * 23 + LETTERS.index(letter)]
+                    gs.append(g)
+                    if ri < 256:
+                        fit_atom_counts[g] += 1
+                end = pos + len(unit['cipher'])
+                require((pos, end, gs[0], gs[1] if len(gs) == 2 else -1) in present, 'True path absent from grammar')
+                require(''.join(inv['atoms'][g]['glyph'] for g in gs) == unit['cipher'], 'True path cipher mismatch')
+                text += ''.join(LETTERS[keys[lang, rep][1][0][g]] for g in gs)
+                pos = end
+            require(pos == row[0] - 1 and text == trace_row['plaintext'], 'True path payload/end mismatch')
+            COUNTS['true_paths_supported'] += 1
+        for part, interval in (('fit', slice(0, 256)), ('test', slice(256, 320))):
+            actual = read(f'{D}/public/{part}/{name}.json')
+            require(actual['case'] == name and len(actual['rows']) == len(rows[interval]), 'Public observation case')
+            for source_row, tokens, obj in zip(rows[interval], observed[interval], actual['rows']):
+                i = int(source_row['id'].rsplit('-', 1)[1])
+                block = 'fit' if i < 256 else ('A' if i < 288 else 'B')
+                require(obj == dict(id=source_row['id'], block=block, observations=tokens), 'Public observations leak/mismatch')
+            verify_lattice_file(f'{D}/public/{part}/{name}.lattice', lattices[interval])
+        check_initializer(name, inv, lattices[:256], read(f'{D}/public/{lang}/model.json'))
+        truth = read(f'{D}/private/truth/{name}.json')
+        for part, interval in (('fit', slice(0, 256)), ('test', slice(256, 320))):
+            for source_row, obj in zip(rows[interval], truth[part]):
+                require(obj['id'] == source_row['id'] and obj['plaintext'] == source_row['plaintext'], 'Truth differs from independent source')
+        fit = read(f'{R}/fits/{name}.json')
+        require(fit['complete'] and fit['completed_restarts'] == fit['restarts_count'] == 12, 'Incomplete fit')
+        candidates = []
+        for restart in fit['restarts']:
+            require(restart['complete'] and len(restart['rounds']) == 3, 'Incomplete restart')
+            candidates.append((restart['initial_objective'], restart['initial_slots']))
+            for round_ in restart['rounds']:
+                require(round_['proposals'] == 20000 and round_['direct_checks'] == 20, 'Proposal/audit budget')
+                key_view(round_['slots'], inv)
+                candidates.append((round_['decoded_objective'], round_['slots']))
+                COUNTS['fit_proposals'] += round_['proposals']
+        best = min(candidates, key=lambda v: (-v[0], v[1]))
+        require(best == (fit['selected_objective'], fit['selected_slots']), 'Posthoc/nonobjective selection')
+        selected = list(map(int, (ROOT / R / f'keys/{name}.slots').read_text().split()))
+        require(selected == fit['selected_slots'], 'Selected key file')
+        candidate_key, true_key = key_view(selected, inv), keys[lang, rep][1]
+        # Check the selected TRAINING objective independently; no truth chooses it.
+        train_score = math.fsum(decode_reference(row, candidate_key, models[lang]) for row in lattices[:256])
+        close(train_score, fit['selected_objective'], 'selected_training_objective', 1e-6)
+        oracle_fit = read(f'{R}/oracle/{name}-fit.json')
+        oracle_train_score = 0.
+        for row, pred in zip(lattices[:256], oracle_fit['rows']):
+            check_decoded(row, true_key, models[lang], pred)
+            oracle_train_score += pred['score']
+        close(oracle_train_score, oracle_fit['score'], 'oracle_training_total', 1e-6)
+        predicted = read(f'{R}/predictions/{name}.json')
+        oracle_test = read(f'{R}/oracle/{name}-test.json')
+        require(predicted['slots'] == selected and oracle_test['slots'] == keys[lang, rep][0], 'Decode key mismatch')
+        expected_rows = []
+        for i, row in enumerate(lattices[256:]):
+            for method, answer, k in (('unknown_key', predicted['rows'][i], candidate_key),
+                    ('true_key_reference', oracle_test['rows'][i], true_key)):
+                text = check_decoded(row, k, models[lang], answer)
+                expected_rows.append(dict(id=rows[256 + i]['id'], block='A' if i < 32 else 'B', method=method,
+                    support=True, edit_distance=old.distance(text, rows[256 + i]['plaintext']), true_characters=128,
+                    predicted_characters=len(text), exact=text == rows[256 + i]['plaintext'],
+                    score=answer['score'], states=answer['states'], transitions=answer['transitions']))
+        require(len(expected_rows) == len(archived_rows[name]), 'Recovery row count')
+        for expected_row, archived_row in zip(expected_rows, archived_rows[name]):
+            require(expected_row.keys() == archived_row.keys(), 'Recovery row schema')
+            for field in expected_row:
+                if field == 'score':
+                    close(expected_row[field], archived_row[field], 'row_metric_path_score')
+                else:
+                    require(expected_row[field] == archived_row[field], 'Recovery row metric: ' + field)
+        for method in ('unknown_key', 'true_key_reference'):
+            for block in ('A', 'B'):
+                values = [v for v in expected_rows if v['method'] == method and v['block'] == block]
+                edits, exact = sum(v['edit_distance'] for v in values), sum(v['exact'] for v in values)
+                archived = next(s for s in summary['summary'] if (s['name'], s['method'], s['block']) == (name, method, block))
+                require(archived['rows'] == 32 and archived['support_rows'] == 32 and archived['true_characters'] == 4096, 'Metric denominator')
+                require(archived['edit_distance'] == edits and archived['exact_rows'] == exact, 'Metric counts')
+                require(archived['character_accuracy'] == 1 - edits / 4096 and archived['exact_row_accuracy'] == exact / 32, 'Metric accuracy')
+                require(archived['gate_pass'] == (edits <= 40 and exact >= 26), 'Primary gate')
+                rebuilt_summary.append(archived)
+        diag = diagnostics[name]
+        require(diag['correct_atom_letters'] == sum(a == b for a, b in zip(true_key[0], candidate_key[0])), 'Letter diagnostics')
+        require(diag['correct_atom_letter_and_mass'] == sum(a == c and b == d for a, b, c, d in zip(*true_key[:2], *candidate_key[:2])), 'Mass diagnostics')
+        mapping = [dict(atom=g, role=a['role'], training_occurrences=fit_atom_counts[g],
+            true_letter=LETTERS[true_key[0][g]], fitted_letter=LETTERS[candidate_key[0][g]],
+            true_mass=true_key[1][g], fitted_mass=candidate_key[1][g]) for g, a in enumerate(inv['atoms'])]
+        require(mapping == diag['mapping'], 'Full atom diagnostic mapping/counts')
+        require(diag['unseen_training_atoms'] == sum(fit_atom_counts[g] == 0 for g in range(413)), 'Unseen atom count')
+        close(diag['true_key_fit_objective'], oracle_train_score, 'True-key objective diagnosis', 1e-6)
+        require(diag['true_key_has_higher_training_objective'] == (oracle_fit['score'] > fit['selected_objective'] + 1e-7), 'Objective comparison')
+        print(json.dumps(dict(audited_recovery=name)), flush=True)
+    require(len(rebuilt_summary) == 48, 'Summary cardinality')
+    primary = [s for s in rebuilt_summary if s['primary']]
+    require(len(primary) == summary['primary_gates'] == 24, 'Primary cardinality')
+    require(sum(s['gate_pass'] for s in primary) == summary['primary_gates_passed'], 'Primary pass count')
+    require(all(s['gate_pass'] for s in primary) == summary['all_primary_gates_pass'], 'Primary conclusion')
+    report = dict(status='PASS', scope='INDEPENDENT_INPUTS_ENCODER_LATTICES_MAX_PATHS_AND_METRICS',
+        hashes=files, counts=dict(COUNTS), maximum_errors=dict(ERRORS),
+        reused_independent_reference=dict(path='src/audit_naibbe_oracle.py', sha256=sha('src/audit_naibbe_oracle.py'),
+            scope='source extraction, normalization, Fraction LM, faithful encoder replay, edit distance'),
+        audit_code_sha256=sha('src/audit_naibbe_unknown.py'),
+        production_imports=False, full_optimizer_trajectory_replayed=False,
+        native_reading_verified=False)
+    output = ROOT / 'results/audit-018-naibbe-unknown.json'
+    with output.open('x') as f:
+        json.dump(report, f, indent=2, ensure_ascii=False, allow_nan=False)
+        f.write('\n')
+    print(json.dumps(dict(status='PASS', counts=dict(COUNTS), maximum_errors=dict(ERRORS))), flush=True)
+
+
+if __name__ == '__main__':
+    try:
+        main()
+    except Exception as error:
+        traceback.print_exc()
+        sys.exit(1)

@@ -1,39 +1,47 @@
 # Continuation state
 
 Objective: 试着破解伏尼契手稿. Goal remains ACTIVE; not achieved or blocked.
-Latest completed work is PROGRESS:021 oracle calibration and independent audits
-completed; all24prespecified primary gates PASS. This does not complete the goal.
-Previous goal turn classified as PROGRESS: primary Naibbe codebook review and
-independent boundary-ambiguity witness were archived and pushed as8b77964.
+Latest completed work is PROGRESS:022 full unknown-group/key calibration,
+independent audit and failure diagnosis completed. All24primary gates FAIL;
+all24true-key reference gates PASS. This does not complete the goal.
 No verified connected reading, phonetic value, word meaning or language identified.
 
-Current022 (2026-10-02): complete six-table unknown-group/key implementation and
-protocol now frozen in data/naibbe-unknown/input-freeze.json (28 inputs).
-freeze21648 terminal exit0; pre-generation freeze pushed as e21e231.
-prepare4675 terminal exit0:104files,6privatekeys,1920encoded128letterrows,12cases.
-Search jobs started in three sequential groups, currently live sessions30801,
-54987,44399 (always poll handles; do not restart from observation timeouts).
-30801:la-r0-preserved,la-r1-preserved,la-r2-preserved,it-r0-preserved.
-54987:la-r0-deleted,la-r1-deleted,la-r2-deleted,it-r0-deleted.
-44399:it-r1-preserved,it-r1-deleted,it-r2-preserved,it-r2-deleted.
-No truth scoring/oracle has run. Sources/normalization/LM same as021; each
-Cicero/Boccaccio source first256x128 cipher-fit, next64x128 heldout A/B32 each;
-3 private keys/language, paired preserved/.03drop =12 separate fit conditions.
-Declared structural oracles; no true homophone groups or mapping. Genuine private
-key/encoder seeds drawn only after freeze. 12restarts x3rounds x20000proposals/case;
-all selected keys frozen before heldout predictions, all predictions frozen before
-truth/oracle scoring.24primary gates: coverage100%, char>=99%, exactrow>=80%.
-Score is with-replacement MAX ATOM PATH, differs from021 semantic-edge aggregation;
-true-key reference only after unknown predictions. No native scoring authorized.
-Pure synthetic checks PASS:19848incremental candidates/max6.59e-12, indirectZ,
-330dar letter/tablepair configurations, decoder exhaustive/ASan/UBSan checks;
-Python/C++ interface37checks/max2.50e-12,9corrupt inputs and overwrite rejected.
-Production modules src/naibbe_{private_keys,unknown_inputs,unknown,unknown_check}.py,
-src/naibbe_unknown.hpp,src/naibbe_unknown_{decode,search}.cpp,bin/naibbe_unknown
-and notes/experiment-022-design.md are now frozen; do not modify. Preserve021 too.
-Earlier b9e0e89 saved the initial draft only; notes/experiment-022-draft-progress.md
-records that historical state. Next: finish12fits, freeze-fit, predict, then score;
-independent audit/report still required. Do not treat training scores as recovery.
+Current022 completed (2026-10-02): input28hash freeze pushed e21e231 BEFORE any
+new private key/ciphertext generation. prepare4675 terminal exit0,104files;
+prepared checkpoint pushed433df55. Fit group sessions30801/54987/44399 all terminal
+exit0. Combined freeze-fit/predict/score25971 terminal exit0. Independent audit9882
+terminal exit0 PASS. No live experiment or audit processes remain.
+12cases=2languages x3privatekeys x preserved/.03drop; each256x128cipher-fit and
+64x128heldout A/B32each. Sources Caesar->Cicero andDante->Boccaccio same extraction
+as021. Complete6tables,unknownsame-lettergroups/letters/tablemembership, declared
+inventory/role/multiplicity/grammar/weight/language oracles. No native scoring.
+12restarts x3rounds x20000proposals/case=8640000total. Allkeys selected/frozen before
+heldout predictions; allpredictions frozen before truth/reference scoring.
+Unknown-key character accuracy53.466796875–65.6982421875%, complete128letter rows0%;
+24/24primary gates FAIL. True-key reference99.951171875–100%char,96.875–100%rows;
+24/24referencegatesPASS. Alltruepathsupport100%. No average/bestcase replacement.
+In every case truekey fulltrainingobjective is25238.29699–28610.53776logunits higher
+than selected key: demonstrated search shortfall, NOT proof globaloptimum istruth.
+Correct atomletters172–209/413; letter+mass93–120;35truefit-unseen atoms/case.
+MAX_ATOM_PATH_APPROX_WITH_REPLACEMENT differs from021 summedsemantic emissions.
+Allactualincremental/directscore checks pass,max2.95986e-8. Fitelapsed23.66–30.41s
+percase in3concurrentgroups,total321.52s; not an independent workload benchmark.
+Independent src/audit_naibbe_unknown.py report results/audit-018-naibbe-unknown.json:
+303hashassertions,6keyreplays,1920rows245760letters,247138draws689retries4756drops;
+3840truepaths,1511654grammar edges,12initializers;4608archivedmaxpathrows plus3072
+selectedtrainingmaxpaths.48summaryrows/24gates identical. MaxViterbierror2.27374e-13;
+selectedtrainaggregatederror1.03028e-8. Reuses independent021 source/LM/encoder
+reference, imports no production; not a full random optimizer-trajectory replay.
+Audit69776 exited1 due EXACT equality of two floating-score sums in rowmetrics.
+Originalauditor andfailurelogs preserved audit-v1-source.py.txt/audit-v1-failure.json.
+Onlyauditor score comparison repaired to alreadydeclared1e-7; allotherfields exact;
+actual difference2.16005e-12. Production/protocol/predictions/scores unchanged.
+notes/report-018-zh.md completed report; results/naibbe-unknown-summary.csv48rows.
+Do not modify022frozen28inputs/104prepared/48fit/36prediction/87score artifacts.
+Current next action: separately freeze and calibrate improved full-six-table key
+optimization; possible grouped reassignment/stronger descent diagnostics remain
+unexecuted. Do not apply failed022solver to native or manually assign readings.
+Goal remains ACTIVE, not achieved or blocked. Earlier021 and all freezes preserved.
 
 Current021: protocol/code21input hashes frozen and pushed as a446dde BEFORE
 preparation. prepare75000,predict36620,score80845 all terminal exit0.44prepared
