@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "SYNTHETIC_ONLY_NO_CORPUS_OR_FROZEN_MODEL_READS",
+  "numeric_comparisons": 555,
+  "maximum_absolute_error": 1.5543122344752192e-15,
+  "checks": [
+    "nonempty proper prior",
+    "closed-form infinite masses",
+    "nonnegative OOV exclusion and cancellation resistance",
+    "independent full-product linear solve",
+    "exact OOV top2 and ties",
+    "all-vowel singleton and invalid observations",
+    "fixed search-budget failures",
+    "log probability underflow handling",
+    "reusable LU vs numpy"
+  ],
+  "command": [
+    "/home/skift/playground/voynich-research/.venv/bin/python",
+    "-B",
+    "src/check_omission_channel.py"
+  ],
+  "exit_code": 0
+}

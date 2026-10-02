@@ -10,11 +10,11 @@
 与[当前研究状态](notes/STATE.md)。此前“79H”候选训练组实际使用78页，
 见[范围澄清](notes/experiment-019-scope-clarification.md)，原有数值结果未改。
 
-正在准备[实验 020](notes/experiment-020-design.md)：先给出正确密钥，检验
+正在推进[实验 020](notes/experiment-020-design.md)：先给出正确密钥，检验
 删去字母 a/e/i/o/u 后能否恢复已知作品的连续文字。方案、输入准备器与
-解码代码已保存，两套合成测试通过；尚未冻结输入、统计真实语料或运行
-恢复实验，也未用于手稿。[检查记录](results/experiment-020-draft-checks.json)
-只说明这些合成例的计算一致。
+解码代码已冻结，两套合成测试通过，包含真实字符概率模块接入整句解码
+的检查；尚未运行真实恢复实验，也未用于手稿。
+[冻结前检查](results/check-020-oracle-prefreeze.json)只说明合成例的计算一致。
 
 实验018允许字形编码真实空格，已完成已知密文校准、德文／意大利文实际
 拟合及同预算打乱，仍无可验证译文。见[第十四轮报告](notes/report-014-zh.md)。

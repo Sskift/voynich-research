@@ -20,6 +20,7 @@ MECHANISMS = ('ordered', 'iid', 'copy')
 RULES = ('identity', 'omit-aeiou')
 SPLITS = ('development', 'reserve')
 VOWELS = frozenset('aeiou')
+RUN_CONTEXT = {}
 
 
 class IncompleteCompletion(RuntimeError):
@@ -258,6 +259,7 @@ def segment_inference(model, observations, rule):
         shown = sum(x['posterior'] for x in postwords if not x['lexicon'])
         assert shown <= oov+1e-8
         details.append(dict(observation=observations[i], prediction=chosen[i],
+                            completion_certificate_key=rule+'|'+observations[i],
                             posterior=selected['posterior'], prediction_in_lexicon=selected['lexicon'],
                             lexical_candidates=len(lat['analysis']['lexicon_candidates']),
                             oov_group_posterior=oov, unlisted_oov_posterior=max(0., oov-shown),
@@ -424,6 +426,7 @@ def load_model(language):
 
 
 def run():
+    RUN_CONTEXT.update(phase='verify-inputs')
     inputs = verify('data/omission-oracle/input-freeze.json')
     prepared = verify('data/omission-oracle/prepared-manifest.json')
     validate_manifest_inventory(inputs, prepared, read('data/omission-oracle/config.json'))
@@ -432,10 +435,13 @@ def run():
     assert not OUT.exists(), 'Archive any previous attempt before a new run'
     scores = {}
     for language in LANGS:
+        RUN_CONTEXT.clear()
+        RUN_CONTEXT.update(phase='load-model', language=language)
         model = load_model(language)
         for mechanism in MECHANISMS:
             for rule in RULES:
                 name = f'{language}/{mechanism}-{rule}'
+                RUN_CONTEXT.update(phase='decode-observations', case=name, rule=rule)
                 test_path = f'data/omission-oracle/tests/{name}.json'
                 data = read(test_path)
                 prediction = decode(model,data)
@@ -446,6 +452,7 @@ def run():
                 write(predpath,prediction)
                 prediction_hash = sha(predpath)
                 # The completed prediction file precedes all access to this truth.
+                RUN_CONTEXT.update(phase='evaluate-saved-prediction')
                 truthpath = f'data/omission-oracle/truth/{name}.json'
                 result = score(model,prediction,read(truthpath),data)
                 result.update(case=name, prediction_sha256=prediction_hash, truth_sha256=sha(truthpath),
@@ -456,6 +463,8 @@ def run():
         analyses = {rule+'|'+s:lat['analysis'] for (rule,s),lat in sorted(model.cache.items())}
         write(f'results/omission-oracle/{language}-completion-certificates.json',analyses)
     ordered = {l:{s:scores[f'{l}/ordered-omit-aeiou']['tests'][s]['ordered_recovery_thresholds_pass'] for s in SPLITS} for l in LANGS}
+    RUN_CONTEXT.clear()
+    RUN_CONTEXT.update(phase='summarize-and-freeze-results')
     identity = all(scores[f'{l}/{m}-identity']['tests'][s]['identity_exact'] for l in LANGS for m in MECHANISMS for s in SPLITS)
     summary = dict(status='COMPLETE_ORACLE_CALIBRATION_NO_NATIVE_SCORES',
                    ordered_by_language_split=ordered, identity_all_exact=identity,
@@ -475,10 +484,29 @@ if __name__=='__main__':
     parser.add_argument('stage',choices=['run'])
     args=parser.parse_args()
     try:
-        globals()[args.stage]()
+        with np.errstate(over='raise', invalid='raise', divide='raise', under='ignore'):
+            globals()[args.stage]()
     except IncompleteCompletion as error:
         write('results/omission-oracle/computation-failure.json',
               dict(status='COMPUTATION_INCOMPLETE_NO_GATE_OR_NATIVE',
                    observation=error.observation, analysis=error.analysis,
+                   run_context=dict(RUN_CONTEXT),
+                   input_freeze_sha256=sha('data/omission-oracle/input-freeze.json')))
+        raise
+    except ArithmeticError as error:
+        write('results/omission-oracle/computation-failure.json',
+              dict(status='COMPUTATION_INCOMPLETE_NO_GATE_OR_NATIVE',
+                   observation=None, exception_type=type(error).__name__,
+                   reason=str(error), numerical_complete=False,
+                   run_context=dict(RUN_CONTEXT),
+                   limitation='No mass or MAP claim follows from this failed computation; traceback retained in the run log.',
+                   input_freeze_sha256=sha('data/omission-oracle/input-freeze.json')))
+        raise
+    except (AssertionError, ValueError) as error:
+        write('results/omission-oracle/computation-failure.json',
+              dict(status='VALIDATION_FAILED_NO_GATE_OR_NATIVE',
+                   exception_type=type(error).__name__, reason=str(error),
+                   run_context=dict(RUN_CONTEXT), complete=False,
+                   limitation='An integrity or consistency assertion failed; no successful calibration claim. Traceback retained in the run log.',
                    input_freeze_sha256=sha('data/omission-oracle/input-freeze.json')))
         raise

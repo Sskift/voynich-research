@@ -1,7 +1,9 @@
 # Experiment020: continuous recovery after omission, with the true key supplied
 
-Status: DRAFT BEFORE FREEZE. No020 source counts or recovery scores have been
-inspected. The019 follow-up is a proposal; this protocol specifies the experiment.
+Status: FINALIZED FOR INPUT FREEZE BEFORE PREPARATION. No020 source counts or
+recovery scores have been inspected at finalization. The input-freeze manifest
+records this protocol's hash and the freeze time. The019 follow-up is a proposal;
+this protocol specifies the experiment.
 The overall goal remains a verified decipherment, not passing this calibration.
 
 ## Question and separation of claims

@@ -5,26 +5,30 @@ Last completed work classified as PROGRESS: experiment019 COMPLETED, with36encod
 controls,9plain invariance cases,native two-split scoring and independent audits.
 No verified connected reading, phonetic value, word meaning or language identified.
 
-Current implementation checkpoint: experiment020 is DRAFT BEFORE FREEZE, with
-notes/experiment-020-design.md and five Python production/check modules saved.
-No data/omission-oracle or results/omission-oracle directory exists; no020 real
-source counts, preparation, recovery scores or manuscript application has run.
+Current checkpoint: experiment020 inputs FROZEN BEFORE PREPARATION, with209
+hashes in data/omission-oracle/input-freeze.json (45mandatory inputs and complete
+parent dependency closure, including two prefreeze synthetic check reports).
+No020 real source counts, preparation, recovery scores or manuscript application
+has run at this freeze checkpoint. No results/omission-oracle directory exists.
 The draft gives the true key and matching source-language prior, then asks for
 continuous recovery after literal a/e/i/o/u deletion (all-vowel words unchanged).
 Character completion includes infinite insertion mass, nonnegative OOV exclusion,
 and bounded top-two concrete-word search. HMM inference sums aggregate OOV mass
 but uses concrete OOV weights for MAP, preserving None/reset/physical-row layout.
 Both pure synthetic checks pass: character555 numerical comparisons (max error
-1.5543122344752192e-15); sequence269 comparisons/577 enumerated concrete paths
-(max1.7763568394002505e-15). Source/real-model data were not read by those checks.
+1.5543122344752192e-15); sequence363 comparisons/577 enumerated concrete paths
+and18 analytic aggregate paths (max2.1094237467877974e-15). The actual character
+component was integrated on synthetic probability tables. Source/real-model data
+were not read by those checks. Arithmetic/consistency failures now retain explicit
+failure artifacts and phase/case context; prediction words reference their full
+completion certificates, including OOV near-tie/strict-separation diagnostics.
 Independent implementation review prompted pre-truth prediction hashing, separate
 all-word/nontrivial confidence bins, mandatory prepared/input inventory checks,
 and toys for winning OOV words, exact-score lexical ties and full rows with resets.
 These checks establish arithmetic agreement on toys, not recovery or decipherment.
-Next: complete pre-freeze review, freeze protocol/all five modules/dependency
-closure, prepare once, freeze the58 prepared outputs, then run the18 oracle cases
-and independently audit inputs/inference/metrics. Do not freeze or score implicitly
-from this checkpoint, or report020 as a completed calibration. Preserve failures.
+Next: prepare once from the frozen inputs, freeze the58 prepared outputs, then
+run the18 oracle cases and independently audit inputs/inference/metrics. Do not
+edit the frozen protocol or five modules. Preserve partial outputs and failures.
 
 151input hashes were frozen before preparation/statistics;48prepared output hashes;
 51calibration-freeze hashes before native;6native-freeze hashes before stats audit.
@@ -60,7 +64,7 @@ P16pages/223rows/2449known+31unknown. Four generations of training locus/raw
 lists are identical. No new f49v text was inspected or scored. f49v/f58r/v unscored.
 See notes/experiment-019-scope-clarification.md; never rewrite old frozen reports.
 
-The concrete020 protocol now exists as a draft; review/freeze before new counts.
+The concrete020 protocol is now frozen before new counts.
 notes/experiment-019-followup-review.md is a proposal ONLY, not frozen/run: remove
 normalized a/e/i/o/u within words, keep all-those-symbol words unchanged, retain
 boundaries, then fixed homophonic encoding. First reveal the true key and test

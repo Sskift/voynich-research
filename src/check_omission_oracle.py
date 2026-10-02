@@ -258,6 +258,122 @@ def check_evaluation(model):
     COUNTS['evaluation_cases']+=2
 
 
+def check_real_character_integration():
+    """Connect both production models using only an analytic synthetic prior."""
+    from omission_channel import CompletionModel
+
+    alphabet='ab '
+    probabilities=np.array([.25,.5,.25])
+    tables=[np.tile(np.log(probabilities),len(alphabet)**(n-1)).reshape((len(alphabet),)*n)
+            for n in range(1,5)]
+    words={'a':4,'ab':3,'bb':1}
+    info=dict(words=words,lexical_N=8,context={'a':2},pairs={'a':{'ab':2}},
+              mixture_lexical=.9,mixture_character=.1,bigram_tau=100)
+    character=CompletionModel(alphabet,tables,set(words))
+    model=production.SourceModel(info,character)
+
+    # Independent closed forms: conditioned nonempty memoryless words and the
+    # geometric sum of arbitrary a insertions in each gap around retained b's.
+    def skeleton(word):
+        return word.replace('a','') or word
+
+    def g(word):
+        return (.25/.75)*.25**word.count('a')*.5**word.count('b')
+
+    def gmass(observation,rule):
+        if rule=='identity' or 'b' not in observation:return g(observation)
+        return (.25/.75)*.5**len(observation)/.75**(len(observation)+1)
+
+    def q0(word):
+        return .9*words.get(word,0)/8+.1*g(word)
+
+    def groups(observation,rule):
+        if rule=='identity':return [(observation,q0(observation))]
+        known=[w for w in words if skeleton(w)==observation]
+        result=[(w,q0(w)) for w in known]
+        oov=gmass(observation,rule)-sum(g(w) for w in known)
+        if oov>0:result.append((None,.1*oov))
+        return result
+
+    def q1(left,right,right_mass):
+        return (info['pairs'].get(left,{}).get(right,0)+100*right_mass)/(info['context'].get(left,0)+100)
+
+    def enumerate_groups(observed,rule):
+        output=[]
+        for states in itertools.product(*(groups(s,rule) for s in observed)):
+            value=states[0][1]
+            for left,right in zip(states,states[1:]):value*=q1(left[0],right[0],right[1])
+            output.append((states,value))
+        return output
+
+    for observed in ('a','aa','b','bb'):
+        analysis=character.analyze(observed)
+        assert analysis['search_complete'] and analysis['numerical_complete']
+        known=sorted(w for w in words if skeleton(w)==observed)
+        assert analysis['lexicon_candidates']==known
+        near(analysis['char_mass'],gmass(observed,'omit-aeiou'))
+        near(analysis['oov_char_mass'],gmass(observed,'omit-aeiou')-sum(g(w) for w in known))
+        for w in known:
+            near(math.exp(character.log_word_probability(w)),g(w))
+        if observed=='a':assert analysis['top_oov']==[]
+        if observed=='aa':assert [v['word'] for v in analysis['top_oov']]==['aa']
+        if observed=='b':assert [v['word'] for v in analysis['top_oov']]==['b','ba']
+        if observed=='bb':assert [v['word'] for v in analysis['top_oov']]==['abb','bab']
+
+    truth=dict(rows=[row('int.1',['a','ab','aa','bb'],(0,2)),
+                     row('int.2',['ab',None,'ba','a']),
+                     row('int.r',['bb','ab','a','aa'],(0,2),split='reserve',page='r')])
+    expected_positions=[[[0,0],[0,1]],[[0,2],[0,3],[1,0]],[[1,2],[1,3]],
+                        [[2,0],[2,1]],[[2,2],[2,3]]]
+    for rule in ('identity','omit-aeiou'):
+        observations=dict(rule=rule,rows=copy.deepcopy(truth['rows']))
+        for r in observations['rows']:
+            for t in r['tokens']:
+                if t['units'] is not None and rule=='omit-aeiou':
+                    t['units']=list(skeleton(''.join(t['units'])))
+        prediction=production.decode(model,observations)
+        assert [s['positions'] for s in prediction['segments']]==expected_positions
+        assert prediction['rows'][1]['tokens'][1] is None
+        assert prediction['rows'][1]['exact_output_row_posterior'] is None
+        for segment in prediction['segments']:
+            positions=segment['positions']
+            observed=[''.join(observations['rows'][r]['tokens'][t]['units']) for r,t in positions]
+            enumerated=enumerate_groups(observed,rule)
+            evidence=math.fsum(value for _,value in enumerated)
+            near(segment['log_evidence'],math.log(evidence))
+            for path in segment['paths']:
+                prior=q0(path['words'][0])
+                for left,right in zip(path['words'],path['words'][1:]):prior*=q1(left,right,q0(right))
+                near(path['log_prior'],math.log(prior))
+                near(path['posterior'],prior/evidence)
+            for index,(r,t) in enumerate(positions):
+                detail=prediction['rows'][r]['tokens'][t]
+                for candidate in detail['candidates']:
+                    target=candidate['word'] if rule=='identity' or candidate['word'] in words else None
+                    groupmass=dict(groups(observed[index],rule))[target]
+                    marginal=math.fsum(value for states,value in enumerated if states[index][0]==target)/evidence
+                    near(candidate['posterior'],marginal*q0(candidate['word'])/groupmass)
+                if observed[index] in ('a','aa'):near(detail['posterior'],1.)
+            COUNTS['integration_analytic_group_paths']+=len(enumerated)
+        scores=production.score(model,prediction,truth,observations)
+        development=scores['tests']['development']
+        reserve=scores['tests']['reserve']
+        assert development['known_words']==7 and development['eligible_complete_rows']==1
+        assert development['excluded_rows']==1 and development['exact_complete_row_accuracy']==1
+        assert reserve['known_words']==4 and reserve['exact_complete_row_accuracy']==1
+        if rule=='identity':
+            assert development['identity_exact'] and reserve['identity_exact']
+        else:
+            assert development['exact_words']==6 and development['word_edit_distance']==2
+            near(development['char_edit_accuracy'],10/12)
+            assert development['omitted_characters']==3 and development['omitted_gap_edit_distance']==2
+            assert development['nontrivial_words']==4 and reserve['nontrivial_words']==2
+            assert prediction['rows'][1]['tokens'][2]['prediction']=='ab'
+        assert production.decode(model,observations)==prediction
+        COUNTS['real_character_integration_cases']+=1
+        COUNTS['evaluation_cases']+=1
+
+
 def main():
     model=model_fixture()
     for observations in [['bt'],['bt','ct'],['ct','bt','ct'],['bt','bt','ct'],['a','ae']]:
@@ -271,6 +387,7 @@ def main():
     check_layout(model)
     check_internal_reset_full_row(model)
     check_evaluation(model)
+    check_real_character_integration()
     print(json.dumps(dict(status='PASS',scope='SYNTHETIC_ONLY_NO_SOURCE_OR_MANUSCRIPT_READS',
                           checks=dict(COUNTS),maximum_absolute_error=MAX_ERROR),indent=2))
 
