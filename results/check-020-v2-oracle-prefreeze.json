@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "SYNTHETIC_ONLY_NO_SOURCE_OR_MANUSCRIPT_READS",
+  "checks": {
+    "numerical_comparisons": 363,
+    "complete_segments": 16,
+    "enumerated_concrete_paths": 577,
+    "concrete_oov_winner_segments": 4,
+    "exact_float_lexicographic_ties": 6,
+    "same_observation_different_truth_checks": 2,
+    "layout_rows": 4,
+    "internal_reset_complete_rows": 2,
+    "evaluation_cases": 6,
+    "integration_analytic_group_paths": 18,
+    "real_character_integration_cases": 2
+  },
+  "maximum_absolute_error": 2.1094237467877974e-15
+}

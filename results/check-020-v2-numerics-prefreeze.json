@@ -1,0 +1,131 @@
+{
+  "status": "PASS",
+  "scope": "SYNTHETIC_ONLY_NO_CORPUS_OR_FROZEN_MODEL_READS",
+  "linear_error_method": "COMPONENTWISE_M_MATRIX_OUTWARD_MAJORANT_V2",
+  "numerical_log_tolerance": 1e-08,
+  "longdouble_mantissa_bits": 63,
+  "exact_fraction_inequalities": 1144,
+  "systems": [
+    {
+      "name": "ill_scaled_2",
+      "dimension": 2,
+      "decimal80_solution_checked": true,
+      "actual_relative_error": 1.3333333333333332e-44,
+      "majorant_strategy": "POSITIVE_AZ_SCALING",
+      "componentwise_relative_error_bound": 7.589415207398532e-19,
+      "legacy_global_relative_error_bound": 3903127.8209478166
+    },
+    {
+      "name": "diagonal_reducible",
+      "dimension": 3,
+      "decimal80_solution_checked": true,
+      "actual_relative_error": 5.426746615513027e-17,
+      "majorant_strategy": "POSITIVE_AZ_SCALING",
+      "componentwise_relative_error_bound": 1.0886280492049964e-16,
+      "legacy_global_relative_error_bound": 1517883.0415339407
+    },
+    {
+      "name": "zero_matrix_scale_-40",
+      "dimension": 3,
+      "decimal80_solution_checked": true,
+      "actual_relative_error": 3.8459023497280927e-81,
+      "majorant_strategy": "POSITIVE_AZ_SCALING",
+      "componentwise_relative_error_bound": 2.1684043449710093e-19,
+      "legacy_global_relative_error_bound": 7.589415207398532e+21
+    },
+    {
+      "name": "zero_matrix_scale_-300",
+      "dimension": 3,
+      "decimal80_solution_checked": true,
+      "actual_relative_error": 1.532369718781805e-80,
+      "majorant_strategy": "POSITIVE_AZ_SCALING",
+      "componentwise_relative_error_bound": 2.1684043449710093e-19,
+      "legacy_global_relative_error_bound": 7.589415207398532e+281
+    },
+    {
+      "name": "nearly_absorbing",
+      "dimension": 1,
+      "decimal80_solution_checked": true,
+      "actual_relative_error": 0.0,
+      "majorant_strategy": "POSITIVE_AZ_SCALING",
+      "componentwise_relative_error_bound": 0.0019569471624266152,
+      "legacy_global_relative_error_bound": 0.009813542688910697
+    },
+    {
+      "name": "float64_subnormal",
+      "dimension": 2,
+      "decimal80_solution_checked": true,
+      "actual_relative_error": 0.00012350253180190194,
+      "majorant_strategy": "ADDITIVE_ESCAPE",
+      "componentwise_relative_error_bound": 0.00024700506360380415,
+      "legacy_global_relative_error_bound": 9.756723056765361e+301
+    },
+    {
+      "name": "random_2",
+      "dimension": 2,
+      "decimal80_solution_checked": true,
+      "actual_relative_error": 1.9524056931803427e-16,
+      "majorant_strategy": "POSITIVE_AZ_SCALING",
+      "componentwise_relative_error_bound": 3.9134143554823417e-16,
+      "legacy_global_relative_error_bound": 2.2688221093639216e-12
+    },
+    {
+      "name": "random_5",
+      "dimension": 5,
+      "decimal80_solution_checked": true,
+      "actual_relative_error": 3.541660607019153e-16,
+      "majorant_strategy": "POSITIVE_AZ_SCALING",
+      "componentwise_relative_error_bound": 1.2635251335165943e-15,
+      "legacy_global_relative_error_bound": 6.483675252623445e-15
+    },
+    {
+      "name": "random_12",
+      "dimension": 12,
+      "decimal80_solution_checked": true,
+      "actual_relative_error": 3.384402477334498e-16,
+      "majorant_strategy": "POSITIVE_AZ_SCALING",
+      "componentwise_relative_error_bound": 1.1159098990862625e-15,
+      "legacy_global_relative_error_bound": 2.507848328105647e-14
+    },
+    {
+      "name": "random_125",
+      "dimension": 125,
+      "decimal80_solution_checked": true,
+      "actual_relative_error": 9.508947370784518e-16,
+      "majorant_strategy": "POSITIVE_AZ_SCALING",
+      "componentwise_relative_error_bound": 2.5260890443826708e-15,
+      "legacy_global_relative_error_bound": 1.7689150367131681e-12
+    },
+    {
+      "name": "diagonal_125",
+      "dimension": 125,
+      "decimal80_solution_checked": true,
+      "actual_relative_error": 1.8149784657888546e-16,
+      "majorant_strategy": "POSITIVE_AZ_SCALING",
+      "componentwise_relative_error_bound": 3.632982530799763e-16,
+      "legacy_global_relative_error_bound": 65892387.03280656
+    },
+    {
+      "name": "negative_proposal_clipped",
+      "dimension": 2,
+      "decimal80_solution_checked": true,
+      "actual_relative_error": 4.288583676658176e-17,
+      "majorant_strategy": "ADDITIVE_ESCAPE",
+      "componentwise_relative_error_bound": 2.5766715150421504e-16,
+      "legacy_global_relative_error_bound": 1.332484469984685e-16
+    }
+  ],
+  "inherited_numeric_comparisons": 555,
+  "inherited_maximum_absolute_error": 1.5543122344752192e-15,
+  "checks": [
+    "exact represented-system residual and supersolution inequalities",
+    "independent Decimal80 pivoted solves",
+    "ill-scaled and 125-state systems",
+    "subnormal outward bounds",
+    "clipped untrusted LU proposal",
+    "invalid inputs and final-certificate failure",
+    "unchanged numerical incomplete budget",
+    "unchanged prior, search, mass and toy outputs",
+    "all existing synthetic channel checks"
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "schema": "experiment020-omission-input-v1",
+  "experiment": "020",
+  "NOT_A_TRANSLATION": true,
+  "languages": [
+    "la",
+    "de",
+    "it"
+  ],
+  "mechanisms": [
+    "ordered",
+    "iid",
+    "copy"
+  ],
+  "rules": [
+    "identity",
+    "omit-aeiou"
+  ],
+  "test_splits": [
+    "development",
+    "reserve"
+  ],
+  "lexical_weight": 0.9,
+  "character_weight": 0.1,
+  "bigram_tau": 100,
+  "omitted_characters": "aeiou",
+  "all_omitted_characters_word": "identity",
+  "preserve_word_boundaries": true,
+  "nonempty_words_only": true,
+  "character_prior_start_history": [
+    " "
+  ],
+  "character_prior_stop": "SPACE",
+  "character_prior_condition_nonempty": true,
+  "character_prior_include_terminal_space": true,
+  "source_files": {
+    "la": {
+      "train": [
+        "data/latin/caesar-gallic-1.txt",
+        "data/latin/caesar-gallic-2.txt",
+        "data/latin/caesar-gallic-3.txt",
+        "data/latin/caesar-gallic-4.txt",
+        "data/latin/caesar-gallic-5.txt",
+        "data/latin/caesar-gallic-6.txt",
+        "data/latin/caesar-gallic-7.txt"
+      ],
+      "test": [
+        "data/latin/cicero-catilinam-1.txt",
+        "data/latin/cicero-catilinam-2.txt",
+        "data/latin/cicero-catilinam-3.txt",
+        "data/latin/cicero-catilinam-4.txt"
+      ]
+    },
+    "de": {
+      "train": [
+        "data/german-components-v2/brant-base.json"
+      ],
+      "test": [
+        "data/german-components-v2/tepl-base.json"
+      ]
+    },
+    "it": {
+      "train": [
+        "data/language-screen/dante.json"
+      ],
+      "test": [
+        "data/language-screen/boccaccio.json"
+      ]
+    }
+  },
+  "seeds": {
+    "cases": {
+      "la/ordered-identity": 20270101,
+      "la/ordered-omit-aeiou": 20270201,
+      "la/iid-identity": 20271101,
+      "la/iid-omit-aeiou": 20271201,
+      "la/copy-identity": 20272101,
+      "la/copy-omit-aeiou": 20272201,
+      "de/ordered-identity": 20280101,
+      "de/ordered-omit-aeiou": 20280201,
+      "de/iid-identity": 20281101,
+      "de/iid-omit-aeiou": 20281201,
+      "de/copy-identity": 20282101,
+      "de/copy-omit-aeiou": 20282201,
+      "it/ordered-identity": 20290101,
+      "it/ordered-omit-aeiou": 20290201,
+      "it/iid-identity": 20291101,
+      "it/iid-omit-aeiou": 20291201,
+      "it/copy-identity": 20292101,
+      "it/copy-omit-aeiou": 20292201
+    }
+  },
+  "rng": "numpy.random.default_rng",
+  "numpy_version": "2.5.3",
+  "rng_order": "development, reserve; saved rows then slots then retained characters",
+  "rng_singleton_groups": "no draw",
+  "rng_unknown_slots": "no draw",
+  "context_boundaries": "Preserve019 reset_before and None; cross-row context only where flags permit; never cross page or split; no teacher-forced test words.",
+  "ordered_gate": {
+    "all_languages_required": true,
+    "required_splits": [
+      "development",
+      "reserve"
+    ],
+    "char_edit_accuracy_min": 0.95,
+    "exact_word_accuracy_min": 0.9,
+    "exact_complete_row_accuracy_min": 0.5,
+    "complete_row_min_words": 4,
+    "complete_row_requires_no_unknown": true,
+    "confidence_threshold": 0.9,
+    "nontrivial_confident_accuracy_min": 0.95,
+    "nontrivial_confident_coverage_min": 0.25,
+    "confidence_denominator": "known words whose skeleton contains a non-aeiou unit",
+    "all_eligible_denominators_nonzero": true,
+    "all_numerical_and_search_checks_complete": true
+  },
+  "identity_gate": {
+    "all_cases_required": true,
+    "exact_word_accuracy": 1.0,
+    "exact_complete_row_accuracy": 1.0
+  },
+  "search_budget": {
+    "expanded_prefixes": 100000,
+    "heap_entries": 1000000
+  },
+  "confidence_bins": [
+    0,
+    0.5,
+    0.9,
+    0.99,
+    1
+  ],
+  "iid_copy_high_confidence_error_flag_above": 0.05,
+  "iid_copy_evaluation": "Separate high-confidence misreconstruction audit; no minimum confident coverage; correct recovery of unordered truth is a success; do not override ordered gate.",
+  "character_edit_denominator": "true known letters; sum distances separately by word",
+  "full_row_evaluation": "every word correct; keep source breaks inside the physical row",
+  "baseline": "literal skeleton as reconstructed word",
+  "models": {
+    "la": "data/omission-oracle/la/model.json",
+    "de": "data/omission-oracle/de/model.json",
+    "it": "data/omission-oracle/it/model.json"
+  },
+  "cases": [
+    "la/ordered-identity",
+    "la/ordered-omit-aeiou",
+    "la/iid-identity",
+    "la/iid-omit-aeiou",
+    "la/copy-identity",
+    "la/copy-omit-aeiou",
+    "de/ordered-identity",
+    "de/ordered-omit-aeiou",
+    "de/iid-identity",
+    "de/iid-omit-aeiou",
+    "de/copy-identity",
+    "de/copy-omit-aeiou",
+    "it/ordered-identity",
+    "it/ordered-omit-aeiou",
+    "it/iid-identity",
+    "it/iid-omit-aeiou",
+    "it/copy-identity",
+    "it/copy-omit-aeiou"
+  ],
+  "decoder_input": "tests only: literal true-key-decrypted skeleton and layout",
+  "truth_usage": "evaluation only; never use019 embedded hidden unknown-word truth",
+  "complete": true
+}

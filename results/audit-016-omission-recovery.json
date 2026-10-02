@@ -1,0 +1,248 @@
+{
+  "status": "PARTIAL_RUN_AUDIT_PASS_NOT_CALIBRATION",
+  "complete_run": false,
+  "completed_cases": 1,
+  "planned_cases": 18,
+  "uncompleted_cases": [
+    "la/ordered-omit-aeiou",
+    "la/iid-identity",
+    "la/iid-omit-aeiou",
+    "la/copy-identity",
+    "la/copy-omit-aeiou",
+    "de/ordered-identity",
+    "de/ordered-omit-aeiou",
+    "de/iid-identity",
+    "de/iid-omit-aeiou",
+    "de/copy-identity",
+    "de/copy-omit-aeiou",
+    "it/ordered-identity",
+    "it/ordered-omit-aeiou",
+    "it/iid-identity",
+    "it/iid-omit-aeiou",
+    "it/copy-identity",
+    "it/copy-omit-aeiou"
+  ],
+  "manuscript_scoring_performed": false,
+  "calibration_claim": false,
+  "dependency_scope": {
+    "character_word_probabilities": "Independently recomputed from018 normalized P1..P4.",
+    "non_singleton_oov_mass": "Archived values only; infinite mass must be independently audited separately.",
+    "oov_candidate_search": "Archived top2 candidate set; concrete word scores independently recomputed, global optimality not re-searched.",
+    "actual_completed_case_uses_archived_oov_mass": false
+  },
+  "code_truth_separation": {
+    "frozen_production_sha256": "920bb880308c62d16062a05898a184bf32d80e0b3d09c07bf549912e7d44f3cc",
+    "prediction_write_line": 452,
+    "prediction_hash_line": 453,
+    "truth_read_line": 457,
+    "evidence": "Frozen code order and saved prediction/score hashes; not an independent runtime file-access trace."
+  },
+  "hash_manifests": [
+    "data/omission-oracle/input-freeze.json",
+    "data/omission-oracle/prepared-manifest.json",
+    "results/omission-oracle/failed-v1-freeze.json"
+  ],
+  "distinct_frozen_files": 274,
+  "checks": {
+    "hash_checks": 541,
+    "numeric_comparisons": 19556,
+    "top_path_scores": 139,
+    "candidate_posteriors": 3691,
+    "word_posteriors": 3691,
+    "segments": 139,
+    "physical_rows": 408,
+    "true_path_scores": 139,
+    "completed_cases": 1,
+    "completion_analyses": 1
+  },
+  "maximum_absolute_errors": {
+    "log": 3.410605131648481e-13,
+    "probability": 4.547473508864641e-13
+  },
+  "cases": {
+    "la/ordered-identity": {
+      "status": "PASS",
+      "rule": "identity",
+      "tests": {
+        "development": {
+          "known_words": 1242,
+          "exact_words": 1242,
+          "reference_characters": 6924,
+          "word_edit_distance": 0,
+          "char_edit_accuracy": 1.0,
+          "exact_word_accuracy": 1.0,
+          "lossy_words": 0,
+          "exact_lossy_words": 0,
+          "exact_lossy_word_accuracy": null,
+          "nontrivial_words": 1236,
+          "lossy_char_edit_accuracy": null,
+          "nontrivial_exact_word_accuracy": 1.0,
+          "nontrivial_char_edit_accuracy": 1.0,
+          "nontrivial_confident_words": 1236,
+          "nontrivial_confident_correct": 1236,
+          "nontrivial_confident_accuracy": 1.0,
+          "nontrivial_confident_coverage": 1.0,
+          "confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 1242,
+              "correct": 1242
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 1236,
+              "correct": 1236
+            }
+          ],
+          "eligible_complete_rows": 166,
+          "exact_complete_rows": 166,
+          "excluded_rows": 19,
+          "eligible_row_word_coverage": 0.9605475040257649,
+          "row_length_strata": {
+            "4-7": {
+              "rows": 92,
+              "exact": 92
+            },
+            "8-15": {
+              "rows": 74,
+              "exact": 74
+            }
+          },
+          "exact_complete_row_accuracy": 1.0,
+          "omitted_characters": 0,
+          "omitted_gap_edit_distance": 0,
+          "omitted_symbol_edit_accuracy": null,
+          "baseline_char_edit_accuracy": 1.0,
+          "baseline_exact_word_accuracy": 1.0,
+          "ordered_recovery_thresholds_pass": true,
+          "high_confidence_error_flag": false,
+          "identity_exact": true
+        },
+        "reserve": {
+          "known_words": 2449,
+          "exact_words": 2449,
+          "reference_characters": 13536,
+          "word_edit_distance": 0,
+          "char_edit_accuracy": 1.0,
+          "exact_word_accuracy": 1.0,
+          "lossy_words": 0,
+          "exact_lossy_words": 0,
+          "exact_lossy_word_accuracy": null,
+          "nontrivial_words": 2412,
+          "lossy_char_edit_accuracy": null,
+          "nontrivial_exact_word_accuracy": 1.0,
+          "nontrivial_char_edit_accuracy": 1.0,
+          "nontrivial_confident_words": 2412,
+          "nontrivial_confident_correct": 2412,
+          "nontrivial_confident_accuracy": 1.0,
+          "nontrivial_confident_coverage": 1.0,
+          "confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 2449,
+              "correct": 2449
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 2412,
+              "correct": 2412
+            }
+          ],
+          "eligible_complete_rows": 191,
+          "exact_complete_rows": 191,
+          "excluded_rows": 32,
+          "eligible_row_word_coverage": 0.7999183340138832,
+          "row_length_strata": {
+            "8-15": {
+              "rows": 143,
+              "exact": 143
+            },
+            "4-7": {
+              "rows": 29,
+              "exact": 29
+            },
+            "16+": {
+              "rows": 19,
+              "exact": 19
+            }
+          },
+          "exact_complete_row_accuracy": 1.0,
+          "omitted_characters": 0,
+          "omitted_gap_edit_distance": 0,
+          "omitted_symbol_edit_accuracy": null,
+          "baseline_char_edit_accuracy": 1.0,
+          "baseline_exact_word_accuracy": 1.0,
+          "ordered_recovery_thresholds_pass": true,
+          "high_confidence_error_flag": false,
+          "identity_exact": true
+        }
+      },
+      "unique_observations": 1707,
+      "prediction_sha256": "b513b60b52dc611c06371fb3ee8e92d1153beb623b8967e2cb8ca9fb87331afa",
+      "score_sha256": "db74177650e35967b9ccad5e9fd8f9083e67e85bd2eb941767322bc75301b475"
+    }
+  },
+  "summary": null,
+  "failure": {
+    "case": "la/ordered-omit-aeiou",
+    "observation": "ppl",
+    "numerical_complete": false,
+    "search_complete": true,
+    "archived_conservative_log_mass_error_bound": 1.2679094876184942e-08,
+    "fixed_tolerance": 1e-08,
+    "independently_checked": "Frozen stopping decision, lexical/OOV concrete word probabilities and partition consistency only.",
+    "not_independently_certified": "Infinite completion mass, the residual error-bound derivation and global OOV search completeness.",
+    "failure_sha256": "a9fb1dc26e22392952f0f191b9956a26f0a178841db744d58515f910206648ab"
+  },
+  "input_freeze_sha256": "e5fea5cb85145251d97ae9c590777deae6a6fcf4f8488bd72d2db7cdcc461620",
+  "prepared_manifest_sha256": "d6692d1c16cd13a969cf97490c41b816bb6609618b74a62ea0fcc2b29fcbd895",
+  "audit_source_sha256": "95c6c09d46116412ce3474dbcadb2cf7fa815b743e5f3a791c876759fea8b99f"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PARTIAL_RUN_AUDIT_PASS_NOT_CALIBRATION",
+  "completed_cases": 1,
+  "planned_cases": 18,
+  "checks": {
+    "hash_checks": 541,
+    "numeric_comparisons": 19556,
+    "top_path_scores": 139,
+    "candidate_posteriors": 3691,
+    "word_posteriors": 3691,
+    "segments": 139,
+    "physical_rows": 408,
+    "true_path_scores": 139,
+    "completed_cases": 1,
+    "completion_analyses": 1
+  },
+  "maximum_absolute_errors": {
+    "log": 3.410605131648481e-13,
+    "probability": 4.547473508864641e-13
+  },
+  "output": "/home/skift/playground/voynich-research/results/audit-016-omission-recovery.json"
+}

@@ -1,0 +1,361 @@
+{
+  "status": "PASS",
+  "stage": "PREPARED_INPUTS_ONLY_NO_RECOVERY",
+  "mandatory_inputs": 45,
+  "input_hash_entries": 209,
+  "prepared_hash_entries": 58,
+  "manifests_checked": 16,
+  "manifest_paths": [
+    "data/gap-inference/input-freeze.json",
+    "data/gap-inference/prepared-manifest.json",
+    "data/german-components-v2/normalization-freeze.json",
+    "data/language-screen/source-freeze.json",
+    "data/omission-oracle/input-freeze.json",
+    "data/omission-oracle/prepared-manifest.json",
+    "data/sequence-dependence/input-freeze.json",
+    "data/sequence-dependence/prepared-manifest.json",
+    "data/transcription-frequency/input-freeze.json",
+    "data/transcription-units/selection-freeze.json",
+    "data/variable-frequency/control-freeze.json",
+    "data/variable-frequency/envelope-freeze.json",
+    "data/variable-frequency/input-freeze.json",
+    "results/check-020-channel-prefreeze.json",
+    "results/check-020-oracle-prefreeze.json",
+    "results/german-components/failed-v1-freeze.json"
+  ],
+  "additional_verified_nested_references_not_in_flattened_input_map": [
+    {
+      "file": "data/raw/mufi-u-entry.html",
+      "sha256": "b7030b4c4aa21f08554f9bf02cf64e5090582dc3f914b6b773e673859962a2c8",
+      "references": [
+        {
+          "metadata_file": "data/german-components/mufi-downloads.json",
+          "field": "root[1].sha256"
+        }
+      ]
+    },
+    {
+      "file": "data/substitution-manuscript.json",
+      "sha256": "e9cf491b8be5972e135764df2d6c0aa648144f679bfd0cb403ba7865dff87654",
+      "references": [
+        {
+          "metadata_file": "data/homophonic/manuscript.json",
+          "field": "root.inputs"
+        }
+      ]
+    },
+    {
+      "file": "notes/experiment-010-design.md",
+      "sha256": "54ae97e03bcb87299524293fb0d56c12fc5298b64ed091ca9f16cdf24aa01b98",
+      "references": [
+        {
+          "metadata_file": "data/substitution-manuscript.json",
+          "field": "root.input_hashes"
+        }
+      ]
+    },
+    {
+      "file": "notes/experiment-011-design.md",
+      "sha256": "9368f04d1b35f1ed4c25f555addfba2125ad9b1a5609390f559e82a7070c98bb",
+      "references": [
+        {
+          "metadata_file": "data/homophonic/manuscript.json",
+          "field": "root.inputs"
+        }
+      ]
+    }
+  ],
+  "unique_hashed_files": 272,
+  "checks": {
+    "exact_comparisons": 1724440,
+    "fresh_sha256_computations": 539,
+    "sha256_checks": 2653,
+    "metadata_json_documents_checked": 118,
+    "float_comparisons": 112,
+    "source_records": 16563,
+    "source_words": 223572,
+    "conditional_log_entries": 1630620,
+    "conditional_rows": 60125,
+    "original_code_labels": 381,
+    "source019_observable_rows": 3672,
+    "source019_observable_slots": 33498,
+    "case_rows": 7344,
+    "case_word_slots": 66996,
+    "case_known_slots": 66438,
+    "case_original_letters": 343222,
+    "case_retained_letters": 268957,
+    "case_all_vowel_words": 2192,
+    "case_rng_draws": 267471,
+    "case_unknown_slots": 558,
+    "oracle_cases": 18
+  },
+  "maximum_scalar_comparison_error": 2.662800535624399e-16,
+  "models": [
+    {
+      "language": "la",
+      "status": "PASS",
+      "training_records": 1910,
+      "training_words": 44822,
+      "training_word_types": 9933,
+      "training_pairs": 42912,
+      "training_pair_types": 35149,
+      "test_source_records": 121,
+      "test_source_words": 12552,
+      "conditional_entries": 346200,
+      "maximum_reconstructed_log_error": 0.0,
+      "maximum_normalized_row_sum_error": 4.440892098500626e-16
+    },
+    {
+      "language": "de",
+      "status": "PASS",
+      "training_records": 112,
+      "training_words": 39406,
+      "training_word_types": 5985,
+      "training_pairs": 39294,
+      "training_pair_types": 28177,
+      "test_source_records": 92,
+      "test_source_words": 9768,
+      "conditional_entries": 732540,
+      "maximum_reconstructed_log_error": 0.0,
+      "maximum_normalized_row_sum_error": 6.661338147750939e-16
+    },
+    {
+      "language": "it",
+      "status": "PASS",
+      "training_records": 14233,
+      "training_words": 97206,
+      "training_word_types": 13341,
+      "training_pairs": 82973,
+      "training_pair_types": 51000,
+      "test_source_records": 95,
+      "test_source_words": 19818,
+      "conditional_entries": 551880,
+      "maximum_reconstructed_log_error": 0.0,
+      "maximum_normalized_row_sum_error": 4.440892098500626e-16
+    }
+  ],
+  "cases": [
+    {
+      "case": "la/ordered-identity",
+      "status": "PASS",
+      "rows": 408,
+      "word_slots": 3722,
+      "known_slots": 3691,
+      "original_letters": 20460,
+      "retained_letters": 20460,
+      "all_vowel_words": 43,
+      "rng_draws": 20455,
+      "unknown_slots": 31
+    },
+    {
+      "case": "la/ordered-omit-aeiou",
+      "status": "PASS",
+      "rows": 408,
+      "word_slots": 3722,
+      "known_slots": 3691,
+      "original_letters": 20460,
+      "retained_letters": 10888,
+      "all_vowel_words": 43,
+      "rng_draws": 10883,
+      "unknown_slots": 31
+    },
+    {
+      "case": "la/iid-identity",
+      "status": "PASS",
+      "rows": 408,
+      "word_slots": 3722,
+      "known_slots": 3691,
+      "original_letters": 20398,
+      "retained_letters": 20398,
+      "all_vowel_words": 41,
+      "rng_draws": 20392,
+      "unknown_slots": 31
+    },
+    {
+      "case": "la/iid-omit-aeiou",
+      "status": "PASS",
+      "rows": 408,
+      "word_slots": 3722,
+      "known_slots": 3691,
+      "original_letters": 20398,
+      "retained_letters": 10836,
+      "all_vowel_words": 41,
+      "rng_draws": 10830,
+      "unknown_slots": 31
+    },
+    {
+      "case": "la/copy-identity",
+      "status": "PASS",
+      "rows": 408,
+      "word_slots": 3722,
+      "known_slots": 3691,
+      "original_letters": 20619,
+      "retained_letters": 20619,
+      "all_vowel_words": 85,
+      "rng_draws": 20614,
+      "unknown_slots": 31
+    },
+    {
+      "case": "la/copy-omit-aeiou",
+      "status": "PASS",
+      "rows": 408,
+      "word_slots": 3722,
+      "known_slots": 3691,
+      "original_letters": 20619,
+      "retained_letters": 11113,
+      "all_vowel_words": 85,
+      "rng_draws": 11108,
+      "unknown_slots": 31
+    },
+    {
+      "case": "de/ordered-identity",
+      "status": "PASS",
+      "rows": 408,
+      "word_slots": 3722,
+      "known_slots": 3691,
+      "original_letters": 18206,
+      "retained_letters": 18206,
+      "all_vowel_words": 10,
+      "rng_draws": 18115,
+      "unknown_slots": 31
+    },
+    {
+      "case": "de/ordered-omit-aeiou",
+      "status": "PASS",
+      "rows": 408,
+      "word_slots": 3722,
+      "known_slots": 3691,
+      "original_letters": 18206,
+      "retained_letters": 11377,
+      "all_vowel_words": 10,
+      "rng_draws": 11286,
+      "unknown_slots": 31
+    },
+    {
+      "case": "de/iid-identity",
+      "status": "PASS",
+      "rows": 408,
+      "word_slots": 3722,
+      "known_slots": 3691,
+      "original_letters": 18224,
+      "retained_letters": 18224,
+      "all_vowel_words": 12,
+      "rng_draws": 18138,
+      "unknown_slots": 31
+    },
+    {
+      "case": "de/iid-omit-aeiou",
+      "status": "PASS",
+      "rows": 408,
+      "word_slots": 3722,
+      "known_slots": 3691,
+      "original_letters": 18224,
+      "retained_letters": 11455,
+      "all_vowel_words": 12,
+      "rng_draws": 11369,
+      "unknown_slots": 31
+    },
+    {
+      "case": "de/copy-identity",
+      "status": "PASS",
+      "rows": 408,
+      "word_slots": 3722,
+      "known_slots": 3691,
+      "original_letters": 18210,
+      "retained_letters": 18210,
+      "all_vowel_words": 52,
+      "rng_draws": 18092,
+      "unknown_slots": 31
+    },
+    {
+      "case": "de/copy-omit-aeiou",
+      "status": "PASS",
+      "rows": 408,
+      "word_slots": 3722,
+      "known_slots": 3691,
+      "original_letters": 18210,
+      "retained_letters": 11639,
+      "all_vowel_words": 52,
+      "rng_draws": 11521,
+      "unknown_slots": 31
+    },
+    {
+      "case": "it/ordered-identity",
+      "status": "PASS",
+      "rows": 408,
+      "word_slots": 3722,
+      "known_slots": 3691,
+      "original_letters": 18305,
+      "retained_letters": 18305,
+      "all_vowel_words": 270,
+      "rng_draws": 18161,
+      "unknown_slots": 31
+    },
+    {
+      "case": "it/ordered-omit-aeiou",
+      "status": "PASS",
+      "rows": 408,
+      "word_slots": 3722,
+      "known_slots": 3691,
+      "original_letters": 18305,
+      "retained_letters": 9847,
+      "all_vowel_words": 270,
+      "rng_draws": 9703,
+      "unknown_slots": 31
+    },
+    {
+      "case": "it/iid-identity",
+      "status": "PASS",
+      "rows": 408,
+      "word_slots": 3722,
+      "known_slots": 3691,
+      "original_letters": 18509,
+      "retained_letters": 18509,
+      "all_vowel_words": 279,
+      "rng_draws": 18367,
+      "unknown_slots": 31
+    },
+    {
+      "case": "it/iid-omit-aeiou",
+      "status": "PASS",
+      "rows": 408,
+      "word_slots": 3722,
+      "known_slots": 3691,
+      "original_letters": 18509,
+      "retained_letters": 9964,
+      "all_vowel_words": 279,
+      "rng_draws": 9822,
+      "unknown_slots": 31
+    },
+    {
+      "case": "it/copy-identity",
+      "status": "PASS",
+      "rows": 408,
+      "word_slots": 3722,
+      "known_slots": 3691,
+      "original_letters": 18680,
+      "retained_letters": 18680,
+      "all_vowel_words": 304,
+      "rng_draws": 18534,
+      "unknown_slots": 31
+    },
+    {
+      "case": "it/copy-omit-aeiou",
+      "status": "PASS",
+      "rows": 408,
+      "word_slots": 3722,
+      "known_slots": 3691,
+      "original_letters": 18680,
+      "retained_letters": 10227,
+      "all_vowel_words": 304,
+      "rng_draws": 10081,
+      "unknown_slots": 31
+    }
+  ],
+  "audit_scope": "Full archived training counts and018 LM; original127 groups;019 observable rows;18 complete seeded oracle transformations. No reconstruction scores.",
+  "hashes": {
+    "src/audit_omission_inputs.py": "c43750f834b2c1c2a6e8b93cf020e9a26634fc91aa3cc5a71e5ca521b2164e0e",
+    "data/omission-oracle/input-freeze.json": "e5fea5cb85145251d97ae9c590777deae6a6fcf4f8488bd72d2db7cdcc461620",
+    "data/omission-oracle/prepared-manifest.json": "d6692d1c16cd13a969cf97490c41b816bb6609618b74a62ea0fcc2b29fcbd895"
+  }
+}

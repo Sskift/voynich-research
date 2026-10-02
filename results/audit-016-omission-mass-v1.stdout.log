@@ -1,0 +1,27 @@
+{
+  "status": "V1_SINGLE_FAILURE_MASS_AUDIT_PASS_NOT_CALIBRATION",
+  "skeleton": "ppl",
+  "full_mass": {
+    "independent_log_mass": -7.855627564640563,
+    "archived_log_mass": -7.855627564640563,
+    "independent_mass": 0.00038756477391864723,
+    "archived_mass": 0.00038756477391864723,
+    "absolute_mass_error": 0.0,
+    "relative_mass_error": 0.0,
+    "absolute_log_error": 0.0,
+    "audit_log_agreement_tolerance": 1e-08
+  },
+  "oov_mass": {
+    "independent_log_mass": -9.460077733293382,
+    "archived_log_mass": -9.460077733293382,
+    "independent_mass": 7.790053531460667e-05,
+    "archived_mass": 7.790053531460667e-05,
+    "absolute_mass_error": 0.0,
+    "relative_mass_error": 0.0,
+    "absolute_log_error": 0.0,
+    "audit_log_agreement_tolerance": 1e-08
+  },
+  "independent_partition_log_error": 0.0,
+  "reachable_graph_states": 799,
+  "reachable_graph_edges": 4578
+}

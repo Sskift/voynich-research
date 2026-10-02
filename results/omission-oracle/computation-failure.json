@@ -1,0 +1,95 @@
+{
+  "status": "COMPUTATION_INCOMPLETE_NO_GATE_OR_NATIVE",
+  "observation": "ppl",
+  "analysis": {
+    "status": "NUMERICAL_INCOMPLETE",
+    "skeleton": "ppl",
+    "log_char_mass": -7.855627564640563,
+    "log_oov_char_mass": -9.460077733293382,
+    "char_mass": 0.00038756477391864723,
+    "oov_char_mass": 7.790053531460667e-05,
+    "ordinary_mass_underflow": false,
+    "ordinary_oov_mass_underflow": false,
+    "lexicon_candidates": [
+      "populi",
+      "populo"
+    ],
+    "lexicon_log_char_probabilities": {
+      "populi": -8.725530160828752,
+      "populo": -8.823191589442533
+    },
+    "top_oov": [
+      {
+        "word": "popula",
+        "log_char_probability": -11.149356928516443
+      },
+      {
+        "word": "oppuli",
+        "log_char_probability": -11.53546839324744
+      }
+    ],
+    "search_complete": true,
+    "numerical_complete": false,
+    "numerical_certificate": {
+      "support": "UNBOUNDED_WORD_LENGTH",
+      "conditional_on_nonempty": true,
+      "initial_history": "one SPACE",
+      "terminating_symbol": "SPACE",
+      "normalization": "derived logsumexp normalization of each conditional row",
+      "max_original_row_normalization_error": 2.9750507613002237e-16,
+      "max_derived_row_normalization_error": 4.440892098500626e-16,
+      "minimum_conditional_eos_probability": 1.1254612858808593e-10,
+      "log_nonempty_probability": -3.143994012155815e-05,
+      "vowel_core_states": 125,
+      "vowel_escape_lower_bound": 0.004400711254846394,
+      "numerical_log_tolerance": 1e-08,
+      "error_scope": "Residual bound for represented I-V, plus conservative propagated log/exp roundoff allowance; not arbitrary-precision interval arithmetic",
+      "max_scaled_linear_residual": 3.2921915783520347e-16,
+      "max_scaled_linear_error_bound": 7.481044285117379e-14,
+      "max_relative_linear_error_bound": 1.007046836475824e-08,
+      "minimum_scaled_solution": 7.428695482821246e-06,
+      "conservative_log_mass_error_bound": 1.2679094876184942e-08,
+      "lexicon_oov_partition_log_error": 0.0,
+      "numerical_complete": false
+    },
+    "search_counters": {
+      "stop_reason": "TOP2_FRONTIER_CERTIFICATE",
+      "expanded_prefixes": 13,
+      "generated_prefixes": 79,
+      "heap_peak": 65,
+      "graph_states": 804,
+      "graph_edges": 4605,
+      "found_terminal_words": 2,
+      "expansion_cap": 100000,
+      "heap_cap": 1000000,
+      "frontier_cost_lower_bound": 11.633161261799891,
+      "second_word_cost_upper_bound": 11.53549983318757,
+      "reverse_dijkstra_bellman_residual": 1.7954622799090666e-15,
+      "heuristic_safety_subtraction": 1.4435516730468897e-12,
+      "log_cost_tie_tolerance": 1e-12,
+      "top1_order_strictly_separated": true,
+      "top2_set_strictly_separated": true,
+      "top2_numerical_tie": false,
+      "found_top_cost_intervals": [
+        {
+          "word": "popula",
+          "lower": 11.149388368456558,
+          "upper": 11.149388368456572
+        },
+        {
+          "word": "oppuli",
+          "lower": 11.535499833187552,
+          "upper": 11.53549983318757
+        }
+      ],
+      "ranking_scope": "Represented normalized log probabilities; all frontier ties through tolerance are expanded"
+    }
+  },
+  "run_context": {
+    "phase": "decode-observations",
+    "language": "la",
+    "case": "la/ordered-omit-aeiou",
+    "rule": "omit-aeiou"
+  },
+  "input_freeze_sha256": "e5fea5cb85145251d97ae9c590777deae6a6fcf4f8488bd72d2db7cdcc461620"
+}

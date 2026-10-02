@@ -5,11 +5,29 @@ Last completed work classified as PROGRESS: experiment019 COMPLETED, with36encod
 controls,9plain invariance cases,native two-split scoring and independent audits.
 No verified connected reading, phonetic value, word meaning or language identified.
 
-Current checkpoint: experiment020 inputs FROZEN BEFORE PREPARATION, with209
-hashes in data/omission-oracle/input-freeze.json (45mandatory inputs and complete
-parent dependency closure, including two prefreeze synthetic check reports).
-No020 real source counts, preparation, recovery scores or manuscript application
-has run at this freeze checkpoint. No results/omission-oracle directory exists.
+Current checkpoint: experiment020 V1 STOPPED ON NUMERICAL CERTIFICATE; V2 FROZEN
+BEFORE REAL RUN. V1 input209hash/45mandatory, prepared58files/18cases. Prepare
+session72026 exited0. Oracle session99191 exited1 at la/ordered-omit-aeiou/ppl:
+search complete, conservative log-mass allowance1.2679094876184942e-8>fixed1e-8.
+Only la/ordered-identity completed (both splits exact);16cases unattempted and
+the omission case incomplete. No lossy-recovery accuracy/gate conclusion exists.
+The274hash failed-v1-freeze preserves all inputs, partial outputs and logs.
+Inputs audit PASS:2653SHA comparisons,18cases/66996slots/7344rows/267471RNG draws;
+all training counts and1630620LM entries verified. Four extra nested referenced
+files were verified beyond the209 flattened map and are included in v2 freeze.
+Partial recovery audit PASS for139segments/3691words/408rows, explicitly not a
+complete calibration. Independent np.linalg.solve/forward-prefix mass audit of
+ppl agrees with both v1 archived masses; it does not override the failed bound.
+V2 uses new omission_channel_v2.py/omission_oracle_v2.py and a separate protocol,
+input freeze and output directory. It changes only the represented-system error
+certificate: verify a componentwise M-matrix supersolution instead of dividing
+one global residual bound by the smallest solution component. Model/search/gates
+and1e-8 tolerance unchanged. V2 is motivated by the observed failure, not blind.
+Prefreeze checks:1144 exact Fraction inequalities,12 Decimal80 systems, inherited
+555channel comparisons and363sequence comparisons using v2 aliases all PASS.
+Next: push the frozen v2 checkpoint, then run src/omission_oracle_v2.py run once;
+independently audit full masses and inference/metrics. Preserve any new failure.
+No manuscript application or unknown-key search has run for020.
 The draft gives the true key and matching source-language prior, then asks for
 continuous recovery after literal a/e/i/o/u deletion (all-vowel words unchanged).
 Character completion includes infinite insertion mass, nonnegative OOV exclusion,
@@ -26,9 +44,9 @@ Independent implementation review prompted pre-truth prediction hashing, separat
 all-word/nontrivial confidence bins, mandatory prepared/input inventory checks,
 and toys for winning OOV words, exact-score lexical ties and full rows with resets.
 These checks establish arithmetic agreement on toys, not recovery or decipherment.
-Next: prepare once from the frozen inputs, freeze the58 prepared outputs, then
-run the18 oracle cases and independently audit inputs/inference/metrics. Do not
-edit the frozen protocol or five modules. Preserve partial outputs and failures.
+Do not edit either version's frozen protocol/modules or the58prepared outputs.
+Preserve partial outputs and failures; do not reinterpret a numerical stop as a
+failed language or recovery gate.
 
 151input hashes were frozen before preparation/statistics;48prepared output hashes;
 51calibration-freeze hashes before native;6native-freeze hashes before stats audit.

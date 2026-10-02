@@ -1,0 +1,7 @@
+{
+  "status": "FAIL",
+  "stage": "mandatory and transitive freeze checks",
+  "error_type": "AssertionError",
+  "error": "mandatory count: \"['data/gap-inference/de/conditional.bin', 'data/gap-inference/de/controls/uniform127.json', 'data/ga\" != '45'",
+  "checks": {}
+}

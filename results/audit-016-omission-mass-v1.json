@@ -1,0 +1,154 @@
+{
+  "status": "V1_SINGLE_FAILURE_MASS_AUDIT_PASS_NOT_CALIBRATION",
+  "skeleton": "ppl",
+  "case": "la/ordered-omit-aeiou",
+  "language": "la",
+  "unique_skeletons_audited": 1,
+  "full_mass": {
+    "independent_log_mass": -7.855627564640563,
+    "archived_log_mass": -7.855627564640563,
+    "independent_mass": 0.00038756477391864723,
+    "archived_mass": 0.00038756477391864723,
+    "absolute_mass_error": 0.0,
+    "relative_mass_error": 0.0,
+    "absolute_log_error": 0.0,
+    "audit_log_agreement_tolerance": 1e-08
+  },
+  "oov_mass": {
+    "independent_log_mass": -9.460077733293382,
+    "archived_log_mass": -9.460077733293382,
+    "independent_mass": 7.790053531460667e-05,
+    "archived_mass": 7.790053531460667e-05,
+    "absolute_mass_error": 0.0,
+    "relative_mass_error": 0.0,
+    "absolute_log_error": 0.0,
+    "audit_log_agreement_tolerance": 1e-08
+  },
+  "independent_partition_log_error": 0.0,
+  "lexical_candidates": [
+    "populi",
+    "populo"
+  ],
+  "concrete_word_probabilities": [
+    {
+      "kind": "lexical",
+      "word": "populi",
+      "independent_log_probability": -8.725530160828752,
+      "archived_log_probability": -8.725530160828752,
+      "absolute_log_error": 0.0
+    },
+    {
+      "kind": "lexical",
+      "word": "populo",
+      "independent_log_probability": -8.823191589442533,
+      "archived_log_probability": -8.823191589442533,
+      "absolute_log_error": 0.0
+    },
+    {
+      "kind": "archived_top_oov",
+      "word": "popula",
+      "independent_log_probability": -11.149356928516443,
+      "archived_log_probability": -11.149356928516443,
+      "absolute_log_error": 0.0
+    },
+    {
+      "kind": "archived_top_oov",
+      "word": "oppuli",
+      "independent_log_probability": -11.53546839324744,
+      "archived_log_probability": -11.53546839324744,
+      "absolute_log_error": 0.0
+    }
+  ],
+  "reachable_graph_states": 799,
+  "reachable_graph_edges": 4578,
+  "position_equation_diagnostics": [
+    {
+      "position": 3,
+      "reachable_histories": 216,
+      "vowel_core_states": 125,
+      "noncore_states": 91,
+      "log_scale": -0.04005029190484977,
+      "maximum_vowel_row_sum": 0.9955992887451537,
+      "maximum_scaled_core_equation_residual": 4.440892098500626e-16,
+      "maximum_scaled_all_equation_residual": 4.440892098500626e-16,
+      "maximum_componentwise_relative_equation_residual": 8.653977698588027e-16,
+      "minimum_scaled_solution": 0.0013249382086541607,
+      "maximum_scaled_solution": 1.0001044073053285
+    },
+    {
+      "position": 2,
+      "reachable_histories": 216,
+      "vowel_core_states": 125,
+      "noncore_states": 91,
+      "log_scale": -1.682144074760569,
+      "maximum_vowel_row_sum": 0.9955992887451537,
+      "maximum_scaled_core_equation_residual": 2.220446049250313e-16,
+      "maximum_scaled_all_equation_residual": 2.220446049250313e-16,
+      "maximum_componentwise_relative_equation_residual": 8.354934701604906e-16,
+      "minimum_scaled_solution": 1.225395199631647e-05,
+      "maximum_scaled_solution": 1.0000273096215466
+    },
+    {
+      "position": 1,
+      "reachable_histories": 211,
+      "vowel_core_states": 125,
+      "noncore_states": 86,
+      "log_scale": -3.63729299418443,
+      "maximum_vowel_row_sum": 0.9955992887451537,
+      "maximum_scaled_core_equation_residual": 6.938893903907228e-18,
+      "maximum_scaled_all_equation_residual": 1.3877787807814457e-17,
+      "maximum_componentwise_relative_equation_residual": 1.1086038441970895e-15,
+      "minimum_scaled_solution": 4.827927170524601e-07,
+      "maximum_scaled_solution": 1.000014140002295
+    },
+    {
+      "position": 0,
+      "reachable_histories": 156,
+      "vowel_core_states": 125,
+      "noncore_states": 31,
+      "log_scale": -7.1298647406591895,
+      "maximum_vowel_row_sum": 0.9955992887451537,
+      "maximum_scaled_core_equation_residual": 4.163336342344337e-17,
+      "maximum_scaled_all_equation_residual": 5.551115123125783e-17,
+      "maximum_componentwise_relative_equation_residual": 7.925636079318945e-16,
+      "minimum_scaled_solution": 2.367152393067262e-06,
+      "maximum_scaled_solution": 1.0000130326019196
+    }
+  ],
+  "oov_accounting": {
+    "lexical_words": 2,
+    "prefix_nodes": 8,
+    "visited_prefix_nodes": 8,
+    "first_exit_terms": 38,
+    "nonlexical_prefix_eos_terms": 1,
+    "combination": "Nonnegative first-prefix-exit/EOS terms; no full-minus-lex subtraction"
+  },
+  "original_numerical_failure": {
+    "numerical_complete": false,
+    "archived_conservative_log_mass_error_bound": 1.2679094876184942e-08,
+    "unchanged_tolerance": 1e-08,
+    "conclusion": "Original run remains stopped; agreement of estimates does not retroactively validate its failed bound."
+  },
+  "scope": {
+    "independent_algorithm": "Explicit reachable graph; per-position numpy.linalg.solve vowel core; iterative noncore fill; forward prefix-exit OOV sum.",
+    "probability_input": "Frozen018 tables independently normalized; complete prepared training lexicon.",
+    "production_modules_imported": false,
+    "independent_audit_helper": "src/audit_omission_recovery.py",
+    "infinite_mass": "Full and lexicon-OOV mass independently recomputed with unbounded vowel insertion.",
+    "residuals": "Residuals of represented scaled equations, not rigorous interval or forward-error certificates.",
+    "top2_search": "Only probabilities of the archived concrete words checked; global top2 search completeness is not claimed.",
+    "v2_execution_or_inspection": false,
+    "manuscript_scoring": false,
+    "calibration_claim": false
+  },
+  "hash_manifests": [
+    "data/omission-oracle/input-freeze.json",
+    "data/omission-oracle/prepared-manifest.json",
+    "results/omission-oracle/failed-v1-freeze.json"
+  ],
+  "distinct_frozen_files": 274,
+  "failure_sha256": "a9fb1dc26e22392952f0f191b9956a26f0a178841db744d58515f910206648ab",
+  "input_freeze_sha256": "e5fea5cb85145251d97ae9c590777deae6a6fcf4f8488bd72d2db7cdcc461620",
+  "audit_source_sha256": "7e2c8014187a093e374715946bdb4b386fa22751ef14ba2f35aeaf44d816b160",
+  "independent_helper_sha256": "95c6c09d46116412ce3474dbcadb2cf7fa815b743e5f3a791c876759fea8b99f"
+}
