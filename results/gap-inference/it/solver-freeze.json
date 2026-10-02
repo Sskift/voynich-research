@@ -1,0 +1,26 @@
+{
+  "status": "FROZEN_BEFORE_ACTUAL_GC_SEARCH",
+  "hashes": {
+    "notes/experiment-018-design.md": "e3cfc22ff25922974a28d8cf49bea26431493a3557ccb656d02cafc23d62c288",
+    "src/gap_inputs.py": "0f16293a35e501e9ba74444ec9dd1c7621ece9ddf8b396c19a1b2da530a1d851",
+    "src/gap_inference.py": "fd4f7b0800f34e585f888a1c71517847b65288376909eab26131af9c9f44907d",
+    "src/gap_search.cpp": "b555aaf9db1afc4807452cdd60dd7cb44d0c0e16bfc5df43fd12e350e2b3369e",
+    "bin/gap_search": "3e05d8ed12ff3764aa60a00b037a5756c7e1f45ce690fc41de5b2cdf25b21f25",
+    "src/check_gap_solver.py": "a95dfb037fe7425fd9f6f4fa343c4211f5130b41d5a82f5f7bef858187ef6ee3",
+    "results/gap-inference/solver-selfcheck.json": "dd16cb99281deef10efe4d9a2cad6ba04c71bd8b8c35762972717b13467fea26",
+    "data/gap-inference/input-freeze.json": "a92fcd6a6f0d6c609909db74f45e7b2a5e08fd73064d9fe0d89ae1bd381a6f67",
+    "data/gap-inference/config.json": "4c9ad90db8cd04ef8dd39ffdc858bfbbff77ed950d969030d9aeb0b350c14542",
+    "data/gap-inference/manuscript.json": "58b17e5722bd16555280bbb5d4d3134aed13f3c8c9381c2d3e9eef8d853cb83e",
+    "results/gap-inference/gate.json": "6f0870641bc28cc90a8939647749112f82521471da47f4bd6f18c266d917efcd",
+    "data/gap-inference/it/language.json": "3fec1a668dd47b35f7394a65a51fcb40a055eadb3320ef3b26a67f5aae91267e",
+    "data/gap-inference/it/conditional.bin": "e1d0d14e49ecf7fd2c49546a48c7dad33d5d636ef403d54e27b20b880251a6c7",
+    "results/gap-inference/it/calibration.json": "11e7cbc707519026cc6d4e9e5302f2deb0d8de7391393b530ff4e72abc13b026",
+    "data/gap-inference/it/controls/bijective.json": "ceb2dee072863177c94d72f06af283c246b3823dd029acf17076f2a3f34f1675",
+    "data/gap-inference/it/controls/uniform127.json": "de4d4407e5a1681ab064a8df8aea7458064c9633956c461a2bd37b63c31acb21",
+    "data/gap-inference/it/controls/tail127-position-mask.json": "476f0767245996d4a0857792a7123bd614f9e5b192b2e8b39636d590df9e5c4a",
+    "results/gap-inference/it/bijective.fit.json": "71e699fb78a588e8a15a5099a56905cc597cb79f8634f87d3de3ef18c8c5609e",
+    "results/gap-inference/it/uniform127.fit.json": "884d8cf2b8314ed70e710b6d54248b62c80989b48ec4ed3a034ba57530c59a5b",
+    "results/gap-inference/it/tail127-position-mask.fit.json": "be1631ace6c3e2654d2381820c6780457120dd58a1323dac047ebfddac2a52ce",
+    "data/gap-inference/prepared-manifest.json": "b691680fb95caa2cc383aa79609a04f1855089474cc13b507c1771333ef677fb"
+  }
+}

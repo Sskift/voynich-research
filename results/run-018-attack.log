@@ -1,0 +1,42 @@
+FIT de voynich 10 -3.7644226338279387
+ACTUAL de {'train': {'objective': -3.7644226338279423, 'language_per_character': -3.149727400084848, 'emission_per_character': -0.6146952337430946, 'predicted_characters': 23721, 'segments': 980, 'predicted_spaces': 3275, 'space_fraction': 0.13806331942160954, 'adjacent_space_pairs': 13, 'complete_predicted_words': 2323, 'word_hits': 762, 'word_hit_fraction': 0.3280241067585019, 'complete_predicted_words_ge3': 1499, 'word_hits_ge3': 160, 'word_hit_fraction_ge3': 0.1067378252168112}, 'development': {'objective': -3.7720322634674983, 'language_per_character': -3.1815060644578925, 'emission_per_character': -0.5905261990096053, 'predicted_characters': 4646, 'segments': 189, 'predicted_spaces': 616, 'space_fraction': 0.13258717176065432, 'adjacent_space_pairs': 4, 'complete_predicted_words': 430, 'word_hits': 138, 'word_hit_fraction': 0.3209302325581395, 'complete_predicted_words_ge3': 280, 'word_hits_ge3': 32, 'word_hit_fraction_ge3': 0.11428571428571428}, 'reserve': {'objective': -3.9256868457933245, 'language_per_character': -3.339677813222519, 'emission_per_character': -0.5860090325708054, 'predicted_characters': 9272, 'segments': 251, 'predicted_spaces': 802, 'space_fraction': 0.0864969801553063, 'adjacent_space_pairs': 2, 'complete_predicted_words': 564, 'word_hits': 74, 'word_hit_fraction': 0.13120567375886524, 'complete_predicted_words_ge3': 474, 'word_hits_ge3': 15, 'word_hit_fraction_ge3': 0.03164556962025317}}
+FIT de null-0 6 -5.138006823024464
+NULL de 0 -5.389501836649577
+FIT de null-1 14 -5.177922524998761
+NULL de 1 -5.441698595462431
+FIT de null-2 0 -5.159550351666329
+NULL de 2 -5.4187085092127605
+FIT de null-3 7 -5.16092897379872
+NULL de 3 -5.413978910422853
+FIT de null-4 13 -5.165407622562451
+NULL de 4 -5.3900072687865395
+FIT de null-5 12 -5.176899624604205
+NULL de 5 -5.40238299045814
+FIT de null-6 0 -5.16522687396474
+NULL de 6 -5.410810536279447
+FIT de null-7 6 -5.157939888181043
+NULL de 7 -5.492778603578726
+FIT de null-8 15 -5.170884202471642
+NULL de 8 -5.3699296335789395
+ATTACK COMPLETE de
+FIT it voynich 3 -3.43862786424136
+ACTUAL it {'train': {'objective': -3.4386278642413615, 'language_per_character': -3.007278440064903, 'emission_per_character': -0.43134942417645805, 'predicted_characters': 23721, 'segments': 980, 'predicted_spaces': 3877, 'space_fraction': 0.1634416761519329, 'adjacent_space_pairs': 14, 'complete_predicted_words': 2911, 'word_hits': 1407, 'word_hit_fraction': 0.4833390587427001, 'complete_predicted_words_ge3': 1601, 'word_hits_ge3': 221, 'word_hit_fraction_ge3': 0.13803872579637727}, 'development': {'objective': -3.4493790272440625, 'language_per_character': -3.0470522184301383, 'emission_per_character': -0.40232680881392463, 'predicted_characters': 4646, 'segments': 189, 'predicted_spaces': 732, 'space_fraction': 0.15755488592337494, 'adjacent_space_pairs': 7, 'complete_predicted_words': 541, 'word_hits': 237, 'word_hit_fraction': 0.43807763401109057, 'complete_predicted_words_ge3': 326, 'word_hits_ge3': 46, 'word_hit_fraction_ge3': 0.1411042944785276}, 'reserve': {'objective': -3.6421196800123843, 'language_per_character': -3.153877643730724, 'emission_per_character': -0.48824203628166035, 'predicted_characters': 9272, 'segments': 251, 'predicted_spaces': 1543, 'space_fraction': 0.16641501294219155, 'adjacent_space_pairs': 6, 'complete_predicted_words': 1291, 'word_hits': 574, 'word_hit_fraction': 0.44461657629744383, 'complete_predicted_words_ge3': 800, 'word_hits_ge3': 93, 'word_hit_fraction_ge3': 0.11625}}
+FIT it null-0 8 -5.424748563671567
+NULL it 0 -5.709136459610278
+FIT it null-1 4 -5.422889190609132
+NULL it 1 -5.760277449257184
+FIT it null-2 4 -5.43751656996616
+NULL it 2 -5.7063907917620496
+FIT it null-3 12 -5.444136918466579
+NULL it 3 -5.7486813685867615
+FIT it null-4 4 -5.422876861288086
+NULL it 4 -5.739132373746076
+FIT it null-5 1 -5.423404494777822
+NULL it 5 -5.774216687442174
+FIT it null-6 13 -5.43596485391226
+NULL it 6 -5.849816095770961
+FIT it null-7 4 -5.452697698696979
+NULL it 7 -5.835218888263214
+FIT it null-8 5 -5.398005684243812
+NULL it 8 -5.7321608398040995
+ATTACK COMPLETE it

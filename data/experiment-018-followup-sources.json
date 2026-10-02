@@ -1,0 +1,39 @@
+{
+  "role": "Unscored follow-up mechanism review only; not an input to experiment018",
+  "accessed_utc": "2026-10-02T07:46:54.618410+00:00",
+  "repository_commit": "a6ede2202dd7ad6285ce2c007bf22c2a0e7709b7",
+  "sources": [
+    {
+      "url": "https://aclanthology.org/W11-1511.pdf",
+      "path": "data/raw/followup-018/reddy-knight-2011.pdf",
+      "sha256": "842e285c544bffefc1eefa58704cbde6a5e93f0706542dc6a67d374f2c7da599",
+      "bytes": 966546
+    },
+    {
+      "url": "https://github.com/TorstenTimm/SelfCitationTextgenerator/blob/a6ede2202dd7ad6285ce2c007bf22c2a0e7709b7/README.md",
+      "api_url": "https://api.github.com/repos/TorstenTimm/SelfCitationTextgenerator/contents/README.md?ref=a6ede2202dd7ad6285ce2c007bf22c2a0e7709b7",
+      "git_blob_sha": "46ac4bc20e1108dc294d77387919f447a45596b4",
+      "path": "data/raw/followup-018/self-citation-README.md",
+      "sha256": "50bf716aa88d69810f65a0c10080e57ac47aaa82409eea0ff75c1d1a82f220a0",
+      "bytes": 96987
+    },
+    {
+      "url": "https://github.com/TorstenTimm/SelfCitationTextgenerator/blob/a6ede2202dd7ad6285ce2c007bf22c2a0e7709b7/LICENSE",
+      "api_url": "https://api.github.com/repos/TorstenTimm/SelfCitationTextgenerator/contents/LICENSE?ref=a6ede2202dd7ad6285ce2c007bf22c2a0e7709b7",
+      "git_blob_sha": "6b1bd09317974964cf197605719fc6e33a823d94",
+      "path": "data/raw/followup-018/self-citation-LICENSE.txt",
+      "sha256": "3621db279bfbb241057694d91c22895b4c5210e3c161ecef89c8402d091eb029",
+      "bytes": 1069
+    }
+  ],
+  "failed_access": [
+    {
+      "url": "https://raw.githubusercontent.com/TorstenTimm/SelfCitationTextgenerator/a6ede2202dd7ad6285ce2c007bf22c2a0e7709b7/README.md",
+      "error": "urllib SSL UNEXPECTED_EOF_WHILE_READING; recovered via GitHub contents API at the same commit"
+    }
+  ],
+  "attribution": [
+    "Sravana Reddy and Kevin Knight (2011), What We Know About The Voynich Manuscript, ACL LaTeCH, pp78-86. ACL materials before2016: CC BY-NC-SA3.0 per Anthology metadata.",
+    "Torsten Timm and Andreas Schinner, Self-citation text generator supplementary repository; preserve the archived MIT license. No generator code downloaded or executed."
+  ]
+}

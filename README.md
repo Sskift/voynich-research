@@ -3,15 +3,14 @@
 **状态：尚未破解。** 当前没有确定的语言、读音、词义或可验证译文。
 本项目保存实际数据分析、失败的判别尝试及后续可检验的问题。
 
-最新已完成进展（实验017）：固定“一符号输出一至两字母”的模型，在GC及
-两种EVA表示下的72个预定条件均与所用拉丁参考频率上限冲突。这不是对所有
-拉丁文的排除，也没有产生译文。详见[第十三轮报告](notes/report-013-zh.md)
-与[当前研究状态](notes/STATE.md)。第十二轮报告另有
-[适用条件更正](notes/experiment-016-report-correction.md)。
+最新已完成进展（实验018）：允许字形编码真实空格，德文和意大利文的六种
+已知密文均通过校准；随后完成两种实际拟合、各九组同预算打乱及独立审计。
+仍无可验证译文，较高拟合分数也不能识别语言。详见
+[第十四轮报告](notes/report-014-zh.md)与[当前研究状态](notes/STATE.md)。
 
-实验018的设计、输入准备程序及求解器已保存，仍处于准备阶段。求解器已通过
-纯合成数值自检，尚未生成本轮语言模型、运行已知密文校准或拟合手稿；不能
-将这些准备工作当作新的研究结果。见[实验018设计](notes/experiment-018-design.md)。
+实验017的全部72个频率条件均与所用拉丁参考上限冲突，但不是对整种语言
+的排除。见[第十三轮报告](notes/report-013-zh.md)。第十二轮报告另有
+[适用条件更正](notes/experiment-016-report-correction.md)。
 
 第一轮的实质进展：复核了强烈的行／段位置效应；检验了行尾 `m` 的
 固定展开规则，发现 `r`、`l`、`iin` 等候选不能可靠区分；在控制每行
@@ -69,6 +68,7 @@
 - [第十一轮研究报告](notes/report-011-zh.md)
 - [第十二轮研究报告](notes/report-012-zh.md)
 - [第十三轮研究报告](notes/report-013-zh.md)
+- [第十四轮研究报告](notes/report-014-zh.md)
 - [标签与图像检查记录](notes/pharma-visual-review.md)
 - [最初实验设计](notes/experiment-001-design.md)
 - [上下文后续实验设计](notes/experiment-002-design.md)
@@ -133,6 +133,8 @@ g++ -O3 -std=c++17 -Wall -Wextra -o bin/component_search src/component_search.cp
 .venv/bin/python src/audit_variable_units_attack.py
 .venv/bin/python src/audit_variable_frequency.py
 .venv/bin/python src/audit_transcription_frequency.py
+.venv/bin/python -B src/audit_gap_inference.py calibration
+.venv/bin/python -B src/audit_gap_attack.py
 ```
 
 上述完整重建命令会重写各轮派生文件；复查现有冻结结果时只运行对应

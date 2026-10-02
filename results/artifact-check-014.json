@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "frozen_hash_checks": 188,
+  "new_artifact_hashes": 210,
+  "local_links_checked": 32,
+  "actual_languages_complete": [
+    "de",
+    "it"
+  ],
+  "calibration_restarts_audited": 96,
+  "actual_and_null_restarts_audited": 320,
+  "shuffles_audited": 18,
+  "global_renames_audited": 1998,
+  "goal_achieved": false,
+  "next_mechanism_review_scored": false
+}

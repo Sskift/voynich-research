@@ -1,0 +1,484 @@
+{
+  "status": "PASS",
+  "stage": "prepared_and_calibration",
+  "frozen_hashes": 127,
+  "prepared_hashes": 19,
+  "language_models": [
+    {
+      "language": "la",
+      "entries": 346200,
+      "ngram_totals": [
+        317996,
+        316086,
+        314176,
+        312266
+      ],
+      "maximum_log_probability_error": 0.0
+    },
+    {
+      "language": "de",
+      "entries": 732540,
+      "ngram_totals": [
+        202301,
+        202189,
+        202077,
+        201965
+      ],
+      "maximum_log_probability_error": 0.0
+    },
+    {
+      "language": "it",
+      "entries": 551880,
+      "ngram_totals": [
+        485774,
+        471541,
+        457308,
+        443075
+      ],
+      "maximum_log_probability_error": 0.0
+    }
+  ],
+  "reconstructed_reference_profiles": 192,
+  "regenerated_controls": 9,
+  "regenerated_control_rows": 6609,
+  "known_invariant_checks": 18,
+  "manuscript_loci": 1388,
+  "manuscript_training_glyphs": 127,
+  "primary_decisions": {
+    "la": {
+      "admitted": false,
+      "native_train_maximum": {
+        "numerator": 4621,
+        "denominator": 23721,
+        "value": 0.1948062897854222
+      },
+      "reference_ceiling": {
+        "numerator": 177,
+        "denominator": 1177,
+        "value": 0.1503823279524214
+      },
+      "reference_transfer_pass": false,
+      "whole_work_sensitivity_admitted": false,
+      "decoder_calibration": "PENDING",
+      "interpretation": "Only compatibility with frozen numerical envelope; no language identification"
+    },
+    "de": {
+      "admitted": true,
+      "native_train_maximum": {
+        "numerator": 4621,
+        "denominator": 23721,
+        "value": 0.1948062897854222
+      },
+      "reference_ceiling": {
+        "numerator": 1260,
+        "denominator": 6263,
+        "value": 0.201181542391825
+      },
+      "reference_transfer_pass": true,
+      "whole_work_sensitivity_admitted": false,
+      "decoder_calibration": "PENDING",
+      "interpretation": "Only compatibility with frozen numerical envelope; no language identification"
+    },
+    "it": {
+      "admitted": true,
+      "native_train_maximum": {
+        "numerator": 4621,
+        "denominator": 23721,
+        "value": 0.1948062897854222
+      },
+      "reference_ceiling": {
+        "numerator": 157,
+        "denominator": 782,
+        "value": 0.20076726342711
+      },
+      "reference_transfer_pass": true,
+      "whole_work_sensitivity_admitted": false,
+      "decoder_calibration": "PENDING",
+      "interpretation": "Only compatibility with frozen numerical envelope; no language identification"
+    }
+  },
+  "scope": "Independent prepared inputs, LM arrays, controls, every calibration restart/objective, MLE, selection and recovery metrics. No actual-fit/null audit or decipherment claim.",
+  "hashes": {
+    "src/audit_gap_inference.py": "bd5ac2339111ee44ce0b9f8eb3509658f650249476ed7bdad7cfe25f30db0b0e",
+    "data/gap-inference/input-freeze.json": "a92fcd6a6f0d6c609909db74f45e7b2a5e08fd73064d9fe0d89ae1bd381a6f67",
+    "data/gap-inference/prepared-manifest.json": "b691680fb95caa2cc383aa79609a04f1855089474cc13b507c1771333ef677fb",
+    "results/gap-inference/calibration-index.json": "def55f37ad5dc18276d237f4a7d426331902ea3f4458057b07553e6eedabff28"
+  },
+  "checked_calibration_conditions": 6,
+  "checked_fit_restarts": 96,
+  "solver_freeze_hashes": 42,
+  "maximum_training_objective_error": 1.199040866595169e-13,
+  "calibration_index": {
+    "la": {
+      "status": "NOT_FIT_GATE_REJECTED"
+    },
+    "de": {
+      "status": "PASS"
+    },
+    "it": {
+      "status": "PASS"
+    }
+  },
+  "calibration_checks": [
+    {
+      "language": "de",
+      "condition": "bijective",
+      "selected_restart": 0,
+      "passed": true,
+      "accuracy": {
+        "character_accuracy": 1.0,
+        "correct_characters": 20002,
+        "predictable_characters": 20002,
+        "total_characters": 20004,
+        "character_coverage": 0.9999000199960008,
+        "letter_accuracy": 1.0,
+        "correct_letters": 16608,
+        "predictable_letters": 16608,
+        "space_precision": 1.0,
+        "space_recall": 1.0,
+        "space_true_positives": 3394,
+        "space_false_positives": 0,
+        "space_false_negatives": 0,
+        "word_accuracy": 1.0,
+        "correct_words": 3058,
+        "complete_predictable_words": 3058,
+        "complete_true_words": 3060,
+        "complete_word_coverage": 0.9993464052287582,
+        "key_accuracy": 1.0
+      },
+      "coverage": {
+        "train": {
+          "physical_rows": 401,
+          "total_characters": 24001,
+          "masked_characters": 0,
+          "unseen_characters_including_masked": 0,
+          "unseen_unmasked_characters": 0,
+          "predictable_characters": 24001,
+          "predictable_fraction": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "predictable_letters": 19928,
+          "predictable_spaces": 4073
+        },
+        "test": {
+          "physical_rows": 334,
+          "total_characters": 20004,
+          "masked_characters": 0,
+          "unseen_characters_including_masked": 2,
+          "unseen_unmasked_characters": 2,
+          "predictable_characters": 20002,
+          "predictable_fraction": {
+            "numerator": 10001,
+            "denominator": 10002,
+            "value": 0.9999000199960008
+          },
+          "predictable_letters": 16608,
+          "predictable_spaces": 3394
+        }
+      },
+      "maximum_training_objective_error": 2.6645352591003757e-14
+    },
+    {
+      "language": "de",
+      "condition": "uniform127",
+      "selected_restart": 3,
+      "passed": true,
+      "accuracy": {
+        "character_accuracy": 0.9804009799510025,
+        "correct_characters": 19609,
+        "predictable_characters": 20001,
+        "total_characters": 20004,
+        "character_coverage": 0.9998500299940012,
+        "letter_accuracy": 0.9763954958752333,
+        "correct_letters": 16215,
+        "predictable_letters": 16607,
+        "space_precision": 1.0,
+        "space_recall": 1.0,
+        "space_true_positives": 3394,
+        "space_false_positives": 0,
+        "space_false_negatives": 0,
+        "word_accuracy": 0.8953222113182859,
+        "correct_words": 2737,
+        "complete_predictable_words": 3057,
+        "complete_true_words": 3060,
+        "complete_word_coverage": 0.9990196078431373,
+        "key_accuracy": 0.975
+      },
+      "coverage": {
+        "train": {
+          "physical_rows": 401,
+          "total_characters": 24001,
+          "masked_characters": 0,
+          "unseen_characters_including_masked": 0,
+          "unseen_unmasked_characters": 0,
+          "predictable_characters": 24001,
+          "predictable_fraction": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "predictable_letters": 19928,
+          "predictable_spaces": 4073
+        },
+        "test": {
+          "physical_rows": 334,
+          "total_characters": 20004,
+          "masked_characters": 0,
+          "unseen_characters_including_masked": 3,
+          "unseen_unmasked_characters": 3,
+          "predictable_characters": 20001,
+          "predictable_fraction": {
+            "numerator": 6667,
+            "denominator": 6668,
+            "value": 0.9998500299940012
+          },
+          "predictable_letters": 16607,
+          "predictable_spaces": 3394
+        }
+      },
+      "maximum_training_objective_error": 1.199040866595169e-13
+    },
+    {
+      "language": "de",
+      "condition": "tail127-position-mask",
+      "selected_restart": 0,
+      "passed": true,
+      "accuracy": {
+        "character_accuracy": 0.9903448275862069,
+        "correct_characters": 19386,
+        "predictable_characters": 19575,
+        "total_characters": 20004,
+        "character_coverage": 0.9785542891421716,
+        "letter_accuracy": 0.988864279561954,
+        "correct_letters": 16073,
+        "predictable_letters": 16254,
+        "space_precision": 1.0,
+        "space_recall": 0.9975910870219813,
+        "space_true_positives": 3313,
+        "space_false_positives": 0,
+        "space_false_negatives": 8,
+        "word_accuracy": 0.9677197802197802,
+        "correct_words": 2818,
+        "complete_predictable_words": 2912,
+        "complete_true_words": 3060,
+        "complete_word_coverage": 0.9516339869281045,
+        "key_accuracy": 0.9083333333333333
+      },
+      "coverage": {
+        "train": {
+          "physical_rows": 401,
+          "total_characters": 24001,
+          "masked_characters": 452,
+          "unseen_characters_including_masked": 0,
+          "unseen_unmasked_characters": 0,
+          "predictable_characters": 23549,
+          "predictable_fraction": {
+            "numerator": 23549,
+            "denominator": 24001,
+            "value": 0.9811674513561935
+          },
+          "predictable_letters": 19557,
+          "predictable_spaces": 3992
+        },
+        "test": {
+          "physical_rows": 334,
+          "total_characters": 20004,
+          "masked_characters": 427,
+          "unseen_characters_including_masked": 2,
+          "unseen_unmasked_characters": 2,
+          "predictable_characters": 19575,
+          "predictable_fraction": {
+            "numerator": 6525,
+            "denominator": 6668,
+            "value": 0.9785542891421716
+          },
+          "predictable_letters": 16254,
+          "predictable_spaces": 3321
+        }
+      },
+      "maximum_training_objective_error": 2.4868995751603507e-14
+    },
+    {
+      "language": "it",
+      "condition": "bijective",
+      "selected_restart": 0,
+      "passed": true,
+      "accuracy": {
+        "character_accuracy": 0.9999,
+        "correct_characters": 19998,
+        "predictable_characters": 20000,
+        "total_characters": 20000,
+        "character_coverage": 1.0,
+        "letter_accuracy": 0.9998795543510991,
+        "correct_letters": 16603,
+        "predictable_letters": 16605,
+        "space_precision": 1.0,
+        "space_recall": 1.0,
+        "space_true_positives": 3395,
+        "space_false_positives": 0,
+        "space_false_negatives": 0,
+        "word_accuracy": 0.999673309376021,
+        "correct_words": 3060,
+        "complete_predictable_words": 3061,
+        "complete_true_words": 3061,
+        "complete_word_coverage": 1.0,
+        "key_accuracy": 0.9565217391304348
+      },
+      "coverage": {
+        "train": {
+          "physical_rows": 400,
+          "total_characters": 24000,
+          "masked_characters": 0,
+          "unseen_characters_including_masked": 0,
+          "unseen_unmasked_characters": 0,
+          "predictable_characters": 24000,
+          "predictable_fraction": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "predictable_letters": 19964,
+          "predictable_spaces": 4036
+        },
+        "test": {
+          "physical_rows": 334,
+          "total_characters": 20000,
+          "masked_characters": 0,
+          "unseen_characters_including_masked": 0,
+          "unseen_unmasked_characters": 0,
+          "predictable_characters": 20000,
+          "predictable_fraction": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "predictable_letters": 16605,
+          "predictable_spaces": 3395
+        }
+      },
+      "maximum_training_objective_error": 7.105427357601002e-15
+    },
+    {
+      "language": "it",
+      "condition": "uniform127",
+      "selected_restart": 0,
+      "passed": true,
+      "accuracy": {
+        "character_accuracy": 0.9999,
+        "correct_characters": 19998,
+        "predictable_characters": 20000,
+        "total_characters": 20000,
+        "character_coverage": 1.0,
+        "letter_accuracy": 0.9998795543510991,
+        "correct_letters": 16603,
+        "predictable_letters": 16605,
+        "space_precision": 1.0,
+        "space_recall": 1.0,
+        "space_true_positives": 3395,
+        "space_false_positives": 0,
+        "space_false_negatives": 0,
+        "word_accuracy": 0.999673309376021,
+        "correct_words": 3060,
+        "complete_predictable_words": 3061,
+        "complete_true_words": 3061,
+        "complete_word_coverage": 1.0,
+        "key_accuracy": 0.991869918699187
+      },
+      "coverage": {
+        "train": {
+          "physical_rows": 400,
+          "total_characters": 24000,
+          "masked_characters": 0,
+          "unseen_characters_including_masked": 0,
+          "unseen_unmasked_characters": 0,
+          "predictable_characters": 24000,
+          "predictable_fraction": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "predictable_letters": 19964,
+          "predictable_spaces": 4036
+        },
+        "test": {
+          "physical_rows": 334,
+          "total_characters": 20000,
+          "masked_characters": 0,
+          "unseen_characters_including_masked": 0,
+          "unseen_unmasked_characters": 0,
+          "predictable_characters": 20000,
+          "predictable_fraction": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "predictable_letters": 16605,
+          "predictable_spaces": 3395
+        }
+      },
+      "maximum_training_objective_error": 6.705747068735946e-14
+    },
+    {
+      "language": "it",
+      "condition": "tail127-position-mask",
+      "selected_restart": 0,
+      "passed": true,
+      "accuracy": {
+        "character_accuracy": 0.9993891886389087,
+        "correct_characters": 19634,
+        "predictable_characters": 19646,
+        "total_characters": 20000,
+        "character_coverage": 0.9823,
+        "letter_accuracy": 0.9992647058823529,
+        "correct_letters": 16308,
+        "predictable_letters": 16320,
+        "space_precision": 1.0,
+        "space_recall": 1.0,
+        "space_true_positives": 3326,
+        "space_false_positives": 0,
+        "space_false_negatives": 0,
+        "word_accuracy": 0.9976166155941437,
+        "correct_words": 2930,
+        "complete_predictable_words": 2937,
+        "complete_true_words": 3061,
+        "complete_word_coverage": 0.9594903626265926,
+        "key_accuracy": 0.983739837398374
+      },
+      "coverage": {
+        "train": {
+          "physical_rows": 400,
+          "total_characters": 24000,
+          "masked_characters": 526,
+          "unseen_characters_including_masked": 0,
+          "unseen_unmasked_characters": 0,
+          "predictable_characters": 23474,
+          "predictable_fraction": {
+            "numerator": 11737,
+            "denominator": 12000,
+            "value": 0.9780833333333333
+          },
+          "predictable_letters": 19538,
+          "predictable_spaces": 3936
+        },
+        "test": {
+          "physical_rows": 334,
+          "total_characters": 20000,
+          "masked_characters": 354,
+          "unseen_characters_including_masked": 0,
+          "unseen_unmasked_characters": 0,
+          "predictable_characters": 19646,
+          "predictable_fraction": {
+            "numerator": 9823,
+            "denominator": 10000,
+            "value": 0.9823
+          },
+          "predictable_letters": 16320,
+          "predictable_spaces": 3326
+        }
+      },
+      "maximum_training_objective_error": 1.7763568394002505e-14
+    }
+  ]
+}

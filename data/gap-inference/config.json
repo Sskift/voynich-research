@@ -1,0 +1,178 @@
+{
+  "version": "018-v1",
+  "language_order": [
+    "la",
+    "de",
+    "it"
+  ],
+  "controls": [
+    "bijective",
+    "uniform127",
+    "tail127-position-mask"
+  ],
+  "seeds": {
+    "la": {
+      "base": 20261102,
+      "encoding": {
+        "bijective": 20261102,
+        "uniform127": 20261103,
+        "tail127-position-mask": 20261104
+      },
+      "calibrationfit": {
+        "bijective": 20261202,
+        "uniform127": 20261203,
+        "tail127-position-mask": 20261204
+      },
+      "actualfit": 20262102,
+      "nullshuffle": [
+        20263102,
+        20263103,
+        20263104,
+        20263105,
+        20263106,
+        20263107,
+        20263108,
+        20263109,
+        20263110
+      ],
+      "nullfit": [
+        20264102,
+        20264103,
+        20264104,
+        20264105,
+        20264106,
+        20264107,
+        20264108,
+        20264109,
+        20264110
+      ],
+      "perm": 20265102
+    },
+    "de": {
+      "base": 20271102,
+      "encoding": {
+        "bijective": 20271102,
+        "uniform127": 20271103,
+        "tail127-position-mask": 20271104
+      },
+      "calibrationfit": {
+        "bijective": 20271202,
+        "uniform127": 20271203,
+        "tail127-position-mask": 20271204
+      },
+      "actualfit": 20272102,
+      "nullshuffle": [
+        20273102,
+        20273103,
+        20273104,
+        20273105,
+        20273106,
+        20273107,
+        20273108,
+        20273109,
+        20273110
+      ],
+      "nullfit": [
+        20274102,
+        20274103,
+        20274104,
+        20274105,
+        20274106,
+        20274107,
+        20274108,
+        20274109,
+        20274110
+      ],
+      "perm": 20275102
+    },
+    "it": {
+      "base": 20281102,
+      "encoding": {
+        "bijective": 20281102,
+        "uniform127": 20281103,
+        "tail127-position-mask": 20281104
+      },
+      "calibrationfit": {
+        "bijective": 20281202,
+        "uniform127": 20281203,
+        "tail127-position-mask": 20281204
+      },
+      "actualfit": 20282102,
+      "nullshuffle": [
+        20283102,
+        20283103,
+        20283104,
+        20283105,
+        20283106,
+        20283107,
+        20283108,
+        20283109,
+        20283110
+      ],
+      "nullfit": [
+        20284102,
+        20284103,
+        20284104,
+        20284105,
+        20284106,
+        20284107,
+        20284108,
+        20284109,
+        20284110
+      ],
+      "perm": 20285102
+    }
+  },
+  "restarts": 16,
+  "cycles": 3,
+  "steps_per_cycle": 25000,
+  "polish": 100,
+  "temperature": [
+    0.02,
+    5e-05
+  ],
+  "emission_weight": 1,
+  "moves": {
+    "single_value": 0.8,
+    "swap_glyph_values": 0.15,
+    "global_character_rename": 0.05,
+    "single_value_frequency_weighted_fraction": 0.5
+  },
+  "randomized_initial_replacement_fraction": 0.3,
+  "null_trials": 9,
+  "permutations": 999,
+  "space_is_ordinary_character": true,
+  "paths": {
+    "manuscript": "data/gap-inference/manuscript.json",
+    "gate": "results/gap-inference/gate.json",
+    "languages": {
+      "la": {
+        "language": "data/gap-inference/la/language.json",
+        "model": "data/gap-inference/la/conditional.bin",
+        "controls": {
+          "bijective": "data/gap-inference/la/controls/bijective.json",
+          "uniform127": "data/gap-inference/la/controls/uniform127.json",
+          "tail127-position-mask": "data/gap-inference/la/controls/tail127-position-mask.json"
+        }
+      },
+      "de": {
+        "language": "data/gap-inference/de/language.json",
+        "model": "data/gap-inference/de/conditional.bin",
+        "controls": {
+          "bijective": "data/gap-inference/de/controls/bijective.json",
+          "uniform127": "data/gap-inference/de/controls/uniform127.json",
+          "tail127-position-mask": "data/gap-inference/de/controls/tail127-position-mask.json"
+        }
+      },
+      "it": {
+        "language": "data/gap-inference/it/language.json",
+        "model": "data/gap-inference/it/conditional.bin",
+        "controls": {
+          "bijective": "data/gap-inference/it/controls/bijective.json",
+          "uniform127": "data/gap-inference/it/controls/uniform127.json",
+          "tail127-position-mask": "data/gap-inference/it/controls/tail127-position-mask.json"
+        }
+      }
+    }
+  }
+}

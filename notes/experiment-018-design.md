@@ -84,6 +84,7 @@ SPACE. Restart0 keeps it; others randomly rename all output characters, and even
 restarts independently replace30%glyphvalues uniformly. Seed20261102pluslanguage
 index*10000, indicesLatin0/German1/Italian2, with separate frozen offsets for
 encoding, fitting, actualsearch, nulls. Select training likelihood only. Retain keys.
+Pythoninitialization uses numpydefault_rng(solver_seed+100000), before C++search.
 
 ## New known-cipher controls with hidden plaintext spaces
 
@@ -93,6 +94,9 @@ remaining words if shorter. No word overlap. Encode the intervening TRUEspaces
 as unknown cipher symbols just like letters. Cut physical rows at60cipherpositions,
 including inside words. False visible groups have uniform random lengths2..8
 within each row and carry no plaintext boundary meaning.
+The final visual group is truncated to remaining row length and can have length1.
+If the last physical row contains just one character, the tailcondition uses its
+first-position rule (first takes precedence over last).
 
 Three conditions per language:
 1. bijection: one code per output character, SPACEunknown too.
@@ -115,6 +119,9 @@ groups while keeping symbols/masks fixed leaves parsed segments and scores ident
 Every condition must achieve >=.95 predictable-character accuracy AND >=.95
 non-space letter accuracy AND SPACEprecision and recall both>=.95. Report keytype
 accuracy, coverage and complete-word recovery too; rare mappings can remain weak.
+All four recovery criteria apply to predictable positions; masked/unseen positions
+are excluded from SPACErecall as well as letteraccuracy, with their coverage
+reported separately. These conditional accuracies are not full-stream recovery.
 Words qualify only if their true bracketing spaces and all letters are predictable
 within the same physical row. A correct word requires letters AND both boundaries
 correct, with no interior predicted space. Never select restart by these metrics.

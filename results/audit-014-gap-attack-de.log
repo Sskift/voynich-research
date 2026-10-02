@@ -1,0 +1,168 @@
+{
+  "status": "PASS",
+  "audit": "Independent experiment018 actual fits and controls",
+  "meaning": "Arithmetic and integrity reproduction; not a translation or global-optimum certificate",
+  "model_boundary": "Uses saved P1..P4 arrays; independent source/LM/calibration audit is separate",
+  "scoring": "Every predicted position, without aggregate solver-gram likelihoods",
+  "audited_languages": [
+    "de"
+  ],
+  "verified_distinct_frozen_files": 151,
+  "verified_freezes": [
+    "data/gap-inference/input-freeze.json",
+    "data/gap-inference/prepared-manifest.json",
+    "results/gap-inference/de/solver-freeze.json"
+  ],
+  "reconstructed_native_loci": 1388,
+  "recomputed_training_objectives": 160,
+  "recomputed_global_renames": 999,
+  "results": [
+    {
+      "status": "PASS",
+      "language": "de",
+      "actual_fit": {
+        "name": "voynich",
+        "seed": 20272102,
+        "recomputed_objectives": 16,
+        "selected_restart": 10,
+        "maximum_objective_difference": 2.7977620220553945e-14
+      },
+      "null_fits": [
+        {
+          "name": "null-0",
+          "seed": 20274102,
+          "recomputed_objectives": 16,
+          "selected_restart": 6,
+          "maximum_objective_difference": 4.529709940470639e-14
+        },
+        {
+          "name": "null-1",
+          "seed": 20274103,
+          "recomputed_objectives": 16,
+          "selected_restart": 14,
+          "maximum_objective_difference": 3.375077994860476e-14
+        },
+        {
+          "name": "null-2",
+          "seed": 20274104,
+          "recomputed_objectives": 16,
+          "selected_restart": 0,
+          "maximum_objective_difference": 4.263256414560601e-14
+        },
+        {
+          "name": "null-3",
+          "seed": 20274105,
+          "recomputed_objectives": 16,
+          "selected_restart": 7,
+          "maximum_objective_difference": 6.572520305780927e-14
+        },
+        {
+          "name": "null-4",
+          "seed": 20274106,
+          "recomputed_objectives": 16,
+          "selected_restart": 13,
+          "maximum_objective_difference": 4.1744385725905886e-14
+        },
+        {
+          "name": "null-5",
+          "seed": 20274107,
+          "recomputed_objectives": 16,
+          "selected_restart": 12,
+          "maximum_objective_difference": 5.1514348342607263e-14
+        },
+        {
+          "name": "null-6",
+          "seed": 20274108,
+          "recomputed_objectives": 16,
+          "selected_restart": 0,
+          "maximum_objective_difference": 4.085620730620576e-14
+        },
+        {
+          "name": "null-7",
+          "seed": 20274109,
+          "recomputed_objectives": 16,
+          "selected_restart": 6,
+          "maximum_objective_difference": 5.062616992290714e-14
+        },
+        {
+          "name": "null-8",
+          "seed": 20274110,
+          "recomputed_objectives": 16,
+          "selected_restart": 15,
+          "maximum_objective_difference": 4.618527782440651e-14
+        }
+      ],
+      "recomputed_training_objectives": 160,
+      "checked_restart_16P_metrics": 16,
+      "regenerated_shuffle_pairs": 9,
+      "recomputed_global_renames": 999,
+      "permutations_moving_space": 974,
+      "checked_mechanical_output_rows": 1388,
+      "key_diagnostics": {
+        "unique_keys": 16,
+        "top_restarts": [
+          10,
+          7
+        ],
+        "top_objective_gap": 0.00434973284370388,
+        "different_glyph_types": 95,
+        "different_training_positions": 9311,
+        "training_positions": 23721,
+        "scope": "Post-fit description; no restart reselection or global-optimum claim"
+      },
+      "metrics": {
+        "train": {
+          "objective": -3.7644226338279334,
+          "language_per_character": -3.149727400084839,
+          "emission_per_character": -0.6146952337430946,
+          "predicted_characters": 23721,
+          "segments": 980,
+          "predicted_spaces": 3275,
+          "space_fraction": 0.13806331942160954,
+          "adjacent_space_pairs": 13,
+          "complete_predicted_words": 2323,
+          "word_hits": 762,
+          "word_hit_fraction": 0.3280241067585019,
+          "complete_predicted_words_ge3": 1499,
+          "word_hits_ge3": 160,
+          "word_hit_fraction_ge3": 0.1067378252168112
+        },
+        "development": {
+          "objective": -3.772032263467495,
+          "language_per_character": -3.1815060644578894,
+          "emission_per_character": -0.5905261990096053,
+          "predicted_characters": 4646,
+          "segments": 189,
+          "predicted_spaces": 616,
+          "space_fraction": 0.13258717176065432,
+          "adjacent_space_pairs": 4,
+          "complete_predicted_words": 430,
+          "word_hits": 138,
+          "word_hit_fraction": 0.3209302325581395,
+          "complete_predicted_words_ge3": 280,
+          "word_hits_ge3": 32,
+          "word_hit_fraction_ge3": 0.11428571428571428
+        },
+        "reserve": {
+          "objective": -3.925686845793308,
+          "language_per_character": -3.3396778132225027,
+          "emission_per_character": -0.5860090325708054,
+          "predicted_characters": 9272,
+          "segments": 251,
+          "predicted_spaces": 802,
+          "space_fraction": 0.0864969801553063,
+          "adjacent_space_pairs": 2,
+          "complete_predicted_words": 564,
+          "word_hits": 74,
+          "word_hit_fraction": 0.13120567375886524,
+          "complete_predicted_words_ge3": 474,
+          "word_hits_ge3": 15,
+          "word_hit_fraction_ge3": 0.03164556962025317
+        }
+      },
+      "attack_sha256": "c7a450f326d5b30bc45eb8ffe47ab547e483c6cc3c4e16591e0a6731a45f4b69",
+      "decoded_sha256": "b0a8e4350f7160b0ecd0a3038fd2beda413f7aed902b90679c3db933b7ae8fe4"
+    }
+  ],
+  "auditor_sha256": "d52e68539f9b9ee84b118245bc47d989283154e09bec33cf38280eec5026ea75"
+}

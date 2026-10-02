@@ -1,23 +1,31 @@
 # Continuation state
 
 Objective: 试着破解伏尼契手稿. Goal remains ACTIVE; not achieved or blocked.
-Last completed work classified as PROGRESS: experiment017 applied the same016
-frequency bound to all72frozen GC/ZL/IT, spacing, scope and split combinations.
-All72conflict with the prespecified empirical Latin envelopes. PrimaryZL lower
-1.13930345 > upper1.04068307. Independentraw-source/prefixaudit PASS; report013.
-No language/phonetics/connected reading established; goal remains active.
-Current active research: experiment018 protocol written before new source-plus-
-SPACE counts. NativeGC symbols each emit one letter OR SPACE; visible gaps ignored,
-unknowns/physicalrows cut context. All candidate language gates/newhidden-space
-controls must be prepared/frozen before fits. GenericnewC++solver has synthetic
-selfcheckPASS; input preparation and Pythonrunner implemented but not run. The018
-inputfreeze has NOT yet been created. NO018source counts/calibration/actualfits yet.
-Two subagents assisted proof/audits/implementation.
-Preserve all010–017frozeninputs/code/results; f49v remains UNSCORED.
+Last completed work classified as PROGRESS: experiment018 COMPLETED. New hidden-
+SPACE controls passed for German and Italian; BOTH actual GCfits,18samebudget
+shuffles,1998globalrenames and independent audits completed. Still no verified
+connected reading. Goal remains ACTIVE, not achieved or blocked.
+127input hashes before source counts;19prepared hashes; two21hash solver freezes.
+Primary gate: native.19480629; la ceiling.15038233 rejects and falsely rejects known
+Cicero bijective/train; de.20118154/it.20076726 admit with control transferPASS.
+Whole-work sensitivity rejects native for ALL3; neither gate identifies a language.
+All6selectedde/itcontrols meet >=.95character/letter/SPACEprecision/recall. German
+uniform127wordaccuracy89.53% is a separately reported weakness. Conditional
+accuracies exclude unknown/masked positions; coverage is separate.
+16P >=3letter sourcewordhits: de15/474=3.1646%,it93/800=11.625%, versus calibrated
+controls53.51–55.90% and73.84–73.90%. Top2keys differ on39.25%/48.15%trainingtokens.
+Actualobjectives -3.92568685/-3.64211968, nullmeans -5.41442188/-5.76167011;
+bothshufflep.1,renamep.001. Do not compare raw language scores or call this reading.
+All018processes completed exit0, including calibrate83300 and attack76519. No live
+research process to resume. Source/LM/calibrationaudit and bothactualauditsPASS.
+Next: develop/freeze a mechanism test of cross-word information and local similar-
+word dependence, with cross-work encrypted prose and copy-generator controls.
+notes/experiment-018-followup-review.md is a proposal ONLY, not frozen019; no new
+manuscript scores for it. Do not merely extend mapping freedom or repair pseudowords.
+Preserve all010–018frozeninputs/code/results; f49v remains UNSCORED.
 GitHubprivate repository: https://github.com/Sskift/voynich-research, main.
-Initial snapshot through016 is d4b8db3. This checkpoint adds completed017 and
-unfinished018 preparation; use git log for its commit ID. The user explicitly
-authorized repository creation and pushing current progress.
+Initial016snapshot d4b8db3;017/pre018snapshot62c5deb. This checkpoint adds completed
+018. Use git log for its commit ID. Repository creation/push explicitly authorized.
 
 ## Current results
 
@@ -30,10 +38,29 @@ authorized repository creation and pushing current progress.
 - `notes/experiment-016-report-correction.md` and
   `notes/experiment-016-transfer-clarification.md`: qualify the endpoint witness
   and empirical control-transfer interpretation without changing016numerical results.
-- `notes/experiment-018-design.md`, `src/gap_inputs.py`, `src/gap_inference.py`,
-  `src/gap_search.cpp`, `bin/gap_search`: PREPARATION ONLY, no language gates or fits.
-  `results/gap-inference/solver-selfcheck.json`: pure synthetic numeric selfcheckPASS,
-  505blackbox scores and64production-budget cachechecks; no recovery claim.
+- `notes/report-014-zh.md`: COMPLETED018, new hiddenSPACEcalibration, actual
+  German/ItalianGCfits and9shufflesperlanguage. No connected reading.
+- `data/gap-inference/input-freeze.json`:127hashes;prepared-manifest19outputs.
+  Preserve src/gap_inputs.py,gap_inference.py,gap_search.cpp,bin/gap_search and018
+  protocol. SPACE ordinary output, visual gaps ignored, no nulls/expansion/repair.
+- `results/gap-inference/calibration-index.json`:laNOT_FIT_GATE_REJECTED,de/itPASS.
+  decharacter100/98.0401/99.0345%;SPACEP100%,recall100/100/99.7591%;
+  itcharacter99.99/99.99/99.9389%,allSPACEP/R100%. Threeconditions shareonework
+  perlanguage; oldknowncorpora reused. Brant->Tepl andDante->Boccaccio.
+- `results/gap-inference/{de,it}/attack.json`:bothcomplete.16P9272seenatoms,
+  4unseenknownatoms+31unknownwords breakcontext. Allpagesdevelopment.
+  deSPACE802/9272=8.65%,word74/564=13.12%;itSPACE1543/9272=16.64%,word574/1291=44.46%.
+  >=3letter15/474=3.16% and93/800=11.63%. All16keysdistinctperlanguage; top2glyph
+  disagreement95/127 and78/127; weighted9311/23721 and11422/23721.
+- `results/audit-014-gap-calibration.json`:PASS127input+19preparedhashes,1630620LM
+  values,error0;192profiles;9controlciphers6609rows,18invariants,1388rawGCloci;
+  96calibrationrestarts,maxobjectiveerror1.20e-13,42perlanguagesolverfreezechecks.
+- `results/audit-014-gap-attack-de.json` and`...-it.json`:PASS151distinctfrozenfiles
+  each,160objectivechecks each,9shufflepairs each,999renames each,all1388outputs
+  each. ActualauditusesperpositionP1..P4, notproductionaggregateobjective.
+- `notes/experiment-018-followup-review.md`:unscored proposal. New archived Reddy/
+  Knight2011PDF andTimm/SchinnerrepositoryREADME+MITlicense onlyforfollowup;
+  data/experiment-018-followup-sources.json pinsrepoa6ede22. No generatorcode run.
 - `notes/report-001-zh.md`: line/paragraph-position baselines and ambiguous m expansion.
 - `notes/report-002-zh.md`: labels and externally proposed picture matches.
 - `notes/report-003-zh.md`: fixed boundary-rule search and label position controls.
@@ -449,17 +476,16 @@ All72prespecified conditions reject. Do not repackage it as a pending task or
 select a source/spacing subset by desirable scores. Neither016nor017excludes all
 Latin. Keep016report condition and transfer clarifications linked fromreport013.
 
-Current next execution is018, notes/experiment-018-design.md. Review/freeze the
-implemented source-plus-SPACE gate, hiddenSPACEcontrols and glyph->letter/SPACEsolver.
-Before execution, add verification of prepared-manifest.json derived-file hashes
-to the runner, which currently verifies only the input-freeze hash map.
-The genuine new assumption is that observed word gaps need not be plaintextgaps.
-No null outputs, collapsing spaces, context-dependent values or word repairs.
-GC is fixed before gates; source-only Latin/German/Italian references exclude
-controlworks. Fit EVERY gate-admitted+decoder-calibrated language at samebudget,
-then complete9samebudgetshuffled fits per language and independent audits.
-At this checkpoint, code is implemented but not run; no018referencecounts or fits.
-
+The hiddenSPACEfixed-output route is now COMPLETED (018), including both admitted
+languages, allnullfits and independentaudits. It did not establish plaintext or
+language. Do not repeat these fits as progress or choose the better raw LMscore.
+Current next step: turn notes/experiment-018-followup-review.md into a fully fixed
+protocol BEFORE newscores. It asks whether cross-word order or local near-copy
+structure has detectable, transferable information after position/length/word-
+frequency controls. First require discrimination on ordinary encrypted cross-work
+prose and a specified copy-generator control; failed calibration means the statistic
+cannot support interpretation. This is NOT a proof of meaninglessness or copying.
+Do not select windows/smoothing/cipherfamily by manuscript effect sizes.
 Do not consume f49v to select a model. AlloldH/P/f1rpages remain development.
 Goalcompletion still requires independently supported connected readings and
 predictions beyond fitted text, not numeric scores, apparentwords or greenaudits.

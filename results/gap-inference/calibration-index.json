@@ -1,0 +1,11 @@
+{
+  "la": {
+    "status": "NOT_FIT_GATE_REJECTED"
+  },
+  "de": {
+    "status": "PASS"
+  },
+  "it": {
+    "status": "PASS"
+  }
+}
