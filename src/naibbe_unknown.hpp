@@ -1,4 +1,4 @@
-// Experiment022 draft shared types; decoder/search are not implemented yet.
+// Experiment022 shared types; protocol must be frozen before real experiments.
 // Public structural oracle, never a true key file.
 #pragma once
 #include <algorithm>
@@ -66,41 +66,56 @@ struct Decoded {std::vector<DecodedRow> rows;double score=0;long long max_states
 
 inline Inventory read_inventory(const std::string&path){
  std::ifstream f(path);need(bool(f),"Cannot open public inventory");
- Inventory in;int n;f>>in.G>>in.duplicate;need(in.G>0&&in.G<=S,"Invalid inventory G");
+ Inventory in;int n=0;need(bool(f>>in.G>>in.duplicate),"Truncated inventory header");
+ need(in.G==S-1&&in.duplicate>=0&&in.duplicate<137,"Invalid inventory shape");
  in.role.resize(in.G);in.multiplicity.resize(in.G);
- for(int g=0;g<in.G;g++)f>>in.role[g]>>in.multiplicity[g];
- f>>n;need(n>=0&&n<=S*S,"Invalid forbidden count");
- for(int i=0;i<n;i++){int p,s;f>>p>>s;need(p>=0&&p<in.G&&s>=0&&s<in.G&&in.role[p]==1&&in.role[s]==2,"Invalid forbidden pair");in.forbidden.emplace_back(p,s);}
- need(bool(f),"Truncated inventory");
+ for(int g=0;g<in.G;g++){
+  need(bool(f>>in.role[g]>>in.multiplicity[g]),"Truncated inventory atom");
+  need(in.role[g]==(g<137?0:(g<275?1:2)),"Invalid canonical role order");
+  need(in.multiplicity[g]==(g==in.duplicate?2:1),"Invalid atom multiplicity");
+ }
+ need(bool(f>>n)&&n>=0&&n<=138*138,"Invalid forbidden count");
+ for(int i=0;i<n;i++){
+  int p=-1,s=-1;need(bool(f>>p>>s),"Truncated forbidden pair");
+  need(p>=0&&p<in.G&&s>=0&&s<in.G&&in.role[p]==1&&in.role[s]==2,"Invalid forbidden pair");
+  in.forbidden.emplace_back(p,s);
+ }
  std::set<std::pair<int,int>> unique(in.forbidden.begin(),in.forbidden.end());need(unique.size()==in.forbidden.size(),"Repeated forbidden pair");
+ std::string extra;need(!(f>>extra),"Extra inventory content");
  return in;
 }
 inline Lattice read_lattice(const std::string&path,const Inventory&in){
  std::ifstream f(path);need(bool(f),"Cannot open observation lattice");
- int n;f>>n;need(n>0&&n<100000,"Invalid row count");Lattice out;
+ int n=0;need(bool(f>>n)&&n>0&&n<=4096,"Invalid row count");Lattice out;
  for(int i=0;i<n;i++){
-  Row row;int e;f>>row.positions>>row.tokens>>e;
-  need(row.positions>1&&row.tokens>0&&e>0,"Invalid lattice row");
+  Row row;int e=0;need(bool(f>>row.positions>>row.tokens>>e),"Truncated lattice row");
+  need(row.positions>1&&row.positions<=100000&&row.tokens>0&&row.tokens<row.positions&&e>0&&e<=2000000,"Invalid lattice row");
   for(int j=0;j<e;j++){
-   Edge edge;f>>edge.from>>edge.to>>edge.first>>edge.second>>edge.token>>edge.constant;
+   Edge edge;need(bool(f>>edge.from>>edge.to>>edge.first>>edge.second>>edge.token>>edge.constant),"Truncated lattice edge");
    need(edge.from>=0&&edge.to>edge.from&&edge.to<row.positions&&edge.first>=0&&edge.first<in.G,"Invalid lattice edge");
-   need(edge.token>=0&&edge.token<row.tokens&&std::isfinite(edge.constant),"Invalid edge metadata");
+   need(edge.token>=0&&edge.token<row.tokens&&std::isfinite(edge.constant)&&edge.constant<=0,"Invalid edge metadata");
    need((edge.second==-1&&in.role[edge.first]==0)||(edge.second>=0&&edge.second<in.G&&in.role[edge.first]==1&&in.role[edge.second]==2),"Invalid U/PS roles");
    row.edges.push_back(edge);
   }
   out.rows.push_back(std::move(row));
  }
- need(bool(f),"Truncated lattice");return out;
+ std::string extra;need(!(f>>extra),"Extra lattice content");return out;
 }
 inline Model read_model(const std::string&path){
  Model m;m.logp.resize(24*24*24);std::ifstream f(path,std::ios::binary);
  f.read(reinterpret_cast<char*>(m.logp.data()),m.logp.size()*sizeof(double));need(bool(f),"Truncated model");
  for(double x:m.logp)need(std::isfinite(x)&&x<=0,"Invalid model log probability");
+ need(f.peek()==std::char_traits<char>::eof(),"Extra model content");
+ for(int h=0;h<H;h++){
+  double total=0;for(int c=0;c<24;c++)total+=std::exp(m.at(h,c));
+  need(std::abs(total-1)<1e-10,"Unnormalized model row");
+ }
  return m;
 }
 inline Key read_key(const std::string&path,const Inventory&in){
  Key k;std::ifstream f(path);for(int &g:k.slots)f>>g;
- need(bool(f)&&k.rebuild(in),"Invalid supplied candidate slots");return k;
+ need(bool(f)&&k.rebuild(in),"Invalid supplied candidate slots");
+ std::string extra;need(!(f>>extra),"Extra key content");return k;
 }
 inline double edge_channel(const Edge&e,const Key&k){
  double score=e.constant+k.atom_log(e.first);

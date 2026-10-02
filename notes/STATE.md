@@ -7,15 +7,26 @@ Previous goal turn classified as PROGRESS: primary Naibbe codebook review and
 independent boundary-ambiguity witness were archived and pushed as8b77964.
 No verified connected reading, phonetic value, word meaning or language identified.
 
-Current022 draft checkpoint (2026-10-02): src/naibbe_private_keys.py implements
-complete-six-table random keys, preserving role multiplicities and rejecting
-whole proposals with unsupported plaintext pairs. Its synthetic self_check PASS;
-independent read-only review found no blocker. No actual author-derived private
-keys, ciphertext or recovery scores were generated. src/naibbe_unknown.hpp is
-only shared types/channel helpers and declarations; decoder, optimizer and staged
-pipeline are not implemented. C++17 header syntax check passes; this is not a
-linked solver test. Protocol, budgets and gates remain unfrozen. See
-notes/experiment-022-draft-progress.md. Preserve all021 frozen artifacts.
+Current022 (2026-10-02): complete six-table unknown-group/key implementation and
+protocol now frozen in data/naibbe-unknown/input-freeze.json (28 inputs).
+freeze21648 terminal exit0. No actual private keys/ciphertexts/fits generated yet
+at this pre-generation checkpoint. Sources/normalization/LM same as021; each
+Cicero/Boccaccio source first256x128 cipher-fit, next64x128 heldout A/B32 each;
+3 private keys/language, paired preserved/.03drop =12 separate fit conditions.
+Declared structural oracles; no true homophone groups or mapping. Genuine private
+key/encoder seeds drawn only after freeze. 12restarts x3rounds x20000proposals/case;
+all selected keys frozen before heldout predictions, all predictions frozen before
+truth/oracle scoring.24primary gates: coverage100%, char>=99%, exactrow>=80%.
+Score is with-replacement MAX ATOM PATH, differs from021 semantic-edge aggregation;
+true-key reference only after unknown predictions. No native scoring authorized.
+Pure synthetic checks PASS:19848incremental candidates/max6.59e-12, indirectZ,
+330dar letter/tablepair configurations, decoder exhaustive/ASan/UBSan checks;
+Python/C++ interface37checks/max2.50e-12,9corrupt inputs and overwrite rejected.
+Production modules src/naibbe_{private_keys,unknown_inputs,unknown,unknown_check}.py,
+src/naibbe_unknown.hpp,src/naibbe_unknown_{decode,search}.cpp,bin/naibbe_unknown
+and notes/experiment-022-design.md are now frozen; do not modify. Preserve021 too.
+Earlier b9e0e89 saved the initial draft only; notes/experiment-022-draft-progress.md
+records that historical state. Next: push this freeze before prepare, then run fits.
 
 Current021: protocol/code21input hashes frozen and pushed as a446dde BEFORE
 preparation. prepare75000,predict36620,score80845 all terminal exit0.44prepared
