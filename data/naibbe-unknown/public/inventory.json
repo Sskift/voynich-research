@@ -1,0 +1,2597 @@
+{
+  "G": 413,
+  "atoms": [
+    {
+      "role": 0,
+      "glyph": "aiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "ain",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "air",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "al",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "am",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "ar",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "chckhey",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "chckhy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "chdy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "chedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "cheedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "cheey",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "cheol",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "chey",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "chol",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "chor",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "daiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "dain",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "dair",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "dal",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "dam",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "dar",
+      "multiplicity": 2
+    },
+    {
+      "role": 0,
+      "glyph": "dy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "lchedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "lchey",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "lkaiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "lkain",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "okaiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "okain",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "okal",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "okar",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "okchdy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "okchedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "okchey",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "okchy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "okdy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "okedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "okeedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "okeeedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "okeey",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "okey",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "okol",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "okor",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "oky",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "ol",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "olkaiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "olkain",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "olkal",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "olkar",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "olkchdy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "olkchedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "olkchey",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "olkchy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "olkdy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "olkedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "olkeedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "olkeeedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "olkeey",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "olkey",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "olkol",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "olkor",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "olky",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "or",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "otaiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "otain",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "otal",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "otar",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "otchdy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "otchedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "otchey",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "otchy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "otdy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "otedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "oteedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "oteeedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "oteey",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "otey",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "otol",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "otor",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "oty",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qokaiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qokain",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qokal",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qokar",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qokchdy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qokchedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qokchey",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qokchy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qokdy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qokedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qokeedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qokeeedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qokeey",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qokey",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qokol",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qokor",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qoky",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qol",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qotaiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qotain",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qotal",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qotar",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qotchdy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qotchedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qotchey",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qotchy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qotdy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qotedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qoteedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qoteeedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qoteey",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qotey",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qotol",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qotor",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "qoty",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "raiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "saiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "sain",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "sar",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "shaiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "shain",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "shal",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "shar",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "shckhy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "sheckhy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "shedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "sheedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "sheeey",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "sheey",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "sheody",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "sheol",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "shey",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "shody",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "shol",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "shor",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "shy",
+      "multiplicity": 1
+    },
+    {
+      "role": 0,
+      "glyph": "y",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "aiiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "aiir",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "ail",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "air",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "al",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "aly",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "ar",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "ary",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "ch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "chcfh",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "chckh",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "chcph",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "chcth",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "ckh",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "cph",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "cth",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "d",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "da",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "daiir",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "dair",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "dal",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "daly",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "dar",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "dary",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "dch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "dk",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "dl",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "do",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "dol",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "dor",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "dsh",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "dyk",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "dyt",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "es",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "f",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "fch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "k",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "kch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "ksh",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "l",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "lch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "lfch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "lk",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "lkch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "lpch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "ls",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "lsh",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "lt",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "ly",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "o",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "och",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "ockh",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "octh",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "od",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "ody",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "of",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "ofch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "oiiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "oiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "ok",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "okch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "oksh",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "ol",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "olch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "olk",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "olpch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "ols",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "olsh",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "olt",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "oly",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "om",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "op",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "opch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "opsh",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "or",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "orch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "ory",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "os",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "osh",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "ot",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "otch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "otsh",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "p",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "pch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "psh",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "q",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "qo",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "qoch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "qockh",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "qocth",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "qofch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "qok",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "qokch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "qoksh",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "qol",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "qolch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "qolk",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "qolsh",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "qop",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "qopch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "qor",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "qot",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "qotch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "qotsh",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "r",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "rch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "rsh",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "ry",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "s",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "sair",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "sal",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "sar",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "sch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "sh",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "shckh",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "shcth",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "sk",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "so",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "soiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "sok",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "sol",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "solch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "solk",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "sor",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "ssh",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "sy",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "t",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "tch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "tsh",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "x",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "y",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "ych",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "yk",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "ykch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "ypch",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "ysh",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "yt",
+      "multiplicity": 1
+    },
+    {
+      "role": 1,
+      "glyph": "ytch",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "a",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "ady",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "aiiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "aiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "aiir",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "aiis",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "ail",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "aim",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "ain",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "air",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "ais",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "al",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "als",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "alsy",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "aly",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "am",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "an",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "ar",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "ary",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "as",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "ch",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "d",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "daiiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "daiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "dain",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "dair",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "dal",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "daly",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "dam",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "dar",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "dl",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "do",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "dol",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "dor",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "dy",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "e",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eaiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eain",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eal",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "ealy",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eam",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "ear",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "ed",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eda",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "edaiiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "edaiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "edain",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "edair",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "edal",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "edam",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "edar",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "edo",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "edol",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "edor",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eds",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "edy",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "ee",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eeaiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eeal",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eeam",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eear",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eed",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eedaiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eedain",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eedal",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eedam",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eedar",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eedo",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eeed",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eeedy",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eeeo",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eeeody",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eeeos",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eees",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eeey",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eel",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eeo",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eeod",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eeody",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eeol",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eeor",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eeos",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eeoy",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eer",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "ees",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eesy",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eey",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eo",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eod",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eody",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eol",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eols",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eoly",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eom",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eor",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eory",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eos",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "eoy",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "er",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "ery",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "es",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "esy",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "ey",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "g",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "iiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "iin",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "iir",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "in",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "l",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "m",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "o",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "od",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "ody",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "oiiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "oiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "oin",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "ok",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "ol",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "ols",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "oly",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "om",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "or",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "ory",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "os",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "osy",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "oy",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "r",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "ry",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "s",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "saiin",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "sairy",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "sd",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "sdy",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "sy",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "y",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "yl",
+      "multiplicity": 1
+    },
+    {
+      "role": 2,
+      "glyph": "yr",
+      "multiplicity": 1
+    }
+  ],
+  "duplicate": 21,
+  "forbidden": [
+    [
+      145,
+      309
+    ],
+    [
+      145,
+      330
+    ],
+    [
+      145,
+      343
+    ],
+    [
+      145,
+      362
+    ],
+    [
+      145,
+      366
+    ],
+    [
+      145,
+      378
+    ],
+    [
+      145,
+      393
+    ],
+    [
+      145,
+      397
+    ],
+    [
+      147,
+      378
+    ],
+    [
+      147,
+      410
+    ],
+    [
+      153,
+      278
+    ],
+    [
+      153,
+      283
+    ],
+    [
+      153,
+      284
+    ],
+    [
+      153,
+      286
+    ],
+    [
+      153,
+      290
+    ],
+    [
+      153,
+      292
+    ],
+    [
+      153,
+      410
+    ],
+    [
+      154,
+      381
+    ],
+    [
+      154,
+      383
+    ],
+    [
+      154,
+      384
+    ],
+    [
+      154,
+      385
+    ],
+    [
+      154,
+      402
+    ],
+    [
+      177,
+      330
+    ],
+    [
+      177,
+      378
+    ],
+    [
+      179,
+      278
+    ],
+    [
+      179,
+      283
+    ],
+    [
+      186,
+      384
+    ],
+    [
+      186,
+      402
+    ],
+    [
+      196,
+      278
+    ],
+    [
+      196,
+      283
+    ],
+    [
+      196,
+      286
+    ],
+    [
+      196,
+      292
+    ],
+    [
+      196,
+      309
+    ],
+    [
+      196,
+      330
+    ],
+    [
+      196,
+      343
+    ],
+    [
+      196,
+      345
+    ],
+    [
+      196,
+      362
+    ],
+    [
+      196,
+      378
+    ],
+    [
+      196,
+      393
+    ],
+    [
+      196,
+      397
+    ],
+    [
+      196,
+      410
+    ],
+    [
+      197,
+      309
+    ],
+    [
+      197,
+      330
+    ],
+    [
+      197,
+      378
+    ],
+    [
+      197,
+      410
+    ],
+    [
+      201,
+      278
+    ],
+    [
+      201,
+      283
+    ],
+    [
+      201,
+      286
+    ],
+    [
+      201,
+      292
+    ],
+    [
+      201,
+      309
+    ],
+    [
+      201,
+      330
+    ],
+    [
+      201,
+      343
+    ],
+    [
+      201,
+      345
+    ],
+    [
+      201,
+      362
+    ],
+    [
+      201,
+      378
+    ],
+    [
+      201,
+      393
+    ],
+    [
+      201,
+      397
+    ],
+    [
+      201,
+      410
+    ],
+    [
+      216,
+      278
+    ],
+    [
+      216,
+      283
+    ],
+    [
+      216,
+      286
+    ],
+    [
+      216,
+      292
+    ],
+    [
+      216,
+      309
+    ],
+    [
+      216,
+      330
+    ],
+    [
+      216,
+      343
+    ],
+    [
+      216,
+      345
+    ],
+    [
+      216,
+      362
+    ],
+    [
+      216,
+      378
+    ],
+    [
+      216,
+      393
+    ],
+    [
+      216,
+      397
+    ],
+    [
+      216,
+      410
+    ],
+    [
+      217,
+      309
+    ],
+    [
+      217,
+      330
+    ],
+    [
+      217,
+      378
+    ],
+    [
+      217,
+      410
+    ],
+    [
+      222,
+      393
+    ],
+    [
+      223,
+      384
+    ],
+    [
+      228,
+      278
+    ],
+    [
+      228,
+      283
+    ],
+    [
+      228,
+      286
+    ],
+    [
+      228,
+      292
+    ],
+    [
+      228,
+      309
+    ],
+    [
+      228,
+      330
+    ],
+    [
+      228,
+      343
+    ],
+    [
+      228,
+      345
+    ],
+    [
+      228,
+      362
+    ],
+    [
+      228,
+      378
+    ],
+    [
+      228,
+      393
+    ],
+    [
+      228,
+      397
+    ],
+    [
+      228,
+      410
+    ],
+    [
+      229,
+      309
+    ],
+    [
+      229,
+      330
+    ],
+    [
+      229,
+      378
+    ],
+    [
+      229,
+      410
+    ],
+    [
+      238,
+      278
+    ],
+    [
+      238,
+      283
+    ],
+    [
+      238,
+      286
+    ],
+    [
+      238,
+      292
+    ],
+    [
+      238,
+      309
+    ],
+    [
+      238,
+      330
+    ],
+    [
+      238,
+      343
+    ],
+    [
+      238,
+      345
+    ],
+    [
+      238,
+      362
+    ],
+    [
+      238,
+      378
+    ],
+    [
+      238,
+      393
+    ],
+    [
+      238,
+      397
+    ],
+    [
+      238,
+      410
+    ],
+    [
+      239,
+      309
+    ],
+    [
+      239,
+      330
+    ],
+    [
+      239,
+      378
+    ],
+    [
+      239,
+      410
+    ],
+    [
+      241,
+      278
+    ],
+    [
+      245,
+      278
+    ],
+    [
+      245,
+      283
+    ],
+    [
+      245,
+      292
+    ],
+    [
+      250,
+      278
+    ],
+    [
+      250,
+      283
+    ],
+    [
+      250,
+      286
+    ],
+    [
+      250,
+      292
+    ],
+    [
+      250,
+      330
+    ],
+    [
+      250,
+      343
+    ],
+    [
+      250,
+      350
+    ],
+    [
+      250,
+      362
+    ],
+    [
+      250,
+      365
+    ],
+    [
+      250,
+      366
+    ],
+    [
+      250,
+      378
+    ],
+    [
+      250,
+      388
+    ],
+    [
+      250,
+      393
+    ],
+    [
+      250,
+      397
+    ],
+    [
+      250,
+      410
+    ],
+    [
+      251,
+      410
+    ]
+  ]
+}

@@ -9,8 +9,14 @@ No verified connected reading, phonetic value, word meaning or language identifi
 
 Current022 (2026-10-02): complete six-table unknown-group/key implementation and
 protocol now frozen in data/naibbe-unknown/input-freeze.json (28 inputs).
-freeze21648 terminal exit0. No actual private keys/ciphertexts/fits generated yet
-at this pre-generation checkpoint. Sources/normalization/LM same as021; each
+freeze21648 terminal exit0; pre-generation freeze pushed as e21e231.
+prepare4675 terminal exit0:104files,6privatekeys,1920encoded128letterrows,12cases.
+Search jobs started in three sequential groups, currently live sessions30801,
+54987,44399 (always poll handles; do not restart from observation timeouts).
+30801:la-r0-preserved,la-r1-preserved,la-r2-preserved,it-r0-preserved.
+54987:la-r0-deleted,la-r1-deleted,la-r2-deleted,it-r0-deleted.
+44399:it-r1-preserved,it-r1-deleted,it-r2-preserved,it-r2-deleted.
+No truth scoring/oracle has run. Sources/normalization/LM same as021; each
 Cicero/Boccaccio source first256x128 cipher-fit, next64x128 heldout A/B32 each;
 3 private keys/language, paired preserved/.03drop =12 separate fit conditions.
 Declared structural oracles; no true homophone groups or mapping. Genuine private
@@ -26,7 +32,8 @@ Production modules src/naibbe_{private_keys,unknown_inputs,unknown,unknown_check
 src/naibbe_unknown.hpp,src/naibbe_unknown_{decode,search}.cpp,bin/naibbe_unknown
 and notes/experiment-022-design.md are now frozen; do not modify. Preserve021 too.
 Earlier b9e0e89 saved the initial draft only; notes/experiment-022-draft-progress.md
-records that historical state. Next: push this freeze before prepare, then run fits.
+records that historical state. Next: finish12fits, freeze-fit, predict, then score;
+independent audit/report still required. Do not treat training scores as recovery.
 
 Current021: protocol/code21input hashes frozen and pushed as a446dde BEFORE
 preparation. prepare75000,predict36620,score80845 all terminal exit0.44prepared

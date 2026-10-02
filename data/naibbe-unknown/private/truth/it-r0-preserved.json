@@ -1,0 +1,1607 @@
+{
+  "case": "it-r0-preserved",
+  "fit": [
+    {
+      "id": "it-000",
+      "block": "fit",
+      "plaintext": "soloneilcuipettounumanotempiodidivinasapienziafureputatoelecuisacratissimeleggisonoancoraallipresentiuominichiaratestimonianzade"
+    },
+    {
+      "id": "it-001",
+      "block": "fit",
+      "plaintext": "llanticagiustiziaerasecondochediconoalcunispessevolteusatodidireognirepublicasicomenoiandareestaresopraduepiedidequaliconmaturag"
+    },
+    {
+      "id": "it-002",
+      "block": "fit",
+      "plaintext": "ravitaaffermavaessereildestroilnonlasciarealcundifettocommessoimpunitoeilsinistroognibenfattoremunerareaggiugnendochequalunquede"
+    },
+    {
+      "id": "it-003",
+      "block": "fit",
+      "plaintext": "lleduecosegiadettepervizioopernigligenziasisottraevaomenochebenesiservavasenzaniundubbioquellarepublicachelfacevaconvenireandare"
+    },
+    {
+      "id": "it-004",
+      "block": "fit",
+      "plaintext": "sciancataeseperisciagurasipeccasseinamenduequasicertissimoaveaquellanonpoterestareinalcunmodomossiadunquepiucosiegregicomeantich"
+    },
+    {
+      "id": "it-005",
+      "block": "fit",
+      "plaintext": "ipopolidaquestalaudevolesentenziaeapertissimamenteveraalcunavoltadideitaaltradimarmoreastatuaesoventedicelebresepulturaetalfiata"
+    },
+    {
+      "id": "it-006",
+      "block": "fit",
+      "plaintext": "ditriunfalearcoequandodilaureacoronasecondoimeritiprecedentionoravanoivalorosilepeneperoppositoacolpevolidatenoncurodiraccontare"
+    },
+    {
+      "id": "it-007",
+      "block": "fit",
+      "plaintext": "perliqualionoriepurgazionilaassirialamacedonicalagrecaeultimamentelaromanarepublicaaumentateconloperelefinidellaterraeconlafamat"
+    },
+    {
+      "id": "it-008",
+      "block": "fit",
+      "plaintext": "occaronlestellelevestigiedequaliincosialtiesemplinonsolamentedasuccessoripresentiemassimamentedamieifiorentinisonomaleseguitemai"
+    },
+    {
+      "id": "it-009",
+      "block": "fit",
+      "plaintext": "ntantosedisviatodaessecheognipremiodivirtupossiedelambizioneperchesicomeeioeciascunaltrocheacioconocchioragionevolevuoleguardare"
+    },
+    {
+      "id": "it-010",
+      "block": "fit",
+      "plaintext": "nonsenzagrandissimaafflizionedanimopossiamovederelimalvagieperversiuominialuoghieccelsieasommioficieguiderdonielevareelibuonisca"
+    },
+    {
+      "id": "it-011",
+      "block": "fit",
+      "plaintext": "cciaredeprimereeabbassareallequalicosequalfineserbiilgiudiciodidiocoloroilveggianocheiltimonegovernanodiquestanaveperciochenoipi"
+    },
+    {
+      "id": "it-012",
+      "block": "fit",
+      "plaintext": "ubassaturbasiamotrasportatidalfiottodellafortunamanondellacolpapartecipiecomecheconinfiniteingratitudiniedissoluteperdonanzeappa"
+    },
+    {
+      "id": "it-013",
+      "block": "fit",
+      "plaintext": "rentisipotesserolepredettecoseverificarepermenoscoprirelinostridifettieperpervenirealmioprincipaleintentounasolamifiaassaiaverer"
+    },
+    {
+      "id": "it-014",
+      "block": "fit",
+      "plaintext": "accontatanequestafiapocoopicciolaricordandolesiliodelchiarissimouomodantealighieriilqualeanticocittadinonedoscuriparentinatoquan"
+    },
+    {
+      "id": "it-015",
+      "block": "fit",
+      "plaintext": "topervertueperscienziaeperbuoneoperazionimeritasseassaiilmostranoemostrerannolecosechedaluifatteappaionolequaliseinunarepublicag"
+    },
+    {
+      "id": "it-016",
+      "block": "fit",
+      "plaintext": "iustafosserostateoperateniunodubbiociecheessenongliavesseroaltissimimeritiapparecchiatiohscelleratopensieroohdisonestaoperaohmis"
+    },
+    {
+      "id": "it-017",
+      "block": "fit",
+      "plaintext": "erabileesempioedifuturaruinamanifestoargomentoinluogodiquegliingiustaefuriosadannazioneperpetuosbandimentoalienazionedepaternibe"
+    },
+    {
+      "id": "it-018",
+      "block": "fit",
+      "plaintext": "niesefaresifossepotutomaculazionedellagloriosissimafamaconfalsecolpeglifurdonatedellequalicoselerecentiormedellasuafugaelossanel"
+    },
+    {
+      "id": "it-019",
+      "block": "fit",
+      "plaintext": "lealtruiterresepulteelaspartaproleperlaltruicasealquanteancoranefannochiareseatuttelaltreiniquitafiorentinefossepossibileilnasco"
+    },
+    {
+      "id": "it-020",
+      "block": "fit",
+      "plaintext": "ndersiagliocchididiocheveggonotuttonondovrebbequestunabastareaprovocaresopraselasuairacertosichiincontrariosiaesaltatogiudicoche"
+    },
+    {
+      "id": "it-021",
+      "block": "fit",
+      "plaintext": "siaonestoiltaceresichebeneragguardandononsolamenteeilpresentemondodelsentierouscitodelprimodelqualedisopratoccaimahadeltuttonelc"
+    },
+    {
+      "id": "it-022",
+      "block": "fit",
+      "plaintext": "ontrariovoltiipiedipercheassaimanifestoapparechesenoieglialtricheinsimilemodovivonocontrolasopratoccatasentenziadisolonesanzacad"
+    },
+    {
+      "id": "it-023",
+      "block": "fit",
+      "plaintext": "erestiamoinpiedeniunaaltracosaesserediciocagionesenoncheoperlungausanzalanaturadellecoseemutatacomesoventeveggiamoavvenireoespez"
+    },
+    {
+      "id": "it-024",
+      "block": "fit",
+      "plaintext": "ialemiracolonelqualeperlimeritidalcunonostropassatodiocontraogniumanoavvedimentonesostieneoelasuapazienzialaqualeforseilnostrori"
+    },
+    {
+      "id": "it-025",
+      "block": "fit",
+      "plaintext": "conoscimentoattendeilqualesealungoandarenonseguiraniunodubitichelasuairalaqualeconlentopassoprocedeallavendettanonciserbitantopi"
+    },
+    {
+      "id": "it-026",
+      "block": "fit",
+      "plaintext": "ugravetormentocheappienosuppliscalasuatarditamaperciochecomecheimpunitecipaionolemalfattecosequellenonsolamentedobbiamofuggirema"
+    },
+    {
+      "id": "it-027",
+      "block": "fit",
+      "plaintext": "ancorabeneoperandodamendarleingegnarciconoscendoiomeesserediquellamedesimacittaavvegnachepicciolapartedellaqualeconsideratilimer"
+    },
+    {
+      "id": "it-028",
+      "block": "fit",
+      "plaintext": "itilanobiltaelavertudantealighierifugrandissimaeperquestosicomeciascunaltrocittadinoasuoionorisiainsolidoobbligatocomecheioatant"
+    },
+    {
+      "id": "it-029",
+      "block": "fit",
+      "plaintext": "acosanonsiasofficientenondimenosecondolamiapicciolafacultaquellochessadoveaversoluimagnificamentefarenonavendolofattomingegnerod"
+    },
+    {
+      "id": "it-030",
+      "block": "fit",
+      "plaintext": "ifariononconistatuaoconegregiasepolturadellequalieoggiapponoispentalusanzanebasterebbonoaciolemieforzemaconletterepovereatantaim"
+    },
+    {
+      "id": "it-031",
+      "block": "fit",
+      "plaintext": "presadiquestehoediquestedaroacciocheigualmenteeintuttoeinpartenonsipossadirefralenazionistraneversocotantopoetalasuapatriaessere"
+    },
+    {
+      "id": "it-032",
+      "block": "fit",
+      "plaintext": "stataingrataescriveroinistiloassaiumileeleggieroperochepiualtonolmiprestalongegnoenelnostrofiorentinoidiomaacciochedaquellochegl"
+    },
+    {
+      "id": "it-033",
+      "block": "fit",
+      "plaintext": "iusonellamaggiorpartedellesueoperenondiscordiquellecoselequaliessodiseonestamentetacettecioelanobiltadellasuaoriginelavitaglistu"
+    },
+    {
+      "id": "it-034",
+      "block": "fit",
+      "plaintext": "diicostumiraccogliendoappressoinunoloperedaluifattenellequaliessosesichiaroharendutoafuturicheforsenonmenotenebrechesplendoregli"
+    },
+    {
+      "id": "it-035",
+      "block": "fit",
+      "plaintext": "darannoleletteremiecomecheciononsiadimiointendimentonedivolerecontentosempreeinquestoeinciascunaltracosadaciascunpiusavioladovei"
+    },
+    {
+      "id": "it-036",
+      "block": "fit",
+      "plaintext": "odifettuosamenteparlassiesserecorrettoilcheacciochenonavvengaumilementepriegocoluicheluitrassepersialtascalaavedersicomesappiamo"
+    },
+    {
+      "id": "it-037",
+      "block": "fit",
+      "plaintext": "chealpresenteaiutieguidilongegnomioeladebolemanofiorenzaintralaltrecittaitalianepiunobilesecondochelanticheistorieelacomuneopini"
+    },
+    {
+      "id": "it-038",
+      "block": "fit",
+      "plaintext": "onedepresentiparechevoglianoebbeiniziodaromanilaqualeinprocessoditempoaumentataedipopoloedichiariuominipienanonsolamentecittamap"
+    },
+    {
+      "id": "it-039",
+      "block": "fit",
+      "plaintext": "otentecomincioaciascuncircunstanteadappareremaqualsifosseocontrariafortunaoavversocielooliloromeritiaglialtiinizidimutamentocagi"
+    },
+    {
+      "id": "it-040",
+      "block": "fit",
+      "plaintext": "onecieincertomacertissimoabbiamoessanondopomoltisecolidaattilacrudelissimoredevandaliegeneraleguastatorequasidituttaitaliauccisi"
+    },
+    {
+      "id": "it-041",
+      "block": "fit",
+      "plaintext": "primaedispersituttiolamaggiorpartediqueglicittadinichenquellaeranoopernobiltadisangueoperqualunquealtrostatodalcunafamaincenerel"
+    },
+    {
+      "id": "it-042",
+      "block": "fit",
+      "plaintext": "aridusseeinruineeincotalemanieraoltrealtrecentesimoannosicredechedimorassedopoilqualtermineessendononsenzacagionedigreciailroman"
+    },
+    {
+      "id": "it-043",
+      "block": "fit",
+      "plaintext": "oimperioingalliatranslatatoeallaimperialealtezzaelevatocarlomagnoalloraclementissimoredefranceschipiufatichepassatecredodadivino"
+    },
+    {
+      "id": "it-044",
+      "block": "fit",
+      "plaintext": "spiritomossoallareedificazionedelladesolatacittalomperialeanimodirizzoedaqueglimedesimicheprimaconditorineranostaticomecheinpicc"
+    },
+    {
+      "id": "it-045",
+      "block": "fit",
+      "plaintext": "iolcerchiodimuralariducesseinquantopotesimilearomalafereedificareeabitareraccogliendovinondimenodentroquellepochereliquiechesitr"
+    },
+    {
+      "id": "it-046",
+      "block": "fit",
+      "plaintext": "ovaronodediscendentidegliantichiscacciatimaintraglialtrinovelliabitatoriforseordinatoredellareedificazionepartitoredelleabitazio"
+    },
+    {
+      "id": "it-047",
+      "block": "fit",
+      "plaintext": "niedellestradeedatorealnuovopopolodelleleggiopportunesecondochetestimonialafamavivennedaromaunnobilissimogiovaneperischiattadefr"
+    },
+    {
+      "id": "it-048",
+      "block": "fit",
+      "plaintext": "angiapanienominatodatuttieliseoilqualeperavventurapoichebbelaprincipalecosaperlaqualevenutoverafornitaodallamoredellacittanuovam"
+    },
+    {
+      "id": "it-049",
+      "block": "fit",
+      "plaintext": "entedaluiordinataodalpiaceredelsitoalqualeforsevidenelfuturodovereessereilcielofavorevoleodaaltracagionechesifossetrattoinquella"
+    },
+    {
+      "id": "it-050",
+      "block": "fit",
+      "plaintext": "divenneperpetuocittadinoedietroasedifigliuoliedidiscendentilasciononpicciolanepocolaudevoleschiattaliqualilanticosopranomedeloro"
+    },
+    {
+      "id": "it-051",
+      "block": "fit",
+      "plaintext": "maggioriabbandonatopersopranomepreseroilnomedicoluichequiviloroavevadatocominciamentoetuttiinsiemesichiamarglieliseidequaliditem"
+    },
+    {
+      "id": "it-052",
+      "block": "fit",
+      "plaintext": "pointempoedunoinaltrodiscendendotraglialtrinacqueevisseunocavaliereperarmeepersennoragguardevoleevalorosoilcuinomefucacciaguidaa"
+    },
+    {
+      "id": "it-053",
+      "block": "fit",
+      "plaintext": "lqualenellasuagiovanezzafudatadasuomaggiorperisposaunadonzellanatadeglialdighieridiferraracosiperbellezzaepercostumicomepernobil"
+    },
+    {
+      "id": "it-054",
+      "block": "fit",
+      "plaintext": "tadisanguepregiataconlaqualepiuannivisseedileigeneropiufigliuoliecomecheglialtrinominatisifosseroinunosicomeledonnesoglionoesser"
+    },
+    {
+      "id": "it-055",
+      "block": "fit",
+      "plaintext": "vaghedifarelepiacquedirinnovareilnomedesuoipassatienominolloaldighiericomecheilvocabolopoipersottrazionediquestaletteradcorrotto"
+    },
+    {
+      "id": "it-056",
+      "block": "fit",
+      "plaintext": "rimanessealighieriilvaloredicostuifucagioneaqueglichedisceserodiluidilasciareiltitolodeglieliseiedicognominarsideglialighieriilc"
+    },
+    {
+      "id": "it-057",
+      "block": "fit",
+      "plaintext": "heancoradurainfinoaquestogiornodelqualecomechealquantifigliuolienepotiedenepotifigliuolidiscendesseroregnantefedericosecondoimpe"
+    },
+    {
+      "id": "it-058",
+      "block": "fit",
+      "plaintext": "radoreunonenacqueilcuinomefualighieriilqualepiuperlafuturaprolechepersedovevaesserchiarolacuidonnagravidanonguarilontanaaltempod"
+    },
+    {
+      "id": "it-059",
+      "block": "fit",
+      "plaintext": "elpartorirepersognovidequaledovevaessereilfruttodelventresuocomecheciononfossealloradaleiconosciutonedaaltruiedoggiperloeffettos"
+    },
+    {
+      "id": "it-060",
+      "block": "fit",
+      "plaintext": "eguitosiamanifestissimoatuttiparevaallagentildonnanelsuosonnoesseresottounoaltissimoallorosopraunoverdepratoallatoadunachiarissi"
+    },
+    {
+      "id": "it-061",
+      "block": "fit",
+      "plaintext": "mafonteequivisisentiapartorireunfigliuoloilqualeinbrevissimotemponutricandosisolodellorbachelequalidellallorocadevanoedellondede"
+    },
+    {
+      "id": "it-062",
+      "block": "fit",
+      "plaintext": "llachiarafontelepareachedivenisseunpastoreesingegnasseasuopoteredaveredellefrondedellalberoilcuifruttolaveanudritoeaciosforzando"
+    },
+    {
+      "id": "it-063",
+      "block": "fit",
+      "plaintext": "silepareavederlocadereenelrilevarsinonuomopiumaunopaoneilvedeadivenutodellaqualcosatantaammirazionelegiunsecheruppeilsonnoneguar"
+    },
+    {
+      "id": "it-064",
+      "block": "fit",
+      "plaintext": "iditempopassocheilterminedebitoalsuopartovenneepartoriunofigliuoloilqualedicomuneconsentimentocolpadrediluipernomechiamarondante"
+    },
+    {
+      "id": "it-065",
+      "block": "fit",
+      "plaintext": "emeritamenteperciocheottimamentesicomesivedraprocedendoseguialnomeleffettoquestifuqueldantedelqualeeilpresentesermonequestifuque"
+    },
+    {
+      "id": "it-066",
+      "block": "fit",
+      "plaintext": "ldantecheanostriseculifuconcedutodispezialegraziadadioquestifuqueldanteilqualprimodovevaalritornodellemusesbanditeditaliaaprirla"
+    },
+    {
+      "id": "it-067",
+      "block": "fit",
+      "plaintext": "viapercostuilachiarezzadelfiorentinoidiomaedimostratapercostuiognibellezzadivolgarparlaresottodebitinumerieregolatapercostuilamo"
+    },
+    {
+      "id": "it-068",
+      "block": "fit",
+      "plaintext": "rtapoesimeritamentesipuodirsuscitatalequalicosedebitamenteguardateluiniunoaltronomechedantepoterdegnamenteavereavutodimostrerann"
+    },
+    {
+      "id": "it-069",
+      "block": "fit",
+      "plaintext": "onacquequestosingularesplendoreitaliconellanostracittavacanteilromanoimperioperlamortedifederigogiadettonegliannidellasalutifera"
+    },
+    {
+      "id": "it-070",
+      "block": "fit",
+      "plaintext": "incarnazionedelredelluniversomcclxvsedenteurbanopapaquartonellacattedradisanpieroricevutonellapaternacasadaassailietafortunaliet"
+    },
+    {
+      "id": "it-071",
+      "block": "fit",
+      "plaintext": "adicosecondolaqualitadelmondochealloracorreamaqualecheellasifosselasciandostareilragionaredellasuainfanzianellaqualeassaisegniap"
+    },
+    {
+      "id": "it-072",
+      "block": "fit",
+      "plaintext": "parironodellafuturagloriadelsuoingegnodicochedalprincipiodellasuapueriziaavendogialiprimielementidellelettereimpresinonsecondoil"
+    },
+    {
+      "id": "it-073",
+      "block": "fit",
+      "plaintext": "costumedenobiliodiernisidiedeallefanciulleschelascivieeagliozinelgrembodellamadreimpigrendomanellapropiapatriatuttalasuapuerizia"
+    },
+    {
+      "id": "it-074",
+      "block": "fit",
+      "plaintext": "conistudiocontinuodiedealleliberaliartieinquellemirabilmentedivenneespertoecrescendoinsiemecongliannilanimoelongegnononalucrativ"
+    },
+    {
+      "id": "it-075",
+      "block": "fit",
+      "plaintext": "istudialliqualigeneralmenteoggicorreciascunosidisposemadaunalaudevolevaghezzadiperpetuafamatrattosprezzandoletransitoriericchezz"
+    },
+    {
+      "id": "it-076",
+      "block": "fit",
+      "plaintext": "eliberamentesidiedeavolereaverpienanotiziadellefizionipoeticheedellartificiosodimostramentodiquellenelqualeeserciziofamiliarissi"
+    },
+    {
+      "id": "it-077",
+      "block": "fit",
+      "plaintext": "modivennedivirgiliodoraziodovidiodistazioediciascunaltropoetafamosononsolamenteavendocaroilconoscerglimaancoraaltamentecantandos"
+    },
+    {
+      "id": "it-078",
+      "block": "fit",
+      "plaintext": "ingegnodimitarlicomelesueoperemostranodellequaliappressoasuotempofavelleremoeavvedendosilepoeticheoperenonesserevaneosemplicifav"
+    },
+    {
+      "id": "it-079",
+      "block": "fit",
+      "plaintext": "oleomaravigliecomemoltistoltiestimanomasottosedolcissimifruttidiveritaistoriografeofilosoficheaverenascostiperlaqualecosapiename"
+    },
+    {
+      "id": "it-080",
+      "block": "fit",
+      "plaintext": "ntesanzaleistorieelamoraleenaturalefilosofialepoeticheintenzioniaverenonsipotevanointerepartendoitempidebitamenteleistoriedaseel"
+    },
+    {
+      "id": "it-081",
+      "block": "fit",
+      "plaintext": "afilosofiasottodiversidottorisargomentononsanzalungostudioeaffannodintendereepresodalladolcezzadelconoscereilverodellecoseracchi"
+    },
+    {
+      "id": "it-082",
+      "block": "fit",
+      "plaintext": "usedalcieloniunaaltrapiucarachequestatrovandoneinquestavitalasciandodeltuttoognialtratemporalesollecitudinetuttoaquestasolasidie"
+    },
+    {
+      "id": "it-083",
+      "block": "fit",
+      "plaintext": "deeacciocheniunapartedifilosofianonvedutadaluirimanessenelleprofonditaaltissimedellateologiaconacutoingegnosimisenefudallaintenz"
+    },
+    {
+      "id": "it-084",
+      "block": "fit",
+      "plaintext": "ioneleffettolontanoperciochenoncurandonecaldinefreddivigilienedigiuninealcunaltrocorporaledisagioconassiduostudiopervenneaconosc"
+    },
+    {
+      "id": "it-085",
+      "block": "fit",
+      "plaintext": "eredelladivinaessenziaedellaltreseparateintelligenziequellocheperumanoingegnoquisenepuocomprendereecosicomeinvarieetadivariescie"
+    },
+    {
+      "id": "it-086",
+      "block": "fit",
+      "plaintext": "nzefuronodaluiconosciutestudiandocosiinvaristudisottovaridottorilecompreseegliliprimiinizisicomedisopraedichiaratopresenellaprop"
+    },
+    {
+      "id": "it-087",
+      "block": "fit",
+      "plaintext": "iapatriaediquellasicomealuogopiufertileditalcibonandoabolognaegiavicinoallasuavecchiezzanandoaparigidovecontantagloriadisedisput"
+    },
+    {
+      "id": "it-088",
+      "block": "fit",
+      "plaintext": "andopiuvoltemostrolaltezzadelsuoingegnocheancoranarrandosisenemaraviglianogliuditorieditantiesifattistudinoningiustamentemeritoa"
+    },
+    {
+      "id": "it-089",
+      "block": "fit",
+      "plaintext": "ltissimititoliperciochealcuniilchiamaronosemprepoetaaltrifilosofoemoltiteologomentrevissemaperciochetantoelavittoriapiugloriosaa"
+    },
+    {
+      "id": "it-090",
+      "block": "fit",
+      "plaintext": "lvincitorequantoleforzedelvintosonostatemaggiorigiudicoesserconvenevoledimostraredicomefluttuosoetempestosomarecostuigittatoorai"
+    },
+    {
+      "id": "it-091",
+      "block": "fit",
+      "plaintext": "nquaorainlavincendolondeparimenteeventicontraripervenissealsalutevoleportodechiarissimititoligianarratiglistudigeneralmentesogli"
+    },
+    {
+      "id": "it-092",
+      "block": "fit",
+      "plaintext": "onosolitudineerimozionedisollecitudineetranquillitadanimodisiderareemassimamenteglispeculativiaqualiilnostrodantesicomemostratoe"
+    },
+    {
+      "id": "it-093",
+      "block": "fit",
+      "plaintext": "sidiedetuttoinluogodellaqualerimozioneequietequasidalloiniziodellasuavitainfinoallultimodellamortedanteebbefierissimaeimportabil"
+    },
+    {
+      "id": "it-094",
+      "block": "fit",
+      "plaintext": "epassionedamoremogliecurafamiliareepublicaesilioepovertalaltrelasciandopiuparticularilequalidinecessitaquestesitraggondietrolequ"
+    },
+    {
+      "id": "it-095",
+      "block": "fit",
+      "plaintext": "aliacciochepiuappaiadellalorogravezzapartitamenteconvenevolegiudicodispiegarleneltemponelqualeladolcezzadelcielorivestedesuoiorn"
+    },
+    {
+      "id": "it-096",
+      "block": "fit",
+      "plaintext": "amentilaterraetuttaperlavarietadefiorimescolatifraleverdifrondilafaridenteerausanzadellanostracittaedegliuominiedelledonnenellel"
+    },
+    {
+      "id": "it-097",
+      "block": "fit",
+      "plaintext": "orocontradeciascunoindistintecompagniefesteggiareperlaqualcosainfraglialtriperavventurafolcoportinariuomoassaiorrevoleinquetempi"
+    },
+    {
+      "id": "it-098",
+      "block": "fit",
+      "plaintext": "tracittadiniilprimodidimaggioavevaicircustantiviciniraccoltinellapropiacasaafesteggiareinfraliqualierailgianominatoalighierialqu"
+    },
+    {
+      "id": "it-099",
+      "block": "fit",
+      "plaintext": "alesicomeifanciullipiccoliespezialmentealuoghifestevolisoglionolipadriseguiredanteilcuinonoannononeraancorafinitoseguitoaveaequi"
+    },
+    {
+      "id": "it-100",
+      "block": "fit",
+      "plaintext": "vimescolatotraglialtridellasuaetadequalicosimaschicomefemmineeranomoltinellacasadelfesteggianteserviteleprimemensediciochelasuap"
+    },
+    {
+      "id": "it-101",
+      "block": "fit",
+      "plaintext": "icciolaetapotevaoperarepuerilmentesidiedeconglialtriatrastullareeraintralaturbadegiovinettiunafigliuoladelsopradettofolcoilcuino"
+    },
+    {
+      "id": "it-102",
+      "block": "fit",
+      "plaintext": "meerabicecomecheeglisempredalsuoprimitivocioebeatricelanominasselacuietaeraforsedottoannileggiadrettaassaisecondolasuafanciullez"
+    },
+    {
+      "id": "it-103",
+      "block": "fit",
+      "plaintext": "zaenesuoiattigentilescaepiacevolemoltoconcostumieconparoleassaipiugraviemodestecheilsuopicciolotempononrichiedeaeoltreaquestoave"
+    },
+    {
+      "id": "it-104",
+      "block": "fit",
+      "plaintext": "valefattezzedelvisodilicatemoltoeottimamentedisposteepieneoltreallabellezzaditantaonestavaghezzachequasiunaangiolettaerareputata"
+    },
+    {
+      "id": "it-105",
+      "block": "fit",
+      "plaintext": "damolticosteiadunquetalequaleioladisegnooforseassaipiubellaapparveinquestafestanoncredoprimamentemaprimapossenteadinnamorareagli"
+    },
+    {
+      "id": "it-106",
+      "block": "fit",
+      "plaintext": "occhidelnostrodanteilqualeancorachefanciulfossecontantaaffezionelabellaimaginedileiricevettenelcuorechedaquelgiornoinnanzimaimen"
+    },
+    {
+      "id": "it-107",
+      "block": "fit",
+      "plaintext": "trevissenonsenedipartiqualeoraquestasifosseniunoilsamaoconformitadicomplessioniodicostumiospezialeinfluenziadelcielocheinciooper"
+    },
+    {
+      "id": "it-108",
+      "block": "fit",
+      "plaintext": "asseosicomenoiperesperienzaveggiamonellefesteperladolcezzadesuoniperlageneraleallegrezzaperladilicatezzadecibiedeviniglianimiezi"
+    },
+    {
+      "id": "it-109",
+      "block": "fit",
+      "plaintext": "andiodegliuominimaturinonchedegiovinettiampliarsiedivenireattiapoteressereleggiermentepresidaqualunquecosachepiaceecertoquestoes"
+    },
+    {
+      "id": "it-110",
+      "block": "fit",
+      "plaintext": "sernedivenutocioedantenellasuapargolettaetafattodamoreferventissimoservidoremalasciandostareilragionaredepueriliaccidentidicoche"
+    },
+    {
+      "id": "it-111",
+      "block": "fit",
+      "plaintext": "conletamultiplicaronolamorosefiammeintantocheniunaltracosaglierapiacereoriposooconfortosenonilvederecosteiperlaqualcosaognialtro"
+    },
+    {
+      "id": "it-112",
+      "block": "fit",
+      "plaintext": "affarelasciandonesollecitissimoandavaladovunquecredevapoterevederlaquasidelvisoodegliocchidileidovesseattignereognisuobeneeinter"
+    },
+    {
+      "id": "it-113",
+      "block": "fit",
+      "plaintext": "aconsolazioneohinsensatogiudiciodegliamantichialtricheessiestimerebbeperaggiugnimentodistipafarelefiammeminoriquantiequalifosser"
+    },
+    {
+      "id": "it-114",
+      "block": "fit",
+      "plaintext": "olipensierilisospirilelagrimeelaltrepassionigravissimepoiinpiuprovettaetadaluisostenuteperquestoamoreeglimedesimoinparteildimost"
+    },
+    {
+      "id": "it-115",
+      "block": "fit",
+      "plaintext": "ranellasuavitanovaeperopiudistesamentenoncurodiraccontarletantosolamentenonvogliochenondettotrapassicioechesecondocheegliscrivee"
+    },
+    {
+      "id": "it-116",
+      "block": "fit",
+      "plaintext": "cheperaltruiacuifunotoilsuodisiosiragionaonestissimofuquestoamorenemaiapparveoperisguardooperparolaopercennoalcunolibidinosoappe"
+    },
+    {
+      "id": "it-117",
+      "block": "fit",
+      "plaintext": "titonenelloamantenenellacosaamatanonpicciolamaravigliaalmondopresentedelqualeesifuggitoognionestopiacereeabituatosilavereprimala"
+    },
+    {
+      "id": "it-118",
+      "block": "fit",
+      "plaintext": "cosachepiaceconformataallasualasciviachediliberatodamarlacheinmiracoloedivenutosicomecosararissimachiamassealtramentesetantoamor"
+    },
+    {
+      "id": "it-119",
+      "block": "fit",
+      "plaintext": "eesilungopoteilciboisonnieciascunaltraquieteimpedirequantosideepotereestimareluiesserestatoavversarioaglisacristudieallongegnoce"
+    },
+    {
+      "id": "it-120",
+      "block": "fit",
+      "plaintext": "rtononpococomechemoltivoglianoluiesserestatoincitatorediquelloargomentoacioprendendodallecoseleggiadramentenelfiorentinoidiomaei"
+    },
+    {
+      "id": "it-121",
+      "block": "fit",
+      "plaintext": "nrimainlaudedelladonnaamataeacciochelisuoiardorieamorosiconcettiesprimessegiafattedaluimacertoionolconsentoseiononvolessigiaaffe"
+    },
+    {
+      "id": "it-122",
+      "block": "fit",
+      "plaintext": "rmarelornatoparlareesseresommissimapartedogniscienzachenoneverocomeciascunopuoteevidentementeconoscereniunacosaestabileinquestom"
+    },
+    {
+      "id": "it-123",
+      "block": "fit",
+      "plaintext": "ondoeseniunaleggermentehamutamentolanostravitaequellaunpocodisoperchiofreddoodicaldochenoiabbiamolasciandostareglialtriinfinitia"
+    },
+    {
+      "id": "it-124",
+      "block": "fit",
+      "plaintext": "ccidentiepossibilidaessereanonesseresanzadifficultaciconducenedaquestogentilezzaricchezzagiovanezzanealtramondanadignitaeprivile"
+    },
+    {
+      "id": "it-125",
+      "block": "fit",
+      "plaintext": "giatadellaqualecomuneleggelagravitaconvenneadanteprimaperlaltruimorteprovarecheperlasuaeraquasinelfinedelsuovigesimoquartoannola"
+    },
+    {
+      "id": "it-126",
+      "block": "fit",
+      "plaintext": "bellissimabeatricequandosicomepiacqueacoluichetuttopuoteessalasciandodiquestomondolangoscenandoaquellagloriachelisuoimeritilavev"
+    },
+    {
+      "id": "it-127",
+      "block": "fit",
+      "plaintext": "anoapparecchiatadellaqualpartenzadanteintantodoloreintantaafflizioneintantelagrimerimasechemoltidesuoipiucongiuntieparentiedamic"
+    },
+    {
+      "id": "it-128",
+      "block": "fit",
+      "plaintext": "iniunafineaquellecredetteroaltrachesolamentelamorteequestaestimaronodoveressereinbrievevedendoluianiunconfortoaniunaconsolazione"
+    },
+    {
+      "id": "it-129",
+      "block": "fit",
+      "plaintext": "portaglidareorecchiegligiornieranoallenotteigualieagligiornilenottidellequaliniunaorasitrapassavasenzaguaisenzasospiriesenzacopi"
+    },
+    {
+      "id": "it-130",
+      "block": "fit",
+      "plaintext": "osaquantitadilagrimeeparevanolisuoiocchidueabbondantissimefontanedacquasurgenteintantochepiusimaravigliaronodondetantoumoreeglia"
+    },
+    {
+      "id": "it-131",
+      "block": "fit",
+      "plaintext": "vessechealsuopiantobastassemasicomenoiveggiamoperlungausanzalepassionidivenireagevoliacomportareesimilmenteneltempoognicosadimin"
+    },
+    {
+      "id": "it-132",
+      "block": "fit",
+      "plaintext": "uireeperireavvennechedanteinfraalquantimesiapparoaricordarsisenzalagrimebeatriceessermortaeconpiudrittogiudiciodandoalquantoildo"
+    },
+    {
+      "id": "it-133",
+      "block": "fit",
+      "plaintext": "loreluogoallaragioneaconoscerelipiantielisospirinonpoterglineancoraalcunaaltracosarenderelaperdutadonnaperlaqualcosaconpiupazien"
+    },
+    {
+      "id": "it-134",
+      "block": "fit",
+      "plaintext": "zasacconcioasostenerelavereperdutalasuapresenzianeguaridispaziopassochedopolelasciatelagrimelisospiriliqualigiaeranoallalorofine"
+    },
+    {
+      "id": "it-135",
+      "block": "fit",
+      "plaintext": "vicinicominciaronoingranparteapartirsisanzatornareeglierasiperlolagrimaresiperlafflizionecheilcuoresentivadentroesiperlononavere"
+    },
+    {
+      "id": "it-136",
+      "block": "fit",
+      "plaintext": "disealcunacuradifuoridivenutoquasiunacosasalvaticaariguardaremagrobarbutoequasituttotrasformatodaquellocheavantiessersoleaintant"
+    },
+    {
+      "id": "it-137",
+      "block": "fit",
+      "plaintext": "ochelsuoaspettononchenegliamicimaeziandioinciascunaltrocheilvedeaaforzadisemettevacompassionecomecheeglipocomentrequestavitacosi"
+    },
+    {
+      "id": "it-138",
+      "block": "fit",
+      "plaintext": "lagrimosaduroaltruicheadamicivedersilasciassequestacompassioneedubitanzadipeggiofacevanolisuoiparentistareattentiasuoiconfortili"
+    },
+    {
+      "id": "it-139",
+      "block": "fit",
+      "plaintext": "qualicomealquantoviderolelagrimecessateeconobberolicocentisospirialquantodaresostaalfaticatopettoconleconsolazionilungamenteperd"
+    },
+    {
+      "id": "it-140",
+      "block": "fit",
+      "plaintext": "uterincominciaronoasollecitarelosconsolatoilqualecomecheinfinoaquellaoraavesseatutteostinatamentetenuteleorecchiechiusealquantol"
+    },
+    {
+      "id": "it-141",
+      "block": "fit",
+      "plaintext": "ecominciononsolamenteadapriremaadascoltarevolentiericiocheintornoalsuoconfortoglifossedettolaqualcosaveggendoisuoiparentiaccioch"
+    },
+    {
+      "id": "it-142",
+      "block": "fit",
+      "plaintext": "edeltuttononsolamentededoloriiltraesseromailrecasseroinallegrezzaragionaronoinsiemedivolerglidarmoglieacciochecomelaperdutadonna"
+    },
+    {
+      "id": "it-143",
+      "block": "fit",
+      "plaintext": "glierastataditristiziacagionecosidiletiziaglifosselanuovamenteacquistataetrovataunagiovanequaleallasuacondizioneeradecevoleconqu"
+    },
+    {
+      "id": "it-144",
+      "block": "fit",
+      "plaintext": "elleragionichepiuloroparveroinduttivelalorointenziongliscoprironoeacciocheioparticularmentenontocchiciascunacosadopolungatenzone"
+    },
+    {
+      "id": "it-145",
+      "block": "fit",
+      "plaintext": "senzamettereguariditempoinmezzoalragionamentoseguileffettoefusposatoohmenticiecheohtenebrosiintellettiohargomentivanidimoltimort"
+    },
+    {
+      "id": "it-146",
+      "block": "fit",
+      "plaintext": "aliquantosonoleriusciteinassaicosecontrarieavostriavvisienonsanzaragionlepiuvoltechisarebbecoluichedeldolceaereditaliapersoperch"
+    },
+    {
+      "id": "it-147",
+      "block": "fit",
+      "plaintext": "iocaldomenassealcunonellecocentiarenedilibiaarinfrescarsiodellisoladicipriperriscaldarsinelleeterneombredemontirodopeiqualmedico"
+    },
+    {
+      "id": "it-148",
+      "block": "fit",
+      "plaintext": "singegneradicacciarelagutafebbrecolfuocooilfreddodellemedolladellossacolghiacciooconlanevecertoniunoaltrosenoncoluicheconnuovamo"
+    },
+    {
+      "id": "it-149",
+      "block": "fit",
+      "plaintext": "gliecrederalamorosetribulazionmitigarenonconosconoqueglicheciocredonofarelanaturadamorenequantoognialtrapassioneaggiungaallasuai"
+    },
+    {
+      "id": "it-150",
+      "block": "fit",
+      "plaintext": "nvanosiporgonoaiutioconsigliallesueforzeseeglihafermaradicepresanelcuoredicoluichehalungamenteamatocosicomeneprincipiognipicciol"
+    },
+    {
+      "id": "it-151",
+      "block": "fit",
+      "plaintext": "aresistenzaegiovevolecosinelprocessolegrandisoglionoesserespessevoltedannosemadaritornareealpropositoedaconcederealpresentecheco"
+    },
+    {
+      "id": "it-152",
+      "block": "fit",
+      "plaintext": "sesienolequalipersepossanolamorosefatichefareobliarecheavrafattoperochipertrarmidunpensieronoiosomimetterainmillemoltomaggioried"
+    },
+    {
+      "id": "it-153",
+      "block": "fit",
+      "plaintext": "ipiunoiacertoniunaaltracosasenonchepergiuntadelmalechemavrafattomifaradisiderareditornareinquelloondemhatrattoilcheassaispessove"
+    },
+    {
+      "id": "it-154",
+      "block": "fit",
+      "plaintext": "ggiamoaddivenireapiuliqualioperuscireoperesseretrattidalcunefaticheciecamenteosammoglianoosonodaaltruiammogliatineprimasavveggio"
+    },
+    {
+      "id": "it-155",
+      "block": "fit",
+      "plaintext": "nodunoviluppouscitiessereintratiinmillechelapruovasanzapoterepentendosiindietrotornarenhadataesperienzadieronogliparentiegliamic"
+    },
+    {
+      "id": "it-156",
+      "block": "fit",
+      "plaintext": "imoglieadanteperchelelagrimecessasserodibeatricenonsoseperquestocomechelelagrimepassasseroanziforseeranpassatesipassolamorosafia"
+    },
+    {
+      "id": "it-157",
+      "block": "fit",
+      "plaintext": "mmachenolcredomaconcedutochesispegnessenuovecoseeassaipoteronopiufaticosesopravvenireegliusatodivegghiarenesantistudiquantevolte"
+    },
+    {
+      "id": "it-158",
+      "block": "fit",
+      "plaintext": "agradoglieracoglimperadoricoreeconqualunquealtrialtissimiprencipiragionavadisputavacofilosofiecopiacevolissimipoetisidilettavael"
+    },
+    {
+      "id": "it-159",
+      "block": "fit",
+      "plaintext": "altruiangosceascoltandomitigavalesueoraquantoallanuovadonnapiaceeconcostoroequeltempochellavuoletoltodacosicelebrecompagniaglico"
+    },
+    {
+      "id": "it-160",
+      "block": "fit",
+      "plaintext": "nvieneascoltareifemminiliragionamentiequeglisenonvuolcrescerlanoiacontrailsuopiacerenonsolamenteacconsentirmalodareeglicostumato"
+    },
+    {
+      "id": "it-161",
+      "block": "fit",
+      "plaintext": "quantevoltelavolgarturbaglirincrescevadiritrarsiinalcunasolitariaparteequivispeculandovederequalespiritomuoveilcieloondevengalav"
+    },
+    {
+      "id": "it-162",
+      "block": "fit",
+      "plaintext": "itaaglianimalichesonointerraqualisienolecagionidellecoseopremeditarealcuneinvenzioniperegrineoalcunecosecomporrelequaliappolifut"
+    },
+    {
+      "id": "it-163",
+      "block": "fit",
+      "plaintext": "urifacesseroluimortoviverperfamaoranonsolamentedallecontemplazionidolcietoltoquantevoltevoglianevieneallanuovadonnamagliconviene"
+    },
+    {
+      "id": "it-164",
+      "block": "fit",
+      "plaintext": "essereaccompagnatodicompagniamaleacosifattecosedispostaegliusatoliberamentedirideredipiagneredicantareodisospiraresecondochelepa"
+    },
+    {
+      "id": "it-165",
+      "block": "fit",
+      "plaintext": "ssionidolcieamareilpungevanooraononosaogliconvienenonchedellemaggioricosemadognipicciolsospirorenderealladonnaragionemostrandoch"
+    },
+    {
+      "id": "it-166",
+      "block": "fit",
+      "plaintext": "elmossedondevenneedoveandolaletiziacagionedellaltruiamorelatristiziaesserdelsuoodioestimandoohfaticainestimabileavereconcosisosp"
+    },
+    {
+      "id": "it-167",
+      "block": "fit",
+      "plaintext": "ettosoanimaleavivereaconversareeultimamenteainvecchiareoamorireiovogliolasciarestarelasollecitudinenuovaegravissimalaqualesiconv"
+    },
+    {
+      "id": "it-168",
+      "block": "fit",
+      "plaintext": "ieneavereanonusatiemassimamentenellanostracittacioeondevenganoivestimentigliornamentielecamerepienedisuperfluedilicatezzelequali"
+    },
+    {
+      "id": "it-169",
+      "block": "fit",
+      "plaintext": "ledonnesifannoacredereesserealbenvivereopportuneondevenganoliservileservelenutricilecameriereondevenganoiconvitiidoniipresentich"
+    },
+    {
+      "id": "it-170",
+      "block": "fit",
+      "plaintext": "efaresiconvengonoaparentidellenovellesposeaqueglichevoglionocheessecredanodaloroessereamateeappressoquestealtrecoseassaiprimanon"
+    },
+    {
+      "id": "it-171",
+      "block": "fit",
+      "plaintext": "conosciutedaliberiuominievenireacosechefuggirnonsipossonochidubitachedellasuadonnacheellasiabellaononbellanoncaggiailgiudicionel"
+    },
+    {
+      "id": "it-172",
+      "block": "fit",
+      "plaintext": "vulgosebellafiareputatachidubitacheessasubitamentenonabbiamoltiamadoridequalialcunoconlasuabellezzaaltriconlasuanobiltaetaleconm"
+    },
+    {
+      "id": "it-173",
+      "block": "fit",
+      "plaintext": "araviglioselusingheechicondoniequaleconpiacevolezzainfestissimamentecombatterailnonstabileanimoequelchemoltidisideranomalagevolm"
+    },
+    {
+      "id": "it-174",
+      "block": "fit",
+      "plaintext": "entedaalcunosidifendeeallapudiciziadelledonnenonbisognadesserepresapiucheunavoltaafareseinfameeimaritidolorosiinperpetuoseperisc"
+    },
+    {
+      "id": "it-175",
+      "block": "fit",
+      "plaintext": "iaguradichiacasalasimenafiasozzaassaiapertoveggiamolebellissimespessevolteetostorincrescerechedunquedellaltrepossiamopensareseno"
+    },
+    {
+      "id": "it-176",
+      "block": "fit",
+      "plaintext": "nchenoncheessemaancoraogniluogonelqualeessesienocredutetrovaredacoloroaqualisempreleconvieneaverperloroeavutoinodioondeleloroire"
+    },
+    {
+      "id": "it-177",
+      "block": "fit",
+      "plaintext": "nascononealcunafieraepiunetantocrudelequantolafemminaadiratanepuoviversicurodisechisecommetteadalcunaallaqualepaiaconragioneesse"
+    },
+    {
+      "id": "it-178",
+      "block": "fit",
+      "plaintext": "rcrucciatachepareatuttechedirodelorocostumiseiovorromostrarecomeequantoessisienotutticontrariallapaceealriposodegliuominiiotirer"
+    },
+    {
+      "id": "it-179",
+      "block": "fit",
+      "plaintext": "ointroppolungosermoneilmioragionareeperounosoloquasiatuttegeneralebastiavernedettoesseimmaginanoilbeneoperareognimenomoservorite"
+    },
+    {
+      "id": "it-180",
+      "block": "fit",
+      "plaintext": "nernellacasaeilcontrariofarglicacciarepercheestimanosebenfannononaltrasorteesserlalorchedunservoperchealloraparsolamenteloroesse"
+    },
+    {
+      "id": "it-181",
+      "block": "fit",
+      "plaintext": "rdonnequandomaleadoperandononvengonoalfinechefantifannoperchevoglioioandaredimostrandoparticularmentequellocheglipiusannoiogiudi"
+    },
+    {
+      "id": "it-182",
+      "block": "fit",
+      "plaintext": "cochesiameglioiltacersichedispiacereparlandoallevaghedonnechinonsachetuttelaltrecosesipruovanoprimachecoluidicuidebbonoessercomp"
+    },
+    {
+      "id": "it-183",
+      "block": "fit",
+      "plaintext": "erateleprendasenonlamoglieacciocheprimanondispiacciachesiamenataaciascunochelaprendelaconvieneaverenontalequaleeglilavorrebbemaq"
+    },
+    {
+      "id": "it-184",
+      "block": "fit",
+      "plaintext": "ualelafortunaglieleconcedeeselecosechedisoprasondettesonverecheilsachiprovatelhapossiamopensarequantidolorinascondanolecamereliq"
+    },
+    {
+      "id": "it-185",
+      "block": "fit",
+      "plaintext": "ualidifuoridachinonhaocchilacuiperspicacitatrapassilemurasonoreputatidiletticertoiononaffermoquestecoseadanteessereavvenutecheno"
+    },
+    {
+      "id": "it-186",
+      "block": "fit",
+      "plaintext": "lsocomecheverosiacheosimilicoseaquesteoaltrechenefossercagioneegliunavoltadaleipartitosicheperconsolazionedesuoiaffanniglierasta"
+    },
+    {
+      "id": "it-187",
+      "block": "fit",
+      "plaintext": "tadatamainedoveellafossevollevenirenesoffersecheladoveeglifosseellavenissegiammaicontuttochedipiufigliuoliegliinsiemeconleifosse"
+    },
+    {
+      "id": "it-188",
+      "block": "fit",
+      "plaintext": "parentenecredaalcunocheioperlesudettecosevogliaconchiuderegliuomininondovertorremoglieanziillodomoltomanonaciascunolascinoifilos"
+    },
+    {
+      "id": "it-189",
+      "block": "fit",
+      "plaintext": "ofantilosposarsiaricchistoltiasignoriealavoratorieessiconlafilosofiasidilettinomoltomiglioresposachealcunaaltranaturageneraleede"
+    },
+    {
+      "id": "it-190",
+      "block": "fit",
+      "plaintext": "llecosetemporalilunalaltratirarsididietrolafamiliarcuratrassedanteallapublicanellaqualetantolavvilupparonolivanionoricheallipubl"
+    },
+    {
+      "id": "it-191",
+      "block": "fit",
+      "plaintext": "icioficicongiuntisonochesenzaguardaredondeserapartitoedoveandavaconabbandonateredinequasituttoalgovernodiquellasidiedeefuglitant"
+    },
+    {
+      "id": "it-192",
+      "block": "fit",
+      "plaintext": "oinciolafortunasecondacheniunalegazionsascoltavaaniunasirispondeaniunaleggesifermavaniunaseneabrogavaniunapacesifacevaniunaguerr"
+    },
+    {
+      "id": "it-193",
+      "block": "fit",
+      "plaintext": "apublicasimprendevaebrievementeniunadiliberazionelaqualealcunopondoportassesipigliavasegliincionondicesseprimalasuasentenziainlu"
+    },
+    {
+      "id": "it-194",
+      "block": "fit",
+      "plaintext": "ituttalapublicafedeinluiognisperanzainluisommariamenteledivinecoseelumaneparevanoesserfermatemalafortunavolgitricedenostriconsig"
+    },
+    {
+      "id": "it-195",
+      "block": "fit",
+      "plaintext": "lieinimicadogniumanostatocomecheperalquantianninelcolmodellasuarotagloriosamentereggendoiltenesseassaidiversofinealprincipioreco"
+    },
+    {
+      "id": "it-196",
+      "block": "fit",
+      "plaintext": "aluiinleifidantesidisoperchioeraaltempodicostuilafiorentinacittadinanzainduepartiperversissimamentedivisaeconloperazionidisagaci"
+    },
+    {
+      "id": "it-197",
+      "block": "fit",
+      "plaintext": "ssimieavvedutiprencipidiquelleeraciascunaassaipossenteintantochealcunavoltalunaealcunalaltrareggevaoltrealpiaceredellasottoposta"
+    },
+    {
+      "id": "it-198",
+      "block": "fit",
+      "plaintext": "avolereriducereaunitailpartitocorpodellasuarepublicaposedanteognisuoingegnoogniarteognistudiomostrandoacittadinipiusavicomelegra"
+    },
+    {
+      "id": "it-199",
+      "block": "fit",
+      "plaintext": "ncoseperladiscordiainbrievetempotornanoalnienteelepiccioleperlaconcordiacrescereininfinitomapoichevideesserevanalasuafaticaecono"
+    },
+    {
+      "id": "it-200",
+      "block": "fit",
+      "plaintext": "bbeglianimidegliuditoriostinaticredendologiudiciodidioprimaproposedilasciardeltuttoognipublicooficioeviveresecoprivatamentepoida"
+    },
+    {
+      "id": "it-201",
+      "block": "fit",
+      "plaintext": "lladolcezzadellagloriatiratoedalvanofavorpopolescoeancoradallepersuasionidemaggioricredendosioltreaquestosetempoglioccorressemol"
+    },
+    {
+      "id": "it-202",
+      "block": "fit",
+      "plaintext": "topiudibenepotereoperareperlasuacittasenellecosepublichefossegrandecheaseprivatoedaquelledeltuttorimossoohstoltavaghezzadegliuma"
+    },
+    {
+      "id": "it-203",
+      "block": "fit",
+      "plaintext": "nisplendoriquantosonoletueforzemaggiorichecredernonpuochiprovatinonglihailmaturouomoenelsantosenodellafilosofiaallevatonutricato"
+    },
+    {
+      "id": "it-204",
+      "block": "fit",
+      "plaintext": "eammaestratoalqualeeranodavantidagliocchiicadimentidereantichiedemoderniledesolazionideregnidelleprovinceedellecittaelifuriosiim"
+    },
+    {
+      "id": "it-205",
+      "block": "fit",
+      "plaintext": "petidellafortunaniunaltrocercantichelaltecosenonsiseppeononsipotedallatuadolcezzaguardarefermossiadunquedanteavolereseguireglion"
+    },
+    {
+      "id": "it-206",
+      "block": "fit",
+      "plaintext": "oricaduchielavanapompadeipublicioficieveggendochepersemedesimononpoteaunaterzapartetenerelaqualegiustissimalingiustiziadellaltre"
+    },
+    {
+      "id": "it-207",
+      "block": "fit",
+      "plaintext": "dueabbattessetornandoleadunitaconquellasaccostonellaqualesecondoilsuogiudicioerapiudiragioneedigiustiziaoperandocontinuamentecio"
+    },
+    {
+      "id": "it-208",
+      "block": "fit",
+      "plaintext": "chesalutevoleallasuapatriaeacittadiniconosceamagliumaniconsiglilepiudellevolterimangonvintidalleforzedelcielogliodiielanimositap"
+    },
+    {
+      "id": "it-209",
+      "block": "fit",
+      "plaintext": "reseancorachesanzagiustacagionenatifossorodigiornoingiornodivenivanmaggioriintantochenonsenzagrandissimaconfusionedecittadinipiu"
+    },
+    {
+      "id": "it-210",
+      "block": "fit",
+      "plaintext": "voltesivenneallarmeconintendimentodiporfineallalorlitecolfuocoecolferrosiaccecatidallirachenonvedevanoseconquellamiseramenteperi"
+    },
+    {
+      "id": "it-211",
+      "block": "fit",
+      "plaintext": "remapoicheciascunadellepartiebbepiuvoltefattapruovadellesueforzeconvicendevolidannidellunaedellaltravenutoiltempocheglioccultico"
+    },
+    {
+      "id": "it-212",
+      "block": "fit",
+      "plaintext": "nsiglidellaminacciantefortunasidoveanoscoprirelafamaparimentedelveroedelfalsorapportatricenunziandogliavversaridellapartepresada"
+    },
+    {
+      "id": "it-213",
+      "block": "fit",
+      "plaintext": "dantedimaravigliosiedastuticonsigliesserforteedigrandissimamoltitudinedarmatisigliprencipidecollegatididantespaventocheogniconsi"
+    },
+    {
+      "id": "it-214",
+      "block": "fit",
+      "plaintext": "lioogniavvedimentoeogniargomentocacciodalorosenonilcercareconfugalalorosalutecoqualiinsiemedanteinunmomentoprostratodellasommita"
+    },
+    {
+      "id": "it-215",
+      "block": "fit",
+      "plaintext": "delreggimentodellasuacittanonsolamentegittatointerrasividemacacciatodiquelladopoquestacacciatanonmoltidiessendogiastatodalpopola"
+    },
+    {
+      "id": "it-216",
+      "block": "fit",
+      "plaintext": "zzocorsoallecasedecacciatiefuriosamentevotateerubatepoicheivittoriosiebberolacittariformatasecondoillorogiudiciofuronotuttiipren"
+    },
+    {
+      "id": "it-217",
+      "block": "fit",
+      "plaintext": "cipideloroavversarieconlorononcomedeminorimaquasiprincipaledantesicomecapitalinemicidellarepublicadannatiaperpetuoesilioeliloros"
+    },
+    {
+      "id": "it-218",
+      "block": "fit",
+      "plaintext": "tabilibenioinpublicofuronridottioalienatiavincitoriquestomeritoriportodantedelteneroamoreavutoallasuapatriaquestomeritoriportoda"
+    },
+    {
+      "id": "it-219",
+      "block": "fit",
+      "plaintext": "ntedellaffannoavutoinvolertorrevialediscordiecittadinequestomeritoriportodantedellavereconognisollecitudinecercatoilbenelapaceel"
+    },
+    {
+      "id": "it-220",
+      "block": "fit",
+      "plaintext": "atranquillitadesuoicittadinipercheassaimanifestamenteapparequantosienovotidiveritaifavoridepopoliequantafidanzasipossainessiaver"
+    },
+    {
+      "id": "it-221",
+      "block": "fit",
+      "plaintext": "ecoluinelqualepocoavantiparevaognipublicasperanzaesserpostaogniaffezionecittadinaognirifugiopopularesubitamentesenzacagionelegit"
+    },
+    {
+      "id": "it-222",
+      "block": "fit",
+      "plaintext": "timasenzaoffesasenzapeccatodaquelromoreilqualeperaddrietoseramoltevolteuditolesuelaudeportareinfinoallestelleefuriosamentemandat"
+    },
+    {
+      "id": "it-223",
+      "block": "fit",
+      "plaintext": "oininrevocabileesilioquestafulamarmoreastatuafattagliadeternamemoriadellasuavirtuconquesteletterefuilsuonometraqueglidepadridell"
+    },
+    {
+      "id": "it-224",
+      "block": "fit",
+      "plaintext": "apatriascrittointavoledoroconcosifavorevoleromoreglifuronorendutegraziedesuoibeneficichisaradunquecoluicheaquestecoseguardandodi"
+    },
+    {
+      "id": "it-225",
+      "block": "fit",
+      "plaintext": "calanostrarepublicadaquestopienonandaresciancataohvanafidanzademortalidaquantiesemplialtissimisetucontinuamenteripresaammonitaeg"
+    },
+    {
+      "id": "it-226",
+      "block": "fit",
+      "plaintext": "astigatadehsecammillorutiliocoriolanoelunoelaltroscipioneeglialtriantichivalentiuominiperlalunghezzadeltempointerpostotisonodell"
+    },
+    {
+      "id": "it-227",
+      "block": "fit",
+      "plaintext": "amemoriacadutiquestoricentecasotifacciaconpiutemperateredinecorrernetuoipiaceriniunacosacihamenostabilitachelapopolescagrazianiu"
+    },
+    {
+      "id": "it-228",
+      "block": "fit",
+      "plaintext": "napiupazzasperanzaniunopiufolleconsigliochequellocheacrederleconfortanessunolevinsiadunqueglianimialcielonellacuiperpetualeggene"
+    },
+    {
+      "id": "it-229",
+      "block": "fit",
+      "plaintext": "llicuieternisplendorinellacuiverabellezzasipotrasenzaalcunaoscuritaconoscerelastabilitadicoluicheluielealtrecoseconragionemuovea"
+    },
+    {
+      "id": "it-230",
+      "block": "fit",
+      "plaintext": "cciochesicomeinterminefissolasciandoletransitoriecoseinluisifermiogninostrasperanzasetrovarenoncivogliamoingannatiuscitoadunquei"
+    },
+    {
+      "id": "it-231",
+      "block": "fit",
+      "plaintext": "ncotalmanieradantediquellacittadellaqualeeglinonsolamenteeracittadinomaneranolisuoimaggioristatireedificatorielasciatavilasuadon"
+    },
+    {
+      "id": "it-232",
+      "block": "fit",
+      "plaintext": "nainsiemeconlaltrafamigliamaleperpicciolaetaallafugadispostadileisicuroperciochediconsanguinitalasapevaadalcunodeprencipidellapa"
+    },
+    {
+      "id": "it-233",
+      "block": "fit",
+      "plaintext": "rteavversacongiuntadisemedesimoorquaorlaincertoandavavagandopertoscanaeraalcunaparticelladellesuepossessionidalladonnacoltitolod"
+    },
+    {
+      "id": "it-234",
+      "block": "fit",
+      "plaintext": "ellasuadotedallacittadinarabbiastataconfaticadifesadefruttidellaqualeessaseeipicciolifigliuolidiluiassaisottilmentereggevaperlaq"
+    },
+    {
+      "id": "it-235",
+      "block": "fit",
+      "plaintext": "ualcosapoveroconindustriadisusatagliconveniailsostentamentodisemedesimoprocacciareohquantionestisdegnigliconvenneposporrepiuduri"
+    },
+    {
+      "id": "it-236",
+      "block": "fit",
+      "plaintext": "aluichemorteatrapassarepromettendoglilasperanzaquestidoveresserbrievieprossimalatornataeglioltrealsuostimareparecchiannitornatod"
+    },
+    {
+      "id": "it-237",
+      "block": "fit",
+      "plaintext": "averonadovenelprimofuggireamesseralbertodellascalaneraitodalqualebenignamenteerastatoricevutoquandocolcontesalvaticoincasentinoq"
+    },
+    {
+      "id": "it-238",
+      "block": "fit",
+      "plaintext": "uandocolmarchesemorruellomalespinainlunigianaquandoconqueglidellafaggiuolanemontiviciniadorbinoassaiconvenevolmentesecondoiltemp"
+    },
+    {
+      "id": "it-239",
+      "block": "fit",
+      "plaintext": "oesecondolaloropossibilitaonoratosistettequindipoisenandoabolognadovepocostatonandoapadovaequindidacaposiritornoaveronamapoicheg"
+    },
+    {
+      "id": "it-240",
+      "block": "fit",
+      "plaintext": "lividedaognipartechiudersilaviaallatornataedidiindipiudivenirevanalasuasperanzanonsolamentetoscanamatuttaitaliaabbandonatapassat"
+    },
+    {
+      "id": "it-241",
+      "block": "fit",
+      "plaintext": "iimontichequelladividonodallaprovinciadigalliacomepotesenandoaparigiequivituttosidiedeallostudioedellafilosofiaedellateologiarit"
+    },
+    {
+      "id": "it-242",
+      "block": "fit",
+      "plaintext": "ornandoancorainsedellaltrescienzieciocheforseperglialtriimpedimentiavutiseneerapartitoeincioiltempostudiosamentespendendoavvenne"
+    },
+    {
+      "id": "it-243",
+      "block": "fit",
+      "plaintext": "cheoltrealsuoavvisoarrigocontediluzimborgoconvolontaemandatodiclementepapavilqualeallorasedeafuelettoinrederomanieappressocorona"
+    },
+    {
+      "id": "it-244",
+      "block": "fit",
+      "plaintext": "toimperadoreilqualesentendodantedellamagnapartirsipersoggiogarsiitaliaallasuamaestainparterebelleegiaconpotentissimobracciotener"
+    },
+    {
+      "id": "it-245",
+      "block": "fit",
+      "plaintext": "ebresciaassediataavvisandoluipermolteragionidoveresserevincitorepresesperanzaconlasuaforzaedallasuagiustiziadipotereinfiorenzato"
+    },
+    {
+      "id": "it-246",
+      "block": "fit",
+      "plaintext": "rnarecomechealuilasentissecontrariapercheripassatelalpiconmoltinemicidifiorentiniedilorpartecongiuntosieconambascerieeconlettere"
+    },
+    {
+      "id": "it-247",
+      "block": "fit",
+      "plaintext": "singegnaronoditirarelomperadoredalassediodibresciaacciocheafiorenzailponessesicomeaprincipalemembrodesuoinemicimostrandoglichesu"
+    },
+    {
+      "id": "it-248",
+      "block": "fit",
+      "plaintext": "perataquellaniunafaticaglirestavaopiccolaadavereliberaedespeditalapossessioneeildominiodituttaitaliaecomechealuieaglialtriaciote"
+    },
+    {
+      "id": "it-249",
+      "block": "fit",
+      "plaintext": "nentivenissefattoiltrarlocinonebbeperciolasuavenutailfinedaloroavvisatoleresistenzefurongrandissimeeassaimaggiorichedaloroavvisa"
+    },
+    {
+      "id": "it-250",
+      "block": "fit",
+      "plaintext": "tenoneranoperchesenzaavereniunanotevolecosaoperatalomperadorepartitosiquasidisperatoversoromadrizzoilsuocamminoecomecheinunapart"
+    },
+    {
+      "id": "it-251",
+      "block": "fit",
+      "plaintext": "eeinaltrapiucosefacesseassaineordinasseemoltedifarneproponesseognicosaruppelatroppoavacciatamortediluiperlaqualmortegeneralmente"
+    },
+    {
+      "id": "it-252",
+      "block": "fit",
+      "plaintext": "ciascunochealuiattendeadisperatosiemassimamentedantesanzaandaredisuoritornopiuavanticercandopassatelalpidappenninoseneandoinroma"
+    },
+    {
+      "id": "it-253",
+      "block": "fit",
+      "plaintext": "gnaladovelultimosuodiecheallesuefatichedovevaporfinelaspettavaerainquetempisignorediravennafamosaeanticacittadiromagnaunonobilec"
+    },
+    {
+      "id": "it-254",
+      "block": "fit",
+      "plaintext": "avaliereilcuinomeeraguidonoveldapolentailqualeneliberalistudiammaestratosommamenteivalorosiuominionoravaemassimamentequeglichepe"
+    },
+    {
+      "id": "it-255",
+      "block": "fit",
+      "plaintext": "riscienzaglialtriavanzavanoallecuiorecchievenutodantefuoridognisperanzaessereinromagnaavendoeglilungotempoavantiperfamaconosciut"
+    }
+  ],
+  "test": [
+    {
+      "id": "it-256",
+      "block": "A",
+      "plaintext": "oilsuovaloreintantadisperazionesidisposediriceverloedonorarloneaspettodiciodaluiessererichiestomaconliberaleanimoconsiderataqual"
+    },
+    {
+      "id": "it-257",
+      "block": "A",
+      "plaintext": "siaavalorosilavergognadeldomandareeconproferteglisifecedavantirichiedendodispezialgraziaadantequellocheglisapevachedantealuidove"
+    },
+    {
+      "id": "it-258",
+      "block": "A",
+      "plaintext": "adimandarecioechesecolipiacessedidoveressereconcorrendoadunqueiduevoleriaunmedesimofineedeldomandatoedeldomandatoreepiacendosomm"
+    },
+    {
+      "id": "it-259",
+      "block": "A",
+      "plaintext": "amenteadantelaliberalitadelnobilecavaliereedaltraparteilbisognostrignendolosenzaaspettarepiuinvitichelprimosenandoaravennadoveon"
+    },
+    {
+      "id": "it-260",
+      "block": "A",
+      "plaintext": "orevolementedalsignorediquellaricevutoeconpiacevoliconfortirisuscitatalacadutasperanzacopiosamentelecoseopportunedonandogliinque"
+    },
+    {
+      "id": "it-261",
+      "block": "A",
+      "plaintext": "llasecoperpiuanniiltenneanziinfinoalultimodellavitadiluinonpoteronogliamorosidisirineledolentilagrimenelasollecitudinecasalingan"
+    },
+    {
+      "id": "it-262",
+      "block": "A",
+      "plaintext": "elalusinghevolegloriadepublicioficineilmiserabileesilionelaintollerabilepovertagiammaiconlelorforzerimuovereilnostrodantedalprin"
+    },
+    {
+      "id": "it-263",
+      "block": "A",
+      "plaintext": "cipaleintentocioedasacristudiperciochesicomesivederadoveappressopartitamentedelloperedaluifattesifaramenzioneeglinelmezzodiqualu"
+    },
+    {
+      "id": "it-264",
+      "block": "A",
+      "plaintext": "nquefupiufieradellepassionisopradettesitroveracomponendoessersiesercitatoeseobstanticotantiecosifattiavversariquantiequalidisopr"
+    },
+    {
+      "id": "it-265",
+      "block": "A",
+      "plaintext": "asonostatimostratiegliperforzadingegnoediperseveranzariuscichiaroqualnoiveggiamochesipuosperarechessofossedivenutoavendoavutialt"
+    },
+    {
+      "id": "it-266",
+      "block": "A",
+      "plaintext": "rettantiaiutatorioalmenoniunocontrarioopochissimicomehannomolticertoiononsomaselicitofosseadireiodireicheglifosseinterradivenuto"
+    },
+    {
+      "id": "it-267",
+      "block": "A",
+      "plaintext": "unoiddioabitoadunquedanteinravennatoltaviaognisperanzadiritornaremaiinfirenzecomechetoltononfosseildisiopiuannisottolaprotezione"
+    },
+    {
+      "id": "it-268",
+      "block": "A",
+      "plaintext": "delgraziososignoreequiviconlesuedimostrazionifecepiuscolariinpoesiaemassimamentenellavolgarelaqualesecondoilmiogiudicioegliprimo"
+    },
+    {
+      "id": "it-269",
+      "block": "A",
+      "plaintext": "nonaltramentifranoiitaliciesaltoerecoinpregiochelasuaomerotragreciovirgiliotralatinidavantiacostuicomecheperpocospaziodannisicre"
+    },
+    {
+      "id": "it-270",
+      "block": "A",
+      "plaintext": "dacheinnanzitrovatafosseniunofucheardireosentimentoavessedalnumerodellesillabeedallaconsonanzadellepartiestremeinfuoridifarlaess"
+    },
+    {
+      "id": "it-271",
+      "block": "A",
+      "plaintext": "erestrumentodalcunaartificiosamateriaanzisolamenteinleggerissimecosedamoreconessasesercitavanocostuimostroconeffettoconessaognia"
+    },
+    {
+      "id": "it-272",
+      "block": "A",
+      "plaintext": "ltamateriapotersitrattareegloriososopraognialtrofeceilvolgarnostromapoichelasuaoravennesegnataaciaschedunoessendoegligianelmezzo"
+    },
+    {
+      "id": "it-273",
+      "block": "A",
+      "plaintext": "opressodelcinquantesimosestosuoannoinfermatoesecondolacristianareligioneogniecclesiasticosacramentoumilmenteecondivozionericevut"
+    },
+    {
+      "id": "it-274",
+      "block": "A",
+      "plaintext": "oeadiopercontrizionedognicosacommessadaluicontraalsuopiaceresicomedauomoriconciliatosidelmesedisettembrenegliannidicristomcccxxi"
+    },
+    {
+      "id": "it-275",
+      "block": "A",
+      "plaintext": "neldichelaesaltazionedellasantacrocesicelebradallachiesanonsanzagrandissimodoloredelsopradettoguidoegeneralmentedituttiglialtric"
+    },
+    {
+      "id": "it-276",
+      "block": "A",
+      "plaintext": "ittadiniravignanialsuocreatorerendeilfaticatospiritoilqualenondubitochericevutononfossenellebracciadellasuanobilissimabeatriceco"
+    },
+    {
+      "id": "it-277",
+      "block": "A",
+      "plaintext": "nlaqualenelcospettodicoluichesommobenelasciatelemiseriedellapresentevitaoralietissimamenteviveinquellaallacuifelicitafinegiammai"
+    },
+    {
+      "id": "it-278",
+      "block": "A",
+      "plaintext": "nonsaspettafeceilmagnanimocavaliereilmortocorpodidantedornamentipoeticisopraunofunebrelettoadornareequellofattoportaresopragliom"
+    },
+    {
+      "id": "it-279",
+      "block": "A",
+      "plaintext": "eridesuoicittadinipiusolenniinfinoalluogodefratiminoriinravennaconquelloonorecheasifattocorpodegnoestimavainfinoquiviquasiconpub"
+    },
+    {
+      "id": "it-280",
+      "block": "A",
+      "plaintext": "licopiantoseguitoloinunaarcalapideanellaqualeancoragiaceilfeceporreetornatoallacasanellaqualedanteeraprimaabitatosecondoilravign"
+    },
+    {
+      "id": "it-281",
+      "block": "A",
+      "plaintext": "anocostumeessomedesimosiacommendazionedellaltascienziaedellavertudeldefuntoesiaconsolazionedesuoiamiciliqualiegliaveainamarissim"
+    },
+    {
+      "id": "it-282",
+      "block": "A",
+      "plaintext": "avitalasciatifeceunornatoelungosermonedispostoselostatoelavitafosseroduratidisiegregiasepolturaonorarlochesemaialcunoaltrosuomer"
+    },
+    {
+      "id": "it-283",
+      "block": "A",
+      "plaintext": "itononlavessememorevolerendutoafuturiquellalavrebbefattoquestolaudevoleproponimentoinfrabrievespazioditempofumanifestoadalquanti"
+    },
+    {
+      "id": "it-284",
+      "block": "A",
+      "plaintext": "liqualiinqueltempoeranoinpoesisolennissimiinromagnapercheciascunosipermostrarelasuasofficienziasiperrenderetestimonianzadellapor"
+    },
+    {
+      "id": "it-285",
+      "block": "A",
+      "plaintext": "tatabenivolenziadaloroalmortopoetasipercaptarelagraziaelamoredelsignoreilqualeciosapevanodisiderareciascunopersefeceversiliquali"
+    },
+    {
+      "id": "it-286",
+      "block": "A",
+      "plaintext": "postiperepitafioallafuturasepulturacondebitelodefacesserolaposteritacertachidentrodaessagiacesseealmagnificosignoreglimandaronoi"
+    },
+    {
+      "id": "it-287",
+      "block": "A",
+      "plaintext": "lqualecongranpeccatodellafortunanondopomoltotempotoltoglilostatosimoriabolognaperlaqualcosaeilfareilsepolcroeilporvilimandativer"
+    },
+    {
+      "id": "it-288",
+      "block": "B",
+      "plaintext": "sisirimaseliqualiversistatiamemostratipoipiutempoappressoeveggendoloroavereavutoluogoperlocasogiadimostratopensandolepresenticos"
+    },
+    {
+      "id": "it-289",
+      "block": "B",
+      "plaintext": "epermescrittecomechesepolturanonsienocorporalemasienosicomequellasarebbestataperpetueconservatricidellacoluimemoriaimaginainones"
+    },
+    {
+      "id": "it-290",
+      "block": "B",
+      "plaintext": "seresconvenevolequegliaggiugnereaquestecosemaperciochepiuchequeglichelunodicoloroavessefattichefuronpiunonsisarebberonemarmiinta"
+    },
+    {
+      "id": "it-291",
+      "block": "B",
+      "plaintext": "gliaticosisolamentequeglidunoquiestimaichefosserdascrivereperchetuttimecoesaminatigliperarteeperintendimentopiudegniestimaichefo"
+    },
+    {
+      "id": "it-292",
+      "block": "B",
+      "plaintext": "sseroquattordicifattinedamaestrogiovannidelvirgiliobologneseallorafamosissimoegranpoetaedidantestatosingularissimoamicoliqualiso"
+    },
+    {
+      "id": "it-293",
+      "block": "B",
+      "plaintext": "noquestiappressoscrittiohingratapatriaqualedemenziaqualtrascutagginetitenevaquandotuiltuocarissimocittadinoiltuobenefattorepreci"
+    },
+    {
+      "id": "it-294",
+      "block": "B",
+      "plaintext": "puoiltuounicopoetaconcrudeltadisusatamettestiinfugaoposciatenutathaseforseperlacomunefuriadiqueltempomalconsigliatatiscusichetor"
+    },
+    {
+      "id": "it-295",
+      "block": "B",
+      "plaintext": "natacessatelirelatranquillitadellanimoripentutatidelfattonolrivocastidehnontirincrescalostareconmecochetuofigliuolsonoalquantoar"
+    },
+    {
+      "id": "it-296",
+      "block": "B",
+      "plaintext": "agioneequellochegiustaindegnazionmifadirecomedauomochetiramendidisideraenonchetusiipunitapiglieraipartiegliesseregloriosaditanti"
+    },
+    {
+      "id": "it-297",
+      "block": "B",
+      "plaintext": "titolieditalichetuquellounodelqualenonhaivicinacittachedisimilesipossaesaltaretuabbivolutodatecacciaredehdimmidiquavittoriediqua"
+    },
+    {
+      "id": "it-298",
+      "block": "B",
+      "plaintext": "triunfidiqualieccellenziediqualivalorosicittadinisetusplendenteletuericchezzecosamobileeincertaletuebellezzecosafragileecaducale"
+    },
+    {
+      "id": "it-299",
+      "block": "B",
+      "plaintext": "tuedilicatezzecosavituperevoleefemminiletifannonotanelfalsogiudiciodepopoliilqualepiuadapparenzacheadesistenzasempreriguardadehg"
+    },
+    {
+      "id": "it-300",
+      "block": "B",
+      "plaintext": "lorieratitudetuoimercatantiedemoltiartistidondetusepienascioccamentefarailunofucontinuamentelavariziaoperandolomestiereservilela"
+    },
+    {
+      "id": "it-301",
+      "block": "B",
+      "plaintext": "rtelaqualeuntemponobilitatafudaglingegniintantocheunasecondanaturalafecerodallavariziamedesimaeoggicorrottaenientevaleglorierati"
+    },
+    {
+      "id": "it-302",
+      "block": "B",
+      "plaintext": "tudellaviltaeignaviadicoloroliqualiperciochedimoltiloroavolisiricordanovoglionodentrodatedellanobiltaottenereilprincipatosemprec"
+    },
+    {
+      "id": "it-303",
+      "block": "B",
+      "plaintext": "onruberieecontradimentieconfalsitacontraquellaoperantivanagloriasaralatuaedacolorolecuisentenziehannofondamentodebitoestabilefer"
+    },
+    {
+      "id": "it-304",
+      "block": "B",
+      "plaintext": "mezzaschernitaahimiseramadreaprigliocchieguardaconalcunorimordimentoquellochetufacestievergognatialmenoessendoreputatasaviacomet"
+    },
+    {
+      "id": "it-305",
+      "block": "B",
+      "plaintext": "usedavereavutanefallituoifalsaelezionedehsetudatenonavevitantoconsiglioperchenonimitavitugliattidiquellecittalequaliancoraperlel"
+    },
+    {
+      "id": "it-306",
+      "block": "B",
+      "plaintext": "orolaudevolioperesonfamoseatenelaqualefulunodegliocchidigreciaalloracheinquellaeralamonarchiadelmondoperiscienziapereloquenziaep"
+    },
+    {
+      "id": "it-307",
+      "block": "B",
+      "plaintext": "ermiliziasplendidaparimenteargosancorapomposaperlititolidesuoiresmirnaanoireverendainperpetuoperniccolaiosuopastorepilosnotissim"
+    },
+    {
+      "id": "it-308",
+      "block": "B",
+      "plaintext": "aperlovecchionestorechimichiosecolofoncittasplendidissimeperadietrotutteinsiemequalorapiugloriosefuronononsivergognarononedubita"
+    },
+    {
+      "id": "it-309",
+      "block": "B",
+      "plaintext": "ronodavereagraquistionedellaoriginedeldivinopoetaomeroaffermandociascunaluidiseaverlatrattaesiciascunafececonargomentifortelasua"
+    },
+    {
+      "id": "it-310",
+      "block": "B",
+      "plaintext": "intenzionecheancoralaquistionviveneecertodondesifossepercheparimentedicotalcittadinocosilunacomelaltraancorsigloriaemantovanostr"
+    },
+    {
+      "id": "it-311",
+      "block": "B",
+      "plaintext": "avicinadiqualealtracosalepiualcunafamarimasachelesserestatovirgiliomantovanoilcuinomehannoancoraintantareverenziaesieappotuttiac"
+    },
+    {
+      "id": "it-312",
+      "block": "B",
+      "plaintext": "cettevolechenonsolamentenepubliciluoghimaancorainmoltiprivatisivedelasuaimagineeffigiatamostrandoinciochenonostantecheilpadredil"
+    },
+    {
+      "id": "it-313",
+      "block": "B",
+      "plaintext": "uifosselutifigoloessodituttilorosiastatonobilitatoresulmonadovidiovenosadorazioaquinodigiovenaleealtremolteciascunasigloriadelsu"
+    },
+    {
+      "id": "it-314",
+      "block": "B",
+      "plaintext": "oedellalorosufficienziafannoquistionelesemplodiquestenonteravergognadiseguitarelequalinoneverisimilesanzacagioneesserestateevagh"
+    },
+    {
+      "id": "it-315",
+      "block": "B",
+      "plaintext": "eeteneredicittadinicosifattiesseconobberoquellochetumedesimapoteviconoscereepuoicioechelecostoroperpetueoperazionisarebberoancor"
+    },
+    {
+      "id": "it-316",
+      "block": "B",
+      "plaintext": "adopolalorruinaritenitricieternedelnomelorocosicomealpresentedivulgatepertuttoilmondolefannoconoscereacolorochenonlevidergiammai"
+    },
+    {
+      "id": "it-317",
+      "block": "B",
+      "plaintext": "tusolanonsodaqualcechitaadombratahaivolutotenerealtrocamminoequasimoltodatelucentediquestosplendorenonhaicuratotusolaquasiicamil"
+    },
+    {
+      "id": "it-318",
+      "block": "B",
+      "plaintext": "liipublicoliitorquatiifabriziicatoniifabiegliscipioniconleloromagnificheoperetifacesserofamosaeintefosserononsolamenteavendotila"
+    },
+    {
+      "id": "it-319",
+      "block": "B",
+      "plaintext": "sciatolanticotuocittadinoclaudianocaderdellemaninonhaiavutodelpresentepoetacuramalhaidatecacciatosbanditoeprivatolosetuavessipot"
+    }
+  ]
+}
