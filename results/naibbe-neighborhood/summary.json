@@ -1,0 +1,437 @@
+{
+  "status": "EXPLORATORY_COMPLETE_NOT_NEW_RECOVERY_RESULT",
+  "rows": [
+    {
+      "case": "la-r0-preserved",
+      "baseline": -169483.84802337733,
+      "best_fixed_path_gain": 713.7989713023417,
+      "best_full_gain": 713.7989713023417,
+      "neighborhoods": [
+        {
+          "kind": "slot_swap",
+          "enumerated": 28359,
+          "same_slots": 1,
+          "legal_changed": 28094,
+          "strict_improvements": 950
+        },
+        {
+          "kind": "role_column_swap",
+          "enumerated": 759,
+          "same_slots": 0,
+          "legal_changed": 759,
+          "strict_improvements": 1
+        },
+        {
+          "kind": "global_column_swap",
+          "enumerated": 253,
+          "same_slots": 0,
+          "legal_changed": 253,
+          "strict_improvements": 0
+        },
+        {
+          "kind": "duplicate_bundle",
+          "enumerated": 345,
+          "same_slots": 1,
+          "legal_changed": 344,
+          "strict_improvements": 0
+        }
+      ]
+    },
+    {
+      "case": "la-r0-deleted",
+      "baseline": -170963.88655411926,
+      "best_fixed_path_gain": 580.0098854079552,
+      "best_full_gain": 580.2582419670944,
+      "neighborhoods": [
+        {
+          "kind": "slot_swap",
+          "enumerated": 28359,
+          "same_slots": 1,
+          "legal_changed": 28094,
+          "strict_improvements": 966
+        },
+        {
+          "kind": "role_column_swap",
+          "enumerated": 759,
+          "same_slots": 0,
+          "legal_changed": 759,
+          "strict_improvements": 0
+        },
+        {
+          "kind": "global_column_swap",
+          "enumerated": 253,
+          "same_slots": 0,
+          "legal_changed": 253,
+          "strict_improvements": 0
+        },
+        {
+          "kind": "duplicate_bundle",
+          "enumerated": 345,
+          "same_slots": 1,
+          "legal_changed": 344,
+          "strict_improvements": 5
+        }
+      ]
+    },
+    {
+      "case": "la-r1-preserved",
+      "baseline": -171456.0980937285,
+      "best_fixed_path_gain": 682.4016748718859,
+      "best_full_gain": 682.4016748718859,
+      "neighborhoods": [
+        {
+          "kind": "slot_swap",
+          "enumerated": 28359,
+          "same_slots": 1,
+          "legal_changed": 28094,
+          "strict_improvements": 1000
+        },
+        {
+          "kind": "role_column_swap",
+          "enumerated": 759,
+          "same_slots": 0,
+          "legal_changed": 759,
+          "strict_improvements": 2
+        },
+        {
+          "kind": "global_column_swap",
+          "enumerated": 253,
+          "same_slots": 0,
+          "legal_changed": 253,
+          "strict_improvements": 0
+        },
+        {
+          "kind": "duplicate_bundle",
+          "enumerated": 345,
+          "same_slots": 1,
+          "legal_changed": 344,
+          "strict_improvements": 0
+        }
+      ]
+    },
+    {
+      "case": "la-r1-deleted",
+      "baseline": -173942.98722836864,
+      "best_fixed_path_gain": 498.9065175949945,
+      "best_full_gain": 523.5388160209986,
+      "neighborhoods": [
+        {
+          "kind": "slot_swap",
+          "enumerated": 28359,
+          "same_slots": 1,
+          "legal_changed": 28094,
+          "strict_improvements": 932
+        },
+        {
+          "kind": "role_column_swap",
+          "enumerated": 759,
+          "same_slots": 0,
+          "legal_changed": 759,
+          "strict_improvements": 3
+        },
+        {
+          "kind": "global_column_swap",
+          "enumerated": 253,
+          "same_slots": 0,
+          "legal_changed": 253,
+          "strict_improvements": 0
+        },
+        {
+          "kind": "duplicate_bundle",
+          "enumerated": 345,
+          "same_slots": 1,
+          "legal_changed": 344,
+          "strict_improvements": 3
+        }
+      ]
+    },
+    {
+      "case": "la-r2-preserved",
+      "baseline": -169483.75340625184,
+      "best_fixed_path_gain": 612.0541427514108,
+      "best_full_gain": 612.0541427514108,
+      "neighborhoods": [
+        {
+          "kind": "slot_swap",
+          "enumerated": 28359,
+          "same_slots": 1,
+          "legal_changed": 28094,
+          "strict_improvements": 944
+        },
+        {
+          "kind": "role_column_swap",
+          "enumerated": 759,
+          "same_slots": 0,
+          "legal_changed": 759,
+          "strict_improvements": 0
+        },
+        {
+          "kind": "global_column_swap",
+          "enumerated": 253,
+          "same_slots": 0,
+          "legal_changed": 253,
+          "strict_improvements": 0
+        },
+        {
+          "kind": "duplicate_bundle",
+          "enumerated": 345,
+          "same_slots": 1,
+          "legal_changed": 344,
+          "strict_improvements": 0
+        }
+      ]
+    },
+    {
+      "case": "la-r2-deleted",
+      "baseline": -172911.88603568825,
+      "best_fixed_path_gain": 545.3069169694209,
+      "best_full_gain": 562.2882817793288,
+      "neighborhoods": [
+        {
+          "kind": "slot_swap",
+          "enumerated": 28359,
+          "same_slots": 1,
+          "legal_changed": 28094,
+          "strict_improvements": 818
+        },
+        {
+          "kind": "role_column_swap",
+          "enumerated": 759,
+          "same_slots": 0,
+          "legal_changed": 759,
+          "strict_improvements": 1
+        },
+        {
+          "kind": "global_column_swap",
+          "enumerated": 253,
+          "same_slots": 0,
+          "legal_changed": 253,
+          "strict_improvements": 0
+        },
+        {
+          "kind": "duplicate_bundle",
+          "enumerated": 345,
+          "same_slots": 1,
+          "legal_changed": 344,
+          "strict_improvements": 0
+        }
+      ]
+    },
+    {
+      "case": "it-r0-preserved",
+      "baseline": -167788.26423683265,
+      "best_fixed_path_gain": 529.3131666099944,
+      "best_full_gain": 533.364834166452,
+      "neighborhoods": [
+        {
+          "kind": "slot_swap",
+          "enumerated": 28359,
+          "same_slots": 1,
+          "legal_changed": 28094,
+          "strict_improvements": 1015
+        },
+        {
+          "kind": "role_column_swap",
+          "enumerated": 759,
+          "same_slots": 0,
+          "legal_changed": 759,
+          "strict_improvements": 1
+        },
+        {
+          "kind": "global_column_swap",
+          "enumerated": 253,
+          "same_slots": 0,
+          "legal_changed": 253,
+          "strict_improvements": 0
+        },
+        {
+          "kind": "duplicate_bundle",
+          "enumerated": 345,
+          "same_slots": 1,
+          "legal_changed": 344,
+          "strict_improvements": 0
+        }
+      ]
+    },
+    {
+      "case": "it-r0-deleted",
+      "baseline": -169543.83452813455,
+      "best_fixed_path_gain": 390.286272110563,
+      "best_full_gain": 407.85362191998865,
+      "neighborhoods": [
+        {
+          "kind": "slot_swap",
+          "enumerated": 28359,
+          "same_slots": 1,
+          "legal_changed": 28094,
+          "strict_improvements": 858
+        },
+        {
+          "kind": "role_column_swap",
+          "enumerated": 759,
+          "same_slots": 0,
+          "legal_changed": 759,
+          "strict_improvements": 1
+        },
+        {
+          "kind": "global_column_swap",
+          "enumerated": 253,
+          "same_slots": 0,
+          "legal_changed": 253,
+          "strict_improvements": 0
+        },
+        {
+          "kind": "duplicate_bundle",
+          "enumerated": 345,
+          "same_slots": 1,
+          "legal_changed": 344,
+          "strict_improvements": 3
+        }
+      ]
+    },
+    {
+      "case": "it-r1-preserved",
+      "baseline": -168862.23929562684,
+      "best_fixed_path_gain": 575.9924757523113,
+      "best_full_gain": 591.9059816678055,
+      "neighborhoods": [
+        {
+          "kind": "slot_swap",
+          "enumerated": 28359,
+          "same_slots": 1,
+          "legal_changed": 28094,
+          "strict_improvements": 1012
+        },
+        {
+          "kind": "role_column_swap",
+          "enumerated": 759,
+          "same_slots": 0,
+          "legal_changed": 759,
+          "strict_improvements": 1
+        },
+        {
+          "kind": "global_column_swap",
+          "enumerated": 253,
+          "same_slots": 0,
+          "legal_changed": 253,
+          "strict_improvements": 0
+        },
+        {
+          "kind": "duplicate_bundle",
+          "enumerated": 345,
+          "same_slots": 1,
+          "legal_changed": 344,
+          "strict_improvements": 0
+        }
+      ]
+    },
+    {
+      "case": "it-r1-deleted",
+      "baseline": -172046.873360512,
+      "best_fixed_path_gain": 370.2353852831875,
+      "best_full_gain": 384.21395712459343,
+      "neighborhoods": [
+        {
+          "kind": "slot_swap",
+          "enumerated": 28359,
+          "same_slots": 1,
+          "legal_changed": 28094,
+          "strict_improvements": 868
+        },
+        {
+          "kind": "role_column_swap",
+          "enumerated": 759,
+          "same_slots": 0,
+          "legal_changed": 759,
+          "strict_improvements": 1
+        },
+        {
+          "kind": "global_column_swap",
+          "enumerated": 253,
+          "same_slots": 0,
+          "legal_changed": 253,
+          "strict_improvements": 0
+        },
+        {
+          "kind": "duplicate_bundle",
+          "enumerated": 345,
+          "same_slots": 1,
+          "legal_changed": 344,
+          "strict_improvements": 0
+        }
+      ]
+    },
+    {
+      "case": "it-r2-preserved",
+      "baseline": -167501.59855849127,
+      "best_fixed_path_gain": 522.3119528570678,
+      "best_full_gain": 529.6219629318512,
+      "neighborhoods": [
+        {
+          "kind": "slot_swap",
+          "enumerated": 28359,
+          "same_slots": 1,
+          "legal_changed": 28094,
+          "strict_improvements": 917
+        },
+        {
+          "kind": "role_column_swap",
+          "enumerated": 759,
+          "same_slots": 0,
+          "legal_changed": 759,
+          "strict_improvements": 0
+        },
+        {
+          "kind": "global_column_swap",
+          "enumerated": 253,
+          "same_slots": 0,
+          "legal_changed": 253,
+          "strict_improvements": 0
+        },
+        {
+          "kind": "duplicate_bundle",
+          "enumerated": 345,
+          "same_slots": 1,
+          "legal_changed": 344,
+          "strict_improvements": 1
+        }
+      ]
+    },
+    {
+      "case": "it-r2-deleted",
+      "baseline": -170474.69668368364,
+      "best_fixed_path_gain": 564.7865749155753,
+      "best_full_gain": 588.255062468932,
+      "neighborhoods": [
+        {
+          "kind": "slot_swap",
+          "enumerated": 28359,
+          "same_slots": 1,
+          "legal_changed": 28094,
+          "strict_improvements": 859
+        },
+        {
+          "kind": "role_column_swap",
+          "enumerated": 759,
+          "same_slots": 0,
+          "legal_changed": 759,
+          "strict_improvements": 1
+        },
+        {
+          "kind": "global_column_swap",
+          "enumerated": 253,
+          "same_slots": 0,
+          "legal_changed": 253,
+          "strict_improvements": 0
+        },
+        {
+          "kind": "duplicate_bundle",
+          "enumerated": 345,
+          "same_slots": 1,
+          "legal_changed": 344,
+          "strict_improvements": 1
+        }
+      ]
+    }
+  ]
+}

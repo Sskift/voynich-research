@@ -1,0 +1,31 @@
+{
+  "status": "COMPLETE",
+  "input_freeze_sha256": "6f53443fec194e73dd3c07d0d19d49deee47add303cd0356d1ee026ef87b829a",
+  "hashes": {
+    "results/naibbe-neighborhood/la-r0-preserved.json": "06a5ee02c1ef41356dfd4dd654ad4c970809f244e0624c5b26bcec76634f40e5",
+    "results/naibbe-neighborhood/la-r0-preserved.json.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/naibbe-neighborhood/la-r0-deleted.json": "ffcb02c9730b30dc5757898f138c48ae0b941ecb87b04a8c94c1a0b88a59d3dc",
+    "results/naibbe-neighborhood/la-r0-deleted.json.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/naibbe-neighborhood/la-r1-preserved.json": "3abf4ca324bfdcccc9d163834047200d1455c05828dceec87c830a8eee0d0586",
+    "results/naibbe-neighborhood/la-r1-preserved.json.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/naibbe-neighborhood/la-r1-deleted.json": "006bd9bc9ec94185bdece186803923f3946b5bd24f9095e7c173984fd0e1e162",
+    "results/naibbe-neighborhood/la-r1-deleted.json.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/naibbe-neighborhood/la-r2-preserved.json": "bc92566e48517fbbfe1157511b82989e2728861b039b01876ac13e50286b04f5",
+    "results/naibbe-neighborhood/la-r2-preserved.json.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/naibbe-neighborhood/la-r2-deleted.json": "fa111e0984b6b20debdae72679552112d17af44d737b2ead86dddfbf22ad2792",
+    "results/naibbe-neighborhood/la-r2-deleted.json.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/naibbe-neighborhood/it-r0-preserved.json": "70e0b1f6485b41e58a8c30066c7aa30fc8bd4fe0e700964e24f7f2d60b785eb1",
+    "results/naibbe-neighborhood/it-r0-preserved.json.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/naibbe-neighborhood/it-r0-deleted.json": "5b213ce4221ef7120c1570a9d9580e0d647e7e6dcb2c9789a198d29525e69688",
+    "results/naibbe-neighborhood/it-r0-deleted.json.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/naibbe-neighborhood/it-r1-preserved.json": "8e42469e1cd38702878832dcfc8a6b493cfc8211b5a0f0e70943e404ed5116e2",
+    "results/naibbe-neighborhood/it-r1-preserved.json.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/naibbe-neighborhood/it-r1-deleted.json": "bd2dfc49cf615987ad0d8fa455a9b71c5e07cc5a0bfd7649655318bfcd0ec10b",
+    "results/naibbe-neighborhood/it-r1-deleted.json.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/naibbe-neighborhood/it-r2-preserved.json": "173787ce5c9b94315b0e88e100d6291ef98ac6f2858e1b1c6833117586f6b9ea",
+    "results/naibbe-neighborhood/it-r2-preserved.json.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/naibbe-neighborhood/it-r2-deleted.json": "2a4b2dd52fca058a4607b5e1684148ca6a12348fd057fa684aa9a726968d9ef5",
+    "results/naibbe-neighborhood/it-r2-deleted.json.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/naibbe-neighborhood/summary.json": "a618398631b5b2daabe50ba00c8068584b6f67f1d77eac7b1a2dbb607163de68"
+  }
+}

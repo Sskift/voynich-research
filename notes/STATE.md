@@ -6,6 +6,21 @@ independent audit and failure diagnosis completed. All24primary gates FAIL;
 all24true-key reference gates PASS. This does not complete the goal.
 No verified connected reading, phonetic value, word meaning or language identified.
 
+Current023 pre-generation freeze (2026-10-02): post022 public-training neighborhood
+diagnostic4527 completed: eachselected key has818–1015 improving simple slot swaps;
+onebestmove fullobjectivegain384.21–713.80. No iterativefit/heldout/truth scoring
+inthat diagnostic; inputs/output frozen in results/naibbe-neighborhood/.
+New src/naibbe_descent_search.cpp keeps022anneal and adds canonical improving
+neighbor sweeps aftereachround.29716moves/sweep,32sweepscap,1e-7strictgain,
+fullredecodeaftereachsweep;30directchecks/sweep. Stopzeroaccepted orrecordcap.
+Samefull6tables/oracles/sources/primary24gates. NEWprivatekey/encoderseeds required;
+no022selected/truekeywarmstart. src/naibbe_descent.py uses data/results
+naibbe-unknown-v2 and bin/naibbe_descent.12restartsx3roundsx20000anneal plusdescent.
+freeze38261 terminalexit0:31inputhashes; synthetic/integration checksPASS.
+data/naibbe-unknown-v2/input-freeze.json and all31inputs nowimmutable.
+No actual023key/ciphertext/fit yet atthischeckpoint. Pushfreeze BEFORE prepare.
+Next prepare,12fits,freeze-fit,predict,score,independentaudit. Goal remainsactive.
+
 Current022 completed (2026-10-02): input28hash freeze pushed e21e231 BEFORE any
 new private key/ciphertext generation. prepare4675 terminal exit0,104files;
 prepared checkpoint pushed433df55. Fit group sessions30801/54987/44399 all terminal
@@ -38,9 +53,9 @@ Onlyauditor score comparison repaired to alreadydeclared1e-7; allotherfields exa
 actual difference2.16005e-12. Production/protocol/predictions/scores unchanged.
 notes/report-018-zh.md completed report; results/naibbe-unknown-summary.csv48rows.
 Do not modify022frozen28inputs/104prepared/48fit/36prediction/87score artifacts.
-Current next action: separately freeze and calibrate improved full-six-table key
-optimization; possible grouped reassignment/stronger descent diagnostics remain
-unexecuted. Do not apply failed022solver to native or manually assign readings.
+022 follow-up: improved full-six-table optimization is now separately frozen as023
+above; grouped reassignment remains unexecuted. Do not apply failed022solver to
+native or manually assign readings.
 Goal remains ACTIVE, not achieved or blocked. Earlier021 and all freezes preserved.
 
 Current021: protocol/code21input hashes frozen and pushed as a446dde BEFORE
