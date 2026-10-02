@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "frozen_hashes": 67,
+  "source_loci": 4164,
+  "source_word_slots": 59415,
+  "profile_full_and_blocks": 96,
+  "reference_comparisons": 11592,
+  "primary_passing_languages": [
+    "de"
+  ],
+  "limitations": "Audits positional source selection and statistics, not physical word alignment, phonemes or German identity.",
+  "hashes": {
+    "src/audit_transcription_units.py": "848e3c3c122a14281688d4d72f1b547eeec35acab50dba00b11f1cba085556a0",
+    "results/transcription-units/profiles.json": "5486685cef52f4627246190bc06702ac47d6270aadf8ccbe4cc863ecc19f6337",
+    "data/transcription-units/selection-freeze.json": "ccc8f41ec7bb6839347e7f30ddb1f369562941abe3b4e26b7a6ea401562a839b",
+    "data/transcription-units/score-freeze.json": "6417658d5a8d96ed97af9ce1f0f3525d1a2296baa6d5aaa89428a7294c819ed9"
+  }
+}

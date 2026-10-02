@@ -1,0 +1,120 @@
+{
+  "primary_passing_languages": [
+    "de"
+  ],
+  "full_train": {
+    "GC": {
+      "units": 23721,
+      "words": 6586,
+      "mean_word_length": 3.601730944427574,
+      "max_frequency": 0.1948062897854222,
+      "most_frequent": [
+        "o"
+      ],
+      "types": 127
+    },
+    "ZL": {
+      "units": 29865,
+      "words": 6354,
+      "mean_word_length": 4.700188857412654,
+      "max_frequency": 0.15312238406161058,
+      "most_frequent": [
+        "o"
+      ],
+      "types": 63
+    },
+    "IT": {
+      "units": 30609,
+      "words": 6392,
+      "mean_word_length": 4.788642052565707,
+      "max_frequency": 0.15351693946224967,
+      "most_frequent": [
+        "o"
+      ],
+      "types": 20
+    }
+  },
+  "paired_train": {
+    "GC": {
+      "units": 12968,
+      "words": 3501,
+      "mean_word_length": 3.704084547272208,
+      "max_frequency": 0.1965607649599013,
+      "most_frequent": [
+        "o"
+      ],
+      "types": 95
+    },
+    "ZL": {
+      "units": 16919,
+      "words": 3501,
+      "mean_word_length": 4.832619251642388,
+      "max_frequency": 0.15278680773095338,
+      "most_frequent": [
+        "o"
+      ],
+      "types": 45
+    },
+    "IT": {
+      "units": 16915,
+      "words": 3501,
+      "mean_word_length": 4.831476720936875,
+      "max_frequency": 0.1528820573455513,
+      "most_frequent": [
+        "o"
+      ],
+      "types": 20
+    }
+  },
+  "ratios": {
+    "ZL": {
+      "total_unit_ratio": 1.3046730413325107,
+      "words": 3501,
+      "shorter": 6,
+      "equal": 942,
+      "longer": 2553
+    },
+    "IT": {
+      "total_unit_ratio": 1.3043645897594078,
+      "words": 3501,
+      "shorter": 7,
+      "equal": 936,
+      "longer": 2558
+    }
+  },
+  "coverage": {
+    "GC": {
+      "scope_loci": 980,
+      "eligible_loci": 980,
+      "missing_or_ineligible_loci": 0,
+      "raw_words": 6586,
+      "known_words": 6586,
+      "unknown_words": 0,
+      "paired_known_words": 3501,
+      "paired_word_fraction": 0.5315821439416945,
+      "paired_unit_fraction": 0.5466885881708191
+    },
+    "ZL": {
+      "scope_loci": 980,
+      "eligible_loci": 980,
+      "missing_or_ineligible_loci": 0,
+      "raw_words": 6520,
+      "known_words": 6354,
+      "unknown_words": 166,
+      "paired_known_words": 3501,
+      "paired_word_fraction": 0.5509915014164306,
+      "paired_unit_fraction": 0.5665159886154362
+    },
+    "IT": {
+      "scope_loci": 980,
+      "eligible_loci": 980,
+      "missing_or_ineligible_loci": 0,
+      "raw_words": 6403,
+      "known_words": 6392,
+      "unknown_words": 11,
+      "paired_known_words": 3501,
+      "paired_word_fraction": 0.5477158948685857,
+      "paired_unit_fraction": 0.5526152438825183
+    }
+  }
+}

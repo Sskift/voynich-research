@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "length_distribution_cases": 10800,
+  "length_assignments": 139860,
+  "cases_with_feasible_assignment": 9437,
+  "false_admissions": 0,
+  "false_admission_witness": null,
+  "exact_decoded_cipher_cases": 4504,
+  "note": "False admissions are expected from a necessary relaxation. No false rejections observed in exhaustive finite cases; mathematical proof still supplies general validity."
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://www.mufi.info/mufi/pdfs/MUFI%20v4.0%20alpha.pdf",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://mufi.info/q.php?p=mufi%2Fchars%2Funichar%2F59181",
+    "path": "data/raw/mufi-u-entry.html",
+    "bytes": 1939,
+    "sha256": "b7030b4c4aa21f08554f9bf02cf64e5090582dc3f914b6b773e673859962a2c8",
+    "is_pdf": false
+  },
+  {
+    "url": "https://titus.uni-frankfurt.de/unicode/unicsel/lat/0075.htm",
+    "path": "data/raw/titus-u.html",
+    "bytes": 27626,
+    "sha256": "c6b29dd5d38cb281204450e54f32c23b1f154fc219e1bd149f84af4f87029e06",
+    "is_pdf": false
+  }
+]

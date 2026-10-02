@@ -1,0 +1,28 @@
+{
+  "f57v": {
+    "mirror": "data/images/057v.jpg",
+    "tiles": [
+      "data/images/f57v-jd-z4-y1-x4.jpg",
+      "data/images/f57v-jd-z4-y1-x5.jpg",
+      "data/images/f57v-jd-z4-y2-x2.jpg",
+      "data/images/f57v-jd-z4-y3-x7.jpg",
+      "data/images/f57v-jd-z4-y4-x7.jpg",
+      "data/images/f57v-jd-z4-y5-x2.jpg",
+      "data/images/f57v-jd-z4-y5-x7.jpg",
+      "data/images/f57v-jd-z4-y6-x2.jpg",
+      "data/images/f57v-jd-z4-y7-x4.jpg",
+      "data/images/f57v-jd-z4-y7-x5.jpg"
+    ],
+    "all_listed_images_viewed": true,
+    "scope": "Nonblind comparison of overall circle layout and selected symbol shapes. A fresh independent reading of every glyph has NOT been claimed.",
+    "groups": "68 corresponding layout positions in four17-entry spans. ZL68 spacing groups contain72 encoded atoms; GC67 spacing groups contain68 encoded atoms.",
+    "uncertainty": "IT has69 fragments. Its final r/n remains an unresolved span and contributes no symbol value at that comparison position. No image-based claim that these two fragments must be a single linguistic character."
+  },
+  "f66r": {
+    "mirror": "data/images/066r.jpg",
+    "all_listed_images_viewed": true,
+    "scope": "Character column loci16..49 top-to-bottom, beside15 longer labels. Target identification after template freeze, before score inspection.",
+    "source_dependence": "ZL marginal comments explicitly refer to f57v for entries37/38. Similar symbol coding is therefore not independent paleographic confirmation. RF is excluded from the external test."
+  },
+  "no_source_pixels_repainted": true
+}

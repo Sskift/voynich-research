@@ -1,0 +1,18 @@
+[
+  {
+    "file": "data/raw/landini-labels-2001.html",
+    "url": "https://www.voynich.net/Arch/2001/03/msg00014.html",
+    "bytes": 5716,
+    "sha256": "9ed3f7ff3250319b5d584b0470150e3a03123bd807faa651554014773546520e",
+    "file_mtime_utc": "2026-10-02T03:18:12.276604+00:00",
+    "note": "Acquired during experiment 005/006 follow-up; filesystem mtime records download completion approximately."
+  },
+  {
+    "file": "data/raw/labels-2026.html",
+    "url": "https://www.voynich.nu/extra/labels.html",
+    "bytes": 32250,
+    "sha256": "07d9d636a5b64ee2aa9d8ff4c3274bb82e94e8d1d2b659b0b08f61d192341f91",
+    "file_mtime_utc": "2026-10-02T03:18:11.904605+00:00",
+    "note": "Acquired during experiment 005/006 follow-up; filesystem mtime records download completion approximately."
+  }
+]

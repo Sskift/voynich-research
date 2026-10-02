@@ -1,0 +1,42 @@
+{
+  "sources": [
+    {
+      "path": "data/raw/latin/caesar-gallic.xml",
+      "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/master/data/phi0448/phi001/phi0448.phi001.perseus-lat2.xml",
+      "role": "LM training",
+      "sha256": "15ec3ef2a36352742ddb75d4f7da23a143899b6b60ee3a7ca3192d4917ca1568",
+      "bytes": 691991
+    },
+    {
+      "path": "data/raw/latin/cicero-catilinam.xml",
+      "url": "https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/master/data/phi0474/phi013/phi0474.phi013.perseus-lat2.xml",
+      "role": "synthetic controls only",
+      "sha256": "3e0f7f8d3d12c1bb43b2b27838a51bc81c32427e71dcc207ef7c8c8b2e5e91aa",
+      "bytes": 175663
+    },
+    {
+      "path": "data/raw/latin/celsus-1.html",
+      "url": "https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Celsus/1*.html",
+      "role": "synthetic controls only",
+      "sha256": "0e63dfd08eb21e2c6399138de36228e8c459c05cf483ddf9e9376ae5128092cf",
+      "bytes": 67947
+    }
+  ],
+  "failed_accesses": [
+    "LatinLibrary HTML downloads: HTTP465; no source content saved",
+    "Perseus Caesar lat1 guessed URL404; corrected by repository directory to lat2"
+  ],
+  "created_utc": "2026-10-02T04:38:00.691018+00:00",
+  "title": "Experiment010 sources and derived corpus provenance",
+  "manuscript": {
+    "path": "data/raw/GC2a-n.txt",
+    "url": "https://www.voynich.nu/data/GC2a-n.txt",
+    "sha256": "b09570cb6c993bc2d87134d115e60a978650a8a6495483ddbb1f6005a586096f"
+  },
+  "compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0",
+  "compile_flags": "-O3 -std=c++17 -Wall -Wextra",
+  "binary_sha256": "81dd1ab5ddfa28e0520a68a1c191c3d54ef944039d0b36fed2fc2753c846fc2b",
+  "derived_manifest": "data/latin-extraction.json",
+  "previous_history": "data/round-006-sources.json",
+  "completion": "UNPROVEN"
+}

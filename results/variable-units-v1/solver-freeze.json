@@ -1,0 +1,15 @@
+{
+  "status": "FROZEN_BEFORE_MANUSCRIPT_KEY_SEARCH",
+  "hashes": {
+    "src/variable_units_attack.py": "7f1ed515f37ef9201493b618cf7370e296e5a75521bb382d0afaaf149ee0e998",
+    "data/variable-units-v1/manuscript.json": "9a7c16d8fc3ec2091b8d759f3eb4accfe21948f304574b221d48798afc2c94d2",
+    "data/variable-units-v1/calibration-freeze.json": "253b5323ec9833607cf09b6b33633f407660213e41f74983d0d82bfb7d6b0c6f",
+    "results/variable-units-v1/calibration.json": "67f55dc651ea7cf6b18da128676ffcbb6e79d1e8f3d37b998487be969b589b21",
+    "src/audit_variable_units.py": "dd65307f713d70523c8fc72c2f786a31f19794a789ca26419a3e50a769964c1c",
+    "results/audit-011-variable-units.json": "77cc9bb4040a8ba298983ec4e73d92ad1ad080e7c04862e2590d88abe8d78ff7",
+    "data/homophonic/manuscript.json": "cd094c7b7a2c67c4fce3a9c7ed0390e2f928e75a8784748d39d78d3b414bfe00",
+    "results/variable-units-v1/letter23.fit.json": "7a44691b924b30e794fdcef0030b6db626e008cd9e5445b5d80c38e26207c023",
+    "results/variable-units-v1/pair127.fit.json": "6112db3a12f4bef7c240c438dd2d8c15b28c551660c0b55f8ec3fdec7811fc81",
+    "results/variable-units-v1/homophone127.fit.json": "8dcd812df17d3a77ed1c054e64122bd99140d6b4a3ef774b6fd81b5f84b4a59c"
+  }
+}

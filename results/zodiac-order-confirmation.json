@@ -1,0 +1,1254 @@
+{
+  "stage": "confirmation",
+  "input_hashes": {
+    "results/zodiac-inventory.json": "80552f59a98400db5d439eb9ecb8db25a677f05fb617197692ae1f9fda863287",
+    "data/zodiac-layout.json": "088ecf79d5c64337d357411e2238e71fde103704036b06477b855dc23857a85b",
+    "notes/experiment-007-design.md": "93a9a6ab679bd821b4c7a243bafb2b9ad136e4a77fddbb3fc211e16cde0cf741",
+    "results/zodiac-order-discovery.json": "469c00bff975272c0e270eb0c4339b079758608b64d9ab35c0418daf93871f44"
+  },
+  "IT_split_note": "Exactly identical retained strings by the consensus inclusion rule; not independent replication and not re-simulated.",
+  "runs": [
+    {
+      "stage": "confirmation",
+      "source": "ZL3b-n.txt",
+      "spacing": "split",
+      "null": "ring",
+      "randomizations": 9999,
+      "n_primary_labels": 40,
+      "n_circular_groups": 4,
+      "n_ring_pairs": 2,
+      "excluded_ring_pairs": [],
+      "n_neighbour_edges": 26,
+      "primary_order": {
+        "observed": 0.48138227513227516,
+        "null_mean": 0.47764117289468927,
+        "null_sd": 0.037279429114943884,
+        "p_greater": 0.417,
+        "null_interval_95": [
+          0.41598639455782316,
+          0.5628757440476189
+        ],
+        "null_uninformative": false,
+        "holm_p": 0.417
+      },
+      "secondary_exact_order": {
+        "observed": 0.2361111111111111,
+        "null_mean": 0.2083470648652167,
+        "null_sd": 0.029836386274475126,
+        "p_greater": 0.2722,
+        "null_interval_95": [
+          0.1625,
+          0.2777777777777778
+        ],
+        "null_uninformative": false
+      },
+      "neighbour_similarity": {
+        "observed": 0.3231227106227106,
+        "null_mean": 0.2915456930308416,
+        "null_sd": 0.033357538263221374,
+        "p_greater": 0.1742,
+        "null_interval_95": [
+          0.22815247252747256,
+          0.35870192307692306
+        ],
+        "null_uninformative": false,
+        "holm_p": 0.3484
+      },
+      "pairs": [
+        {
+          "left": "f73r:outer",
+          "right": "f73v:outer",
+          "slots": 16,
+          "eligible_phases": 32,
+          "best_phase": {
+            "direction": 1,
+            "shift": 11
+          },
+          "best_phase_support": 9,
+          "tied_best_phases": 2,
+          "edit_similarity": {
+            "observed": 0.4252645502645503,
+            "null_mean": 0.45506932448724846,
+            "null_sd": 0.03925324451860681,
+            "p_greater": 0.7649,
+            "null_interval_95": [
+              0.3910671768707483,
+              0.544047619047619
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.2222222222222222,
+            "null_mean": 0.1487373340508654,
+            "null_sd": 0.03751450597307738,
+            "p_greater": 0.1176,
+            "null_interval_95": [
+              0.1111111111111111,
+              0.25
+            ],
+            "null_uninformative": false
+          },
+          "best_matches": [
+            {
+              "left_locus": "f73r.6",
+              "right_locus": "f73v.17",
+              "left": "otaly",
+              "right": "oraiiny",
+              "similarity": 0.4285714285714286
+            },
+            {
+              "left_locus": "f73r.7",
+              "right_locus": "f73v.18",
+              "left": "okeody",
+              "right": "ykeeody",
+              "similarity": 0.7142857142857143
+            },
+            {
+              "left_locus": "f73r.8",
+              "right_locus": "f73v.19",
+              "left": "oteedyl",
+              "right": "okeos",
+              "similarity": 0.2857142857142857
+            },
+            {
+              "left_locus": "f73r.12",
+              "right_locus": "f73v.7",
+              "left": "ykeeory",
+              "right": "sheol",
+              "similarity": 0.2857142857142857
+            },
+            {
+              "left_locus": "f73r.13",
+              "right_locus": "f73v.8",
+              "left": "oteeosy",
+              "right": "odees",
+              "similarity": 0.5714285714285714
+            },
+            {
+              "left_locus": "f73r.17",
+              "right_locus": "f73v.12",
+              "left": "chdy",
+              "right": "ykeody",
+              "similarity": 0.33333333333333337
+            },
+            {
+              "left_locus": "f73r.19",
+              "right_locus": "f73v.14",
+              "left": "opaiin",
+              "right": "ypaiin",
+              "similarity": 0.8333333333333334
+            },
+            {
+              "left_locus": "f73r.20",
+              "right_locus": "f73v.15",
+              "left": "okeos",
+              "right": "yfaiin.y",
+              "similarity": 0.0
+            },
+            {
+              "left_locus": "f73r.21",
+              "right_locus": "f73v.16",
+              "left": "otey",
+              "right": "ofcheesy",
+              "similarity": 0.375
+            }
+          ]
+        },
+        {
+          "left": "f73r:inner",
+          "right": "f73v:inner",
+          "slots": 10,
+          "eligible_phases": 20,
+          "best_phase": {
+            "direction": 1,
+            "shift": 9
+          },
+          "best_phase_support": 4,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.5375,
+            "null_mean": 0.5002130213021302,
+            "null_sd": 0.06320596304229811,
+            "p_greater": 0.256,
+            "null_interval_95": [
+              0.4,
+              0.6375
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.25,
+            "null_mean": 0.267956795679568,
+            "null_sd": 0.04733163625242024,
+            "p_greater": 0.8401,
+            "null_interval_95": [
+              0.2,
+              0.3333333333333333
+            ],
+            "null_uninformative": false
+          },
+          "best_matches": [
+            {
+              "left_locus": "f73r.23",
+              "right_locus": "f73v.32",
+              "left": "okary",
+              "right": "ypal",
+              "similarity": 0.19999999999999996
+            },
+            {
+              "left_locus": "f73r.26",
+              "right_locus": "f73v.25",
+              "left": "oky",
+              "right": "oky",
+              "similarity": 1.0
+            },
+            {
+              "left_locus": "f73r.28",
+              "right_locus": "f73v.27",
+              "left": "otal",
+              "right": "okal",
+              "similarity": 0.75
+            },
+            {
+              "left_locus": "f73r.31",
+              "right_locus": "f73v.30",
+              "left": "kar",
+              "right": "okeod",
+              "similarity": 0.19999999999999996
+            }
+          ]
+        }
+      ],
+      "rings": [
+        {
+          "group": "f73r:outer",
+          "n_edges": 9,
+          "similarity": {
+            "observed": 0.3412698412698412,
+            "null_mean": 0.2705135328347649,
+            "null_sd": 0.04285266779286929,
+            "p_greater": 0.0518,
+            "null_interval_95": [
+              0.18624338624338624,
+              0.355066137566137
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f73r:inner",
+          "n_edges": 3,
+          "similarity": {
+            "observed": 0.2888888888888889,
+            "null_mean": 0.255317753997622,
+            "null_sd": 0.11417758053074886,
+            "p_greater": 0.3436,
+            "null_interval_95": [
+              0.06666666666666665,
+              0.5055555555555555
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f73v:outer",
+          "n_edges": 10,
+          "similarity": {
+            "observed": 0.3563095238095238,
+            "null_mean": 0.296971697169717,
+            "null_sd": 0.05928764659464505,
+            "p_greater": 0.1667,
+            "null_interval_95": [
+              0.1880952380952381,
+              0.41714285714285715
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f73v:inner",
+          "n_edges": 4,
+          "similarity": {
+            "observed": 0.225,
+            "null_mean": 0.35247399739973995,
+            "null_sd": 0.09310782398547317,
+            "p_greater": 0.9494,
+            "null_interval_95": [
+              0.1875,
+              0.575
+            ],
+            "null_uninformative": false
+          }
+        }
+      ],
+      "mobility": [
+        {
+          "group": "f73r:outer",
+          "n_accepted": 11,
+          "exchangeable_slots": 11,
+          "stratum_sizes": [
+            11
+          ]
+        },
+        {
+          "group": "f73r:inner",
+          "n_accepted": 6,
+          "exchangeable_slots": 6,
+          "stratum_sizes": [
+            6
+          ]
+        },
+        {
+          "group": "f73v:outer",
+          "n_accepted": 12,
+          "exchangeable_slots": 12,
+          "stratum_sizes": [
+            12
+          ]
+        },
+        {
+          "group": "f73v:inner",
+          "n_accepted": 7,
+          "exchangeable_slots": 7,
+          "stratum_sizes": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "confirmation",
+      "source": "ZL3b-n.txt",
+      "spacing": "split",
+      "null": "ring_length_bin",
+      "randomizations": 9999,
+      "n_primary_labels": 40,
+      "n_circular_groups": 4,
+      "n_ring_pairs": 2,
+      "excluded_ring_pairs": [],
+      "n_neighbour_edges": 26,
+      "primary_order": {
+        "observed": 0.48138227513227516,
+        "null_mean": 0.4817465406310094,
+        "null_sd": 0.03860330723905377,
+        "p_greater": 0.4634,
+        "null_interval_95": [
+          0.4168972033257748,
+          0.5694770408163266
+        ],
+        "null_uninformative": false,
+        "holm_p": 0.4634
+      },
+      "secondary_exact_order": {
+        "observed": 0.2361111111111111,
+        "null_mean": 0.21529127119061112,
+        "null_sd": 0.028573901384831332,
+        "p_greater": 0.3436,
+        "null_interval_95": [
+          0.17142857142857143,
+          0.2777777777777778
+        ],
+        "null_uninformative": false
+      },
+      "neighbour_similarity": {
+        "observed": 0.3231227106227106,
+        "null_mean": 0.28905399697478906,
+        "null_sd": 0.038361583133741155,
+        "p_greater": 0.1898,
+        "null_interval_95": [
+          0.21524496336996338,
+          0.36469780219780223
+        ],
+        "null_uninformative": false,
+        "holm_p": 0.3796
+      },
+      "pairs": [
+        {
+          "left": "f73r:outer",
+          "right": "f73v:outer",
+          "slots": 16,
+          "eligible_phases": 32,
+          "best_phase": {
+            "direction": 1,
+            "shift": 11
+          },
+          "best_phase_support": 9,
+          "tied_best_phases": 2,
+          "edit_similarity": {
+            "observed": 0.4252645502645503,
+            "null_mean": 0.45578722734329363,
+            "null_sd": 0.039445705897915094,
+            "p_greater": 0.7766,
+            "null_interval_95": [
+              0.3912170493197279,
+              0.5459183673469388
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.2222222222222222,
+            "null_mean": 0.1494560964032911,
+            "null_sd": 0.036300143698760154,
+            "p_greater": 0.1034,
+            "null_interval_95": [
+              0.125,
+              0.2857142857142857
+            ],
+            "null_uninformative": false
+          },
+          "best_matches": [
+            {
+              "left_locus": "f73r.6",
+              "right_locus": "f73v.17",
+              "left": "otaly",
+              "right": "oraiiny",
+              "similarity": 0.4285714285714286
+            },
+            {
+              "left_locus": "f73r.7",
+              "right_locus": "f73v.18",
+              "left": "okeody",
+              "right": "ykeeody",
+              "similarity": 0.7142857142857143
+            },
+            {
+              "left_locus": "f73r.8",
+              "right_locus": "f73v.19",
+              "left": "oteedyl",
+              "right": "okeos",
+              "similarity": 0.2857142857142857
+            },
+            {
+              "left_locus": "f73r.12",
+              "right_locus": "f73v.7",
+              "left": "ykeeory",
+              "right": "sheol",
+              "similarity": 0.2857142857142857
+            },
+            {
+              "left_locus": "f73r.13",
+              "right_locus": "f73v.8",
+              "left": "oteeosy",
+              "right": "odees",
+              "similarity": 0.5714285714285714
+            },
+            {
+              "left_locus": "f73r.17",
+              "right_locus": "f73v.12",
+              "left": "chdy",
+              "right": "ykeody",
+              "similarity": 0.33333333333333337
+            },
+            {
+              "left_locus": "f73r.19",
+              "right_locus": "f73v.14",
+              "left": "opaiin",
+              "right": "ypaiin",
+              "similarity": 0.8333333333333334
+            },
+            {
+              "left_locus": "f73r.20",
+              "right_locus": "f73v.15",
+              "left": "okeos",
+              "right": "yfaiin.y",
+              "similarity": 0.0
+            },
+            {
+              "left_locus": "f73r.21",
+              "right_locus": "f73v.16",
+              "left": "otey",
+              "right": "ofcheesy",
+              "similarity": 0.375
+            }
+          ]
+        },
+        {
+          "left": "f73r:inner",
+          "right": "f73v:inner",
+          "slots": 10,
+          "eligible_phases": 20,
+          "best_phase": {
+            "direction": 1,
+            "shift": 9
+          },
+          "best_phase_support": 4,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.5375,
+            "null_mean": 0.5077058539187251,
+            "null_sd": 0.06620286182943176,
+            "p_greater": 0.3123,
+            "null_interval_95": [
+              0.4,
+              0.6666666666666666
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.25,
+            "null_mean": 0.2811264459779311,
+            "null_sd": 0.04404437541305063,
+            "p_greater": 0.9528,
+            "null_interval_95": [
+              0.2,
+              0.3333333333333333
+            ],
+            "null_uninformative": false
+          },
+          "best_matches": [
+            {
+              "left_locus": "f73r.23",
+              "right_locus": "f73v.32",
+              "left": "okary",
+              "right": "ypal",
+              "similarity": 0.19999999999999996
+            },
+            {
+              "left_locus": "f73r.26",
+              "right_locus": "f73v.25",
+              "left": "oky",
+              "right": "oky",
+              "similarity": 1.0
+            },
+            {
+              "left_locus": "f73r.28",
+              "right_locus": "f73v.27",
+              "left": "otal",
+              "right": "okal",
+              "similarity": 0.75
+            },
+            {
+              "left_locus": "f73r.31",
+              "right_locus": "f73v.30",
+              "left": "kar",
+              "right": "okeod",
+              "similarity": 0.19999999999999996
+            }
+          ]
+        }
+      ],
+      "rings": [
+        {
+          "group": "f73r:outer",
+          "n_edges": 9,
+          "similarity": {
+            "observed": 0.3412698412698412,
+            "null_mean": 0.26701125138968923,
+            "null_sd": 0.04347588384174996,
+            "p_greater": 0.0523,
+            "null_interval_95": [
+              0.18253968253968247,
+              0.35449735449735453
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f73r:inner",
+          "n_edges": 3,
+          "similarity": {
+            "observed": 0.2888888888888889,
+            "null_mean": 0.2626295962929626,
+            "null_sd": 0.17958900214123655,
+            "p_greater": 0.4973,
+            "null_interval_95": [
+              0.0,
+              0.5555555555555556
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f73v:outer",
+          "n_edges": 10,
+          "similarity": {
+            "observed": 0.3563095238095238,
+            "null_mean": 0.2927789207492178,
+            "null_sd": 0.06133756913433668,
+            "p_greater": 0.1529,
+            "null_interval_95": [
+              0.1821428571428571,
+              0.42023809523809524
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f73v:inner",
+          "n_edges": 4,
+          "similarity": {
+            "observed": 0.225,
+            "null_mean": 0.3491561656165616,
+            "null_sd": 0.10544012952344925,
+            "p_greater": 0.904,
+            "null_interval_95": [
+              0.1625,
+              0.575
+            ],
+            "null_uninformative": false
+          }
+        }
+      ],
+      "mobility": [
+        {
+          "group": "f73r:outer",
+          "n_accepted": 11,
+          "exchangeable_slots": 11,
+          "stratum_sizes": [
+            5,
+            4,
+            2
+          ]
+        },
+        {
+          "group": "f73r:inner",
+          "n_accepted": 6,
+          "exchangeable_slots": 6,
+          "stratum_sizes": [
+            2,
+            4
+          ]
+        },
+        {
+          "group": "f73v:outer",
+          "n_accepted": 12,
+          "exchangeable_slots": 12,
+          "stratum_sizes": [
+            7,
+            5
+          ]
+        },
+        {
+          "group": "f73v:inner",
+          "n_accepted": 7,
+          "exchangeable_slots": 7,
+          "stratum_sizes": [
+            2,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "confirmation",
+      "source": "ZL3b-n.txt",
+      "spacing": "join",
+      "null": "ring",
+      "randomizations": 9999,
+      "n_primary_labels": 40,
+      "n_circular_groups": 4,
+      "n_ring_pairs": 2,
+      "excluded_ring_pairs": [],
+      "n_neighbour_edges": 26,
+      "primary_order": {
+        "observed": 0.48138227513227516,
+        "null_mean": 0.47811592551450904,
+        "null_sd": 0.037250405815498044,
+        "p_greater": 0.4217,
+        "null_interval_95": [
+          0.4162411777210885,
+          0.5632477678571428
+        ],
+        "null_uninformative": false,
+        "holm_p": 0.4217
+      },
+      "secondary_exact_order": {
+        "observed": 0.2361111111111111,
+        "null_mean": 0.2083470648652167,
+        "null_sd": 0.029836386274475126,
+        "p_greater": 0.2722,
+        "null_interval_95": [
+          0.1625,
+          0.2777777777777778
+        ],
+        "null_uninformative": false
+      },
+      "neighbour_similarity": {
+        "observed": 0.32655677655677656,
+        "null_mean": 0.2932954559192183,
+        "null_sd": 0.03386592614525992,
+        "p_greater": 0.1646,
+        "null_interval_95": [
+          0.22911630036630035,
+          0.3616300366300366
+        ],
+        "null_uninformative": false,
+        "holm_p": 0.3292
+      },
+      "pairs": [
+        {
+          "left": "f73r:outer",
+          "right": "f73v:outer",
+          "slots": 16,
+          "eligible_phases": 32,
+          "best_phase": {
+            "direction": 1,
+            "shift": 11
+          },
+          "best_phase_support": 9,
+          "tied_best_phases": 2,
+          "edit_similarity": {
+            "observed": 0.4252645502645503,
+            "null_mean": 0.45601882972688806,
+            "null_sd": 0.03918382336878234,
+            "p_greater": 0.7735,
+            "null_interval_95": [
+              0.39193121693121696,
+              0.5442176870748299
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.2222222222222222,
+            "null_mean": 0.1487373340508654,
+            "null_sd": 0.03751450597307738,
+            "p_greater": 0.1176,
+            "null_interval_95": [
+              0.1111111111111111,
+              0.25
+            ],
+            "null_uninformative": false
+          },
+          "best_matches": [
+            {
+              "left_locus": "f73r.6",
+              "right_locus": "f73v.17",
+              "left": "otaly",
+              "right": "oraiiny",
+              "similarity": 0.4285714285714286
+            },
+            {
+              "left_locus": "f73r.7",
+              "right_locus": "f73v.18",
+              "left": "okeody",
+              "right": "ykeeody",
+              "similarity": 0.7142857142857143
+            },
+            {
+              "left_locus": "f73r.8",
+              "right_locus": "f73v.19",
+              "left": "oteedyl",
+              "right": "okeos",
+              "similarity": 0.2857142857142857
+            },
+            {
+              "left_locus": "f73r.12",
+              "right_locus": "f73v.7",
+              "left": "ykeeory",
+              "right": "sheol",
+              "similarity": 0.2857142857142857
+            },
+            {
+              "left_locus": "f73r.13",
+              "right_locus": "f73v.8",
+              "left": "oteeosy",
+              "right": "odees",
+              "similarity": 0.5714285714285714
+            },
+            {
+              "left_locus": "f73r.17",
+              "right_locus": "f73v.12",
+              "left": "chdy",
+              "right": "ykeody",
+              "similarity": 0.33333333333333337
+            },
+            {
+              "left_locus": "f73r.19",
+              "right_locus": "f73v.14",
+              "left": "opaiin",
+              "right": "ypaiin",
+              "similarity": 0.8333333333333334
+            },
+            {
+              "left_locus": "f73r.20",
+              "right_locus": "f73v.15",
+              "left": "okeos",
+              "right": "yfaiiny",
+              "similarity": 0.0
+            },
+            {
+              "left_locus": "f73r.21",
+              "right_locus": "f73v.16",
+              "left": "otey",
+              "right": "ofcheesy",
+              "similarity": 0.375
+            }
+          ]
+        },
+        {
+          "left": "f73r:inner",
+          "right": "f73v:inner",
+          "slots": 10,
+          "eligible_phases": 20,
+          "best_phase": {
+            "direction": 1,
+            "shift": 9
+          },
+          "best_phase_support": 4,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.5375,
+            "null_mean": 0.5002130213021302,
+            "null_sd": 0.06320596304229811,
+            "p_greater": 0.256,
+            "null_interval_95": [
+              0.4,
+              0.6375
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.25,
+            "null_mean": 0.267956795679568,
+            "null_sd": 0.04733163625242024,
+            "p_greater": 0.8401,
+            "null_interval_95": [
+              0.2,
+              0.3333333333333333
+            ],
+            "null_uninformative": false
+          },
+          "best_matches": [
+            {
+              "left_locus": "f73r.23",
+              "right_locus": "f73v.32",
+              "left": "okary",
+              "right": "ypal",
+              "similarity": 0.19999999999999996
+            },
+            {
+              "left_locus": "f73r.26",
+              "right_locus": "f73v.25",
+              "left": "oky",
+              "right": "oky",
+              "similarity": 1.0
+            },
+            {
+              "left_locus": "f73r.28",
+              "right_locus": "f73v.27",
+              "left": "otal",
+              "right": "okal",
+              "similarity": 0.75
+            },
+            {
+              "left_locus": "f73r.31",
+              "right_locus": "f73v.30",
+              "left": "kar",
+              "right": "okeod",
+              "similarity": 0.19999999999999996
+            }
+          ]
+        }
+      ],
+      "rings": [
+        {
+          "group": "f73r:outer",
+          "n_edges": 9,
+          "similarity": {
+            "observed": 0.3412698412698412,
+            "null_mean": 0.2705135328347649,
+            "null_sd": 0.04285266779286929,
+            "p_greater": 0.0518,
+            "null_interval_95": [
+              0.18624338624338624,
+              0.355066137566137
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f73r:inner",
+          "n_edges": 3,
+          "similarity": {
+            "observed": 0.2888888888888889,
+            "null_mean": 0.255317753997622,
+            "null_sd": 0.11417758053074886,
+            "p_greater": 0.3436,
+            "null_interval_95": [
+              0.06666666666666665,
+              0.5055555555555555
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f73v:outer",
+          "n_edges": 10,
+          "similarity": {
+            "observed": 0.36523809523809525,
+            "null_mean": 0.30152108067949657,
+            "null_sd": 0.06117142823770936,
+            "p_greater": 0.1577,
+            "null_interval_95": [
+              0.19047619047619047,
+              0.42666666666666664
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f73v:inner",
+          "n_edges": 4,
+          "similarity": {
+            "observed": 0.225,
+            "null_mean": 0.35247399739973995,
+            "null_sd": 0.09310782398547317,
+            "p_greater": 0.9494,
+            "null_interval_95": [
+              0.1875,
+              0.575
+            ],
+            "null_uninformative": false
+          }
+        }
+      ],
+      "mobility": [
+        {
+          "group": "f73r:outer",
+          "n_accepted": 11,
+          "exchangeable_slots": 11,
+          "stratum_sizes": [
+            11
+          ]
+        },
+        {
+          "group": "f73r:inner",
+          "n_accepted": 6,
+          "exchangeable_slots": 6,
+          "stratum_sizes": [
+            6
+          ]
+        },
+        {
+          "group": "f73v:outer",
+          "n_accepted": 12,
+          "exchangeable_slots": 12,
+          "stratum_sizes": [
+            12
+          ]
+        },
+        {
+          "group": "f73v:inner",
+          "n_accepted": 7,
+          "exchangeable_slots": 7,
+          "stratum_sizes": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "confirmation",
+      "source": "ZL3b-n.txt",
+      "spacing": "join",
+      "null": "ring_length_bin",
+      "randomizations": 9999,
+      "n_primary_labels": 40,
+      "n_circular_groups": 4,
+      "n_ring_pairs": 2,
+      "excluded_ring_pairs": [],
+      "n_neighbour_edges": 26,
+      "primary_order": {
+        "observed": 0.48138227513227516,
+        "null_mean": 0.48208601798388456,
+        "null_sd": 0.03856124699081453,
+        "p_greater": 0.4664,
+        "null_interval_95": [
+          0.4170914115646258,
+          0.5700728103741496
+        ],
+        "null_uninformative": false,
+        "holm_p": 0.4664
+      },
+      "secondary_exact_order": {
+        "observed": 0.2361111111111111,
+        "null_mean": 0.21529127119061112,
+        "null_sd": 0.028573901384831332,
+        "p_greater": 0.3436,
+        "null_interval_95": [
+          0.17142857142857143,
+          0.2777777777777778
+        ],
+        "null_uninformative": false
+      },
+      "neighbour_similarity": {
+        "observed": 0.32655677655677656,
+        "null_mean": 0.29142765467022896,
+        "null_sd": 0.0389183129616959,
+        "p_greater": 0.1869,
+        "null_interval_95": [
+          0.217032967032967,
+          0.36868818681318666
+        ],
+        "null_uninformative": false,
+        "holm_p": 0.3738
+      },
+      "pairs": [
+        {
+          "left": "f73r:outer",
+          "right": "f73v:outer",
+          "slots": 16,
+          "eligible_phases": 32,
+          "best_phase": {
+            "direction": 1,
+            "shift": 11
+          },
+          "best_phase_support": 9,
+          "tied_best_phases": 2,
+          "edit_similarity": {
+            "observed": 0.4252645502645503,
+            "null_mean": 0.45646618204904393,
+            "null_sd": 0.039185580476467335,
+            "p_greater": 0.7836,
+            "null_interval_95": [
+              0.39285714285714285,
+              0.545924036281179
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.2222222222222222,
+            "null_mean": 0.1494560964032911,
+            "null_sd": 0.036300143698760154,
+            "p_greater": 0.1034,
+            "null_interval_95": [
+              0.125,
+              0.2857142857142857
+            ],
+            "null_uninformative": false
+          },
+          "best_matches": [
+            {
+              "left_locus": "f73r.6",
+              "right_locus": "f73v.17",
+              "left": "otaly",
+              "right": "oraiiny",
+              "similarity": 0.4285714285714286
+            },
+            {
+              "left_locus": "f73r.7",
+              "right_locus": "f73v.18",
+              "left": "okeody",
+              "right": "ykeeody",
+              "similarity": 0.7142857142857143
+            },
+            {
+              "left_locus": "f73r.8",
+              "right_locus": "f73v.19",
+              "left": "oteedyl",
+              "right": "okeos",
+              "similarity": 0.2857142857142857
+            },
+            {
+              "left_locus": "f73r.12",
+              "right_locus": "f73v.7",
+              "left": "ykeeory",
+              "right": "sheol",
+              "similarity": 0.2857142857142857
+            },
+            {
+              "left_locus": "f73r.13",
+              "right_locus": "f73v.8",
+              "left": "oteeosy",
+              "right": "odees",
+              "similarity": 0.5714285714285714
+            },
+            {
+              "left_locus": "f73r.17",
+              "right_locus": "f73v.12",
+              "left": "chdy",
+              "right": "ykeody",
+              "similarity": 0.33333333333333337
+            },
+            {
+              "left_locus": "f73r.19",
+              "right_locus": "f73v.14",
+              "left": "opaiin",
+              "right": "ypaiin",
+              "similarity": 0.8333333333333334
+            },
+            {
+              "left_locus": "f73r.20",
+              "right_locus": "f73v.15",
+              "left": "okeos",
+              "right": "yfaiiny",
+              "similarity": 0.0
+            },
+            {
+              "left_locus": "f73r.21",
+              "right_locus": "f73v.16",
+              "left": "otey",
+              "right": "ofcheesy",
+              "similarity": 0.375
+            }
+          ]
+        },
+        {
+          "left": "f73r:inner",
+          "right": "f73v:inner",
+          "slots": 10,
+          "eligible_phases": 20,
+          "best_phase": {
+            "direction": 1,
+            "shift": 9
+          },
+          "best_phase_support": 4,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.5375,
+            "null_mean": 0.5077058539187251,
+            "null_sd": 0.06620286182943176,
+            "p_greater": 0.3123,
+            "null_interval_95": [
+              0.4,
+              0.6666666666666666
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.25,
+            "null_mean": 0.2811264459779311,
+            "null_sd": 0.04404437541305063,
+            "p_greater": 0.9528,
+            "null_interval_95": [
+              0.2,
+              0.3333333333333333
+            ],
+            "null_uninformative": false
+          },
+          "best_matches": [
+            {
+              "left_locus": "f73r.23",
+              "right_locus": "f73v.32",
+              "left": "okary",
+              "right": "ypal",
+              "similarity": 0.19999999999999996
+            },
+            {
+              "left_locus": "f73r.26",
+              "right_locus": "f73v.25",
+              "left": "oky",
+              "right": "oky",
+              "similarity": 1.0
+            },
+            {
+              "left_locus": "f73r.28",
+              "right_locus": "f73v.27",
+              "left": "otal",
+              "right": "okal",
+              "similarity": 0.75
+            },
+            {
+              "left_locus": "f73r.31",
+              "right_locus": "f73v.30",
+              "left": "kar",
+              "right": "okeod",
+              "similarity": 0.19999999999999996
+            }
+          ]
+        }
+      ],
+      "rings": [
+        {
+          "group": "f73r:outer",
+          "n_edges": 9,
+          "similarity": {
+            "observed": 0.3412698412698412,
+            "null_mean": 0.26701125138968923,
+            "null_sd": 0.04347588384174996,
+            "p_greater": 0.0523,
+            "null_interval_95": [
+              0.18253968253968247,
+              0.35449735449735453
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f73r:inner",
+          "n_edges": 3,
+          "similarity": {
+            "observed": 0.2888888888888889,
+            "null_mean": 0.2626295962929626,
+            "null_sd": 0.17958900214123655,
+            "p_greater": 0.4973,
+            "null_interval_95": [
+              0.0,
+              0.5555555555555556
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f73v:outer",
+          "n_edges": 10,
+          "similarity": {
+            "observed": 0.36523809523809525,
+            "null_mean": 0.29895043075736144,
+            "null_sd": 0.0636920123589909,
+            "p_greater": 0.1516,
+            "null_interval_95": [
+              0.18571428571428567,
+              0.4314285714285715
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f73v:inner",
+          "n_edges": 4,
+          "similarity": {
+            "observed": 0.225,
+            "null_mean": 0.3491561656165616,
+            "null_sd": 0.10544012952344925,
+            "p_greater": 0.904,
+            "null_interval_95": [
+              0.1625,
+              0.575
+            ],
+            "null_uninformative": false
+          }
+        }
+      ],
+      "mobility": [
+        {
+          "group": "f73r:outer",
+          "n_accepted": 11,
+          "exchangeable_slots": 11,
+          "stratum_sizes": [
+            5,
+            4,
+            2
+          ]
+        },
+        {
+          "group": "f73r:inner",
+          "n_accepted": 6,
+          "exchangeable_slots": 6,
+          "stratum_sizes": [
+            2,
+            4
+          ]
+        },
+        {
+          "group": "f73v:outer",
+          "n_accepted": 12,
+          "exchangeable_slots": 12,
+          "stratum_sizes": [
+            7,
+            5
+          ]
+        },
+        {
+          "group": "f73v:inner",
+          "n_accepted": 7,
+          "exchangeable_slots": 7,
+          "stratum_sizes": [
+            2,
+            5
+          ]
+        }
+      ]
+    }
+  ]
+}

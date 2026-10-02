@@ -1,0 +1,170 @@
+[
+  {
+    "file": "data/raw/q08-index.html",
+    "url": "https://www.voynich.nu/q08/index.html",
+    "sha256": "ce3df63cb48cf440faa2d637b382b7665b992a55709b5a721fdce078e21e42d7",
+    "bytes": 23446,
+    "file_mtime_utc": "2026-10-02T04:01:13.383152+00:00",
+    "note": "Original catalogue and research observations; hypotheses distinguished from readings."
+  },
+  {
+    "file": "data/raw/sta-aaa.html",
+    "url": "https://www.voynich.nu/extra/sta-aaa.html",
+    "sha256": "df06af65e8d732a2addd9a0880ed408a83fe2bf2136136b8c219aaf9aa3accdc",
+    "bytes": 28603,
+    "file_mtime_utc": "2026-10-02T04:03:07.706774+00:00",
+    "note": "Original author description of encoding and reference-transcription dependence."
+  },
+  {
+    "file": "data/raw/GC2a-n.txt",
+    "url": "https://www.voynich.nu/data/GC2a-n.txt",
+    "sha256": "b09570cb6c993bc2d87134d115e60a978650a8a6495483ddbb1f6005a586096f",
+    "bytes": 314916,
+    "file_mtime_utc": "2026-10-02T04:03:43.402526+00:00",
+    "note": "Native v101 transcription; case and extended codes preserved."
+  },
+  {
+    "file": "data/images/eva-extended-2025.gif",
+    "url": "https://www.voynich.nu/img/extra/eva01x_RZ.gif",
+    "sha256": "14eafab8a2c7a973cae7b147e179ded66bba14c26d77c1e995c3ea11379ee6d7",
+    "bytes": 46529,
+    "file_mtime_utc": "2026-10-02T04:03:07.746773+00:00",
+    "note": "Extended-EVA definition chart; inspected."
+  },
+  {
+    "file": "data/images/057v.jpg",
+    "url": "https://www.voynich.com/folios/color/057v.jpg",
+    "sha256": "3441f6cdc6ca27fb41df16f59b876410d50bd1038f9558afd1bfd905a4578a6e",
+    "bytes": 247829,
+    "file_mtime_utc": "2026-10-02T04:01:25.943159+00:00",
+    "note": "Original mirror scan of f57v; inspected."
+  },
+  {
+    "file": "data/images/066r.jpg",
+    "url": "https://www.voynich.com/folios/color/066r.jpg",
+    "sha256": "ed463274cc42666116101e7b21637b55b1586e41a84f24327d4446e3d18ff6db",
+    "bytes": 278827,
+    "file_mtime_utc": "2026-10-02T04:09:24.144802+00:00",
+    "note": "Original mirror scan of f66r; inspected after template freeze."
+  },
+  {
+    "file": "data/raw/dimperio-1978.pdf",
+    "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D-PURL-gpo58694/pdf/GOVPUB-D-PURL-gpo58694.pdf",
+    "sha256": "e357921308c1ba43e327378a47bec389f755f843b3ad26ec11bb48cc3d6e066a",
+    "bytes": 32892602,
+    "file_mtime_utc": "2026-10-02T04:11:09.000440+00:00",
+    "note": "Original historical monograph, printedpp24-25 and27 inspected; government source."
+  },
+  {
+    "file": "data/raw/dimperio-1978.txt",
+    "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D-PURL-gpo58694/pdf/GOVPUB-D-PURL-gpo58694.pdf",
+    "sha256": "f865cdb96d7d30d007db5e6a8209eed680cdce6d56bab2fe715fdfab266a2222",
+    "bytes": 480436,
+    "file_mtime_utc": "2026-10-02T04:13:21.412061+00:00",
+    "note": "Locally extracted with pdftotext -layout; OCR is poor and not sufficient for exact quotations."
+  },
+  {
+    "file": "data/images/f57v-jd-z4-y1-x4.jpg",
+    "url": "https://voynich.jasondavies.com/f57v/4/1/4.jpg",
+    "sha256": "a83f9296cdc4e300b8ae1864b657ccbd6202b8a8688888811ee30f833fa2483d",
+    "bytes": 27051,
+    "file_mtime_utc": "2026-10-02T04:04:34.930196+00:00",
+    "note": "Unaltered original tile; inspected for symbol shapes and layout."
+  },
+  {
+    "file": "data/images/f57v-jd-z4-y1-x5.jpg",
+    "url": "https://voynich.jasondavies.com/f57v/4/1/5.jpg",
+    "sha256": "5dcaabff65d29b672941eda592ebbc8795e635a1544a2e0e722c57c263509270",
+    "bytes": 28736,
+    "file_mtime_utc": "2026-10-02T04:03:07.562774+00:00",
+    "note": "Unaltered original tile; inspected for symbol shapes and layout."
+  },
+  {
+    "file": "data/images/f57v-jd-z4-y2-x2.jpg",
+    "url": "https://voynich.jasondavies.com/f57v/4/2/2.jpg",
+    "sha256": "5a19b0753cf38f474357ec0250d8335b9267664fd3acbf79b3260610509463c9",
+    "bytes": 31237,
+    "file_mtime_utc": "2026-10-02T04:04:34.910196+00:00",
+    "note": "Unaltered original tile; inspected for symbol shapes and layout."
+  },
+  {
+    "file": "data/images/f57v-jd-z4-y3-x7.jpg",
+    "url": "https://voynich.jasondavies.com/f57v/4/3/7.jpg",
+    "sha256": "a6e2d6fa29592af1b9b65e6f1d1afe847d84829157f543bd10970fe61359d3fc",
+    "bytes": 30455,
+    "file_mtime_utc": "2026-10-02T04:04:34.922196+00:00",
+    "note": "Unaltered original tile; inspected for symbol shapes and layout."
+  },
+  {
+    "file": "data/images/f57v-jd-z4-y4-x7.jpg",
+    "url": "https://voynich.jasondavies.com/f57v/4/4/7.jpg",
+    "sha256": "2f75ba377b9ad669c0d65a2bcb7aa7a6ca405e2b724516f829d14be8b039eb28",
+    "bytes": 31436,
+    "file_mtime_utc": "2026-10-02T04:03:07.558774+00:00",
+    "note": "Unaltered original tile; inspected for symbol shapes and layout."
+  },
+  {
+    "file": "data/images/f57v-jd-z4-y5-x2.jpg",
+    "url": "https://voynich.jasondavies.com/f57v/4/5/2.jpg",
+    "sha256": "b07d31e09f327addfe7988ef10aa13ed8527031f0845b3c61b1dfce226fd30aa",
+    "bytes": 33492,
+    "file_mtime_utc": "2026-10-02T04:03:08.802766+00:00",
+    "note": "Unaltered original tile; inspected for symbol shapes and layout."
+  },
+  {
+    "file": "data/images/f57v-jd-z4-y5-x7.jpg",
+    "url": "https://voynich.jasondavies.com/f57v/4/5/7.jpg",
+    "sha256": "150ca560255ce26a74055834ef28d7492207e41cec6f489f3cab0e4381781979",
+    "bytes": 32996,
+    "file_mtime_utc": "2026-10-02T04:04:35.126195+00:00",
+    "note": "Unaltered original tile; inspected for symbol shapes and layout."
+  },
+  {
+    "file": "data/images/f57v-jd-z4-y6-x2.jpg",
+    "url": "https://voynich.jasondavies.com/f57v/4/6/2.jpg",
+    "sha256": "1bd0888d2d85e6977bf6bb7de20e11bffc98eb85bc03d3af8998aee659521f36",
+    "bytes": 32800,
+    "file_mtime_utc": "2026-10-02T04:04:35.938190+00:00",
+    "note": "Unaltered original tile; inspected for symbol shapes and layout."
+  },
+  {
+    "file": "data/images/f57v-jd-z4-y7-x4.jpg",
+    "url": "https://voynich.jasondavies.com/f57v/4/7/4.jpg",
+    "sha256": "69a121b3bcbe5d4dcd95d1927cec4b488c62debe885c704134abb3190b87a63c",
+    "bytes": 29315,
+    "file_mtime_utc": "2026-10-02T04:04:35.910190+00:00",
+    "note": "Unaltered original tile; inspected for symbol shapes and layout."
+  },
+  {
+    "file": "data/images/f57v-jd-z4-y7-x5.jpg",
+    "url": "https://voynich.jasondavies.com/f57v/4/7/5.jpg",
+    "sha256": "32a1e18e2f420afc23ddd2a40aa8f2f1faa148d2b2630d5167bfb8794d8fe142",
+    "bytes": 31350,
+    "file_mtime_utc": "2026-10-02T04:03:08.574767+00:00",
+    "note": "Unaltered original tile; inspected for symbol shapes and layout."
+  },
+  {
+    "file": "data/images/dimperio-030.png",
+    "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D-PURL-gpo58694/pdf/GOVPUB-D-PURL-gpo58694.pdf",
+    "sha256": "64ececdd5682619fb14cd811fe0d78906480e9fcc6ae5eb6168e2c8307a66ca9",
+    "bytes": 1858410,
+    "file_mtime_utc": "2026-10-02T04:14:52.663841+00:00",
+    "note": "Local pdftoppm rendering of one-based PDFpage30, scale-to1800. Inspected against noisy OCR."
+  },
+  {
+    "file": "data/images/dimperio-031.png",
+    "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D-PURL-gpo58694/pdf/GOVPUB-D-PURL-gpo58694.pdf",
+    "sha256": "23b31fdc9b6e2dbaacee1fe33dc1d48b755dc27654663fd4a6002936d6261006",
+    "bytes": 1746852,
+    "file_mtime_utc": "2026-10-02T04:14:53.639839+00:00",
+    "note": "Local pdftoppm rendering of one-based PDFpage31, scale-to1800. Inspected against noisy OCR."
+  },
+  {
+    "file": "data/images/dimperio-pdf-page33.png",
+    "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D-PURL-gpo58694/pdf/GOVPUB-D-PURL-gpo58694.pdf",
+    "sha256": "906e09db360df44bbe37ad2f50e355315f1b49cd38ef3bb90c3dd5a278098ebc",
+    "bytes": 1604895,
+    "file_mtime_utc": "2026-10-02T04:14:38.623873+00:00",
+    "note": "Local pdftoppm rendering of one-based PDFpage33, scale-to1800. Inspected against noisy OCR."
+  }
+]

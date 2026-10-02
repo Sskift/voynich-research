@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "source_records_verified": 27,
+  "usable_source_records": 25,
+  "failed_access_records_explicitly_excluded": 2,
+  "frozen_inputs_unchanged": true,
+  "local_links_checked": 17,
+  "python_sources_parsed": 3,
+  "goal_completion": "UNPROVEN: no independently validated decoding key, word meaning or translation."
+}

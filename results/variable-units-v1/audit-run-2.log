@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "meaning": "Computational audit, not calibration success or decipherment.",
+  "frozen_hashes": 88,
+  "lm_entries": 331776,
+  "length_terms": 2144,
+  "toy_generative_checks": [
+    {
+      "g": 1,
+      "code_count": 6,
+      "cipher_words": 6,
+      "failure": 0.0
+    },
+    {
+      "g": 1,
+      "code_count": 7,
+      "cipher_words": 7,
+      "failure": 0.0
+    },
+    {
+      "g": 1,
+      "code_count": 2,
+      "cipher_words": 2,
+      "failure": 0.4444444444444445
+    },
+    {
+      "g": 2,
+      "code_count": 6,
+      "cipher_words": 36,
+      "failure": 0.0
+    },
+    {
+      "g": 2,
+      "code_count": 7,
+      "cipher_words": 49,
+      "failure": 0.0
+    },
+    {
+      "g": 2,
+      "code_count": 2,
+      "cipher_words": 4,
+      "failure": 0.5901639344262296
+    },
+    {
+      "g": 3,
+      "code_count": 6,
+      "cipher_words": 216,
+      "failure": 0.0
+    },
+    {
+      "g": 3,
+      "code_count": 7,
+      "cipher_words": 343,
+      "failure": 0.0
+    },
+    {
+      "g": 3,
+      "code_count": 2,
+      "cipher_words": 8,
+      "failure": 0.6612466124661264
+    }
+  ],
+  "regenerated_cipher_words": 28960,
+  "recomputed_restart_objectives": 48,
+  "recomputed_restart_accuracies": 48,
+  "controls": [
+    {
+      "name": "letter23",
+      "passed": true,
+      "selected_objective": -1.9944112678876678,
+      "oracle_objective": -1.9948511076000943
+    },
+    {
+      "name": "pair127",
+      "passed": true,
+      "selected_objective": -3.7114729882274404,
+      "oracle_objective": -3.7129623991603133
+    },
+    {
+      "name": "homophone127",
+      "passed": true,
+      "selected_objective": -3.7062694699505645,
+      "oracle_objective": -3.7236992646110174
+    }
+  ]
+}

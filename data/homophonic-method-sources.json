@@ -1,0 +1,12 @@
+[
+  {
+    "path": "data/raw/nuhn-2013.pdf",
+    "url": "https://aclanthology.org/P13-1154.pdf",
+    "sha256": "42a7e81a0daebdd97bd2a44540849e0ecabffbcf70688b8a1d4827a656de6122"
+  },
+  {
+    "path": "data/raw/nuhn-2014.pdf",
+    "url": "https://aclanthology.org/D14-1184.pdf",
+    "sha256": "29b3516772c4a9b95e98afe353626514b8c0cfd56accfb5b9d69d90aa24899a8"
+  }
+]

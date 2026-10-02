@@ -1,0 +1,14 @@
+[
+ {"page":"f70v2","sign":"Pisces","stage":"discovery","layout":null,"groups":[{"id":"outer","kind":"circle","range":[2,20]},{"id":"inner","kind":"circle","range":[22,31]},{"id":"centre","kind":"single","range":[33,33]}]},
+ {"page":"f70v1","sign":"Aries dark","stage":"discovery","layout":"10+5","groups":[{"id":"outer","kind":"circle","range":[2,11]},{"id":"inner","kind":"circle","range":[13,17]}]},
+ {"page":"f71r","sign":"Aries light","stage":"discovery","layout":"10+5","groups":[{"id":"outer","kind":"circle","range":[2,11]},{"id":"inner","kind":"circle","range":[13,17]}]},
+ {"page":"f71v","sign":"Taurus light","stage":"discovery","layout":"10+5","groups":[{"id":"outer","kind":"circle","range":[2,11]},{"id":"inner","kind":"circle","range":[13,17]}]},
+ {"page":"f72r1","sign":"Taurus dark","stage":"discovery","layout":"10+5","groups":[{"id":"outer","kind":"circle","range":[2,11]},{"id":"inner","kind":"circle","range":[13,17]}]},
+ {"page":"f72r2","sign":"Gemini","stage":"discovery","layout":null,"groups":[{"id":"top","kind":"arc","range":[1,5]},{"id":"outer","kind":"circle","range":[7,21],"missing_after":19},{"id":"inner","kind":"circle","range":[23,31]}]},
+ {"page":"f72r3","sign":"Cancer","stage":"discovery","layout":null,"groups":[{"id":"outer","kind":"circle","range":[2,13]},{"id":"middle","kind":"circle","range":[15,25]},{"id":"inner","kind":"circle","range":[27,33]}]},
+ {"page":"f72v3","sign":"Leo","stage":"discovery","layout":"18+12","groups":[{"id":"outer","kind":"circle","range":[2,19]},{"id":"inner","kind":"circle","range":[21,32]}]},
+ {"page":"f72v2","sign":"Virgo","stage":"discovery","layout":"18+12","groups":[{"id":"outer","kind":"circle","range":[2,19]},{"id":"inner","kind":"circle","range":[21,32]}]},
+ {"page":"f72v1","sign":"Libra","stage":"discovery","layout":null,"groups":[{"id":"outer","kind":"circle","range":[2,21]},{"id":"inner","kind":"circle","range":[23,32]}]},
+ {"page":"f73r","sign":"Scorpio","stage":"confirmation","layout":"16+10","groups":[{"id":"top","kind":"arc","range":[1,4]},{"id":"outer","kind":"circle","range":[6,21]},{"id":"inner","kind":"circle","range":[23,32]}]},
+ {"page":"f73v","sign":"Sagittarius","stage":"confirmation","layout":"16+10","groups":[{"id":"top","kind":"arc","range":[1,4]},{"id":"outer","kind":"circle","range":[6,21]},{"id":"inner","kind":"circle","range":[23,32]}]}
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "file": "data/raw/ZL3b-n.txt",
+    "url": "https://www.voynich.nu/data/ZL3b-n.txt",
+    "sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "bytes": 411671,
+    "retrieved_utc": "2026-10-02T02:38:20.506509+00:00"
+  },
+  {
+    "file": "data/raw/IT2a-n.txt",
+    "url": "https://www.voynich.nu/data/IT2a-n.txt",
+    "sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "bytes": 342104,
+    "retrieved_utc": "2026-10-02T02:38:20.539636+00:00"
+  },
+  {
+    "file": "data/raw/RF1b-e.txt",
+    "url": "https://www.voynich.nu/data/RF1b-e.txt",
+    "sha256": "e7d3238e35743e06c63367a933909ec37b1e2de7ada3a1b449447eafa1918782",
+    "bytes": 362373,
+    "retrieved_utc": "2026-10-02T02:38:20.564669+00:00"
+  },
+  {
+    "file": "data/raw/transcr.html",
+    "url": "https://www.voynich.nu/transcr.html",
+    "sha256": "57f8aaf6b1cdd6a292361b3a94e723f8fb14f0960b2cb349acee142fbadb19a5",
+    "bytes": 60410,
+    "retrieved_utc": "2026-10-02T02:38:20.595275+00:00"
+  },
+  {
+    "file": "data/raw/IVTFF_format.pdf",
+    "url": "https://www.voynich.nu/software/ivtt/IVTFF_format.pdf",
+    "sha256": "7ac9c4a82064763cac8767cca6f661cc4e1b4503ab9342acc03032ddb6939d49",
+    "bytes": 1171234,
+    "retrieved_utc": "2026-10-02T02:38:20.598710+00:00"
+  },
+  {
+    "file": "data/raw/voynich-com-folios.html",
+    "url": "https://www.voynich.com/folios/",
+    "sha256": "7a9927d31b98746a36f0f114eb8eb46f5d784c9509138e46cdfe5a88f7081962",
+    "bytes": 19741,
+    "retrieved_utc": "2026-10-02T02:46:31.054937+00:00",
+    "note": "Image index and provenance information"
+  },
+  {
+    "file": "data/images/f22v.jpg",
+    "url": "https://www.voynich.com/folios/color/022v.jpg",
+    "sha256": "c4325be83d75e681d69a527b516fe9fac41d34c60524af905d0e27c56f802e78",
+    "bytes": 280006,
+    "retrieved_utc": "2026-10-02T02:46:31.056053+00:00",
+    "note": "Public color image mirror; Yale catalog and IIIF endpoints returned HTTP 403 during this run"
+  }
+]

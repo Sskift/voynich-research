@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "checks": [
+    "previous and current frozen model/code/design/input hashes unchanged",
+    "all331776 conditional scores, context normalization, word and sixgram reference counts",
+    "all1388 raw native loci,127 train glyphs, masks,16 reserved P pages, prior H split",
+    "three many-to-one known ciphers; all48 restart letter accuracies and selected fullword metrics",
+    "all208 fitted key/emission objectives; all999 random label permutations; all9 regenerated shuffled inputs and reserve diagnostics",
+    "common23 mask matched comparison and all1388 mechanical outputs; no translation supplied"
+  ],
+  "training_keys_independently_rescored": 208,
+  "controls": [
+    {
+      "name": "v1-uniform60",
+      "observed_training_glyphs": 58,
+      "correct": 50933,
+      "predicted": 50934,
+      "all_test_letters": 50937
+    },
+    {
+      "name": "v1-medical127",
+      "observed_training_glyphs": 125,
+      "correct": 6396,
+      "predicted": 6397,
+      "all_test_letters": 6397
+    },
+    {
+      "name": "v1-tail127",
+      "observed_training_glyphs": 124,
+      "correct": 49794,
+      "predicted": 49918,
+      "all_test_letters": 50937
+    }
+  ],
+  "completion": "UNPROVEN",
+  "scope_limit": "Does not certify a global optimum, allographic equivalence, language identity or manuscript meaning."
+}

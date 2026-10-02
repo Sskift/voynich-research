@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "source_and_derivative_files_verified": 21,
+  "frozen_source_and_template_hashes_unchanged": true,
+  "python_sources_parsed": 2,
+  "local_links_verified": 18,
+  "goal_completion": "UNPROVEN: no externally supported decoding key, phonetic assignment, semantic reading or translation."
+}

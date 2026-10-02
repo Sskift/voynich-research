@@ -1,0 +1,524 @@
+[
+  {
+    "fragment": 11,
+    "page": "f88r",
+    "loci": [
+      "f88r.25"
+    ],
+    "target": "f90r2",
+    "mapping": "third row, second plant",
+    "source": "https://www.voynich.nu/q15/index.html#f88r",
+    "agreed_candidates": [
+      {
+        "locus": "f88r.25",
+        "word": "ofaldo"
+      }
+    ],
+    "primary": true,
+    "word": "ofaldo",
+    "exclusion": null,
+    "label_readings": [
+      {
+        "locus": "f88r.25",
+        "zl_raw": "ofaldo",
+        "it_raw": "ofaldo",
+        "exclusion_reasons": []
+      }
+    ]
+  },
+  {
+    "fragment": 22,
+    "page": "f88v",
+    "loci": [
+      "f88v.30"
+    ],
+    "target": "f94v",
+    "mapping": "third row, third plant",
+    "source": "https://www.voynich.nu/q15/index.html#f88v",
+    "agreed_candidates": [],
+    "primary": false,
+    "word": null,
+    "exclusion": "no_agreed_single_word",
+    "label_readings": [
+      {
+        "locus": "f88v.30",
+        "zl_raw": "dararda[?:]",
+        "it_raw": "dararda",
+        "exclusion_reasons": [
+          "ZL_uncertain_reading",
+          "readings_disagree"
+        ]
+      }
+    ]
+  },
+  {
+    "fragment": 25,
+    "page": "f89r1",
+    "loci": [
+      "f89r1.4"
+    ],
+    "target": "f57r",
+    "mapping": "first row, third plant",
+    "source": "https://www.voynich.nu/q15/index.html#f89r1",
+    "agreed_candidates": [
+      {
+        "locus": "f89r1.4",
+        "word": "otoldy"
+      }
+    ],
+    "primary": true,
+    "word": "otoldy",
+    "exclusion": null,
+    "label_readings": [
+      {
+        "locus": "f89r1.4",
+        "zl_raw": "otoldy",
+        "it_raw": "otoldy",
+        "exclusion_reasons": []
+      }
+    ]
+  },
+  {
+    "fragment": 28,
+    "page": "f89r1",
+    "loci": [
+      "f89r1.13"
+    ],
+    "target": "f30r",
+    "mapping": "second row, second plant",
+    "source": "https://www.voynich.nu/q15/index.html#f89r1",
+    "agreed_candidates": [
+      {
+        "locus": "f89r1.13",
+        "word": "otorain"
+      }
+    ],
+    "primary": true,
+    "word": "otorain",
+    "exclusion": null,
+    "label_readings": [
+      {
+        "locus": "f89r1.13",
+        "zl_raw": "otorain",
+        "it_raw": "otorain",
+        "exclusion_reasons": []
+      }
+    ]
+  },
+  {
+    "fragment": 31,
+    "page": "f89r1",
+    "loci": [
+      "f89r1.26"
+    ],
+    "target": "f33r",
+    "mapping": "third row, second plant",
+    "source": "https://www.voynich.nu/q15/index.html#f89r1",
+    "agreed_candidates": [],
+    "primary": false,
+    "word": null,
+    "exclusion": "no_agreed_single_word",
+    "label_readings": [
+      {
+        "locus": "f89r1.26",
+        "zl_raw": "[s:r]ydarary",
+        "it_raw": "sydarary",
+        "exclusion_reasons": [
+          "ZL_uncertain_reading",
+          "readings_disagree"
+        ]
+      }
+    ]
+  },
+  {
+    "fragment": 35,
+    "page": "f89r2",
+    "loci": [
+      "f89r2.4"
+    ],
+    "target": "f35v",
+    "mapping": "first row, third plant",
+    "source": "https://www.voynich.nu/q15/index.html#f89r2",
+    "agreed_candidates": [],
+    "primary": false,
+    "word": null,
+    "exclusion": "no_agreed_single_word",
+    "label_readings": [
+      {
+        "locus": "f89r2.4",
+        "zl_raw": "saloiinsheol",
+        "it_raw": "saloiin.sheol",
+        "exclusion_reasons": [
+          "IT_multiple_or_uncertain_tokens",
+          "readings_disagree"
+        ]
+      }
+    ]
+  },
+  {
+    "fragment": 50,
+    "page": "f89v2",
+    "loci": [
+      "f89v2.2"
+    ],
+    "target": "f10v",
+    "mapping": "first row, first plant",
+    "source": "https://www.voynich.nu/q15/index.html#f89v2",
+    "agreed_candidates": [
+      {
+        "locus": "f89v2.2",
+        "word": "okam"
+      }
+    ],
+    "primary": true,
+    "word": "okam",
+    "exclusion": null,
+    "label_readings": [
+      {
+        "locus": "f89v2.2",
+        "zl_raw": "okam",
+        "it_raw": "okam",
+        "exclusion_reasons": []
+      }
+    ]
+  },
+  {
+    "fragment": 56,
+    "page": "f89v2",
+    "loci": [
+      "f89v2.13"
+    ],
+    "target": "f24r",
+    "mapping": "second row, second plant",
+    "source": "https://www.voynich.nu/q15/index.html#f89v2",
+    "agreed_candidates": [],
+    "primary": false,
+    "word": null,
+    "exclusion": "no_agreed_single_word",
+    "label_readings": [
+      {
+        "locus": "f89v2.13",
+        "zl_raw": "dykaran",
+        "it_raw": "dydariin",
+        "exclusion_reasons": [
+          "readings_disagree"
+        ]
+      }
+    ]
+  },
+  {
+    "fragment": 80,
+    "page": "f99r",
+    "loci": [
+      "f99r.20"
+    ],
+    "target": "f51r",
+    "mapping": "Petersen 80b",
+    "source": "https://www.voynich.nu/q19/index.html#f99r",
+    "agreed_candidates": [
+      {
+        "locus": "f99r.20",
+        "word": "oaro"
+      }
+    ],
+    "primary": true,
+    "word": "oaro",
+    "exclusion": null,
+    "label_readings": [
+      {
+        "locus": "f99r.20",
+        "zl_raw": "<!80b>oaro",
+        "it_raw": "oaro",
+        "exclusion_reasons": []
+      }
+    ]
+  },
+  {
+    "fragment": 94,
+    "page": "f99r",
+    "loci": [
+      "f99r.46"
+    ],
+    "target": "f96v",
+    "mapping": "Petersen 94b",
+    "source": "https://www.voynich.nu/q19/index.html#f99r",
+    "agreed_candidates": [
+      {
+        "locus": "f99r.46",
+        "word": "tolsasy"
+      }
+    ],
+    "primary": true,
+    "word": "tolsasy",
+    "exclusion": null,
+    "label_readings": [
+      {
+        "locus": "f99r.46",
+        "zl_raw": "<!94b>tolsasy",
+        "it_raw": "tolsasy",
+        "exclusion_reasons": []
+      }
+    ]
+  },
+  {
+    "fragment": 95,
+    "page": "f99v",
+    "loci": [
+      "f99v.2"
+    ],
+    "target": "f44r",
+    "mapping": "Petersen 95b",
+    "source": "https://www.voynich.nu/q19/index.html#f99v",
+    "agreed_candidates": [
+      {
+        "locus": "f99v.2",
+        "word": "otoldy"
+      }
+    ],
+    "primary": true,
+    "word": "otoldy",
+    "exclusion": null,
+    "label_readings": [
+      {
+        "locus": "f99v.2",
+        "zl_raw": "<!95b>otoldy",
+        "it_raw": "otoldy",
+        "exclusion_reasons": []
+      }
+    ]
+  },
+  {
+    "fragment": 110,
+    "page": "f99v",
+    "loci": [
+      "f99v.27",
+      "f99v.28"
+    ],
+    "target": "f34v",
+    "mapping": "Petersen 110 and secondary caption 110b; retain both",
+    "source": "https://www.voynich.nu/q19/index.html#f99v",
+    "agreed_candidates": [
+      {
+        "locus": "f99v.27",
+        "word": "otal"
+      }
+    ],
+    "primary": true,
+    "word": "otal",
+    "exclusion": null,
+    "label_readings": [
+      {
+        "locus": "f99v.27",
+        "zl_raw": "<!110>otal",
+        "it_raw": "otal",
+        "exclusion_reasons": []
+      },
+      {
+        "locus": "f99v.28",
+        "zl_raw": "<!110b>chor.olekor",
+        "it_raw": "chor.olekor",
+        "exclusion_reasons": [
+          "ZL_multiple_tokens",
+          "IT_multiple_or_uncertain_tokens"
+        ]
+      }
+    ]
+  },
+  {
+    "fragment": 116,
+    "page": "f100r",
+    "loci": [
+      "f100r.2"
+    ],
+    "target": "f96v",
+    "mapping": "Petersen 116",
+    "source": "https://www.voynich.nu/q19/index.html#f100r",
+    "agreed_candidates": [
+      {
+        "locus": "f100r.2",
+        "word": "sochorcfhy"
+      }
+    ],
+    "primary": true,
+    "word": "sochorcfhy",
+    "exclusion": null,
+    "label_readings": [
+      {
+        "locus": "f100r.2",
+        "zl_raw": "<!116>sochorcfhy",
+        "it_raw": "sochorcfhy",
+        "exclusion_reasons": []
+      }
+    ]
+  },
+  {
+    "fragment": 133,
+    "page": "f100v",
+    "loci": [
+      "f100v.3"
+    ],
+    "target": "f13v",
+    "mapping": "Petersen 133",
+    "source": "https://www.voynich.nu/q19/index.html#f100v",
+    "agreed_candidates": [
+      {
+        "locus": "f100v.3",
+        "word": "opchor"
+      }
+    ],
+    "primary": true,
+    "word": "opchor",
+    "exclusion": null,
+    "label_readings": [
+      {
+        "locus": "f100v.3",
+        "zl_raw": "<!133>opchor",
+        "it_raw": "opchor",
+        "exclusion_reasons": []
+      }
+    ]
+  },
+  {
+    "fragment": 136,
+    "page": "f100v",
+    "loci": [
+      "f100v.6"
+    ],
+    "target": "f90v2",
+    "mapping": "Petersen 136",
+    "source": "https://www.voynich.nu/q19/index.html#f100v",
+    "agreed_candidates": [
+      {
+        "locus": "f100v.6",
+        "word": "ykchochdy"
+      }
+    ],
+    "primary": true,
+    "word": "ykchochdy",
+    "exclusion": null,
+    "label_readings": [
+      {
+        "locus": "f100v.6",
+        "zl_raw": "<!136>ykchochdy",
+        "it_raw": "ykchochdy",
+        "exclusion_reasons": []
+      }
+    ]
+  },
+  {
+    "fragment": 150,
+    "page": "f101r",
+    "loci": [],
+    "target": "f30v",
+    "mapping": "page has no labels",
+    "source": "https://www.voynich.nu/q19/index.html#f101r",
+    "agreed_candidates": [],
+    "primary": false,
+    "word": null,
+    "exclusion": "no_label",
+    "label_readings": []
+  },
+  {
+    "fragment": 150,
+    "page": "f101r",
+    "loci": [],
+    "target": "f55v",
+    "mapping": "second proposed target; page has no labels",
+    "source": "https://www.voynich.nu/q19/index.html#f101r",
+    "agreed_candidates": [],
+    "primary": false,
+    "word": null,
+    "exclusion": "no_label",
+    "label_readings": []
+  },
+  {
+    "fragment": 155,
+    "page": "f101r",
+    "loci": [],
+    "target": "f49r",
+    "mapping": "page has no labels",
+    "source": "https://www.voynich.nu/q19/index.html#f101r",
+    "agreed_candidates": [],
+    "primary": false,
+    "word": null,
+    "exclusion": "no_label",
+    "label_readings": []
+  },
+  {
+    "fragment": 168,
+    "page": "f101r",
+    "loci": [],
+    "target": "f4v",
+    "mapping": "page has no labels",
+    "source": "https://www.voynich.nu/q19/index.html#f101r",
+    "agreed_candidates": [],
+    "primary": false,
+    "word": null,
+    "exclusion": "no_label",
+    "label_readings": []
+  },
+  {
+    "fragment": 188,
+    "page": "f101v",
+    "loci": [
+      "f101v.7"
+    ],
+    "target": "f37r",
+    "mapping": "first row, third plant in right half",
+    "source": "https://www.voynich.nu/q19/index.html#f101v",
+    "agreed_candidates": [],
+    "primary": false,
+    "word": null,
+    "exclusion": "no_agreed_single_word",
+    "label_readings": [
+      {
+        "locus": "f101v.7",
+        "zl_raw": "otarar",
+        "it_raw": "otorar",
+        "exclusion_reasons": [
+          "readings_disagree"
+        ]
+      }
+    ]
+  },
+  {
+    "fragment": 209,
+    "page": "f102r2",
+    "loci": [],
+    "target": "f53r",
+    "mapping": "second row, third plant; no individual label",
+    "source": "https://www.voynich.nu/q19/index.html#f102r2",
+    "agreed_candidates": [],
+    "primary": false,
+    "word": null,
+    "exclusion": "no_label",
+    "label_readings": []
+  },
+  {
+    "fragment": 225,
+    "page": "f102v2",
+    "loci": [
+      "f102v2.14"
+    ],
+    "target": "f36r",
+    "mapping": "Petersen 225",
+    "source": "https://www.voynich.nu/q19/index.html#f102v2",
+    "agreed_candidates": [
+      {
+        "locus": "f102v2.14",
+        "word": "sarol"
+      }
+    ],
+    "primary": true,
+    "word": "sarol",
+    "exclusion": null,
+    "label_readings": [
+      {
+        "locus": "f102v2.14",
+        "zl_raw": "<!225>sarol",
+        "it_raw": "sarol",
+        "exclusion_reasons": []
+      }
+    ]
+  }
+]

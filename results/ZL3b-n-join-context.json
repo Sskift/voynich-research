@@ -1,0 +1,3529 @@
+{
+  "source": "ZL3b-n.txt",
+  "spacing": "join",
+  "controls": {
+    "m": [
+      {
+        "scope": "ALL",
+        "replacement": "KEEP",
+        "tau": 10,
+        "n": 264,
+        "unigram_log2": -13.975639551445592,
+        "conditional_log2": -15.46936357848281,
+        "context_lift_bits": -1.4937240270372172,
+        "pair_seen_rate": 0.011363636363636364
+      },
+      {
+        "scope": "ALL",
+        "replacement": "KEEP",
+        "tau": 50,
+        "n": 264,
+        "unigram_log2": -13.975639551445592,
+        "conditional_log2": -14.566792107165831,
+        "context_lift_bits": -0.5911525557202388,
+        "pair_seen_rate": 0.011363636363636364
+      },
+      {
+        "scope": "ALL",
+        "replacement": "KEEP",
+        "tau": 200,
+        "n": 264,
+        "unigram_log2": -13.975639551445592,
+        "conditional_log2": -14.17398779109285,
+        "context_lift_bits": -0.19834823964725778,
+        "pair_seen_rate": 0.011363636363636364
+      },
+      {
+        "scope": "ALL",
+        "replacement": "r",
+        "tau": 10,
+        "n": 264,
+        "unigram_log2": -12.081799800670959,
+        "conditional_log2": -13.250761226279941,
+        "context_lift_bits": -1.1689614256089822,
+        "pair_seen_rate": 0.07196969696969698
+      },
+      {
+        "scope": "ALL",
+        "replacement": "r",
+        "tau": 50,
+        "n": 264,
+        "unigram_log2": -12.081799800670959,
+        "conditional_log2": -12.4786558404267,
+        "context_lift_bits": -0.39685603975574146,
+        "pair_seen_rate": 0.07196969696969698
+      },
+      {
+        "scope": "ALL",
+        "replacement": "r",
+        "tau": 200,
+        "n": 264,
+        "unigram_log2": -12.081799800670959,
+        "conditional_log2": -12.178406473531785,
+        "context_lift_bits": -0.09660667286082614,
+        "pair_seen_rate": 0.07196969696969698
+      },
+      {
+        "scope": "ALL",
+        "replacement": "l",
+        "tau": 10,
+        "n": 264,
+        "unigram_log2": -12.354789460621529,
+        "conditional_log2": -13.516259239302522,
+        "context_lift_bits": -1.1614697786809938,
+        "pair_seen_rate": 0.06818181818181818
+      },
+      {
+        "scope": "ALL",
+        "replacement": "l",
+        "tau": 50,
+        "n": 264,
+        "unigram_log2": -12.354789460621529,
+        "conditional_log2": -12.737639780715869,
+        "context_lift_bits": -0.38285032009433984,
+        "pair_seen_rate": 0.06818181818181818
+      },
+      {
+        "scope": "ALL",
+        "replacement": "l",
+        "tau": 200,
+        "n": 264,
+        "unigram_log2": -12.354789460621529,
+        "conditional_log2": -12.435906350790633,
+        "context_lift_bits": -0.0811168901691044,
+        "pair_seen_rate": 0.06818181818181818
+      },
+      {
+        "scope": "ALL",
+        "replacement": "n",
+        "tau": 10,
+        "n": 264,
+        "unigram_log2": -14.571735478323623,
+        "conditional_log2": -16.0711811249034,
+        "context_lift_bits": -1.4994456465797779,
+        "pair_seen_rate": 0.011363636363636364
+      },
+      {
+        "scope": "ALL",
+        "replacement": "n",
+        "tau": 50,
+        "n": 264,
+        "unigram_log2": -14.571735478323623,
+        "conditional_log2": -15.168047066415692,
+        "context_lift_bits": -0.5963115880920693,
+        "pair_seen_rate": 0.011363636363636364
+      },
+      {
+        "scope": "ALL",
+        "replacement": "n",
+        "tau": 200,
+        "n": 264,
+        "unigram_log2": -14.571735478323623,
+        "conditional_log2": -14.77375312266892,
+        "context_lift_bits": -0.2020176443452968,
+        "pair_seen_rate": 0.011363636363636364
+      },
+      {
+        "scope": "ALL",
+        "replacement": "y",
+        "tau": 10,
+        "n": 264,
+        "unigram_log2": -14.935735722706875,
+        "conditional_log2": -16.512162519794092,
+        "context_lift_bits": -1.5764267970872172,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "ALL",
+        "replacement": "y",
+        "tau": 50,
+        "n": 264,
+        "unigram_log2": -14.935735722706875,
+        "conditional_log2": -15.583649125440068,
+        "context_lift_bits": -0.6479134027331934,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "ALL",
+        "replacement": "y",
+        "tau": 200,
+        "n": 264,
+        "unigram_log2": -14.935735722706875,
+        "conditional_log2": -15.169673131316658,
+        "context_lift_bits": -0.2339374086097834,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "ALL",
+        "replacement": "in",
+        "tau": 10,
+        "n": 264,
+        "unigram_log2": -12.512963108713581,
+        "conditional_log2": -13.784191023600934,
+        "context_lift_bits": -1.271227914887353,
+        "pair_seen_rate": 0.056818181818181816
+      },
+      {
+        "scope": "ALL",
+        "replacement": "in",
+        "tau": 50,
+        "n": 264,
+        "unigram_log2": -12.512963108713581,
+        "conditional_log2": -12.978488269996602,
+        "context_lift_bits": -0.46552516128302024,
+        "pair_seen_rate": 0.056818181818181816
+      },
+      {
+        "scope": "ALL",
+        "replacement": "in",
+        "tau": 200,
+        "n": 264,
+        "unigram_log2": -12.512963108713581,
+        "conditional_log2": -12.652235104091409,
+        "context_lift_bits": -0.1392719953778272,
+        "pair_seen_rate": 0.056818181818181816
+      },
+      {
+        "scope": "ALL",
+        "replacement": "iin",
+        "tau": 10,
+        "n": 264,
+        "unigram_log2": -11.793948727556687,
+        "conditional_log2": -12.900315521070292,
+        "context_lift_bits": -1.1063667935136046,
+        "pair_seen_rate": 0.08333333333333333
+      },
+      {
+        "scope": "ALL",
+        "replacement": "iin",
+        "tau": 50,
+        "n": 264,
+        "unigram_log2": -11.793948727556687,
+        "conditional_log2": -12.150663070681418,
+        "context_lift_bits": -0.3567143431247306,
+        "pair_seen_rate": 0.08333333333333333
+      },
+      {
+        "scope": "ALL",
+        "replacement": "iin",
+        "tau": 200,
+        "n": 264,
+        "unigram_log2": -11.793948727556687,
+        "conditional_log2": -11.864278253842253,
+        "context_lift_bits": -0.07032952628556544,
+        "pair_seen_rate": 0.08333333333333333
+      },
+      {
+        "scope": "A",
+        "replacement": "KEEP",
+        "tau": 10,
+        "n": 63,
+        "unigram_log2": -13.704349579521443,
+        "conditional_log2": -15.025336951639371,
+        "context_lift_bits": -1.3209873721179282,
+        "pair_seen_rate": 0.031746031746031744
+      },
+      {
+        "scope": "A",
+        "replacement": "KEEP",
+        "tau": 50,
+        "n": 63,
+        "unigram_log2": -13.704349579521443,
+        "conditional_log2": -14.186326057173783,
+        "context_lift_bits": -0.4819764776523403,
+        "pair_seen_rate": 0.031746031746031744
+      },
+      {
+        "scope": "A",
+        "replacement": "KEEP",
+        "tau": 200,
+        "n": 63,
+        "unigram_log2": -13.704349579521443,
+        "conditional_log2": -13.836745338325358,
+        "context_lift_bits": -0.13239575880391463,
+        "pair_seen_rate": 0.031746031746031744
+      },
+      {
+        "scope": "A",
+        "replacement": "r",
+        "tau": 10,
+        "n": 63,
+        "unigram_log2": -11.823923461626904,
+        "conditional_log2": -12.702146263738536,
+        "context_lift_bits": -0.8782228021116314,
+        "pair_seen_rate": 0.12698412698412698
+      },
+      {
+        "scope": "A",
+        "replacement": "r",
+        "tau": 50,
+        "n": 63,
+        "unigram_log2": -11.823923461626904,
+        "conditional_log2": -12.060702165199674,
+        "context_lift_bits": -0.2367787035727691,
+        "pair_seen_rate": 0.12698412698412698
+      },
+      {
+        "scope": "A",
+        "replacement": "r",
+        "tau": 200,
+        "n": 63,
+        "unigram_log2": -11.823923461626904,
+        "conditional_log2": -11.840077225775639,
+        "context_lift_bits": -0.016153764148734595,
+        "pair_seen_rate": 0.12698412698412698
+      },
+      {
+        "scope": "A",
+        "replacement": "l",
+        "tau": 10,
+        "n": 63,
+        "unigram_log2": -12.00547958118929,
+        "conditional_log2": -12.919216026711299,
+        "context_lift_bits": -0.9137364455220087,
+        "pair_seen_rate": 0.1111111111111111
+      },
+      {
+        "scope": "A",
+        "replacement": "l",
+        "tau": 50,
+        "n": 63,
+        "unigram_log2": -12.00547958118929,
+        "conditional_log2": -12.2481124710469,
+        "context_lift_bits": -0.24263288985761022,
+        "pair_seen_rate": 0.1111111111111111
+      },
+      {
+        "scope": "A",
+        "replacement": "l",
+        "tau": 200,
+        "n": 63,
+        "unigram_log2": -12.00547958118929,
+        "conditional_log2": -12.013935145777749,
+        "context_lift_bits": -0.008455564588459197,
+        "pair_seen_rate": 0.1111111111111111
+      },
+      {
+        "scope": "A",
+        "replacement": "n",
+        "tau": 10,
+        "n": 63,
+        "unigram_log2": -14.692458963473621,
+        "conditional_log2": -16.145733903746503,
+        "context_lift_bits": -1.4532749402728822,
+        "pair_seen_rate": 0.015873015873015872
+      },
+      {
+        "scope": "A",
+        "replacement": "n",
+        "tau": 50,
+        "n": 63,
+        "unigram_log2": -14.692458963473621,
+        "conditional_log2": -15.270046539495306,
+        "context_lift_bits": -0.5775875760216849,
+        "pair_seen_rate": 0.015873015873015872
+      },
+      {
+        "scope": "A",
+        "replacement": "n",
+        "tau": 200,
+        "n": 63,
+        "unigram_log2": -14.692458963473621,
+        "conditional_log2": -14.889441842821068,
+        "context_lift_bits": -0.19698287934744663,
+        "pair_seen_rate": 0.015873015873015872
+      },
+      {
+        "scope": "A",
+        "replacement": "y",
+        "tau": 10,
+        "n": 63,
+        "unigram_log2": -14.794531284538166,
+        "conditional_log2": -16.352650385552366,
+        "context_lift_bits": -1.5581191010141993,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "y",
+        "tau": 50,
+        "n": 63,
+        "unigram_log2": -14.794531284538166,
+        "conditional_log2": -15.441029088392243,
+        "context_lift_bits": -0.6464978038540767,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "y",
+        "tau": 200,
+        "n": 63,
+        "unigram_log2": -14.794531284538166,
+        "conditional_log2": -15.03183893260294,
+        "context_lift_bits": -0.2373076480647729,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "in",
+        "tau": 10,
+        "n": 63,
+        "unigram_log2": -12.938220719008038,
+        "conditional_log2": -14.248494137259298,
+        "context_lift_bits": -1.3102734182512599,
+        "pair_seen_rate": 0.047619047619047616
+      },
+      {
+        "scope": "A",
+        "replacement": "in",
+        "tau": 50,
+        "n": 63,
+        "unigram_log2": -12.938220719008038,
+        "conditional_log2": -13.439444535775593,
+        "context_lift_bits": -0.5012238167675545,
+        "pair_seen_rate": 0.047619047619047616
+      },
+      {
+        "scope": "A",
+        "replacement": "in",
+        "tau": 200,
+        "n": 63,
+        "unigram_log2": -12.938220719008038,
+        "conditional_log2": -13.102650182440328,
+        "context_lift_bits": -0.16442946343229004,
+        "pair_seen_rate": 0.047619047619047616
+      },
+      {
+        "scope": "A",
+        "replacement": "iin",
+        "tau": 10,
+        "n": 63,
+        "unigram_log2": -11.876244040769823,
+        "conditional_log2": -12.701659629867311,
+        "context_lift_bits": -0.8254155890974886,
+        "pair_seen_rate": 0.12698412698412698
+      },
+      {
+        "scope": "A",
+        "replacement": "iin",
+        "tau": 50,
+        "n": 63,
+        "unigram_log2": -11.876244040769823,
+        "conditional_log2": -12.061456032372652,
+        "context_lift_bits": -0.18521199160282897,
+        "pair_seen_rate": 0.12698412698412698
+      },
+      {
+        "scope": "A",
+        "replacement": "iin",
+        "tau": 200,
+        "n": 63,
+        "unigram_log2": -11.876244040769823,
+        "conditional_log2": -11.844357949000408,
+        "context_lift_bits": 0.03188609176941526,
+        "pair_seen_rate": 0.12698412698412698
+      },
+      {
+        "scope": "B",
+        "replacement": "KEEP",
+        "tau": 10,
+        "n": 193,
+        "unigram_log2": -14.09226633777195,
+        "conditional_log2": -15.679675164288694,
+        "context_lift_bits": -1.5874088265167448,
+        "pair_seen_rate": 0.0051813471502590676
+      },
+      {
+        "scope": "B",
+        "replacement": "KEEP",
+        "tau": 50,
+        "n": 193,
+        "unigram_log2": -14.09226633777195,
+        "conditional_log2": -14.735962873174879,
+        "context_lift_bits": -0.6436965354029294,
+        "pair_seen_rate": 0.0051813471502590676
+      },
+      {
+        "scope": "B",
+        "replacement": "KEEP",
+        "tau": 200,
+        "n": 193,
+        "unigram_log2": -14.09226633777195,
+        "conditional_log2": -14.318176675412698,
+        "context_lift_bits": -0.22591033764074808,
+        "pair_seen_rate": 0.0051813471502590676
+      },
+      {
+        "scope": "B",
+        "replacement": "r",
+        "tau": 10,
+        "n": 193,
+        "unigram_log2": -12.194815852976062,
+        "conditional_log2": -13.482519193137053,
+        "context_lift_bits": -1.2877033401609914,
+        "pair_seen_rate": 0.05699481865284974
+      },
+      {
+        "scope": "B",
+        "replacement": "r",
+        "tau": 50,
+        "n": 193,
+        "unigram_log2": -12.194815852976062,
+        "conditional_log2": -12.652777567406892,
+        "context_lift_bits": -0.4579617144308301,
+        "pair_seen_rate": 0.05699481865284974
+      },
+      {
+        "scope": "B",
+        "replacement": "r",
+        "tau": 200,
+        "n": 193,
+        "unigram_log2": -12.194815852976062,
+        "conditional_log2": -12.31950065710208,
+        "context_lift_bits": -0.12468480412601934,
+        "pair_seen_rate": 0.05699481865284974
+      },
+      {
+        "scope": "B",
+        "replacement": "l",
+        "tau": 10,
+        "n": 193,
+        "unigram_log2": -12.501755589596685,
+        "conditional_log2": -13.767618751913913,
+        "context_lift_bits": -1.2658631623172276,
+        "pair_seen_rate": 0.05699481865284974
+      },
+      {
+        "scope": "B",
+        "replacement": "l",
+        "tau": 50,
+        "n": 193,
+        "unigram_log2": -12.501755589596685,
+        "conditional_log2": -12.93864826917488,
+        "context_lift_bits": -0.4368926795781949,
+        "pair_seen_rate": 0.05699481865284974
+      },
+      {
+        "scope": "B",
+        "replacement": "l",
+        "tau": 200,
+        "n": 193,
+        "unigram_log2": -12.501755589596685,
+        "conditional_log2": -12.607765180985293,
+        "context_lift_bits": -0.10600959138860766,
+        "pair_seen_rate": 0.05699481865284974
+      },
+      {
+        "scope": "B",
+        "replacement": "n",
+        "tau": 10,
+        "n": 193,
+        "unigram_log2": -14.539393572552472,
+        "conditional_log2": -16.091446910807417,
+        "context_lift_bits": -1.5520533382549448,
+        "pair_seen_rate": 0.010362694300518135
+      },
+      {
+        "scope": "B",
+        "replacement": "n",
+        "tau": 50,
+        "n": 193,
+        "unigram_log2": -14.539393572552472,
+        "conditional_log2": -15.158937182302003,
+        "context_lift_bits": -0.619543609749531,
+        "pair_seen_rate": 0.010362694300518135
+      },
+      {
+        "scope": "B",
+        "replacement": "n",
+        "tau": 200,
+        "n": 193,
+        "unigram_log2": -14.539393572552472,
+        "conditional_log2": -14.7492403570639,
+        "context_lift_bits": -0.2098467845114289,
+        "pair_seen_rate": 0.010362694300518135
+      },
+      {
+        "scope": "B",
+        "replacement": "y",
+        "tau": 10,
+        "n": 193,
+        "unigram_log2": -14.976596194683296,
+        "conditional_log2": -16.599726432457732,
+        "context_lift_bits": -1.6231302377744363,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "y",
+        "tau": 50,
+        "n": 193,
+        "unigram_log2": -14.976596194683296,
+        "conditional_log2": -15.644230657861927,
+        "context_lift_bits": -0.6676344631786311,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "y",
+        "tau": 200,
+        "n": 193,
+        "unigram_log2": -14.976596194683296,
+        "conditional_log2": -15.216942240006295,
+        "context_lift_bits": -0.2403460453229993,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "in",
+        "tau": 10,
+        "n": 193,
+        "unigram_log2": -12.431720029739585,
+        "conditional_log2": -13.718279143748735,
+        "context_lift_bits": -1.2865591140091492,
+        "pair_seen_rate": 0.06217616580310881
+      },
+      {
+        "scope": "B",
+        "replacement": "in",
+        "tau": 50,
+        "n": 193,
+        "unigram_log2": -12.431720029739585,
+        "conditional_log2": -12.897291101434293,
+        "context_lift_bits": -0.4655710716947077,
+        "pair_seen_rate": 0.06217616580310881
+      },
+      {
+        "scope": "B",
+        "replacement": "in",
+        "tau": 200,
+        "n": 193,
+        "unigram_log2": -12.431720029739585,
+        "conditional_log2": -12.566364813604594,
+        "context_lift_bits": -0.13464478386500822,
+        "pair_seen_rate": 0.06217616580310881
+      },
+      {
+        "scope": "B",
+        "replacement": "iin",
+        "tau": 10,
+        "n": 193,
+        "unigram_log2": -11.841717534259441,
+        "conditional_log2": -13.061036789170236,
+        "context_lift_bits": -1.2193192549107952,
+        "pair_seen_rate": 0.07253886010362694
+      },
+      {
+        "scope": "B",
+        "replacement": "iin",
+        "tau": 50,
+        "n": 193,
+        "unigram_log2": -11.841717534259441,
+        "conditional_log2": -12.261603056687782,
+        "context_lift_bits": -0.4198855224283413,
+        "pair_seen_rate": 0.07253886010362694
+      },
+      {
+        "scope": "B",
+        "replacement": "iin",
+        "tau": 200,
+        "n": 193,
+        "unigram_log2": -11.841717534259441,
+        "conditional_log2": -11.946139873240258,
+        "context_lift_bits": -0.10442233898081632,
+        "pair_seen_rate": 0.07253886010362694
+      }
+    ],
+    "r": [
+      {
+        "scope": "ALL",
+        "replacement": "KEEP",
+        "tau": 10,
+        "n": 131,
+        "unigram_log2": -11.69266671816036,
+        "conditional_log2": -12.71759305403865,
+        "context_lift_bits": -1.0249263358782894,
+        "pair_seen_rate": 0.061068702290076333
+      },
+      {
+        "scope": "ALL",
+        "replacement": "KEEP",
+        "tau": 50,
+        "n": 131,
+        "unigram_log2": -11.69266671816036,
+        "conditional_log2": -12.007927508950278,
+        "context_lift_bits": -0.3152607907899174,
+        "pair_seen_rate": 0.061068702290076333
+      },
+      {
+        "scope": "ALL",
+        "replacement": "KEEP",
+        "tau": 200,
+        "n": 131,
+        "unigram_log2": -11.69266671816036,
+        "conditional_log2": -11.747571888619792,
+        "context_lift_bits": -0.05490517045943122,
+        "pair_seen_rate": 0.061068702290076333
+      },
+      {
+        "scope": "ALL",
+        "replacement": "r",
+        "tau": 10,
+        "n": 131,
+        "unigram_log2": -11.69266671816036,
+        "conditional_log2": -12.71759305403865,
+        "context_lift_bits": -1.0249263358782894,
+        "pair_seen_rate": 0.061068702290076333
+      },
+      {
+        "scope": "ALL",
+        "replacement": "r",
+        "tau": 50,
+        "n": 131,
+        "unigram_log2": -11.69266671816036,
+        "conditional_log2": -12.007927508950278,
+        "context_lift_bits": -0.3152607907899174,
+        "pair_seen_rate": 0.061068702290076333
+      },
+      {
+        "scope": "ALL",
+        "replacement": "r",
+        "tau": 200,
+        "n": 131,
+        "unigram_log2": -11.69266671816036,
+        "conditional_log2": -11.747571888619792,
+        "context_lift_bits": -0.05490517045943122,
+        "pair_seen_rate": 0.061068702290076333
+      },
+      {
+        "scope": "ALL",
+        "replacement": "l",
+        "tau": 10,
+        "n": 131,
+        "unigram_log2": -11.909397186217594,
+        "conditional_log2": -13.015948042975719,
+        "context_lift_bits": -1.1065508567581244,
+        "pair_seen_rate": 0.05343511450381679
+      },
+      {
+        "scope": "ALL",
+        "replacement": "l",
+        "tau": 50,
+        "n": 131,
+        "unigram_log2": -11.909397186217594,
+        "conditional_log2": -12.285794073083816,
+        "context_lift_bits": -0.3763968868662211,
+        "pair_seen_rate": 0.05343511450381679
+      },
+      {
+        "scope": "ALL",
+        "replacement": "l",
+        "tau": 200,
+        "n": 131,
+        "unigram_log2": -11.909397186217594,
+        "conditional_log2": -12.005245782242245,
+        "context_lift_bits": -0.09584859602465023,
+        "pair_seen_rate": 0.05343511450381679
+      },
+      {
+        "scope": "ALL",
+        "replacement": "n",
+        "tau": 10,
+        "n": 131,
+        "unigram_log2": -14.767566150044352,
+        "conditional_log2": -16.121350138082814,
+        "context_lift_bits": -1.3537839880384617,
+        "pair_seen_rate": 0.007633587786259542
+      },
+      {
+        "scope": "ALL",
+        "replacement": "n",
+        "tau": 50,
+        "n": 131,
+        "unigram_log2": -14.767566150044352,
+        "conditional_log2": -15.295239571021213,
+        "context_lift_bits": -0.5276734209768605,
+        "pair_seen_rate": 0.007633587786259542
+      },
+      {
+        "scope": "ALL",
+        "replacement": "n",
+        "tau": 200,
+        "n": 131,
+        "unigram_log2": -14.767566150044352,
+        "conditional_log2": -14.948642828784356,
+        "context_lift_bits": -0.18107667874000377,
+        "pair_seen_rate": 0.007633587786259542
+      },
+      {
+        "scope": "ALL",
+        "replacement": "y",
+        "tau": 10,
+        "n": 131,
+        "unigram_log2": -14.650489773721292,
+        "conditional_log2": -15.980852949014134,
+        "context_lift_bits": -1.3303631752928418,
+        "pair_seen_rate": 0.007633587786259542
+      },
+      {
+        "scope": "ALL",
+        "replacement": "y",
+        "tau": 50,
+        "n": 131,
+        "unigram_log2": -14.650489773721292,
+        "conditional_log2": -15.15572690876353,
+        "context_lift_bits": -0.505237135042238,
+        "pair_seen_rate": 0.007633587786259542
+      },
+      {
+        "scope": "ALL",
+        "replacement": "y",
+        "tau": 200,
+        "n": 131,
+        "unigram_log2": -14.650489773721292,
+        "conditional_log2": -14.812038878605758,
+        "context_lift_bits": -0.1615491048844664,
+        "pair_seen_rate": 0.007633587786259542
+      },
+      {
+        "scope": "ALL",
+        "replacement": "in",
+        "tau": 10,
+        "n": 131,
+        "unigram_log2": -13.014905527048917,
+        "conditional_log2": -14.344606433837125,
+        "context_lift_bits": -1.329700906788208,
+        "pair_seen_rate": 0.015267175572519083
+      },
+      {
+        "scope": "ALL",
+        "replacement": "in",
+        "tau": 50,
+        "n": 131,
+        "unigram_log2": -13.014905527048917,
+        "conditional_log2": -13.532966041675612,
+        "context_lift_bits": -0.5180605146266952,
+        "pair_seen_rate": 0.015267175572519083
+      },
+      {
+        "scope": "ALL",
+        "replacement": "in",
+        "tau": 200,
+        "n": 131,
+        "unigram_log2": -13.014905527048917,
+        "conditional_log2": -13.193683910363712,
+        "context_lift_bits": -0.17877838331479445,
+        "pair_seen_rate": 0.015267175572519083
+      },
+      {
+        "scope": "ALL",
+        "replacement": "iin",
+        "tau": 10,
+        "n": 131,
+        "unigram_log2": -12.020624305795417,
+        "conditional_log2": -13.250943861788118,
+        "context_lift_bits": -1.2303195559927005,
+        "pair_seen_rate": 0.03816793893129771
+      },
+      {
+        "scope": "ALL",
+        "replacement": "iin",
+        "tau": 50,
+        "n": 131,
+        "unigram_log2": -12.020624305795417,
+        "conditional_log2": -12.477689847349062,
+        "context_lift_bits": -0.45706554155364465,
+        "pair_seen_rate": 0.03816793893129771
+      },
+      {
+        "scope": "ALL",
+        "replacement": "iin",
+        "tau": 200,
+        "n": 131,
+        "unigram_log2": -12.020624305795417,
+        "conditional_log2": -12.159544856319235,
+        "context_lift_bits": -0.13892055052381735,
+        "pair_seen_rate": 0.03816793893129771
+      },
+      {
+        "scope": "A",
+        "replacement": "KEEP",
+        "tau": 10,
+        "n": 45,
+        "unigram_log2": -11.436584160711671,
+        "conditional_log2": -12.096924712314587,
+        "context_lift_bits": -0.6603405516029159,
+        "pair_seen_rate": 0.08888888888888889
+      },
+      {
+        "scope": "A",
+        "replacement": "KEEP",
+        "tau": 50,
+        "n": 45,
+        "unigram_log2": -11.436584160711671,
+        "conditional_log2": -11.516140181366358,
+        "context_lift_bits": -0.07955602065468703,
+        "pair_seen_rate": 0.08888888888888889
+      },
+      {
+        "scope": "A",
+        "replacement": "KEEP",
+        "tau": 200,
+        "n": 45,
+        "unigram_log2": -11.436584160711671,
+        "conditional_log2": -11.338943120416266,
+        "context_lift_bits": 0.09764104029540555,
+        "pair_seen_rate": 0.08888888888888889
+      },
+      {
+        "scope": "A",
+        "replacement": "r",
+        "tau": 10,
+        "n": 45,
+        "unigram_log2": -11.436584160711671,
+        "conditional_log2": -12.096924712314587,
+        "context_lift_bits": -0.6603405516029159,
+        "pair_seen_rate": 0.08888888888888889
+      },
+      {
+        "scope": "A",
+        "replacement": "r",
+        "tau": 50,
+        "n": 45,
+        "unigram_log2": -11.436584160711671,
+        "conditional_log2": -11.516140181366358,
+        "context_lift_bits": -0.07955602065468703,
+        "pair_seen_rate": 0.08888888888888889
+      },
+      {
+        "scope": "A",
+        "replacement": "r",
+        "tau": 200,
+        "n": 45,
+        "unigram_log2": -11.436584160711671,
+        "conditional_log2": -11.338943120416266,
+        "context_lift_bits": 0.09764104029540555,
+        "pair_seen_rate": 0.08888888888888889
+      },
+      {
+        "scope": "A",
+        "replacement": "l",
+        "tau": 10,
+        "n": 45,
+        "unigram_log2": -11.746024470759517,
+        "conditional_log2": -12.67538928249119,
+        "context_lift_bits": -0.9293648117316735,
+        "pair_seen_rate": 0.06666666666666667
+      },
+      {
+        "scope": "A",
+        "replacement": "l",
+        "tau": 50,
+        "n": 45,
+        "unigram_log2": -11.746024470759517,
+        "conditional_log2": -12.034234694532971,
+        "context_lift_bits": -0.2882102237734543,
+        "pair_seen_rate": 0.06666666666666667
+      },
+      {
+        "scope": "A",
+        "replacement": "l",
+        "tau": 200,
+        "n": 45,
+        "unigram_log2": -11.746024470759517,
+        "conditional_log2": -11.794841917084689,
+        "context_lift_bits": -0.04881744632517204,
+        "pair_seen_rate": 0.06666666666666667
+      },
+      {
+        "scope": "A",
+        "replacement": "n",
+        "tau": 10,
+        "n": 45,
+        "unigram_log2": -14.546632791150774,
+        "conditional_log2": -15.751807521454703,
+        "context_lift_bits": -1.2051747303039289,
+        "pair_seen_rate": 0.022222222222222223
+      },
+      {
+        "scope": "A",
+        "replacement": "n",
+        "tau": 50,
+        "n": 45,
+        "unigram_log2": -14.546632791150774,
+        "conditional_log2": -15.017282119200438,
+        "context_lift_bits": -0.47064932804966375,
+        "pair_seen_rate": 0.022222222222222223
+      },
+      {
+        "scope": "A",
+        "replacement": "n",
+        "tau": 200,
+        "n": 45,
+        "unigram_log2": -14.546632791150774,
+        "conditional_log2": -14.710966587494749,
+        "context_lift_bits": -0.16433379634397483,
+        "pair_seen_rate": 0.022222222222222223
+      },
+      {
+        "scope": "A",
+        "replacement": "y",
+        "tau": 10,
+        "n": 45,
+        "unigram_log2": -14.863044348743845,
+        "conditional_log2": -16.000038490832733,
+        "context_lift_bits": -1.1369941420888878,
+        "pair_seen_rate": 0.022222222222222223
+      },
+      {
+        "scope": "A",
+        "replacement": "y",
+        "tau": 50,
+        "n": 45,
+        "unigram_log2": -14.863044348743845,
+        "conditional_log2": -15.268379155517144,
+        "context_lift_bits": -0.4053348067732987,
+        "pair_seen_rate": 0.022222222222222223
+      },
+      {
+        "scope": "A",
+        "replacement": "y",
+        "tau": 200,
+        "n": 45,
+        "unigram_log2": -14.863044348743845,
+        "conditional_log2": -14.9705312078639,
+        "context_lift_bits": -0.10748685912005485,
+        "pair_seen_rate": 0.022222222222222223
+      },
+      {
+        "scope": "A",
+        "replacement": "in",
+        "tau": 10,
+        "n": 45,
+        "unigram_log2": -12.547512508209412,
+        "conditional_log2": -13.7771427316135,
+        "context_lift_bits": -1.2296302234040883,
+        "pair_seen_rate": 0.022222222222222223
+      },
+      {
+        "scope": "A",
+        "replacement": "in",
+        "tau": 50,
+        "n": 45,
+        "unigram_log2": -12.547512508209412,
+        "conditional_log2": -13.03923968031476,
+        "context_lift_bits": -0.4917271721053478,
+        "pair_seen_rate": 0.022222222222222223
+      },
+      {
+        "scope": "A",
+        "replacement": "in",
+        "tau": 200,
+        "n": 45,
+        "unigram_log2": -12.547512508209412,
+        "conditional_log2": -12.725816397686375,
+        "context_lift_bits": -0.17830388947696285,
+        "pair_seen_rate": 0.022222222222222223
+      },
+      {
+        "scope": "A",
+        "replacement": "iin",
+        "tau": 10,
+        "n": 45,
+        "unigram_log2": -11.490345828021532,
+        "conditional_log2": -12.531063360341527,
+        "context_lift_bits": -1.040717532319995,
+        "pair_seen_rate": 0.044444444444444446
+      },
+      {
+        "scope": "A",
+        "replacement": "iin",
+        "tau": 50,
+        "n": 45,
+        "unigram_log2": -11.490345828021532,
+        "conditional_log2": -11.83962212712672,
+        "context_lift_bits": -0.3492762991051883,
+        "pair_seen_rate": 0.044444444444444446
+      },
+      {
+        "scope": "A",
+        "replacement": "iin",
+        "tau": 200,
+        "n": 45,
+        "unigram_log2": -11.490345828021532,
+        "conditional_log2": -11.562644104562963,
+        "context_lift_bits": -0.0722982765414315,
+        "pair_seen_rate": 0.044444444444444446
+      },
+      {
+        "scope": "B",
+        "replacement": "KEEP",
+        "tau": 10,
+        "n": 83,
+        "unigram_log2": -11.823963456844387,
+        "conditional_log2": -13.01632411430063,
+        "context_lift_bits": -1.192360657456243,
+        "pair_seen_rate": 0.04819277108433735
+      },
+      {
+        "scope": "B",
+        "replacement": "KEEP",
+        "tau": 50,
+        "n": 83,
+        "unigram_log2": -11.823963456844387,
+        "conditional_log2": -12.251569784615254,
+        "context_lift_bits": -0.42760632777086727,
+        "pair_seen_rate": 0.04819277108433735
+      },
+      {
+        "scope": "B",
+        "replacement": "KEEP",
+        "tau": 200,
+        "n": 83,
+        "unigram_log2": -11.823963456844387,
+        "conditional_log2": -11.954589395420465,
+        "context_lift_bits": -0.13062593857607752,
+        "pair_seen_rate": 0.04819277108433735
+      },
+      {
+        "scope": "B",
+        "replacement": "r",
+        "tau": 10,
+        "n": 83,
+        "unigram_log2": -11.823963456844387,
+        "conditional_log2": -13.01632411430063,
+        "context_lift_bits": -1.192360657456243,
+        "pair_seen_rate": 0.04819277108433735
+      },
+      {
+        "scope": "B",
+        "replacement": "r",
+        "tau": 50,
+        "n": 83,
+        "unigram_log2": -11.823963456844387,
+        "conditional_log2": -12.251569784615254,
+        "context_lift_bits": -0.42760632777086727,
+        "pair_seen_rate": 0.04819277108433735
+      },
+      {
+        "scope": "B",
+        "replacement": "r",
+        "tau": 200,
+        "n": 83,
+        "unigram_log2": -11.823963456844387,
+        "conditional_log2": -11.954589395420465,
+        "context_lift_bits": -0.13062593857607752,
+        "pair_seen_rate": 0.04819277108433735
+      },
+      {
+        "scope": "B",
+        "replacement": "l",
+        "tau": 10,
+        "n": 83,
+        "unigram_log2": -11.971688786205274,
+        "conditional_log2": -13.14702198016108,
+        "context_lift_bits": -1.1753331939558063,
+        "pair_seen_rate": 0.04819277108433735
+      },
+      {
+        "scope": "B",
+        "replacement": "l",
+        "tau": 50,
+        "n": 83,
+        "unigram_log2": -11.971688786205274,
+        "conditional_log2": -12.382661251875547,
+        "context_lift_bits": -0.4109724656702731,
+        "pair_seen_rate": 0.04819277108433735
+      },
+      {
+        "scope": "B",
+        "replacement": "l",
+        "tau": 200,
+        "n": 83,
+        "unigram_log2": -11.971688786205274,
+        "conditional_log2": -12.087531072385179,
+        "context_lift_bits": -0.11584228617990533,
+        "pair_seen_rate": 0.04819277108433735
+      },
+      {
+        "scope": "B",
+        "replacement": "n",
+        "tau": 10,
+        "n": 83,
+        "unigram_log2": -14.91490035776994,
+        "conditional_log2": -16.330909381388068,
+        "context_lift_bits": -1.4160090236181286,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "n",
+        "tau": 50,
+        "n": 83,
+        "unigram_log2": -14.91490035776994,
+        "conditional_log2": -15.465721814718083,
+        "context_lift_bits": -0.5508214569481442,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "n",
+        "tau": 200,
+        "n": 83,
+        "unigram_log2": -14.91490035776994,
+        "conditional_log2": -15.102629910032547,
+        "context_lift_bits": -0.18772955226260812,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "y",
+        "tau": 10,
+        "n": 83,
+        "unigram_log2": -14.520376859077748,
+        "conditional_log2": -15.936385882695879,
+        "context_lift_bits": -1.4160090236181304,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "y",
+        "tau": 50,
+        "n": 83,
+        "unigram_log2": -14.520376859077748,
+        "conditional_log2": -15.071198316025898,
+        "context_lift_bits": -0.5508214569481495,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "y",
+        "tau": 200,
+        "n": 83,
+        "unigram_log2": -14.520376859077748,
+        "conditional_log2": -14.708106411340362,
+        "context_lift_bits": -0.18772955226261345,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "in",
+        "tau": 10,
+        "n": 83,
+        "unigram_log2": -13.305071911179423,
+        "conditional_log2": -14.669811286203691,
+        "context_lift_bits": -1.3647393750242678,
+        "pair_seen_rate": 0.012048192771084338
+      },
+      {
+        "scope": "B",
+        "replacement": "in",
+        "tau": 50,
+        "n": 83,
+        "unigram_log2": -13.305071911179423,
+        "conditional_log2": -13.829293443857967,
+        "context_lift_bits": -0.5242215326785438,
+        "pair_seen_rate": 0.012048192771084338
+      },
+      {
+        "scope": "B",
+        "replacement": "in",
+        "tau": 200,
+        "n": 83,
+        "unigram_log2": -13.305071911179423,
+        "conditional_log2": -13.481599886433763,
+        "context_lift_bits": -0.1765279752543396,
+        "pair_seen_rate": 0.012048192771084338
+      },
+      {
+        "scope": "B",
+        "replacement": "iin",
+        "tau": 10,
+        "n": 83,
+        "unigram_log2": -12.354203448011003,
+        "conditional_log2": -13.664510463331332,
+        "context_lift_bits": -1.3103070153203298,
+        "pair_seen_rate": 0.03614457831325301
+      },
+      {
+        "scope": "B",
+        "replacement": "iin",
+        "tau": 50,
+        "n": 83,
+        "unigram_log2": -12.354203448011003,
+        "conditional_log2": -12.859388207345424,
+        "context_lift_bits": -0.505184759334421,
+        "pair_seen_rate": 0.03614457831325301
+      },
+      {
+        "scope": "B",
+        "replacement": "iin",
+        "tau": 200,
+        "n": 83,
+        "unigram_log2": -12.354203448011003,
+        "conditional_log2": -12.525296200210905,
+        "context_lift_bits": -0.17109275219990216,
+        "pair_seen_rate": 0.03614457831325301
+      }
+    ],
+    "l": [
+      {
+        "scope": "ALL",
+        "replacement": "KEEP",
+        "tau": 10,
+        "n": 186,
+        "unigram_log2": -10.994703520607597,
+        "conditional_log2": -12.041207624735126,
+        "context_lift_bits": -1.0465041041275285,
+        "pair_seen_rate": 0.0967741935483871
+      },
+      {
+        "scope": "ALL",
+        "replacement": "KEEP",
+        "tau": 50,
+        "n": 186,
+        "unigram_log2": -10.994703520607597,
+        "conditional_log2": -11.319430832572756,
+        "context_lift_bits": -0.3247273119651588,
+        "pair_seen_rate": 0.0967741935483871
+      },
+      {
+        "scope": "ALL",
+        "replacement": "KEEP",
+        "tau": 200,
+        "n": 186,
+        "unigram_log2": -10.994703520607597,
+        "conditional_log2": -11.046036719331056,
+        "context_lift_bits": -0.05133319872345865,
+        "pair_seen_rate": 0.0967741935483871
+      },
+      {
+        "scope": "ALL",
+        "replacement": "r",
+        "tau": 10,
+        "n": 186,
+        "unigram_log2": -10.932336549267431,
+        "conditional_log2": -12.001247179843363,
+        "context_lift_bits": -1.0689106305759317,
+        "pair_seen_rate": 0.10215053763440861
+      },
+      {
+        "scope": "ALL",
+        "replacement": "r",
+        "tau": 50,
+        "n": 186,
+        "unigram_log2": -10.932336549267431,
+        "conditional_log2": -11.286462874548267,
+        "context_lift_bits": -0.354126325280836,
+        "pair_seen_rate": 0.10215053763440861
+      },
+      {
+        "scope": "ALL",
+        "replacement": "r",
+        "tau": 200,
+        "n": 186,
+        "unigram_log2": -10.932336549267431,
+        "conditional_log2": -11.010842127018096,
+        "context_lift_bits": -0.07850557775066491,
+        "pair_seen_rate": 0.10215053763440861
+      },
+      {
+        "scope": "ALL",
+        "replacement": "l",
+        "tau": 10,
+        "n": 186,
+        "unigram_log2": -10.994703520607597,
+        "conditional_log2": -12.041207624735126,
+        "context_lift_bits": -1.0465041041275285,
+        "pair_seen_rate": 0.0967741935483871
+      },
+      {
+        "scope": "ALL",
+        "replacement": "l",
+        "tau": 50,
+        "n": 186,
+        "unigram_log2": -10.994703520607597,
+        "conditional_log2": -11.319430832572756,
+        "context_lift_bits": -0.3247273119651588,
+        "pair_seen_rate": 0.0967741935483871
+      },
+      {
+        "scope": "ALL",
+        "replacement": "l",
+        "tau": 200,
+        "n": 186,
+        "unigram_log2": -10.994703520607597,
+        "conditional_log2": -11.046036719331056,
+        "context_lift_bits": -0.05133319872345865,
+        "pair_seen_rate": 0.0967741935483871
+      },
+      {
+        "scope": "ALL",
+        "replacement": "n",
+        "tau": 10,
+        "n": 186,
+        "unigram_log2": -14.717518280046754,
+        "conditional_log2": -16.323567972651563,
+        "context_lift_bits": -1.6060496926048096,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "ALL",
+        "replacement": "n",
+        "tau": 50,
+        "n": 186,
+        "unigram_log2": -14.717518280046754,
+        "conditional_log2": -15.3909088475312,
+        "context_lift_bits": -0.6733905674844465,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "ALL",
+        "replacement": "n",
+        "tau": 200,
+        "n": 186,
+        "unigram_log2": -14.717518280046754,
+        "conditional_log2": -14.96290079675985,
+        "context_lift_bits": -0.24538251671309652,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "ALL",
+        "replacement": "y",
+        "tau": 10,
+        "n": 186,
+        "unigram_log2": -14.496367220214298,
+        "conditional_log2": -16.102416912819113,
+        "context_lift_bits": -1.606049692604815,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "ALL",
+        "replacement": "y",
+        "tau": 50,
+        "n": 186,
+        "unigram_log2": -14.496367220214298,
+        "conditional_log2": -15.169757787698751,
+        "context_lift_bits": -0.6733905674844536,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "ALL",
+        "replacement": "y",
+        "tau": 200,
+        "n": 186,
+        "unigram_log2": -14.496367220214298,
+        "conditional_log2": -14.741749736927394,
+        "context_lift_bits": -0.24538251671309652,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "ALL",
+        "replacement": "in",
+        "tau": 10,
+        "n": 186,
+        "unigram_log2": -12.450067930561621,
+        "conditional_log2": -13.682294198856741,
+        "context_lift_bits": -1.2322262682951202,
+        "pair_seen_rate": 0.06451612903225806
+      },
+      {
+        "scope": "ALL",
+        "replacement": "in",
+        "tau": 50,
+        "n": 186,
+        "unigram_log2": -12.450067930561621,
+        "conditional_log2": -12.891364855502864,
+        "context_lift_bits": -0.44129692494124306,
+        "pair_seen_rate": 0.06451612903225806
+      },
+      {
+        "scope": "ALL",
+        "replacement": "in",
+        "tau": 200,
+        "n": 186,
+        "unigram_log2": -12.450067930561621,
+        "conditional_log2": -12.568239091693789,
+        "context_lift_bits": -0.11817116113216741,
+        "pair_seen_rate": 0.06451612903225806
+      },
+      {
+        "scope": "ALL",
+        "replacement": "iin",
+        "tau": 10,
+        "n": 186,
+        "unigram_log2": -11.363617603076703,
+        "conditional_log2": -12.361314305144319,
+        "context_lift_bits": -0.997696702067616,
+        "pair_seen_rate": 0.12903225806451613
+      },
+      {
+        "scope": "ALL",
+        "replacement": "iin",
+        "tau": 50,
+        "n": 186,
+        "unigram_log2": -11.363617603076703,
+        "conditional_log2": -11.688553978873156,
+        "context_lift_bits": -0.32493637579645274,
+        "pair_seen_rate": 0.12903225806451613
+      },
+      {
+        "scope": "ALL",
+        "replacement": "iin",
+        "tau": 200,
+        "n": 186,
+        "unigram_log2": -11.363617603076703,
+        "conditional_log2": -11.430413788449922,
+        "context_lift_bits": -0.06679618537321907,
+        "pair_seen_rate": 0.12903225806451613
+      },
+      {
+        "scope": "A",
+        "replacement": "KEEP",
+        "tau": 10,
+        "n": 54,
+        "unigram_log2": -10.821102275118813,
+        "conditional_log2": -11.730200618564652,
+        "context_lift_bits": -0.9090983434458391,
+        "pair_seen_rate": 0.037037037037037035
+      },
+      {
+        "scope": "A",
+        "replacement": "KEEP",
+        "tau": 50,
+        "n": 54,
+        "unigram_log2": -10.821102275118813,
+        "conditional_log2": -11.145523389508938,
+        "context_lift_bits": -0.324421114390125,
+        "pair_seen_rate": 0.037037037037037035
+      },
+      {
+        "scope": "A",
+        "replacement": "KEEP",
+        "tau": 200,
+        "n": 54,
+        "unigram_log2": -10.821102275118813,
+        "conditional_log2": -10.906291701804516,
+        "context_lift_bits": -0.0851894266857034,
+        "pair_seen_rate": 0.037037037037037035
+      },
+      {
+        "scope": "A",
+        "replacement": "r",
+        "tau": 10,
+        "n": 54,
+        "unigram_log2": -10.574104688912401,
+        "conditional_log2": -11.17019025705382,
+        "context_lift_bits": -0.5960855681414188,
+        "pair_seen_rate": 0.09259259259259259
+      },
+      {
+        "scope": "A",
+        "replacement": "r",
+        "tau": 50,
+        "n": 54,
+        "unigram_log2": -10.574104688912401,
+        "conditional_log2": -10.709240021021607,
+        "context_lift_bits": -0.13513533210920592,
+        "pair_seen_rate": 0.09259259259259259
+      },
+      {
+        "scope": "A",
+        "replacement": "r",
+        "tau": 200,
+        "n": 54,
+        "unigram_log2": -10.574104688912401,
+        "conditional_log2": -10.562150040353801,
+        "context_lift_bits": 0.011954648558599956,
+        "pair_seen_rate": 0.09259259259259259
+      },
+      {
+        "scope": "A",
+        "replacement": "l",
+        "tau": 10,
+        "n": 54,
+        "unigram_log2": -10.821102275118813,
+        "conditional_log2": -11.730200618564652,
+        "context_lift_bits": -0.9090983434458391,
+        "pair_seen_rate": 0.037037037037037035
+      },
+      {
+        "scope": "A",
+        "replacement": "l",
+        "tau": 50,
+        "n": 54,
+        "unigram_log2": -10.821102275118813,
+        "conditional_log2": -11.145523389508938,
+        "context_lift_bits": -0.324421114390125,
+        "pair_seen_rate": 0.037037037037037035
+      },
+      {
+        "scope": "A",
+        "replacement": "l",
+        "tau": 200,
+        "n": 54,
+        "unigram_log2": -10.821102275118813,
+        "conditional_log2": -10.906291701804516,
+        "context_lift_bits": -0.0851894266857034,
+        "pair_seen_rate": 0.037037037037037035
+      },
+      {
+        "scope": "A",
+        "replacement": "n",
+        "tau": 10,
+        "n": 54,
+        "unigram_log2": -14.526585820610933,
+        "conditional_log2": -15.661282864145083,
+        "context_lift_bits": -1.1346970435341497,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "n",
+        "tau": 50,
+        "n": 54,
+        "unigram_log2": -14.526585820610933,
+        "conditional_log2": -14.998757201819565,
+        "context_lift_bits": -0.4721713812086321,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "n",
+        "tau": 200,
+        "n": 54,
+        "unigram_log2": -14.526585820610933,
+        "conditional_log2": -14.704381188580976,
+        "context_lift_bits": -0.17779536797004347,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "y",
+        "tau": 10,
+        "n": 54,
+        "unigram_log2": -14.723499473063198,
+        "conditional_log2": -15.858196516597342,
+        "context_lift_bits": -1.1346970435341444,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "y",
+        "tau": 50,
+        "n": 54,
+        "unigram_log2": -14.723499473063198,
+        "conditional_log2": -15.195670854271826,
+        "context_lift_bits": -0.47217138120862856,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "y",
+        "tau": 200,
+        "n": 54,
+        "unigram_log2": -14.723499473063198,
+        "conditional_log2": -14.901294841033238,
+        "context_lift_bits": -0.17779536797003992,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "in",
+        "tau": 10,
+        "n": 54,
+        "unigram_log2": -11.90413480082511,
+        "conditional_log2": -12.855955801937304,
+        "context_lift_bits": -0.9518210011121937,
+        "pair_seen_rate": 0.037037037037037035
+      },
+      {
+        "scope": "A",
+        "replacement": "in",
+        "tau": 50,
+        "n": 54,
+        "unigram_log2": -11.90413480082511,
+        "conditional_log2": -12.272257872526577,
+        "context_lift_bits": -0.36812307170146674,
+        "pair_seen_rate": 0.037037037037037035
+      },
+      {
+        "scope": "A",
+        "replacement": "in",
+        "tau": 200,
+        "n": 54,
+        "unigram_log2": -11.90413480082511,
+        "conditional_log2": -12.031948208705078,
+        "context_lift_bits": -0.12781340787996776,
+        "pair_seen_rate": 0.037037037037037035
+      },
+      {
+        "scope": "A",
+        "replacement": "iin",
+        "tau": 10,
+        "n": 54,
+        "unigram_log2": -10.846963225210766,
+        "conditional_log2": -11.334849207683703,
+        "context_lift_bits": -0.48788598247293713,
+        "pair_seen_rate": 0.14814814814814814
+      },
+      {
+        "scope": "A",
+        "replacement": "iin",
+        "tau": 50,
+        "n": 54,
+        "unigram_log2": -10.846963225210766,
+        "conditional_log2": -10.949111132019423,
+        "context_lift_bits": -0.10214790680865704,
+        "pair_seen_rate": 0.14814814814814814
+      },
+      {
+        "scope": "A",
+        "replacement": "iin",
+        "tau": 200,
+        "n": 54,
+        "unigram_log2": -10.846963225210766,
+        "conditional_log2": -10.822373357754861,
+        "context_lift_bits": 0.02458986745590508,
+        "pair_seen_rate": 0.14814814814814814
+      },
+      {
+        "scope": "B",
+        "replacement": "KEEP",
+        "tau": 10,
+        "n": 129,
+        "unigram_log2": -11.030547734324541,
+        "conditional_log2": -12.154078916268148,
+        "context_lift_bits": -1.1235311819436067,
+        "pair_seen_rate": 0.12403100775193798
+      },
+      {
+        "scope": "B",
+        "replacement": "KEEP",
+        "tau": 50,
+        "n": 129,
+        "unigram_log2": -11.030547734324541,
+        "conditional_log2": -11.361872845827389,
+        "context_lift_bits": -0.3313251115028475,
+        "pair_seen_rate": 0.12403100775193798
+      },
+      {
+        "scope": "B",
+        "replacement": "KEEP",
+        "tau": 200,
+        "n": 129,
+        "unigram_log2": -11.030547734324541,
+        "conditional_log2": -11.06862510849457,
+        "context_lift_bits": -0.03807737417002954,
+        "pair_seen_rate": 0.12403100775193798
+      },
+      {
+        "scope": "B",
+        "replacement": "r",
+        "tau": 10,
+        "n": 129,
+        "unigram_log2": -11.036455759944777,
+        "conditional_log2": -12.323322630150725,
+        "context_lift_bits": -1.286866870205948,
+        "pair_seen_rate": 0.10852713178294573
+      },
+      {
+        "scope": "B",
+        "replacement": "r",
+        "tau": 50,
+        "n": 129,
+        "unigram_log2": -11.036455759944777,
+        "conditional_log2": -11.4894060553227,
+        "context_lift_bits": -0.45295029537792253,
+        "pair_seen_rate": 0.10852713178294573
+      },
+      {
+        "scope": "B",
+        "replacement": "r",
+        "tau": 200,
+        "n": 129,
+        "unigram_log2": -11.036455759944777,
+        "conditional_log2": -11.154376874907467,
+        "context_lift_bits": -0.11792111496268909,
+        "pair_seen_rate": 0.10852713178294573
+      },
+      {
+        "scope": "B",
+        "replacement": "l",
+        "tau": 10,
+        "n": 129,
+        "unigram_log2": -11.030547734324541,
+        "conditional_log2": -12.154078916268148,
+        "context_lift_bits": -1.1235311819436067,
+        "pair_seen_rate": 0.12403100775193798
+      },
+      {
+        "scope": "B",
+        "replacement": "l",
+        "tau": 50,
+        "n": 129,
+        "unigram_log2": -11.030547734324541,
+        "conditional_log2": -11.361872845827389,
+        "context_lift_bits": -0.3313251115028475,
+        "pair_seen_rate": 0.12403100775193798
+      },
+      {
+        "scope": "B",
+        "replacement": "l",
+        "tau": 200,
+        "n": 129,
+        "unigram_log2": -11.030547734324541,
+        "conditional_log2": -11.06862510849457,
+        "context_lift_bits": -0.03807737417002954,
+        "pair_seen_rate": 0.12403100775193798
+      },
+      {
+        "scope": "B",
+        "replacement": "n",
+        "tau": 10,
+        "n": 129,
+        "unigram_log2": -14.789433181512736,
+        "conditional_log2": -16.625314360758708,
+        "context_lift_bits": -1.8358811792459715,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "n",
+        "tau": 50,
+        "n": 129,
+        "unigram_log2": -14.789433181512736,
+        "conditional_log2": -15.561633107886824,
+        "context_lift_bits": -0.7721999263740873,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "n",
+        "tau": 200,
+        "n": 129,
+        "unigram_log2": -14.789433181512736,
+        "conditional_log2": -15.06853731782787,
+        "context_lift_bits": -0.27910413631513364,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "y",
+        "tau": 10,
+        "n": 129,
+        "unigram_log2": -14.388135240727793,
+        "conditional_log2": -16.22401641997376,
+        "context_lift_bits": -1.835881179245968,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "y",
+        "tau": 50,
+        "n": 129,
+        "unigram_log2": -14.388135240727793,
+        "conditional_log2": -15.16033516710188,
+        "context_lift_bits": -0.7721999263740873,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "y",
+        "tau": 200,
+        "n": 129,
+        "unigram_log2": -14.388135240727793,
+        "conditional_log2": -14.667239377042927,
+        "context_lift_bits": -0.27910413631513364,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "in",
+        "tau": 10,
+        "n": 129,
+        "unigram_log2": -12.617856360304987,
+        "conditional_log2": -13.991289085048496,
+        "context_lift_bits": -1.373432724743509,
+        "pair_seen_rate": 0.07751937984496124
+      },
+      {
+        "scope": "B",
+        "replacement": "in",
+        "tau": 50,
+        "n": 129,
+        "unigram_log2": -12.617856360304987,
+        "conditional_log2": -13.098964745596508,
+        "context_lift_bits": -0.48110838529152034,
+        "pair_seen_rate": 0.07751937984496124
+      },
+      {
+        "scope": "B",
+        "replacement": "in",
+        "tau": 200,
+        "n": 129,
+        "unigram_log2": -12.617856360304987,
+        "conditional_log2": -12.734462153262069,
+        "context_lift_bits": -0.11660579295708118,
+        "pair_seen_rate": 0.07751937984496124
+      },
+      {
+        "scope": "B",
+        "replacement": "iin",
+        "tau": 10,
+        "n": 129,
+        "unigram_log2": -11.520700823790387,
+        "conditional_log2": -12.750179995729276,
+        "context_lift_bits": -1.2294791719388893,
+        "pair_seen_rate": 0.12403100775193798
+      },
+      {
+        "scope": "B",
+        "replacement": "iin",
+        "tau": 50,
+        "n": 129,
+        "unigram_log2": -11.520700823790387,
+        "conditional_log2": -11.945371974688738,
+        "context_lift_bits": -0.4246711508983516,
+        "pair_seen_rate": 0.12403100775193798
+      },
+      {
+        "scope": "B",
+        "replacement": "iin",
+        "tau": 200,
+        "n": 129,
+        "unigram_log2": -11.520700823790387,
+        "conditional_log2": -11.627027790212367,
+        "context_lift_bits": -0.10632696642197992,
+        "pair_seen_rate": 0.12403100775193798
+      }
+    ],
+    "n": [
+      {
+        "scope": "ALL",
+        "replacement": "KEEP",
+        "tau": 10,
+        "n": 221,
+        "unigram_log2": -10.28400768616546,
+        "conditional_log2": -10.960204288843075,
+        "context_lift_bits": -0.6761966026776154,
+        "pair_seen_rate": 0.18552036199095023
+      },
+      {
+        "scope": "ALL",
+        "replacement": "KEEP",
+        "tau": 50,
+        "n": 221,
+        "unigram_log2": -10.28400768616546,
+        "conditional_log2": -10.429371305122277,
+        "context_lift_bits": -0.14536361895681793,
+        "pair_seen_rate": 0.18552036199095023
+      },
+      {
+        "scope": "ALL",
+        "replacement": "KEEP",
+        "tau": 200,
+        "n": 221,
+        "unigram_log2": -10.28400768616546,
+        "conditional_log2": -10.265510037704798,
+        "context_lift_bits": 0.018497648460661154,
+        "pair_seen_rate": 0.18552036199095023
+      },
+      {
+        "scope": "ALL",
+        "replacement": "r",
+        "tau": 10,
+        "n": 221,
+        "unigram_log2": -12.791453136686583,
+        "conditional_log2": -14.178191357221245,
+        "context_lift_bits": -1.386738220534662,
+        "pair_seen_rate": 0.027149321266968326
+      },
+      {
+        "scope": "ALL",
+        "replacement": "r",
+        "tau": 50,
+        "n": 221,
+        "unigram_log2": -12.791453136686583,
+        "conditional_log2": -13.33010553514274,
+        "context_lift_bits": -0.5386523984561578,
+        "pair_seen_rate": 0.027149321266968326
+      },
+      {
+        "scope": "ALL",
+        "replacement": "r",
+        "tau": 200,
+        "n": 221,
+        "unigram_log2": -12.791453136686583,
+        "conditional_log2": -12.962403106502789,
+        "context_lift_bits": -0.17094996981620625,
+        "pair_seen_rate": 0.027149321266968326
+      },
+      {
+        "scope": "ALL",
+        "replacement": "l",
+        "tau": 10,
+        "n": 221,
+        "unigram_log2": -14.569870219833804,
+        "conditional_log2": -16.06508289210969,
+        "context_lift_bits": -1.4952126722758852,
+        "pair_seen_rate": 0.00904977375565611
+      },
+      {
+        "scope": "ALL",
+        "replacement": "l",
+        "tau": 50,
+        "n": 221,
+        "unigram_log2": -14.569870219833804,
+        "conditional_log2": -15.176390552796583,
+        "context_lift_bits": -0.6065203329627789,
+        "pair_seen_rate": 0.00904977375565611
+      },
+      {
+        "scope": "ALL",
+        "replacement": "l",
+        "tau": 200,
+        "n": 221,
+        "unigram_log2": -14.569870219833804,
+        "conditional_log2": -14.77718433861223,
+        "context_lift_bits": -0.20731411877842554,
+        "pair_seen_rate": 0.00904977375565611
+      },
+      {
+        "scope": "ALL",
+        "replacement": "n",
+        "tau": 10,
+        "n": 221,
+        "unigram_log2": -10.28400768616546,
+        "conditional_log2": -10.960204288843075,
+        "context_lift_bits": -0.6761966026776154,
+        "pair_seen_rate": 0.18552036199095023
+      },
+      {
+        "scope": "ALL",
+        "replacement": "n",
+        "tau": 50,
+        "n": 221,
+        "unigram_log2": -10.28400768616546,
+        "conditional_log2": -10.429371305122277,
+        "context_lift_bits": -0.14536361895681793,
+        "pair_seen_rate": 0.18552036199095023
+      },
+      {
+        "scope": "ALL",
+        "replacement": "n",
+        "tau": 200,
+        "n": 221,
+        "unigram_log2": -10.28400768616546,
+        "conditional_log2": -10.265510037704798,
+        "context_lift_bits": 0.018497648460661154,
+        "pair_seen_rate": 0.18552036199095023
+      },
+      {
+        "scope": "ALL",
+        "replacement": "y",
+        "tau": 10,
+        "n": 221,
+        "unigram_log2": -15.018931130726049,
+        "conditional_log2": -16.584013348118116,
+        "context_lift_bits": -1.5650822173920673,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "ALL",
+        "replacement": "y",
+        "tau": 50,
+        "n": 221,
+        "unigram_log2": -15.018931130726049,
+        "conditional_log2": -15.674736306678952,
+        "context_lift_bits": -0.6558051759529029,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "ALL",
+        "replacement": "y",
+        "tau": 200,
+        "n": 221,
+        "unigram_log2": -15.018931130726049,
+        "conditional_log2": -15.25885632117839,
+        "context_lift_bits": -0.2399251904523414,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "ALL",
+        "replacement": "in",
+        "tau": 10,
+        "n": 221,
+        "unigram_log2": -12.19082878963389,
+        "conditional_log2": -13.219410641181746,
+        "context_lift_bits": -1.0285818515478553,
+        "pair_seen_rate": 0.09502262443438914
+      },
+      {
+        "scope": "ALL",
+        "replacement": "in",
+        "tau": 50,
+        "n": 221,
+        "unigram_log2": -12.19082878963389,
+        "conditional_log2": -12.515966396010958,
+        "context_lift_bits": -0.32513760637706746,
+        "pair_seen_rate": 0.09502262443438914
+      },
+      {
+        "scope": "ALL",
+        "replacement": "in",
+        "tau": 200,
+        "n": 221,
+        "unigram_log2": -12.19082878963389,
+        "conditional_log2": -12.248815033516356,
+        "context_lift_bits": -0.05798624388246587,
+        "pair_seen_rate": 0.09502262443438914
+      },
+      {
+        "scope": "ALL",
+        "replacement": "iin",
+        "tau": 10,
+        "n": 221,
+        "unigram_log2": -14.310308329346046,
+        "conditional_log2": -15.714026141727437,
+        "context_lift_bits": -1.403717812381391,
+        "pair_seen_rate": 0.02262443438914027
+      },
+      {
+        "scope": "ALL",
+        "replacement": "iin",
+        "tau": 50,
+        "n": 221,
+        "unigram_log2": -14.310308329346046,
+        "conditional_log2": -14.856004825239465,
+        "context_lift_bits": -0.5456964958934183,
+        "pair_seen_rate": 0.02262443438914027
+      },
+      {
+        "scope": "ALL",
+        "replacement": "iin",
+        "tau": 200,
+        "n": 221,
+        "unigram_log2": -14.310308329346046,
+        "conditional_log2": -14.481264862816705,
+        "context_lift_bits": -0.1709565334706582,
+        "pair_seen_rate": 0.02262443438914027
+      },
+      {
+        "scope": "A",
+        "replacement": "KEEP",
+        "tau": 10,
+        "n": 110,
+        "unigram_log2": -9.814285424534647,
+        "conditional_log2": -10.372422176999116,
+        "context_lift_bits": -0.5581367524644687,
+        "pair_seen_rate": 0.19090909090909092
+      },
+      {
+        "scope": "A",
+        "replacement": "KEEP",
+        "tau": 50,
+        "n": 110,
+        "unigram_log2": -9.814285424534647,
+        "conditional_log2": -9.92828711893205,
+        "context_lift_bits": -0.11400169439740182,
+        "pair_seen_rate": 0.19090909090909092
+      },
+      {
+        "scope": "A",
+        "replacement": "KEEP",
+        "tau": 200,
+        "n": 110,
+        "unigram_log2": -9.814285424534647,
+        "conditional_log2": -9.790577508185983,
+        "context_lift_bits": 0.023707916348664426,
+        "pair_seen_rate": 0.19090909090909092
+      },
+      {
+        "scope": "A",
+        "replacement": "r",
+        "tau": 10,
+        "n": 110,
+        "unigram_log2": -12.62045069134101,
+        "conditional_log2": -13.996153130869313,
+        "context_lift_bits": -1.375702439528304,
+        "pair_seen_rate": 0.00909090909090909
+      },
+      {
+        "scope": "A",
+        "replacement": "r",
+        "tau": 50,
+        "n": 110,
+        "unigram_log2": -12.62045069134101,
+        "conditional_log2": -13.194791261616345,
+        "context_lift_bits": -0.5743405702753357,
+        "pair_seen_rate": 0.00909090909090909
+      },
+      {
+        "scope": "A",
+        "replacement": "r",
+        "tau": 200,
+        "n": 110,
+        "unigram_log2": -12.62045069134101,
+        "conditional_log2": -12.829981760490599,
+        "context_lift_bits": -0.2095310691495893,
+        "pair_seen_rate": 0.00909090909090909
+      },
+      {
+        "scope": "A",
+        "replacement": "l",
+        "tau": 10,
+        "n": 110,
+        "unigram_log2": -14.523479616796097,
+        "conditional_log2": -15.872205732501882,
+        "context_lift_bits": -1.3487261157057855,
+        "pair_seen_rate": 0.00909090909090909
+      },
+      {
+        "scope": "A",
+        "replacement": "l",
+        "tau": 50,
+        "n": 110,
+        "unigram_log2": -14.523479616796097,
+        "conditional_log2": -15.071353136170629,
+        "context_lift_bits": -0.5478735193745319,
+        "pair_seen_rate": 0.00909090909090909
+      },
+      {
+        "scope": "A",
+        "replacement": "l",
+        "tau": 200,
+        "n": 110,
+        "unigram_log2": -14.523479616796097,
+        "conditional_log2": -14.708250248248074,
+        "context_lift_bits": -0.18477063145197725,
+        "pair_seen_rate": 0.00909090909090909
+      },
+      {
+        "scope": "A",
+        "replacement": "n",
+        "tau": 10,
+        "n": 110,
+        "unigram_log2": -9.814285424534647,
+        "conditional_log2": -10.372422176999116,
+        "context_lift_bits": -0.5581367524644687,
+        "pair_seen_rate": 0.19090909090909092
+      },
+      {
+        "scope": "A",
+        "replacement": "n",
+        "tau": 50,
+        "n": 110,
+        "unigram_log2": -9.814285424534647,
+        "conditional_log2": -9.92828711893205,
+        "context_lift_bits": -0.11400169439740182,
+        "pair_seen_rate": 0.19090909090909092
+      },
+      {
+        "scope": "A",
+        "replacement": "n",
+        "tau": 200,
+        "n": 110,
+        "unigram_log2": -9.814285424534647,
+        "conditional_log2": -9.790577508185983,
+        "context_lift_bits": 0.023707916348664426,
+        "pair_seen_rate": 0.19090909090909092
+      },
+      {
+        "scope": "A",
+        "replacement": "y",
+        "tau": 10,
+        "n": 110,
+        "unigram_log2": -15.033144286841114,
+        "conditional_log2": -16.467508701552443,
+        "context_lift_bits": -1.4343644147113288,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "y",
+        "tau": 50,
+        "n": 110,
+        "unigram_log2": -15.033144286841114,
+        "conditional_log2": -15.645624018248183,
+        "context_lift_bits": -0.6124797314070687,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "y",
+        "tau": 200,
+        "n": 110,
+        "unigram_log2": -15.033144286841114,
+        "conditional_log2": -15.264621731172367,
+        "context_lift_bits": -0.2314774443312526,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "in",
+        "tau": 10,
+        "n": 110,
+        "unigram_log2": -12.30385051910596,
+        "conditional_log2": -13.096905945106615,
+        "context_lift_bits": -0.7930554260006542,
+        "pair_seen_rate": 0.1
+      },
+      {
+        "scope": "A",
+        "replacement": "in",
+        "tau": 50,
+        "n": 110,
+        "unigram_log2": -12.30385051910596,
+        "conditional_log2": -12.497250050561789,
+        "context_lift_bits": -0.1933995314558281,
+        "pair_seen_rate": 0.1
+      },
+      {
+        "scope": "A",
+        "replacement": "in",
+        "tau": 200,
+        "n": 110,
+        "unigram_log2": -12.30385051910596,
+        "conditional_log2": -12.286681897329018,
+        "context_lift_bits": 0.017168621776942672,
+        "pair_seen_rate": 0.1
+      },
+      {
+        "scope": "A",
+        "replacement": "iin",
+        "tau": 10,
+        "n": 110,
+        "unigram_log2": -14.276312183462803,
+        "conditional_log2": -15.496873259122557,
+        "context_lift_bits": -1.220561075659754,
+        "pair_seen_rate": 0.02727272727272727
+      },
+      {
+        "scope": "A",
+        "replacement": "iin",
+        "tau": 50,
+        "n": 110,
+        "unigram_log2": -14.276312183462803,
+        "conditional_log2": -14.73763266846592,
+        "context_lift_bits": -0.4613204850031174,
+        "pair_seen_rate": 0.02727272727272727
+      },
+      {
+        "scope": "A",
+        "replacement": "iin",
+        "tau": 200,
+        "n": 110,
+        "unigram_log2": -14.276312183462803,
+        "conditional_log2": -14.408721421717207,
+        "context_lift_bits": -0.13240923825440376,
+        "pair_seen_rate": 0.02727272727272727
+      },
+      {
+        "scope": "B",
+        "replacement": "KEEP",
+        "tau": 10,
+        "n": 110,
+        "unigram_log2": -10.784881011828627,
+        "conditional_log2": -11.574360762369476,
+        "context_lift_bits": -0.7894797505408491,
+        "pair_seen_rate": 0.18181818181818182
+      },
+      {
+        "scope": "B",
+        "replacement": "KEEP",
+        "tau": 50,
+        "n": 110,
+        "unigram_log2": -10.784881011828627,
+        "conditional_log2": -10.95989691793788,
+        "context_lift_bits": -0.17501590610925177,
+        "pair_seen_rate": 0.18181818181818182
+      },
+      {
+        "scope": "B",
+        "replacement": "KEEP",
+        "tau": 200,
+        "n": 110,
+        "unigram_log2": -10.784881011828627,
+        "conditional_log2": -10.770599530538608,
+        "context_lift_bits": 0.014281481290019826,
+        "pair_seen_rate": 0.18181818181818182
+      },
+      {
+        "scope": "B",
+        "replacement": "r",
+        "tau": 10,
+        "n": 110,
+        "unigram_log2": -12.98174475269226,
+        "conditional_log2": -14.381201521136592,
+        "context_lift_bits": -1.3994567684443329,
+        "pair_seen_rate": 0.045454545454545456
+      },
+      {
+        "scope": "B",
+        "replacement": "r",
+        "tau": 50,
+        "n": 110,
+        "unigram_log2": -12.98174475269226,
+        "conditional_log2": -13.486574694463144,
+        "context_lift_bits": -0.5048299417708844,
+        "pair_seen_rate": 0.045454545454545456
+      },
+      {
+        "scope": "B",
+        "replacement": "r",
+        "tau": 200,
+        "n": 110,
+        "unigram_log2": -12.98174475269226,
+        "conditional_log2": -13.114841773532964,
+        "context_lift_bits": -0.13309702084070452,
+        "pair_seen_rate": 0.045454545454545456
+      },
+      {
+        "scope": "B",
+        "replacement": "l",
+        "tau": 10,
+        "n": 110,
+        "unigram_log2": -14.626196013177893,
+        "conditional_log2": -16.27056414030667,
+        "context_lift_bits": -1.6443681271287787,
+        "pair_seen_rate": 0.00909090909090909
+      },
+      {
+        "scope": "B",
+        "replacement": "l",
+        "tau": 50,
+        "n": 110,
+        "unigram_log2": -14.626196013177893,
+        "conditional_log2": -15.293845856085607,
+        "context_lift_bits": -0.6676498429077142,
+        "pair_seen_rate": 0.00909090909090909
+      },
+      {
+        "scope": "B",
+        "replacement": "l",
+        "tau": 200,
+        "n": 110,
+        "unigram_log2": -14.626196013177893,
+        "conditional_log2": -14.857112352813017,
+        "context_lift_bits": -0.23091633963512415,
+        "pair_seen_rate": 0.00909090909090909
+      },
+      {
+        "scope": "B",
+        "replacement": "n",
+        "tau": 10,
+        "n": 110,
+        "unigram_log2": -10.784881011828627,
+        "conditional_log2": -11.574360762369476,
+        "context_lift_bits": -0.7894797505408491,
+        "pair_seen_rate": 0.18181818181818182
+      },
+      {
+        "scope": "B",
+        "replacement": "n",
+        "tau": 50,
+        "n": 110,
+        "unigram_log2": -10.784881011828627,
+        "conditional_log2": -10.95989691793788,
+        "context_lift_bits": -0.17501590610925177,
+        "pair_seen_rate": 0.18181818181818182
+      },
+      {
+        "scope": "B",
+        "replacement": "n",
+        "tau": 200,
+        "n": 110,
+        "unigram_log2": -10.784881011828627,
+        "conditional_log2": -10.770599530538608,
+        "context_lift_bits": 0.014281481290019826,
+        "pair_seen_rate": 0.18181818181818182
+      },
+      {
+        "scope": "B",
+        "replacement": "y",
+        "tau": 10,
+        "n": 110,
+        "unigram_log2": -15.004326786827999,
+        "conditional_log2": -16.703430882866478,
+        "context_lift_bits": -1.6991040960384787,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "y",
+        "tau": 50,
+        "n": 110,
+        "unigram_log2": -15.004326786827999,
+        "conditional_log2": -15.706388147710623,
+        "context_lift_bits": -0.7020613608826238,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "y",
+        "tau": 200,
+        "n": 110,
+        "unigram_log2": -15.004326786827999,
+        "conditional_log2": -15.25405492121964,
+        "context_lift_bits": -0.2497281343916402,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "in",
+        "tau": 10,
+        "n": 110,
+        "unigram_log2": -12.097563979453984,
+        "conditional_log2": -13.360099056461577,
+        "context_lift_bits": -1.262535077007593,
+        "pair_seen_rate": 0.09090909090909091
+      },
+      {
+        "scope": "B",
+        "replacement": "in",
+        "tau": 50,
+        "n": 110,
+        "unigram_log2": -12.097563979453984,
+        "conditional_log2": -12.554364332321866,
+        "context_lift_bits": -0.4568003528678819,
+        "pair_seen_rate": 0.09090909090909091
+      },
+      {
+        "scope": "B",
+        "replacement": "in",
+        "tau": 200,
+        "n": 110,
+        "unigram_log2": -12.097563979453984,
+        "conditional_log2": -12.230406296390697,
+        "context_lift_bits": -0.13284231693671344,
+        "pair_seen_rate": 0.09090909090909091
+      },
+      {
+        "scope": "B",
+        "replacement": "iin",
+        "tau": 10,
+        "n": 110,
+        "unigram_log2": -14.337471261979225,
+        "conditional_log2": -15.92618293791147,
+        "context_lift_bits": -1.5887116759322453,
+        "pair_seen_rate": 0.01818181818181818
+      },
+      {
+        "scope": "B",
+        "replacement": "iin",
+        "tau": 50,
+        "n": 110,
+        "unigram_log2": -14.337471261979225,
+        "conditional_log2": -14.969473521146279,
+        "context_lift_bits": -0.632002259167054,
+        "pair_seen_rate": 0.01818181818181818
+      },
+      {
+        "scope": "B",
+        "replacement": "iin",
+        "tau": 200,
+        "n": 110,
+        "unigram_log2": -14.337471261979225,
+        "conditional_log2": -14.547703300693593,
+        "context_lift_bits": -0.21023203871436813,
+        "pair_seen_rate": 0.01818181818181818
+      }
+    ],
+    "y": [
+      {
+        "scope": "ALL",
+        "replacement": "KEEP",
+        "tau": 10,
+        "n": 587,
+        "unigram_log2": -11.737416338793658,
+        "conditional_log2": -12.76781913009396,
+        "context_lift_bits": -1.0304027913003022,
+        "pair_seen_rate": 0.0817717206132879
+      },
+      {
+        "scope": "ALL",
+        "replacement": "KEEP",
+        "tau": 50,
+        "n": 587,
+        "unigram_log2": -11.737416338793658,
+        "conditional_log2": -12.066770453135739,
+        "context_lift_bits": -0.32935411434208106,
+        "pair_seen_rate": 0.0817717206132879
+      },
+      {
+        "scope": "ALL",
+        "replacement": "KEEP",
+        "tau": 200,
+        "n": 587,
+        "unigram_log2": -11.737416338793658,
+        "conditional_log2": -11.806433850920094,
+        "context_lift_bits": -0.06901751212643603,
+        "pair_seen_rate": 0.0817717206132879
+      },
+      {
+        "scope": "ALL",
+        "replacement": "r",
+        "tau": 10,
+        "n": 587,
+        "unigram_log2": -14.843443703099332,
+        "conditional_log2": -16.324542939653767,
+        "context_lift_bits": -1.481099236554435,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "ALL",
+        "replacement": "r",
+        "tau": 50,
+        "n": 587,
+        "unigram_log2": -14.843443703099332,
+        "conditional_log2": -15.44756890178405,
+        "context_lift_bits": -0.6041251986847183,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "ALL",
+        "replacement": "r",
+        "tau": 200,
+        "n": 587,
+        "unigram_log2": -14.843443703099332,
+        "conditional_log2": -15.06124684978173,
+        "context_lift_bits": -0.21780314668239775,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "ALL",
+        "replacement": "l",
+        "tau": 10,
+        "n": 587,
+        "unigram_log2": -14.716156807085047,
+        "conditional_log2": -16.178064964225374,
+        "context_lift_bits": -1.4619081571403267,
+        "pair_seen_rate": 0.0034071550255536627
+      },
+      {
+        "scope": "ALL",
+        "replacement": "l",
+        "tau": 50,
+        "n": 587,
+        "unigram_log2": -14.716156807085047,
+        "conditional_log2": -15.308551583977087,
+        "context_lift_bits": -0.5923947768920392,
+        "pair_seen_rate": 0.0034071550255536627
+      },
+      {
+        "scope": "ALL",
+        "replacement": "l",
+        "tau": 200,
+        "n": 587,
+        "unigram_log2": -14.716156807085047,
+        "conditional_log2": -14.927704573702831,
+        "context_lift_bits": -0.21154776661778385,
+        "pair_seen_rate": 0.0034071550255536627
+      },
+      {
+        "scope": "ALL",
+        "replacement": "n",
+        "tau": 10,
+        "n": 587,
+        "unigram_log2": -15.045421610001497,
+        "conditional_log2": -16.52652084655593,
+        "context_lift_bits": -1.4810992365544315,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "ALL",
+        "replacement": "n",
+        "tau": 50,
+        "n": 587,
+        "unigram_log2": -15.045421610001497,
+        "conditional_log2": -15.64954680868622,
+        "context_lift_bits": -0.6041251986847218,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "ALL",
+        "replacement": "n",
+        "tau": 200,
+        "n": 587,
+        "unigram_log2": -15.045421610001497,
+        "conditional_log2": -15.263224756683893,
+        "context_lift_bits": -0.21780314668239598,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "ALL",
+        "replacement": "y",
+        "tau": 10,
+        "n": 587,
+        "unigram_log2": -11.737416338793658,
+        "conditional_log2": -12.76781913009396,
+        "context_lift_bits": -1.0304027913003022,
+        "pair_seen_rate": 0.0817717206132879
+      },
+      {
+        "scope": "ALL",
+        "replacement": "y",
+        "tau": 50,
+        "n": 587,
+        "unigram_log2": -11.737416338793658,
+        "conditional_log2": -12.066770453135739,
+        "context_lift_bits": -0.32935411434208106,
+        "pair_seen_rate": 0.0817717206132879
+      },
+      {
+        "scope": "ALL",
+        "replacement": "y",
+        "tau": 200,
+        "n": 587,
+        "unigram_log2": -11.737416338793658,
+        "conditional_log2": -11.806433850920094,
+        "context_lift_bits": -0.06901751212643603,
+        "pair_seen_rate": 0.0817717206132879
+      },
+      {
+        "scope": "ALL",
+        "replacement": "in",
+        "tau": 10,
+        "n": 587,
+        "unigram_log2": -15.040873940499882,
+        "conditional_log2": -16.52197317705431,
+        "context_lift_bits": -1.481099236554428,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "ALL",
+        "replacement": "in",
+        "tau": 50,
+        "n": 587,
+        "unigram_log2": -15.040873940499882,
+        "conditional_log2": -15.644999139184602,
+        "context_lift_bits": -0.60412519868472,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "ALL",
+        "replacement": "in",
+        "tau": 200,
+        "n": 587,
+        "unigram_log2": -15.040873940499882,
+        "conditional_log2": -15.258677087182278,
+        "context_lift_bits": -0.21780314668239598,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "ALL",
+        "replacement": "iin",
+        "tau": 10,
+        "n": 587,
+        "unigram_log2": -15.010724028822727,
+        "conditional_log2": -16.49182326537716,
+        "context_lift_bits": -1.4810992365544333,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "ALL",
+        "replacement": "iin",
+        "tau": 50,
+        "n": 587,
+        "unigram_log2": -15.010724028822727,
+        "conditional_log2": -15.61484922750745,
+        "context_lift_bits": -0.6041251986847236,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "ALL",
+        "replacement": "iin",
+        "tau": 200,
+        "n": 587,
+        "unigram_log2": -15.010724028822727,
+        "conditional_log2": -15.228527175505125,
+        "context_lift_bits": -0.21780314668239775,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "KEEP",
+        "tau": 10,
+        "n": 188,
+        "unigram_log2": -12.211435813084755,
+        "conditional_log2": -13.171435623840566,
+        "context_lift_bits": -0.9599998107558108,
+        "pair_seen_rate": 0.06382978723404255
+      },
+      {
+        "scope": "A",
+        "replacement": "KEEP",
+        "tau": 50,
+        "n": 188,
+        "unigram_log2": -12.211435813084755,
+        "conditional_log2": -12.523822100348553,
+        "context_lift_bits": -0.3123862872637986,
+        "pair_seen_rate": 0.06382978723404255
+      },
+      {
+        "scope": "A",
+        "replacement": "KEEP",
+        "tau": 200,
+        "n": 188,
+        "unigram_log2": -12.211435813084755,
+        "conditional_log2": -12.281107221927702,
+        "context_lift_bits": -0.06967140884294665,
+        "pair_seen_rate": 0.06382978723404255
+      },
+      {
+        "scope": "A",
+        "replacement": "r",
+        "tau": 10,
+        "n": 188,
+        "unigram_log2": -14.793059389390264,
+        "conditional_log2": -16.136134293810485,
+        "context_lift_bits": -1.343074904420222,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "r",
+        "tau": 50,
+        "n": 188,
+        "unigram_log2": -14.793059389390264,
+        "conditional_log2": -15.34797520164776,
+        "context_lift_bits": -0.5549158122574962,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "r",
+        "tau": 200,
+        "n": 188,
+        "unigram_log2": -14.793059389390264,
+        "conditional_log2": -15.000416975447246,
+        "context_lift_bits": -0.2073575860569825,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "l",
+        "tau": 10,
+        "n": 188,
+        "unigram_log2": -14.678232508000317,
+        "conditional_log2": -16.021307412420537,
+        "context_lift_bits": -1.3430749044202202,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "l",
+        "tau": 50,
+        "n": 188,
+        "unigram_log2": -14.678232508000317,
+        "conditional_log2": -15.233148320257808,
+        "context_lift_bits": -0.5549158122574909,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "l",
+        "tau": 200,
+        "n": 188,
+        "unigram_log2": -14.678232508000317,
+        "conditional_log2": -14.885590094057298,
+        "context_lift_bits": -0.20735758605698074,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "n",
+        "tau": 10,
+        "n": 188,
+        "unigram_log2": -15.010317724021512,
+        "conditional_log2": -16.353392628441732,
+        "context_lift_bits": -1.3430749044202202,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "n",
+        "tau": 50,
+        "n": 188,
+        "unigram_log2": -15.010317724021512,
+        "conditional_log2": -15.565233536279006,
+        "context_lift_bits": -0.5549158122574944,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "n",
+        "tau": 200,
+        "n": 188,
+        "unigram_log2": -15.010317724021512,
+        "conditional_log2": -15.217675310078494,
+        "context_lift_bits": -0.2073575860569825,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "y",
+        "tau": 10,
+        "n": 188,
+        "unigram_log2": -12.211435813084755,
+        "conditional_log2": -13.171435623840566,
+        "context_lift_bits": -0.9599998107558108,
+        "pair_seen_rate": 0.06382978723404255
+      },
+      {
+        "scope": "A",
+        "replacement": "y",
+        "tau": 50,
+        "n": 188,
+        "unigram_log2": -12.211435813084755,
+        "conditional_log2": -12.523822100348553,
+        "context_lift_bits": -0.3123862872637986,
+        "pair_seen_rate": 0.06382978723404255
+      },
+      {
+        "scope": "A",
+        "replacement": "y",
+        "tau": 200,
+        "n": 188,
+        "unigram_log2": -12.211435813084755,
+        "conditional_log2": -12.281107221927702,
+        "context_lift_bits": -0.06967140884294665,
+        "pair_seen_rate": 0.06382978723404255
+      },
+      {
+        "scope": "A",
+        "replacement": "in",
+        "tau": 10,
+        "n": 188,
+        "unigram_log2": -15.04118045389886,
+        "conditional_log2": -16.38425535831908,
+        "context_lift_bits": -1.3430749044202202,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "in",
+        "tau": 50,
+        "n": 188,
+        "unigram_log2": -15.04118045389886,
+        "conditional_log2": -15.596096266156357,
+        "context_lift_bits": -0.5549158122574962,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "in",
+        "tau": 200,
+        "n": 188,
+        "unigram_log2": -15.04118045389886,
+        "conditional_log2": -15.248538039955843,
+        "context_lift_bits": -0.2073575860569825,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "iin",
+        "tau": 10,
+        "n": 188,
+        "unigram_log2": -14.979344005910844,
+        "conditional_log2": -16.322418910331066,
+        "context_lift_bits": -1.343074904420222,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "iin",
+        "tau": 50,
+        "n": 188,
+        "unigram_log2": -14.979344005910844,
+        "conditional_log2": -15.53425981816834,
+        "context_lift_bits": -0.5549158122574962,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "A",
+        "replacement": "iin",
+        "tau": 200,
+        "n": 188,
+        "unigram_log2": -14.979344005910844,
+        "conditional_log2": -15.186701591967829,
+        "context_lift_bits": -0.2073575860569843,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "KEEP",
+        "tau": 10,
+        "n": 388,
+        "unigram_log2": -11.488291016544318,
+        "conditional_log2": -12.55740875331231,
+        "context_lift_bits": -1.0691177367679927,
+        "pair_seen_rate": 0.09278350515463918
+      },
+      {
+        "scope": "B",
+        "replacement": "KEEP",
+        "tau": 50,
+        "n": 388,
+        "unigram_log2": -11.488291016544318,
+        "conditional_log2": -11.825912141749626,
+        "context_lift_bits": -0.33762112520530785,
+        "pair_seen_rate": 0.09278350515463918
+      },
+      {
+        "scope": "B",
+        "replacement": "KEEP",
+        "tau": 200,
+        "n": 388,
+        "unigram_log2": -11.488291016544318,
+        "conditional_log2": -11.555674038075155,
+        "context_lift_bits": -0.06738302153083708,
+        "pair_seen_rate": 0.09278350515463918
+      },
+      {
+        "scope": "B",
+        "replacement": "r",
+        "tau": 10,
+        "n": 388,
+        "unigram_log2": -14.881151936295787,
+        "conditional_log2": -16.446508579649528,
+        "context_lift_bits": -1.5653566433537414,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "r",
+        "tau": 50,
+        "n": 388,
+        "unigram_log2": -14.881151936295787,
+        "conditional_log2": -15.516956246579237,
+        "context_lift_bits": -0.6358043102834507,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "r",
+        "tau": 200,
+        "n": 388,
+        "unigram_log2": -14.881151936295787,
+        "conditional_log2": -15.106916829393914,
+        "context_lift_bits": -0.22576489309812686,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "l",
+        "tau": 10,
+        "n": 388,
+        "unigram_log2": -14.742967964424023,
+        "conditional_log2": -16.291453211137707,
+        "context_lift_bits": -1.5484852467136836,
+        "pair_seen_rate": 0.002577319587628866
+      },
+      {
+        "scope": "B",
+        "replacement": "l",
+        "tau": 50,
+        "n": 388,
+        "unigram_log2": -14.742967964424023,
+        "conditional_log2": -15.367729382492755,
+        "context_lift_bits": -0.6247614180687311,
+        "pair_seen_rate": 0.002577319587628866
+      },
+      {
+        "scope": "B",
+        "replacement": "l",
+        "tau": 200,
+        "n": 388,
+        "unigram_log2": -14.742967964424023,
+        "conditional_log2": -14.9623122533507,
+        "context_lift_bits": -0.2193442889266759,
+        "pair_seen_rate": 0.002577319587628866
+      },
+      {
+        "scope": "B",
+        "replacement": "n",
+        "tau": 10,
+        "n": 388,
+        "unigram_log2": -15.061961786854225,
+        "conditional_log2": -16.627318430207968,
+        "context_lift_bits": -1.5653566433537431,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "n",
+        "tau": 50,
+        "n": 388,
+        "unigram_log2": -15.061961786854225,
+        "conditional_log2": -15.697766097137675,
+        "context_lift_bits": -0.6358043102834507,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "n",
+        "tau": 200,
+        "n": 388,
+        "unigram_log2": -15.061961786854225,
+        "conditional_log2": -15.287726679952355,
+        "context_lift_bits": -0.22576489309813041,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "y",
+        "tau": 10,
+        "n": 388,
+        "unigram_log2": -11.488291016544318,
+        "conditional_log2": -12.55740875331231,
+        "context_lift_bits": -1.0691177367679927,
+        "pair_seen_rate": 0.09278350515463918
+      },
+      {
+        "scope": "B",
+        "replacement": "y",
+        "tau": 50,
+        "n": 388,
+        "unigram_log2": -11.488291016544318,
+        "conditional_log2": -11.825912141749626,
+        "context_lift_bits": -0.33762112520530785,
+        "pair_seen_rate": 0.09278350515463918
+      },
+      {
+        "scope": "B",
+        "replacement": "y",
+        "tau": 200,
+        "n": 388,
+        "unigram_log2": -11.488291016544318,
+        "conditional_log2": -11.555674038075155,
+        "context_lift_bits": -0.06738302153083708,
+        "pair_seen_rate": 0.09278350515463918
+      },
+      {
+        "scope": "B",
+        "replacement": "in",
+        "tau": 10,
+        "n": 388,
+        "unigram_log2": -15.055977436094206,
+        "conditional_log2": -16.62133407944795,
+        "context_lift_bits": -1.565356643353745,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "in",
+        "tau": 50,
+        "n": 388,
+        "unigram_log2": -15.055977436094206,
+        "conditional_log2": -15.691781746377655,
+        "context_lift_bits": -0.635804310283449,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "in",
+        "tau": 200,
+        "n": 388,
+        "unigram_log2": -15.055977436094206,
+        "conditional_log2": -15.281742329192337,
+        "context_lift_bits": -0.22576489309813041,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "iin",
+        "tau": 10,
+        "n": 388,
+        "unigram_log2": -15.045621967259162,
+        "conditional_log2": -16.610978610612904,
+        "context_lift_bits": -1.5653566433537414,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "iin",
+        "tau": 50,
+        "n": 388,
+        "unigram_log2": -15.045621967259162,
+        "conditional_log2": -15.681426277542611,
+        "context_lift_bits": -0.635804310283449,
+        "pair_seen_rate": 0.0
+      },
+      {
+        "scope": "B",
+        "replacement": "iin",
+        "tau": 200,
+        "n": 388,
+        "unigram_log2": -15.045621967259162,
+        "conditional_log2": -15.271386860357293,
+        "context_lift_bits": -0.22576489309813041,
+        "pair_seen_rate": 0.0
+      }
+    ]
+  },
+  "examples": [
+    {
+      "word": "dam",
+      "count": 18,
+      "candidates": {
+        "r": {
+          "form": "dar",
+          "train_nonfinal_count": 118
+        },
+        "l": {
+          "form": "dal",
+          "train_nonfinal_count": 73
+        },
+        "iin": {
+          "form": "daiin",
+          "train_nonfinal_count": 418
+        }
+      }
+    },
+    {
+      "word": "am",
+      "count": 14,
+      "candidates": {
+        "r": {
+          "form": "ar",
+          "train_nonfinal_count": 94
+        },
+        "l": {
+          "form": "al",
+          "train_nonfinal_count": 67
+        },
+        "iin": {
+          "form": "aiin",
+          "train_nonfinal_count": 147
+        }
+      }
+    },
+    {
+      "word": "qokam",
+      "count": 10,
+      "candidates": {
+        "r": {
+          "form": "qokar",
+          "train_nonfinal_count": 52
+        },
+        "l": {
+          "form": "qokal",
+          "train_nonfinal_count": 80
+        },
+        "iin": {
+          "form": "qokaiin",
+          "train_nonfinal_count": 138
+        }
+      }
+    },
+    {
+      "word": "otam",
+      "count": 9,
+      "candidates": {
+        "r": {
+          "form": "otar",
+          "train_nonfinal_count": 50
+        },
+        "l": {
+          "form": "otal",
+          "train_nonfinal_count": 48
+        },
+        "iin": {
+          "form": "otaiin",
+          "train_nonfinal_count": 73
+        }
+      }
+    },
+    {
+      "word": "okam",
+      "count": 6,
+      "candidates": {
+        "r": {
+          "form": "okar",
+          "train_nonfinal_count": 45
+        },
+        "l": {
+          "form": "okal",
+          "train_nonfinal_count": 53
+        },
+        "iin": {
+          "form": "okaiin",
+          "train_nonfinal_count": 107
+        }
+      }
+    },
+    {
+      "word": "olkam",
+      "count": 6,
+      "candidates": {
+        "r": {
+          "form": "olkar",
+          "train_nonfinal_count": 3
+        },
+        "l": {
+          "form": "olkal",
+          "train_nonfinal_count": 4
+        },
+        "iin": {
+          "form": "olkaiin",
+          "train_nonfinal_count": 19
+        }
+      }
+    },
+    {
+      "word": "ram",
+      "count": 6,
+      "candidates": {
+        "r": {
+          "form": "rar",
+          "train_nonfinal_count": 8
+        },
+        "l": {
+          "form": "ral",
+          "train_nonfinal_count": 5
+        },
+        "iin": {
+          "form": "raiin",
+          "train_nonfinal_count": 39
+        }
+      }
+    },
+    {
+      "word": "oram",
+      "count": 5,
+      "candidates": {
+        "r": {
+          "form": "orar",
+          "train_nonfinal_count": 1
+        },
+        "l": {
+          "form": "oral",
+          "train_nonfinal_count": 2
+        },
+        "iin": {
+          "form": "oraiin",
+          "train_nonfinal_count": 23
+        }
+      }
+    },
+    {
+      "word": "alam",
+      "count": 5,
+      "candidates": {
+        "r": {
+          "form": "alar",
+          "train_nonfinal_count": 0
+        },
+        "l": {
+          "form": "alal",
+          "train_nonfinal_count": 0
+        },
+        "iin": {
+          "form": "alaiin",
+          "train_nonfinal_count": 2
+        }
+      }
+    },
+    {
+      "word": "cham",
+      "count": 4,
+      "candidates": {
+        "r": {
+          "form": "char",
+          "train_nonfinal_count": 32
+        },
+        "l": {
+          "form": "chal",
+          "train_nonfinal_count": 13
+        },
+        "iin": {
+          "form": "chaiin",
+          "train_nonfinal_count": 17
+        }
+      }
+    },
+    {
+      "word": "orom",
+      "count": 3,
+      "candidates": {
+        "r": {
+          "form": "oror",
+          "train_nonfinal_count": 0
+        },
+        "l": {
+          "form": "orol",
+          "train_nonfinal_count": 1
+        },
+        "iin": {
+          "form": "oroiin",
+          "train_nonfinal_count": 0
+        }
+      }
+    },
+    {
+      "word": "dom",
+      "count": 3,
+      "candidates": {
+        "r": {
+          "form": "dor",
+          "train_nonfinal_count": 27
+        },
+        "l": {
+          "form": "dol",
+          "train_nonfinal_count": 50
+        },
+        "iin": {
+          "form": "doiin",
+          "train_nonfinal_count": 7
+        }
+      }
+    },
+    {
+      "word": "cheam",
+      "count": 3,
+      "candidates": {
+        "r": {
+          "form": "chear",
+          "train_nonfinal_count": 16
+        },
+        "l": {
+          "form": "cheal",
+          "train_nonfinal_count": 7
+        },
+        "iin": {
+          "form": "cheaiin",
+          "train_nonfinal_count": 0
+        }
+      }
+    },
+    {
+      "word": "om",
+      "count": 3,
+      "candidates": {
+        "r": {
+          "form": "or",
+          "train_nonfinal_count": 120
+        },
+        "l": {
+          "form": "ol",
+          "train_nonfinal_count": 160
+        },
+        "iin": {
+          "form": "oiin",
+          "train_nonfinal_count": 16
+        }
+      }
+    },
+    {
+      "word": "dalam",
+      "count": 3,
+      "candidates": {
+        "r": {
+          "form": "dalar",
+          "train_nonfinal_count": 0
+        },
+        "l": {
+          "form": "dalal",
+          "train_nonfinal_count": 1
+        },
+        "iin": {
+          "form": "dalaiin",
+          "train_nonfinal_count": 2
+        }
+      }
+    },
+    {
+      "word": "oldam",
+      "count": 3,
+      "candidates": {
+        "r": {
+          "form": "oldar",
+          "train_nonfinal_count": 5
+        },
+        "l": {
+          "form": "oldal",
+          "train_nonfinal_count": 2
+        },
+        "iin": {
+          "form": "oldaiin",
+          "train_nonfinal_count": 9
+        }
+      }
+    },
+    {
+      "word": "daram",
+      "count": 3,
+      "candidates": {
+        "r": {
+          "form": "darar",
+          "train_nonfinal_count": 0
+        },
+        "l": {
+          "form": "daral",
+          "train_nonfinal_count": 1
+        },
+        "iin": {
+          "form": "daraiin",
+          "train_nonfinal_count": 1
+        }
+      }
+    },
+    {
+      "word": "sam",
+      "count": 3,
+      "candidates": {
+        "r": {
+          "form": "sar",
+          "train_nonfinal_count": 32
+        },
+        "l": {
+          "form": "sal",
+          "train_nonfinal_count": 15
+        },
+        "iin": {
+          "form": "saiin",
+          "train_nonfinal_count": 77
+        }
+      }
+    },
+    {
+      "word": "qotam",
+      "count": 3,
+      "candidates": {
+        "r": {
+          "form": "qotar",
+          "train_nonfinal_count": 25
+        },
+        "l": {
+          "form": "qotal",
+          "train_nonfinal_count": 23
+        },
+        "iin": {
+          "form": "qotaiin",
+          "train_nonfinal_count": 37
+        }
+      }
+    },
+    {
+      "word": "lcheam",
+      "count": 3,
+      "candidates": {
+        "r": {
+          "form": "lchear",
+          "train_nonfinal_count": 1
+        },
+        "l": {
+          "form": "lcheal",
+          "train_nonfinal_count": 0
+        },
+        "iin": {
+          "form": "lcheaiin",
+          "train_nonfinal_count": 0
+        }
+      }
+    }
+  ],
+  "caveat": "Exploratory after viewing experiment 001; not a semantic decipherment."
+}

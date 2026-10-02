@@ -1,0 +1,238 @@
+{
+  "status": "SOURCE_SELECTION_AND_UNIT_COUNTS_AUDITED_NOT_A_DECIPHERMENT",
+  "created_utc": "2026-10-02T05:31:24.465970+00:00",
+  "source_freeze": "data/language-screen/source-freeze.json",
+  "source_review": "notes/experiment-012-source-review.md",
+  "independent_audit": "results/audit-009.json",
+  "sources": [
+    {
+      "name": "macer",
+      "language": "la",
+      "role": "primary_work",
+      "raw_file": "data/raw/language-screen/macer.html",
+      "raw_sha256": "448d3a39d2fb958b1377cad08e1c1f56e576e245221656a96cfe78217d0aed22",
+      "extracted_file": "data/language-screen/macer.json",
+      "extracted_sha256": "c8bf2113d1a352d73ca52257a6af8bae7742a01db98a679dfd8adbef4ce5c064",
+      "author": "Macer Floridus (medieval work)",
+      "edition": "Source index lists Choulant1832 and Louis Baudet/Panckoucke1845; Thierry Vebr digital transcription.",
+      "url": "https://www.remacle.org/bloodwolf/erudits/floridus/plantes.htm",
+      "source_index": "https://remacle.org/bloodwolf/erudits/floridus/table.htm",
+      "quality": "Edited website transcription, visible internal f1uxum and sciasique~medetur retained as opaque units; no claim all spellings verified. French excluded by column, not lang attribute."
+    },
+    {
+      "name": "aquinas",
+      "language": "la",
+      "role": "primary_work",
+      "raw_file": "data/raw/language-screen/aquinas-q1.html",
+      "raw_sha256": "5a12bc7d183bd6b68d389f5e46eaad8c366686cb74e97e2500a31a53d9a823b2",
+      "extracted_file": "data/language-screen/aquinas.json",
+      "extracted_sha256": "829f4d5909c170db7c4531b7cb6d43faf6521a2bcc88aa7bb789c7c14ffcdb67",
+      "author": "Thomas Aquinas",
+      "edition": "Summa theologiae Ia q1, Leonine Rome1888; Roberto Busa electronic edition reviewed by Enrique Alarcon.",
+      "url": "https://www.corpusthomisticum.org/sth1001.html",
+      "quality": "Critical/normalized reading; not diplomatic medieval spellings."
+    },
+    {
+      "name": "tepl",
+      "language": "de",
+      "role": "primary_work",
+      "raw_file": "data/raw/language-screen/tepl-47465.html",
+      "raw_sha256": "429b4f8b7c319556ae7d4cf9737439e873129e86d5ee5ac5b46cc8ed46f16b0f",
+      "extracted_file": "data/language-screen/tepl.json",
+      "extracted_sha256": "84c1325ee842114e65f5317f113dc0f2f98e4d6b78effcf113e8013b5e3daa6b",
+      "author": "Johannes von Tepl",
+      "edition": "Johann Knieschek, Prague1877, Der Ackermann aus Boehmen.",
+      "url": "https://www.gutenberg.org/cache/epub/47465/pg47465-images.html",
+      "catalog": "https://www.gutenberg.org/ebooks/47465",
+      "quality": "34 chapters, main reading only;87 apparatus p,90 empty/navigation p and numbered footnote callouts excluded. Editorial bracketed main-text additions retained."
+    },
+    {
+      "name": "boccaccio",
+      "language": "it",
+      "role": "primary_work",
+      "raw_file": "data/raw/language-screen/boccaccio-21424.html",
+      "raw_sha256": "057489f9ae0890a55f7c8405cb76f4c3ef8b475e08196afd6a9db14c2e38c8bf",
+      "extracted_file": "data/language-screen/boccaccio.json",
+      "extracted_sha256": "6dc1234d2b37114a9d53e5f0c12a34ac8c6f8ab280f6e15943cf3b47a3fc0666",
+      "author": "Giovanni Boccaccio",
+      "edition": "Domenico Guerri, Opere volgari I, Bari Laterza1918; first full Vita di Dante only.",
+      "url": "https://www.gutenberg.org/cache/epub/21424/pg21424-images.html",
+      "catalog": "https://www.gutenberg.org/ebooks/21424",
+      "quality": "95 prose paragraphs; two stand-alone Latin poem blocks excluded; brief authorial inline Latin retained. Modern AI catalogue summaries not used."
+    },
+    {
+      "name": "dante",
+      "language": "it",
+      "role": "primary_work",
+      "raw_file": "data/raw/language-screen/dante-1012.txt",
+      "raw_sha256": "568035b4af7bda4f69f8ed5dea160f59bcf5b9371c7f2a62a97f94b826c0c1c6",
+      "extracted_file": "data/language-screen/dante.json",
+      "extracted_sha256": "2624e800c087ccd7b1efc1cfd680f6ae772fdf186cb73ba8f11516ea1519458b",
+      "author": "Dante Alighieri",
+      "edition": "Project Gutenberg1012 Italian Commedia; underlying source edition unspecified.",
+      "url": "https://www.gutenberg.org/cache/epub/1012/pg1012.txt",
+      "catalog": "https://www.gutenberg.org/ebooks/1012",
+      "quality": "14233 verses; authorial Latin/other-language passages remain. No claim of original medieval orthography."
+    },
+    {
+      "name": "brant-reading",
+      "language": "de",
+      "role": "primary_work",
+      "raw_file": "data/raw/language-screen/brant-1494.xml",
+      "raw_sha256": "a6e4543932362b19b45428ac23fa7bfe55b3ca88d55229fe4fd994057df86c0c",
+      "extracted_file": "data/language-screen/brant-reading.json",
+      "extracted_sha256": "9b4d0863fb742ac9d6bacf2612db87cf95429629c87a544dce20cd68ca64455a",
+      "author": "Sebastian Brant",
+      "edition": "Basel1494, Berlin SB Inc604an607; Narragonien digital, Joachim Hamm/Wuerzburg2021.",
+      "url": "https://www.narragonien-digital.de/exist/data/GW/GW5041.xml",
+      "license": "CC BY-NC-SA 4.0 as stated in TEI header",
+      "quality": "B chapters mainText/reg,corr,lem. Editorial reading still contains MUFI private glyphs."
+    },
+    {
+      "name": "brant-diplomatic",
+      "language": "de",
+      "role": "supplementary_glyph_reference",
+      "raw_file": "data/raw/language-screen/brant-1494.xml",
+      "raw_sha256": "a6e4543932362b19b45428ac23fa7bfe55b3ca88d55229fe4fd994057df86c0c",
+      "extracted_file": "data/language-screen/brant-diplomatic.json",
+      "extracted_sha256": "cfd3c6abc49aeb23e612f7effc04697147107455847dd2e489e50b1417ff3323",
+      "author": "Sebastian Brant",
+      "edition": "Same1494 work/source as reading condition.",
+      "url": "https://www.narragonien-digital.de/exist/data/GW/GW5041.xml",
+      "license": "CC BY-NC-SA 4.0 as stated in TEI header",
+      "quality": "Same edition/work; paired glyph comparison, NOT an independent sample."
+    },
+    {
+      "name": "locher-diplomatic",
+      "language": "la",
+      "role": "supplementary_glyph_reference",
+      "raw_file": "data/raw/language-screen/locher-1497.xml",
+      "raw_sha256": "82fa4bb95aea4664976f09bb6d321c9dcee626b373133c07b2ef325ad0700049",
+      "extracted_file": "data/language-screen/locher-diplomatic.json",
+      "extracted_sha256": "c5240a96cc3b7201fc7e733d01fe8658401f110325159c8b3949dd0d41789a38",
+      "author": "Jakob Locher, adapting/translating Sebastian Brant",
+      "edition": "Basel1497, Basel UB DAIII1, Narragonien digital2021.",
+      "url": "https://www.narragonien-digital.de/exist/resources/xml/GW5061lt.xml",
+      "license": "CC BY-NC-SA 4.0 as stated in TEI header",
+      "quality": "All reg branches empty. Only orig B-chapter mainText. Glyph reference, not expanded alphabetic Latin or an independent Brant content sample."
+    }
+  ],
+  "download_history": [
+    {
+      "path": "macer.html",
+      "url": "https://remacle.org/bloodwolf/erudits/floridus/plantes.htm",
+      "error": "HTTP Error 403: Forbidden",
+      "download_log": "data/language-screen/downloads-initial.json"
+    },
+    {
+      "path": "data/raw/language-screen/aquinas-q1.html",
+      "url": "https://www.corpusthomisticum.org/sth1001.html",
+      "bytes": 49241,
+      "sha256": "5a12bc7d183bd6b68d389f5e46eaad8c366686cb74e97e2500a31a53d9a823b2",
+      "status": "DOWNLOADED_NOT_YET_VALIDATED",
+      "download_log": "data/language-screen/downloads-initial.json",
+      "archive_hash_verified": true
+    },
+    {
+      "path": "data/raw/language-screen/dante-1012.txt",
+      "url": "https://www.gutenberg.org/cache/epub/1012/pg1012.txt",
+      "bytes": 626095,
+      "sha256": "568035b4af7bda4f69f8ed5dea160f59bcf5b9371c7f2a62a97f94b826c0c1c6",
+      "status": "DOWNLOADED_NOT_YET_VALIDATED",
+      "download_log": "data/language-screen/downloads-initial.json",
+      "archive_hash_verified": true
+    },
+    {
+      "path": "data/raw/language-screen/narragonien-corpus.html",
+      "url": "https://www.narragonien-digital.de/exist/textkorpus/textkorpus.html",
+      "bytes": 53909,
+      "sha256": "2a73dc6e03cc81be09b7345c331a71c1713878bdd260478b410c97d837b03353",
+      "status": "DOWNLOADED_NOT_YET_VALIDATED",
+      "download_log": "data/language-screen/downloads-initial.json",
+      "archive_hash_verified": true
+    },
+    {
+      "path": "decameron-download.html",
+      "url": "https://liberliber.it/opere/download/?op=2344551&type=opera_url_txt",
+      "error": "HTTP Error 403: Forbidden",
+      "download_log": "data/language-screen/downloads-initial.json"
+    },
+    {
+      "path": "data/raw/language-screen/brant-1494.xml",
+      "url": "https://www.narragonien-digital.de/exist/data/GW/GW5041.xml",
+      "bytes": 1501339,
+      "sha256": "a6e4543932362b19b45428ac23fa7bfe55b3ca88d55229fe4fd994057df86c0c",
+      "status": "DOWNLOADED_NOT_YET_VALIDATED",
+      "download_log": "data/language-screen/downloads-second.json",
+      "archive_hash_verified": true
+    },
+    {
+      "path": "data/raw/language-screen/locher-1497.xml",
+      "url": "https://www.narragonien-digital.de/exist/resources/xml/GW5061lt.xml",
+      "bytes": 3195376,
+      "sha256": "82fa4bb95aea4664976f09bb6d321c9dcee626b373133c07b2ef325ad0700049",
+      "status": "DOWNLOADED_NOT_YET_VALIDATED",
+      "download_log": "data/language-screen/downloads-second.json",
+      "archive_hash_verified": true
+    },
+    {
+      "path": "data/raw/language-screen/tepl-47465.html",
+      "url": "https://www.gutenberg.org/cache/epub/47465/pg47465-images.html",
+      "bytes": 444807,
+      "sha256": "429b4f8b7c319556ae7d4cf9737439e873129e86d5ee5ac5b46cc8ed46f16b0f",
+      "status": "DOWNLOADED_NOT_YET_VALIDATED",
+      "download_log": "data/language-screen/downloads-second.json",
+      "archive_hash_verified": true
+    },
+    {
+      "path": "data/raw/language-screen/narragonien-rules.html",
+      "url": "https://www.narragonien-digital.de/exist/materialien/editionsrichtlinien.html",
+      "bytes": 24623,
+      "sha256": "d8a71bb3cf3866793b6b199cdd51d0dd913847f6497d5cead1bec37da02a7e5f",
+      "status": "DOWNLOADED_NOT_YET_VALIDATED",
+      "download_log": "data/language-screen/downloads-second.json",
+      "archive_hash_verified": true
+    },
+    {
+      "path": "data/raw/language-screen/boccaccio-author.html",
+      "url": "https://www.gutenberg.org/ebooks/author/1279",
+      "bytes": 13641,
+      "sha256": "bedb5d47384d4b77a92e366d1a612f5d9ae91807af8fd0333281ed8305c93109",
+      "status": "DOWNLOADED_NOT_YET_VALIDATED",
+      "download_log": "data/language-screen/downloads-second.json",
+      "archive_hash_verified": true
+    },
+    {
+      "path": "data/raw/language-screen/macer.html",
+      "url": "https://www.remacle.org/bloodwolf/erudits/floridus/plantes.htm",
+      "bytes": 657912,
+      "sha256": "448d3a39d2fb958b1377cad08e1c1f56e576e245221656a96cfe78217d0aed22",
+      "status": "DOWNLOADED_NOT_YET_VALIDATED",
+      "download_log": "data/language-screen/downloads-second.json",
+      "archive_hash_verified": true
+    },
+    {
+      "path": "data/raw/language-screen/boccaccio-21424.html",
+      "url": "https://www.gutenberg.org/cache/epub/21424/pg21424-images.html",
+      "bytes": 608783,
+      "sha256": "057489f9ae0890a55f7c8405cb76f4c3ef8b475e08196afd6a9db14c2e38c8bf",
+      "download_log": "data/language-screen/downloads-third.json",
+      "archive_hash_verified": true
+    }
+  ],
+  "editorial_rules": [
+    {
+      "url": "https://www.narragonien-digital.de/exist/materialien/editionsrichtlinien.html",
+      "local": "data/raw/language-screen/narragonien-rules.html"
+    },
+    {
+      "url": "https://www.narragonien-digital.de/exist/materialien/downloads.html",
+      "role": "TEI distribution and license documentation"
+    },
+    {
+      "url": "https://www.narragonien-digital.de/exist/resources/pdf/gw5046_editionsrichtlinien.pdf",
+      "role": "Read through browser as source editorial policy; not an analyzed plaintext corpus"
+    }
+  ],
+  "limitations": "Only three declared candidates, two works each; not exhaustive language identification. Editorial/genre/era differences and small source defects remain. Control comparisons share blocks; no independent-trial p-values."
+}

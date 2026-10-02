@@ -1,0 +1,21 @@
+{
+  "status": "SELECTION_FROZEN_BEFORE_COMPARATIVE_PROFILES",
+  "files": {
+    "notes/experiment-013-design.md": "3cd005b1d3a11ec24620a672c7ffd43ea2179e2c2d52f11e18e7a320b504985b",
+    "notes/experiment-013-parser-rules.md": "fd85b570f15ff5835591de9693e6a359f519db12d36f60267366f19f79ebac52",
+    "src/transcription_units.py": "d3901ba7efd218fa3450a7f17c5a459fda63a4e86dc035667d89662393cb53d0",
+    "src/language_constraints.py": "4de7bf0e2cbb1549fcdac1ab1f854e17634e4321976ebd2653a3fa11b9a10431",
+    "data/homophonic/manuscript.json": "cd094c7b7a2c67c4fce3a9c7ed0390e2f928e75a8784748d39d78d3b414bfe00",
+    "data/language-screen/source-freeze.json": "9a439b5c79d04c04b225448b08de2e7ff93ab0097e98b32a6f4bd7c14241314c",
+    "results/language-screen/constraints.json": "245be5f8f05a971080eec6a75ad5a4ef8a36bb253a760584b034e1e8b48c11b3",
+    "data/transcription-units/selection.json": "258d8c5b6317b1ff48267a87107d5ec0c4f3788e4bab641aa79a4ecbe7881a6b",
+    "data/raw/IVTFF_format.txt": "07f6940c86d728e1da8412729189cc398bae65e253f9de91059bc2d8d0288178",
+    "data/raw/transcr.html": "57f8aaf6b1cdd6a292361b3a94e723f8fb14f0960b2cb349acee142fbadb19a5",
+    "data/raw/sta-aaa.html": "df06af65e8d732a2addd9a0880ed408a83fe2bf2136136b8c219aaf9aa3accdc",
+    "data/raw/GC2a-n.txt": "b09570cb6c993bc2d87134d115e60a978650a8a6495483ddbb1f6005a586096f",
+    "data/raw/ZL3b-n.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "data/raw/IT2a-n.txt": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5"
+  },
+  "selected_GC_loci": 1388,
+  "meaning": "Source word positions/components only. No phonetic or semantic assignment."
+}

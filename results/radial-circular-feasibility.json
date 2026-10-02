@@ -1,0 +1,122 @@
+{
+  "scope": "Exploratory feasibility counts AFTER experiment008. Not a hypothesis test, no angular/order score, no p values. Exact single-token occurrences anywhere in same-page circular text, independently in both transcriptions; repeated label loci not independent.",
+  "pages": [
+    {
+      "page": "f57v",
+      "radial_types": {
+        "Ro": 4
+      },
+      "radial_loci": 4,
+      "circular_loci": 4,
+      "agreed_full_radial_labels": 1,
+      "agreed_single_radial_labels": 0,
+      "n_unique_agreed_single_radial_labels": 0,
+      "radial_labels_reused_in_both_circle_transcriptions": 0,
+      "n_reused_types": 0
+    },
+    {
+      "page": "f67r1",
+      "radial_types": {
+        "Ri": 12
+      },
+      "radial_loci": 12,
+      "circular_loci": 3,
+      "agreed_full_radial_labels": 10,
+      "agreed_single_radial_labels": 6,
+      "n_unique_agreed_single_radial_labels": 6,
+      "radial_labels_reused_in_both_circle_transcriptions": 0,
+      "n_reused_types": 0
+    },
+    {
+      "page": "f68r3",
+      "radial_types": {
+        "Ri": 8
+      },
+      "radial_loci": 8,
+      "circular_loci": 2,
+      "agreed_full_radial_labels": 1,
+      "agreed_single_radial_labels": 0,
+      "n_unique_agreed_single_radial_labels": 0,
+      "radial_labels_reused_in_both_circle_transcriptions": 0,
+      "n_reused_types": 0
+    },
+    {
+      "page": "f68v1",
+      "radial_types": {
+        "Ro": 8
+      },
+      "radial_loci": 8,
+      "circular_loci": 2,
+      "agreed_full_radial_labels": 2,
+      "agreed_single_radial_labels": 1,
+      "n_unique_agreed_single_radial_labels": 1,
+      "radial_labels_reused_in_both_circle_transcriptions": 0,
+      "n_reused_types": 0
+    },
+    {
+      "page": "f68v2",
+      "radial_types": {
+        "Ro": 12
+      },
+      "radial_loci": 12,
+      "circular_loci": 1,
+      "agreed_full_radial_labels": 9,
+      "agreed_single_radial_labels": 0,
+      "n_unique_agreed_single_radial_labels": 0,
+      "radial_labels_reused_in_both_circle_transcriptions": 0,
+      "n_reused_types": 0
+    },
+    {
+      "page": "f68v3",
+      "radial_types": {
+        "Ri": 8
+      },
+      "radial_loci": 8,
+      "circular_loci": 2,
+      "agreed_full_radial_labels": 2,
+      "agreed_single_radial_labels": 0,
+      "n_unique_agreed_single_radial_labels": 0,
+      "radial_labels_reused_in_both_circle_transcriptions": 0,
+      "n_reused_types": 0
+    },
+    {
+      "page": "f69r",
+      "radial_types": {
+        "Ro": 22
+      },
+      "radial_loci": 22,
+      "circular_loci": 1,
+      "agreed_full_radial_labels": 12,
+      "agreed_single_radial_labels": 0,
+      "n_unique_agreed_single_radial_labels": 0,
+      "radial_labels_reused_in_both_circle_transcriptions": 0,
+      "n_reused_types": 0
+    },
+    {
+      "page": "f69v",
+      "radial_types": {
+        "Ri": 28
+      },
+      "radial_loci": 28,
+      "circular_loci": 3,
+      "agreed_full_radial_labels": 21,
+      "agreed_single_radial_labels": 19,
+      "n_unique_agreed_single_radial_labels": 17,
+      "radial_labels_reused_in_both_circle_transcriptions": 1,
+      "n_reused_types": 1
+    },
+    {
+      "page": "f70r1",
+      "radial_types": {
+        "Ri": 15
+      },
+      "radial_loci": 15,
+      "circular_loci": 4,
+      "agreed_full_radial_labels": 8,
+      "agreed_single_radial_labels": 6,
+      "n_unique_agreed_single_radial_labels": 6,
+      "radial_labels_reused_in_both_circle_transcriptions": 0,
+      "n_reused_types": 0
+    }
+  ]
+}

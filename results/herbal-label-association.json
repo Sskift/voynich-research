@@ -1,0 +1,760 @@
+{
+  "selection": [
+    {
+      "fragment": 54,
+      "page": "f89v2",
+      "locus": "f89v2.6",
+      "target": "f48v",
+      "position": "row 1, fifth plant",
+      "source": "https://www.voynich.nu/q15/index.html#f89v2"
+    },
+    {
+      "fragment": 61,
+      "page": "f89v2",
+      "locus": "f89v2.28",
+      "target": "f48r",
+      "position": "row 3, fourth plant",
+      "source": "https://www.voynich.nu/q15/index.html#f89v2"
+    },
+    {
+      "fragment": 203,
+      "page": "f102r1",
+      "locus": null,
+      "target": "f37v",
+      "position": "row 3, first plant; no individual label",
+      "source": "https://www.voynich.nu/q19/index.html#f102r1"
+    },
+    {
+      "fragment": 204,
+      "page": "f102r1",
+      "locus": null,
+      "target": "f1v",
+      "position": "row 3, second plant; no individual label",
+      "source": "https://www.voynich.nu/q19/index.html#f102r1"
+    },
+    {
+      "fragment": 205,
+      "page": "f102r2",
+      "locus": null,
+      "target": "f47v",
+      "position": "row 1, first plant; no individual label",
+      "source": "https://www.voynich.nu/q19/index.html#f102r2"
+    },
+    {
+      "fragment": 206,
+      "page": "f102r2",
+      "locus": null,
+      "target": "f32v",
+      "position": "row 1, second plant; no individual label",
+      "source": "https://www.voynich.nu/q19/index.html#f102r2"
+    },
+    {
+      "fragment": 212,
+      "page": "f102r2",
+      "locus": "f102r2.21",
+      "target": "f18v",
+      "position": "row 3, first plant; Petersen ID 212",
+      "source": "https://www.voynich.nu/q19/index.html#f102r2"
+    },
+    {
+      "fragment": 213,
+      "page": "f102r2",
+      "locus": "f102r2.22",
+      "target": "f23r",
+      "position": "row 3, second plant; Petersen ID 213",
+      "source": "https://www.voynich.nu/q19/index.html#f102r2"
+    },
+    {
+      "fragment": 240,
+      "page": "f102v1",
+      "locus": "f102v1.17",
+      "target": "f19r",
+      "position": "row 2, second plant; Petersen ID 240",
+      "source": "https://www.voynich.nu/q19/index.html#f102v1"
+    }
+  ],
+  "primary_pairs": [
+    {
+      "fragment": 54,
+      "page": "f89v2",
+      "locus": "f89v2.6",
+      "target": "f48v",
+      "position": "row 1, fifth plant",
+      "source": "https://www.voynich.nu/q15/index.html#f89v2"
+    },
+    {
+      "fragment": 212,
+      "page": "f102r2",
+      "locus": "f102r2.21",
+      "target": "f18v",
+      "position": "row 3, first plant; Petersen ID 212",
+      "source": "https://www.voynich.nu/q19/index.html#f102r2"
+    },
+    {
+      "fragment": 213,
+      "page": "f102r2",
+      "locus": "f102r2.22",
+      "target": "f23r",
+      "position": "row 3, second plant; Petersen ID 213",
+      "source": "https://www.voynich.nu/q19/index.html#f102r2"
+    },
+    {
+      "fragment": 240,
+      "page": "f102v1",
+      "locus": "f102v1.17",
+      "target": "f19r",
+      "position": "row 2, second plant; Petersen ID 240",
+      "source": "https://www.voynich.nu/q19/index.html#f102v1"
+    }
+  ],
+  "runs": [
+    {
+      "source": "ZL3b-n.txt",
+      "spacing": "split",
+      "n_pairs": 4,
+      "observed_exact_present": 0,
+      "exact_null_expected_present": 0.0,
+      "p_greater_exact": 1.0,
+      "observed_mean_nearest_normalized_distance": 0.4548611111111111,
+      "null_mean_nearest_normalized_distance": 0.5190972222222222,
+      "p_lower_distance": 0.16666666666666666,
+      "permutations": 24,
+      "pairs": [
+        {
+          "fragment": 54,
+          "page": "f89v2",
+          "locus": "f89v2.6",
+          "target": "f48v",
+          "position": "row 1, fifth plant",
+          "source": "https://www.voynich.nu/q15/index.html#f89v2",
+          "word": "chokam",
+          "exact_target_positions": [],
+          "first_token": "pcheodchy",
+          "is_first_token": false,
+          "nearest_distance": 0.5,
+          "closest": [
+            {
+              "word": "chckhy",
+              "positions": [
+                "f48v.11:word2"
+              ]
+            },
+            {
+              "word": "cheky",
+              "positions": [
+                "f48v.9:word5"
+              ]
+            },
+            {
+              "word": "chkey",
+              "positions": [
+                "f48v.8:word2"
+              ]
+            },
+            {
+              "word": "chody",
+              "positions": [
+                "f48v.3:word6"
+              ]
+            },
+            {
+              "word": "fcheodal",
+              "positions": [
+                "f48v.7:word10"
+              ]
+            },
+            {
+              "word": "okal",
+              "positions": [
+                "f48v.9:word3"
+              ]
+            },
+            {
+              "word": "okar",
+              "positions": [
+                "f48v.6:word3",
+                "f48v.10:word11"
+              ]
+            },
+            {
+              "word": "otam",
+              "positions": [
+                "f48v.5:word10",
+                "f48v.8:word11"
+              ]
+            },
+            {
+              "word": "qokar",
+              "positions": [
+                "f48v.5:word5"
+              ]
+            },
+            {
+              "word": "tokar",
+              "positions": [
+                "f48v.8:word10"
+              ]
+            }
+          ],
+          "corpus_all_exact_positions": [
+            "f89v2.6:word1",
+            "f113v.8:word5"
+          ],
+          "corpus_body_exact_positions": [
+            "f113v.8:word5"
+          ]
+        },
+        {
+          "fragment": 212,
+          "page": "f102r2",
+          "locus": "f102r2.21",
+          "target": "f18v",
+          "position": "row 3, first plant; Petersen ID 212",
+          "source": "https://www.voynich.nu/q19/index.html#f102r2",
+          "word": "koldarod",
+          "exact_target_positions": [],
+          "first_token": "told",
+          "is_first_token": false,
+          "nearest_distance": 0.5,
+          "closest": [
+            {
+              "word": "daror",
+              "positions": [
+                "f18v.8:word4"
+              ]
+            }
+          ],
+          "corpus_all_exact_positions": [
+            "f102r2.21:word1"
+          ],
+          "corpus_body_exact_positions": []
+        },
+        {
+          "fragment": 213,
+          "page": "f102r2",
+          "locus": "f102r2.22",
+          "target": "f23r",
+          "position": "row 3, second plant; Petersen ID 213",
+          "source": "https://www.voynich.nu/q19/index.html#f102r2",
+          "word": "odalydary",
+          "exact_target_positions": [],
+          "first_token": "pydchdom",
+          "is_first_token": false,
+          "nearest_distance": 0.4444444444444444,
+          "closest": [
+            {
+              "word": "dalory",
+              "positions": [
+                "f23r.11:word2"
+              ]
+            }
+          ],
+          "corpus_all_exact_positions": [
+            "f102r2.22:word1"
+          ],
+          "corpus_body_exact_positions": []
+        },
+        {
+          "fragment": 240,
+          "page": "f102v1",
+          "locus": "f102v1.17",
+          "target": "f19r",
+          "position": "row 2, second plant; Petersen ID 240",
+          "source": "https://www.voynich.nu/q19/index.html#f102v1",
+          "word": "loralody",
+          "exact_target_positions": [],
+          "first_token": "pchor",
+          "is_first_token": false,
+          "nearest_distance": 0.375,
+          "closest": [
+            {
+              "word": "qolody",
+              "positions": [
+                "f19r.11:word2"
+              ]
+            }
+          ],
+          "corpus_all_exact_positions": [
+            "f102v1.17:word1"
+          ],
+          "corpus_body_exact_positions": []
+        }
+      ],
+      "excluded_reading_diagnostics": [
+        {
+          "fragment": 61,
+          "page": "f89v2",
+          "locus": "f89v2.28",
+          "target": "f48r",
+          "position": "row 3, fourth plant",
+          "source": "https://www.voynich.nu/q15/index.html#f89v2",
+          "word": "daseky",
+          "exact_target_positions": [],
+          "corpus_all_exact_positions": [
+            "f89v2.28:word1"
+          ],
+          "nearest_distance": 0.5714285714285714,
+          "closest": [
+            "olsheey"
+          ]
+        }
+      ],
+      "posthoc_currier_scribe_sensitivity": {
+        "target_groups": [
+          [
+            "B",
+            "5"
+          ],
+          [
+            "A",
+            "1"
+          ],
+          [
+            "A",
+            "1"
+          ],
+          [
+            "A",
+            "1"
+          ]
+        ],
+        "permutations": 6,
+        "null_mean_distance": 0.5347222222222222,
+        "p_lower_distance": 0.16666666666666666
+      }
+    },
+    {
+      "source": "IT2a-n.txt",
+      "spacing": "split",
+      "n_pairs": 4,
+      "observed_exact_present": 0,
+      "exact_null_expected_present": 0.0,
+      "p_greater_exact": 1.0,
+      "observed_mean_nearest_normalized_distance": 0.4548611111111111,
+      "null_mean_nearest_normalized_distance": 0.5190972222222222,
+      "p_lower_distance": 0.16666666666666666,
+      "permutations": 24,
+      "pairs": [
+        {
+          "fragment": 54,
+          "page": "f89v2",
+          "locus": "f89v2.6",
+          "target": "f48v",
+          "position": "row 1, fifth plant",
+          "source": "https://www.voynich.nu/q15/index.html#f89v2",
+          "word": "chokam",
+          "exact_target_positions": [],
+          "first_token": "pcheodchy",
+          "is_first_token": false,
+          "nearest_distance": 0.5,
+          "closest": [
+            {
+              "word": "chckhy",
+              "positions": [
+                "f48v.11:word3"
+              ]
+            },
+            {
+              "word": "cheky",
+              "positions": [
+                "f48v.9:word5"
+              ]
+            },
+            {
+              "word": "chkey",
+              "positions": [
+                "f48v.8:word2"
+              ]
+            },
+            {
+              "word": "chody",
+              "positions": [
+                "f48v.3:word6"
+              ]
+            },
+            {
+              "word": "fcheodal",
+              "positions": [
+                "f48v.7:word9"
+              ]
+            },
+            {
+              "word": "okal",
+              "positions": [
+                "f48v.9:word3"
+              ]
+            },
+            {
+              "word": "okar",
+              "positions": [
+                "f48v.6:word3",
+                "f48v.10:word11"
+              ]
+            },
+            {
+              "word": "otam",
+              "positions": [
+                "f48v.5:word10",
+                "f48v.8:word11"
+              ]
+            },
+            {
+              "word": "qokar",
+              "positions": [
+                "f48v.5:word5"
+              ]
+            },
+            {
+              "word": "tokar",
+              "positions": [
+                "f48v.8:word10"
+              ]
+            }
+          ],
+          "corpus_all_exact_positions": [
+            "f49v.24:word5",
+            "f52r.6:word5",
+            "f89v2.6:word1",
+            "f113v.8:word5"
+          ],
+          "corpus_body_exact_positions": [
+            "f49v.24:word5",
+            "f52r.6:word5",
+            "f113v.8:word5"
+          ]
+        },
+        {
+          "fragment": 212,
+          "page": "f102r2",
+          "locus": "f102r2.21",
+          "target": "f18v",
+          "position": "row 3, first plant; Petersen ID 212",
+          "source": "https://www.voynich.nu/q19/index.html#f102r2",
+          "word": "koldarod",
+          "exact_target_positions": [],
+          "first_token": "told",
+          "is_first_token": false,
+          "nearest_distance": 0.5,
+          "closest": [
+            {
+              "word": "daror",
+              "positions": [
+                "f18v.8:word4"
+              ]
+            }
+          ],
+          "corpus_all_exact_positions": [
+            "f102r2.21:word1"
+          ],
+          "corpus_body_exact_positions": []
+        },
+        {
+          "fragment": 213,
+          "page": "f102r2",
+          "locus": "f102r2.22",
+          "target": "f23r",
+          "position": "row 3, second plant; Petersen ID 213",
+          "source": "https://www.voynich.nu/q19/index.html#f102r2",
+          "word": "odalydary",
+          "exact_target_positions": [],
+          "first_token": "pydchdom",
+          "is_first_token": false,
+          "nearest_distance": 0.4444444444444444,
+          "closest": [
+            {
+              "word": "dalory",
+              "positions": [
+                "f23r.11:word2"
+              ]
+            }
+          ],
+          "corpus_all_exact_positions": [
+            "f102r2.22:word1"
+          ],
+          "corpus_body_exact_positions": []
+        },
+        {
+          "fragment": 240,
+          "page": "f102v1",
+          "locus": "f102v1.17",
+          "target": "f19r",
+          "position": "row 2, second plant; Petersen ID 240",
+          "source": "https://www.voynich.nu/q19/index.html#f102v1",
+          "word": "loralody",
+          "exact_target_positions": [],
+          "first_token": "pchor",
+          "is_first_token": false,
+          "nearest_distance": 0.375,
+          "closest": [
+            {
+              "word": "qolody",
+              "positions": [
+                "f19r.11:word2"
+              ]
+            }
+          ],
+          "corpus_all_exact_positions": [
+            "f102v1.17:word1"
+          ],
+          "corpus_body_exact_positions": []
+        }
+      ],
+      "excluded_reading_diagnostics": [
+        {
+          "fragment": 61,
+          "page": "f89v2",
+          "locus": "f89v2.28",
+          "target": "f48r",
+          "position": "row 3, fourth plant",
+          "source": "https://www.voynich.nu/q15/index.html#f89v2",
+          "word": "dareky",
+          "exact_target_positions": [],
+          "corpus_all_exact_positions": [
+            "f89v2.28:word1"
+          ],
+          "nearest_distance": 0.5,
+          "closest": [
+            "dalmy"
+          ]
+        }
+      ],
+      "posthoc_currier_scribe_sensitivity": {
+        "target_groups": [
+          [
+            "B",
+            "5"
+          ],
+          [
+            "A",
+            "1"
+          ],
+          [
+            "A",
+            "1"
+          ],
+          [
+            "A",
+            "1"
+          ]
+        ],
+        "permutations": 6,
+        "null_mean_distance": 0.5347222222222222,
+        "p_lower_distance": 0.16666666666666666
+      }
+    },
+    {
+      "source": "ZL3b-n.txt",
+      "spacing": "join",
+      "n_pairs": 4,
+      "observed_exact_present": 0,
+      "exact_null_expected_present": 0.0,
+      "p_greater_exact": 1.0,
+      "observed_mean_nearest_normalized_distance": 0.4548611111111111,
+      "null_mean_nearest_normalized_distance": 0.5190972222222222,
+      "p_lower_distance": 0.16666666666666666,
+      "permutations": 24,
+      "pairs": [
+        {
+          "fragment": 54,
+          "page": "f89v2",
+          "locus": "f89v2.6",
+          "target": "f48v",
+          "position": "row 1, fifth plant",
+          "source": "https://www.voynich.nu/q15/index.html#f89v2",
+          "word": "chokam",
+          "exact_target_positions": [],
+          "first_token": "pcheodchy",
+          "is_first_token": false,
+          "nearest_distance": 0.5,
+          "closest": [
+            {
+              "word": "chckhy",
+              "positions": [
+                "f48v.11:word2"
+              ]
+            },
+            {
+              "word": "cheky",
+              "positions": [
+                "f48v.9:word5"
+              ]
+            },
+            {
+              "word": "chkey",
+              "positions": [
+                "f48v.8:word2"
+              ]
+            },
+            {
+              "word": "chody",
+              "positions": [
+                "f48v.3:word6"
+              ]
+            },
+            {
+              "word": "fcheodal",
+              "positions": [
+                "f48v.7:word9"
+              ]
+            },
+            {
+              "word": "okal",
+              "positions": [
+                "f48v.9:word3"
+              ]
+            },
+            {
+              "word": "okar",
+              "positions": [
+                "f48v.6:word3"
+              ]
+            },
+            {
+              "word": "otam",
+              "positions": [
+                "f48v.5:word10",
+                "f48v.8:word11"
+              ]
+            },
+            {
+              "word": "qokar",
+              "positions": [
+                "f48v.5:word5"
+              ]
+            },
+            {
+              "word": "tokar",
+              "positions": [
+                "f48v.8:word10"
+              ]
+            }
+          ],
+          "corpus_all_exact_positions": [
+            "f89v2.6:word1",
+            "f113v.8:word5"
+          ],
+          "corpus_body_exact_positions": [
+            "f113v.8:word5"
+          ]
+        },
+        {
+          "fragment": 212,
+          "page": "f102r2",
+          "locus": "f102r2.21",
+          "target": "f18v",
+          "position": "row 3, first plant; Petersen ID 212",
+          "source": "https://www.voynich.nu/q19/index.html#f102r2",
+          "word": "koldarod",
+          "exact_target_positions": [],
+          "first_token": "told",
+          "is_first_token": false,
+          "nearest_distance": 0.5,
+          "closest": [
+            {
+              "word": "daror",
+              "positions": [
+                "f18v.8:word4"
+              ]
+            }
+          ],
+          "corpus_all_exact_positions": [
+            "f102r2.21:word1"
+          ],
+          "corpus_body_exact_positions": []
+        },
+        {
+          "fragment": 213,
+          "page": "f102r2",
+          "locus": "f102r2.22",
+          "target": "f23r",
+          "position": "row 3, second plant; Petersen ID 213",
+          "source": "https://www.voynich.nu/q19/index.html#f102r2",
+          "word": "odalydary",
+          "exact_target_positions": [],
+          "first_token": "pydchdom",
+          "is_first_token": false,
+          "nearest_distance": 0.4444444444444444,
+          "closest": [
+            {
+              "word": "dalory",
+              "positions": [
+                "f23r.11:word2"
+              ]
+            }
+          ],
+          "corpus_all_exact_positions": [
+            "f102r2.22:word1"
+          ],
+          "corpus_body_exact_positions": []
+        },
+        {
+          "fragment": 240,
+          "page": "f102v1",
+          "locus": "f102v1.17",
+          "target": "f19r",
+          "position": "row 2, second plant; Petersen ID 240",
+          "source": "https://www.voynich.nu/q19/index.html#f102v1",
+          "word": "loralody",
+          "exact_target_positions": [],
+          "first_token": "pchor",
+          "is_first_token": false,
+          "nearest_distance": 0.375,
+          "closest": [
+            {
+              "word": "qolody",
+              "positions": [
+                "f19r.11:word2"
+              ]
+            }
+          ],
+          "corpus_all_exact_positions": [
+            "f102v1.17:word1"
+          ],
+          "corpus_body_exact_positions": []
+        }
+      ],
+      "excluded_reading_diagnostics": [
+        {
+          "fragment": 61,
+          "page": "f89v2",
+          "locus": "f89v2.28",
+          "target": "f48r",
+          "position": "row 3, fourth plant",
+          "source": "https://www.voynich.nu/q15/index.html#f89v2",
+          "word": "daseky",
+          "exact_target_positions": [],
+          "corpus_all_exact_positions": [
+            "f89v2.28:word1"
+          ],
+          "nearest_distance": 0.5714285714285714,
+          "closest": [
+            "olsheey"
+          ]
+        }
+      ],
+      "posthoc_currier_scribe_sensitivity": {
+        "target_groups": [
+          [
+            "B",
+            "5"
+          ],
+          [
+            "A",
+            "1"
+          ],
+          [
+            "A",
+            "1"
+          ],
+          [
+            "A",
+            "1"
+          ]
+        ],
+        "permutations": 6,
+        "null_mean_distance": 0.5347222222222222,
+        "p_lower_distance": 0.16666666666666666
+      }
+    }
+  ]
+}

@@ -1,0 +1,4791 @@
+{
+  "stage": "discovery",
+  "input_hashes": {
+    "results/zodiac-inventory.json": "80552f59a98400db5d439eb9ecb8db25a677f05fb617197692ae1f9fda863287",
+    "data/zodiac-layout.json": "088ecf79d5c64337d357411e2238e71fde103704036b06477b855dc23857a85b",
+    "notes/experiment-007-design.md": "93a9a6ab679bd821b4c7a243bafb2b9ad136e4a77fddbb3fc211e16cde0cf741"
+  },
+  "IT_split_note": "Exactly identical retained strings by the consensus inclusion rule; not independent replication and not re-simulated.",
+  "runs": [
+    {
+      "stage": "discovery",
+      "source": "ZL3b-n.txt",
+      "spacing": "split",
+      "null": "ring",
+      "randomizations": 9999,
+      "n_primary_labels": 146,
+      "n_circular_groups": 21,
+      "n_ring_pairs": 10,
+      "excluded_ring_pairs": [
+        [
+          "f70v1:inner",
+          "f71r:inner"
+        ],
+        [
+          "f70v1:inner",
+          "f71v:inner"
+        ],
+        [
+          "f70v1:inner",
+          "f72r1:inner"
+        ],
+        [
+          "f71r:inner",
+          "f71v:inner"
+        ]
+      ],
+      "n_neighbour_edges": 91,
+      "primary_order": {
+        "observed": 0.43724344011108707,
+        "null_mean": 0.4317932896530095,
+        "null_sd": 0.011027980915269546,
+        "p_greater": 0.3049,
+        "null_interval_95": [
+          0.41076608968373673,
+          0.45410808883382414
+        ],
+        "null_uninformative": false,
+        "holm_p": 0.3049
+      },
+      "secondary_exact_order": {
+        "observed": 0.0,
+        "null_mean": 0.0,
+        "null_sd": 0.0,
+        "p_greater": 1.0,
+        "null_interval_95": [
+          0.0,
+          0.0
+        ],
+        "null_uninformative": true
+      },
+      "neighbour_similarity": {
+        "observed": 0.38021685991951026,
+        "null_mean": 0.35381724294879185,
+        "null_sd": 0.014522064682153142,
+        "p_greater": 0.0355,
+        "null_interval_95": [
+          0.3253061739309316,
+          0.38255614420772793
+        ],
+        "null_uninformative": false,
+        "holm_p": 0.071
+      },
+      "pairs": [
+        {
+          "left": "f70v1:outer",
+          "right": "f71r:outer",
+          "slots": 10,
+          "eligible_phases": 20,
+          "best_phase": {
+            "direction": 1,
+            "shift": 6
+          },
+          "best_phase_support": 6,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.38884998443821966,
+            "null_mean": 0.40246907183715575,
+            "null_sd": 0.019418171304809637,
+            "p_greater": 0.7343,
+            "null_interval_95": [
+              0.3702357609710551,
+              0.44603174603174606
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f70v1.2",
+              "right_locus": "f71r.8",
+              "left": "otalchy.tar.am.dy",
+              "right": "otalsar",
+              "similarity": 0.3529411764705882
+            },
+            {
+              "left_locus": "f70v1.5",
+              "right_locus": "f71r.11",
+              "left": "okalal",
+              "right": "otalaly",
+              "similarity": 0.7142857142857143
+            },
+            {
+              "left_locus": "f70v1.7",
+              "right_locus": "f71r.3",
+              "left": "oalcheg",
+              "right": "okldam",
+              "similarity": 0.2857142857142857
+            },
+            {
+              "left_locus": "f70v1.8",
+              "right_locus": "f71r.4",
+              "left": "otchodals",
+              "right": "oteoaldy",
+              "similarity": 0.4444444444444444
+            },
+            {
+              "left_locus": "f70v1.9",
+              "right_locus": "f71r.5",
+              "left": "okolshy",
+              "right": "oteolar",
+              "similarity": 0.2857142857142857
+            },
+            {
+              "left_locus": "f70v1.10",
+              "right_locus": "f71r.6",
+              "left": "otshshdy",
+              "right": "okeoaly",
+              "similarity": 0.25
+            }
+          ]
+        },
+        {
+          "left": "f70v1:outer",
+          "right": "f71v:outer",
+          "slots": 10,
+          "eligible_phases": 20,
+          "best_phase": {
+            "direction": -1,
+            "shift": 9
+          },
+          "best_phase_support": 6,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.4414547870430223,
+            "null_mean": 0.4092240708814352,
+            "null_sd": 0.03749279199806964,
+            "p_greater": 0.1843,
+            "null_interval_95": [
+              0.34850572793219853,
+              0.49421568627450974
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f70v1.2",
+              "right_locus": "f71v.11",
+              "left": "otalchy.tar.am.dy",
+              "right": "opalor.ar",
+              "similarity": 0.3529411764705882
+            },
+            {
+              "left_locus": "f70v1.3",
+              "right_locus": "f71v.10",
+              "left": "opchey.sal",
+              "right": "opalar.am.dan",
+              "similarity": 0.3076923076923077
+            },
+            {
+              "left_locus": "f70v1.5",
+              "right_locus": "f71v.8",
+              "left": "okalal",
+              "right": "okaraiin",
+              "similarity": 0.5
+            },
+            {
+              "left_locus": "f70v1.8",
+              "right_locus": "f71v.5",
+              "left": "otchodals",
+              "right": "otchody",
+              "similarity": 0.6666666666666667
+            },
+            {
+              "left_locus": "f70v1.9",
+              "right_locus": "f71v.4",
+              "left": "okolshy",
+              "right": "okolar",
+              "similarity": 0.5714285714285714
+            },
+            {
+              "left_locus": "f70v1.10",
+              "right_locus": "f71v.3",
+              "left": "otshshdy",
+              "right": "chfaly",
+              "similarity": 0.25
+            }
+          ]
+        },
+        {
+          "left": "f70v1:outer",
+          "right": "f72r1:outer",
+          "slots": 10,
+          "eligible_phases": 14,
+          "best_phase": {
+            "direction": 1,
+            "shift": 0
+          },
+          "best_phase_support": 3,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.4444444444444445,
+            "null_mean": 0.4564773132308562,
+            "null_sd": 0.048821913719775616,
+            "p_greater": 0.6209,
+            "null_interval_95": [
+              0.3666666666666667,
+              0.5555555555555556
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f70v1.5",
+              "right_locus": "f72r1.5",
+              "left": "okalal",
+              "right": "okalam",
+              "similarity": 0.8333333333333334
+            },
+            {
+              "left_locus": "f70v1.8",
+              "right_locus": "f72r1.8",
+              "left": "otchodals",
+              "right": "otaraldy",
+              "similarity": 0.33333333333333337
+            },
+            {
+              "left_locus": "f70v1.9",
+              "right_locus": "f72r1.9",
+              "left": "okolshy",
+              "right": "otaiin.otain",
+              "similarity": 0.16666666666666663
+            }
+          ]
+        },
+        {
+          "left": "f71r:outer",
+          "right": "f71v:outer",
+          "slots": 10,
+          "eligible_phases": 20,
+          "best_phase": {
+            "direction": -1,
+            "shift": 5
+          },
+          "best_phase_support": 6,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.4789021164021164,
+            "null_mean": 0.41409192374263887,
+            "null_sd": 0.024504794253374915,
+            "p_greater": 0.0135,
+            "null_interval_95": [
+              0.37334656084656087,
+              0.4692857142857143
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f71r.2",
+              "right_locus": "f71v.7",
+              "left": "oteos.arar",
+              "right": "otaiin",
+              "similarity": 0.30000000000000004
+            },
+            {
+              "left_locus": "f71r.4",
+              "right_locus": "f71v.5",
+              "left": "oteoaldy",
+              "right": "otchody",
+              "similarity": 0.5
+            },
+            {
+              "left_locus": "f71r.5",
+              "right_locus": "f71v.4",
+              "left": "oteolar",
+              "right": "okolar",
+              "similarity": 0.7142857142857143
+            },
+            {
+              "left_locus": "f71r.6",
+              "right_locus": "f71v.3",
+              "left": "okeoaly",
+              "right": "chfaly",
+              "similarity": 0.4285714285714286
+            },
+            {
+              "left_locus": "f71r.8",
+              "right_locus": "f71v.11",
+              "left": "otalsar",
+              "right": "opalor.ar",
+              "similarity": 0.5555555555555556
+            },
+            {
+              "left_locus": "f71r.11",
+              "right_locus": "f71v.8",
+              "left": "otalaly",
+              "right": "okaraiin",
+              "similarity": 0.375
+            }
+          ]
+        },
+        {
+          "left": "f71r:outer",
+          "right": "f72r1:outer",
+          "slots": 10,
+          "eligible_phases": 16,
+          "best_phase": {
+            "direction": 1,
+            "shift": 4
+          },
+          "best_phase_support": 3,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.5515873015873016,
+            "null_mean": 0.5181616475139579,
+            "null_sd": 0.037989459810662346,
+            "p_greater": 0.2759,
+            "null_interval_95": [
+              0.45535714285714285,
+              0.6071428571428571
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f71r.4",
+              "right_locus": "f72r1.8",
+              "left": "oteoaldy",
+              "right": "otaraldy",
+              "similarity": 0.75
+            },
+            {
+              "left_locus": "f71r.5",
+              "right_locus": "f72r1.9",
+              "left": "oteolar",
+              "right": "otaiin.otain",
+              "similarity": 0.33333333333333337
+            },
+            {
+              "left_locus": "f71r.11",
+              "right_locus": "f72r1.5",
+              "left": "otalaly",
+              "right": "okalam",
+              "similarity": 0.5714285714285714
+            }
+          ]
+        },
+        {
+          "left": "f71r:inner",
+          "right": "f72r1:inner",
+          "slots": 5,
+          "eligible_phases": 10,
+          "best_phase": {
+            "direction": 1,
+            "shift": 4
+          },
+          "best_phase_support": 3,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.37896825396825395,
+            "null_mean": 0.36988440907582826,
+            "null_sd": 0.009318779959511829,
+            "p_greater": 0.4459,
+            "null_interval_95": [
+              0.34722222222222227,
+              0.37896825396825395
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f71r.14",
+              "right_locus": "f72r1.13",
+              "left": "otoloaram",
+              "right": "ofaralar",
+              "similarity": 0.33333333333333337
+            },
+            {
+              "left_locus": "f71r.15",
+              "right_locus": "f72r1.14",
+              "left": "oteeol",
+              "right": "otchoshy",
+              "similarity": 0.375
+            },
+            {
+              "left_locus": "f71r.16",
+              "right_locus": "f72r1.15",
+              "left": "otolchd",
+              "right": "otchdal",
+              "similarity": 0.4285714285714286
+            }
+          ]
+        },
+        {
+          "left": "f71v:outer",
+          "right": "f72r1:outer",
+          "slots": 10,
+          "eligible_phases": 12,
+          "best_phase": {
+            "direction": -1,
+            "shift": 2
+          },
+          "best_phase_support": 3,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.48148148148148145,
+            "null_mean": 0.4563961839814425,
+            "null_sd": 0.038186356823429704,
+            "p_greater": 0.2372,
+            "null_interval_95": [
+              0.38888888888888884,
+              0.5277777777777778
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f71v.7",
+              "right_locus": "f72r1.9",
+              "left": "otaiin",
+              "right": "otaiin.otain",
+              "similarity": 0.5
+            },
+            {
+              "left_locus": "f71v.8",
+              "right_locus": "f72r1.8",
+              "left": "okaraiin",
+              "right": "otaraldy",
+              "similarity": 0.5
+            },
+            {
+              "left_locus": "f71v.11",
+              "right_locus": "f72r1.5",
+              "left": "opalor.ar",
+              "right": "okalam",
+              "similarity": 0.4444444444444444
+            }
+          ]
+        },
+        {
+          "left": "f71v:inner",
+          "right": "f72r1:inner",
+          "slots": 5,
+          "eligible_phases": 10,
+          "best_phase": {
+            "direction": 1,
+            "shift": 3
+          },
+          "best_phase_support": 3,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.3988095238095238,
+            "null_mean": 0.39728304841066114,
+            "null_sd": 0.026755614086025965,
+            "p_greater": 0.6392,
+            "null_interval_95": [
+              0.3333333333333333,
+              0.44047619047619047
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f71v.14",
+              "right_locus": "f72r1.17",
+              "left": "otalody",
+              "right": "otainy",
+              "similarity": 0.5714285714285714
+            },
+            {
+              "left_locus": "f71v.15",
+              "right_locus": "f72r1.13",
+              "left": "otalaiin",
+              "right": "ofaralar",
+              "similarity": 0.375
+            },
+            {
+              "left_locus": "f71v.17",
+              "right_locus": "f72r1.15",
+              "left": "sholshdy",
+              "right": "otchdal",
+              "similarity": 0.25
+            }
+          ]
+        },
+        {
+          "left": "f72v3:outer",
+          "right": "f72v2:outer",
+          "slots": 18,
+          "eligible_phases": 30,
+          "best_phase": {
+            "direction": -1,
+            "shift": 16
+          },
+          "best_phase_support": 4,
+          "tied_best_phases": 2,
+          "edit_similarity": {
+            "observed": 0.4285714285714286,
+            "null_mean": 0.479753014984038,
+            "null_sd": 0.0389838507986111,
+            "p_greater": 0.9395,
+            "null_interval_95": [
+              0.41369047619047616,
+              0.5773809523809523
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f72v3.4",
+              "right_locus": "f72v2.16",
+              "left": "okam",
+              "right": "okeoldy",
+              "similarity": 0.2857142857142857
+            },
+            {
+              "left_locus": "f72v3.5",
+              "right_locus": "f72v2.15",
+              "left": "okey",
+              "right": "okeody",
+              "similarity": 0.6666666666666667
+            },
+            {
+              "left_locus": "f72v3.16",
+              "right_locus": "f72v2.4",
+              "left": "okeeol",
+              "right": "okeoram",
+              "similarity": 0.4285714285714286
+            },
+            {
+              "left_locus": "f72v3.18",
+              "right_locus": "f72v2.2",
+              "left": "okaldy",
+              "right": "oeedey",
+              "similarity": 0.33333333333333337
+            }
+          ]
+        },
+        {
+          "left": "f72v3:inner",
+          "right": "f72v2:inner",
+          "slots": 12,
+          "eligible_phases": 10,
+          "best_phase": {
+            "direction": 1,
+            "shift": 8
+          },
+          "best_phase_support": 3,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.37936507936507935,
+            "null_mean": 0.41419221287208086,
+            "null_sd": 0.04834345682374049,
+            "p_greater": 0.7667,
+            "null_interval_95": [
+              0.3333333333333333,
+              0.5111111111111111
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f72v3.22",
+              "right_locus": "f72v2.30",
+              "left": "oky",
+              "right": "yteedy",
+              "similarity": 0.16666666666666663
+            },
+            {
+              "left_locus": "f72v3.27",
+              "right_locus": "f72v2.23",
+              "left": "okary",
+              "right": "oeedy",
+              "similarity": 0.4
+            },
+            {
+              "left_locus": "f72v3.31",
+              "right_locus": "f72v2.27",
+              "left": "otaly",
+              "right": "oeedaly",
+              "similarity": 0.5714285714285714
+            }
+          ]
+        }
+      ],
+      "rings": [
+        {
+          "group": "f70v2:outer",
+          "n_edges": 4,
+          "similarity": {
+            "observed": 0.3321428571428572,
+            "null_mean": 0.390039599198015,
+            "null_sd": 0.08579230333261424,
+            "p_greater": 0.738,
+            "null_interval_95": [
+              0.24285714285714288,
+              0.5642857142857143
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f70v2:inner",
+          "n_edges": 7,
+          "similarity": {
+            "observed": 0.4404761904761904,
+            "null_mean": 0.35669408777612455,
+            "null_sd": 0.04828325808279749,
+            "p_greater": 0.0441,
+            "null_interval_95": [
+              0.26105442176870747,
+              0.4549319727891156
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f70v1:outer",
+          "n_edges": 4,
+          "similarity": {
+            "observed": 0.309640522875817,
+            "null_mean": 0.28618291801168916,
+            "null_sd": 0.04013226517737017,
+            "p_greater": 0.2791,
+            "null_interval_95": [
+              0.21437908496732025,
+              0.36817226890756305
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f71r:outer",
+          "n_edges": 7,
+          "similarity": {
+            "observed": 0.38010204081632654,
+            "null_mean": 0.43299375855952943,
+            "null_sd": 0.05057967503480634,
+            "p_greater": 0.8515,
+            "null_interval_95": [
+              0.3336479591836734,
+              0.5311224489795918
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f71r:inner",
+          "n_edges": 2,
+          "similarity": {
+            "observed": 0.30952380952380953,
+            "null_mean": 0.3541433508430208,
+            "null_sd": 0.03336507561783238,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.30952380952380953,
+              0.3888888888888889
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f71v:outer",
+          "n_edges": 4,
+          "similarity": {
+            "observed": 0.32657967032967034,
+            "null_mean": 0.24174369894254386,
+            "null_sd": 0.06911705708862179,
+            "p_greater": 0.1291,
+            "null_interval_95": [
+              0.13568376068376067,
+              0.3980082417582418
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f71v:inner",
+          "n_edges": 1,
+          "similarity": {
+            "observed": 0.5,
+            "null_mean": 0.3322832283228323,
+            "null_sd": 0.15562572493964993,
+            "p_greater": 0.3278,
+            "null_interval_95": [
+              0.125,
+              0.5
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r1:outer",
+          "n_edges": 2,
+          "similarity": {
+            "observed": 0.25,
+            "null_mean": 0.3275702570257026,
+            "null_sd": 0.0810100860978878,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.25,
+              0.4375
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r1:inner",
+          "n_edges": 5,
+          "similarity": {
+            "observed": 0.2638888888888889,
+            "null_mean": 0.27889372270560386,
+            "null_sd": 0.03816779539408026,
+            "p_greater": 0.752,
+            "null_interval_95": [
+              0.22103174603174605,
+              0.33611111111111114
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r2:outer",
+          "n_edges": 12,
+          "similarity": {
+            "observed": 0.4946759259259259,
+            "null_mean": 0.4269717613295721,
+            "null_sd": 0.03995969239221904,
+            "p_greater": 0.0501,
+            "null_interval_95": [
+              0.3521808862433863,
+              0.5087996031746032
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r2:inner",
+          "n_edges": 5,
+          "similarity": {
+            "observed": 0.27142857142857146,
+            "null_mean": 0.36292557827211297,
+            "null_sd": 0.07272928062842414,
+            "p_greater": 0.9072,
+            "null_interval_95": [
+              0.22380952380952382,
+              0.5142857142857142
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r3:outer",
+          "n_edges": 4,
+          "similarity": {
+            "observed": 0.29059829059829057,
+            "null_mean": 0.28192927101567966,
+            "null_sd": 0.07243199511527924,
+            "p_greater": 0.4386,
+            "null_interval_95": [
+              0.15015540015540016,
+              0.42579642579642574
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r3:middle",
+          "n_edges": 2,
+          "similarity": {
+            "observed": 0.35,
+            "null_mean": 0.2293910343415294,
+            "null_sd": 0.07978159228692666,
+            "p_greater": 0.0901,
+            "null_interval_95": [
+              0.09999999999999998,
+              0.35000000000000003
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r3:inner",
+          "n_edges": 2,
+          "similarity": {
+            "observed": 0.3333333333333333,
+            "null_mean": 0.19504450445044505,
+            "null_sd": 0.11923825432315328,
+            "p_greater": 0.2532,
+            "null_interval_95": [
+              0.0,
+              0.4166666666666667
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72v3:outer",
+          "n_edges": 3,
+          "similarity": {
+            "observed": 0.5555555555555556,
+            "null_mean": 0.4156534304224073,
+            "null_sd": 0.08152018568488448,
+            "p_greater": 0.0605,
+            "null_interval_95": [
+              0.2638888888888889,
+              0.5873015873015873
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72v3:inner",
+          "n_edges": 1,
+          "similarity": {
+            "observed": 0.1428571428571429,
+            "null_mean": 0.3631991770605632,
+            "null_sd": 0.19034560277998394,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.1428571428571429,
+              0.6
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72v2:outer",
+          "n_edges": 4,
+          "similarity": {
+            "observed": 0.5148809523809524,
+            "null_mean": 0.37876629924897254,
+            "null_sd": 0.07893568566708563,
+            "p_greater": 0.0434,
+            "null_interval_95": [
+              0.2217261904761905,
+              0.5357142857142857
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72v2:inner",
+          "n_edges": 5,
+          "similarity": {
+            "observed": 0.22095238095238093,
+            "null_mean": 0.29950366465217954,
+            "null_sd": 0.05789657560085695,
+            "p_greater": 0.9129,
+            "null_interval_95": [
+              0.1876190476190476,
+              0.419047619047619
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72v1:outer",
+          "n_edges": 11,
+          "similarity": {
+            "observed": 0.41255411255411256,
+            "null_mean": 0.32991703932297994,
+            "null_sd": 0.048264834214945956,
+            "p_greater": 0.049,
+            "null_interval_95": [
+              0.24025974025974028,
+              0.4277272727272724
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72v1:inner",
+          "n_edges": 6,
+          "similarity": {
+            "observed": 0.4515873015873016,
+            "null_mean": 0.4568004419489568,
+            "null_sd": 0.05409308368247922,
+            "p_greater": 0.5391,
+            "null_interval_95": [
+              0.3547619047619048,
+              0.5642857142857143
+            ],
+            "null_uninformative": false
+          }
+        }
+      ],
+      "mobility": [
+        {
+          "group": "f70v2:outer",
+          "n_accepted": 10,
+          "exchangeable_slots": 10,
+          "stratum_sizes": [
+            10
+          ]
+        },
+        {
+          "group": "f70v2:inner",
+          "n_accepted": 8,
+          "exchangeable_slots": 8,
+          "stratum_sizes": [
+            8
+          ]
+        },
+        {
+          "group": "f70v1:outer",
+          "n_accepted": 7,
+          "exchangeable_slots": 7,
+          "stratum_sizes": [
+            7
+          ]
+        },
+        {
+          "group": "f70v1:inner",
+          "n_accepted": 1,
+          "exchangeable_slots": 0,
+          "stratum_sizes": [
+            1
+          ]
+        },
+        {
+          "group": "f71r:outer",
+          "n_accepted": 8,
+          "exchangeable_slots": 8,
+          "stratum_sizes": [
+            8
+          ]
+        },
+        {
+          "group": "f71r:inner",
+          "n_accepted": 3,
+          "exchangeable_slots": 3,
+          "stratum_sizes": [
+            3
+          ]
+        },
+        {
+          "group": "f71v:outer",
+          "n_accepted": 7,
+          "exchangeable_slots": 7,
+          "stratum_sizes": [
+            7
+          ]
+        },
+        {
+          "group": "f71v:inner",
+          "n_accepted": 3,
+          "exchangeable_slots": 3,
+          "stratum_sizes": [
+            3
+          ]
+        },
+        {
+          "group": "f72r1:outer",
+          "n_accepted": 4,
+          "exchangeable_slots": 4,
+          "stratum_sizes": [
+            4
+          ]
+        },
+        {
+          "group": "f72r1:inner",
+          "n_accepted": 5,
+          "exchangeable_slots": 5,
+          "stratum_sizes": [
+            5
+          ]
+        },
+        {
+          "group": "f72r2:outer",
+          "n_accepted": 14,
+          "exchangeable_slots": 14,
+          "stratum_sizes": [
+            14
+          ]
+        },
+        {
+          "group": "f72r2:inner",
+          "n_accepted": 7,
+          "exchangeable_slots": 7,
+          "stratum_sizes": [
+            7
+          ]
+        },
+        {
+          "group": "f72r3:outer",
+          "n_accepted": 6,
+          "exchangeable_slots": 6,
+          "stratum_sizes": [
+            6
+          ]
+        },
+        {
+          "group": "f72r3:middle",
+          "n_accepted": 6,
+          "exchangeable_slots": 6,
+          "stratum_sizes": [
+            6
+          ]
+        },
+        {
+          "group": "f72r3:inner",
+          "n_accepted": 4,
+          "exchangeable_slots": 4,
+          "stratum_sizes": [
+            4
+          ]
+        },
+        {
+          "group": "f72v3:outer",
+          "n_accepted": 7,
+          "exchangeable_slots": 7,
+          "stratum_sizes": [
+            7
+          ]
+        },
+        {
+          "group": "f72v3:inner",
+          "n_accepted": 4,
+          "exchangeable_slots": 4,
+          "stratum_sizes": [
+            4
+          ]
+        },
+        {
+          "group": "f72v2:outer",
+          "n_accepted": 9,
+          "exchangeable_slots": 9,
+          "stratum_sizes": [
+            9
+          ]
+        },
+        {
+          "group": "f72v2:inner",
+          "n_accepted": 7,
+          "exchangeable_slots": 7,
+          "stratum_sizes": [
+            7
+          ]
+        },
+        {
+          "group": "f72v1:outer",
+          "n_accepted": 15,
+          "exchangeable_slots": 15,
+          "stratum_sizes": [
+            15
+          ]
+        },
+        {
+          "group": "f72v1:inner",
+          "n_accepted": 8,
+          "exchangeable_slots": 8,
+          "stratum_sizes": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "discovery",
+      "source": "ZL3b-n.txt",
+      "spacing": "split",
+      "null": "ring_length_bin",
+      "randomizations": 9999,
+      "n_primary_labels": 146,
+      "n_circular_groups": 21,
+      "n_ring_pairs": 10,
+      "excluded_ring_pairs": [
+        [
+          "f70v1:inner",
+          "f71r:inner"
+        ],
+        [
+          "f70v1:inner",
+          "f71v:inner"
+        ],
+        [
+          "f70v1:inner",
+          "f72r1:inner"
+        ],
+        [
+          "f71r:inner",
+          "f71v:inner"
+        ]
+      ],
+      "n_neighbour_edges": 91,
+      "primary_order": {
+        "observed": 0.43724344011108707,
+        "null_mean": 0.42841085445002164,
+        "null_sd": 0.010062222833831598,
+        "p_greater": 0.1938,
+        "null_interval_95": [
+          0.4090717914302473,
+          0.44837376403552875
+        ],
+        "null_uninformative": false,
+        "holm_p": 0.1938
+      },
+      "secondary_exact_order": {
+        "observed": 0.0,
+        "null_mean": 0.0,
+        "null_sd": 0.0,
+        "p_greater": 1.0,
+        "null_interval_95": [
+          0.0,
+          0.0
+        ],
+        "null_uninformative": true
+      },
+      "neighbour_similarity": {
+        "observed": 0.38021685991951026,
+        "null_mean": 0.35596781494704677,
+        "null_sd": 0.013245665568894546,
+        "p_greater": 0.0338,
+        "null_interval_95": [
+          0.32994211329860973,
+          0.3816735560998651
+        ],
+        "null_uninformative": false,
+        "holm_p": 0.0676
+      },
+      "pairs": [
+        {
+          "left": "f70v1:outer",
+          "right": "f71r:outer",
+          "slots": 10,
+          "eligible_phases": 20,
+          "best_phase": {
+            "direction": 1,
+            "shift": 6
+          },
+          "best_phase_support": 6,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.38884998443821966,
+            "null_mean": 0.401300938217071,
+            "null_sd": 0.0177268239252041,
+            "p_greater": 0.7526,
+            "null_interval_95": [
+              0.37071272953625894,
+              0.43951914098972916
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f70v1.2",
+              "right_locus": "f71r.8",
+              "left": "otalchy.tar.am.dy",
+              "right": "otalsar",
+              "similarity": 0.3529411764705882
+            },
+            {
+              "left_locus": "f70v1.5",
+              "right_locus": "f71r.11",
+              "left": "okalal",
+              "right": "otalaly",
+              "similarity": 0.7142857142857143
+            },
+            {
+              "left_locus": "f70v1.7",
+              "right_locus": "f71r.3",
+              "left": "oalcheg",
+              "right": "okldam",
+              "similarity": 0.2857142857142857
+            },
+            {
+              "left_locus": "f70v1.8",
+              "right_locus": "f71r.4",
+              "left": "otchodals",
+              "right": "oteoaldy",
+              "similarity": 0.4444444444444444
+            },
+            {
+              "left_locus": "f70v1.9",
+              "right_locus": "f71r.5",
+              "left": "okolshy",
+              "right": "oteolar",
+              "similarity": 0.2857142857142857
+            },
+            {
+              "left_locus": "f70v1.10",
+              "right_locus": "f71r.6",
+              "left": "otshshdy",
+              "right": "okeoaly",
+              "similarity": 0.25
+            }
+          ]
+        },
+        {
+          "left": "f70v1:outer",
+          "right": "f71v:outer",
+          "slots": 10,
+          "eligible_phases": 20,
+          "best_phase": {
+            "direction": -1,
+            "shift": 9
+          },
+          "best_phase_support": 6,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.4414547870430223,
+            "null_mean": 0.4113014944806507,
+            "null_sd": 0.03714944231113587,
+            "p_greater": 0.2211,
+            "null_interval_95": [
+              0.34921568627450983,
+              0.4916666666666667
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f70v1.2",
+              "right_locus": "f71v.11",
+              "left": "otalchy.tar.am.dy",
+              "right": "opalor.ar",
+              "similarity": 0.3529411764705882
+            },
+            {
+              "left_locus": "f70v1.3",
+              "right_locus": "f71v.10",
+              "left": "opchey.sal",
+              "right": "opalar.am.dan",
+              "similarity": 0.3076923076923077
+            },
+            {
+              "left_locus": "f70v1.5",
+              "right_locus": "f71v.8",
+              "left": "okalal",
+              "right": "okaraiin",
+              "similarity": 0.5
+            },
+            {
+              "left_locus": "f70v1.8",
+              "right_locus": "f71v.5",
+              "left": "otchodals",
+              "right": "otchody",
+              "similarity": 0.6666666666666667
+            },
+            {
+              "left_locus": "f70v1.9",
+              "right_locus": "f71v.4",
+              "left": "okolshy",
+              "right": "okolar",
+              "similarity": 0.5714285714285714
+            },
+            {
+              "left_locus": "f70v1.10",
+              "right_locus": "f71v.3",
+              "left": "otshshdy",
+              "right": "chfaly",
+              "similarity": 0.25
+            }
+          ]
+        },
+        {
+          "left": "f70v1:outer",
+          "right": "f72r1:outer",
+          "slots": 10,
+          "eligible_phases": 14,
+          "best_phase": {
+            "direction": 1,
+            "shift": 0
+          },
+          "best_phase_support": 3,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.4444444444444445,
+            "null_mean": 0.4284665931579153,
+            "null_sd": 0.04258811532672488,
+            "p_greater": 0.6622,
+            "null_interval_95": [
+              0.3666666666666667,
+              0.4705882352941176
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f70v1.5",
+              "right_locus": "f72r1.5",
+              "left": "okalal",
+              "right": "okalam",
+              "similarity": 0.8333333333333334
+            },
+            {
+              "left_locus": "f70v1.8",
+              "right_locus": "f72r1.8",
+              "left": "otchodals",
+              "right": "otaraldy",
+              "similarity": 0.33333333333333337
+            },
+            {
+              "left_locus": "f70v1.9",
+              "right_locus": "f72r1.9",
+              "left": "okolshy",
+              "right": "otaiin.otain",
+              "similarity": 0.16666666666666663
+            }
+          ]
+        },
+        {
+          "left": "f71r:outer",
+          "right": "f71v:outer",
+          "slots": 10,
+          "eligible_phases": 20,
+          "best_phase": {
+            "direction": -1,
+            "shift": 5
+          },
+          "best_phase_support": 6,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.4789021164021164,
+            "null_mean": 0.4112515677697196,
+            "null_sd": 0.022445767923296354,
+            "p_greater": 0.0064,
+            "null_interval_95": [
+              0.372985347985348,
+              0.45935083435083435
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f71r.2",
+              "right_locus": "f71v.7",
+              "left": "oteos.arar",
+              "right": "otaiin",
+              "similarity": 0.30000000000000004
+            },
+            {
+              "left_locus": "f71r.4",
+              "right_locus": "f71v.5",
+              "left": "oteoaldy",
+              "right": "otchody",
+              "similarity": 0.5
+            },
+            {
+              "left_locus": "f71r.5",
+              "right_locus": "f71v.4",
+              "left": "oteolar",
+              "right": "okolar",
+              "similarity": 0.7142857142857143
+            },
+            {
+              "left_locus": "f71r.6",
+              "right_locus": "f71v.3",
+              "left": "okeoaly",
+              "right": "chfaly",
+              "similarity": 0.4285714285714286
+            },
+            {
+              "left_locus": "f71r.8",
+              "right_locus": "f71v.11",
+              "left": "otalsar",
+              "right": "opalor.ar",
+              "similarity": 0.5555555555555556
+            },
+            {
+              "left_locus": "f71r.11",
+              "right_locus": "f71v.8",
+              "left": "otalaly",
+              "right": "okaraiin",
+              "similarity": 0.375
+            }
+          ]
+        },
+        {
+          "left": "f71r:outer",
+          "right": "f72r1:outer",
+          "slots": 10,
+          "eligible_phases": 16,
+          "best_phase": {
+            "direction": 1,
+            "shift": 4
+          },
+          "best_phase_support": 3,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.5515873015873016,
+            "null_mean": 0.5214660851005735,
+            "null_sd": 0.024226505920404002,
+            "p_greater": 0.1982,
+            "null_interval_95": [
+              0.4761904761904762,
+              0.5625
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f71r.4",
+              "right_locus": "f72r1.8",
+              "left": "oteoaldy",
+              "right": "otaraldy",
+              "similarity": 0.75
+            },
+            {
+              "left_locus": "f71r.5",
+              "right_locus": "f72r1.9",
+              "left": "oteolar",
+              "right": "otaiin.otain",
+              "similarity": 0.33333333333333337
+            },
+            {
+              "left_locus": "f71r.11",
+              "right_locus": "f72r1.5",
+              "left": "otalaly",
+              "right": "okalam",
+              "similarity": 0.5714285714285714
+            }
+          ]
+        },
+        {
+          "left": "f71r:inner",
+          "right": "f72r1:inner",
+          "slots": 5,
+          "eligible_phases": 10,
+          "best_phase": {
+            "direction": 1,
+            "shift": 4
+          },
+          "best_phase_support": 3,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.37896825396825395,
+            "null_mean": 0.37065154928191235,
+            "null_sd": 0.009301066018714712,
+            "p_greater": 0.4984,
+            "null_interval_95": [
+              0.34920634920634924,
+              0.37896825396825395
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f71r.14",
+              "right_locus": "f72r1.13",
+              "left": "otoloaram",
+              "right": "ofaralar",
+              "similarity": 0.33333333333333337
+            },
+            {
+              "left_locus": "f71r.15",
+              "right_locus": "f72r1.14",
+              "left": "oteeol",
+              "right": "otchoshy",
+              "similarity": 0.375
+            },
+            {
+              "left_locus": "f71r.16",
+              "right_locus": "f72r1.15",
+              "left": "otolchd",
+              "right": "otchdal",
+              "similarity": 0.4285714285714286
+            }
+          ]
+        },
+        {
+          "left": "f71v:outer",
+          "right": "f72r1:outer",
+          "slots": 10,
+          "eligible_phases": 12,
+          "best_phase": {
+            "direction": -1,
+            "shift": 2
+          },
+          "best_phase_support": 3,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.48148148148148145,
+            "null_mean": 0.46729513585261656,
+            "null_sd": 0.029639795205524802,
+            "p_greater": 0.4776,
+            "null_interval_95": [
+              0.4259259259259259,
+              0.5170940170940171
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f71v.7",
+              "right_locus": "f72r1.9",
+              "left": "otaiin",
+              "right": "otaiin.otain",
+              "similarity": 0.5
+            },
+            {
+              "left_locus": "f71v.8",
+              "right_locus": "f72r1.8",
+              "left": "okaraiin",
+              "right": "otaraldy",
+              "similarity": 0.5
+            },
+            {
+              "left_locus": "f71v.11",
+              "right_locus": "f72r1.5",
+              "left": "opalor.ar",
+              "right": "okalam",
+              "similarity": 0.4444444444444444
+            }
+          ]
+        },
+        {
+          "left": "f71v:inner",
+          "right": "f72r1:inner",
+          "slots": 5,
+          "eligible_phases": 10,
+          "best_phase": {
+            "direction": 1,
+            "shift": 3
+          },
+          "best_phase_support": 3,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.3988095238095238,
+            "null_mean": 0.3969347993000358,
+            "null_sd": 0.026806933672197927,
+            "p_greater": 0.6325,
+            "null_interval_95": [
+              0.3333333333333333,
+              0.44047619047619047
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f71v.14",
+              "right_locus": "f72r1.17",
+              "left": "otalody",
+              "right": "otainy",
+              "similarity": 0.5714285714285714
+            },
+            {
+              "left_locus": "f71v.15",
+              "right_locus": "f72r1.13",
+              "left": "otalaiin",
+              "right": "ofaralar",
+              "similarity": 0.375
+            },
+            {
+              "left_locus": "f71v.17",
+              "right_locus": "f72r1.15",
+              "left": "sholshdy",
+              "right": "otchdal",
+              "similarity": 0.25
+            }
+          ]
+        },
+        {
+          "left": "f72v3:outer",
+          "right": "f72v2:outer",
+          "slots": 18,
+          "eligible_phases": 30,
+          "best_phase": {
+            "direction": -1,
+            "shift": 16
+          },
+          "best_phase_support": 4,
+          "tied_best_phases": 2,
+          "edit_similarity": {
+            "observed": 0.4285714285714286,
+            "null_mean": 0.4690843489110816,
+            "null_sd": 0.0354763237057326,
+            "p_greater": 0.8882,
+            "null_interval_95": [
+              0.4047619047619048,
+              0.5476190476190476
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f72v3.4",
+              "right_locus": "f72v2.16",
+              "left": "okam",
+              "right": "okeoldy",
+              "similarity": 0.2857142857142857
+            },
+            {
+              "left_locus": "f72v3.5",
+              "right_locus": "f72v2.15",
+              "left": "okey",
+              "right": "okeody",
+              "similarity": 0.6666666666666667
+            },
+            {
+              "left_locus": "f72v3.16",
+              "right_locus": "f72v2.4",
+              "left": "okeeol",
+              "right": "okeoram",
+              "similarity": 0.4285714285714286
+            },
+            {
+              "left_locus": "f72v3.18",
+              "right_locus": "f72v2.2",
+              "left": "okaldy",
+              "right": "oeedey",
+              "similarity": 0.33333333333333337
+            }
+          ]
+        },
+        {
+          "left": "f72v3:inner",
+          "right": "f72v2:inner",
+          "slots": 12,
+          "eligible_phases": 10,
+          "best_phase": {
+            "direction": 1,
+            "shift": 8
+          },
+          "best_phase_support": 3,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.37936507936507935,
+            "null_mean": 0.4063560324286397,
+            "null_sd": 0.04785720567753512,
+            "p_greater": 0.6709,
+            "null_interval_95": [
+              0.33174603174603173,
+              0.5238095238095238
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f72v3.22",
+              "right_locus": "f72v2.30",
+              "left": "oky",
+              "right": "yteedy",
+              "similarity": 0.16666666666666663
+            },
+            {
+              "left_locus": "f72v3.27",
+              "right_locus": "f72v2.23",
+              "left": "okary",
+              "right": "oeedy",
+              "similarity": 0.4
+            },
+            {
+              "left_locus": "f72v3.31",
+              "right_locus": "f72v2.27",
+              "left": "otaly",
+              "right": "oeedaly",
+              "similarity": 0.5714285714285714
+            }
+          ]
+        }
+      ],
+      "rings": [
+        {
+          "group": "f70v2:outer",
+          "n_edges": 4,
+          "similarity": {
+            "observed": 0.3321428571428572,
+            "null_mean": 0.42504536167902507,
+            "null_sd": 0.07989207378582458,
+            "p_greater": 0.881,
+            "null_interval_95": [
+              0.2904761904761905,
+              0.588095238095238
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f70v2:inner",
+          "n_edges": 7,
+          "similarity": {
+            "observed": 0.4404761904761904,
+            "null_mean": 0.3630385997783452,
+            "null_sd": 0.04302774569393959,
+            "p_greater": 0.0395,
+            "null_interval_95": [
+              0.27891156462585037,
+              0.4430272108843537
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f70v1:outer",
+          "n_edges": 4,
+          "similarity": {
+            "observed": 0.309640522875817,
+            "null_mean": 0.2962740870258828,
+            "null_sd": 0.03707877260173236,
+            "p_greater": 0.3852,
+            "null_interval_95": [
+              0.23602941176470585,
+              0.3720588235294118
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f71r:outer",
+          "n_edges": 7,
+          "similarity": {
+            "observed": 0.38010204081632654,
+            "null_mean": 0.418328516525122,
+            "null_sd": 0.04850388911375411,
+            "p_greater": 0.7875,
+            "null_interval_95": [
+              0.31887755102040816,
+              0.5091836734693878
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f71r:inner",
+          "n_edges": 2,
+          "similarity": {
+            "observed": 0.30952380952380953,
+            "null_mean": 0.3095238095238094,
+            "null_sd": 1.1102785454925744e-16,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.30952380952380953,
+              0.30952380952380953
+            ],
+            "null_uninformative": true
+          }
+        },
+        {
+          "group": "f71v:outer",
+          "n_edges": 4,
+          "similarity": {
+            "observed": 0.32657967032967034,
+            "null_mean": 0.24952223549583286,
+            "null_sd": 0.06396360983773736,
+            "p_greater": 0.1367,
+            "null_interval_95": [
+              0.12526709401709402,
+              0.4039606227106227
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f71v:inner",
+          "n_edges": 1,
+          "similarity": {
+            "observed": 0.5,
+            "null_mean": 0.3315081508150815,
+            "null_sd": 0.15717077094300524,
+            "p_greater": 0.3354,
+            "null_interval_95": [
+              0.125,
+              0.5
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r1:outer",
+          "n_edges": 2,
+          "similarity": {
+            "observed": 0.25,
+            "null_mean": 0.27145631229789646,
+            "null_sd": 0.02082505816629373,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.25,
+              0.2916666666666667
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r1:inner",
+          "n_edges": 5,
+          "similarity": {
+            "observed": 0.2638888888888889,
+            "null_mean": 0.2781809927024449,
+            "null_sd": 0.03834354950228745,
+            "p_greater": 0.7434,
+            "null_interval_95": [
+              0.22103174603174605,
+              0.33611111111111114
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r2:outer",
+          "n_edges": 12,
+          "similarity": {
+            "observed": 0.4946759259259259,
+            "null_mean": 0.4364399402903254,
+            "null_sd": 0.03498762434049112,
+            "p_greater": 0.0496,
+            "null_interval_95": [
+              0.3670866402116403,
+              0.5030191798941798
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r2:inner",
+          "n_edges": 5,
+          "similarity": {
+            "observed": 0.27142857142857146,
+            "null_mean": 0.3078798356026079,
+            "null_sd": 0.05800232576111121,
+            "p_greater": 0.7486,
+            "null_interval_95": [
+              0.18571428571428572,
+              0.40476190476190477
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r3:outer",
+          "n_edges": 4,
+          "similarity": {
+            "observed": 0.29059829059829057,
+            "null_mean": 0.2866138400941881,
+            "null_sd": 0.06798057578458203,
+            "p_greater": 0.5329,
+            "null_interval_95": [
+              0.16433566433566432,
+              0.43628593628593626
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r3:middle",
+          "n_edges": 2,
+          "similarity": {
+            "observed": 0.35,
+            "null_mean": 0.35000000000000003,
+            "null_sd": 5.551392727462872e-17,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.35,
+              0.35
+            ],
+            "null_uninformative": true
+          }
+        },
+        {
+          "group": "f72r3:inner",
+          "n_edges": 2,
+          "similarity": {
+            "observed": 0.3333333333333333,
+            "null_mean": 0.19776144281094774,
+            "null_sd": 0.11924216625329664,
+            "p_greater": 0.2577,
+            "null_interval_95": [
+              0.0,
+              0.4166666666666667
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72v3:outer",
+          "n_edges": 3,
+          "similarity": {
+            "observed": 0.5555555555555556,
+            "null_mean": 0.49846651331799857,
+            "null_sd": 0.07909682245593816,
+            "p_greater": 0.6575,
+            "null_interval_95": [
+              0.3888888888888889,
+              0.5555555555555557
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72v3:inner",
+          "n_edges": 1,
+          "similarity": {
+            "observed": 0.1428571428571429,
+            "null_mean": 0.1428571428571429,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.1428571428571429,
+              0.1428571428571429
+            ],
+            "null_uninformative": true
+          }
+        },
+        {
+          "group": "f72v2:outer",
+          "n_edges": 4,
+          "similarity": {
+            "observed": 0.5148809523809524,
+            "null_mean": 0.3571480659970759,
+            "null_sd": 0.08766093226170238,
+            "p_greater": 0.0417,
+            "null_interval_95": [
+              0.18154761904761907,
+              0.5238095238095237
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72v2:inner",
+          "n_edges": 5,
+          "similarity": {
+            "observed": 0.22095238095238093,
+            "null_mean": 0.28899337552802895,
+            "null_sd": 0.05707797186951399,
+            "p_greater": 0.9067,
+            "null_interval_95": [
+              0.17619047619047618,
+              0.40476190476190477
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72v1:outer",
+          "n_edges": 11,
+          "similarity": {
+            "observed": 0.41255411255411256,
+            "null_mean": 0.33356694976856993,
+            "null_sd": 0.04613972020248081,
+            "p_greater": 0.0509,
+            "null_interval_95": [
+              0.2506493506493506,
+              0.42943722943722945
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72v1:inner",
+          "n_edges": 6,
+          "similarity": {
+            "observed": 0.4515873015873016,
+            "null_mean": 0.492675378648976,
+            "null_sd": 0.044233312350134654,
+            "p_greater": 0.8504,
+            "null_interval_95": [
+              0.41269841269841273,
+              0.580952380952381
+            ],
+            "null_uninformative": false
+          }
+        }
+      ],
+      "mobility": [
+        {
+          "group": "f70v2:outer",
+          "n_accepted": 10,
+          "exchangeable_slots": 9,
+          "stratum_sizes": [
+            2,
+            1,
+            7
+          ]
+        },
+        {
+          "group": "f70v2:inner",
+          "n_accepted": 8,
+          "exchangeable_slots": 8,
+          "stratum_sizes": [
+            4,
+            4
+          ]
+        },
+        {
+          "group": "f70v1:outer",
+          "n_accepted": 7,
+          "exchangeable_slots": 6,
+          "stratum_sizes": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "group": "f70v1:inner",
+          "n_accepted": 1,
+          "exchangeable_slots": 0,
+          "stratum_sizes": [
+            1
+          ]
+        },
+        {
+          "group": "f71r:outer",
+          "n_accepted": 8,
+          "exchangeable_slots": 6,
+          "stratum_sizes": [
+            1,
+            1,
+            6
+          ]
+        },
+        {
+          "group": "f71r:inner",
+          "n_accepted": 3,
+          "exchangeable_slots": 0,
+          "stratum_sizes": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "group": "f71v:outer",
+          "n_accepted": 7,
+          "exchangeable_slots": 6,
+          "stratum_sizes": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "group": "f71v:inner",
+          "n_accepted": 3,
+          "exchangeable_slots": 3,
+          "stratum_sizes": [
+            3
+          ]
+        },
+        {
+          "group": "f72r1:outer",
+          "n_accepted": 4,
+          "exchangeable_slots": 2,
+          "stratum_sizes": [
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "group": "f72r1:inner",
+          "n_accepted": 5,
+          "exchangeable_slots": 4,
+          "stratum_sizes": [
+            4,
+            1
+          ]
+        },
+        {
+          "group": "f72r2:outer",
+          "n_accepted": 14,
+          "exchangeable_slots": 13,
+          "stratum_sizes": [
+            4,
+            6,
+            3,
+            1
+          ]
+        },
+        {
+          "group": "f72r2:inner",
+          "n_accepted": 7,
+          "exchangeable_slots": 6,
+          "stratum_sizes": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "group": "f72r3:outer",
+          "n_accepted": 6,
+          "exchangeable_slots": 4,
+          "stratum_sizes": [
+            4,
+            1,
+            1
+          ]
+        },
+        {
+          "group": "f72r3:middle",
+          "n_accepted": 6,
+          "exchangeable_slots": 4,
+          "stratum_sizes": [
+            1,
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "group": "f72r3:inner",
+          "n_accepted": 4,
+          "exchangeable_slots": 4,
+          "stratum_sizes": [
+            4
+          ]
+        },
+        {
+          "group": "f72v3:outer",
+          "n_accepted": 7,
+          "exchangeable_slots": 7,
+          "stratum_sizes": [
+            2,
+            2,
+            3
+          ]
+        },
+        {
+          "group": "f72v3:inner",
+          "n_accepted": 4,
+          "exchangeable_slots": 2,
+          "stratum_sizes": [
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "group": "f72v2:outer",
+          "n_accepted": 9,
+          "exchangeable_slots": 9,
+          "stratum_sizes": [
+            4,
+            5
+          ]
+        },
+        {
+          "group": "f72v2:inner",
+          "n_accepted": 7,
+          "exchangeable_slots": 7,
+          "stratum_sizes": [
+            5,
+            2
+          ]
+        },
+        {
+          "group": "f72v1:outer",
+          "n_accepted": 15,
+          "exchangeable_slots": 15,
+          "stratum_sizes": [
+            11,
+            2,
+            2
+          ]
+        },
+        {
+          "group": "f72v1:inner",
+          "n_accepted": 8,
+          "exchangeable_slots": 6,
+          "stratum_sizes": [
+            6,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "discovery",
+      "source": "ZL3b-n.txt",
+      "spacing": "join",
+      "null": "ring",
+      "randomizations": 9999,
+      "n_primary_labels": 146,
+      "n_circular_groups": 21,
+      "n_ring_pairs": 10,
+      "excluded_ring_pairs": [
+        [
+          "f70v1:inner",
+          "f71r:inner"
+        ],
+        [
+          "f70v1:inner",
+          "f71v:inner"
+        ],
+        [
+          "f70v1:inner",
+          "f72r1:inner"
+        ],
+        [
+          "f71r:inner",
+          "f71v:inner"
+        ]
+      ],
+      "n_neighbour_edges": 91,
+      "primary_order": {
+        "observed": 0.43724344011108707,
+        "null_mean": 0.43036280111168485,
+        "null_sd": 0.010724970163245428,
+        "p_greater": 0.2558,
+        "null_interval_95": [
+          0.4097236257750963,
+          0.45197410609542965
+        ],
+        "null_uninformative": false,
+        "holm_p": 0.2558
+      },
+      "secondary_exact_order": {
+        "observed": 0.0,
+        "null_mean": 0.0,
+        "null_sd": 0.0,
+        "p_greater": 1.0,
+        "null_interval_95": [
+          0.0,
+          0.0
+        ],
+        "null_uninformative": true
+      },
+      "neighbour_similarity": {
+        "observed": 0.38159920773042943,
+        "null_mean": 0.3546695451775229,
+        "null_sd": 0.014453915891417852,
+        "p_greater": 0.0325,
+        "null_interval_95": [
+          0.32625286307817014,
+          0.3830886496610479
+        ],
+        "null_uninformative": false,
+        "holm_p": 0.065
+      },
+      "pairs": [
+        {
+          "left": "f70v1:outer",
+          "right": "f71r:outer",
+          "slots": 10,
+          "eligible_phases": 20,
+          "best_phase": {
+            "direction": 1,
+            "shift": 6
+          },
+          "best_phase_support": 6,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.38884998443821966,
+            "null_mean": 0.40246907183715575,
+            "null_sd": 0.019418171304809637,
+            "p_greater": 0.7343,
+            "null_interval_95": [
+              0.3702357609710551,
+              0.44603174603174606
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f70v1.2",
+              "right_locus": "f71r.8",
+              "left": "otalchy.tar.am.dy",
+              "right": "otalsar",
+              "similarity": 0.3529411764705882
+            },
+            {
+              "left_locus": "f70v1.5",
+              "right_locus": "f71r.11",
+              "left": "okalal",
+              "right": "otalaly",
+              "similarity": 0.7142857142857143
+            },
+            {
+              "left_locus": "f70v1.7",
+              "right_locus": "f71r.3",
+              "left": "oalcheg",
+              "right": "okldam",
+              "similarity": 0.2857142857142857
+            },
+            {
+              "left_locus": "f70v1.8",
+              "right_locus": "f71r.4",
+              "left": "otchodals",
+              "right": "oteoaldy",
+              "similarity": 0.4444444444444444
+            },
+            {
+              "left_locus": "f70v1.9",
+              "right_locus": "f71r.5",
+              "left": "okolshy",
+              "right": "oteolar",
+              "similarity": 0.2857142857142857
+            },
+            {
+              "left_locus": "f70v1.10",
+              "right_locus": "f71r.6",
+              "left": "otshshdy",
+              "right": "okeoaly",
+              "similarity": 0.25
+            }
+          ]
+        },
+        {
+          "left": "f70v1:outer",
+          "right": "f71v:outer",
+          "slots": 10,
+          "eligible_phases": 20,
+          "best_phase": {
+            "direction": -1,
+            "shift": 9
+          },
+          "best_phase_support": 6,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.4414547870430223,
+            "null_mean": 0.4092240708814352,
+            "null_sd": 0.03749279199806964,
+            "p_greater": 0.1843,
+            "null_interval_95": [
+              0.34850572793219853,
+              0.49421568627450974
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f70v1.2",
+              "right_locus": "f71v.11",
+              "left": "otalchy.tar.am.dy",
+              "right": "opalor.ar",
+              "similarity": 0.3529411764705882
+            },
+            {
+              "left_locus": "f70v1.3",
+              "right_locus": "f71v.10",
+              "left": "opchey.sal",
+              "right": "opalar.am.dan",
+              "similarity": 0.3076923076923077
+            },
+            {
+              "left_locus": "f70v1.5",
+              "right_locus": "f71v.8",
+              "left": "okalal",
+              "right": "okaraiin",
+              "similarity": 0.5
+            },
+            {
+              "left_locus": "f70v1.8",
+              "right_locus": "f71v.5",
+              "left": "otchodals",
+              "right": "otchody",
+              "similarity": 0.6666666666666667
+            },
+            {
+              "left_locus": "f70v1.9",
+              "right_locus": "f71v.4",
+              "left": "okolshy",
+              "right": "okolar",
+              "similarity": 0.5714285714285714
+            },
+            {
+              "left_locus": "f70v1.10",
+              "right_locus": "f71v.3",
+              "left": "otshshdy",
+              "right": "chfaly",
+              "similarity": 0.25
+            }
+          ]
+        },
+        {
+          "left": "f70v1:outer",
+          "right": "f72r1:outer",
+          "slots": 10,
+          "eligible_phases": 14,
+          "best_phase": {
+            "direction": 1,
+            "shift": 0
+          },
+          "best_phase_support": 3,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.4444444444444445,
+            "null_mean": 0.45160756699697363,
+            "null_sd": 0.04428137342604182,
+            "p_greater": 0.5723,
+            "null_interval_95": [
+              0.3666666666666667,
+              0.5555555555555556
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f70v1.5",
+              "right_locus": "f72r1.5",
+              "left": "okalal",
+              "right": "okalam",
+              "similarity": 0.8333333333333334
+            },
+            {
+              "left_locus": "f70v1.8",
+              "right_locus": "f72r1.8",
+              "left": "otchodals",
+              "right": "otaraldy",
+              "similarity": 0.33333333333333337
+            },
+            {
+              "left_locus": "f70v1.9",
+              "right_locus": "f72r1.9",
+              "left": "okolshy",
+              "right": "otaiin.otain",
+              "similarity": 0.16666666666666663
+            }
+          ]
+        },
+        {
+          "left": "f71r:outer",
+          "right": "f71v:outer",
+          "slots": 10,
+          "eligible_phases": 20,
+          "best_phase": {
+            "direction": -1,
+            "shift": 5
+          },
+          "best_phase_support": 6,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.4789021164021164,
+            "null_mean": 0.41409192374263887,
+            "null_sd": 0.024504794253374915,
+            "p_greater": 0.0135,
+            "null_interval_95": [
+              0.37334656084656087,
+              0.4692857142857143
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f71r.2",
+              "right_locus": "f71v.7",
+              "left": "oteos.arar",
+              "right": "otaiin",
+              "similarity": 0.30000000000000004
+            },
+            {
+              "left_locus": "f71r.4",
+              "right_locus": "f71v.5",
+              "left": "oteoaldy",
+              "right": "otchody",
+              "similarity": 0.5
+            },
+            {
+              "left_locus": "f71r.5",
+              "right_locus": "f71v.4",
+              "left": "oteolar",
+              "right": "okolar",
+              "similarity": 0.7142857142857143
+            },
+            {
+              "left_locus": "f71r.6",
+              "right_locus": "f71v.3",
+              "left": "okeoaly",
+              "right": "chfaly",
+              "similarity": 0.4285714285714286
+            },
+            {
+              "left_locus": "f71r.8",
+              "right_locus": "f71v.11",
+              "left": "otalsar",
+              "right": "opalor.ar",
+              "similarity": 0.5555555555555556
+            },
+            {
+              "left_locus": "f71r.11",
+              "right_locus": "f71v.8",
+              "left": "otalaly",
+              "right": "okaraiin",
+              "similarity": 0.375
+            }
+          ]
+        },
+        {
+          "left": "f71r:outer",
+          "right": "f72r1:outer",
+          "slots": 10,
+          "eligible_phases": 16,
+          "best_phase": {
+            "direction": 1,
+            "shift": 4
+          },
+          "best_phase_support": 3,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.5515873015873016,
+            "null_mean": 0.5158054992007137,
+            "null_sd": 0.035794403494173926,
+            "p_greater": 0.2103,
+            "null_interval_95": [
+              0.4571428571428572,
+              0.5833333333333334
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f71r.4",
+              "right_locus": "f72r1.8",
+              "left": "oteoaldy",
+              "right": "otaraldy",
+              "similarity": 0.75
+            },
+            {
+              "left_locus": "f71r.5",
+              "right_locus": "f72r1.9",
+              "left": "oteolar",
+              "right": "otaiin.otain",
+              "similarity": 0.33333333333333337
+            },
+            {
+              "left_locus": "f71r.11",
+              "right_locus": "f72r1.5",
+              "left": "otalaly",
+              "right": "okalam",
+              "similarity": 0.5714285714285714
+            }
+          ]
+        },
+        {
+          "left": "f71r:inner",
+          "right": "f72r1:inner",
+          "slots": 5,
+          "eligible_phases": 10,
+          "best_phase": {
+            "direction": 1,
+            "shift": 4
+          },
+          "best_phase_support": 3,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.37896825396825395,
+            "null_mean": 0.36988440907582826,
+            "null_sd": 0.009318779959511829,
+            "p_greater": 0.4459,
+            "null_interval_95": [
+              0.34722222222222227,
+              0.37896825396825395
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f71r.14",
+              "right_locus": "f72r1.13",
+              "left": "otoloaram",
+              "right": "ofaralar",
+              "similarity": 0.33333333333333337
+            },
+            {
+              "left_locus": "f71r.15",
+              "right_locus": "f72r1.14",
+              "left": "oteeol",
+              "right": "otchoshy",
+              "similarity": 0.375
+            },
+            {
+              "left_locus": "f71r.16",
+              "right_locus": "f72r1.15",
+              "left": "otolchd",
+              "right": "otchdal",
+              "similarity": 0.4285714285714286
+            }
+          ]
+        },
+        {
+          "left": "f71v:outer",
+          "right": "f72r1:outer",
+          "slots": 10,
+          "eligible_phases": 12,
+          "best_phase": {
+            "direction": -1,
+            "shift": 2
+          },
+          "best_phase_support": 3,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.48148148148148145,
+            "null_mean": 0.449317193115323,
+            "null_sd": 0.03612231823076835,
+            "p_greater": 0.1957,
+            "null_interval_95": [
+              0.3917378917378917,
+              0.5222222222222223
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f71v.7",
+              "right_locus": "f72r1.9",
+              "left": "otaiin",
+              "right": "otaiin.otain",
+              "similarity": 0.5
+            },
+            {
+              "left_locus": "f71v.8",
+              "right_locus": "f72r1.8",
+              "left": "okaraiin",
+              "right": "otaraldy",
+              "similarity": 0.5
+            },
+            {
+              "left_locus": "f71v.11",
+              "right_locus": "f72r1.5",
+              "left": "opalor.ar",
+              "right": "okalam",
+              "similarity": 0.4444444444444444
+            }
+          ]
+        },
+        {
+          "left": "f71v:inner",
+          "right": "f72r1:inner",
+          "slots": 5,
+          "eligible_phases": 10,
+          "best_phase": {
+            "direction": 1,
+            "shift": 3
+          },
+          "best_phase_support": 3,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.3988095238095238,
+            "null_mean": 0.39728304841066114,
+            "null_sd": 0.026755614086025965,
+            "p_greater": 0.6392,
+            "null_interval_95": [
+              0.3333333333333333,
+              0.44047619047619047
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f71v.14",
+              "right_locus": "f72r1.17",
+              "left": "otalody",
+              "right": "otainy",
+              "similarity": 0.5714285714285714
+            },
+            {
+              "left_locus": "f71v.15",
+              "right_locus": "f72r1.13",
+              "left": "otalaiin",
+              "right": "ofaralar",
+              "similarity": 0.375
+            },
+            {
+              "left_locus": "f71v.17",
+              "right_locus": "f72r1.15",
+              "left": "sholshdy",
+              "right": "otchdal",
+              "similarity": 0.25
+            }
+          ]
+        },
+        {
+          "left": "f72v3:outer",
+          "right": "f72v2:outer",
+          "slots": 18,
+          "eligible_phases": 30,
+          "best_phase": {
+            "direction": -1,
+            "shift": 16
+          },
+          "best_phase_support": 4,
+          "tied_best_phases": 2,
+          "edit_similarity": {
+            "observed": 0.4285714285714286,
+            "null_mean": 0.479753014984038,
+            "null_sd": 0.0389838507986111,
+            "p_greater": 0.9395,
+            "null_interval_95": [
+              0.41369047619047616,
+              0.5773809523809523
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f72v3.4",
+              "right_locus": "f72v2.16",
+              "left": "okam",
+              "right": "okeoldy",
+              "similarity": 0.2857142857142857
+            },
+            {
+              "left_locus": "f72v3.5",
+              "right_locus": "f72v2.15",
+              "left": "okey",
+              "right": "okeody",
+              "similarity": 0.6666666666666667
+            },
+            {
+              "left_locus": "f72v3.16",
+              "right_locus": "f72v2.4",
+              "left": "okeeol",
+              "right": "okeoram",
+              "similarity": 0.4285714285714286
+            },
+            {
+              "left_locus": "f72v3.18",
+              "right_locus": "f72v2.2",
+              "left": "okaldy",
+              "right": "oeedey",
+              "similarity": 0.33333333333333337
+            }
+          ]
+        },
+        {
+          "left": "f72v3:inner",
+          "right": "f72v2:inner",
+          "slots": 12,
+          "eligible_phases": 10,
+          "best_phase": {
+            "direction": 1,
+            "shift": 8
+          },
+          "best_phase_support": 3,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.37936507936507935,
+            "null_mean": 0.41419221287208086,
+            "null_sd": 0.04834345682374049,
+            "p_greater": 0.7667,
+            "null_interval_95": [
+              0.3333333333333333,
+              0.5111111111111111
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f72v3.22",
+              "right_locus": "f72v2.30",
+              "left": "oky",
+              "right": "yteedy",
+              "similarity": 0.16666666666666663
+            },
+            {
+              "left_locus": "f72v3.27",
+              "right_locus": "f72v2.23",
+              "left": "okary",
+              "right": "oeedy",
+              "similarity": 0.4
+            },
+            {
+              "left_locus": "f72v3.31",
+              "right_locus": "f72v2.27",
+              "left": "otaly",
+              "right": "oeedaly",
+              "similarity": 0.5714285714285714
+            }
+          ]
+        }
+      ],
+      "rings": [
+        {
+          "group": "f70v2:outer",
+          "n_edges": 4,
+          "similarity": {
+            "observed": 0.3321428571428572,
+            "null_mean": 0.390039599198015,
+            "null_sd": 0.08579230333261424,
+            "p_greater": 0.738,
+            "null_interval_95": [
+              0.24285714285714288,
+              0.5642857142857143
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f70v2:inner",
+          "n_edges": 7,
+          "similarity": {
+            "observed": 0.4404761904761904,
+            "null_mean": 0.35669408777612455,
+            "null_sd": 0.04828325808279749,
+            "p_greater": 0.0441,
+            "null_interval_95": [
+              0.26105442176870747,
+              0.4549319727891156
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f70v1:outer",
+          "n_edges": 4,
+          "similarity": {
+            "observed": 0.309640522875817,
+            "null_mean": 0.28618291801168916,
+            "null_sd": 0.04013226517737017,
+            "p_greater": 0.2791,
+            "null_interval_95": [
+              0.21437908496732025,
+              0.36817226890756305
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f71r:outer",
+          "n_edges": 7,
+          "similarity": {
+            "observed": 0.38010204081632654,
+            "null_mean": 0.43299375855952943,
+            "null_sd": 0.05057967503480634,
+            "p_greater": 0.8515,
+            "null_interval_95": [
+              0.3336479591836734,
+              0.5311224489795918
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f71r:inner",
+          "n_edges": 2,
+          "similarity": {
+            "observed": 0.30952380952380953,
+            "null_mean": 0.3541433508430208,
+            "null_sd": 0.03336507561783238,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.30952380952380953,
+              0.3888888888888889
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f71v:outer",
+          "n_edges": 4,
+          "similarity": {
+            "observed": 0.32657967032967034,
+            "null_mean": 0.24174369894254386,
+            "null_sd": 0.06911705708862179,
+            "p_greater": 0.1291,
+            "null_interval_95": [
+              0.13568376068376067,
+              0.3980082417582418
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f71v:inner",
+          "n_edges": 1,
+          "similarity": {
+            "observed": 0.5,
+            "null_mean": 0.3322832283228323,
+            "null_sd": 0.15562572493964993,
+            "p_greater": 0.3278,
+            "null_interval_95": [
+              0.125,
+              0.5
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r1:outer",
+          "n_edges": 2,
+          "similarity": {
+            "observed": 0.275,
+            "null_mean": 0.3467196719671968,
+            "null_sd": 0.06849742808006094,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.275,
+              0.4375
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r1:inner",
+          "n_edges": 5,
+          "similarity": {
+            "observed": 0.2638888888888889,
+            "null_mean": 0.27889372270560386,
+            "null_sd": 0.03816779539408026,
+            "p_greater": 0.752,
+            "null_interval_95": [
+              0.22103174603174605,
+              0.33611111111111114
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r2:outer",
+          "n_edges": 12,
+          "similarity": {
+            "observed": 0.49914021164021166,
+            "null_mean": 0.4305331459071833,
+            "null_sd": 0.039743536674866985,
+            "p_greater": 0.0485,
+            "null_interval_95": [
+              0.35638062169312174,
+              0.5129960317460317
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r2:inner",
+          "n_edges": 5,
+          "similarity": {
+            "observed": 0.27142857142857146,
+            "null_mean": 0.36292557827211297,
+            "null_sd": 0.07272928062842414,
+            "p_greater": 0.9072,
+            "null_interval_95": [
+              0.22380952380952382,
+              0.5142857142857142
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r3:outer",
+          "n_edges": 4,
+          "similarity": {
+            "observed": 0.29059829059829057,
+            "null_mean": 0.2762273022174012,
+            "null_sd": 0.06954801411860423,
+            "p_greater": 0.4154,
+            "null_interval_95": [
+              0.14893162393162393,
+              0.4110576923076923
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r3:middle",
+          "n_edges": 2,
+          "similarity": {
+            "observed": 0.3611111111111111,
+            "null_mean": 0.23905700093818902,
+            "null_sd": 0.0797769074821263,
+            "p_greater": 0.0466,
+            "null_interval_95": [
+              0.09999999999999998,
+              0.3611111111111111
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r3:inner",
+          "n_edges": 2,
+          "similarity": {
+            "observed": 0.3333333333333333,
+            "null_mean": 0.19504450445044505,
+            "null_sd": 0.11923825432315328,
+            "p_greater": 0.2532,
+            "null_interval_95": [
+              0.0,
+              0.4166666666666667
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72v3:outer",
+          "n_edges": 3,
+          "similarity": {
+            "observed": 0.5555555555555556,
+            "null_mean": 0.4156534304224073,
+            "null_sd": 0.08152018568488448,
+            "p_greater": 0.0605,
+            "null_interval_95": [
+              0.2638888888888889,
+              0.5873015873015873
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72v3:inner",
+          "n_edges": 1,
+          "similarity": {
+            "observed": 0.1428571428571429,
+            "null_mean": 0.3631991770605632,
+            "null_sd": 0.19034560277998394,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.1428571428571429,
+              0.6
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72v2:outer",
+          "n_edges": 4,
+          "similarity": {
+            "observed": 0.5148809523809524,
+            "null_mean": 0.37876629924897254,
+            "null_sd": 0.07893568566708563,
+            "p_greater": 0.0434,
+            "null_interval_95": [
+              0.2217261904761905,
+              0.5357142857142857
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72v2:inner",
+          "n_edges": 5,
+          "similarity": {
+            "observed": 0.22095238095238093,
+            "null_mean": 0.29950366465217954,
+            "null_sd": 0.05789657560085695,
+            "p_greater": 0.9129,
+            "null_interval_95": [
+              0.1876190476190476,
+              0.419047619047619
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72v1:outer",
+          "n_edges": 11,
+          "similarity": {
+            "observed": 0.41255411255411256,
+            "null_mean": 0.32991703932297994,
+            "null_sd": 0.048264834214945956,
+            "p_greater": 0.049,
+            "null_interval_95": [
+              0.24025974025974028,
+              0.4277272727272724
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72v1:inner",
+          "n_edges": 6,
+          "similarity": {
+            "observed": 0.4515873015873016,
+            "null_mean": 0.4568004419489568,
+            "null_sd": 0.05409308368247922,
+            "p_greater": 0.5391,
+            "null_interval_95": [
+              0.3547619047619048,
+              0.5642857142857143
+            ],
+            "null_uninformative": false
+          }
+        }
+      ],
+      "mobility": [
+        {
+          "group": "f70v2:outer",
+          "n_accepted": 10,
+          "exchangeable_slots": 10,
+          "stratum_sizes": [
+            10
+          ]
+        },
+        {
+          "group": "f70v2:inner",
+          "n_accepted": 8,
+          "exchangeable_slots": 8,
+          "stratum_sizes": [
+            8
+          ]
+        },
+        {
+          "group": "f70v1:outer",
+          "n_accepted": 7,
+          "exchangeable_slots": 7,
+          "stratum_sizes": [
+            7
+          ]
+        },
+        {
+          "group": "f70v1:inner",
+          "n_accepted": 1,
+          "exchangeable_slots": 0,
+          "stratum_sizes": [
+            1
+          ]
+        },
+        {
+          "group": "f71r:outer",
+          "n_accepted": 8,
+          "exchangeable_slots": 8,
+          "stratum_sizes": [
+            8
+          ]
+        },
+        {
+          "group": "f71r:inner",
+          "n_accepted": 3,
+          "exchangeable_slots": 3,
+          "stratum_sizes": [
+            3
+          ]
+        },
+        {
+          "group": "f71v:outer",
+          "n_accepted": 7,
+          "exchangeable_slots": 7,
+          "stratum_sizes": [
+            7
+          ]
+        },
+        {
+          "group": "f71v:inner",
+          "n_accepted": 3,
+          "exchangeable_slots": 3,
+          "stratum_sizes": [
+            3
+          ]
+        },
+        {
+          "group": "f72r1:outer",
+          "n_accepted": 4,
+          "exchangeable_slots": 4,
+          "stratum_sizes": [
+            4
+          ]
+        },
+        {
+          "group": "f72r1:inner",
+          "n_accepted": 5,
+          "exchangeable_slots": 5,
+          "stratum_sizes": [
+            5
+          ]
+        },
+        {
+          "group": "f72r2:outer",
+          "n_accepted": 14,
+          "exchangeable_slots": 14,
+          "stratum_sizes": [
+            14
+          ]
+        },
+        {
+          "group": "f72r2:inner",
+          "n_accepted": 7,
+          "exchangeable_slots": 7,
+          "stratum_sizes": [
+            7
+          ]
+        },
+        {
+          "group": "f72r3:outer",
+          "n_accepted": 6,
+          "exchangeable_slots": 6,
+          "stratum_sizes": [
+            6
+          ]
+        },
+        {
+          "group": "f72r3:middle",
+          "n_accepted": 6,
+          "exchangeable_slots": 6,
+          "stratum_sizes": [
+            6
+          ]
+        },
+        {
+          "group": "f72r3:inner",
+          "n_accepted": 4,
+          "exchangeable_slots": 4,
+          "stratum_sizes": [
+            4
+          ]
+        },
+        {
+          "group": "f72v3:outer",
+          "n_accepted": 7,
+          "exchangeable_slots": 7,
+          "stratum_sizes": [
+            7
+          ]
+        },
+        {
+          "group": "f72v3:inner",
+          "n_accepted": 4,
+          "exchangeable_slots": 4,
+          "stratum_sizes": [
+            4
+          ]
+        },
+        {
+          "group": "f72v2:outer",
+          "n_accepted": 9,
+          "exchangeable_slots": 9,
+          "stratum_sizes": [
+            9
+          ]
+        },
+        {
+          "group": "f72v2:inner",
+          "n_accepted": 7,
+          "exchangeable_slots": 7,
+          "stratum_sizes": [
+            7
+          ]
+        },
+        {
+          "group": "f72v1:outer",
+          "n_accepted": 15,
+          "exchangeable_slots": 15,
+          "stratum_sizes": [
+            15
+          ]
+        },
+        {
+          "group": "f72v1:inner",
+          "n_accepted": 8,
+          "exchangeable_slots": 8,
+          "stratum_sizes": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "discovery",
+      "source": "ZL3b-n.txt",
+      "spacing": "join",
+      "null": "ring_length_bin",
+      "randomizations": 9999,
+      "n_primary_labels": 146,
+      "n_circular_groups": 21,
+      "n_ring_pairs": 10,
+      "excluded_ring_pairs": [
+        [
+          "f70v1:inner",
+          "f71r:inner"
+        ],
+        [
+          "f70v1:inner",
+          "f71v:inner"
+        ],
+        [
+          "f70v1:inner",
+          "f72r1:inner"
+        ],
+        [
+          "f71r:inner",
+          "f71v:inner"
+        ]
+      ],
+      "n_neighbour_edges": 91,
+      "primary_order": {
+        "observed": 0.43724344011108707,
+        "null_mean": 0.4290482942534,
+        "null_sd": 0.009901142247518462,
+        "p_greater": 0.2065,
+        "null_interval_95": [
+          0.4100302598817305,
+          0.4484445276401159
+        ],
+        "null_uninformative": false,
+        "holm_p": 0.2065
+      },
+      "secondary_exact_order": {
+        "observed": 0.0,
+        "null_mean": 0.0,
+        "null_sd": 0.0,
+        "p_greater": 1.0,
+        "null_interval_95": [
+          0.0,
+          0.0
+        ],
+        "null_uninformative": true
+      },
+      "neighbour_similarity": {
+        "observed": 0.38159920773042943,
+        "null_mean": 0.35661150964223454,
+        "null_sd": 0.013191345143416756,
+        "p_greater": 0.0289,
+        "null_interval_95": [
+          0.33093215984618696,
+          0.3822594826885389
+        ],
+        "null_uninformative": false,
+        "holm_p": 0.0578
+      },
+      "pairs": [
+        {
+          "left": "f70v1:outer",
+          "right": "f71r:outer",
+          "slots": 10,
+          "eligible_phases": 20,
+          "best_phase": {
+            "direction": 1,
+            "shift": 6
+          },
+          "best_phase_support": 6,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.38884998443821966,
+            "null_mean": 0.401300938217071,
+            "null_sd": 0.0177268239252041,
+            "p_greater": 0.7526,
+            "null_interval_95": [
+              0.37071272953625894,
+              0.43951914098972916
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f70v1.2",
+              "right_locus": "f71r.8",
+              "left": "otalchy.tar.am.dy",
+              "right": "otalsar",
+              "similarity": 0.3529411764705882
+            },
+            {
+              "left_locus": "f70v1.5",
+              "right_locus": "f71r.11",
+              "left": "okalal",
+              "right": "otalaly",
+              "similarity": 0.7142857142857143
+            },
+            {
+              "left_locus": "f70v1.7",
+              "right_locus": "f71r.3",
+              "left": "oalcheg",
+              "right": "okldam",
+              "similarity": 0.2857142857142857
+            },
+            {
+              "left_locus": "f70v1.8",
+              "right_locus": "f71r.4",
+              "left": "otchodals",
+              "right": "oteoaldy",
+              "similarity": 0.4444444444444444
+            },
+            {
+              "left_locus": "f70v1.9",
+              "right_locus": "f71r.5",
+              "left": "okolshy",
+              "right": "oteolar",
+              "similarity": 0.2857142857142857
+            },
+            {
+              "left_locus": "f70v1.10",
+              "right_locus": "f71r.6",
+              "left": "otshshdy",
+              "right": "okeoaly",
+              "similarity": 0.25
+            }
+          ]
+        },
+        {
+          "left": "f70v1:outer",
+          "right": "f71v:outer",
+          "slots": 10,
+          "eligible_phases": 20,
+          "best_phase": {
+            "direction": -1,
+            "shift": 9
+          },
+          "best_phase_support": 6,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.4414547870430223,
+            "null_mean": 0.4113014944806507,
+            "null_sd": 0.03714944231113587,
+            "p_greater": 0.2211,
+            "null_interval_95": [
+              0.34921568627450983,
+              0.4916666666666667
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f70v1.2",
+              "right_locus": "f71v.11",
+              "left": "otalchy.tar.am.dy",
+              "right": "opalor.ar",
+              "similarity": 0.3529411764705882
+            },
+            {
+              "left_locus": "f70v1.3",
+              "right_locus": "f71v.10",
+              "left": "opchey.sal",
+              "right": "opalar.am.dan",
+              "similarity": 0.3076923076923077
+            },
+            {
+              "left_locus": "f70v1.5",
+              "right_locus": "f71v.8",
+              "left": "okalal",
+              "right": "okaraiin",
+              "similarity": 0.5
+            },
+            {
+              "left_locus": "f70v1.8",
+              "right_locus": "f71v.5",
+              "left": "otchodals",
+              "right": "otchody",
+              "similarity": 0.6666666666666667
+            },
+            {
+              "left_locus": "f70v1.9",
+              "right_locus": "f71v.4",
+              "left": "okolshy",
+              "right": "okolar",
+              "similarity": 0.5714285714285714
+            },
+            {
+              "left_locus": "f70v1.10",
+              "right_locus": "f71v.3",
+              "left": "otshshdy",
+              "right": "chfaly",
+              "similarity": 0.25
+            }
+          ]
+        },
+        {
+          "left": "f70v1:outer",
+          "right": "f72r1:outer",
+          "slots": 10,
+          "eligible_phases": 14,
+          "best_phase": {
+            "direction": 1,
+            "shift": 0
+          },
+          "best_phase_support": 3,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.4444444444444445,
+            "null_mean": 0.43259839055801,
+            "null_sd": 0.04452863610072001,
+            "p_greater": 0.6622,
+            "null_interval_95": [
+              0.3666666666666667,
+              0.48169934640522877
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f70v1.5",
+              "right_locus": "f72r1.5",
+              "left": "okalal",
+              "right": "okalam",
+              "similarity": 0.8333333333333334
+            },
+            {
+              "left_locus": "f70v1.8",
+              "right_locus": "f72r1.8",
+              "left": "otchodals",
+              "right": "otaraldy",
+              "similarity": 0.33333333333333337
+            },
+            {
+              "left_locus": "f70v1.9",
+              "right_locus": "f72r1.9",
+              "left": "okolshy",
+              "right": "otaiin.otain",
+              "similarity": 0.16666666666666663
+            }
+          ]
+        },
+        {
+          "left": "f71r:outer",
+          "right": "f71v:outer",
+          "slots": 10,
+          "eligible_phases": 20,
+          "best_phase": {
+            "direction": -1,
+            "shift": 5
+          },
+          "best_phase_support": 6,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.4789021164021164,
+            "null_mean": 0.4112515677697196,
+            "null_sd": 0.022445767923296354,
+            "p_greater": 0.0064,
+            "null_interval_95": [
+              0.372985347985348,
+              0.45935083435083435
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f71r.2",
+              "right_locus": "f71v.7",
+              "left": "oteos.arar",
+              "right": "otaiin",
+              "similarity": 0.30000000000000004
+            },
+            {
+              "left_locus": "f71r.4",
+              "right_locus": "f71v.5",
+              "left": "oteoaldy",
+              "right": "otchody",
+              "similarity": 0.5
+            },
+            {
+              "left_locus": "f71r.5",
+              "right_locus": "f71v.4",
+              "left": "oteolar",
+              "right": "okolar",
+              "similarity": 0.7142857142857143
+            },
+            {
+              "left_locus": "f71r.6",
+              "right_locus": "f71v.3",
+              "left": "okeoaly",
+              "right": "chfaly",
+              "similarity": 0.4285714285714286
+            },
+            {
+              "left_locus": "f71r.8",
+              "right_locus": "f71v.11",
+              "left": "otalsar",
+              "right": "opalor.ar",
+              "similarity": 0.5555555555555556
+            },
+            {
+              "left_locus": "f71r.11",
+              "right_locus": "f71v.8",
+              "left": "otalaly",
+              "right": "okaraiin",
+              "similarity": 0.375
+            }
+          ]
+        },
+        {
+          "left": "f71r:outer",
+          "right": "f72r1:outer",
+          "slots": 10,
+          "eligible_phases": 16,
+          "best_phase": {
+            "direction": 1,
+            "shift": 4
+          },
+          "best_phase_support": 3,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.5515873015873016,
+            "null_mean": 0.5214267855356964,
+            "null_sd": 0.0210421888860963,
+            "p_greater": 0.1004,
+            "null_interval_95": [
+              0.4761904761904762,
+              0.5515873015873016
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f71r.4",
+              "right_locus": "f72r1.8",
+              "left": "oteoaldy",
+              "right": "otaraldy",
+              "similarity": 0.75
+            },
+            {
+              "left_locus": "f71r.5",
+              "right_locus": "f72r1.9",
+              "left": "oteolar",
+              "right": "otaiin.otain",
+              "similarity": 0.33333333333333337
+            },
+            {
+              "left_locus": "f71r.11",
+              "right_locus": "f72r1.5",
+              "left": "otalaly",
+              "right": "okalam",
+              "similarity": 0.5714285714285714
+            }
+          ]
+        },
+        {
+          "left": "f71r:inner",
+          "right": "f72r1:inner",
+          "slots": 5,
+          "eligible_phases": 10,
+          "best_phase": {
+            "direction": 1,
+            "shift": 4
+          },
+          "best_phase_support": 3,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.37896825396825395,
+            "null_mean": 0.37065154928191235,
+            "null_sd": 0.009301066018714712,
+            "p_greater": 0.4984,
+            "null_interval_95": [
+              0.34920634920634924,
+              0.37896825396825395
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f71r.14",
+              "right_locus": "f72r1.13",
+              "left": "otoloaram",
+              "right": "ofaralar",
+              "similarity": 0.33333333333333337
+            },
+            {
+              "left_locus": "f71r.15",
+              "right_locus": "f72r1.14",
+              "left": "oteeol",
+              "right": "otchoshy",
+              "similarity": 0.375
+            },
+            {
+              "left_locus": "f71r.16",
+              "right_locus": "f72r1.15",
+              "left": "otolchd",
+              "right": "otchdal",
+              "similarity": 0.4285714285714286
+            }
+          ]
+        },
+        {
+          "left": "f71v:outer",
+          "right": "f72r1:outer",
+          "slots": 10,
+          "eligible_phases": 12,
+          "best_phase": {
+            "direction": -1,
+            "shift": 2
+          },
+          "best_phase_support": 3,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.48148148148148145,
+            "null_mean": 0.4695770360511834,
+            "null_sd": 0.023210415470960904,
+            "p_greater": 0.4108,
+            "null_interval_95": [
+              0.4354166666666667,
+              0.5170940170940171
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f71v.7",
+              "right_locus": "f72r1.9",
+              "left": "otaiin",
+              "right": "otaiin.otain",
+              "similarity": 0.5
+            },
+            {
+              "left_locus": "f71v.8",
+              "right_locus": "f72r1.8",
+              "left": "okaraiin",
+              "right": "otaraldy",
+              "similarity": 0.5
+            },
+            {
+              "left_locus": "f71v.11",
+              "right_locus": "f72r1.5",
+              "left": "opalor.ar",
+              "right": "okalam",
+              "similarity": 0.4444444444444444
+            }
+          ]
+        },
+        {
+          "left": "f71v:inner",
+          "right": "f72r1:inner",
+          "slots": 5,
+          "eligible_phases": 10,
+          "best_phase": {
+            "direction": 1,
+            "shift": 3
+          },
+          "best_phase_support": 3,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.3988095238095238,
+            "null_mean": 0.3969347993000358,
+            "null_sd": 0.026806933672197927,
+            "p_greater": 0.6325,
+            "null_interval_95": [
+              0.3333333333333333,
+              0.44047619047619047
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f71v.14",
+              "right_locus": "f72r1.17",
+              "left": "otalody",
+              "right": "otainy",
+              "similarity": 0.5714285714285714
+            },
+            {
+              "left_locus": "f71v.15",
+              "right_locus": "f72r1.13",
+              "left": "otalaiin",
+              "right": "ofaralar",
+              "similarity": 0.375
+            },
+            {
+              "left_locus": "f71v.17",
+              "right_locus": "f72r1.15",
+              "left": "sholshdy",
+              "right": "otchdal",
+              "similarity": 0.25
+            }
+          ]
+        },
+        {
+          "left": "f72v3:outer",
+          "right": "f72v2:outer",
+          "slots": 18,
+          "eligible_phases": 30,
+          "best_phase": {
+            "direction": -1,
+            "shift": 16
+          },
+          "best_phase_support": 4,
+          "tied_best_phases": 2,
+          "edit_similarity": {
+            "observed": 0.4285714285714286,
+            "null_mean": 0.4690843489110816,
+            "null_sd": 0.0354763237057326,
+            "p_greater": 0.8882,
+            "null_interval_95": [
+              0.4047619047619048,
+              0.5476190476190476
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f72v3.4",
+              "right_locus": "f72v2.16",
+              "left": "okam",
+              "right": "okeoldy",
+              "similarity": 0.2857142857142857
+            },
+            {
+              "left_locus": "f72v3.5",
+              "right_locus": "f72v2.15",
+              "left": "okey",
+              "right": "okeody",
+              "similarity": 0.6666666666666667
+            },
+            {
+              "left_locus": "f72v3.16",
+              "right_locus": "f72v2.4",
+              "left": "okeeol",
+              "right": "okeoram",
+              "similarity": 0.4285714285714286
+            },
+            {
+              "left_locus": "f72v3.18",
+              "right_locus": "f72v2.2",
+              "left": "okaldy",
+              "right": "oeedey",
+              "similarity": 0.33333333333333337
+            }
+          ]
+        },
+        {
+          "left": "f72v3:inner",
+          "right": "f72v2:inner",
+          "slots": 12,
+          "eligible_phases": 10,
+          "best_phase": {
+            "direction": 1,
+            "shift": 8
+          },
+          "best_phase_support": 3,
+          "tied_best_phases": 1,
+          "edit_similarity": {
+            "observed": 0.37936507936507935,
+            "null_mean": 0.4063560324286397,
+            "null_sd": 0.04785720567753512,
+            "p_greater": 0.6709,
+            "null_interval_95": [
+              0.33174603174603173,
+              0.5238095238095238
+            ],
+            "null_uninformative": false
+          },
+          "exact_similarity": {
+            "observed": 0.0,
+            "null_mean": 0.0,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.0,
+              0.0
+            ],
+            "null_uninformative": true
+          },
+          "best_matches": [
+            {
+              "left_locus": "f72v3.22",
+              "right_locus": "f72v2.30",
+              "left": "oky",
+              "right": "yteedy",
+              "similarity": 0.16666666666666663
+            },
+            {
+              "left_locus": "f72v3.27",
+              "right_locus": "f72v2.23",
+              "left": "okary",
+              "right": "oeedy",
+              "similarity": 0.4
+            },
+            {
+              "left_locus": "f72v3.31",
+              "right_locus": "f72v2.27",
+              "left": "otaly",
+              "right": "oeedaly",
+              "similarity": 0.5714285714285714
+            }
+          ]
+        }
+      ],
+      "rings": [
+        {
+          "group": "f70v2:outer",
+          "n_edges": 4,
+          "similarity": {
+            "observed": 0.3321428571428572,
+            "null_mean": 0.42504536167902507,
+            "null_sd": 0.07989207378582458,
+            "p_greater": 0.881,
+            "null_interval_95": [
+              0.2904761904761905,
+              0.588095238095238
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f70v2:inner",
+          "n_edges": 7,
+          "similarity": {
+            "observed": 0.4404761904761904,
+            "null_mean": 0.3630385997783452,
+            "null_sd": 0.04302774569393959,
+            "p_greater": 0.0395,
+            "null_interval_95": [
+              0.27891156462585037,
+              0.4430272108843537
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f70v1:outer",
+          "n_edges": 4,
+          "similarity": {
+            "observed": 0.309640522875817,
+            "null_mean": 0.2962740870258828,
+            "null_sd": 0.03707877260173236,
+            "p_greater": 0.3852,
+            "null_interval_95": [
+              0.23602941176470585,
+              0.3720588235294118
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f71r:outer",
+          "n_edges": 7,
+          "similarity": {
+            "observed": 0.38010204081632654,
+            "null_mean": 0.418328516525122,
+            "null_sd": 0.04850388911375411,
+            "p_greater": 0.7875,
+            "null_interval_95": [
+              0.31887755102040816,
+              0.5091836734693878
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f71r:inner",
+          "n_edges": 2,
+          "similarity": {
+            "observed": 0.30952380952380953,
+            "null_mean": 0.3095238095238094,
+            "null_sd": 1.1102785454925744e-16,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.30952380952380953,
+              0.30952380952380953
+            ],
+            "null_uninformative": true
+          }
+        },
+        {
+          "group": "f71v:outer",
+          "n_edges": 4,
+          "similarity": {
+            "observed": 0.32657967032967034,
+            "null_mean": 0.24952223549583286,
+            "null_sd": 0.06396360983773736,
+            "p_greater": 0.1367,
+            "null_interval_95": [
+              0.12526709401709402,
+              0.4039606227106227
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f71v:inner",
+          "n_edges": 1,
+          "similarity": {
+            "observed": 0.5,
+            "null_mean": 0.3315081508150815,
+            "null_sd": 0.15717077094300524,
+            "p_greater": 0.3354,
+            "null_interval_95": [
+              0.125,
+              0.5
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r1:outer",
+          "n_edges": 2,
+          "similarity": {
+            "observed": 0.275,
+            "null_mean": 0.30074757475747577,
+            "null_sd": 0.02499006979955246,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.275,
+              0.325
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r1:inner",
+          "n_edges": 5,
+          "similarity": {
+            "observed": 0.2638888888888889,
+            "null_mean": 0.2781809927024449,
+            "null_sd": 0.03834354950228745,
+            "p_greater": 0.7434,
+            "null_interval_95": [
+              0.22103174603174605,
+              0.33611111111111114
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r2:outer",
+          "n_edges": 12,
+          "similarity": {
+            "observed": 0.49914021164021166,
+            "null_mean": 0.4374415616164791,
+            "null_sd": 0.03502944611332437,
+            "p_greater": 0.0409,
+            "null_interval_95": [
+              0.3698412698412699,
+              0.5055555555555555
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r2:inner",
+          "n_edges": 5,
+          "similarity": {
+            "observed": 0.27142857142857146,
+            "null_mean": 0.3078798356026079,
+            "null_sd": 0.05800232576111121,
+            "p_greater": 0.7486,
+            "null_interval_95": [
+              0.18571428571428572,
+              0.40476190476190477
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r3:outer",
+          "n_edges": 4,
+          "similarity": {
+            "observed": 0.29059829059829057,
+            "null_mean": 0.28082656556253915,
+            "null_sd": 0.06254564691530687,
+            "p_greater": 0.4524,
+            "null_interval_95": [
+              0.14615384615384613,
+              0.42841880341880345
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r3:middle",
+          "n_edges": 2,
+          "similarity": {
+            "observed": 0.3611111111111111,
+            "null_mean": 0.35556166727783894,
+            "null_sd": 0.005555830020000565,
+            "p_greater": 0.5006,
+            "null_interval_95": [
+              0.35,
+              0.3611111111111111
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72r3:inner",
+          "n_edges": 2,
+          "similarity": {
+            "observed": 0.3333333333333333,
+            "null_mean": 0.19776144281094774,
+            "null_sd": 0.11924216625329664,
+            "p_greater": 0.2577,
+            "null_interval_95": [
+              0.0,
+              0.4166666666666667
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72v3:outer",
+          "n_edges": 3,
+          "similarity": {
+            "observed": 0.5555555555555556,
+            "null_mean": 0.49846651331799857,
+            "null_sd": 0.07909682245593816,
+            "p_greater": 0.6575,
+            "null_interval_95": [
+              0.3888888888888889,
+              0.5555555555555557
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72v3:inner",
+          "n_edges": 1,
+          "similarity": {
+            "observed": 0.1428571428571429,
+            "null_mean": 0.1428571428571429,
+            "null_sd": 0.0,
+            "p_greater": 1.0,
+            "null_interval_95": [
+              0.1428571428571429,
+              0.1428571428571429
+            ],
+            "null_uninformative": true
+          }
+        },
+        {
+          "group": "f72v2:outer",
+          "n_edges": 4,
+          "similarity": {
+            "observed": 0.5148809523809524,
+            "null_mean": 0.3571480659970759,
+            "null_sd": 0.08766093226170238,
+            "p_greater": 0.0417,
+            "null_interval_95": [
+              0.18154761904761907,
+              0.5238095238095237
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72v2:inner",
+          "n_edges": 5,
+          "similarity": {
+            "observed": 0.22095238095238093,
+            "null_mean": 0.28899337552802895,
+            "null_sd": 0.05707797186951399,
+            "p_greater": 0.9067,
+            "null_interval_95": [
+              0.17619047619047618,
+              0.40476190476190477
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72v1:outer",
+          "n_edges": 11,
+          "similarity": {
+            "observed": 0.41255411255411256,
+            "null_mean": 0.33356694976856993,
+            "null_sd": 0.04613972020248081,
+            "p_greater": 0.0509,
+            "null_interval_95": [
+              0.2506493506493506,
+              0.42943722943722945
+            ],
+            "null_uninformative": false
+          }
+        },
+        {
+          "group": "f72v1:inner",
+          "n_edges": 6,
+          "similarity": {
+            "observed": 0.4515873015873016,
+            "null_mean": 0.492675378648976,
+            "null_sd": 0.044233312350134654,
+            "p_greater": 0.8504,
+            "null_interval_95": [
+              0.41269841269841273,
+              0.580952380952381
+            ],
+            "null_uninformative": false
+          }
+        }
+      ],
+      "mobility": [
+        {
+          "group": "f70v2:outer",
+          "n_accepted": 10,
+          "exchangeable_slots": 9,
+          "stratum_sizes": [
+            2,
+            1,
+            7
+          ]
+        },
+        {
+          "group": "f70v2:inner",
+          "n_accepted": 8,
+          "exchangeable_slots": 8,
+          "stratum_sizes": [
+            4,
+            4
+          ]
+        },
+        {
+          "group": "f70v1:outer",
+          "n_accepted": 7,
+          "exchangeable_slots": 6,
+          "stratum_sizes": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "group": "f70v1:inner",
+          "n_accepted": 1,
+          "exchangeable_slots": 0,
+          "stratum_sizes": [
+            1
+          ]
+        },
+        {
+          "group": "f71r:outer",
+          "n_accepted": 8,
+          "exchangeable_slots": 6,
+          "stratum_sizes": [
+            1,
+            1,
+            6
+          ]
+        },
+        {
+          "group": "f71r:inner",
+          "n_accepted": 3,
+          "exchangeable_slots": 0,
+          "stratum_sizes": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "group": "f71v:outer",
+          "n_accepted": 7,
+          "exchangeable_slots": 6,
+          "stratum_sizes": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "group": "f71v:inner",
+          "n_accepted": 3,
+          "exchangeable_slots": 3,
+          "stratum_sizes": [
+            3
+          ]
+        },
+        {
+          "group": "f72r1:outer",
+          "n_accepted": 4,
+          "exchangeable_slots": 2,
+          "stratum_sizes": [
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "group": "f72r1:inner",
+          "n_accepted": 5,
+          "exchangeable_slots": 4,
+          "stratum_sizes": [
+            4,
+            1
+          ]
+        },
+        {
+          "group": "f72r2:outer",
+          "n_accepted": 14,
+          "exchangeable_slots": 13,
+          "stratum_sizes": [
+            4,
+            6,
+            3,
+            1
+          ]
+        },
+        {
+          "group": "f72r2:inner",
+          "n_accepted": 7,
+          "exchangeable_slots": 6,
+          "stratum_sizes": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "group": "f72r3:outer",
+          "n_accepted": 6,
+          "exchangeable_slots": 4,
+          "stratum_sizes": [
+            4,
+            1,
+            1
+          ]
+        },
+        {
+          "group": "f72r3:middle",
+          "n_accepted": 6,
+          "exchangeable_slots": 4,
+          "stratum_sizes": [
+            1,
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "group": "f72r3:inner",
+          "n_accepted": 4,
+          "exchangeable_slots": 4,
+          "stratum_sizes": [
+            4
+          ]
+        },
+        {
+          "group": "f72v3:outer",
+          "n_accepted": 7,
+          "exchangeable_slots": 7,
+          "stratum_sizes": [
+            2,
+            2,
+            3
+          ]
+        },
+        {
+          "group": "f72v3:inner",
+          "n_accepted": 4,
+          "exchangeable_slots": 2,
+          "stratum_sizes": [
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "group": "f72v2:outer",
+          "n_accepted": 9,
+          "exchangeable_slots": 9,
+          "stratum_sizes": [
+            4,
+            5
+          ]
+        },
+        {
+          "group": "f72v2:inner",
+          "n_accepted": 7,
+          "exchangeable_slots": 7,
+          "stratum_sizes": [
+            5,
+            2
+          ]
+        },
+        {
+          "group": "f72v1:outer",
+          "n_accepted": 15,
+          "exchangeable_slots": 15,
+          "stratum_sizes": [
+            11,
+            2,
+            2
+          ]
+        },
+        {
+          "group": "f72v1:inner",
+          "n_accepted": 8,
+          "exchangeable_slots": 6,
+          "stratum_sizes": [
+            6,
+            1,
+            1
+          ]
+        }
+      ]
+    }
+  ]
+}

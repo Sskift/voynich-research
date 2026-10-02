@@ -1,0 +1,177 @@
+[
+  {
+    "word": "okol",
+    "occurrences": [
+      {
+        "locus": "f88r.15",
+        "page": "f88r",
+        "subtype": "Lf",
+        "images": [
+          "data/images/088r.jpg"
+        ]
+      },
+      {
+        "locus": "f101v.10",
+        "page": "f101v",
+        "subtype": "Lf",
+        "images": [
+          "data/images/101r.jpg",
+          "data/images/101v.jpg"
+        ]
+      }
+    ],
+    "cross_page_pairs": [
+      [
+        "f88r.15",
+        "f101v.10"
+      ]
+    ]
+  },
+  {
+    "word": "oky",
+    "occurrences": [
+      {
+        "locus": "f99r.4",
+        "page": "f99r",
+        "subtype": "Lf",
+        "images": [
+          "data/images/099r.jpg"
+        ]
+      },
+      {
+        "locus": "f99r.24",
+        "page": "f99r",
+        "subtype": "Lf",
+        "images": [
+          "data/images/099r.jpg"
+        ]
+      }
+    ],
+    "cross_page_pairs": []
+  },
+  {
+    "word": "otaldy",
+    "occurrences": [
+      {
+        "locus": "f88r.12",
+        "page": "f88r",
+        "subtype": "Lc",
+        "images": [
+          "data/images/088r.jpg"
+        ]
+      },
+      {
+        "locus": "f101v.2",
+        "page": "f101v",
+        "subtype": "Lf",
+        "images": [
+          "data/images/101r.jpg",
+          "data/images/101v.jpg"
+        ]
+      }
+    ],
+    "cross_page_pairs": [
+      [
+        "f88r.12",
+        "f101v.2"
+      ]
+    ]
+  },
+  {
+    "word": "otaly",
+    "occurrences": [
+      {
+        "locus": "f88r.6",
+        "page": "f88r",
+        "subtype": "Lf",
+        "images": [
+          "data/images/088r.jpg"
+        ]
+      },
+      {
+        "locus": "f99v.6",
+        "page": "f99v",
+        "subtype": "Lf",
+        "images": [
+          "data/images/099v.jpg"
+        ]
+      }
+    ],
+    "cross_page_pairs": [
+      [
+        "f88r.6",
+        "f99v.6"
+      ]
+    ]
+  },
+  {
+    "word": "otoky",
+    "occurrences": [
+      {
+        "locus": "f88r.5",
+        "page": "f88r",
+        "subtype": "Lf",
+        "images": [
+          "data/images/088r.jpg"
+        ]
+      },
+      {
+        "locus": "f99v.9",
+        "page": "f99v",
+        "subtype": "Lf",
+        "images": [
+          "data/images/099v.jpg"
+        ]
+      }
+    ],
+    "cross_page_pairs": [
+      [
+        "f88r.5",
+        "f99v.9"
+      ]
+    ]
+  },
+  {
+    "word": "otoldy",
+    "occurrences": [
+      {
+        "locus": "f89r1.4",
+        "page": "f89r1",
+        "subtype": "Lf",
+        "images": [
+          "data/images/088v.jpg"
+        ]
+      },
+      {
+        "locus": "f99r.14",
+        "page": "f99r",
+        "subtype": "Lf",
+        "images": [
+          "data/images/099r.jpg"
+        ]
+      },
+      {
+        "locus": "f99v.2",
+        "page": "f99v",
+        "subtype": "Lf",
+        "images": [
+          "data/images/099v.jpg"
+        ]
+      }
+    ],
+    "cross_page_pairs": [
+      [
+        "f89r1.4",
+        "f99r.14"
+      ],
+      [
+        "f89r1.4",
+        "f99v.2"
+      ],
+      [
+        "f99r.14",
+        "f99v.2"
+      ]
+    ]
+  }
+]

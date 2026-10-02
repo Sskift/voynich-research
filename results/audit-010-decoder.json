@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "frozen_hashes_verified": 124,
+  "conditional_probability_entries": [
+    1185921,
+    707281
+  ],
+  "synthetic_cipher_conditions_regenerated": 6,
+  "known_cipher_restart_accuracies_checked": 96,
+  "all_train_objectives_checked": 256,
+  "native_loci_rebuilt": 1408,
+  "random_label_scores": 999,
+  "shuffled_ciphers_regenerated": 9,
+  "v1_calibration": "FAIL",
+  "v2_calibration": "PASS",
+  "limitations": "Validates normalization, models, recovery metrics, raw input and search scores, not global optimum, historical spelling, a German identity or a decipherment. V2 controls were development after V1.",
+  "hashes": {
+    "src/audit_german_components.py": "e0a2c1bcdafbd7d624745e747d5102c278c451abed4f66aabf152b1233bb6ac8",
+    "results/german-components-v2/solver-freeze.json": "480ab6c4ddf9ea74c1deab2696d6818f7ce47354fe8873628166ee861a082129",
+    "results/german-components-v2/attack.json": "f1a730cae0a1c7157343ef17d07751ad7105a08828efe91a3ef57595b2bcc509",
+    "results/german-components-v2/voynich-decoded.json": "30bed6aa96a6573d2e4362d117c75df0e6d9f9815efadf457351ca67a5c9be20",
+    "notes/experiment-014-character-source-correction.md": "83d6f09ad102f8cada4e29ade3e9ffa7805c6df53b1c424d688f225b0efa5d0e",
+    "data/raw/ocrd-character-table.html": "3b14e74270c486fb8c283a1af29c3a8a7ce0100965d784789677705e1804cffa"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "integrity": "pass",
+  "provider_totals": "pass",
+  "matched_loci_count": 3051,
+  "ZL_same_loci": {
+    "n_clean_lines": 3051,
+    "m_final": 0.15699770567027205,
+    "m_nonfinal_mean": 0.008857219931457886,
+    "pf": {
+      "other_lines_without_first_word": {
+        "hits": 220,
+        "n": 18964,
+        "rate": 0.01160092807424594
+      },
+      "paragraph_first_line_without_first_word": {
+        "hits": 831,
+        "n": 4536,
+        "rate": 0.1832010582010582
+      }
+    }
+  },
+  "IT_same_loci": {
+    "n_clean_lines": 3051,
+    "m_final": 0.16125860373647985,
+    "m_nonfinal_mean": 0.00933878991748157,
+    "pf": {
+      "other_lines_without_first_word": {
+        "hits": 222,
+        "n": 18572,
+        "rate": 0.01195347835451217
+      },
+      "paragraph_first_line_without_first_word": {
+        "hits": 830,
+        "n": 4523,
+        "rate": 0.18350652221976566
+      }
+    }
+  },
+  "ZL_all_clean": {
+    "n_clean_lines": 3070,
+    "m_final": 0.15700325732899023,
+    "m_nonfinal_mean": 0.008924553098005867,
+    "pf": {
+      "other_lines_without_first_word": {
+        "hits": 220,
+        "n": 19068,
+        "rate": 0.011537654709460877
+      },
+      "paragraph_first_line_without_first_word": {
+        "hits": 848,
+        "n": 4581,
+        "rate": 0.18511242086880594
+      }
+    }
+  },
+  "IT_all_clean": {
+    "n_clean_lines": 3746,
+    "m_final": 0.16524292578750668,
+    "m_nonfinal_mean": 0.01002352681359308,
+    "pf": {
+      "paragraph_first_line_without_first_word": {
+        "hits": 1089,
+        "n": 5850,
+        "rate": 0.18615384615384614
+      },
+      "other_lines_without_first_word": {
+        "hits": 288,
+        "n": 22800,
+        "rate": 0.01263157894736842
+      }
+    }
+  }
+}

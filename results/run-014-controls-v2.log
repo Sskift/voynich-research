@@ -1,0 +1,6 @@
+FIT v2-bijection28 -2.2622706327767506
+CONTROL v2-bijection28 {'letter_accuracy': 0.9886536318508763, 'correct_letters': 19518, 'predicted_letters': 19742, 'total_letters': 19746, 'predicted_fraction': 0.9997974273270536, 'word_accuracy': 0.9433913934426229, 'correct_words': 3683, 'complete_words': 3904, 'key_accuracy': 0.92}
+FIT v2-uniform64 -3.257879235815721
+CONTROL v2-uniform64 {'letter_accuracy': 0.9886524822695035, 'correct_letters': 19516, 'predicted_letters': 19740, 'total_letters': 19746, 'predicted_fraction': 0.9996961409905804, 'word_accuracy': 0.9433623782675551, 'correct_words': 3681, 'complete_words': 3902, 'key_accuracy': 0.9666666666666667}
+FIT v2-tail63 -2.390519495556692
+CONTROL v2-tail63 {'letter_accuracy': 0.9970533498759305, 'correct_letters': 19287, 'predicted_letters': 19344, 'total_letters': 19746, 'predicted_fraction': 0.9796414463688848, 'word_accuracy': 0.9858156028368794, 'correct_words': 3475, 'complete_words': 3525, 'key_accuracy': 0.9491525423728814}

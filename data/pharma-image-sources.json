@@ -1,0 +1,110 @@
+[
+  {
+    "file": "data/images/088r.jpg",
+    "url": "https://www.voynich.com/folios/color/088r.jpg",
+    "bytes": 264080,
+    "sha256": "d94daa4e4e2e60ad41f598f56e98efe1fb00a7040a0c4124a9618ee09e7392e2",
+    "retrieved_utc": "2026-10-02T02:52:02.571830+00:00",
+    "source": "Public mirror, linked by https://www.voynich.com/folios/",
+    "note": "Whole foldouts may contain more than one IVTFF page ID."
+  },
+  {
+    "file": "data/images/088v.jpg",
+    "url": "https://www.voynich.com/folios/color/088v.jpg",
+    "bytes": 164599,
+    "sha256": "4d28ef8bdb6aa0ec425876be7e6b382e66f7b9462b993941a98d11ba98362ae9",
+    "retrieved_utc": "2026-10-02T02:51:59.657165+00:00",
+    "source": "Public mirror, linked by https://www.voynich.com/folios/",
+    "note": "Whole foldouts may contain more than one IVTFF page ID."
+  },
+  {
+    "file": "data/images/089r.jpg",
+    "url": "https://www.voynich.com/folios/color/089r.jpg",
+    "bytes": 272191,
+    "sha256": "ea30d2a2cba82257d78f14bdcdfcd2c196117b8f04577ffb2a0969b9d00d954f",
+    "retrieved_utc": "2026-10-02T02:52:04.179747+00:00",
+    "source": "Public mirror, linked by https://www.voynich.com/folios/",
+    "note": "Whole foldouts may contain more than one IVTFF page ID."
+  },
+  {
+    "file": "data/images/089v.jpg",
+    "url": "https://www.voynich.com/folios/color/089v.jpg",
+    "bytes": 172812,
+    "sha256": "ad7ef4fedbfb078a1266f9a20aa6a0c23d3464fd1402bd952a40e94b525d1392",
+    "retrieved_utc": "2026-10-02T02:52:01.990122+00:00",
+    "source": "Public mirror, linked by https://www.voynich.com/folios/",
+    "note": "Whole foldouts may contain more than one IVTFF page ID."
+  },
+  {
+    "file": "data/images/099r.jpg",
+    "url": "https://www.voynich.com/folios/color/099r.jpg",
+    "bytes": 290760,
+    "sha256": "7a98ac7d2a97804516c0d1ba7feb5cf9b546e582d7b3050f9da9a642d3e229e9",
+    "retrieved_utc": "2026-10-02T02:52:07.697544+00:00",
+    "source": "Public mirror, linked by https://www.voynich.com/folios/",
+    "note": "Whole foldouts may contain more than one IVTFF page ID."
+  },
+  {
+    "file": "data/images/099v.jpg",
+    "url": "https://www.voynich.com/folios/color/099v.jpg",
+    "bytes": 346939,
+    "sha256": "e669364f4e2ed2e2941f6c1318c4aa5ef073325b2e765af6dec3351409b73160",
+    "retrieved_utc": "2026-10-02T02:52:13.322651+00:00",
+    "source": "Public mirror, linked by https://www.voynich.com/folios/",
+    "note": "Whole foldouts may contain more than one IVTFF page ID."
+  },
+  {
+    "file": "data/images/100r.jpg",
+    "url": "https://www.voynich.com/folios/color/100r.jpg",
+    "bytes": 259941,
+    "sha256": "11a07cd80ec0d5d505787bda9c522394bec31a856d61465ece127b66670f2496",
+    "retrieved_utc": "2026-10-02T02:52:07.877321+00:00",
+    "source": "Public mirror, linked by https://www.voynich.com/folios/",
+    "note": "Whole foldouts may contain more than one IVTFF page ID."
+  },
+  {
+    "file": "data/images/100v.jpg",
+    "url": "https://www.voynich.com/folios/color/100v.jpg",
+    "bytes": 212079,
+    "sha256": "599f84369a7f2cc48f45ccb271c432f4e7441895c3cf3921696ce1894c5db040",
+    "retrieved_utc": "2026-10-02T02:52:12.558783+00:00",
+    "source": "Public mirror, linked by https://www.voynich.com/folios/",
+    "note": "Whole foldouts may contain more than one IVTFF page ID."
+  },
+  {
+    "file": "data/images/101r.jpg",
+    "url": "https://www.voynich.com/folios/color/101r.jpg",
+    "bytes": 285982,
+    "sha256": "bca60f6642e32d325d9edb0e97fd58c2dbe0da27de0f765aaee961451daf342c",
+    "retrieved_utc": "2026-10-02T02:52:16.279965+00:00",
+    "source": "Public mirror, linked by https://www.voynich.com/folios/",
+    "note": "Whole foldouts may contain more than one IVTFF page ID."
+  },
+  {
+    "file": "data/images/101v.jpg",
+    "url": "https://www.voynich.com/folios/color/101v.jpg",
+    "bytes": 193353,
+    "sha256": "b325e4993ab9ca7e26f350c066500da30625cf917dc74a1823ba0f415d8cd202",
+    "retrieved_utc": "2026-10-02T02:52:14.397529+00:00",
+    "source": "Public mirror, linked by https://www.voynich.com/folios/",
+    "note": "Whole foldouts may contain more than one IVTFF page ID."
+  },
+  {
+    "file": "data/images/102r.jpg",
+    "url": "https://www.voynich.com/folios/color/102r.jpg",
+    "bytes": 271665,
+    "sha256": "ae1d9b28233a838cef2b26984607e29833dafe3229c46faa891df90b6264f7e1",
+    "retrieved_utc": "2026-10-02T02:52:18.295474+00:00",
+    "source": "Public mirror, linked by https://www.voynich.com/folios/",
+    "note": "Whole foldouts may contain more than one IVTFF page ID."
+  },
+  {
+    "file": "data/images/102v.jpg",
+    "url": "https://www.voynich.com/folios/color/102v.jpg",
+    "bytes": 284415,
+    "sha256": "e43827a2f4daebe7399def92647914e45fdc00a596dbd710d6a49428f0f4b94f",
+    "retrieved_utc": "2026-10-02T02:52:20.940176+00:00",
+    "source": "Public mirror, linked by https://www.voynich.com/folios/",
+    "note": "Whole foldouts may contain more than one IVTFF page ID."
+  }
+]

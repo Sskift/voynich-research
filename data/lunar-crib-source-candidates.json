@@ -1,0 +1,19 @@
+[
+  {
+    "file": "data/raw/agrippa-book2c-peterson.html",
+    "url": "https://www.esotericarchives.com/agrippa/agripp2c.htm",
+    "bytes": 105914,
+    "sha256": "3b2a63d41c2b54196e94305bbc0bd361568d846cba6ea5d650e7738c3e306608",
+    "file_mtime_utc": "2026-10-02T03:38:36.636984+00:00",
+    "note": "Candidate source acquired after experiment007 scoring. No lunar-mansion crib scoring performed. English edition is a later translation; the 1533 catalogue is not a verified name transcription."
+  },
+  {
+    "file": "data/raw/agrippa-1533-erara-contents.html",
+    "url": "https://www.e-rara.ch/cgj/content/structure/1343192",
+    "bytes": 12577,
+    "sha256": "1db9cb668cd0e9a57c37cfcb5f88bd3ac7c170f16fe0bdf2fe9f0bd93ea9ecf3",
+    "file_mtime_utc": "2026-10-02T03:38:38.776992+00:00",
+    "note": "Archived browser-verification response, NOT the catalogue text. Not valid research content; the public web result supplied only a source lead.",
+    "usable_content": false
+  }
+]

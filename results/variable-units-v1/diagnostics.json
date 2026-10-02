@@ -1,0 +1,1562 @@
+{
+  "status": "POSTHOC_NOT_FOR_RESELECTION",
+  "top_restarts": [
+    {
+      "restart": 10,
+      "objective": -3.7165624047096872
+    },
+    {
+      "restart": 3,
+      "objective": -3.732149523561714
+    },
+    {
+      "restart": 14,
+      "objective": -3.7341793446933855
+    },
+    {
+      "restart": 7,
+      "objective": -3.737713410713462
+    },
+    {
+      "restart": 8,
+      "objective": -3.7901298438680495
+    },
+    {
+      "restart": 6,
+      "objective": -3.7923609565796745
+    },
+    {
+      "restart": 11,
+      "objective": -3.8308717004286374
+    },
+    {
+      "restart": 9,
+      "objective": -3.8562587391699346
+    },
+    {
+      "restart": 15,
+      "objective": -3.8608679475241954
+    },
+    {
+      "restart": 5,
+      "objective": -3.8708523478120127
+    },
+    {
+      "restart": 1,
+      "objective": -3.9003686593473277
+    },
+    {
+      "restart": 0,
+      "objective": -3.9174743366182754
+    },
+    {
+      "restart": 4,
+      "objective": -3.9757467061059004
+    },
+    {
+      "restart": 2,
+      "objective": -3.9829339114757567
+    },
+    {
+      "restart": 12,
+      "objective": -4.022005944700329
+    },
+    {
+      "restart": 13,
+      "objective": -4.140678065069614
+    }
+  ],
+  "objective_gap": 0.015587118852026904,
+  "different_key_types": 94,
+  "different_key_token_count": 7270,
+  "different_key_token_fraction": 0.30647949074659586,
+  "unique_restart_keys": 16,
+  "glyphs": [
+    {
+      "glyph": "o",
+      "count": 4621,
+      "selected": "i",
+      "second": "i"
+    },
+    {
+      "glyph": "9",
+      "count": 2490,
+      "selected": "e",
+      "second": "a"
+    },
+    {
+      "glyph": "1",
+      "count": 2452,
+      "selected": "u",
+      "second": "u"
+    },
+    {
+      "glyph": "a",
+      "count": 1754,
+      "selected": "a",
+      "second": "e"
+    },
+    {
+      "glyph": "8",
+      "count": 1664,
+      "selected": "t",
+      "second": "t"
+    },
+    {
+      "glyph": "e",
+      "count": 1431,
+      "selected": "s",
+      "second": "s"
+    },
+    {
+      "glyph": "y",
+      "count": 1146,
+      "selected": "s",
+      "second": "s"
+    },
+    {
+      "glyph": "h",
+      "count": 1142,
+      "selected": "n",
+      "second": "n"
+    },
+    {
+      "glyph": "c",
+      "count": 1140,
+      "selected": "er",
+      "second": "er"
+    },
+    {
+      "glyph": "k",
+      "count": 1013,
+      "selected": "n",
+      "second": "d"
+    },
+    {
+      "glyph": "m",
+      "count": 832,
+      "selected": "m",
+      "second": "m"
+    },
+    {
+      "glyph": "2",
+      "count": 634,
+      "selected": "u",
+      "second": "u"
+    },
+    {
+      "glyph": "4",
+      "count": 566,
+      "selected": "f",
+      "second": "f"
+    },
+    {
+      "glyph": "s",
+      "count": 544,
+      "selected": "c",
+      "second": "et"
+    },
+    {
+      "glyph": "K",
+      "count": 373,
+      "selected": "d",
+      "second": "su"
+    },
+    {
+      "glyph": "p",
+      "count": 193,
+      "selected": "re",
+      "second": "re"
+    },
+    {
+      "glyph": "C",
+      "count": 176,
+      "selected": "ir",
+      "second": "it"
+    },
+    {
+      "glyph": "H",
+      "count": 151,
+      "selected": "r",
+      "second": "r"
+    },
+    {
+      "glyph": "n",
+      "count": 147,
+      "selected": "nt",
+      "second": "nt"
+    },
+    {
+      "glyph": "g",
+      "count": 126,
+      "selected": "l",
+      "second": "l"
+    },
+    {
+      "glyph": "A",
+      "count": 109,
+      "selected": "o",
+      "second": "o"
+    },
+    {
+      "glyph": "3",
+      "count": 86,
+      "selected": "it",
+      "second": "in"
+    },
+    {
+      "glyph": "7",
+      "count": 83,
+      "selected": "qu",
+      "second": "t"
+    },
+    {
+      "glyph": "j",
+      "count": 64,
+      "selected": "l",
+      "second": "g"
+    },
+    {
+      "glyph": "N",
+      "count": 47,
+      "selected": "ri",
+      "second": "ro"
+    },
+    {
+      "glyph": "*",
+      "count": 43,
+      "selected": "is",
+      "second": "is"
+    },
+    {
+      "glyph": "f",
+      "count": 43,
+      "selected": "d",
+      "second": "c"
+    },
+    {
+      "glyph": "(",
+      "count": 40,
+      "selected": "co",
+      "second": "o"
+    },
+    {
+      "glyph": "G",
+      "count": 39,
+      "selected": "p",
+      "second": "tr"
+    },
+    {
+      "glyph": "J",
+      "count": 37,
+      "selected": "r",
+      "second": "b"
+    },
+    {
+      "glyph": "z",
+      "count": 36,
+      "selected": "ni",
+      "second": "r"
+    },
+    {
+      "glyph": "d",
+      "count": 32,
+      "selected": "an",
+      "second": "er"
+    },
+    {
+      "glyph": "5",
+      "count": 29,
+      "selected": "ut",
+      "second": "qu"
+    },
+    {
+      "glyph": "+",
+      "count": 28,
+      "selected": "au",
+      "second": "ut"
+    },
+    {
+      "glyph": "i",
+      "count": 27,
+      "selected": "ti",
+      "second": "ri"
+    },
+    {
+      "glyph": "M",
+      "count": 25,
+      "selected": "ri",
+      "second": "um"
+    },
+    {
+      "glyph": "E",
+      "count": 24,
+      "selected": "ui",
+      "second": "an"
+    },
+    {
+      "glyph": "I",
+      "count": 24,
+      "selected": "tu",
+      "second": "r"
+    },
+    {
+      "glyph": "%",
+      "count": 23,
+      "selected": "ac",
+      "second": "p"
+    },
+    {
+      "glyph": "Z",
+      "count": 23,
+      "selected": "m",
+      "second": "ri"
+    },
+    {
+      "glyph": "#",
+      "count": 22,
+      "selected": "in",
+      "second": "qu"
+    },
+    {
+      "glyph": "!",
+      "count": 16,
+      "selected": "su",
+      "second": "fu"
+    },
+    {
+      "glyph": "x",
+      "count": 16,
+      "selected": "ti",
+      "second": "ti"
+    },
+    {
+      "glyph": "u",
+      "count": 14,
+      "selected": "di",
+      "second": "di"
+    },
+    {
+      "glyph": "F",
+      "count": 9,
+      "selected": "tr",
+      "second": "oc"
+    },
+    {
+      "glyph": "U",
+      "count": 9,
+      "selected": "ex",
+      "second": "p"
+    },
+    {
+      "glyph": "L",
+      "count": 8,
+      "selected": "ar",
+      "second": "at"
+    },
+    {
+      "glyph": "@253;",
+      "count": 7,
+      "selected": "si",
+      "second": "de"
+    },
+    {
+      "glyph": "&",
+      "count": 6,
+      "selected": "x",
+      "second": "us"
+    },
+    {
+      "glyph": "6",
+      "count": 6,
+      "selected": "or",
+      "second": "on"
+    },
+    {
+      "glyph": "P",
+      "count": 6,
+      "selected": "ns",
+      "second": "st"
+    },
+    {
+      "glyph": "X",
+      "count": 6,
+      "selected": "ta",
+      "second": "ta"
+    },
+    {
+      "glyph": "@186;",
+      "count": 5,
+      "selected": "de",
+      "second": "se"
+    },
+    {
+      "glyph": "B",
+      "count": 5,
+      "selected": "te",
+      "second": "em"
+    },
+    {
+      "glyph": "D",
+      "count": 5,
+      "selected": "um",
+      "second": "os"
+    },
+    {
+      "glyph": "V",
+      "count": 5,
+      "selected": "ss",
+      "second": "ci"
+    },
+    {
+      "glyph": "$",
+      "count": 4,
+      "selected": "ne",
+      "second": "si"
+    },
+    {
+      "glyph": "@198;",
+      "count": 4,
+      "selected": "g",
+      "second": "ic"
+    },
+    {
+      "glyph": "@245;",
+      "count": 4,
+      "selected": "am",
+      "second": "ne"
+    },
+    {
+      "glyph": "T",
+      "count": 4,
+      "selected": "id",
+      "second": "ad"
+    },
+    {
+      "glyph": "Y",
+      "count": 4,
+      "selected": "b",
+      "second": "x"
+    },
+    {
+      "glyph": "l",
+      "count": 4,
+      "selected": "ia",
+      "second": "el"
+    },
+    {
+      "glyph": "@161;",
+      "count": 3,
+      "selected": "et",
+      "second": "ac"
+    },
+    {
+      "glyph": "@188;",
+      "count": 3,
+      "selected": "ag",
+      "second": "li"
+    },
+    {
+      "glyph": "@219;",
+      "count": 3,
+      "selected": "no",
+      "second": "bi"
+    },
+    {
+      "glyph": "@228;",
+      "count": 3,
+      "selected": "ss",
+      "second": "ct"
+    },
+    {
+      "glyph": "@229;",
+      "count": 3,
+      "selected": "em",
+      "second": "es"
+    },
+    {
+      "glyph": "@232;",
+      "count": 3,
+      "selected": "sp",
+      "second": "or"
+    },
+    {
+      "glyph": "Q",
+      "count": 3,
+      "selected": "me",
+      "second": "mo"
+    },
+    {
+      "glyph": "S",
+      "count": 3,
+      "selected": "us",
+      "second": "am"
+    },
+    {
+      "glyph": "v",
+      "count": 3,
+      "selected": "im",
+      "second": "im"
+    },
+    {
+      "glyph": "@162;",
+      "count": 2,
+      "selected": "hu",
+      "second": "pr"
+    },
+    {
+      "glyph": "@168;",
+      "count": 2,
+      "selected": "ue",
+      "second": "ui"
+    },
+    {
+      "glyph": "@181;",
+      "count": 2,
+      "selected": "mi",
+      "second": "ru"
+    },
+    {
+      "glyph": "@184;",
+      "count": 2,
+      "selected": "iu",
+      "second": "iu"
+    },
+    {
+      "glyph": "@207;",
+      "count": 2,
+      "selected": "do",
+      "second": "ea"
+    },
+    {
+      "glyph": "@208;",
+      "count": 2,
+      "selected": "b",
+      "second": "al"
+    },
+    {
+      "glyph": "@220;",
+      "count": 2,
+      "selected": "ab",
+      "second": "ab"
+    },
+    {
+      "glyph": "@242;",
+      "count": 2,
+      "selected": "pl",
+      "second": "fl"
+    },
+    {
+      "glyph": "@244;",
+      "count": 2,
+      "selected": "g",
+      "second": "ni"
+    },
+    {
+      "glyph": "q",
+      "count": 2,
+      "selected": "b",
+      "second": "st"
+    },
+    {
+      "glyph": "r",
+      "count": 2,
+      "selected": "na",
+      "second": "rg"
+    },
+    {
+      "glyph": "t",
+      "count": 2,
+      "selected": "cr",
+      "second": "br"
+    },
+    {
+      "glyph": "@156;",
+      "count": 1,
+      "selected": "mo",
+      "second": "na"
+    },
+    {
+      "glyph": "@163;",
+      "count": 1,
+      "selected": "ho",
+      "second": "cr"
+    },
+    {
+      "glyph": "@166;",
+      "count": 1,
+      "selected": "ro",
+      "second": "le"
+    },
+    {
+      "glyph": "@169;",
+      "count": 1,
+      "selected": "ma",
+      "second": "ma"
+    },
+    {
+      "glyph": "@170;",
+      "count": 1,
+      "selected": "nd",
+      "second": "r"
+    },
+    {
+      "glyph": "@173;",
+      "count": 1,
+      "selected": "b",
+      "second": "x"
+    },
+    {
+      "glyph": "@174;",
+      "count": 1,
+      "selected": "to",
+      "second": "to"
+    },
+    {
+      "glyph": "@176;",
+      "count": 1,
+      "selected": "os",
+      "second": "sa"
+    },
+    {
+      "glyph": "@178;",
+      "count": 1,
+      "selected": "q",
+      "second": "q"
+    },
+    {
+      "glyph": "@183;",
+      "count": 1,
+      "selected": "as",
+      "second": "ia"
+    },
+    {
+      "glyph": "@185;",
+      "count": 1,
+      "selected": "se",
+      "second": "eo"
+    },
+    {
+      "glyph": "@189;",
+      "count": 1,
+      "selected": "eu",
+      "second": "eu"
+    },
+    {
+      "glyph": "@190;",
+      "count": 1,
+      "selected": "ha",
+      "second": "pl"
+    },
+    {
+      "glyph": "@191;",
+      "count": 1,
+      "selected": "ot",
+      "second": "ot"
+    },
+    {
+      "glyph": "@192;",
+      "count": 1,
+      "selected": "ra",
+      "second": "ra"
+    },
+    {
+      "glyph": "@193;",
+      "count": 1,
+      "selected": "es",
+      "second": "as"
+    },
+    {
+      "glyph": "@194;",
+      "count": 1,
+      "selected": "ur",
+      "second": "ra"
+    },
+    {
+      "glyph": "@196;",
+      "count": 1,
+      "selected": "cu",
+      "second": "tu"
+    },
+    {
+      "glyph": "@197;",
+      "count": 1,
+      "selected": "mi",
+      "second": "ui"
+    },
+    {
+      "glyph": "@210;",
+      "count": 1,
+      "selected": "un",
+      "second": "ub"
+    },
+    {
+      "glyph": "@215;",
+      "count": 1,
+      "selected": "al",
+      "second": "cu"
+    },
+    {
+      "glyph": "@217;",
+      "count": 1,
+      "selected": "ad",
+      "second": "ex"
+    },
+    {
+      "glyph": "@218;",
+      "count": 1,
+      "selected": "ge",
+      "second": "pe"
+    },
+    {
+      "glyph": "@221;",
+      "count": 1,
+      "selected": "h",
+      "second": "h"
+    },
+    {
+      "glyph": "@222;",
+      "count": 1,
+      "selected": "od",
+      "second": "ur"
+    },
+    {
+      "glyph": "@223;",
+      "count": 1,
+      "selected": "ri",
+      "second": "ri"
+    },
+    {
+      "glyph": "@224;",
+      "count": 1,
+      "selected": "at",
+      "second": "ou"
+    },
+    {
+      "glyph": "@225;",
+      "count": 1,
+      "selected": "pr",
+      "second": "hu"
+    },
+    {
+      "glyph": "@226;",
+      "count": 1,
+      "selected": "op",
+      "second": "un"
+    },
+    {
+      "glyph": "@227;",
+      "count": 1,
+      "selected": "st",
+      "second": "op"
+    },
+    {
+      "glyph": "@233;",
+      "count": 1,
+      "selected": "h",
+      "second": "h"
+    },
+    {
+      "glyph": "@234;",
+      "count": 1,
+      "selected": "du",
+      "second": "ca"
+    },
+    {
+      "glyph": "@238;",
+      "count": 1,
+      "selected": "at",
+      "second": "ar"
+    },
+    {
+      "glyph": "@240;",
+      "count": 1,
+      "selected": "sa",
+      "second": "un"
+    },
+    {
+      "glyph": "@241;",
+      "count": 1,
+      "selected": "sc",
+      "second": "sc"
+    },
+    {
+      "glyph": "@243;",
+      "count": 1,
+      "selected": "ad",
+      "second": "ex"
+    },
+    {
+      "glyph": "@246;",
+      "count": 1,
+      "selected": "nc",
+      "second": "mp"
+    },
+    {
+      "glyph": "@247;",
+      "count": 1,
+      "selected": "fi",
+      "second": "fi"
+    },
+    {
+      "glyph": "@249;",
+      "count": 1,
+      "selected": "ca",
+      "second": "un"
+    },
+    {
+      "glyph": "@251;",
+      "count": 1,
+      "selected": "mp",
+      "second": "rt"
+    },
+    {
+      "glyph": "@252;",
+      "count": 1,
+      "selected": "ap",
+      "second": "ag"
+    },
+    {
+      "glyph": "R",
+      "count": 1,
+      "selected": "en",
+      "second": "ll"
+    },
+    {
+      "glyph": "W",
+      "count": 1,
+      "selected": "ci",
+      "second": "no"
+    },
+    {
+      "glyph": "b",
+      "count": 1,
+      "selected": "om",
+      "second": "sp"
+    }
+  ],
+  "actual_lexical": {
+    "train": {
+      "words_ge3": 5431,
+      "hits_ge3": 1151,
+      "fraction_ge3": 0.2119315043270116,
+      "output_word_mean": 3.9726692985119954,
+      "most_common_letter": "i",
+      "most_common_letter_count": 5163,
+      "most_common_letter_fraction": 0.19733221219996944,
+      "word_length_histogram": {
+        "1": 337,
+        "2": 818,
+        "3": 1730,
+        "4": 1458,
+        "5": 1096,
+        "6": 641,
+        "7": 300,
+        "8": 144,
+        "9": 36,
+        "10": 21,
+        "11": 3,
+        "12": 2
+      }
+    },
+    "development": {
+      "words_ge3": 1035,
+      "hits_ge3": 221,
+      "fraction_ge3": 0.2135265700483092,
+      "output_word_mean": 4.11578947368421,
+      "most_common_letter": "i",
+      "most_common_letter_count": 1015,
+      "most_common_letter_fraction": 0.19968522526067284,
+      "word_length_histogram": {
+        "1": 49,
+        "2": 151,
+        "3": 317,
+        "4": 248,
+        "5": 233,
+        "6": 120,
+        "7": 64,
+        "8": 31,
+        "9": 14,
+        "10": 6,
+        "11": 2
+      }
+    },
+    "reserve": {
+      "words_ge3": 2024,
+      "hits_ge3": 393,
+      "fraction_ge3": 0.1941699604743083,
+      "output_word_mean": 4.449488752556237,
+      "most_common_letter": "i",
+      "most_common_letter_count": 2300,
+      "most_common_letter_fraction": 0.21141649048625794,
+      "word_length_histogram": {
+        "1": 128,
+        "2": 293,
+        "3": 424,
+        "4": 435,
+        "5": 439,
+        "6": 370,
+        "7": 205,
+        "8": 92,
+        "9": 39,
+        "10": 9,
+        "11": 6,
+        "12": 5
+      }
+    }
+  },
+  "controls": [
+    {
+      "name": "letter23",
+      "selected_lexical": {
+        "words_ge3": 7805,
+        "hits_ge3": 5278,
+        "fraction_ge3": 0.6762331838565022,
+        "output_word_mean": 5.732462560522464,
+        "most_common_letter": "e",
+        "most_common_letter_count": 6002,
+        "most_common_letter_fraction": 0.11789432331565508,
+        "word_length_histogram": {
+          "1": 65,
+          "2": 1011,
+          "3": 1148,
+          "4": 1170,
+          "5": 1204,
+          "6": 1008,
+          "7": 945,
+          "8": 839,
+          "9": 569,
+          "10": 439,
+          "11": 222,
+          "12": 136,
+          "13": 65,
+          "14": 37,
+          "15": 16,
+          "16": 4,
+          "17": 2,
+          "18": 1
+        }
+      },
+      "true_lexical": {
+        "words_ge3": 7805,
+        "hits_ge3": 5278,
+        "fraction_ge3": 0.6762331838565022,
+        "output_word_mean": 5.732349960590024,
+        "most_common_letter": "e",
+        "most_common_letter_count": 6002,
+        "most_common_letter_fraction": 0.11789663910114125,
+        "word_length_histogram": {
+          "1": 65,
+          "2": 1011,
+          "3": 1148,
+          "4": 1170,
+          "5": 1204,
+          "6": 1008,
+          "7": 945,
+          "8": 839,
+          "9": 569,
+          "10": 439,
+          "11": 223,
+          "12": 135,
+          "13": 65,
+          "14": 37,
+          "15": 16,
+          "16": 4,
+          "17": 2,
+          "18": 1
+        }
+      },
+      "wrong_key_values": [
+        {
+          "cipher_label": 16,
+          "train_count": 5,
+          "true": "k",
+          "predicted": "qu"
+        }
+      ]
+    },
+    {
+      "name": "pair127",
+      "selected_lexical": {
+        "words_ge3": 7805,
+        "hits_ge3": 5232,
+        "fraction_ge3": 0.6703395259449071,
+        "output_word_mean": 5.731111361333183,
+        "most_common_letter": "e",
+        "most_common_letter_count": 5991,
+        "most_common_letter_fraction": 0.11770600023576565,
+        "word_length_histogram": {
+          "1": 65,
+          "2": 1011,
+          "3": 1148,
+          "4": 1170,
+          "5": 1204,
+          "6": 1009,
+          "7": 947,
+          "8": 839,
+          "9": 568,
+          "10": 438,
+          "11": 223,
+          "12": 134,
+          "13": 65,
+          "14": 37,
+          "15": 16,
+          "16": 4,
+          "17": 2,
+          "18": 1
+        }
+      },
+      "true_lexical": {
+        "words_ge3": 7805,
+        "hits_ge3": 5278,
+        "fraction_ge3": 0.6762331838565022,
+        "output_word_mean": 5.732349960590024,
+        "most_common_letter": "e",
+        "most_common_letter_count": 6002,
+        "most_common_letter_fraction": 0.11789663910114125,
+        "word_length_histogram": {
+          "1": 65,
+          "2": 1011,
+          "3": 1148,
+          "4": 1170,
+          "5": 1204,
+          "6": 1008,
+          "7": 945,
+          "8": 839,
+          "9": 569,
+          "10": 439,
+          "11": 223,
+          "12": 135,
+          "13": 65,
+          "14": 37,
+          "15": 16,
+          "16": 4,
+          "17": 2,
+          "18": 1
+        }
+      },
+      "wrong_key_values": [
+        {
+          "cipher_label": 64,
+          "train_count": 57,
+          "true": "id",
+          "predicted": "od"
+        },
+        {
+          "cipher_label": 43,
+          "train_count": 7,
+          "true": "eq",
+          "predicted": "q"
+        },
+        {
+          "cipher_label": 6,
+          "train_count": 5,
+          "true": "k",
+          "predicted": "u"
+        }
+      ]
+    },
+    {
+      "name": "homophone127",
+      "selected_lexical": {
+        "words_ge3": 1017,
+        "hits_ge3": 557,
+        "fraction_ge3": 0.5476892822025565,
+        "output_word_mean": 5.602451838879159,
+        "most_common_letter": "e",
+        "most_common_letter_count": 790,
+        "most_common_letter_fraction": 0.12347608627696155,
+        "word_length_histogram": {
+          "1": 1,
+          "2": 124,
+          "3": 158,
+          "4": 130,
+          "5": 183,
+          "6": 168,
+          "7": 133,
+          "8": 98,
+          "9": 48,
+          "10": 49,
+          "11": 20,
+          "12": 22,
+          "13": 5,
+          "14": 1,
+          "15": 1,
+          "17": 1
+        }
+      },
+      "true_lexical": {
+        "words_ge3": 1016,
+        "hits_ge3": 577,
+        "fraction_ge3": 0.5679133858267716,
+        "output_word_mean": 5.601576182136602,
+        "most_common_letter": "e",
+        "most_common_letter_count": 793,
+        "most_common_letter_fraction": 0.12396435829294981,
+        "word_length_histogram": {
+          "1": 1,
+          "2": 125,
+          "3": 157,
+          "4": 130,
+          "5": 181,
+          "6": 170,
+          "7": 132,
+          "8": 100,
+          "9": 47,
+          "10": 50,
+          "11": 20,
+          "12": 21,
+          "13": 5,
+          "14": 1,
+          "15": 1,
+          "17": 1
+        }
+      },
+      "wrong_key_values": [
+        {
+          "cipher_label": 59,
+          "train_count": 23,
+          "true": "um",
+          "predicted": "am"
+        },
+        {
+          "cipher_label": 23,
+          "train_count": 14,
+          "true": "ri",
+          "predicted": "i"
+        },
+        {
+          "cipher_label": 49,
+          "train_count": 13,
+          "true": "b",
+          "predicted": "ss"
+        },
+        {
+          "cipher_label": 110,
+          "train_count": 12,
+          "true": "b",
+          "predicted": "su"
+        },
+        {
+          "cipher_label": 77,
+          "train_count": 10,
+          "true": "si",
+          "predicted": "ad"
+        },
+        {
+          "cipher_label": 103,
+          "train_count": 9,
+          "true": "or",
+          "predicted": "i"
+        },
+        {
+          "cipher_label": 35,
+          "train_count": 8,
+          "true": "an",
+          "predicted": "un"
+        },
+        {
+          "cipher_label": 13,
+          "train_count": 6,
+          "true": "at",
+          "predicted": "id"
+        },
+        {
+          "cipher_label": 43,
+          "train_count": 4,
+          "true": "re",
+          "predicted": "no"
+        },
+        {
+          "cipher_label": 2,
+          "train_count": 2,
+          "true": "os",
+          "predicted": "ro"
+        },
+        {
+          "cipher_label": 69,
+          "train_count": 2,
+          "true": "y",
+          "predicted": "as"
+        },
+        {
+          "cipher_label": 75,
+          "train_count": 1,
+          "true": "ra",
+          "predicted": "la"
+        }
+      ]
+    }
+  ],
+  "nulls": [
+    {
+      "trial": 0,
+      "metrics": {
+        "objective": -5.431536455031954,
+        "word_language_per_input_unit": -3.308866994042352,
+        "length_normalization_per_input_unit": -0.004639879834192963,
+        "emission_per_input_unit": -2.118029581155408,
+        "input_units": 9259,
+        "output_letters": 10892,
+        "expansion_ratio": 1.1763689383302733,
+        "complete_words": 2445,
+        "word_hits": 1075,
+        "source_word_fraction": 0.4396728016359918
+      },
+      "lexical": {
+        "words_ge3": 2083,
+        "hits_ge3": 831,
+        "fraction_ge3": 0.39894383101296205,
+        "output_word_mean": 4.4548057259713705,
+        "most_common_letter": "i",
+        "most_common_letter_count": 10426,
+        "most_common_letter_fraction": 0.9572163055453544,
+        "word_length_histogram": {
+          "1": 112,
+          "2": 250,
+          "3": 465,
+          "4": 492,
+          "5": 440,
+          "6": 329,
+          "7": 204,
+          "8": 98,
+          "9": 34,
+          "10": 9,
+          "11": 10,
+          "12": 1,
+          "13": 1
+        }
+      }
+    },
+    {
+      "trial": 1,
+      "metrics": {
+        "objective": -5.419856223098587,
+        "word_language_per_input_unit": -3.1669328232756713,
+        "length_normalization_per_input_unit": 0.05660923844474282,
+        "emission_per_input_unit": -2.309532638267659,
+        "input_units": 9259,
+        "output_letters": 10310,
+        "expansion_ratio": 1.1135111783129927,
+        "complete_words": 2445,
+        "word_hits": 1219,
+        "source_word_fraction": 0.4985685071574642
+      },
+      "lexical": {
+        "words_ge3": 2053,
+        "hits_ge3": 953,
+        "fraction_ge3": 0.46419873356064295,
+        "output_word_mean": 4.216768916155419,
+        "most_common_letter": "i",
+        "most_common_letter_count": 9955,
+        "most_common_letter_fraction": 0.9655674102812803,
+        "word_length_histogram": {
+          "1": 121,
+          "2": 271,
+          "3": 522,
+          "4": 521,
+          "5": 458,
+          "6": 292,
+          "7": 171,
+          "8": 58,
+          "9": 18,
+          "10": 12,
+          "12": 1
+        }
+      }
+    },
+    {
+      "trial": 2,
+      "metrics": {
+        "objective": -5.412255200929068,
+        "word_language_per_input_unit": -3.07821589684315,
+        "length_normalization_per_input_unit": 0.07601100058465278,
+        "emission_per_input_unit": -2.410050304670571,
+        "input_units": 9259,
+        "output_letters": 10105,
+        "expansion_ratio": 1.0913705583756346,
+        "complete_words": 2445,
+        "word_hits": 1259,
+        "source_word_fraction": 0.5149284253578732
+      },
+      "lexical": {
+        "words_ge3": 2035,
+        "hits_ge3": 974,
+        "fraction_ge3": 0.47862407862407863,
+        "output_word_mean": 4.132924335378323,
+        "most_common_letter": "i",
+        "most_common_letter_count": 9838,
+        "most_common_letter_fraction": 0.9735774369124196,
+        "word_length_histogram": {
+          "1": 120,
+          "2": 290,
+          "3": 546,
+          "4": 523,
+          "5": 431,
+          "6": 329,
+          "7": 135,
+          "8": 46,
+          "9": 18,
+          "10": 6,
+          "11": 1
+        }
+      }
+    },
+    {
+      "trial": 3,
+      "metrics": {
+        "objective": -5.417561391102352,
+        "word_language_per_input_unit": -3.2432376612475426,
+        "length_normalization_per_input_unit": -0.0009074271544730156,
+        "emission_per_input_unit": -2.173416302700337,
+        "input_units": 9259,
+        "output_letters": 10910,
+        "expansion_ratio": 1.1783129927637974,
+        "complete_words": 2445,
+        "word_hits": 1111,
+        "source_word_fraction": 0.45439672801635994
+      },
+      "lexical": {
+        "words_ge3": 2079,
+        "hits_ge3": 857,
+        "fraction_ge3": 0.4122174122174122,
+        "output_word_mean": 4.4621676891615545,
+        "most_common_letter": "i",
+        "most_common_letter_count": 10549,
+        "most_common_letter_fraction": 0.9669110907424381,
+        "word_length_histogram": {
+          "1": 106,
+          "2": 260,
+          "3": 461,
+          "4": 488,
+          "5": 435,
+          "6": 330,
+          "7": 220,
+          "8": 85,
+          "9": 39,
+          "10": 14,
+          "11": 4,
+          "12": 1,
+          "13": 1,
+          "14": 1
+        }
+      }
+    },
+    {
+      "trial": 4,
+      "metrics": {
+        "objective": -5.445806059738748,
+        "word_language_per_input_unit": -3.2226095816731326,
+        "length_normalization_per_input_unit": 0.0575842713119209,
+        "emission_per_input_unit": -2.280780749377537,
+        "input_units": 9259,
+        "output_letters": 10238,
+        "expansion_ratio": 1.1057349605788962,
+        "complete_words": 2445,
+        "word_hits": 1218,
+        "source_word_fraction": 0.498159509202454
+      },
+      "lexical": {
+        "words_ge3": 2029,
+        "hits_ge3": 930,
+        "fraction_ge3": 0.45835386890093643,
+        "output_word_mean": 4.187321063394683,
+        "most_common_letter": "i",
+        "most_common_letter_count": 9806,
+        "most_common_letter_fraction": 0.9578042586442664,
+        "word_length_histogram": {
+          "1": 123,
+          "2": 293,
+          "3": 512,
+          "4": 532,
+          "5": 424,
+          "6": 317,
+          "7": 155,
+          "8": 55,
+          "9": 25,
+          "10": 6,
+          "11": 3
+        }
+      }
+    },
+    {
+      "trial": 5,
+      "metrics": {
+        "objective": -5.416896806864019,
+        "word_language_per_input_unit": -3.260757245578176,
+        "length_normalization_per_input_unit": -0.01977854800511331,
+        "emission_per_input_unit": -2.13636101328073,
+        "input_units": 9259,
+        "output_letters": 11065,
+        "expansion_ratio": 1.195053461496922,
+        "complete_words": 2445,
+        "word_hits": 1076,
+        "source_word_fraction": 0.440081799591002
+      },
+      "lexical": {
+        "words_ge3": 2063,
+        "hits_ge3": 807,
+        "fraction_ge3": 0.3911778962675715,
+        "output_word_mean": 4.525562372188139,
+        "most_common_letter": "i",
+        "most_common_letter_count": 10688,
+        "most_common_letter_fraction": 0.9659286037053774,
+        "word_length_histogram": {
+          "1": 102,
+          "2": 280,
+          "3": 426,
+          "4": 475,
+          "5": 426,
+          "6": 333,
+          "7": 224,
+          "8": 111,
+          "9": 49,
+          "10": 14,
+          "11": 2,
+          "12": 2,
+          "14": 1
+        }
+      }
+    },
+    {
+      "trial": 6,
+      "metrics": {
+        "objective": -5.437954083753021,
+        "word_language_per_input_unit": -3.279221505604467,
+        "length_normalization_per_input_unit": 0.049516513119266234,
+        "emission_per_input_unit": -2.2082490912678208,
+        "input_units": 9259,
+        "output_letters": 10328,
+        "expansion_ratio": 1.1154552327465168,
+        "complete_words": 2445,
+        "word_hits": 1135,
+        "source_word_fraction": 0.46421267893660534
+      },
+      "lexical": {
+        "words_ge3": 2058,
+        "hits_ge3": 879,
+        "fraction_ge3": 0.4271137026239067,
+        "output_word_mean": 4.224130879345603,
+        "most_common_letter": "i",
+        "most_common_letter_count": 9768,
+        "most_common_letter_fraction": 0.9457784663051898,
+        "word_length_histogram": {
+          "1": 122,
+          "2": 265,
+          "3": 543,
+          "4": 497,
+          "5": 434,
+          "6": 341,
+          "7": 145,
+          "8": 62,
+          "9": 30,
+          "10": 4,
+          "11": 2
+        }
+      }
+    },
+    {
+      "trial": 7,
+      "metrics": {
+        "objective": -5.426887477782297,
+        "word_language_per_input_unit": -3.2753167943304358,
+        "length_normalization_per_input_unit": 0.0006306279744374769,
+        "emission_per_input_unit": -2.1522013114262992,
+        "input_units": 9259,
+        "output_letters": 10880,
+        "expansion_ratio": 1.1750729020412571,
+        "complete_words": 2445,
+        "word_hits": 1105,
+        "source_word_fraction": 0.45194274028629855
+      },
+      "lexical": {
+        "words_ge3": 2070,
+        "hits_ge3": 845,
+        "fraction_ge3": 0.4082125603864734,
+        "output_word_mean": 4.449897750511248,
+        "most_common_letter": "i",
+        "most_common_letter_count": 10470,
+        "most_common_letter_fraction": 0.9623161764705882,
+        "word_length_histogram": {
+          "1": 105,
+          "2": 270,
+          "3": 459,
+          "4": 504,
+          "5": 433,
+          "6": 313,
+          "7": 191,
+          "8": 107,
+          "9": 36,
+          "10": 18,
+          "11": 7,
+          "12": 1,
+          "13": 1
+        }
+      }
+    },
+    {
+      "trial": 8,
+      "metrics": {
+        "objective": -5.428492474572114,
+        "word_language_per_input_unit": -3.304663558120901,
+        "length_normalization_per_input_unit": 0.004985074385504541,
+        "emission_per_input_unit": -2.128813990836718,
+        "input_units": 9259,
+        "output_letters": 10803,
+        "expansion_ratio": 1.1667566691867373,
+        "complete_words": 2445,
+        "word_hits": 1103,
+        "source_word_fraction": 0.45112474437627814
+      },
+      "lexical": {
+        "words_ge3": 2072,
+        "hits_ge3": 846,
+        "fraction_ge3": 0.4083011583011583,
+        "output_word_mean": 4.41840490797546,
+        "most_common_letter": "i",
+        "most_common_letter_count": 10313,
+        "most_common_letter_fraction": 0.95464222901046,
+        "word_length_histogram": {
+          "1": 109,
+          "2": 264,
+          "3": 455,
+          "4": 522,
+          "5": 443,
+          "6": 312,
+          "7": 192,
+          "8": 89,
+          "9": 35,
+          "10": 14,
+          "11": 7,
+          "12": 2,
+          "14": 1
+        }
+      }
+    }
+  ],
+  "null_objective": {
+    "mean": -5.426360685874685,
+    "minimum": -5.445806059738748,
+    "maximum": -5.412255200929068
+  },
+  "null_source_word_fraction": {
+    "mean": 0.4681208816178142,
+    "minimum": 0.4396728016359918,
+    "maximum": 0.5149284253578732
+  },
+  "null_expansion_ratio": {
+    "mean": 1.1464040993147808,
+    "minimum": 1.0913705583756346,
+    "maximum": 1.195053461496922
+  },
+  "random_label_objective": {
+    "mean": -11.99765116372736,
+    "minimum": -17.5237892795675,
+    "maximum": -7.334734626941015
+  },
+  "cautions": [
+    "Source word hits may be higher after shuffle due to collapsed homophone groups; inspect the emission likelihood.",
+    "Scores per cipher unit across different codebooks have different entropy; numerical similarity to a control does not imply recovery.",
+    "All actual pages here are development data. No global optimum or connected reading established."
+  ]
+}

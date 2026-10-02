@@ -1,0 +1,13 @@
+{
+  "status": "FROZEN_BEFORE_MANUSCRIPT_SEARCH",
+  "hashes": {
+    "src/substitution.py": "fa3d46dda69887634346f2fda024398da294390389225c25c391f182d746fa9f",
+    "src/substitution_search.cpp": "fccddc8c70e71d03450818fc6b5fd0d3145f08a978104af66ffc361153bf745a",
+    "data/substitution-config.json": "1f4bfbe4bc51fd82d42a3260a949e25b712f3d1c8718095f0d767cc18ea4af94",
+    "data/substitution-manuscript.json": "e9cf491b8be5972e135764df2d6c0aa648144f679bfd0cb403ba7865dff87654",
+    "data/latin-model.json": "0097f8dc09609f173d5e814473455a53288f380a0a5490c34890148a72390700",
+    "data/latin/latin-4gram.bin": "8bd6c2cd3fc809225519de761e897721026365533ad1d0fb69869688257eb5c5",
+    "notes/experiment-010-design.md": "54ae97e03bcb87299524293fb0d56c12fc5298b64ed091ca9f16cdf24aa01b98",
+    "results/substitution/calibration.json": "0d65b5491b3357584d7fa149d523cdd67e41e23799a72c1bd19e514074622c18"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "source_files_verified": 15,
+  "frozen_input_references_verified": 7,
+  "image_coverage_records": 10,
+  "local_markdown_links_verified": 17,
+  "python_files_parsed": 3,
+  "note": "Artifact integrity check only; completed statistical experiments were not rerun."
+}

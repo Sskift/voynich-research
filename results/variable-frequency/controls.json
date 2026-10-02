@@ -1,0 +1,6365 @@
+{
+  "status": "PASS",
+  "criterion": "Every full test true length and known code must satisfy the block envelope; block sensitivities retained separately.",
+  "controls": [
+    {
+      "name": "letter23",
+      "source": "cicero",
+      "paired": {
+        "train": {
+          "words": 3668,
+          "plaintext_units": 20330,
+          "true_expansion": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "bound": {
+            "cipher_units": 20330,
+            "cipher_types": 21,
+            "cipher_counts": {
+              "0": 1247,
+              "1": 283,
+              "10": 611,
+              "12": 150,
+              "13": 1522,
+              "14": 1147,
+              "15": 1642,
+              "16": 5,
+              "17": 185,
+              "18": 867,
+              "19": 511,
+              "2": 2325,
+              "20": 139,
+              "21": 81,
+              "22": 365,
+              "3": 1171,
+              "4": 2032,
+              "6": 608,
+              "7": 1384,
+              "8": 1625,
+              "9": 2430
+            },
+            "max_cipher_frequency": {
+              "numerator": 243,
+              "denominator": 2033,
+              "value": 0.11952779144121987
+            },
+            "maximizers": [
+              "9"
+            ],
+            "a": {
+              "numerator": 243,
+              "denominator": 2033,
+              "value": 0.11952779144121987
+            },
+            "b": {
+              "numerator": 191,
+              "denominator": 10165,
+              "value": 0.018789965568125924
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 10769,
+              "denominator": 10165,
+              "value": 1.0594195769798327
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 8696,
+                  "denominator": 10165,
+                  "value": 0.855484505656665
+                },
+                "upper_after": {
+                  "numerator": 11634,
+                  "denominator": 10165,
+                  "value": 1.1445154943433349
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 11634,
+                  "denominator": 10165,
+                  "value": 1.1445154943433349
+                },
+                "forced_monographs": [
+                  "0",
+                  "10",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "19",
+                  "2",
+                  "3",
+                  "4",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 9561,
+                  "denominator": 10165,
+                  "value": 0.9405804230201672
+                },
+                "upper_after": {
+                  "numerator": 10769,
+                  "denominator": 10165,
+                  "value": 1.0594195769798327
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 10769,
+                  "denominator": 10165,
+                  "value": 1.0594195769798327
+                },
+                "forced_monographs": [
+                  "0",
+                  "10",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "19",
+                  "2",
+                  "3",
+                  "4",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 9561,
+                  "denominator": 10165,
+                  "value": 0.9405804230201672
+                },
+                "upper_after": {
+                  "numerator": 10769,
+                  "denominator": 10165,
+                  "value": 1.0594195769798327
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        },
+        "test": {
+          "words": 8884,
+          "plaintext_units": 50937,
+          "true_expansion": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "bound": {
+            "cipher_units": 50937,
+            "cipher_types": 22,
+            "cipher_counts": {
+              "0": 3124,
+              "1": 723,
+              "10": 1446,
+              "12": 424,
+              "13": 4171,
+              "14": 2898,
+              "15": 4000,
+              "16": 1,
+              "17": 402,
+              "18": 2029,
+              "19": 1302,
+              "2": 6002,
+              "20": 451,
+              "21": 204,
+              "22": 983,
+              "3": 2963,
+              "4": 5005,
+              "5": 3,
+              "6": 1694,
+              "7": 3141,
+              "8": 4008,
+              "9": 5963
+            },
+            "max_cipher_frequency": {
+              "numerator": 6002,
+              "denominator": 50937,
+              "value": 0.1178318314781004
+            },
+            "maximizers": [
+              "2"
+            ],
+            "a": {
+              "numerator": 6002,
+              "denominator": 50937,
+              "value": 0.1178318314781004
+            },
+            "b": {
+              "numerator": 983,
+              "denominator": 50937,
+              "value": 0.0192983489408485
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 54128,
+              "denominator": 50937,
+              "value": 1.0626460137032019
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 43304,
+                  "denominator": 50937,
+                  "value": 0.8501482223138387
+                },
+                "upper_after": {
+                  "numerator": 58570,
+                  "denominator": 50937,
+                  "value": 1.1498517776861614
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 58570,
+                  "denominator": 50937,
+                  "value": 1.1498517776861614
+                },
+                "forced_monographs": [
+                  "0",
+                  "10",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "19",
+                  "2",
+                  "3",
+                  "4",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 47746,
+                  "denominator": 50937,
+                  "value": 0.937353986296798
+                },
+                "upper_after": {
+                  "numerator": 54128,
+                  "denominator": 50937,
+                  "value": 1.0626460137032019
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 54128,
+                  "denominator": 50937,
+                  "value": 1.0626460137032019
+                },
+                "forced_monographs": [
+                  "0",
+                  "10",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "19",
+                  "2",
+                  "3",
+                  "4",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 47746,
+                  "denominator": 50937,
+                  "value": 0.937353986296798
+                },
+                "upper_after": {
+                  "numerator": 54128,
+                  "denominator": 50937,
+                  "value": 1.0626460137032019
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        }
+      },
+      "full_test_transfer": {
+        "blocks": {
+          "words": 8884,
+          "plaintext_units": 50937,
+          "true_expansion": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "bound": {
+            "cipher_units": 50937,
+            "cipher_types": 22,
+            "cipher_counts": {
+              "0": 3124,
+              "1": 723,
+              "10": 1446,
+              "12": 424,
+              "13": 4171,
+              "14": 2898,
+              "15": 4000,
+              "16": 1,
+              "17": 402,
+              "18": 2029,
+              "19": 1302,
+              "2": 6002,
+              "20": 451,
+              "21": 204,
+              "22": 983,
+              "3": 2963,
+              "4": 5005,
+              "5": 3,
+              "6": 1694,
+              "7": 3141,
+              "8": 4008,
+              "9": 5963
+            },
+            "max_cipher_frequency": {
+              "numerator": 6002,
+              "denominator": 50937,
+              "value": 0.1178318314781004
+            },
+            "maximizers": [
+              "2"
+            ],
+            "a": {
+              "numerator": 84,
+              "denominator": 625,
+              "value": 0.1344
+            },
+            "b": {
+              "numerator": 151,
+              "denominator": 5001,
+              "value": 0.030193961207758448
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 58570,
+              "denominator": 50937,
+              "value": 1.1498517776861614
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "15",
+                  "2",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 35414,
+                  "denominator": 50937,
+                  "value": 0.6952509963287983
+                },
+                "upper_after": {
+                  "numerator": 66460,
+                  "denominator": 50937,
+                  "value": 1.3047490036712017
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 66460,
+                  "denominator": 50937,
+                  "value": 1.3047490036712017
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 43304,
+                  "denominator": 50937,
+                  "value": 0.8501482223138387
+                },
+                "upper_after": {
+                  "numerator": 58570,
+                  "denominator": 50937,
+                  "value": 1.1498517776861614
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 58570,
+                  "denominator": 50937,
+                  "value": 1.1498517776861614
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 43304,
+                  "denominator": 50937,
+                  "value": 0.8501482223138387
+                },
+                "upper_after": {
+                  "numerator": 58570,
+                  "denominator": 50937,
+                  "value": 1.1498517776861614
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        },
+        "full": {
+          "words": 8884,
+          "plaintext_units": 50937,
+          "true_expansion": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "bound": {
+            "cipher_units": 50937,
+            "cipher_types": 22,
+            "cipher_counts": {
+              "0": 3124,
+              "1": 723,
+              "10": 1446,
+              "12": 424,
+              "13": 4171,
+              "14": 2898,
+              "15": 4000,
+              "16": 1,
+              "17": 402,
+              "18": 2029,
+              "19": 1302,
+              "2": 6002,
+              "20": 451,
+              "21": 204,
+              "22": 983,
+              "3": 2963,
+              "4": 5005,
+              "5": 3,
+              "6": 1694,
+              "7": 3141,
+              "8": 4008,
+              "9": 5963
+            },
+            "max_cipher_frequency": {
+              "numerator": 6002,
+              "denominator": 50937,
+              "value": 0.1178318314781004
+            },
+            "maximizers": [
+              "2"
+            ],
+            "a": {
+              "numerator": 3379,
+              "denominator": 27088,
+              "value": 0.12474158298877731
+            },
+            "b": {
+              "numerator": 6315,
+              "denominator": 275084,
+              "value": 0.02295662415843888
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 54128,
+              "denominator": 50937,
+              "value": 1.0626460137032019
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 41275,
+                  "denominator": 50937,
+                  "value": 0.8103147024756071
+                },
+                "upper_after": {
+                  "numerator": 60599,
+                  "denominator": 50937,
+                  "value": 1.1896852975243928
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 60599,
+                  "denominator": 50937,
+                  "value": 1.1896852975243928
+                },
+                "forced_monographs": [
+                  "0",
+                  "10",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 46444,
+                  "denominator": 50937,
+                  "value": 0.9117929991950842
+                },
+                "upper_after": {
+                  "numerator": 55430,
+                  "denominator": 50937,
+                  "value": 1.0882070008049158
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 55430,
+                  "denominator": 50937,
+                  "value": 1.0882070008049158
+                },
+                "forced_monographs": [
+                  "0",
+                  "10",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "19",
+                  "2",
+                  "3",
+                  "4",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 47746,
+                  "denominator": 50937,
+                  "value": 0.937353986296798
+                },
+                "upper_after": {
+                  "numerator": 54128,
+                  "denominator": 50937,
+                  "value": 1.0626460137032019
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 54128,
+                  "denominator": 50937,
+                  "value": 1.0626460137032019
+                },
+                "forced_monographs": [
+                  "0",
+                  "10",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "19",
+                  "2",
+                  "3",
+                  "4",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 47746,
+                  "denominator": 50937,
+                  "value": 0.937353986296798
+                },
+                "upper_after": {
+                  "numerator": 54128,
+                  "denominator": 50937,
+                  "value": 1.0626460137032019
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        }
+      },
+      "test_block_transfer": [
+        {
+          "index": 0,
+          "start_word": 0,
+          "end_word": 875,
+          "words": 875,
+          "plaintext_units": 5002,
+          "true_expansion": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "bound": {
+            "cipher_units": 5002,
+            "cipher_types": 20,
+            "cipher_counts": {
+              "0": 326,
+              "1": 64,
+              "10": 138,
+              "12": 38,
+              "13": 393,
+              "14": 288,
+              "15": 389,
+              "17": 49,
+              "18": 185,
+              "19": 133,
+              "2": 602,
+              "20": 44,
+              "21": 34,
+              "22": 108,
+              "3": 300,
+              "4": 463,
+              "6": 171,
+              "7": 282,
+              "8": 391,
+              "9": 604
+            },
+            "max_cipher_frequency": {
+              "numerator": 302,
+              "denominator": 2501,
+              "value": 0.1207516993202719
+            },
+            "maximizers": [
+              "9"
+            ],
+            "a": {
+              "numerator": 84,
+              "denominator": 625,
+              "value": 0.1344
+            },
+            "b": {
+              "numerator": 151,
+              "denominator": 5001,
+              "value": 0.030193961207758448
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 141,
+              "denominator": 122,
+              "value": 1.1557377049180328
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "15",
+                  "2",
+                  "4",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 1584,
+                  "denominator": 2501,
+                  "value": 0.6333466613354658
+                },
+                "upper_after": {
+                  "numerator": 3418,
+                  "denominator": 2501,
+                  "value": 1.366653338664534
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 3418,
+                  "denominator": 2501,
+                  "value": 1.366653338664534
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 2019,
+                  "denominator": 2501,
+                  "value": 0.8072770891643343
+                },
+                "upper_after": {
+                  "numerator": 2983,
+                  "denominator": 2501,
+                  "value": 1.1927229108356658
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 2983,
+                  "denominator": 2501,
+                  "value": 1.1927229108356658
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 103,
+                  "denominator": 122,
+                  "value": 0.8442622950819673
+                },
+                "upper_after": {
+                  "numerator": 141,
+                  "denominator": 122,
+                  "value": 1.1557377049180328
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 141,
+                  "denominator": 122,
+                  "value": 1.1557377049180328
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 103,
+                  "denominator": 122,
+                  "value": 0.8442622950819673
+                },
+                "upper_after": {
+                  "numerator": 141,
+                  "denominator": 122,
+                  "value": 1.1557377049180328
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        },
+        {
+          "index": 1,
+          "start_word": 875,
+          "end_word": 1774,
+          "words": 899,
+          "plaintext_units": 5011,
+          "true_expansion": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "bound": {
+            "cipher_units": 5011,
+            "cipher_types": 21,
+            "cipher_counts": {
+              "0": 318,
+              "1": 58,
+              "10": 155,
+              "12": 44,
+              "13": 436,
+              "14": 283,
+              "15": 379,
+              "17": 38,
+              "18": 215,
+              "19": 108,
+              "2": 584,
+              "20": 36,
+              "21": 25,
+              "22": 102,
+              "3": 261,
+              "4": 496,
+              "5": 1,
+              "6": 177,
+              "7": 317,
+              "8": 364,
+              "9": 614
+            },
+            "max_cipher_frequency": {
+              "numerator": 614,
+              "denominator": 5011,
+              "value": 0.12253043304729595
+            },
+            "maximizers": [
+              "9"
+            ],
+            "a": {
+              "numerator": 84,
+              "denominator": 625,
+              "value": 0.1344
+            },
+            "b": {
+              "numerator": 151,
+              "denominator": 5001,
+              "value": 0.030193961207758448
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 5578,
+              "denominator": 5011,
+              "value": 1.1131510676511673
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "15",
+                  "2",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 3508,
+                  "denominator": 5011,
+                  "value": 0.7000598682897625
+                },
+                "upper_after": {
+                  "numerator": 6514,
+                  "denominator": 5011,
+                  "value": 1.2999401317102375
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 6514,
+                  "denominator": 5011,
+                  "value": 1.2999401317102375
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 4267,
+                  "denominator": 5011,
+                  "value": 0.8515266413889443
+                },
+                "upper_after": {
+                  "numerator": 5755,
+                  "denominator": 5011,
+                  "value": 1.1484733586110556
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 5755,
+                  "denominator": 5011,
+                  "value": 1.1484733586110556
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 4444,
+                  "denominator": 5011,
+                  "value": 0.8868489323488326
+                },
+                "upper_after": {
+                  "numerator": 5578,
+                  "denominator": 5011,
+                  "value": 1.1131510676511673
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 5578,
+                  "denominator": 5011,
+                  "value": 1.1131510676511673
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 4444,
+                  "denominator": 5011,
+                  "value": 0.8868489323488326
+                },
+                "upper_after": {
+                  "numerator": 5578,
+                  "denominator": 5011,
+                  "value": 1.1131510676511673
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        },
+        {
+          "index": 2,
+          "start_word": 1774,
+          "end_word": 2659,
+          "words": 885,
+          "plaintext_units": 5001,
+          "true_expansion": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "bound": {
+            "cipher_units": 5001,
+            "cipher_types": 20,
+            "cipher_counts": {
+              "0": 343,
+              "1": 61,
+              "10": 127,
+              "12": 47,
+              "13": 390,
+              "14": 296,
+              "15": 399,
+              "17": 34,
+              "18": 200,
+              "19": 129,
+              "2": 554,
+              "20": 51,
+              "21": 20,
+              "22": 86,
+              "3": 312,
+              "4": 478,
+              "6": 175,
+              "7": 302,
+              "8": 405,
+              "9": 592
+            },
+            "max_cipher_frequency": {
+              "numerator": 592,
+              "denominator": 5001,
+              "value": 0.118376324735053
+            },
+            "maximizers": [
+              "9"
+            ],
+            "a": {
+              "numerator": 84,
+              "denominator": 625,
+              "value": 0.1344
+            },
+            "b": {
+              "numerator": 151,
+              "denominator": 5001,
+              "value": 0.030193961207758448
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 1852,
+              "denominator": 1667,
+              "value": 1.110977804439112
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "15",
+                  "2",
+                  "3",
+                  "4",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 3473,
+                  "denominator": 5001,
+                  "value": 0.6944611077784443
+                },
+                "upper_after": {
+                  "numerator": 6529,
+                  "denominator": 5001,
+                  "value": 1.3055388922215556
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 6529,
+                  "denominator": 5001,
+                  "value": 1.3055388922215556
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 4271,
+                  "denominator": 5001,
+                  "value": 0.8540291941611677
+                },
+                "upper_after": {
+                  "numerator": 5731,
+                  "denominator": 5001,
+                  "value": 1.1459708058388323
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 5731,
+                  "denominator": 5001,
+                  "value": 1.1459708058388323
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 1482,
+                  "denominator": 1667,
+                  "value": 0.8890221955608878
+                },
+                "upper_after": {
+                  "numerator": 1852,
+                  "denominator": 1667,
+                  "value": 1.110977804439112
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 1852,
+                  "denominator": 1667,
+                  "value": 1.110977804439112
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 1482,
+                  "denominator": 1667,
+                  "value": 0.8890221955608878
+                },
+                "upper_after": {
+                  "numerator": 1852,
+                  "denominator": 1667,
+                  "value": 1.110977804439112
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        },
+        {
+          "index": 3,
+          "start_word": 2659,
+          "end_word": 3523,
+          "words": 864,
+          "plaintext_units": 5004,
+          "true_expansion": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "bound": {
+            "cipher_units": 5004,
+            "cipher_types": 20,
+            "cipher_counts": {
+              "0": 263,
+              "1": 83,
+              "10": 147,
+              "12": 32,
+              "13": 405,
+              "14": 258,
+              "15": 389,
+              "17": 52,
+              "18": 187,
+              "19": 117,
+              "2": 606,
+              "20": 52,
+              "21": 29,
+              "22": 97,
+              "3": 307,
+              "4": 485,
+              "6": 176,
+              "7": 329,
+              "8": 396,
+              "9": 594
+            },
+            "max_cipher_frequency": {
+              "numerator": 101,
+              "denominator": 834,
+              "value": 0.1211031175059952
+            },
+            "maximizers": [
+              "2"
+            ],
+            "a": {
+              "numerator": 84,
+              "denominator": 625,
+              "value": 0.1344
+            },
+            "b": {
+              "numerator": 151,
+              "denominator": 5001,
+              "value": 0.030193961207758448
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 1871,
+              "denominator": 1668,
+              "value": 1.1217026378896882
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [
+                  "13",
+                  "15",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 3511,
+                  "denominator": 5004,
+                  "value": 0.701638689048761
+                },
+                "upper_after": {
+                  "numerator": 6497,
+                  "denominator": 5004,
+                  "value": 1.298361310951239
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 6497,
+                  "denominator": 5004,
+                  "value": 1.298361310951239
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 112,
+                  "denominator": 139,
+                  "value": 0.8057553956834532
+                },
+                "upper_after": {
+                  "numerator": 166,
+                  "denominator": 139,
+                  "value": 1.1942446043165467
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 166,
+                  "denominator": 139,
+                  "value": 1.1942446043165467
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 4219,
+                  "denominator": 5004,
+                  "value": 0.8431254996003198
+                },
+                "upper_after": {
+                  "numerator": 5789,
+                  "denominator": 5004,
+                  "value": 1.1568745003996803
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 5789,
+                  "denominator": 5004,
+                  "value": 1.1568745003996803
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 1465,
+                  "denominator": 1668,
+                  "value": 0.8782973621103117
+                },
+                "upper_after": {
+                  "numerator": 1871,
+                  "denominator": 1668,
+                  "value": 1.1217026378896882
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 1871,
+                  "denominator": 1668,
+                  "value": 1.1217026378896882
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 1465,
+                  "denominator": 1668,
+                  "value": 0.8782973621103117
+                },
+                "upper_after": {
+                  "numerator": 1871,
+                  "denominator": 1668,
+                  "value": 1.1217026378896882
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        },
+        {
+          "index": 4,
+          "start_word": 3523,
+          "end_word": 4385,
+          "words": 862,
+          "plaintext_units": 5004,
+          "true_expansion": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "bound": {
+            "cipher_units": 5004,
+            "cipher_types": 21,
+            "cipher_counts": {
+              "0": 285,
+              "1": 88,
+              "10": 144,
+              "12": 36,
+              "13": 433,
+              "14": 231,
+              "15": 388,
+              "17": 43,
+              "18": 202,
+              "19": 119,
+              "2": 600,
+              "20": 55,
+              "21": 22,
+              "22": 106,
+              "3": 268,
+              "4": 508,
+              "5": 2,
+              "6": 172,
+              "7": 281,
+              "8": 432,
+              "9": 589
+            },
+            "max_cipher_frequency": {
+              "numerator": 50,
+              "denominator": 417,
+              "value": 0.11990407673860912
+            },
+            "maximizers": [
+              "2"
+            ],
+            "a": {
+              "numerator": 84,
+              "denominator": 625,
+              "value": 0.1344
+            },
+            "b": {
+              "numerator": 151,
+              "denominator": 5001,
+              "value": 0.030193961207758448
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 5791,
+              "denominator": 5004,
+              "value": 1.1572741806554756
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [
+                  "13",
+                  "15",
+                  "2",
+                  "4",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 1475,
+                  "denominator": 2502,
+                  "value": 0.5895283772981614
+                },
+                "upper_after": {
+                  "numerator": 3529,
+                  "denominator": 2502,
+                  "value": 1.4104716227018386
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 3529,
+                  "denominator": 2502,
+                  "value": 1.4104716227018386
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 4015,
+                  "denominator": 5004,
+                  "value": 0.8023581135091926
+                },
+                "upper_after": {
+                  "numerator": 5993,
+                  "denominator": 5004,
+                  "value": 1.1976418864908074
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 5993,
+                  "denominator": 5004,
+                  "value": 1.1976418864908074
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 4217,
+                  "denominator": 5004,
+                  "value": 0.8427258193445244
+                },
+                "upper_after": {
+                  "numerator": 5791,
+                  "denominator": 5004,
+                  "value": 1.1572741806554756
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 5791,
+                  "denominator": 5004,
+                  "value": 1.1572741806554756
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 4217,
+                  "denominator": 5004,
+                  "value": 0.8427258193445244
+                },
+                "upper_after": {
+                  "numerator": 5791,
+                  "denominator": 5004,
+                  "value": 1.1572741806554756
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        },
+        {
+          "index": 5,
+          "start_word": 4385,
+          "end_word": 5262,
+          "words": 877,
+          "plaintext_units": 5003,
+          "true_expansion": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "bound": {
+            "cipher_units": 5003,
+            "cipher_types": 20,
+            "cipher_counts": {
+              "0": 313,
+              "1": 73,
+              "10": 135,
+              "12": 39,
+              "13": 392,
+              "14": 295,
+              "15": 423,
+              "17": 42,
+              "18": 219,
+              "19": 123,
+              "2": 603,
+              "20": 38,
+              "21": 15,
+              "22": 92,
+              "3": 277,
+              "4": 454,
+              "6": 190,
+              "7": 305,
+              "8": 430,
+              "9": 545
+            },
+            "max_cipher_frequency": {
+              "numerator": 603,
+              "denominator": 5003,
+              "value": 0.12052768338996601
+            },
+            "maximizers": [
+              "2"
+            ],
+            "a": {
+              "numerator": 84,
+              "denominator": 625,
+              "value": 0.1344
+            },
+            "b": {
+              "numerator": 151,
+              "denominator": 5001,
+              "value": 0.030193961207758448
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 5560,
+              "denominator": 5003,
+              "value": 1.111333200079952
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "15",
+                  "2",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 3465,
+                  "denominator": 5003,
+                  "value": 0.6925844493304018
+                },
+                "upper_after": {
+                  "numerator": 6541,
+                  "denominator": 5003,
+                  "value": 1.3074155506695981
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 6541,
+                  "denominator": 5003,
+                  "value": 1.3074155506695981
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 4256,
+                  "denominator": 5003,
+                  "value": 0.8506895862482511
+                },
+                "upper_after": {
+                  "numerator": 5750,
+                  "denominator": 5003,
+                  "value": 1.149310413751749
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 5750,
+                  "denominator": 5003,
+                  "value": 1.149310413751749
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 4446,
+                  "denominator": 5003,
+                  "value": 0.8886667999200479
+                },
+                "upper_after": {
+                  "numerator": 5560,
+                  "denominator": 5003,
+                  "value": 1.111333200079952
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 5560,
+                  "denominator": 5003,
+                  "value": 1.111333200079952
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "6",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 4446,
+                  "denominator": 5003,
+                  "value": 0.8886667999200479
+                },
+                "upper_after": {
+                  "numerator": 5560,
+                  "denominator": 5003,
+                  "value": 1.111333200079952
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        },
+        {
+          "index": 6,
+          "start_word": 5262,
+          "end_word": 6157,
+          "words": 895,
+          "plaintext_units": 5009,
+          "true_expansion": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "bound": {
+            "cipher_units": 5009,
+            "cipher_types": 20,
+            "cipher_counts": {
+              "0": 316,
+              "1": 67,
+              "10": 148,
+              "12": 43,
+              "13": 439,
+              "14": 312,
+              "15": 363,
+              "17": 30,
+              "18": 190,
+              "19": 114,
+              "2": 579,
+              "20": 49,
+              "21": 14,
+              "22": 102,
+              "3": 282,
+              "4": 515,
+              "6": 171,
+              "7": 307,
+              "8": 373,
+              "9": 595
+            },
+            "max_cipher_frequency": {
+              "numerator": 595,
+              "denominator": 5009,
+              "value": 0.11878618486723896
+            },
+            "maximizers": [
+              "9"
+            ],
+            "a": {
+              "numerator": 84,
+              "denominator": 625,
+              "value": 0.1344
+            },
+            "b": {
+              "numerator": 151,
+              "denominator": 5001,
+              "value": 0.030193961207758448
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 5747,
+              "denominator": 5009,
+              "value": 1.1473347973647434
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "2",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 3799,
+                  "denominator": 5009,
+                  "value": 0.7584348173288081
+                },
+                "upper_after": {
+                  "numerator": 6219,
+                  "denominator": 5009,
+                  "value": 1.2415651826711918
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 6219,
+                  "denominator": 5009,
+                  "value": 1.2415651826711918
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 4271,
+                  "denominator": 5009,
+                  "value": 0.8526652026352566
+                },
+                "upper_after": {
+                  "numerator": 5747,
+                  "denominator": 5009,
+                  "value": 1.1473347973647434
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 5747,
+                  "denominator": 5009,
+                  "value": 1.1473347973647434
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 4271,
+                  "denominator": 5009,
+                  "value": 0.8526652026352566
+                },
+                "upper_after": {
+                  "numerator": 5747,
+                  "denominator": 5009,
+                  "value": 1.1473347973647434
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        },
+        {
+          "index": 7,
+          "start_word": 6157,
+          "end_word": 7011,
+          "words": 854,
+          "plaintext_units": 5001,
+          "true_expansion": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "bound": {
+            "cipher_units": 5001,
+            "cipher_types": 20,
+            "cipher_counts": {
+              "0": 310,
+              "1": 62,
+              "10": 141,
+              "12": 39,
+              "13": 399,
+              "14": 278,
+              "15": 424,
+              "17": 32,
+              "18": 190,
+              "19": 164,
+              "2": 590,
+              "20": 45,
+              "21": 14,
+              "22": 94,
+              "3": 304,
+              "4": 468,
+              "6": 151,
+              "7": 307,
+              "8": 400,
+              "9": 589
+            },
+            "max_cipher_frequency": {
+              "numerator": 590,
+              "denominator": 5001,
+              "value": 0.11797640471905618
+            },
+            "maximizers": [
+              "2"
+            ],
+            "a": {
+              "numerator": 84,
+              "denominator": 625,
+              "value": 0.1344
+            },
+            "b": {
+              "numerator": 151,
+              "denominator": 5001,
+              "value": 0.030193961207758448
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 5743,
+              "denominator": 5001,
+              "value": 1.148370325934813
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "15",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 3791,
+                  "denominator": 5001,
+                  "value": 0.7580483903219356
+                },
+                "upper_after": {
+                  "numerator": 6211,
+                  "denominator": 5001,
+                  "value": 1.2419516096780643
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 6211,
+                  "denominator": 5001,
+                  "value": 1.2419516096780643
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 4259,
+                  "denominator": 5001,
+                  "value": 0.851629674065187
+                },
+                "upper_after": {
+                  "numerator": 5743,
+                  "denominator": 5001,
+                  "value": 1.148370325934813
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 5743,
+                  "denominator": 5001,
+                  "value": 1.148370325934813
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 4259,
+                  "denominator": 5001,
+                  "value": 0.851629674065187
+                },
+                "upper_after": {
+                  "numerator": 5743,
+                  "denominator": 5001,
+                  "value": 1.148370325934813
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        },
+        {
+          "index": 8,
+          "start_word": 7011,
+          "end_word": 7858,
+          "words": 847,
+          "plaintext_units": 5004,
+          "true_expansion": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "bound": {
+            "cipher_units": 5004,
+            "cipher_types": 20,
+            "cipher_counts": {
+              "0": 311,
+              "1": 64,
+              "10": 141,
+              "12": 56,
+              "13": 400,
+              "14": 283,
+              "15": 378,
+              "17": 31,
+              "18": 211,
+              "19": 130,
+              "2": 602,
+              "20": 43,
+              "21": 11,
+              "22": 76,
+              "3": 298,
+              "4": 512,
+              "6": 147,
+              "7": 347,
+              "8": 362,
+              "9": 601
+            },
+            "max_cipher_frequency": {
+              "numerator": 301,
+              "denominator": 2502,
+              "value": 0.12030375699440447
+            },
+            "maximizers": [
+              "2"
+            ],
+            "a": {
+              "numerator": 84,
+              "denominator": 625,
+              "value": 0.1344
+            },
+            "b": {
+              "numerator": 151,
+              "denominator": 5001,
+              "value": 0.030193961207758448
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 1901,
+              "denominator": 1668,
+              "value": 1.1396882494004796
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "15",
+                  "2",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 1171,
+                  "denominator": 1668,
+                  "value": 0.7020383693045563
+                },
+                "upper_after": {
+                  "numerator": 2165,
+                  "denominator": 1668,
+                  "value": 1.2979616306954436
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 2165,
+                  "denominator": 1668,
+                  "value": 1.2979616306954436
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 1435,
+                  "denominator": 1668,
+                  "value": 0.8603117505995204
+                },
+                "upper_after": {
+                  "numerator": 1901,
+                  "denominator": 1668,
+                  "value": 1.1396882494004796
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 1901,
+                  "denominator": 1668,
+                  "value": 1.1396882494004796
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 1435,
+                  "denominator": 1668,
+                  "value": 0.8603117505995204
+                },
+                "upper_after": {
+                  "numerator": 1901,
+                  "denominator": 1668,
+                  "value": 1.1396882494004796
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        },
+        {
+          "index": 9,
+          "start_word": 7858,
+          "end_word": 8722,
+          "words": 864,
+          "plaintext_units": 5003,
+          "true_expansion": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "bound": {
+            "cipher_units": 5003,
+            "cipher_types": 21,
+            "cipher_counts": {
+              "0": 304,
+              "1": 81,
+              "10": 143,
+              "12": 43,
+              "13": 399,
+              "14": 322,
+              "15": 404,
+              "16": 1,
+              "17": 41,
+              "18": 205,
+              "19": 133,
+              "2": 577,
+              "20": 32,
+              "21": 19,
+              "22": 104,
+              "3": 292,
+              "4": 538,
+              "6": 136,
+              "7": 314,
+              "8": 388,
+              "9": 527
+            },
+            "max_cipher_frequency": {
+              "numerator": 577,
+              "denominator": 5003,
+              "value": 0.11533080151908855
+            },
+            "maximizers": [
+              "2"
+            ],
+            "a": {
+              "numerator": 84,
+              "denominator": 625,
+              "value": 0.1344
+            },
+            "b": {
+              "numerator": 151,
+              "denominator": 5001,
+              "value": 0.030193961207758448
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 5736,
+              "denominator": 5003,
+              "value": 1.1465120927443533
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "2",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 3773,
+                  "denominator": 5003,
+                  "value": 0.7541475114931041
+                },
+                "upper_after": {
+                  "numerator": 6233,
+                  "denominator": 5003,
+                  "value": 1.2458524885068958
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 6233,
+                  "denominator": 5003,
+                  "value": 1.2458524885068958
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 4270,
+                  "denominator": 5003,
+                  "value": 0.8534879072556466
+                },
+                "upper_after": {
+                  "numerator": 5736,
+                  "denominator": 5003,
+                  "value": 1.1465120927443533
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 5736,
+                  "denominator": 5003,
+                  "value": 1.1465120927443533
+                },
+                "forced_monographs": [
+                  "0",
+                  "13",
+                  "14",
+                  "15",
+                  "18",
+                  "2",
+                  "3",
+                  "4",
+                  "7",
+                  "8",
+                  "9"
+                ],
+                "forced_mass": {
+                  "numerator": 4270,
+                  "denominator": 5003,
+                  "value": 0.8534879072556466
+                },
+                "upper_after": {
+                  "numerator": 5736,
+                  "denominator": 5003,
+                  "value": 1.1465120927443533
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        }
+      ],
+      "test_block_tail": {
+        "start_word": 8722,
+        "words": 162,
+        "units": 895
+      }
+    },
+    {
+      "name": "pair127",
+      "source": "cicero",
+      "paired": {
+        "train": {
+          "words": 3668,
+          "plaintext_units": 20330,
+          "true_expansion": {
+            "numerator": 20330,
+            "denominator": 11849,
+            "value": 1.7157566039328214
+          },
+          "bound": {
+            "cipher_units": 11849,
+            "cipher_types": 124,
+            "cipher_counts": {
+              "1": 142,
+              "10": 225,
+              "100": 24,
+              "101": 116,
+              "102": 35,
+              "103": 214,
+              "104": 69,
+              "105": 43,
+              "106": 29,
+              "107": 115,
+              "108": 135,
+              "109": 101,
+              "110": 141,
+              "111": 195,
+              "112": 15,
+              "113": 49,
+              "114": 94,
+              "115": 150,
+              "116": 196,
+              "117": 53,
+              "118": 90,
+              "119": 76,
+              "12": 137,
+              "120": 49,
+              "121": 117,
+              "122": 93,
+              "123": 181,
+              "124": 48,
+              "125": 291,
+              "126": 8,
+              "13": 88,
+              "14": 49,
+              "15": 151,
+              "16": 358,
+              "17": 111,
+              "18": 96,
+              "19": 72,
+              "2": 94,
+              "20": 105,
+              "21": 35,
+              "22": 55,
+              "23": 120,
+              "24": 33,
+              "25": 155,
+              "26": 187,
+              "27": 32,
+              "28": 119,
+              "29": 39,
+              "3": 29,
+              "30": 26,
+              "31": 54,
+              "32": 167,
+              "33": 58,
+              "34": 76,
+              "35": 97,
+              "36": 26,
+              "37": 55,
+              "38": 96,
+              "39": 24,
+              "4": 66,
+              "40": 59,
+              "41": 66,
+              "42": 52,
+              "43": 7,
+              "45": 151,
+              "46": 203,
+              "47": 43,
+              "48": 13,
+              "49": 34,
+              "5": 117,
+              "50": 121,
+              "51": 32,
+              "52": 28,
+              "53": 37,
+              "54": 107,
+              "55": 54,
+              "56": 53,
+              "57": 27,
+              "58": 103,
+              "59": 27,
+              "6": 5,
+              "60": 204,
+              "61": 73,
+              "62": 25,
+              "63": 524,
+              "64": 57,
+              "65": 86,
+              "66": 62,
+              "67": 32,
+              "68": 139,
+              "69": 126,
+              "7": 27,
+              "70": 137,
+              "71": 89,
+              "72": 53,
+              "73": 43,
+              "74": 95,
+              "75": 113,
+              "76": 27,
+              "77": 137,
+              "78": 41,
+              "79": 366,
+              "8": 54,
+              "80": 64,
+              "81": 75,
+              "82": 52,
+              "83": 139,
+              "84": 96,
+              "85": 84,
+              "86": 19,
+              "87": 148,
+              "88": 11,
+              "89": 54,
+              "9": 41,
+              "90": 294,
+              "91": 46,
+              "92": 185,
+              "93": 85,
+              "94": 151,
+              "95": 155,
+              "96": 73,
+              "97": 150,
+              "98": 48,
+              "99": 126
+            },
+            "max_cipher_frequency": {
+              "numerator": 524,
+              "denominator": 11849,
+              "value": 0.04422314119334965
+            },
+            "maximizers": [
+              "63"
+            ],
+            "a": {
+              "numerator": 243,
+              "denominator": 2033,
+              "value": 0.11952779144121987
+            },
+            "b": {
+              "numerator": 191,
+              "denominator": 10165,
+              "value": 0.018789965568125924
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 23174,
+              "denominator": 11849,
+              "value": 1.9557768588066504
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [
+                  "63"
+                ],
+                "forced_mass": {
+                  "numerator": 524,
+                  "denominator": 11849,
+                  "value": 0.04422314119334965
+                },
+                "upper_after": {
+                  "numerator": 23174,
+                  "denominator": 11849,
+                  "value": 1.9557768588066504
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 23174,
+                  "denominator": 11849,
+                  "value": 1.9557768588066504
+                },
+                "forced_monographs": [
+                  "63"
+                ],
+                "forced_mass": {
+                  "numerator": 524,
+                  "denominator": 11849,
+                  "value": 0.04422314119334965
+                },
+                "upper_after": {
+                  "numerator": 23174,
+                  "denominator": 11849,
+                  "value": 1.9557768588066504
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        },
+        "test": {
+          "words": 8884,
+          "plaintext_units": 50937,
+          "true_expansion": {
+            "numerator": 50937,
+            "denominator": 29714,
+            "value": 1.7142424446388909
+          },
+          "bound": {
+            "cipher_units": 29714,
+            "cipher_types": 125,
+            "cipher_counts": {
+              "1": 451,
+              "10": 430,
+              "100": 39,
+              "101": 255,
+              "102": 62,
+              "103": 576,
+              "104": 165,
+              "105": 196,
+              "106": 68,
+              "107": 206,
+              "108": 326,
+              "109": 236,
+              "110": 288,
+              "111": 342,
+              "112": 39,
+              "113": 158,
+              "114": 234,
+              "115": 424,
+              "116": 450,
+              "117": 111,
+              "118": 262,
+              "119": 187,
+              "12": 261,
+              "120": 166,
+              "121": 250,
+              "122": 285,
+              "123": 375,
+              "124": 110,
+              "125": 879,
+              "126": 7,
+              "13": 210,
+              "14": 162,
+              "15": 430,
+              "16": 972,
+              "17": 170,
+              "18": 205,
+              "19": 207,
+              "2": 253,
+              "20": 242,
+              "21": 76,
+              "22": 145,
+              "23": 324,
+              "24": 56,
+              "25": 392,
+              "26": 396,
+              "27": 88,
+              "28": 328,
+              "29": 109,
+              "3": 71,
+              "30": 65,
+              "31": 189,
+              "32": 400,
+              "33": 213,
+              "34": 189,
+              "35": 237,
+              "36": 95,
+              "37": 146,
+              "38": 225,
+              "39": 51,
+              "4": 167,
+              "40": 146,
+              "41": 211,
+              "42": 193,
+              "43": 11,
+              "44": 3,
+              "45": 346,
+              "46": 470,
+              "47": 116,
+              "48": 44,
+              "49": 104,
+              "5": 294,
+              "50": 274,
+              "51": 68,
+              "52": 86,
+              "53": 75,
+              "54": 308,
+              "55": 167,
+              "56": 164,
+              "57": 69,
+              "58": 344,
+              "59": 65,
+              "6": 1,
+              "60": 498,
+              "61": 178,
+              "62": 76,
+              "63": 1159,
+              "64": 114,
+              "65": 188,
+              "66": 154,
+              "67": 81,
+              "68": 387,
+              "69": 272,
+              "7": 87,
+              "70": 278,
+              "71": 242,
+              "72": 101,
+              "73": 133,
+              "74": 247,
+              "75": 375,
+              "76": 121,
+              "77": 367,
+              "78": 127,
+              "79": 1006,
+              "8": 117,
+              "80": 159,
+              "81": 179,
+              "82": 133,
+              "83": 451,
+              "84": 266,
+              "85": 257,
+              "86": 59,
+              "87": 372,
+              "88": 26,
+              "89": 96,
+              "9": 96,
+              "90": 681,
+              "91": 122,
+              "92": 402,
+              "93": 230,
+              "94": 351,
+              "95": 371,
+              "96": 143,
+              "97": 331,
+              "98": 104,
+              "99": 367
+            },
+            "max_cipher_frequency": {
+              "numerator": 1159,
+              "denominator": 29714,
+              "value": 0.03900518274214175
+            },
+            "maximizers": [
+              "63"
+            ],
+            "a": {
+              "numerator": 6002,
+              "denominator": 50937,
+              "value": 0.1178318314781004
+            },
+            "b": {
+              "numerator": 983,
+              "denominator": 50937,
+              "value": 0.0192983489408485
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 58269,
+              "denominator": 29714,
+              "value": 1.9609948172578582
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [
+                  "63"
+                ],
+                "forced_mass": {
+                  "numerator": 1159,
+                  "denominator": 29714,
+                  "value": 0.03900518274214175
+                },
+                "upper_after": {
+                  "numerator": 58269,
+                  "denominator": 29714,
+                  "value": 1.9609948172578582
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 58269,
+                  "denominator": 29714,
+                  "value": 1.9609948172578582
+                },
+                "forced_monographs": [
+                  "63"
+                ],
+                "forced_mass": {
+                  "numerator": 1159,
+                  "denominator": 29714,
+                  "value": 0.03900518274214175
+                },
+                "upper_after": {
+                  "numerator": 58269,
+                  "denominator": 29714,
+                  "value": 1.9609948172578582
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        }
+      },
+      "full_test_transfer": {
+        "blocks": {
+          "words": 8884,
+          "plaintext_units": 50937,
+          "true_expansion": {
+            "numerator": 50937,
+            "denominator": 29714,
+            "value": 1.7142424446388909
+          },
+          "bound": {
+            "cipher_units": 29714,
+            "cipher_types": 125,
+            "cipher_counts": {
+              "1": 451,
+              "10": 430,
+              "100": 39,
+              "101": 255,
+              "102": 62,
+              "103": 576,
+              "104": 165,
+              "105": 196,
+              "106": 68,
+              "107": 206,
+              "108": 326,
+              "109": 236,
+              "110": 288,
+              "111": 342,
+              "112": 39,
+              "113": 158,
+              "114": 234,
+              "115": 424,
+              "116": 450,
+              "117": 111,
+              "118": 262,
+              "119": 187,
+              "12": 261,
+              "120": 166,
+              "121": 250,
+              "122": 285,
+              "123": 375,
+              "124": 110,
+              "125": 879,
+              "126": 7,
+              "13": 210,
+              "14": 162,
+              "15": 430,
+              "16": 972,
+              "17": 170,
+              "18": 205,
+              "19": 207,
+              "2": 253,
+              "20": 242,
+              "21": 76,
+              "22": 145,
+              "23": 324,
+              "24": 56,
+              "25": 392,
+              "26": 396,
+              "27": 88,
+              "28": 328,
+              "29": 109,
+              "3": 71,
+              "30": 65,
+              "31": 189,
+              "32": 400,
+              "33": 213,
+              "34": 189,
+              "35": 237,
+              "36": 95,
+              "37": 146,
+              "38": 225,
+              "39": 51,
+              "4": 167,
+              "40": 146,
+              "41": 211,
+              "42": 193,
+              "43": 11,
+              "44": 3,
+              "45": 346,
+              "46": 470,
+              "47": 116,
+              "48": 44,
+              "49": 104,
+              "5": 294,
+              "50": 274,
+              "51": 68,
+              "52": 86,
+              "53": 75,
+              "54": 308,
+              "55": 167,
+              "56": 164,
+              "57": 69,
+              "58": 344,
+              "59": 65,
+              "6": 1,
+              "60": 498,
+              "61": 178,
+              "62": 76,
+              "63": 1159,
+              "64": 114,
+              "65": 188,
+              "66": 154,
+              "67": 81,
+              "68": 387,
+              "69": 272,
+              "7": 87,
+              "70": 278,
+              "71": 242,
+              "72": 101,
+              "73": 133,
+              "74": 247,
+              "75": 375,
+              "76": 121,
+              "77": 367,
+              "78": 127,
+              "79": 1006,
+              "8": 117,
+              "80": 159,
+              "81": 179,
+              "82": 133,
+              "83": 451,
+              "84": 266,
+              "85": 257,
+              "86": 59,
+              "87": 372,
+              "88": 26,
+              "89": 96,
+              "9": 96,
+              "90": 681,
+              "91": 122,
+              "92": 402,
+              "93": 230,
+              "94": 351,
+              "95": 371,
+              "96": 143,
+              "97": 331,
+              "98": 104,
+              "99": 367
+            },
+            "max_cipher_frequency": {
+              "numerator": 1159,
+              "denominator": 29714,
+              "value": 0.03900518274214175
+            },
+            "maximizers": [
+              "63"
+            ],
+            "a": {
+              "numerator": 84,
+              "denominator": 625,
+              "value": 0.1344
+            },
+            "b": {
+              "numerator": 151,
+              "denominator": 5001,
+              "value": 0.030193961207758448
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 2,
+              "denominator": 1,
+              "value": 2.0
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [],
+                "forced_mass": {
+                  "numerator": 0,
+                  "denominator": 1,
+                  "value": 0.0
+                },
+                "upper_after": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        },
+        "full": {
+          "words": 8884,
+          "plaintext_units": 50937,
+          "true_expansion": {
+            "numerator": 50937,
+            "denominator": 29714,
+            "value": 1.7142424446388909
+          },
+          "bound": {
+            "cipher_units": 29714,
+            "cipher_types": 125,
+            "cipher_counts": {
+              "1": 451,
+              "10": 430,
+              "100": 39,
+              "101": 255,
+              "102": 62,
+              "103": 576,
+              "104": 165,
+              "105": 196,
+              "106": 68,
+              "107": 206,
+              "108": 326,
+              "109": 236,
+              "110": 288,
+              "111": 342,
+              "112": 39,
+              "113": 158,
+              "114": 234,
+              "115": 424,
+              "116": 450,
+              "117": 111,
+              "118": 262,
+              "119": 187,
+              "12": 261,
+              "120": 166,
+              "121": 250,
+              "122": 285,
+              "123": 375,
+              "124": 110,
+              "125": 879,
+              "126": 7,
+              "13": 210,
+              "14": 162,
+              "15": 430,
+              "16": 972,
+              "17": 170,
+              "18": 205,
+              "19": 207,
+              "2": 253,
+              "20": 242,
+              "21": 76,
+              "22": 145,
+              "23": 324,
+              "24": 56,
+              "25": 392,
+              "26": 396,
+              "27": 88,
+              "28": 328,
+              "29": 109,
+              "3": 71,
+              "30": 65,
+              "31": 189,
+              "32": 400,
+              "33": 213,
+              "34": 189,
+              "35": 237,
+              "36": 95,
+              "37": 146,
+              "38": 225,
+              "39": 51,
+              "4": 167,
+              "40": 146,
+              "41": 211,
+              "42": 193,
+              "43": 11,
+              "44": 3,
+              "45": 346,
+              "46": 470,
+              "47": 116,
+              "48": 44,
+              "49": 104,
+              "5": 294,
+              "50": 274,
+              "51": 68,
+              "52": 86,
+              "53": 75,
+              "54": 308,
+              "55": 167,
+              "56": 164,
+              "57": 69,
+              "58": 344,
+              "59": 65,
+              "6": 1,
+              "60": 498,
+              "61": 178,
+              "62": 76,
+              "63": 1159,
+              "64": 114,
+              "65": 188,
+              "66": 154,
+              "67": 81,
+              "68": 387,
+              "69": 272,
+              "7": 87,
+              "70": 278,
+              "71": 242,
+              "72": 101,
+              "73": 133,
+              "74": 247,
+              "75": 375,
+              "76": 121,
+              "77": 367,
+              "78": 127,
+              "79": 1006,
+              "8": 117,
+              "80": 159,
+              "81": 179,
+              "82": 133,
+              "83": 451,
+              "84": 266,
+              "85": 257,
+              "86": 59,
+              "87": 372,
+              "88": 26,
+              "89": 96,
+              "9": 96,
+              "90": 681,
+              "91": 122,
+              "92": 402,
+              "93": 230,
+              "94": 351,
+              "95": 371,
+              "96": 143,
+              "97": 331,
+              "98": 104,
+              "99": 367
+            },
+            "max_cipher_frequency": {
+              "numerator": 1159,
+              "denominator": 29714,
+              "value": 0.03900518274214175
+            },
+            "maximizers": [
+              "63"
+            ],
+            "a": {
+              "numerator": 3379,
+              "denominator": 27088,
+              "value": 0.12474158298877731
+            },
+            "b": {
+              "numerator": 6315,
+              "denominator": 275084,
+              "value": 0.02295662415843888
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 2,
+              "denominator": 1,
+              "value": 2.0
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [],
+                "forced_mass": {
+                  "numerator": 0,
+                  "denominator": 1,
+                  "value": 0.0
+                },
+                "upper_after": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        }
+      },
+      "test_block_transfer": [
+        {
+          "index": 0,
+          "start_word": 0,
+          "end_word": 875,
+          "words": 875,
+          "plaintext_units": 5002,
+          "true_expansion": {
+            "numerator": 41,
+            "denominator": 24,
+            "value": 1.7083333333333333
+          },
+          "bound": {
+            "cipher_units": 2928,
+            "cipher_types": 122,
+            "cipher_counts": {
+              "1": 51,
+              "10": 32,
+              "100": 3,
+              "101": 29,
+              "102": 6,
+              "103": 56,
+              "104": 12,
+              "105": 23,
+              "106": 3,
+              "107": 32,
+              "108": 41,
+              "109": 21,
+              "110": 35,
+              "111": 34,
+              "112": 4,
+              "113": 19,
+              "114": 25,
+              "115": 38,
+              "116": 62,
+              "117": 15,
+              "118": 27,
+              "119": 13,
+              "12": 37,
+              "120": 17,
+              "121": 37,
+              "122": 36,
+              "123": 26,
+              "124": 13,
+              "125": 80,
+              "13": 13,
+              "14": 13,
+              "15": 40,
+              "16": 107,
+              "17": 25,
+              "18": 24,
+              "19": 19,
+              "2": 19,
+              "20": 20,
+              "21": 9,
+              "22": 14,
+              "23": 33,
+              "24": 3,
+              "25": 37,
+              "26": 42,
+              "27": 15,
+              "28": 24,
+              "29": 12,
+              "3": 10,
+              "30": 5,
+              "31": 16,
+              "32": 27,
+              "33": 23,
+              "34": 19,
+              "35": 26,
+              "36": 9,
+              "37": 11,
+              "38": 18,
+              "39": 6,
+              "4": 14,
+              "40": 6,
+              "41": 23,
+              "42": 19,
+              "43": 1,
+              "45": 37,
+              "46": 59,
+              "47": 13,
+              "48": 5,
+              "49": 6,
+              "5": 18,
+              "50": 28,
+              "51": 3,
+              "52": 11,
+              "53": 6,
+              "54": 30,
+              "55": 11,
+              "56": 14,
+              "57": 5,
+              "58": 31,
+              "59": 5,
+              "60": 46,
+              "61": 23,
+              "62": 3,
+              "63": 113,
+              "64": 16,
+              "65": 24,
+              "66": 14,
+              "67": 10,
+              "68": 31,
+              "69": 26,
+              "7": 6,
+              "70": 24,
+              "71": 23,
+              "72": 11,
+              "73": 9,
+              "74": 18,
+              "75": 45,
+              "76": 4,
+              "77": 34,
+              "78": 9,
+              "79": 97,
+              "8": 10,
+              "80": 13,
+              "81": 25,
+              "82": 24,
+              "83": 44,
+              "84": 17,
+              "85": 22,
+              "86": 11,
+              "87": 38,
+              "88": 9,
+              "89": 7,
+              "9": 11,
+              "90": 76,
+              "91": 12,
+              "92": 49,
+              "93": 23,
+              "94": 25,
+              "95": 35,
+              "96": 14,
+              "97": 27,
+              "98": 12,
+              "99": 27
+            },
+            "max_cipher_frequency": {
+              "numerator": 113,
+              "denominator": 2928,
+              "value": 0.03859289617486339
+            },
+            "maximizers": [
+              "63"
+            ],
+            "a": {
+              "numerator": 84,
+              "denominator": 625,
+              "value": 0.1344
+            },
+            "b": {
+              "numerator": 151,
+              "denominator": 5001,
+              "value": 0.030193961207758448
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 2,
+              "denominator": 1,
+              "value": 2.0
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [],
+                "forced_mass": {
+                  "numerator": 0,
+                  "denominator": 1,
+                  "value": 0.0
+                },
+                "upper_after": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        },
+        {
+          "index": 1,
+          "start_word": 875,
+          "end_word": 1774,
+          "words": 899,
+          "plaintext_units": 5011,
+          "true_expansion": {
+            "numerator": 5011,
+            "denominator": 2893,
+            "value": 1.732111994469409
+          },
+          "bound": {
+            "cipher_units": 2893,
+            "cipher_types": 123,
+            "cipher_counts": {
+              "1": 50,
+              "10": 34,
+              "100": 9,
+              "101": 21,
+              "102": 8,
+              "103": 64,
+              "104": 15,
+              "105": 17,
+              "106": 4,
+              "107": 18,
+              "108": 23,
+              "109": 11,
+              "110": 36,
+              "111": 40,
+              "112": 5,
+              "113": 17,
+              "114": 14,
+              "115": 44,
+              "116": 46,
+              "117": 15,
+              "118": 22,
+              "119": 28,
+              "12": 32,
+              "120": 11,
+              "121": 27,
+              "122": 29,
+              "123": 35,
+              "124": 6,
+              "125": 70,
+              "13": 19,
+              "14": 17,
+              "15": 50,
+              "16": 100,
+              "17": 16,
+              "18": 23,
+              "19": 20,
+              "2": 27,
+              "20": 33,
+              "21": 10,
+              "22": 11,
+              "23": 40,
+              "24": 2,
+              "25": 38,
+              "26": 39,
+              "27": 7,
+              "28": 23,
+              "29": 13,
+              "3": 5,
+              "30": 7,
+              "31": 29,
+              "32": 38,
+              "33": 30,
+              "34": 19,
+              "35": 20,
+              "36": 9,
+              "37": 15,
+              "38": 24,
+              "39": 3,
+              "4": 14,
+              "40": 17,
+              "41": 21,
+              "42": 22,
+              "43": 2,
+              "44": 1,
+              "45": 26,
+              "46": 50,
+              "47": 14,
+              "48": 3,
+              "49": 10,
+              "5": 18,
+              "50": 37,
+              "51": 4,
+              "52": 8,
+              "53": 11,
+              "54": 28,
+              "55": 14,
+              "56": 16,
+              "57": 10,
+              "58": 22,
+              "59": 4,
+              "60": 45,
+              "61": 21,
+              "62": 10,
+              "63": 113,
+              "64": 17,
+              "65": 13,
+              "66": 15,
+              "67": 6,
+              "68": 46,
+              "69": 30,
+              "7": 6,
+              "70": 23,
+              "71": 24,
+              "72": 5,
+              "73": 11,
+              "74": 25,
+              "75": 41,
+              "76": 11,
+              "77": 34,
+              "78": 8,
+              "79": 78,
+              "8": 14,
+              "80": 9,
+              "81": 13,
+              "82": 20,
+              "83": 36,
+              "84": 31,
+              "85": 29,
+              "86": 14,
+              "87": 41,
+              "88": 1,
+              "89": 8,
+              "9": 14,
+              "90": 70,
+              "91": 6,
+              "92": 38,
+              "93": 18,
+              "94": 31,
+              "95": 27,
+              "96": 17,
+              "97": 33,
+              "98": 17,
+              "99": 34
+            },
+            "max_cipher_frequency": {
+              "numerator": 113,
+              "denominator": 2893,
+              "value": 0.03905979951607328
+            },
+            "maximizers": [
+              "63"
+            ],
+            "a": {
+              "numerator": 84,
+              "denominator": 625,
+              "value": 0.1344
+            },
+            "b": {
+              "numerator": 151,
+              "denominator": 5001,
+              "value": 0.030193961207758448
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 2,
+              "denominator": 1,
+              "value": 2.0
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [],
+                "forced_mass": {
+                  "numerator": 0,
+                  "denominator": 1,
+                  "value": 0.0
+                },
+                "upper_after": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        },
+        {
+          "index": 2,
+          "start_word": 1774,
+          "end_word": 2659,
+          "words": 885,
+          "plaintext_units": 5001,
+          "true_expansion": {
+            "numerator": 5001,
+            "denominator": 2920,
+            "value": 1.7126712328767124
+          },
+          "bound": {
+            "cipher_units": 2920,
+            "cipher_types": 123,
+            "cipher_counts": {
+              "1": 47,
+              "10": 42,
+              "100": 1,
+              "101": 25,
+              "102": 5,
+              "103": 48,
+              "104": 20,
+              "105": 14,
+              "106": 4,
+              "107": 31,
+              "108": 29,
+              "109": 26,
+              "110": 36,
+              "111": 38,
+              "112": 4,
+              "113": 16,
+              "114": 30,
+              "115": 47,
+              "116": 39,
+              "117": 13,
+              "118": 22,
+              "119": 17,
+              "12": 24,
+              "120": 20,
+              "121": 26,
+              "122": 23,
+              "123": 28,
+              "124": 15,
+              "125": 87,
+              "126": 1,
+              "13": 27,
+              "14": 14,
+              "15": 35,
+              "16": 85,
+              "17": 15,
+              "18": 17,
+              "19": 26,
+              "2": 25,
+              "20": 25,
+              "21": 5,
+              "22": 14,
+              "23": 38,
+              "24": 9,
+              "25": 37,
+              "26": 45,
+              "27": 7,
+              "28": 21,
+              "29": 8,
+              "3": 8,
+              "30": 8,
+              "31": 10,
+              "32": 39,
+              "33": 28,
+              "34": 25,
+              "35": 18,
+              "36": 15,
+              "37": 19,
+              "38": 20,
+              "39": 5,
+              "4": 9,
+              "40": 8,
+              "41": 14,
+              "42": 17,
+              "43": 1,
+              "45": 20,
+              "46": 55,
+              "47": 13,
+              "48": 3,
+              "49": 12,
+              "5": 34,
+              "50": 28,
+              "51": 7,
+              "52": 14,
+              "53": 9,
+              "54": 27,
+              "55": 23,
+              "56": 11,
+              "57": 7,
+              "58": 22,
+              "59": 4,
+              "60": 49,
+              "61": 29,
+              "62": 13,
+              "63": 114,
+              "64": 9,
+              "65": 15,
+              "66": 16,
+              "67": 12,
+              "68": 40,
+              "69": 24,
+              "7": 10,
+              "70": 27,
+              "71": 20,
+              "72": 13,
+              "73": 14,
+              "74": 22,
+              "75": 43,
+              "76": 7,
+              "77": 33,
+              "78": 13,
+              "79": 110,
+              "8": 13,
+              "80": 9,
+              "81": 21,
+              "82": 12,
+              "83": 51,
+              "84": 23,
+              "85": 21,
+              "86": 7,
+              "87": 41,
+              "88": 1,
+              "89": 13,
+              "9": 13,
+              "90": 73,
+              "91": 7,
+              "92": 34,
+              "93": 31,
+              "94": 28,
+              "95": 35,
+              "96": 7,
+              "97": 34,
+              "98": 15,
+              "99": 34
+            },
+            "max_cipher_frequency": {
+              "numerator": 57,
+              "denominator": 1460,
+              "value": 0.03904109589041096
+            },
+            "maximizers": [
+              "63"
+            ],
+            "a": {
+              "numerator": 84,
+              "denominator": 625,
+              "value": 0.1344
+            },
+            "b": {
+              "numerator": 151,
+              "denominator": 5001,
+              "value": 0.030193961207758448
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 2,
+              "denominator": 1,
+              "value": 2.0
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [],
+                "forced_mass": {
+                  "numerator": 0,
+                  "denominator": 1,
+                  "value": 0.0
+                },
+                "upper_after": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        },
+        {
+          "index": 3,
+          "start_word": 2659,
+          "end_word": 3523,
+          "words": 864,
+          "plaintext_units": 5004,
+          "true_expansion": {
+            "numerator": 2502,
+            "denominator": 1471,
+            "value": 1.7008837525492861
+          },
+          "bound": {
+            "cipher_units": 2942,
+            "cipher_types": 121,
+            "cipher_counts": {
+              "1": 36,
+              "10": 50,
+              "100": 4,
+              "101": 17,
+              "102": 5,
+              "103": 62,
+              "104": 15,
+              "105": 20,
+              "106": 12,
+              "107": 19,
+              "108": 28,
+              "109": 21,
+              "110": 11,
+              "111": 37,
+              "112": 2,
+              "113": 26,
+              "114": 15,
+              "115": 32,
+              "116": 42,
+              "117": 14,
+              "118": 25,
+              "119": 24,
+              "12": 22,
+              "120": 18,
+              "121": 21,
+              "122": 34,
+              "123": 34,
+              "124": 11,
+              "125": 101,
+              "13": 17,
+              "14": 20,
+              "15": 41,
+              "16": 97,
+              "17": 12,
+              "18": 18,
+              "19": 18,
+              "2": 29,
+              "20": 28,
+              "21": 11,
+              "22": 19,
+              "23": 31,
+              "24": 11,
+              "25": 28,
+              "26": 34,
+              "27": 6,
+              "28": 27,
+              "29": 7,
+              "3": 12,
+              "30": 7,
+              "31": 17,
+              "32": 28,
+              "33": 24,
+              "34": 17,
+              "35": 25,
+              "36": 11,
+              "37": 6,
+              "38": 21,
+              "39": 5,
+              "4": 12,
+              "40": 10,
+              "41": 21,
+              "42": 16,
+              "45": 38,
+              "46": 48,
+              "47": 4,
+              "48": 7,
+              "49": 7,
+              "5": 23,
+              "50": 23,
+              "51": 4,
+              "52": 6,
+              "53": 2,
+              "54": 32,
+              "55": 7,
+              "56": 15,
+              "57": 11,
+              "58": 39,
+              "59": 6,
+              "60": 68,
+              "61": 19,
+              "62": 10,
+              "63": 142,
+              "64": 9,
+              "65": 23,
+              "66": 20,
+              "67": 7,
+              "68": 29,
+              "69": 26,
+              "7": 9,
+              "70": 31,
+              "71": 23,
+              "72": 5,
+              "73": 12,
+              "74": 27,
+              "75": 34,
+              "76": 18,
+              "77": 43,
+              "78": 15,
+              "79": 118,
+              "8": 7,
+              "80": 15,
+              "81": 15,
+              "82": 17,
+              "83": 52,
+              "84": 23,
+              "85": 16,
+              "86": 6,
+              "87": 42,
+              "88": 1,
+              "89": 16,
+              "9": 6,
+              "90": 50,
+              "91": 13,
+              "92": 52,
+              "93": 24,
+              "94": 38,
+              "95": 45,
+              "96": 19,
+              "97": 34,
+              "98": 10,
+              "99": 37
+            },
+            "max_cipher_frequency": {
+              "numerator": 71,
+              "denominator": 1471,
+              "value": 0.04826648538409246
+            },
+            "maximizers": [
+              "63"
+            ],
+            "a": {
+              "numerator": 84,
+              "denominator": 625,
+              "value": 0.1344
+            },
+            "b": {
+              "numerator": 151,
+              "denominator": 5001,
+              "value": 0.030193961207758448
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 2,
+              "denominator": 1,
+              "value": 2.0
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [],
+                "forced_mass": {
+                  "numerator": 0,
+                  "denominator": 1,
+                  "value": 0.0
+                },
+                "upper_after": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        },
+        {
+          "index": 4,
+          "start_word": 3523,
+          "end_word": 4385,
+          "words": 862,
+          "plaintext_units": 5004,
+          "true_expansion": {
+            "numerator": 5004,
+            "denominator": 2923,
+            "value": 1.711939787889155
+          },
+          "bound": {
+            "cipher_units": 2923,
+            "cipher_types": 124,
+            "cipher_counts": {
+              "1": 63,
+              "10": 40,
+              "100": 4,
+              "101": 21,
+              "102": 5,
+              "103": 59,
+              "104": 14,
+              "105": 21,
+              "106": 4,
+              "107": 18,
+              "108": 31,
+              "109": 17,
+              "110": 18,
+              "111": 46,
+              "112": 4,
+              "113": 10,
+              "114": 14,
+              "115": 36,
+              "116": 40,
+              "117": 12,
+              "118": 34,
+              "119": 13,
+              "12": 14,
+              "120": 16,
+              "121": 17,
+              "122": 32,
+              "123": 34,
+              "124": 10,
+              "125": 88,
+              "126": 1,
+              "13": 17,
+              "14": 10,
+              "15": 51,
+              "16": 105,
+              "17": 24,
+              "18": 11,
+              "19": 20,
+              "2": 28,
+              "20": 26,
+              "21": 5,
+              "22": 15,
+              "23": 46,
+              "24": 5,
+              "25": 37,
+              "26": 31,
+              "27": 14,
+              "28": 34,
+              "29": 12,
+              "3": 8,
+              "30": 4,
+              "31": 27,
+              "32": 49,
+              "33": 21,
+              "34": 24,
+              "35": 36,
+              "36": 6,
+              "37": 17,
+              "38": 22,
+              "39": 3,
+              "4": 17,
+              "40": 17,
+              "41": 23,
+              "42": 20,
+              "43": 1,
+              "44": 2,
+              "45": 42,
+              "46": 52,
+              "47": 11,
+              "48": 9,
+              "49": 6,
+              "5": 20,
+              "50": 23,
+              "51": 9,
+              "52": 9,
+              "53": 11,
+              "54": 36,
+              "55": 9,
+              "56": 8,
+              "57": 7,
+              "58": 45,
+              "59": 10,
+              "60": 45,
+              "61": 16,
+              "62": 8,
+              "63": 107,
+              "64": 15,
+              "65": 18,
+              "66": 12,
+              "67": 7,
+              "68": 36,
+              "69": 21,
+              "7": 10,
+              "70": 17,
+              "71": 20,
+              "72": 7,
+              "73": 7,
+              "74": 30,
+              "75": 40,
+              "76": 5,
+              "77": 37,
+              "78": 15,
+              "79": 90,
+              "8": 5,
+              "80": 19,
+              "81": 5,
+              "82": 14,
+              "83": 55,
+              "84": 32,
+              "85": 29,
+              "86": 5,
+              "87": 37,
+              "88": 5,
+              "89": 7,
+              "9": 12,
+              "90": 66,
+              "91": 16,
+              "92": 43,
+              "93": 27,
+              "94": 30,
+              "95": 37,
+              "96": 18,
+              "97": 27,
+              "98": 7,
+              "99": 33
+            },
+            "max_cipher_frequency": {
+              "numerator": 107,
+              "denominator": 2923,
+              "value": 0.0366062264796442
+            },
+            "maximizers": [
+              "63"
+            ],
+            "a": {
+              "numerator": 84,
+              "denominator": 625,
+              "value": 0.1344
+            },
+            "b": {
+              "numerator": 151,
+              "denominator": 5001,
+              "value": 0.030193961207758448
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 2,
+              "denominator": 1,
+              "value": 2.0
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [],
+                "forced_mass": {
+                  "numerator": 0,
+                  "denominator": 1,
+                  "value": 0.0
+                },
+                "upper_after": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        },
+        {
+          "index": 5,
+          "start_word": 4385,
+          "end_word": 5262,
+          "words": 877,
+          "plaintext_units": 5003,
+          "true_expansion": {
+            "numerator": 5003,
+            "denominator": 2910,
+            "value": 1.7192439862542956
+          },
+          "bound": {
+            "cipher_units": 2910,
+            "cipher_types": 123,
+            "cipher_counts": {
+              "1": 36,
+              "10": 50,
+              "100": 4,
+              "101": 34,
+              "102": 9,
+              "103": 46,
+              "104": 20,
+              "105": 30,
+              "106": 12,
+              "107": 19,
+              "108": 25,
+              "109": 19,
+              "110": 30,
+              "111": 34,
+              "112": 2,
+              "113": 9,
+              "114": 18,
+              "115": 39,
+              "116": 43,
+              "117": 7,
+              "118": 20,
+              "119": 19,
+              "12": 28,
+              "120": 15,
+              "121": 22,
+              "122": 25,
+              "123": 33,
+              "124": 17,
+              "125": 92,
+              "126": 2,
+              "13": 27,
+              "14": 18,
+              "15": 36,
+              "16": 91,
+              "17": 18,
+              "18": 12,
+              "19": 27,
+              "2": 19,
+              "20": 18,
+              "21": 7,
+              "22": 19,
+              "23": 23,
+              "24": 2,
+              "25": 48,
+              "26": 32,
+              "27": 3,
+              "28": 31,
+              "29": 15,
+              "3": 7,
+              "30": 11,
+              "31": 20,
+              "32": 33,
+              "33": 34,
+              "34": 23,
+              "35": 25,
+              "36": 3,
+              "37": 23,
+              "38": 14,
+              "39": 8,
+              "4": 17,
+              "40": 21,
+              "41": 19,
+              "42": 14,
+              "43": 1,
+              "45": 23,
+              "46": 37,
+              "47": 8,
+              "48": 9,
+              "49": 11,
+              "5": 30,
+              "50": 22,
+              "51": 4,
+              "52": 5,
+              "53": 4,
+              "54": 40,
+              "55": 25,
+              "56": 16,
+              "57": 6,
+              "58": 39,
+              "59": 7,
+              "60": 54,
+              "61": 13,
+              "62": 9,
+              "63": 129,
+              "64": 9,
+              "65": 12,
+              "66": 16,
+              "67": 10,
+              "68": 35,
+              "69": 16,
+              "7": 10,
+              "70": 24,
+              "71": 28,
+              "72": 8,
+              "73": 11,
+              "74": 18,
+              "75": 51,
+              "76": 5,
+              "77": 32,
+              "78": 14,
+              "79": 108,
+              "8": 15,
+              "80": 15,
+              "81": 14,
+              "82": 8,
+              "83": 38,
+              "84": 24,
+              "85": 33,
+              "86": 4,
+              "87": 36,
+              "88": 2,
+              "89": 6,
+              "9": 11,
+              "90": 69,
+              "91": 12,
+              "92": 42,
+              "93": 18,
+              "94": 55,
+              "95": 39,
+              "96": 12,
+              "97": 36,
+              "98": 9,
+              "99": 36
+            },
+            "max_cipher_frequency": {
+              "numerator": 43,
+              "denominator": 970,
+              "value": 0.0443298969072165
+            },
+            "maximizers": [
+              "63"
+            ],
+            "a": {
+              "numerator": 84,
+              "denominator": 625,
+              "value": 0.1344
+            },
+            "b": {
+              "numerator": 151,
+              "denominator": 5001,
+              "value": 0.030193961207758448
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 2,
+              "denominator": 1,
+              "value": 2.0
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [],
+                "forced_mass": {
+                  "numerator": 0,
+                  "denominator": 1,
+                  "value": 0.0
+                },
+                "upper_after": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        },
+        {
+          "index": 6,
+          "start_word": 5262,
+          "end_word": 6157,
+          "words": 895,
+          "plaintext_units": 5009,
+          "true_expansion": {
+            "numerator": 5009,
+            "denominator": 2932,
+            "value": 1.7083901773533425
+          },
+          "bound": {
+            "cipher_units": 2932,
+            "cipher_types": 122,
+            "cipher_counts": {
+              "1": 50,
+              "10": 51,
+              "100": 5,
+              "101": 24,
+              "102": 3,
+              "103": 58,
+              "104": 20,
+              "105": 15,
+              "106": 8,
+              "107": 19,
+              "108": 28,
+              "109": 36,
+              "110": 33,
+              "111": 27,
+              "112": 4,
+              "113": 17,
+              "114": 25,
+              "115": 43,
+              "116": 40,
+              "117": 11,
+              "118": 19,
+              "119": 10,
+              "12": 29,
+              "120": 12,
+              "121": 24,
+              "122": 24,
+              "123": 52,
+              "124": 9,
+              "125": 87,
+              "126": 1,
+              "13": 16,
+              "14": 19,
+              "15": 46,
+              "16": 102,
+              "17": 5,
+              "18": 29,
+              "19": 17,
+              "2": 25,
+              "20": 22,
+              "21": 8,
+              "22": 17,
+              "23": 33,
+              "24": 7,
+              "25": 38,
+              "26": 31,
+              "27": 5,
+              "28": 31,
+              "29": 9,
+              "3": 4,
+              "30": 5,
+              "31": 17,
+              "32": 42,
+              "33": 15,
+              "34": 13,
+              "35": 20,
+              "36": 19,
+              "37": 15,
+              "38": 21,
+              "39": 4,
+              "4": 19,
+              "40": 14,
+              "41": 19,
+              "42": 17,
+              "45": 37,
+              "46": 52,
+              "47": 11,
+              "48": 2,
+              "49": 11,
+              "5": 31,
+              "50": 34,
+              "51": 5,
+              "52": 9,
+              "53": 9,
+              "54": 20,
+              "55": 21,
+              "56": 24,
+              "57": 6,
+              "58": 29,
+              "59": 4,
+              "60": 44,
+              "61": 16,
+              "62": 5,
+              "63": 107,
+              "64": 7,
+              "65": 17,
+              "66": 12,
+              "67": 3,
+              "68": 47,
+              "69": 26,
+              "7": 15,
+              "70": 29,
+              "71": 26,
+              "72": 6,
+              "73": 12,
+              "74": 25,
+              "75": 22,
+              "76": 14,
+              "77": 50,
+              "78": 14,
+              "79": 105,
+              "8": 9,
+              "80": 16,
+              "81": 21,
+              "82": 10,
+              "83": 49,
+              "84": 28,
+              "85": 24,
+              "86": 3,
+              "87": 33,
+              "88": 3,
+              "89": 10,
+              "9": 15,
+              "90": 76,
+              "91": 15,
+              "92": 30,
+              "93": 21,
+              "94": 39,
+              "95": 43,
+              "96": 11,
+              "97": 37,
+              "98": 9,
+              "99": 35
+            },
+            "max_cipher_frequency": {
+              "numerator": 107,
+              "denominator": 2932,
+              "value": 0.03649386084583902
+            },
+            "maximizers": [
+              "63"
+            ],
+            "a": {
+              "numerator": 84,
+              "denominator": 625,
+              "value": 0.1344
+            },
+            "b": {
+              "numerator": 151,
+              "denominator": 5001,
+              "value": 0.030193961207758448
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 2,
+              "denominator": 1,
+              "value": 2.0
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [],
+                "forced_mass": {
+                  "numerator": 0,
+                  "denominator": 1,
+                  "value": 0.0
+                },
+                "upper_after": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        },
+        {
+          "index": 7,
+          "start_word": 6157,
+          "end_word": 7011,
+          "words": 854,
+          "plaintext_units": 5001,
+          "true_expansion": {
+            "numerator": 5001,
+            "denominator": 2918,
+            "value": 1.7138450993831391
+          },
+          "bound": {
+            "cipher_units": 2918,
+            "cipher_types": 123,
+            "cipher_counts": {
+              "1": 39,
+              "10": 44,
+              "100": 1,
+              "101": 24,
+              "102": 8,
+              "103": 65,
+              "104": 12,
+              "105": 17,
+              "106": 3,
+              "107": 15,
+              "108": 38,
+              "109": 29,
+              "110": 34,
+              "111": 30,
+              "112": 5,
+              "113": 12,
+              "114": 26,
+              "115": 39,
+              "116": 47,
+              "117": 7,
+              "118": 35,
+              "119": 22,
+              "12": 23,
+              "120": 19,
+              "121": 29,
+              "122": 26,
+              "123": 38,
+              "124": 8,
+              "125": 85,
+              "126": 1,
+              "13": 26,
+              "14": 13,
+              "15": 40,
+              "16": 93,
+              "17": 19,
+              "18": 24,
+              "19": 25,
+              "2": 24,
+              "20": 18,
+              "21": 4,
+              "22": 13,
+              "23": 27,
+              "24": 5,
+              "25": 34,
+              "26": 49,
+              "27": 15,
+              "28": 49,
+              "29": 6,
+              "3": 3,
+              "30": 5,
+              "31": 10,
+              "32": 38,
+              "33": 10,
+              "34": 16,
+              "35": 25,
+              "36": 6,
+              "37": 11,
+              "38": 24,
+              "39": 8,
+              "4": 21,
+              "40": 19,
+              "41": 19,
+              "42": 22,
+              "43": 1,
+              "45": 34,
+              "46": 41,
+              "47": 11,
+              "48": 2,
+              "49": 17,
+              "5": 35,
+              "50": 28,
+              "51": 9,
+              "52": 6,
+              "53": 7,
+              "54": 31,
+              "55": 19,
+              "56": 21,
+              "57": 6,
+              "58": 35,
+              "59": 6,
+              "60": 49,
+              "61": 20,
+              "62": 6,
+              "63": 97,
+              "64": 10,
+              "65": 17,
+              "66": 24,
+              "67": 13,
+              "68": 40,
+              "69": 33,
+              "7": 4,
+              "70": 28,
+              "71": 25,
+              "72": 15,
+              "73": 19,
+              "74": 28,
+              "75": 30,
+              "76": 15,
+              "77": 34,
+              "78": 9,
+              "79": 96,
+              "8": 15,
+              "80": 18,
+              "81": 14,
+              "82": 11,
+              "83": 45,
+              "84": 26,
+              "85": 21,
+              "86": 3,
+              "87": 31,
+              "88": 3,
+              "89": 7,
+              "9": 5,
+              "90": 66,
+              "91": 12,
+              "92": 32,
+              "93": 25,
+              "94": 32,
+              "95": 37,
+              "96": 16,
+              "97": 30,
+              "98": 10,
+              "99": 36
+            },
+            "max_cipher_frequency": {
+              "numerator": 97,
+              "denominator": 2918,
+              "value": 0.033241946538725156
+            },
+            "maximizers": [
+              "63"
+            ],
+            "a": {
+              "numerator": 84,
+              "denominator": 625,
+              "value": 0.1344
+            },
+            "b": {
+              "numerator": 151,
+              "denominator": 5001,
+              "value": 0.030193961207758448
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 2,
+              "denominator": 1,
+              "value": 2.0
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [],
+                "forced_mass": {
+                  "numerator": 0,
+                  "denominator": 1,
+                  "value": 0.0
+                },
+                "upper_after": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        },
+        {
+          "index": 8,
+          "start_word": 7011,
+          "end_word": 7858,
+          "words": 847,
+          "plaintext_units": 5004,
+          "true_expansion": {
+            "numerator": 2502,
+            "denominator": 1459,
+            "value": 1.7148732008224812
+          },
+          "bound": {
+            "cipher_units": 2918,
+            "cipher_types": 122,
+            "cipher_counts": {
+              "1": 34,
+              "10": 40,
+              "100": 4,
+              "101": 33,
+              "102": 7,
+              "103": 60,
+              "104": 16,
+              "105": 25,
+              "106": 6,
+              "107": 16,
+              "108": 41,
+              "109": 17,
+              "110": 21,
+              "111": 23,
+              "112": 4,
+              "113": 14,
+              "114": 36,
+              "115": 56,
+              "116": 36,
+              "117": 6,
+              "118": 28,
+              "119": 24,
+              "12": 22,
+              "120": 18,
+              "121": 20,
+              "122": 24,
+              "123": 44,
+              "124": 10,
+              "125": 91,
+              "13": 26,
+              "14": 14,
+              "15": 46,
+              "16": 74,
+              "17": 21,
+              "18": 13,
+              "19": 15,
+              "2": 31,
+              "20": 22,
+              "21": 6,
+              "22": 10,
+              "23": 27,
+              "24": 5,
+              "25": 38,
+              "26": 46,
+              "27": 5,
+              "28": 52,
+              "29": 13,
+              "3": 5,
+              "30": 2,
+              "31": 26,
+              "32": 50,
+              "33": 10,
+              "34": 15,
+              "35": 24,
+              "36": 8,
+              "37": 10,
+              "38": 34,
+              "39": 1,
+              "4": 24,
+              "40": 16,
+              "41": 24,
+              "42": 25,
+              "43": 2,
+              "45": 39,
+              "46": 47,
+              "47": 15,
+              "48": 1,
+              "49": 9,
+              "5": 37,
+              "50": 26,
+              "51": 12,
+              "52": 7,
+              "53": 8,
+              "54": 33,
+              "55": 17,
+              "56": 29,
+              "57": 5,
+              "58": 36,
+              "59": 9,
+              "60": 45,
+              "61": 9,
+              "62": 2,
+              "63": 112,
+              "64": 9,
+              "65": 25,
+              "66": 11,
+              "67": 5,
+              "68": 35,
+              "69": 34,
+              "7": 8,
+              "70": 30,
+              "71": 25,
+              "72": 10,
+              "73": 24,
+              "74": 32,
+              "75": 34,
+              "76": 17,
+              "77": 29,
+              "78": 11,
+              "79": 85,
+              "8": 17,
+              "80": 23,
+              "81": 28,
+              "82": 6,
+              "83": 43,
+              "84": 31,
+              "85": 23,
+              "86": 3,
+              "87": 37,
+              "88": 1,
+              "89": 10,
+              "9": 4,
+              "90": 49,
+              "91": 15,
+              "92": 31,
+              "93": 11,
+              "94": 29,
+              "95": 31,
+              "96": 14,
+              "97": 31,
+              "98": 3,
+              "99": 40
+            },
+            "max_cipher_frequency": {
+              "numerator": 56,
+              "denominator": 1459,
+              "value": 0.03838245373543523
+            },
+            "maximizers": [
+              "63"
+            ],
+            "a": {
+              "numerator": 84,
+              "denominator": 625,
+              "value": 0.1344
+            },
+            "b": {
+              "numerator": 151,
+              "denominator": 5001,
+              "value": 0.030193961207758448
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 2,
+              "denominator": 1,
+              "value": 2.0
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [],
+                "forced_mass": {
+                  "numerator": 0,
+                  "denominator": 1,
+                  "value": 0.0
+                },
+                "upper_after": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        },
+        {
+          "index": 9,
+          "start_word": 7858,
+          "end_word": 8722,
+          "words": 864,
+          "plaintext_units": 5003,
+          "true_expansion": {
+            "numerator": 5003,
+            "denominator": 2909,
+            "value": 1.719834994843589
+          },
+          "bound": {
+            "cipher_units": 2909,
+            "cipher_types": 122,
+            "cipher_counts": {
+              "1": 41,
+              "10": 36,
+              "100": 3,
+              "101": 25,
+              "102": 5,
+              "103": 50,
+              "104": 15,
+              "105": 13,
+              "106": 9,
+              "107": 16,
+              "108": 36,
+              "109": 29,
+              "110": 28,
+              "111": 30,
+              "112": 3,
+              "113": 17,
+              "114": 23,
+              "115": 43,
+              "116": 41,
+              "117": 11,
+              "118": 22,
+              "119": 15,
+              "12": 26,
+              "120": 19,
+              "121": 21,
+              "122": 27,
+              "123": 46,
+              "124": 8,
+              "125": 82,
+              "13": 20,
+              "14": 19,
+              "15": 41,
+              "16": 102,
+              "17": 14,
+              "18": 24,
+              "19": 17,
+              "2": 23,
+              "20": 28,
+              "21": 11,
+              "22": 12,
+              "23": 21,
+              "24": 7,
+              "25": 50,
+              "26": 36,
+              "27": 9,
+              "28": 31,
+              "29": 14,
+              "3": 8,
+              "30": 6,
+              "31": 15,
+              "32": 52,
+              "33": 14,
+              "34": 15,
+              "35": 17,
+              "36": 9,
+              "37": 19,
+              "38": 24,
+              "39": 6,
+              "4": 15,
+              "40": 14,
+              "41": 24,
+              "42": 18,
+              "43": 2,
+              "45": 40,
+              "46": 26,
+              "47": 15,
+              "48": 2,
+              "49": 9,
+              "5": 39,
+              "50": 24,
+              "51": 11,
+              "52": 10,
+              "53": 8,
+              "54": 25,
+              "55": 19,
+              "56": 8,
+              "57": 4,
+              "58": 41,
+              "59": 9,
+              "6": 1,
+              "60": 45,
+              "61": 12,
+              "62": 7,
+              "63": 107,
+              "64": 13,
+              "65": 20,
+              "66": 13,
+              "67": 6,
+              "68": 46,
+              "69": 32,
+              "7": 8,
+              "70": 38,
+              "71": 27,
+              "72": 19,
+              "73": 12,
+              "74": 20,
+              "75": 34,
+              "76": 22,
+              "77": 30,
+              "78": 17,
+              "79": 98,
+              "8": 7,
+              "80": 18,
+              "81": 21,
+              "82": 11,
+              "83": 32,
+              "84": 21,
+              "85": 33,
+              "86": 3,
+              "87": 28,
+              "89": 11,
+              "9": 5,
+              "90": 70,
+              "91": 12,
+              "92": 41,
+              "93": 23,
+              "94": 42,
+              "95": 36,
+              "96": 11,
+              "97": 36,
+              "98": 11,
+              "99": 43
+            },
+            "max_cipher_frequency": {
+              "numerator": 107,
+              "denominator": 2909,
+              "value": 0.036782399449982815
+            },
+            "maximizers": [
+              "63"
+            ],
+            "a": {
+              "numerator": 84,
+              "denominator": 625,
+              "value": 0.1344
+            },
+            "b": {
+              "numerator": 151,
+              "denominator": 5001,
+              "value": 0.030193961207758448
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 2,
+              "denominator": 1,
+              "value": 2.0
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [],
+                "forced_mass": {
+                  "numerator": 0,
+                  "denominator": 1,
+                  "value": 0.0
+                },
+                "upper_after": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        }
+      ],
+      "test_block_tail": {
+        "start_word": 8722,
+        "words": 162,
+        "units": 895
+      }
+    },
+    {
+      "name": "homophone127",
+      "source": "celsus",
+      "paired": {
+        "train": {
+          "words": 2714,
+          "plaintext_units": 14861,
+          "true_expansion": {
+            "numerator": 14861,
+            "denominator": 10498,
+            "value": 1.4156029719946657
+          },
+          "bound": {
+            "cipher_units": 10498,
+            "cipher_types": 124,
+            "cipher_counts": {
+              "0": 258,
+              "1": 19,
+              "10": 7,
+              "100": 12,
+              "101": 148,
+              "102": 18,
+              "103": 9,
+              "104": 16,
+              "105": 92,
+              "107": 173,
+              "108": 112,
+              "109": 11,
+              "11": 90,
+              "110": 12,
+              "111": 11,
+              "112": 7,
+              "113": 13,
+              "114": 21,
+              "115": 21,
+              "116": 28,
+              "117": 63,
+              "118": 16,
+              "119": 110,
+              "12": 86,
+              "120": 58,
+              "121": 122,
+              "122": 20,
+              "123": 22,
+              "124": 513,
+              "125": 18,
+              "126": 160,
+              "13": 6,
+              "14": 295,
+              "15": 209,
+              "16": 56,
+              "17": 18,
+              "18": 76,
+              "19": 9,
+              "2": 2,
+              "20": 15,
+              "21": 83,
+              "22": 131,
+              "23": 14,
+              "24": 232,
+              "25": 25,
+              "26": 120,
+              "27": 20,
+              "28": 69,
+              "29": 13,
+              "3": 120,
+              "30": 120,
+              "31": 37,
+              "32": 179,
+              "33": 15,
+              "34": 36,
+              "35": 8,
+              "36": 289,
+              "37": 120,
+              "38": 11,
+              "39": 114,
+              "4": 12,
+              "40": 19,
+              "42": 48,
+              "43": 4,
+              "44": 58,
+              "45": 64,
+              "46": 319,
+              "47": 13,
+              "48": 21,
+              "49": 13,
+              "5": 8,
+              "50": 135,
+              "51": 78,
+              "52": 266,
+              "53": 374,
+              "54": 73,
+              "55": 24,
+              "56": 439,
+              "57": 98,
+              "59": 23,
+              "6": 7,
+              "60": 597,
+              "61": 79,
+              "62": 20,
+              "63": 318,
+              "64": 45,
+              "65": 20,
+              "66": 117,
+              "67": 96,
+              "68": 151,
+              "69": 2,
+              "7": 19,
+              "70": 18,
+              "71": 13,
+              "72": 166,
+              "73": 22,
+              "74": 18,
+              "75": 1,
+              "76": 115,
+              "77": 10,
+              "78": 7,
+              "79": 12,
+              "8": 86,
+              "80": 11,
+              "81": 370,
+              "82": 17,
+              "83": 8,
+              "84": 9,
+              "85": 81,
+              "86": 74,
+              "87": 19,
+              "88": 17,
+              "89": 107,
+              "9": 6,
+              "90": 9,
+              "91": 19,
+              "92": 10,
+              "93": 11,
+              "94": 339,
+              "95": 7,
+              "96": 98,
+              "97": 48,
+              "98": 29,
+              "99": 473
+            },
+            "max_cipher_frequency": {
+              "numerator": 597,
+              "denominator": 10498,
+              "value": 0.05686797485235283
+            },
+            "maximizers": [
+              "60"
+            ],
+            "a": {
+              "numerator": 1919,
+              "denominator": 14861,
+              "value": 0.12912993742009285
+            },
+            "b": {
+              "numerator": 332,
+              "denominator": 14861,
+              "value": 0.022340353946571564
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 9487,
+              "denominator": 5249,
+              "value": 1.8073918841684131
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [
+                  "124",
+                  "60",
+                  "99"
+                ],
+                "forced_mass": {
+                  "numerator": 1583,
+                  "denominator": 10498,
+                  "value": 0.15079062678605448
+                },
+                "upper_after": {
+                  "numerator": 19413,
+                  "denominator": 10498,
+                  "value": 1.8492093732139454
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 19413,
+                  "denominator": 10498,
+                  "value": 1.8492093732139454
+                },
+                "forced_monographs": [
+                  "124",
+                  "56",
+                  "60",
+                  "99"
+                ],
+                "forced_mass": {
+                  "numerator": 1011,
+                  "denominator": 5249,
+                  "value": 0.19260811583158696
+                },
+                "upper_after": {
+                  "numerator": 9487,
+                  "denominator": 5249,
+                  "value": 1.8073918841684131
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 9487,
+                  "denominator": 5249,
+                  "value": 1.8073918841684131
+                },
+                "forced_monographs": [
+                  "124",
+                  "56",
+                  "60",
+                  "99"
+                ],
+                "forced_mass": {
+                  "numerator": 1011,
+                  "denominator": 5249,
+                  "value": 0.19260811583158696
+                },
+                "upper_after": {
+                  "numerator": 9487,
+                  "denominator": 5249,
+                  "value": 1.8073918841684131
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        },
+        "test": {
+          "words": 1142,
+          "plaintext_units": 6397,
+          "true_expansion": {
+            "numerator": 6397,
+            "denominator": 4530,
+            "value": 1.412141280353201
+          },
+          "bound": {
+            "cipher_units": 4530,
+            "cipher_types": 123,
+            "cipher_counts": {
+              "0": 125,
+              "1": 6,
+              "10": 5,
+              "100": 1,
+              "101": 51,
+              "102": 6,
+              "103": 1,
+              "104": 8,
+              "105": 46,
+              "107": 71,
+              "108": 50,
+              "109": 6,
+              "11": 29,
+              "110": 6,
+              "111": 6,
+              "112": 3,
+              "113": 8,
+              "114": 8,
+              "115": 6,
+              "116": 7,
+              "117": 24,
+              "118": 6,
+              "119": 56,
+              "12": 23,
+              "120": 30,
+              "121": 40,
+              "122": 9,
+              "123": 6,
+              "124": 223,
+              "125": 5,
+              "126": 59,
+              "13": 6,
+              "14": 142,
+              "15": 73,
+              "16": 36,
+              "17": 14,
+              "18": 33,
+              "19": 5,
+              "2": 3,
+              "20": 4,
+              "21": 33,
+              "22": 54,
+              "23": 7,
+              "24": 112,
+              "25": 11,
+              "26": 56,
+              "27": 5,
+              "28": 33,
+              "29": 3,
+              "3": 63,
+              "30": 59,
+              "31": 23,
+              "32": 97,
+              "33": 7,
+              "34": 10,
+              "36": 142,
+              "37": 36,
+              "38": 4,
+              "39": 41,
+              "4": 3,
+              "40": 1,
+              "42": 24,
+              "43": 3,
+              "44": 25,
+              "45": 28,
+              "46": 112,
+              "47": 6,
+              "48": 11,
+              "49": 2,
+              "5": 3,
+              "50": 59,
+              "51": 32,
+              "52": 103,
+              "53": 175,
+              "54": 23,
+              "55": 7,
+              "56": 165,
+              "57": 33,
+              "59": 14,
+              "6": 9,
+              "60": 264,
+              "61": 30,
+              "62": 7,
+              "63": 110,
+              "64": 17,
+              "65": 10,
+              "66": 45,
+              "67": 49,
+              "68": 73,
+              "69": 1,
+              "7": 7,
+              "70": 7,
+              "71": 7,
+              "72": 81,
+              "73": 11,
+              "74": 4,
+              "75": 4,
+              "76": 52,
+              "77": 12,
+              "78": 6,
+              "79": 2,
+              "8": 24,
+              "80": 4,
+              "81": 169,
+              "82": 5,
+              "83": 1,
+              "84": 7,
+              "85": 52,
+              "86": 44,
+              "87": 8,
+              "88": 9,
+              "89": 41,
+              "9": 3,
+              "90": 9,
+              "91": 11,
+              "92": 2,
+              "93": 12,
+              "94": 171,
+              "95": 4,
+              "96": 33,
+              "97": 25,
+              "98": 19,
+              "99": 198
+            },
+            "max_cipher_frequency": {
+              "numerator": 44,
+              "denominator": 755,
+              "value": 0.05827814569536424
+            },
+            "maximizers": [
+              "60"
+            ],
+            "a": {
+              "numerator": 793,
+              "denominator": 6397,
+              "value": 0.12396435829294981
+            },
+            "b": {
+              "numerator": 156,
+              "denominator": 6397,
+              "value": 0.024386431139596685
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 8573,
+              "denominator": 4530,
+              "value": 1.892494481236203
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [
+                  "124",
+                  "60"
+                ],
+                "forced_mass": {
+                  "numerator": 487,
+                  "denominator": 4530,
+                  "value": 0.10750551876379691
+                },
+                "upper_after": {
+                  "numerator": 8573,
+                  "denominator": 4530,
+                  "value": 1.892494481236203
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 8573,
+                  "denominator": 4530,
+                  "value": 1.892494481236203
+                },
+                "forced_monographs": [
+                  "124",
+                  "60"
+                ],
+                "forced_mass": {
+                  "numerator": 487,
+                  "denominator": 4530,
+                  "value": 0.10750551876379691
+                },
+                "upper_after": {
+                  "numerator": 8573,
+                  "denominator": 4530,
+                  "value": 1.892494481236203
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        }
+      },
+      "full_test_transfer": {
+        "blocks": {
+          "words": 1142,
+          "plaintext_units": 6397,
+          "true_expansion": {
+            "numerator": 6397,
+            "denominator": 4530,
+            "value": 1.412141280353201
+          },
+          "bound": {
+            "cipher_units": 4530,
+            "cipher_types": 123,
+            "cipher_counts": {
+              "0": 125,
+              "1": 6,
+              "10": 5,
+              "100": 1,
+              "101": 51,
+              "102": 6,
+              "103": 1,
+              "104": 8,
+              "105": 46,
+              "107": 71,
+              "108": 50,
+              "109": 6,
+              "11": 29,
+              "110": 6,
+              "111": 6,
+              "112": 3,
+              "113": 8,
+              "114": 8,
+              "115": 6,
+              "116": 7,
+              "117": 24,
+              "118": 6,
+              "119": 56,
+              "12": 23,
+              "120": 30,
+              "121": 40,
+              "122": 9,
+              "123": 6,
+              "124": 223,
+              "125": 5,
+              "126": 59,
+              "13": 6,
+              "14": 142,
+              "15": 73,
+              "16": 36,
+              "17": 14,
+              "18": 33,
+              "19": 5,
+              "2": 3,
+              "20": 4,
+              "21": 33,
+              "22": 54,
+              "23": 7,
+              "24": 112,
+              "25": 11,
+              "26": 56,
+              "27": 5,
+              "28": 33,
+              "29": 3,
+              "3": 63,
+              "30": 59,
+              "31": 23,
+              "32": 97,
+              "33": 7,
+              "34": 10,
+              "36": 142,
+              "37": 36,
+              "38": 4,
+              "39": 41,
+              "4": 3,
+              "40": 1,
+              "42": 24,
+              "43": 3,
+              "44": 25,
+              "45": 28,
+              "46": 112,
+              "47": 6,
+              "48": 11,
+              "49": 2,
+              "5": 3,
+              "50": 59,
+              "51": 32,
+              "52": 103,
+              "53": 175,
+              "54": 23,
+              "55": 7,
+              "56": 165,
+              "57": 33,
+              "59": 14,
+              "6": 9,
+              "60": 264,
+              "61": 30,
+              "62": 7,
+              "63": 110,
+              "64": 17,
+              "65": 10,
+              "66": 45,
+              "67": 49,
+              "68": 73,
+              "69": 1,
+              "7": 7,
+              "70": 7,
+              "71": 7,
+              "72": 81,
+              "73": 11,
+              "74": 4,
+              "75": 4,
+              "76": 52,
+              "77": 12,
+              "78": 6,
+              "79": 2,
+              "8": 24,
+              "80": 4,
+              "81": 169,
+              "82": 5,
+              "83": 1,
+              "84": 7,
+              "85": 52,
+              "86": 44,
+              "87": 8,
+              "88": 9,
+              "89": 41,
+              "9": 3,
+              "90": 9,
+              "91": 11,
+              "92": 2,
+              "93": 12,
+              "94": 171,
+              "95": 4,
+              "96": 33,
+              "97": 25,
+              "98": 19,
+              "99": 198
+            },
+            "max_cipher_frequency": {
+              "numerator": 44,
+              "denominator": 755,
+              "value": 0.05827814569536424
+            },
+            "maximizers": [
+              "60"
+            ],
+            "a": {
+              "numerator": 84,
+              "denominator": 625,
+              "value": 0.1344
+            },
+            "b": {
+              "numerator": 151,
+              "denominator": 5001,
+              "value": 0.030193961207758448
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 2,
+              "denominator": 1,
+              "value": 2.0
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [],
+                "forced_mass": {
+                  "numerator": 0,
+                  "denominator": 1,
+                  "value": 0.0
+                },
+                "upper_after": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        },
+        "full": {
+          "words": 1142,
+          "plaintext_units": 6397,
+          "true_expansion": {
+            "numerator": 6397,
+            "denominator": 4530,
+            "value": 1.412141280353201
+          },
+          "bound": {
+            "cipher_units": 4530,
+            "cipher_types": 123,
+            "cipher_counts": {
+              "0": 125,
+              "1": 6,
+              "10": 5,
+              "100": 1,
+              "101": 51,
+              "102": 6,
+              "103": 1,
+              "104": 8,
+              "105": 46,
+              "107": 71,
+              "108": 50,
+              "109": 6,
+              "11": 29,
+              "110": 6,
+              "111": 6,
+              "112": 3,
+              "113": 8,
+              "114": 8,
+              "115": 6,
+              "116": 7,
+              "117": 24,
+              "118": 6,
+              "119": 56,
+              "12": 23,
+              "120": 30,
+              "121": 40,
+              "122": 9,
+              "123": 6,
+              "124": 223,
+              "125": 5,
+              "126": 59,
+              "13": 6,
+              "14": 142,
+              "15": 73,
+              "16": 36,
+              "17": 14,
+              "18": 33,
+              "19": 5,
+              "2": 3,
+              "20": 4,
+              "21": 33,
+              "22": 54,
+              "23": 7,
+              "24": 112,
+              "25": 11,
+              "26": 56,
+              "27": 5,
+              "28": 33,
+              "29": 3,
+              "3": 63,
+              "30": 59,
+              "31": 23,
+              "32": 97,
+              "33": 7,
+              "34": 10,
+              "36": 142,
+              "37": 36,
+              "38": 4,
+              "39": 41,
+              "4": 3,
+              "40": 1,
+              "42": 24,
+              "43": 3,
+              "44": 25,
+              "45": 28,
+              "46": 112,
+              "47": 6,
+              "48": 11,
+              "49": 2,
+              "5": 3,
+              "50": 59,
+              "51": 32,
+              "52": 103,
+              "53": 175,
+              "54": 23,
+              "55": 7,
+              "56": 165,
+              "57": 33,
+              "59": 14,
+              "6": 9,
+              "60": 264,
+              "61": 30,
+              "62": 7,
+              "63": 110,
+              "64": 17,
+              "65": 10,
+              "66": 45,
+              "67": 49,
+              "68": 73,
+              "69": 1,
+              "7": 7,
+              "70": 7,
+              "71": 7,
+              "72": 81,
+              "73": 11,
+              "74": 4,
+              "75": 4,
+              "76": 52,
+              "77": 12,
+              "78": 6,
+              "79": 2,
+              "8": 24,
+              "80": 4,
+              "81": 169,
+              "82": 5,
+              "83": 1,
+              "84": 7,
+              "85": 52,
+              "86": 44,
+              "87": 8,
+              "88": 9,
+              "89": 41,
+              "9": 3,
+              "90": 9,
+              "91": 11,
+              "92": 2,
+              "93": 12,
+              "94": 171,
+              "95": 4,
+              "96": 33,
+              "97": 25,
+              "98": 19,
+              "99": 198
+            },
+            "max_cipher_frequency": {
+              "numerator": 44,
+              "denominator": 755,
+              "value": 0.05827814569536424
+            },
+            "maximizers": [
+              "60"
+            ],
+            "a": {
+              "numerator": 3379,
+              "denominator": 27088,
+              "value": 0.12474158298877731
+            },
+            "b": {
+              "numerator": 6315,
+              "denominator": 275084,
+              "value": 0.02295662415843888
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 1675,
+              "denominator": 906,
+              "value": 1.84878587196468
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [
+                  "124",
+                  "60"
+                ],
+                "forced_mass": {
+                  "numerator": 487,
+                  "denominator": 4530,
+                  "value": 0.10750551876379691
+                },
+                "upper_after": {
+                  "numerator": 8573,
+                  "denominator": 4530,
+                  "value": 1.892494481236203
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 8573,
+                  "denominator": 4530,
+                  "value": 1.892494481236203
+                },
+                "forced_monographs": [
+                  "124",
+                  "60",
+                  "99"
+                ],
+                "forced_mass": {
+                  "numerator": 137,
+                  "denominator": 906,
+                  "value": 0.15121412803532008
+                },
+                "upper_after": {
+                  "numerator": 1675,
+                  "denominator": 906,
+                  "value": 1.84878587196468
+                }
+              },
+              {
+                "upper_before": {
+                  "numerator": 1675,
+                  "denominator": 906,
+                  "value": 1.84878587196468
+                },
+                "forced_monographs": [
+                  "124",
+                  "60",
+                  "99"
+                ],
+                "forced_mass": {
+                  "numerator": 137,
+                  "denominator": 906,
+                  "value": 0.15121412803532008
+                },
+                "upper_after": {
+                  "numerator": 1675,
+                  "denominator": 906,
+                  "value": 1.84878587196468
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        }
+      },
+      "test_block_transfer": [
+        {
+          "index": 0,
+          "start_word": 0,
+          "end_word": 891,
+          "words": 891,
+          "plaintext_units": 5008,
+          "true_expansion": {
+            "numerator": 1252,
+            "denominator": 891,
+            "value": 1.4051627384960719
+          },
+          "bound": {
+            "cipher_units": 3564,
+            "cipher_types": 123,
+            "cipher_counts": {
+              "0": 101,
+              "1": 4,
+              "10": 4,
+              "100": 1,
+              "101": 41,
+              "102": 4,
+              "103": 1,
+              "104": 7,
+              "105": 42,
+              "107": 53,
+              "108": 37,
+              "109": 3,
+              "11": 20,
+              "110": 4,
+              "111": 6,
+              "112": 2,
+              "113": 6,
+              "114": 6,
+              "115": 6,
+              "116": 6,
+              "117": 18,
+              "118": 5,
+              "119": 43,
+              "12": 15,
+              "120": 25,
+              "121": 33,
+              "122": 8,
+              "123": 5,
+              "124": 185,
+              "125": 4,
+              "126": 45,
+              "13": 4,
+              "14": 120,
+              "15": 57,
+              "16": 24,
+              "17": 11,
+              "18": 27,
+              "19": 5,
+              "2": 3,
+              "20": 2,
+              "21": 27,
+              "22": 43,
+              "23": 7,
+              "24": 82,
+              "25": 5,
+              "26": 46,
+              "27": 4,
+              "28": 25,
+              "29": 3,
+              "3": 44,
+              "30": 51,
+              "31": 14,
+              "32": 75,
+              "33": 7,
+              "34": 6,
+              "36": 114,
+              "37": 29,
+              "38": 2,
+              "39": 35,
+              "4": 1,
+              "40": 1,
+              "42": 17,
+              "43": 3,
+              "44": 18,
+              "45": 19,
+              "46": 80,
+              "47": 3,
+              "48": 10,
+              "49": 1,
+              "5": 3,
+              "50": 48,
+              "51": 24,
+              "52": 88,
+              "53": 141,
+              "54": 19,
+              "55": 3,
+              "56": 134,
+              "57": 25,
+              "59": 10,
+              "6": 8,
+              "60": 206,
+              "61": 23,
+              "62": 6,
+              "63": 94,
+              "64": 11,
+              "65": 6,
+              "66": 40,
+              "67": 37,
+              "68": 63,
+              "69": 1,
+              "7": 7,
+              "70": 5,
+              "71": 6,
+              "72": 61,
+              "73": 8,
+              "74": 3,
+              "75": 4,
+              "76": 37,
+              "77": 8,
+              "78": 3,
+              "79": 2,
+              "8": 21,
+              "80": 3,
+              "81": 136,
+              "82": 4,
+              "83": 1,
+              "84": 7,
+              "85": 41,
+              "86": 30,
+              "87": 7,
+              "88": 8,
+              "89": 28,
+              "9": 2,
+              "90": 7,
+              "91": 10,
+              "92": 1,
+              "93": 11,
+              "94": 146,
+              "95": 4,
+              "96": 19,
+              "97": 21,
+              "98": 15,
+              "99": 143
+            },
+            "max_cipher_frequency": {
+              "numerator": 103,
+              "denominator": 1782,
+              "value": 0.057800224466891134
+            },
+            "maximizers": [
+              "60"
+            ],
+            "a": {
+              "numerator": 84,
+              "denominator": 625,
+              "value": 0.1344
+            },
+            "b": {
+              "numerator": 151,
+              "denominator": 5001,
+              "value": 0.030193961207758448
+            },
+            "lower": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "upper": {
+              "numerator": 2,
+              "denominator": 1,
+              "value": 2.0
+            },
+            "rejects": false,
+            "iterations": [
+              {
+                "upper_before": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                },
+                "forced_monographs": [],
+                "forced_mass": {
+                  "numerator": 0,
+                  "denominator": 1,
+                  "value": 0.0
+                },
+                "upper_after": {
+                  "numerator": 2,
+                  "denominator": 1,
+                  "value": 2.0
+                }
+              }
+            ]
+          },
+          "true_expansion_admitted": true,
+          "known_code_violations": [],
+          "pass_transfer": true
+        }
+      ],
+      "test_block_tail": {
+        "start_word": 891,
+        "words": 251,
+        "units": 1389
+      }
+    }
+  ],
+  "regenerated_cipher_words": 28960,
+  "block_tests": 21,
+  "block_failures": 0,
+  "full_source_sensitivity_pass": true,
+  "independent_plaintext_works": 2,
+  "note": "Two conditions share Cicero; blocks share sources and are not independent. All known labels retained, including training-unseen ones."
+}

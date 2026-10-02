@@ -1,0 +1,16 @@
+restart 0 objective -5.37196 polish_passes 4
+restart 1 objective -5.36265 polish_passes 4
+restart 2 objective -5.37708 polish_passes 3
+restart 3 objective -5.36699 polish_passes 4
+restart 4 objective -5.36767 polish_passes 5
+restart 5 objective -5.36664 polish_passes 4
+restart 6 objective -5.36581 polish_passes 5
+restart 7 objective -5.36858 polish_passes 4
+restart 8 objective -5.37251 polish_passes 4
+restart 9 objective -5.36477 polish_passes 3
+restart 10 objective -5.36411 polish_passes 4
+restart 11 objective -5.36279 polish_passes 5
+restart 12 objective -5.36595 polish_passes 6
+restart 13 objective -5.367 polish_passes 5
+restart 14 objective -5.37163 polish_passes 5
+restart 15 objective -5.36799 polish_passes 4

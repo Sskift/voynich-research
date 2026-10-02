@@ -1,0 +1,3700 @@
+{
+  "status": "FROZEN_BEFORE_F66R_COLUMN_INSPECTION_OR_SCORING",
+  "input_hashes": {
+    "notes/experiment-009-design.md": "14379ea524510a7d6814036783e65dc4be579cf039e3b0e60fc54af63988aa73",
+    "data/raw/ZL3b-n.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "data/raw/IT2a-n.txt": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "data/raw/GC2a-n.txt": "b09570cb6c993bc2d87134d115e60a978650a8a6495483ddbb1f6005a586096f",
+    "data/raw/RF1b-e.txt": "e7d3238e35743e06c63367a933909ec37b1e2de7ada3a1b449447eafa1918782"
+  },
+  "sources": {
+    "ZL": {
+      "raw_locus": "<!10:30>o.l.[d:j].r.v.x.k.m.f.@169;v.t.r.@170;.@171;.y.I.@172;.o.l.d.r.v.x.k.m.f.@169;v.t.r.@170;.@171;.y.c.@172;.o.l.d.r.v.x.k.m.p.@169;v.t.r.@170;.@171;.y.c.@172;.o.l.d.r.v.x.k.m.p.@169;v.t.r.@170;.@171;.y.c.@172;",
+      "apparent_spacing_group_count": 68,
+      "native_encoded_atom_count": 72,
+      "comparison_cells": [
+        {
+          "cycle": 1,
+          "position": 1,
+          "raw": "o",
+          "alternatives": [
+            "o"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "o"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 2,
+          "raw": "l",
+          "alternatives": [
+            "l"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "l"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 3,
+          "raw": "[d:j]",
+          "alternatives": [
+            "d",
+            "j"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "[d:j]"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 4,
+          "raw": "r",
+          "alternatives": [
+            "r"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "r"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 5,
+          "raw": "v",
+          "alternatives": [
+            "v"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "v"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 6,
+          "raw": "x",
+          "alternatives": [
+            "x"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "x"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 7,
+          "raw": "k",
+          "alternatives": [
+            "k"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "k"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 8,
+          "raw": "m",
+          "alternatives": [
+            "m"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "m"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 9,
+          "raw": "f",
+          "alternatives": [
+            "f"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "f"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 10,
+          "raw": "@169;v",
+          "alternatives": [
+            "@169;v"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@169;",
+            "v"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 11,
+          "raw": "t",
+          "alternatives": [
+            "t"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "t"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 12,
+          "raw": "r",
+          "alternatives": [
+            "r"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "r"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 13,
+          "raw": "@170;",
+          "alternatives": [
+            "@170;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@170;"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 14,
+          "raw": "@171;",
+          "alternatives": [
+            "@171;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@171;"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 15,
+          "raw": "y",
+          "alternatives": [
+            "y"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "y"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 16,
+          "raw": "I",
+          "alternatives": [
+            "I"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "I"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 17,
+          "raw": "@172;",
+          "alternatives": [
+            "@172;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@172;"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 1,
+          "raw": "o",
+          "alternatives": [
+            "o"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "o"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 2,
+          "raw": "l",
+          "alternatives": [
+            "l"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "l"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 3,
+          "raw": "d",
+          "alternatives": [
+            "d"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "d"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 4,
+          "raw": "r",
+          "alternatives": [
+            "r"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "r"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 5,
+          "raw": "v",
+          "alternatives": [
+            "v"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "v"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 6,
+          "raw": "x",
+          "alternatives": [
+            "x"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "x"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 7,
+          "raw": "k",
+          "alternatives": [
+            "k"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "k"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 8,
+          "raw": "m",
+          "alternatives": [
+            "m"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "m"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 9,
+          "raw": "f",
+          "alternatives": [
+            "f"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "f"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 10,
+          "raw": "@169;v",
+          "alternatives": [
+            "@169;v"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@169;",
+            "v"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 11,
+          "raw": "t",
+          "alternatives": [
+            "t"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "t"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 12,
+          "raw": "r",
+          "alternatives": [
+            "r"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "r"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 13,
+          "raw": "@170;",
+          "alternatives": [
+            "@170;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@170;"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 14,
+          "raw": "@171;",
+          "alternatives": [
+            "@171;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@171;"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 15,
+          "raw": "y",
+          "alternatives": [
+            "y"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "y"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 16,
+          "raw": "c",
+          "alternatives": [
+            "c"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "c"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 17,
+          "raw": "@172;",
+          "alternatives": [
+            "@172;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@172;"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 1,
+          "raw": "o",
+          "alternatives": [
+            "o"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "o"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 2,
+          "raw": "l",
+          "alternatives": [
+            "l"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "l"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 3,
+          "raw": "d",
+          "alternatives": [
+            "d"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "d"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 4,
+          "raw": "r",
+          "alternatives": [
+            "r"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "r"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 5,
+          "raw": "v",
+          "alternatives": [
+            "v"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "v"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 6,
+          "raw": "x",
+          "alternatives": [
+            "x"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "x"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 7,
+          "raw": "k",
+          "alternatives": [
+            "k"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "k"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 8,
+          "raw": "m",
+          "alternatives": [
+            "m"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "m"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 9,
+          "raw": "p",
+          "alternatives": [
+            "p"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "p"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 10,
+          "raw": "@169;v",
+          "alternatives": [
+            "@169;v"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@169;",
+            "v"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 11,
+          "raw": "t",
+          "alternatives": [
+            "t"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "t"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 12,
+          "raw": "r",
+          "alternatives": [
+            "r"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "r"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 13,
+          "raw": "@170;",
+          "alternatives": [
+            "@170;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@170;"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 14,
+          "raw": "@171;",
+          "alternatives": [
+            "@171;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@171;"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 15,
+          "raw": "y",
+          "alternatives": [
+            "y"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "y"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 16,
+          "raw": "c",
+          "alternatives": [
+            "c"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "c"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 17,
+          "raw": "@172;",
+          "alternatives": [
+            "@172;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@172;"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 1,
+          "raw": "o",
+          "alternatives": [
+            "o"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "o"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 2,
+          "raw": "l",
+          "alternatives": [
+            "l"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "l"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 3,
+          "raw": "d",
+          "alternatives": [
+            "d"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "d"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 4,
+          "raw": "r",
+          "alternatives": [
+            "r"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "r"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 5,
+          "raw": "v",
+          "alternatives": [
+            "v"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "v"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 6,
+          "raw": "x",
+          "alternatives": [
+            "x"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "x"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 7,
+          "raw": "k",
+          "alternatives": [
+            "k"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "k"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 8,
+          "raw": "m",
+          "alternatives": [
+            "m"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "m"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 9,
+          "raw": "p",
+          "alternatives": [
+            "p"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "p"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 10,
+          "raw": "@169;v",
+          "alternatives": [
+            "@169;v"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@169;",
+            "v"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 11,
+          "raw": "t",
+          "alternatives": [
+            "t"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "t"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 12,
+          "raw": "r",
+          "alternatives": [
+            "r"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "r"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 13,
+          "raw": "@170;",
+          "alternatives": [
+            "@170;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@170;"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 14,
+          "raw": "@171;",
+          "alternatives": [
+            "@171;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@171;"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 15,
+          "raw": "y",
+          "alternatives": [
+            "y"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "y"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 16,
+          "raw": "c",
+          "alternatives": [
+            "c"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "c"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 17,
+          "raw": "@172;",
+          "alternatives": [
+            "@172;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@172;"
+          ]
+        }
+      ],
+      "variation_positions": [
+        {
+          "position": 3,
+          "cycle_readings": [
+            [
+              "d",
+              "j"
+            ],
+            [
+              "d"
+            ],
+            [
+              "d"
+            ],
+            [
+              "d"
+            ]
+          ]
+        },
+        {
+          "position": 9,
+          "cycle_readings": [
+            [
+              "f"
+            ],
+            [
+              "f"
+            ],
+            [
+              "p"
+            ],
+            [
+              "p"
+            ]
+          ]
+        },
+        {
+          "position": 16,
+          "cycle_readings": [
+            [
+              "I"
+            ],
+            [
+              "c"
+            ],
+            [
+              "c"
+            ],
+            [
+              "c"
+            ]
+          ]
+        }
+      ],
+      "provenance_note": "Native source, differences retained; no semantic equivalence claimed."
+    },
+    "IT": {
+      "raw_locus": "o<->l<->d<->r<->v<->x<->k<->k<->f<->?<->t<->r<->?<->?<->y<->c<->?<->o<->l<->d<->r<->v<->x<->k<->m<->f<->?<->t<->r<->?<->?<->y<->c<->?<->o<->l<->d<->r<->v<->x<->k<->k<->p<->?<->t<->r<->?<->?<->y<->c<->?<->o<->l<->d<->r<->v<->x<->k<->k<->p<->?<->t<->r<->?<->?<->y<->c<->r<->n",
+      "apparent_spacing_group_count": 69,
+      "native_encoded_atom_count": 69,
+      "comparison_cells": [
+        {
+          "cycle": 1,
+          "position": 1,
+          "raw": "o",
+          "alternatives": [
+            "o"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "o"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 2,
+          "raw": "l",
+          "alternatives": [
+            "l"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "l"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 3,
+          "raw": "d",
+          "alternatives": [
+            "d"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "d"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 4,
+          "raw": "r",
+          "alternatives": [
+            "r"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "r"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 5,
+          "raw": "v",
+          "alternatives": [
+            "v"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "v"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 6,
+          "raw": "x",
+          "alternatives": [
+            "x"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "x"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 7,
+          "raw": "k",
+          "alternatives": [
+            "k"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "k"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 8,
+          "raw": "k",
+          "alternatives": [
+            "k"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "k"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 9,
+          "raw": "f",
+          "alternatives": [
+            "f"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "f"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 10,
+          "raw": "?",
+          "alternatives": [],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "?"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 11,
+          "raw": "t",
+          "alternatives": [
+            "t"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "t"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 12,
+          "raw": "r",
+          "alternatives": [
+            "r"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "r"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 13,
+          "raw": "?",
+          "alternatives": [],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "?"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 14,
+          "raw": "?",
+          "alternatives": [],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "?"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 15,
+          "raw": "y",
+          "alternatives": [
+            "y"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "y"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 16,
+          "raw": "c",
+          "alternatives": [
+            "c"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "c"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 17,
+          "raw": "?",
+          "alternatives": [],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "?"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 1,
+          "raw": "o",
+          "alternatives": [
+            "o"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "o"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 2,
+          "raw": "l",
+          "alternatives": [
+            "l"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "l"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 3,
+          "raw": "d",
+          "alternatives": [
+            "d"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "d"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 4,
+          "raw": "r",
+          "alternatives": [
+            "r"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "r"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 5,
+          "raw": "v",
+          "alternatives": [
+            "v"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "v"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 6,
+          "raw": "x",
+          "alternatives": [
+            "x"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "x"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 7,
+          "raw": "k",
+          "alternatives": [
+            "k"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "k"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 8,
+          "raw": "m",
+          "alternatives": [
+            "m"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "m"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 9,
+          "raw": "f",
+          "alternatives": [
+            "f"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "f"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 10,
+          "raw": "?",
+          "alternatives": [],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "?"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 11,
+          "raw": "t",
+          "alternatives": [
+            "t"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "t"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 12,
+          "raw": "r",
+          "alternatives": [
+            "r"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "r"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 13,
+          "raw": "?",
+          "alternatives": [],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "?"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 14,
+          "raw": "?",
+          "alternatives": [],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "?"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 15,
+          "raw": "y",
+          "alternatives": [
+            "y"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "y"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 16,
+          "raw": "c",
+          "alternatives": [
+            "c"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "c"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 17,
+          "raw": "?",
+          "alternatives": [],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "?"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 1,
+          "raw": "o",
+          "alternatives": [
+            "o"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "o"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 2,
+          "raw": "l",
+          "alternatives": [
+            "l"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "l"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 3,
+          "raw": "d",
+          "alternatives": [
+            "d"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "d"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 4,
+          "raw": "r",
+          "alternatives": [
+            "r"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "r"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 5,
+          "raw": "v",
+          "alternatives": [
+            "v"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "v"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 6,
+          "raw": "x",
+          "alternatives": [
+            "x"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "x"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 7,
+          "raw": "k",
+          "alternatives": [
+            "k"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "k"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 8,
+          "raw": "k",
+          "alternatives": [
+            "k"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "k"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 9,
+          "raw": "p",
+          "alternatives": [
+            "p"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "p"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 10,
+          "raw": "?",
+          "alternatives": [],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "?"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 11,
+          "raw": "t",
+          "alternatives": [
+            "t"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "t"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 12,
+          "raw": "r",
+          "alternatives": [
+            "r"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "r"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 13,
+          "raw": "?",
+          "alternatives": [],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "?"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 14,
+          "raw": "?",
+          "alternatives": [],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "?"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 15,
+          "raw": "y",
+          "alternatives": [
+            "y"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "y"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 16,
+          "raw": "c",
+          "alternatives": [
+            "c"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "c"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 17,
+          "raw": "?",
+          "alternatives": [],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "?"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 1,
+          "raw": "o",
+          "alternatives": [
+            "o"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "o"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 2,
+          "raw": "l",
+          "alternatives": [
+            "l"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "l"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 3,
+          "raw": "d",
+          "alternatives": [
+            "d"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "d"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 4,
+          "raw": "r",
+          "alternatives": [
+            "r"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "r"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 5,
+          "raw": "v",
+          "alternatives": [
+            "v"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "v"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 6,
+          "raw": "x",
+          "alternatives": [
+            "x"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "x"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 7,
+          "raw": "k",
+          "alternatives": [
+            "k"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "k"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 8,
+          "raw": "k",
+          "alternatives": [
+            "k"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "k"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 9,
+          "raw": "p",
+          "alternatives": [
+            "p"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "p"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 10,
+          "raw": "?",
+          "alternatives": [],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "?"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 11,
+          "raw": "t",
+          "alternatives": [
+            "t"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "t"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 12,
+          "raw": "r",
+          "alternatives": [
+            "r"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "r"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 13,
+          "raw": "?",
+          "alternatives": [],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "?"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 14,
+          "raw": "?",
+          "alternatives": [],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "?"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 15,
+          "raw": "y",
+          "alternatives": [
+            "y"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "y"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 16,
+          "raw": "c",
+          "alternatives": [
+            "c"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "c"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 17,
+          "raw": null,
+          "alternatives": [],
+          "unresolved_source_fragments": [
+            "r",
+            "n"
+          ],
+          "encoded_atoms": []
+        }
+      ],
+      "variation_positions": [
+        {
+          "position": 8,
+          "cycle_readings": [
+            [
+              "k"
+            ],
+            [
+              "m"
+            ],
+            [
+              "k"
+            ],
+            [
+              "k"
+            ]
+          ]
+        },
+        {
+          "position": 9,
+          "cycle_readings": [
+            [
+              "f"
+            ],
+            [
+              "f"
+            ],
+            [
+              "p"
+            ],
+            [
+              "p"
+            ]
+          ]
+        }
+      ],
+      "provenance_note": "Native source, differences retained; no semantic equivalence claimed."
+    },
+    "GC": {
+      "raw_locus": "o.e.&.y.^.|.h.p.f.@204;.k.x.@201;.@236;.(.@200;.@202;.o.e.8.y.^.|.h.p.w.@204;.k.y.@201;.@236;.9.E.@202;.o.e.8.y.^.|.h.p.g.@204;.k.y.@201;.@236;.9.E.@202;.oe.8.y.^.|.h.p.g.@204;.k.y.@201;.@236;.9.E.@202;",
+      "apparent_spacing_group_count": 67,
+      "native_encoded_atom_count": 68,
+      "comparison_cells": [
+        {
+          "cycle": 1,
+          "position": 1,
+          "raw": "o",
+          "alternatives": [
+            "o"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "o"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 2,
+          "raw": "e",
+          "alternatives": [
+            "e"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "e"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 3,
+          "raw": "&",
+          "alternatives": [
+            "&"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "&"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 4,
+          "raw": "y",
+          "alternatives": [
+            "y"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "y"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 5,
+          "raw": "^",
+          "alternatives": [
+            "^"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "^"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 6,
+          "raw": "|",
+          "alternatives": [
+            "|"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "|"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 7,
+          "raw": "h",
+          "alternatives": [
+            "h"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "h"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 8,
+          "raw": "p",
+          "alternatives": [
+            "p"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "p"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 9,
+          "raw": "f",
+          "alternatives": [
+            "f"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "f"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 10,
+          "raw": "@204;",
+          "alternatives": [
+            "@204;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@204;"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 11,
+          "raw": "k",
+          "alternatives": [
+            "k"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "k"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 12,
+          "raw": "x",
+          "alternatives": [
+            "x"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "x"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 13,
+          "raw": "@201;",
+          "alternatives": [
+            "@201;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@201;"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 14,
+          "raw": "@236;",
+          "alternatives": [
+            "@236;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@236;"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 15,
+          "raw": "(",
+          "alternatives": [
+            "("
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "("
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 16,
+          "raw": "@200;",
+          "alternatives": [
+            "@200;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@200;"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 17,
+          "raw": "@202;",
+          "alternatives": [
+            "@202;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@202;"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 1,
+          "raw": "o",
+          "alternatives": [
+            "o"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "o"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 2,
+          "raw": "e",
+          "alternatives": [
+            "e"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "e"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 3,
+          "raw": "8",
+          "alternatives": [
+            "8"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "8"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 4,
+          "raw": "y",
+          "alternatives": [
+            "y"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "y"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 5,
+          "raw": "^",
+          "alternatives": [
+            "^"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "^"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 6,
+          "raw": "|",
+          "alternatives": [
+            "|"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "|"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 7,
+          "raw": "h",
+          "alternatives": [
+            "h"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "h"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 8,
+          "raw": "p",
+          "alternatives": [
+            "p"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "p"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 9,
+          "raw": "w",
+          "alternatives": [
+            "w"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "w"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 10,
+          "raw": "@204;",
+          "alternatives": [
+            "@204;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@204;"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 11,
+          "raw": "k",
+          "alternatives": [
+            "k"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "k"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 12,
+          "raw": "y",
+          "alternatives": [
+            "y"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "y"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 13,
+          "raw": "@201;",
+          "alternatives": [
+            "@201;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@201;"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 14,
+          "raw": "@236;",
+          "alternatives": [
+            "@236;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@236;"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 15,
+          "raw": "9",
+          "alternatives": [
+            "9"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "9"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 16,
+          "raw": "E",
+          "alternatives": [
+            "E"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "E"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 17,
+          "raw": "@202;",
+          "alternatives": [
+            "@202;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@202;"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 1,
+          "raw": "o",
+          "alternatives": [
+            "o"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "o"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 2,
+          "raw": "e",
+          "alternatives": [
+            "e"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "e"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 3,
+          "raw": "8",
+          "alternatives": [
+            "8"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "8"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 4,
+          "raw": "y",
+          "alternatives": [
+            "y"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "y"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 5,
+          "raw": "^",
+          "alternatives": [
+            "^"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "^"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 6,
+          "raw": "|",
+          "alternatives": [
+            "|"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "|"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 7,
+          "raw": "h",
+          "alternatives": [
+            "h"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "h"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 8,
+          "raw": "p",
+          "alternatives": [
+            "p"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "p"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 9,
+          "raw": "g",
+          "alternatives": [
+            "g"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "g"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 10,
+          "raw": "@204;",
+          "alternatives": [
+            "@204;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@204;"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 11,
+          "raw": "k",
+          "alternatives": [
+            "k"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "k"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 12,
+          "raw": "y",
+          "alternatives": [
+            "y"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "y"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 13,
+          "raw": "@201;",
+          "alternatives": [
+            "@201;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@201;"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 14,
+          "raw": "@236;",
+          "alternatives": [
+            "@236;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@236;"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 15,
+          "raw": "9",
+          "alternatives": [
+            "9"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "9"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 16,
+          "raw": "E",
+          "alternatives": [
+            "E"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "E"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 17,
+          "raw": "@202;",
+          "alternatives": [
+            "@202;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@202;"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 1,
+          "raw": "o",
+          "alternatives": [
+            "o"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "o"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 2,
+          "raw": "e",
+          "alternatives": [
+            "e"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "e"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 3,
+          "raw": "8",
+          "alternatives": [
+            "8"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "8"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 4,
+          "raw": "y",
+          "alternatives": [
+            "y"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "y"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 5,
+          "raw": "^",
+          "alternatives": [
+            "^"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "^"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 6,
+          "raw": "|",
+          "alternatives": [
+            "|"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "|"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 7,
+          "raw": "h",
+          "alternatives": [
+            "h"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "h"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 8,
+          "raw": "p",
+          "alternatives": [
+            "p"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "p"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 9,
+          "raw": "g",
+          "alternatives": [
+            "g"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "g"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 10,
+          "raw": "@204;",
+          "alternatives": [
+            "@204;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@204;"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 11,
+          "raw": "k",
+          "alternatives": [
+            "k"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "k"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 12,
+          "raw": "y",
+          "alternatives": [
+            "y"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "y"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 13,
+          "raw": "@201;",
+          "alternatives": [
+            "@201;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@201;"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 14,
+          "raw": "@236;",
+          "alternatives": [
+            "@236;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@236;"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 15,
+          "raw": "9",
+          "alternatives": [
+            "9"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "9"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 16,
+          "raw": "E",
+          "alternatives": [
+            "E"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "E"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 17,
+          "raw": "@202;",
+          "alternatives": [
+            "@202;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@202;"
+          ]
+        }
+      ],
+      "variation_positions": [
+        {
+          "position": 3,
+          "cycle_readings": [
+            [
+              "&"
+            ],
+            [
+              "8"
+            ],
+            [
+              "8"
+            ],
+            [
+              "8"
+            ]
+          ]
+        },
+        {
+          "position": 9,
+          "cycle_readings": [
+            [
+              "f"
+            ],
+            [
+              "w"
+            ],
+            [
+              "g"
+            ],
+            [
+              "g"
+            ]
+          ]
+        },
+        {
+          "position": 12,
+          "cycle_readings": [
+            [
+              "x"
+            ],
+            [
+              "y"
+            ],
+            [
+              "y"
+            ],
+            [
+              "y"
+            ]
+          ]
+        },
+        {
+          "position": 15,
+          "cycle_readings": [
+            [
+              "("
+            ],
+            [
+              "9"
+            ],
+            [
+              "9"
+            ],
+            [
+              "9"
+            ]
+          ]
+        },
+        {
+          "position": 16,
+          "cycle_readings": [
+            [
+              "@200;"
+            ],
+            [
+              "E"
+            ],
+            [
+              "E"
+            ],
+            [
+              "E"
+            ]
+          ]
+        }
+      ],
+      "provenance_note": "Native source, differences retained; no semantic equivalence claimed."
+    },
+    "RF": {
+      "raw_locus": "o.l.j.r.v.x.k.m.f.@169;v.t.r.@170;.@171;.@222;.I.@172;.o.l.d.r.v.x.k.m.f.@169;v.t.r.@170;.@171;.y.c.@172;.o.l.d.r.v.x.k.m.p.@169;v.t.r.@170;.@171;.y.c.@172;.o,l.d.r.v.x.k.m.p.@169;v.t.r.@170;.@171;.y.c.@172;",
+      "apparent_spacing_group_count": 68,
+      "native_encoded_atom_count": 72,
+      "comparison_cells": [
+        {
+          "cycle": 1,
+          "position": 1,
+          "raw": "o",
+          "alternatives": [
+            "o"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "o"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 2,
+          "raw": "l",
+          "alternatives": [
+            "l"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "l"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 3,
+          "raw": "j",
+          "alternatives": [
+            "j"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "j"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 4,
+          "raw": "r",
+          "alternatives": [
+            "r"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "r"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 5,
+          "raw": "v",
+          "alternatives": [
+            "v"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "v"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 6,
+          "raw": "x",
+          "alternatives": [
+            "x"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "x"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 7,
+          "raw": "k",
+          "alternatives": [
+            "k"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "k"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 8,
+          "raw": "m",
+          "alternatives": [
+            "m"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "m"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 9,
+          "raw": "f",
+          "alternatives": [
+            "f"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "f"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 10,
+          "raw": "@169;v",
+          "alternatives": [
+            "@169;v"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@169;",
+            "v"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 11,
+          "raw": "t",
+          "alternatives": [
+            "t"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "t"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 12,
+          "raw": "r",
+          "alternatives": [
+            "r"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "r"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 13,
+          "raw": "@170;",
+          "alternatives": [
+            "@170;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@170;"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 14,
+          "raw": "@171;",
+          "alternatives": [
+            "@171;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@171;"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 15,
+          "raw": "@222;",
+          "alternatives": [
+            "@222;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@222;"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 16,
+          "raw": "I",
+          "alternatives": [
+            "I"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "I"
+          ]
+        },
+        {
+          "cycle": 1,
+          "position": 17,
+          "raw": "@172;",
+          "alternatives": [
+            "@172;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@172;"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 1,
+          "raw": "o",
+          "alternatives": [
+            "o"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "o"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 2,
+          "raw": "l",
+          "alternatives": [
+            "l"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "l"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 3,
+          "raw": "d",
+          "alternatives": [
+            "d"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "d"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 4,
+          "raw": "r",
+          "alternatives": [
+            "r"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "r"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 5,
+          "raw": "v",
+          "alternatives": [
+            "v"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "v"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 6,
+          "raw": "x",
+          "alternatives": [
+            "x"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "x"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 7,
+          "raw": "k",
+          "alternatives": [
+            "k"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "k"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 8,
+          "raw": "m",
+          "alternatives": [
+            "m"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "m"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 9,
+          "raw": "f",
+          "alternatives": [
+            "f"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "f"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 10,
+          "raw": "@169;v",
+          "alternatives": [
+            "@169;v"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@169;",
+            "v"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 11,
+          "raw": "t",
+          "alternatives": [
+            "t"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "t"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 12,
+          "raw": "r",
+          "alternatives": [
+            "r"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "r"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 13,
+          "raw": "@170;",
+          "alternatives": [
+            "@170;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@170;"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 14,
+          "raw": "@171;",
+          "alternatives": [
+            "@171;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@171;"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 15,
+          "raw": "y",
+          "alternatives": [
+            "y"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "y"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 16,
+          "raw": "c",
+          "alternatives": [
+            "c"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "c"
+          ]
+        },
+        {
+          "cycle": 2,
+          "position": 17,
+          "raw": "@172;",
+          "alternatives": [
+            "@172;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@172;"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 1,
+          "raw": "o",
+          "alternatives": [
+            "o"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "o"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 2,
+          "raw": "l",
+          "alternatives": [
+            "l"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "l"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 3,
+          "raw": "d",
+          "alternatives": [
+            "d"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "d"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 4,
+          "raw": "r",
+          "alternatives": [
+            "r"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "r"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 5,
+          "raw": "v",
+          "alternatives": [
+            "v"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "v"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 6,
+          "raw": "x",
+          "alternatives": [
+            "x"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "x"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 7,
+          "raw": "k",
+          "alternatives": [
+            "k"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "k"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 8,
+          "raw": "m",
+          "alternatives": [
+            "m"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "m"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 9,
+          "raw": "p",
+          "alternatives": [
+            "p"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "p"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 10,
+          "raw": "@169;v",
+          "alternatives": [
+            "@169;v"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@169;",
+            "v"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 11,
+          "raw": "t",
+          "alternatives": [
+            "t"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "t"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 12,
+          "raw": "r",
+          "alternatives": [
+            "r"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "r"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 13,
+          "raw": "@170;",
+          "alternatives": [
+            "@170;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@170;"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 14,
+          "raw": "@171;",
+          "alternatives": [
+            "@171;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@171;"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 15,
+          "raw": "y",
+          "alternatives": [
+            "y"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "y"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 16,
+          "raw": "c",
+          "alternatives": [
+            "c"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "c"
+          ]
+        },
+        {
+          "cycle": 3,
+          "position": 17,
+          "raw": "@172;",
+          "alternatives": [
+            "@172;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@172;"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 1,
+          "raw": "o",
+          "alternatives": [
+            "o"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "o"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 2,
+          "raw": "l",
+          "alternatives": [
+            "l"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "l"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 3,
+          "raw": "d",
+          "alternatives": [
+            "d"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "d"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 4,
+          "raw": "r",
+          "alternatives": [
+            "r"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "r"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 5,
+          "raw": "v",
+          "alternatives": [
+            "v"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "v"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 6,
+          "raw": "x",
+          "alternatives": [
+            "x"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "x"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 7,
+          "raw": "k",
+          "alternatives": [
+            "k"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "k"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 8,
+          "raw": "m",
+          "alternatives": [
+            "m"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "m"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 9,
+          "raw": "p",
+          "alternatives": [
+            "p"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "p"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 10,
+          "raw": "@169;v",
+          "alternatives": [
+            "@169;v"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@169;",
+            "v"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 11,
+          "raw": "t",
+          "alternatives": [
+            "t"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "t"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 12,
+          "raw": "r",
+          "alternatives": [
+            "r"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "r"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 13,
+          "raw": "@170;",
+          "alternatives": [
+            "@170;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@170;"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 14,
+          "raw": "@171;",
+          "alternatives": [
+            "@171;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@171;"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 15,
+          "raw": "y",
+          "alternatives": [
+            "y"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "y"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 16,
+          "raw": "c",
+          "alternatives": [
+            "c"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "c"
+          ]
+        },
+        {
+          "cycle": 4,
+          "position": 17,
+          "raw": "@172;",
+          "alternatives": [
+            "@172;"
+          ],
+          "unresolved_source_fragments": [],
+          "encoded_atoms": [
+            "@172;"
+          ]
+        }
+      ],
+      "variation_positions": [
+        {
+          "position": 3,
+          "cycle_readings": [
+            [
+              "j"
+            ],
+            [
+              "d"
+            ],
+            [
+              "d"
+            ],
+            [
+              "d"
+            ]
+          ]
+        },
+        {
+          "position": 9,
+          "cycle_readings": [
+            [
+              "f"
+            ],
+            [
+              "f"
+            ],
+            [
+              "p"
+            ],
+            [
+              "p"
+            ]
+          ]
+        },
+        {
+          "position": 15,
+          "cycle_readings": [
+            [
+              "@222;"
+            ],
+            [
+              "y"
+            ],
+            [
+              "y"
+            ],
+            [
+              "y"
+            ]
+          ]
+        },
+        {
+          "position": 16,
+          "cycle_readings": [
+            [
+              "I"
+            ],
+            [
+              "c"
+            ],
+            [
+              "c"
+            ],
+            [
+              "c"
+            ]
+          ]
+        }
+      ],
+      "provenance_note": "Dependent reference combining ZL and GC, descriptive only."
+    }
+  },
+  "templates": {
+    "ZL": [
+      [
+        "o"
+      ],
+      [
+        "l"
+      ],
+      [
+        "d",
+        "j"
+      ],
+      [
+        "r"
+      ],
+      [
+        "v"
+      ],
+      [
+        "x"
+      ],
+      [
+        "k"
+      ],
+      [
+        "m"
+      ],
+      [
+        "f",
+        "p"
+      ],
+      [
+        "@169;v"
+      ],
+      [
+        "t"
+      ],
+      [
+        "r"
+      ],
+      [
+        "@170;"
+      ],
+      [
+        "@171;"
+      ],
+      [
+        "y"
+      ],
+      [
+        "I",
+        "c"
+      ],
+      [
+        "@172;"
+      ]
+    ],
+    "IT": [
+      [
+        "o"
+      ],
+      [
+        "l"
+      ],
+      [
+        "d"
+      ],
+      [
+        "r"
+      ],
+      [
+        "v"
+      ],
+      [
+        "x"
+      ],
+      [
+        "k"
+      ],
+      [
+        "k",
+        "m"
+      ],
+      [
+        "f",
+        "p"
+      ],
+      [],
+      [
+        "t"
+      ],
+      [
+        "r"
+      ],
+      [],
+      [],
+      [
+        "y"
+      ],
+      [
+        "c"
+      ],
+      []
+    ],
+    "GC": [
+      [
+        "o"
+      ],
+      [
+        "e"
+      ],
+      [
+        "&",
+        "8"
+      ],
+      [
+        "y"
+      ],
+      [
+        "^"
+      ],
+      [
+        "|"
+      ],
+      [
+        "h"
+      ],
+      [
+        "p"
+      ],
+      [
+        "f",
+        "g",
+        "w"
+      ],
+      [
+        "@204;"
+      ],
+      [
+        "k"
+      ],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "@201;"
+      ],
+      [
+        "@236;"
+      ],
+      [
+        "(",
+        "9"
+      ],
+      [
+        "@200;",
+        "E"
+      ],
+      [
+        "@202;"
+      ]
+    ]
+  },
+  "allograph_merges_applied_to_corpus": false,
+  "label": "Four corresponding17-position spans, not a phonetic alphabet.",
+  "IT_last_span_note": "IT has69 fragments. Final r/n is an unresolved span in position17 of cycle4; neither value is used there."
+}

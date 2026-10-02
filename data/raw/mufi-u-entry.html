@@ -1,0 +1,41 @@
+    <!DOCTYPE html>
+    <html lang="en">
+     <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Checking your browser...</title>
+      <script type="module" src="https://cdn.jsdelivr.net/npm/altcha/dist/altcha.min.js"></script>
+      <style>
+        body { font-family: system-ui, -apple-system, sans-serif; background: #f8fafc; color: #334155; display: grid; place-content: center; min-height: 85vh; margin: 0; }
+        .card { background: #fff; padding: 2.5rem; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.08); max-width: 400px; text-align: center; border: 1px solid #e2e8f0; }
+        h2 { margin-top: 0; color: #0f172a; font-size: 1.25rem; }
+        p { font-size: 0.9rem; color: #64748b; line-height: 1.5; margin-bottom: 1.5rem; }
+        .err { color: #e11d48; font-size: 0.85rem; margin-bottom: 1rem; }
+      </style>
+    </head>
+    <body>
+     <div class="card">
+      <h2>🛡️ Security Check</h2>
+      <p>Please wait a moment while we verify your browser.</p>
+            <form id="gk-form" method="POST" action="">
+       <input type="hidden" id="altcha-payload" name="altcha" value="">
+       <div style="display: flex; justify-content: center;">
+        <altcha-widget id="my-altcha" challengeurl="?altcha_action=challenge" auto="onload"></altcha-widget>
+       </div>
+      </form>
+     </div>
+     <script>
+      const widget = document.getElementById('my-altcha');
+      const input = document.getElementById('altcha-payload');
+      widget.addEventListener('statechange', (ev) => {
+        // When the widget is verified, it puts the payload into detail.payload
+        if (ev.detail.state === 'verified') {
+          input.value = ev.detail.payload;
+          // Automatically submit the form once solved
+          document.getElementById('gk-form').submit();
+        }
+      });
+     </script>
+    </body>
+    </html>
+    

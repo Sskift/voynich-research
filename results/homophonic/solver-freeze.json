@@ -1,0 +1,16 @@
+{
+  "status": "FROZEN_BEFORE_MANUSCRIPT_SEARCH",
+  "version": "v1",
+  "hashes": {
+    "notes/experiment-011-design.md": "9368f04d1b35f1ed4c25f555addfba2125ad9b1a5609390f559e82a7070c98bb",
+    "src/homophonic.py": "09b0ff0110bb740dc903c978652fb78936166c139b34d3da087254d1f3ed399e",
+    "src/homophonic_search.cpp": "c2ce6cfb998d1faa96086a4bbb45b7c4cd2f17f3d448913957d86212ce5a0743",
+    "src/substitution.py": "fa3d46dda69887634346f2fda024398da294390389225c25c391f182d746fa9f",
+    "src/symbol_sequences.py": "9190db8efed950303f428f0c31364ebfecadb1297b4809406525fa4167a1b6cd",
+    "data/homophonic/manuscript.json": "cd094c7b7a2c67c4fce3a9c7ed0390e2f928e75a8784748d39d78d3b414bfe00",
+    "data/homophonic/language.json": "a3929fbeaf4fe7d38767f00a3c87b54d6675ae84c2ac5bab693ea73a318dc5ef",
+    "data/homophonic/conditional4.bin": "7ca6ce2ae23c085d1746b377d92bea75edc82deab0e21767df04fa14e5208370",
+    "data/homophonic/config-v1.json": "1c28e0bfbf3f956cc889822ced9c2fc89ddd1b1f4c0445d7ce455c7de973ef73",
+    "results/homophonic/calibration-v1.json": "0d6f472a6479818ff55a942169d44253c62c4b419af61f8bfe0da7a1ec6845d5"
+  }
+}

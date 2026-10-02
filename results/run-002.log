@@ -1,0 +1,24 @@
+ZL3b-n-split
+{'scope': 'ALL', 'replacement': 'KEEP', 'tau': 50, 'n': 265, 'unigram_log2': -13.63641530847731, 'conditional_log2': -14.359090004432865, 'context_lift_bits': -0.7226746959555541, 'pair_seen_rate': 0.011320754716981131}
+{'scope': 'ALL', 'replacement': 'r', 'tau': 50, 'n': 265, 'unigram_log2': -11.296244694329884, 'conditional_log2': -11.617128659319196, 'context_lift_bits': -0.3208839649893118, 'pair_seen_rate': 0.12830188679245283}
+{'scope': 'ALL', 'replacement': 'l', 'tau': 50, 'n': 265, 'unigram_log2': -11.57803456459205, 'conditional_log2': -11.951741298471552, 'context_lift_bits': -0.3737067338795015, 'pair_seen_rate': 0.10943396226415095}
+{'scope': 'ALL', 'replacement': 'n', 'tau': 50, 'n': 265, 'unigram_log2': -14.60363330091415, 'conditional_log2': -15.266613165468117, 'context_lift_bits': -0.6629798645539662, 'pair_seen_rate': 0.022641509433962263}
+{'scope': 'ALL', 'replacement': 'y', 'tau': 50, 'n': 265, 'unigram_log2': -14.93897285672319, 'conditional_log2': -15.6796948262433, 'context_lift_bits': -0.7407219695201093, 'pair_seen_rate': 0.007547169811320755}
+{'scope': 'ALL', 'replacement': 'in', 'tau': 50, 'n': 265, 'unigram_log2': -11.982092912848305, 'conditional_log2': -12.444338971529719, 'context_lift_bits': -0.4622460586814139, 'pair_seen_rate': 0.09433962264150944}
+{'scope': 'ALL', 'replacement': 'iin', 'tau': 50, 'n': 265, 'unigram_log2': -11.089535941461257, 'conditional_log2': -11.47006047533373, 'context_lift_bits': -0.38052453387247276, 'pair_seen_rate': 0.12830188679245283}
+IT2a-n-split
+{'scope': 'ALL', 'replacement': 'KEEP', 'tau': 50, 'n': 299, 'unigram_log2': -13.583869594284117, 'conditional_log2': -14.251396224622177, 'context_lift_bits': -0.6675266303380596, 'pair_seen_rate': 0.020066889632107024}
+{'scope': 'ALL', 'replacement': 'r', 'tau': 50, 'n': 299, 'unigram_log2': -11.1468243501776, 'conditional_log2': -11.483351631448933, 'context_lift_bits': -0.3365272812713336, 'pair_seen_rate': 0.11705685618729098}
+{'scope': 'ALL', 'replacement': 'l', 'tau': 50, 'n': 299, 'unigram_log2': -11.43524265799003, 'conditional_log2': -11.824869035014423, 'context_lift_bits': -0.38962637702439373, 'pair_seen_rate': 0.09698996655518395}
+{'scope': 'ALL', 'replacement': 'n', 'tau': 50, 'n': 299, 'unigram_log2': -14.481317898288763, 'conditional_log2': -15.18638360158925, 'context_lift_bits': -0.7050657033004875, 'pair_seen_rate': 0.013377926421404682}
+{'scope': 'ALL', 'replacement': 'y', 'tau': 50, 'n': 299, 'unigram_log2': -14.88571422517068, 'conditional_log2': -15.624072203776548, 'context_lift_bits': -0.7383579786058672, 'pair_seen_rate': 0.0033444816053511705}
+{'scope': 'ALL', 'replacement': 'in', 'tau': 50, 'n': 299, 'unigram_log2': -11.964714203441062, 'conditional_log2': -12.445763489387193, 'context_lift_bits': -0.4810492859461313, 'pair_seen_rate': 0.08695652173913043}
+{'scope': 'ALL', 'replacement': 'iin', 'tau': 50, 'n': 299, 'unigram_log2': -11.10285393204827, 'conditional_log2': -11.473328274208114, 'context_lift_bits': -0.3704743421598451, 'pair_seen_rate': 0.11705685618729098}
+ZL3b-n-join
+{'scope': 'ALL', 'replacement': 'KEEP', 'tau': 50, 'n': 264, 'unigram_log2': -13.975639551445592, 'conditional_log2': -14.566792107165831, 'context_lift_bits': -0.5911525557202388, 'pair_seen_rate': 0.011363636363636364}
+{'scope': 'ALL', 'replacement': 'r', 'tau': 50, 'n': 264, 'unigram_log2': -12.081799800670959, 'conditional_log2': -12.4786558404267, 'context_lift_bits': -0.39685603975574146, 'pair_seen_rate': 0.07196969696969698}
+{'scope': 'ALL', 'replacement': 'l', 'tau': 50, 'n': 264, 'unigram_log2': -12.354789460621529, 'conditional_log2': -12.737639780715869, 'context_lift_bits': -0.38285032009433984, 'pair_seen_rate': 0.06818181818181818}
+{'scope': 'ALL', 'replacement': 'n', 'tau': 50, 'n': 264, 'unigram_log2': -14.571735478323623, 'conditional_log2': -15.168047066415692, 'context_lift_bits': -0.5963115880920693, 'pair_seen_rate': 0.011363636363636364}
+{'scope': 'ALL', 'replacement': 'y', 'tau': 50, 'n': 264, 'unigram_log2': -14.935735722706875, 'conditional_log2': -15.583649125440068, 'context_lift_bits': -0.6479134027331934, 'pair_seen_rate': 0.0}
+{'scope': 'ALL', 'replacement': 'in', 'tau': 50, 'n': 264, 'unigram_log2': -12.512963108713581, 'conditional_log2': -12.978488269996602, 'context_lift_bits': -0.46552516128302024, 'pair_seen_rate': 0.056818181818181816}
+{'scope': 'ALL', 'replacement': 'iin', 'tau': 50, 'n': 264, 'unigram_log2': -11.793948727556687, 'conditional_log2': -12.150663070681418, 'context_lift_bits': -0.3567143431247306, 'pair_seen_rate': 0.08333333333333333}

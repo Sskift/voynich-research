@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "checks": [
+    "frozen design/code/model/data, raw Latin sources and extracted plaintext hashes",
+    "all331776 Latin fourgram scores reconstructed from text, independent encoding",
+    "all1165 eligible native loci, case/escape units, masks, train-only top23 and page split",
+    "three known ciphers, all48 restart test accuracies and complete-word recovery",
+    "all observed/null training keys and scores, all999 random keys, all9 independently regenerated shuffled inputs and test scores",
+    "all mechanical decoded lines retain masks; no semantic translation claim"
+  ],
+  "training_keys_independently_rescored": 208,
+  "control_error_details": [
+    {
+      "name": "control-cicero",
+      "test_letters": 50937,
+      "wrong_letters": 0,
+      "substitutions": [],
+      "unmasked_words": 8884,
+      "wrong_words": 0
+    },
+    {
+      "name": "control-celsus",
+      "test_letters": 6397,
+      "wrong_letters": 1,
+      "substitutions": [
+        [
+          "y",
+          "z"
+        ]
+      ],
+      "unmasked_words": 1142,
+      "wrong_words": 1
+    },
+    {
+      "name": "control-cicero-masked",
+      "test_letters": 49079,
+      "wrong_letters": 3,
+      "substitutions": [
+        [
+          "y",
+          "z"
+        ],
+        [
+          "y",
+          "z"
+        ],
+        [
+          "y",
+          "z"
+        ]
+      ],
+      "unmasked_words": 7225,
+      "wrong_words": 1
+    }
+  ],
+  "completion": "UNPROVEN",
+  "scope_limit": "Does not independently prove a global optimum, authenticate source transcription, or validate Latin/glyph assumptions."
+}

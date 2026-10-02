@@ -1,0 +1,36 @@
+{
+  "status": "NORMALIZATION_FROZEN_BEFORE_V2_SCORES",
+  "lookup": {
+    "": "a",
+    "": "o",
+    "": "u",
+    "": "u"
+  },
+  "rule": "NFD and drop combining marks; preserve æ,ß; no word-specific rewriting.",
+  "projected_sources": [
+    {
+      "file": "data/german-components-v2/brant-base.json",
+      "sha256": "e20856e30d588b09060866a3fcdfd0262cc4eaf06c918a97036ec4bd1134279f",
+      "parent": "data/language-screen/brant-reading.json",
+      "parent_sha256": "9b4d0863fb742ac9d6bacf2612db87cf95429629c87a544dce20cd68ca64455a",
+      "changes_across_both_tokenizations": 7504
+    },
+    {
+      "file": "data/german-components-v2/tepl-base.json",
+      "sha256": "87209c3aa3618298c8a7e1e7c5fcc5441a7b30e14e2922ea97153f88be134b2e",
+      "parent": "data/language-screen/tepl.json",
+      "parent_sha256": "84c1325ee842114e65f5317f113dc0f2f98e4d6b78effcf113e8013b5e3daa6b",
+      "changes_across_both_tokenizations": 82
+    }
+  ],
+  "hashes": {
+    "src/german_components_v2.py": "1b7e85db393c9a80e12e165688f199d492cabcbe508d140d56cc1516443ccf8e",
+    "notes/experiment-014-v2-amendment.md": "fafb32d493cae88c0ca14bae01881af65fe746180e4669e8842d979aae5cccaf",
+    "results/german-components/failed-v1-freeze.json": "b975dfcb19b6ff0be95461a9997492f2f7d6948ac5c51191e010ac91a8898b7c",
+    "data/raw/titus-a.html": "9a9bc3eb399ad71f25b8cef66d83dbf66b2a994a5db17334b265d20e5b0458a5",
+    "data/raw/titus-o.html": "6bb6415c33a53be0d949299b2d16560642c9ed5d39c17fe56021dd7fd0d9f6cf",
+    "data/raw/titus-u.html": "c6b29dd5d38cb281204450e54f32c23b1f154fc219e1bd149f84af4f87029e06",
+    "data/german-components-v2/brant-base.json": "e20856e30d588b09060866a3fcdfd0262cc4eaf06c918a97036ec4bd1134279f",
+    "data/german-components-v2/tepl-base.json": "87209c3aa3618298c8a7e1e7c5fcc5441a7b30e14e2922ea97153f88be134b2e"
+  }
+}

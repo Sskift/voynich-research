@@ -1,0 +1,808 @@
+<!DOCTYPE HTML>
+<HTML LANG="en">
+
+<HEAD>
+  <META NAME="keywords" CONTENT="Voynich, manuscript">
+  <TITLE>The analytical alignment alphabet</TITLE>
+  <META charset=utf-8>
+  <LINK REL=stylesheet TYPE="text/css" HREF="../vmsnv.css">
+</HEAD>
+
+<TABLE CLASS="btn">
+  <TR>
+    <TD><A HREF="../toc.html"><IMG SRC="../img/btn/TOC.jpg" ALT="TOC"></A></TD>
+    <TD><A HREF="../index.html"><IMG SRC="../img/btn/start.jpg" ALT="Home"></A></TD>
+    <TD><A HREF="../roadmap.html"><IMG SRC="../img/btn/map.jpg" ALT="Map"></A></TD>
+  </TR>
+  <TR>
+    <TD><A HREF="javascript:history.back()">
+<IMG SRC="../img/btn/bback.gif" ALT="back"></A></TD>
+    <TD> </TD>
+    <TD> </TD>
+  </TR>
+</TABLE>
+
+<H1>The analytical alignment alphabet</H1>
+
+<H2>Introduction</H2>
+
+<P>
+When the STA alphabet was first designed, it was decided that it should be a synthetic superset of v101 and 
+extended Eva, as this was the less complicated approach. This was first presented during the 2022 Voynich
+MS conference
+<A HREF="#n01">(1)</A>,
+which referred to intermediate STA version 16. 
+STA was consolidated (as STA version 1) in early 2023, and this version is documented 
+<A HREF="sta.html">on this page</A>
+with links to detailed additional documents.
+</P>
+
+<P>
+While using STA to align transliterations against each other, there were a few cases where this alignment was 
+complicated due to different combinations of strokes by the various transcribers.
+It was decided to resolve this by creating another superset of v101 and extended Eva, but to use the opposite 
+approach, namely to make it analytical. This second, analytical alphabet organises strokes or minims of the 
+Voynich characters into families, in a way similar to the STA alphabet. 
+</P>
+
+
+<H2>Why yet another alphabet?</H2>
+
+<P>
+Already four different transliteration alphabets existed when STA was designed, five if one also 
+counts the unused "Frogguy" 
+(<A HREF="../transcr.html#Guy">for which see here</A>). 
+STA was not designed to replace or supersede any 
+of the original alphabets. These original alphabets were intended for text analysis. 
+STA was designed as a superset of all existing alphabets, in order to be able to represent all 
+transliterations in a common system. With the availability of the tool 'bitrans', creating a new 
+alphabet is easy, and the conversion of existing transliterations from one alphabet to another 
+is fully automatic.
+</P>
+
+<P>
+The purpose of this additional new alphabet is primarily to align different transliterations. 
+We will see further below that it is also very well suited for alignment of a transliteration to 
+the digital images of the MS text, as in OCR applications. The alphabet was dubbed 
+'analytical alignment alphabet' or 'aaa'. 
+As it encodes strokes or minims , this alphabet is highly verbose. 
+</P>
+
+<H4>Example</H4>
+
+<P>
+An example may serve to clarify this approach.
+The character sequence 
+<SPAN CLASS="Eva">&#xE043;</SPAN> &nbsp; <SPAN CLASS="Eva">&#xE04B;&#xE068;</SPAN> 
+may be interpreted by one transcriber as two separate parts, and by another as a single shape. 
+The first could write in Eva: 'c kh' and the second 'ckh'. When converted to STA, the 
+first would have 'Ja Sa' and the second 'U1'. 
+These are not obviously similar. In the stroke-based case of Eva, they are more clearly similar, 
+differing only in the additional space. The 'aaa' alphabet will make this comparison very easy again.
+</P>
+
+<H2>Principles behind the aaa alphabet</H2>
+
+<P>
+The definition of 'aaa' follows from three principles:
+</P>
+
+<UL>
+<LI>
+The strokes shall be represented by two characters, similar to STA</LI>
+<LI>
+A colon will be used to indicate that two strokes are connected</LI>
+<LI>
+It shall be modelled closely after the earliest example of such a stroke-based 
+alphabet: Frogguy</LI>
+</UL>
+
+<P>
+While STA characters start with a capital, which is followed by a number or a lower-case character, 
+aaa characters will consist of a lower-case character followed by a number (single digit). 
+This removes any ambiguity between STA and aaa. Consequently, we may also speak of aaa families.
+</P>
+
+<P>
+In the design of aaa we are able to avoid a few aspects of Eva that some of its users have commented on:
+</P>
+
+<UL>
+<LI>
+It has been considered confusing by some that the 's' in Eva 'sh' is not the same as the 
+stand-alone 's'</LI>
+<LI>
+Similarly, people have considered that the use of Eva 'e' to represent the shape that looks 
+like 'c' is confusing.</LI>
+</UL>
+
+<P>
+The use of a digit allows all different c-like shapes to be represented by a 'c' character. 
+The four digits '0' to '3' are reserved for four specific cases:
+</P>
+
+<UL>
+<LI>
+'0' means that the character does not have any connecting bar at the top
+</LI>
+<LI>
+'1' indicates a connecting bar to the left
+</LI>
+<LI>
+'2' indicates a connecting bar to the right
+</LI>
+<LI>
+'3' indicates connecting bars to both sides
+</LI>
+</UL>
+
+<P>
+The digits '4' to '9' are available for identifying specific variants of certain 
+characters.
+</P>
+
+<H2>aaa at the high level</H2>
+
+<P>
+The list of 'aaa' families is given in the following table.
+</P>
+ 
+<TABLE CLASS="cen">
+<TR> <TH>aaa family</TH>
+<TH>Description</TH></TR>
+<TR> <TD>a</TD>
+<TD>Eva-a</TD> </TR>
+<TR> <TD>b</TD>
+<TD>Tail up from the bottom,  part of Eva-b, Eva-n, Eva-u</TD> </TR>
+<TR> <TD>c</TD>
+<TD>Eva-e, also when connected to left or right, such as Eva-c, Eva-h</TD> </TR>
+<TR> <TD>d</TD>
+<TD>Eva-d, and similar shapes (Eva-j)</TD> </TR>
+<TR> <TD>e</TD>
+<TD>Eva-l</TD> </TR>
+<TR> <TD>g</TD>
+<TD>Eva-q</TD> </TR>
+<TR> <TD>i</TD>
+<TD>Eva-i, also connected to left or right</TD> </TR>
+<TR> <TD>j</TD>
+<TD>Right-hand part of Eva-g and Eva-m</TD> </TR>
+<TR> <TD>l</TD>
+<TD>Left-hand part of Eva-f and Eva-k</TD> </TR>
+<TR> <TD>o</TD>
+<TD>Eva-o</TD> </TR>
+<TR> <TD>p</TD>
+<TD>Right-hand part of Eva-k and Eva-t</TD> </TR>
+<TR> <TD>q</TD>
+<TD>Left-hand part of Eva-p and Eva-t </TD> </TR>
+<TR> <TD>t</TD>
+<TD>Tail up from the top, part of Eva-r, Eva-s</TD> </TR>
+<TR> <TD>u</TD>
+<TD>Collection of rare unclassifiable characters</TD> </TR>
+<TR> <TD>v</TD>
+<TD>Quote as in Eva-sh</TD> </TR>
+<TR> <TD>x</TD>
+<TD>Right-hand part of Eva-f and Eva-p</TD> </TR>
+<TR> <TD>y</TD>
+<TD>Eva-y</TD> </TR>
+<TR> <TD>z</TD>
+<TD>Use for illegible readings</TD> </TR>
+</TABLE>
+
+<P>
+With this, we may show the definition of the most common characters. 
+The following table has been modeled after Table 1 on
+<A HREF="../transcr.html">this page</A>.
+</P>
+
+<TABLE CLASS="cen">
+
+  <TR>
+    <TH>Char</TH>
+    <TH>Eva</TH>
+    <TH>aaa</TH>
+    <TH> &nbsp; </TH>
+    <TH>Char</TH>
+    <TH>Eva</TH>
+    <TH>aaa</TH>
+
+  </TR>
+
+  <TR>
+    <TD> <SPAN CLASS="Eva">&#xE071;</SPAN> </TD>
+    <TD>q</TD> <TD>g0</TD>
+    <TD> &nbsp; </TD>
+    <TD> <SPAN CLASS="Eva">&#xE069;</SPAN> </TD>
+    <TD>i</TD> <TD>i0</TD>
+  </TR>
+
+  <TR>
+    <TD> <SPAN CLASS="Eva">&#xE06F;</SPAN> </TD>
+    <TD>o</TD> <TD>o0</TD>
+    <TD> &nbsp; </TD>
+    <TD> <SPAN CLASS="Eva">&#xE069;&#xE06C;</SPAN> </TD>
+    <TD>il</TD> <TD>i0  e0</TD>
+  </TR>
+
+  <TR>
+    <TD> <SPAN CLASS="Eva">&#xE064;</SPAN> </TD>
+    <TD>d</TD> <TD>d0</TD>
+    <TD> &nbsp; </TD>
+    <TD> <SPAN CLASS="Eva">&#xE069;&#xE069;&#xE06C;</SPAN> </TD>
+    <TD>iil</TD> <TD>i0  i0  e0</TD>
+  </TR>
+
+  <TR>
+    <TD> <SPAN CLASS="Eva">&#xE079;</SPAN> </TD>
+    <TD>y</TD> <TD>y0</TD>
+    <TD> &nbsp; </TD>
+    <TD> <SPAN CLASS="Eva">&#xE069;&#xE069;&#xE069;&#xE06C;</SPAN></TD>
+    <TD>iiil</TD> <TD>i0  i0  i0  e0</TD>
+  </TR>
+
+  <TR>
+    <TD> <SPAN CLASS="Eva">&#xE073;</SPAN> </TD>
+    <TD>s</TD> <TD>c0:t0</TD>
+    <TD> &nbsp; </TD>
+    <TD> <SPAN CLASS="Eva">&#xE069;&#xE072;</SPAN> </TD>
+    <TD>ir</TD> <TD>i0  i0:t0</TD>
+  </TR>
+
+  <TR>
+    <TD> <SPAN CLASS="Eva">&#xE06C;</SPAN> </TD>
+    <TD>l</TD> <TD>e0</TD>
+    <TD> &nbsp; </TD>
+    <TD> <SPAN CLASS="Eva">&#xE069;&#xE069;&#xE072;</SPAN> </TD>
+    <TD>iir</TD> <TD>i0  i0  i0:t0</TD>
+  </TR>
+
+  <TR>
+    <TD> <SPAN CLASS="Eva">&#xE072;</SPAN> </TD>
+    <TD>r</TD> <TD>i0:t0</TD>
+    <TD> &nbsp; </TD>
+    <TD> <SPAN CLASS="Eva">&#xE069;&#xE069;&#xE069;&#xE072;</SPAN> </TD>
+    <TD>iiir</TD> <TD>i0  i0  i0  i0:t0</TD>
+  </TR>
+
+  <TR>
+    <TD> <SPAN CLASS="Eva">&#xE063;&#xE068;</SPAN> </TD>
+    <TD>ch</TD> <TD>c2:c1</TD>
+    <TD> &nbsp; </TD>
+    <TD> <SPAN CLASS="Eva">&#xE06E;</SPAN> </TD>
+    <TD>n</TD> <TD>i0:b0</TD>
+  </TR>
+
+  <TR>
+    <TD> <SPAN CLASS="Eva">&#xE053;&#xE068;</SPAN> </TD>
+    <TD>sh</TD> <TD>c2:v3:c1</TD>
+    <TD> &nbsp; </TD>
+    <TD> <SPAN CLASS="Eva">&#xE069;&#xE06E;</SPAN> </TD>
+    <TD>in</TD> <TD>i0  i0:b0</TD>
+  </TR>
+
+  <TR>
+    <TD> <SPAN CLASS="Eva">&#xE074;</SPAN> </TD>
+    <TD>t</TD> <TD>q2:p1</TD>
+    <TD> &nbsp; </TD>
+    <TD> <SPAN CLASS="Eva">&#xE069;&#xE069;&#xE06E;</SPAN> </TD>
+    <TD>iin</TD> <TD>i0  i0  i0:b0</TD>
+  </TR>
+
+  <TR>
+    <TD> <SPAN CLASS="Eva">&#xE070;</SPAN> </TD>
+    <TD>p</TD> <TD>l2:x1</TD>
+    <TD> &nbsp; </TD>
+    <TD> <SPAN CLASS="Eva">&#xE069;&#xE069;&#xE069;&#xE06E;</SPAN> </TD>
+    <TD>iiin</TD> <TD>i0  i0  i0  i0:b0</TD>
+  </TR>
+
+  <TR>
+    <TD> <SPAN CLASS="Eva">&#xE06B;</SPAN> </TD>
+    <TD>k</TD> <TD>l2:p1</TD>
+    <TD> &nbsp; </TD>
+    <TD> <SPAN CLASS="Eva">&#xE06D;</SPAN> </TD>
+    <TD>m</TD> <TD>i2:j1</TD>
+  </TR>
+
+  <TR>
+    <TD> <SPAN CLASS="Eva">&#xE066;</SPAN> </TD>
+    <TD>f</TD> <TD>l2:x1</TD>
+    <TD> &nbsp; </TD>
+    <TD> <SPAN CLASS="Eva">&#xE069;&#xE06D;</SPAN> </TD>
+    <TD>im</TD> <TD>i0  i2:j1</TD>
+  </TR>
+
+  <TR>
+    <TD><SPAN CLASS="Eva">&#xE063;&#xE054;&#xE068;</SPAN></TD>
+    <TD>cth</TD> <TD>c2:q3:p3:c1</TD>
+    <TD> &nbsp; </TD>
+    <TD> <SPAN CLASS="Eva">&#xE069;&#xE069;&#xE06D;</SPAN> </TD>
+    <TD>iim</TD> <TD>i0  i0  i2:j1</TD>
+  </TR>
+
+  <TR>
+    <TD> <SPAN CLASS="Eva">&#xE063;&#xE050;&#xE068;</SPAN> </TD>
+    <TD>cph</TD> <TD>c2:q3:x1:c1</TD>
+    <TD> &nbsp; </TD>
+    <TD> <SPAN CLASS="Eva">&#xE069;&#xE069;&#xE069;&#xE06D; </SPAN></TD>
+    <TD>iiim</TD> <TD>i0  i0  i0  i2:j1</TD>
+  </TR>
+
+  <TR>
+    <TD> <SPAN CLASS="Eva">&#xE063;&#xE04B;&#xE068;</SPAN> </TD>
+    <TD>ckh</TD> <TD>c2:l3:p3:c1</TD>
+    <TD> &nbsp; </TD>
+    <TD> <SPAN CLASS="Eva">&#xE067;</SPAN> </TD>
+    <TD>g</TD> <TD>c2:j1</TD>
+  </TR>
+
+  <TR>
+    <TD> <SPAN CLASS="Eva">&#xE063;&#xE046;&#xE068; </SPAN></TD>
+    <TD>cfh</TD> <TD>c0:l3:x1:c1</TD>
+    <TD> &nbsp; </TD>
+    <TD> <SPAN CLASS="Eva">&#xE06A;</SPAN> </TD>
+    <TD>j</TD> <TD>d4</TD>
+  </TR>
+
+  <TR>
+    <TD> <SPAN CLASS="Eva">&#xE061; </SPAN></TD>
+    <TD>a</TD> <TD>a0</TD>
+    <TD> &nbsp; </TD>
+    <TD> <SPAN CLASS="Eva">&#xE078; </SPAN></TD>
+    <TD>x</TD> <TD>e4</TD>
+  </TR>
+
+  <TR>
+    <TD> <SPAN CLASS="Eva">&#xE065;</SPAN> </TD>
+    <TD>e</TD> <TD>c0</TD>
+    <TD> &nbsp; </TD>
+    <TD> <SPAN CLASS="Eva">&#xE076;</SPAN> </TD>
+    <TD>v</TD> <TD>a5</TD>
+  </TR>
+
+</TABLE>
+
+<P>
+Some explanatory comments:
+</P>
+
+<UL>
+<LI>
+The character shapes ending -1, -2 or -3 shall be used for cases when there is
+a visible horizontal connector, such as between the two c shapes in 
+<SPAN CLASS="Eva">&#xE063;&#xE068;</SPAN>. 
+</LI>
+<LI>
+Specifically for the 'aaa' characters l, p and q, that are part of the so-called
+gallows characters, the versions ending -3 shall be used for the pedestalled gallows. 
+Examples of normal gallows are l2:p1 and q2:p1 
+</LI>
+<LI>
+It is possible for characters ending in -0 to be connected to others using the 
+colon (:).
+The standard Eva-n, Eva-r and Eva-s do not have a connecting bar so are written
+with 'aaa' characters ending -0.
+</LI>
+</UL>
+
+<P>
+In general,  we shall consider alphabets like Currier, Eva and v101 'native' alphabets for 
+transliterations, and STA and aaa 'generic' alphabets. 
+</P>
+
+
+<H2>Aligning text to images (OCR)</H2>
+
+<P>
+Two transliterations expressed in 'aaa' will look very similar, as long as they are both 
+reasonably accurate. In addition to this, the human eye can easily map any written text in 
+the MS to a transliteration using 'aaa'. An OCR tool should be able to do the same, so 'aaa' 
+is well suited as an input to OCR applications. 
+</P>
+
+<P>
+In handwritten text, there is great variation in how characters have been written, and a 
+single digit is completely inadequate to capture all these variations. 
+For that reason, 'aaa' will define only the most relevant and distinctive shapes, while any 
+OCR process may identify (and label) many more variations of each 'aaa' character. 
+This means that for every 'aaa' character there will be a list of variants as they are 
+encountered in the handwritten text. 
+</P>
+
+<P>
+These variants are described in small image files which will be called 'character models'. 
+These character models may be based on existing font defitions or on the Voynich MS digital 
+images. A detailed description of character model files and associated catalogues is outside 
+the scope of this document. Following is just a brief summary.
+</P>
+
+<P>
+Character models are 8-bit BMP files, with a colour map that encodes a grey scale from 00 to FF. 
+The background is dark, using lightness value 16 (hexadecimal 10) whereas the writing is light 
+using lightness value 239 (hexadecimal EF). Values in between are allowed. Values 0 and 255 
+(hexadecimal 00 and FF) represent cells that are not part of the model and should be ignored 
+when using the model. Each model has an anchor point which is encoded in the unused part of 
+the colour map. The anchor point is either the central point where the character should touch 
+the line of writing, or some other relevant point.
+</P>
+
+<P>
+Character models shall use extension ".bmp" and the file names shall have 10 to 12 characters, 
+where the first two are the aaa character name and the third is either a plus or a minus sign. 
+This leaves a 3 - 5 character string to identify different models for each aaa character.
+</P>
+
+<H2>Deriving the full aaa definition</H2>
+
+<H3>Reduced STA</H3>
+
+<P>
+It was not necessary to derive the 'aaa' definition from a new comparison between v101 and 
+extended Eva, but it could be derived from STA1 directly. Taking into account the above brief 
+discussion of character variations, as a first step, a 'reduced' version of STA1 was defined
+(STA1R), that was used as the model for 'aaa'. 
+Following is the list of considerations for this reduction.
+</P>
+
+<OL>
+<LI>
+v101 distinguishes two variants of the characters <SPAN CLASS="Eva">&#xE066;</SPAN> and 
+<SPAN CLASS="Eva">&#xE070;</SPAN> (also for their pedestalled versions) depending on whether the final 
+stroke to the left has a hook or not. It was decided not to keep this distinction, even though 
+both variants have numerous appearances in the full MS text.
+</LI>
+<LI>
+v101 distinguishes many different variants of the character <SPAN CLASS="Eva">&#xE053;&#xE068;</SPAN> 
+depending on the size, shape, and positioning of the 'curl' on top. It has been decided to maintain 
+only a subset of these.
+</LI>
+<LI>
+Character variants that appear rarely in the MS, and are sufficiently similar to more frequent 
+characters, will not be distinguished from these more frequent characters.
+</LI>
+</OL>
+
+<P>
+Whereas the full definition of STA1 includes 299 different characters, reduced STA includes only 197.
+These 197 STA codes are indicated in 
+<A HREF="../data/sta/STA1_def.pdf">the full STA1 definition document</A>
+by an asterisk (*) in the third column. 
+</P>
+
+<P>
+A dedicated bitrans table has been set up for converting full STA to reduced STA:
+<A HREF="../software/bitrans/STA1R.bit">STA1R.bit</A>.
+(For more details about bitrans, see 
+<A HREF="sp_transcr.html#bitrans">here</A>).
+This table is of course one-directional. The main reason for this reduction of characters is that this 
+shall be the basis for a 'Reference' transliteration, which is discussed further below.
+</P>
+
+<P>
+As already mentioned above, different character models may capture the variations that were ignored during 
+this reduction process.
+</P>
+
+<H4>Full aaa definition</H4>
+
+<P>
+A first complete definition of aaa was achieved on 30 July 2023. Another iteration leading to a stable 
+version of reduced STA and a stable aaa version was completed on 18 May 2025. 
+A link to the details of this definition will be added here in the near future.
+</P>
+
+<P>
+There are two bitrans tables for converting STA to aaa, both of which are irreversible:
+<BR>
+<A HREF="../software/bitrans/STA-aaa.bit">STA-aaa.bit</A> to convert full STA to aaa,
+<BR>
+<A HREF="../software/bitrans/STAR-aaa.bit">STAR-aaa.bit</A> to convert reduced STA to aaa.
+<BR>
+In order to convert a text in a native transliteration alphabet to aaa, this first needs to
+be converted to STA.
+</P>
+
+<H2 ID="reftrans">A Reference Transliteration</H2>
+
+<H3>Introduction</H3>
+
+<P>
+The alignment of all transliterations to each other would be greatly facilitated if one knew exactly 
+how many characters there are in each locus. The words of each transliteration can then refer to these. 
+As long as we do not know this, we may achieve the same objective by setting up a reference 
+transliteration. The main purpose of this reference is to model as closely as possible the number of 
+characters in each locus. 
+</P>
+
+<P>
+It is desirable that this reference is also accurate, but that is necessarily limited by the accuracy of the 
+available transliterations. Its accuracy can be improved iteratively once OCR is possible. OCR itself would 
+be greatly facilitated if one had a good a priori transliteration to work from. That, again, is what the 
+reference transliteration can provide. Clearly, a good reference transliteration will be the result of an 
+iterative process. 
+</P>
+
+<P>
+Having a reference transliteration in the STA alphabet will allow for a conventient representation of 
+all the items composing the Voynich MS text. In the IVTFF format 5385 loci are defined. The largest 
+number of loci on any single page is 160, which is the case for the Rosettes page (the combination of 
+f85v and f86r). 
+</P>
+
+<P>
+Every page has a name that follows from the traditional foliation, such as f39v or f102r2. 
+However, every page can also be represented by two characters, which are the page variables $Q and $P  
+in the IVTFF format respectively. Here, $Q is the quire letter, which runs from A to T, and $P is the 
+'page in quire' running from A up to X, depending on each quire. While these two-character page codes 
+are not easy to memorise, their use has some very practical advantages:
+</P>
+
+<OL>
+<LI>All page codes have the same (short) length of two characters</LI>
+<LI>Their alphabetical sorting is also the order in which they appear in the MS</LI>
+<LI>On Unix-like systems, the regexp '??' expands to the list of pages in the correct order</LI>
+</OL>
+
+<P>
+As a result, every locus can be represented as a 5-character sequence of two characters identifying the 
+page followed by three digits identifying the locus on the page. This five-character identification of
+loci is used in the majority of my text processing applications, including a prototype Voynich transliteration
+database.
+</P>
+
+<P>
+Furthermore, the longest locus in the MS in terms of STA codes is KH001. This is on page 'KH' which
+is f72v3, and locus 1 is the large outer circle of text. It has a length of 209 STA characters. 
+This means that every character (in STA) in the MS can in principle be identified by a sequence of 6 
+characters, in which the first two are the page, the next two (in hexadecimal) are the locus on the page 
+and the last two (in hexadecimal) are the character in the locus. This numbering of characters will be 
+based on the reference transliteration, and can be improved iteratively, as this reference is 
+improved.
+</P>
+ 
+<H4>Approach</H4>
+
+<P>
+The way to achieve a first reference is to align the GC and ZL transliterations against each other and 
+create an optimal combination. When doing this, we immediately encounter some obvious issues in both 
+transliterations. As the maintainer of the ZL transliteration I can correct these as necessary, but I 
+cannot do this with the GC file. What I can do, however, is to correct any positively identified issues in 
+the GC file by creating a working copy and modifying only this working copy. While changes to the ZL file
+can be made also for subjective changes, only clear mistakes in the GC file have been corrected
+in this manner.
+</P>
+ 
+<P>
+For the sake of the reference, subtle difference between characters do not play a major role. These can be
+resolved later. For this reason, it can be expressed in the 'reduced' STA alphabet described above,
+which is inherent in the defintion of the 'aaa' alphabet. Converting both the ZL and GC transliterations to
+this reduced character set further increases their similarity, and improves the success of the alignment.
+</P>
+
+<P>
+The alignment between the two files was based on the aaa alphabet, but the character comparisons were
+based on the STA codes after this alignment. (Every STA code can be seen as a box with a few aaa
+characters inside).
+</P>
+ 
+<H4>The result</H4>
+
+<P>
+The result of the combination of the ZL and GC transliterations, that were adapted as described above, 
+has been named reference transliteration version 1a, with the code 'RF'. It consists of 157,267 characters
+in the STA alphabet, of which 4% was selected from the (modified) GC file, 0.8% from the ZL file and
+the remainder was common. It included both characters that exist in extended Eva but not in v101, and characters
+in v101 that do not exist in extended Eva. Therefore, RF1a could only be expressed in STA (and aaa), but in
+no native alphabet.
+</P>
+
+<P>
+In May 2025, it was decided to fix some known issues affecting several transliteration files. While doing this,
+it also appeared that RF1a still included some STA codes that were not part of the reduced STA alphabet. When this
+was fixed, it turned out that only three reduced STA codes did not have a representation in Eva, so these were
+also added to the Eva alphabet. The Eva definition 
+<A HREF="../transcr.html#Eva">included here</A>
+already refers to this updated definition. New new characters have codes 221-223.
+</P>
+
+<P>
+Furthermore, one label in the pharmaceutical section of the MS was identified to be a shine-through from the other 
+side, so the corresponding locus does not exist. At the same time, the three characters of Johannes Marcus Marci's 
+alphabet list on f1r have been removed from the transliterations
+<A HREF="#n02">(2)</A>. 
+This means that a total of four loci have been removed, reducing the complete set from 5389 to 5385
+<A HREF="#n03">(3)</A>. 
+</P>
+
+<P>
+The resulting, updated reference transliteration is called RF1b, and has 157,254 characters. Its version
+in (reduced) STA is available 
+<A HREF="sta.html#stalinks">in this table</A>.
+It has also been converted to full Eva and reduced Eva, and these two versions are available
+<A HREF="../transcr.html#links">here</A>.
+</P>
+
+<P>
+<A HREF="javascript:history.back()">
+<IMG SRC="../img/btn/back.gif" WIDTH=99 HEIGHT=23 ALT="back"></A>
+</P>
+
+<H2>File formats</H2>
+
+<P>
+Since 2017 a common file format for transliteration files has been in use: the IVTFF format. 
+It was first presented at the 2020 Voynich MS conference 
+<A HREF="#n01">(see note 1)</A>,
+when it was still at format version 1.7. It is presently at version 2.0, and is defined in 
+<A HREF="../software/ivtt/IVTFF_format.pdf">this PDF document</A>. 
+Files expressed in this format have been the source files for transliterations, but in recent 
+times, I have integrated them into a prototype database 
+<A HREF="#n04">(4)</A>. 
+The IVTFF format has become one of the export formats of this database.
+</P>
+
+<P>
+The database also supports a second export format which is suited for transliterations using 
+the STA or aaa alphabets. This format is called VDBTF. Whereas the STA alphabet can be used both
+in IVTFF and VDBTF formatted files, aaa data is only supported by the VDBTF format. 
+Given that native files are only available in IVTFF format, it is necessary to also
+do a format conversion in the process of converting native to aaa.
+<BR>
+Note that at 
+present no files using aaa and no files using the VDBTF format are available at this web site.
+</P>
+
+<P>
+The difference between VDBTF and IVTFF 
+may be summarised as follows:
+</P>
+
+<UL>
+ <LI>
+ VDBTF files include no metadata (which are in the database), with two exceptions:
+ <BR>
+   1 - The locus ID
+ <BR>
+   2 - An optional 1-character transcriber ID
+ </LI>
+
+ <LI>
+ Locus ID's use a 2-character page code instead of the verbose page name. These are explained
+ further below.
+ </LI>
+
+ <LI>
+ Every transliterated symbol consists of three characters:
+ <BR>
+   1 - A separator character
+ <BR>
+   2 - The family code (upper case for STA and lower case for aaa)
+ <BR>
+   3 - The family member code
+ </LI>
+</UL>
+
+<P>
+The transcriber ID is not used to identify a persion, but to identify a transliteration 
+file, and can take values 1-9.
+</P>
+
+<P>
+The separator character may be:
+</P>
+
+<TABLE CLASS="cen">
+
+<TR>
+<TH>Ch</TH> <TH>Meaning</TH> <TH>In IVTFF</TH> <TH>Comment</TH>
+</TR>
+
+<TR>
+<TD>:</TD> <TD>Connected to previous character</TD>
+<TD>(N/A)</TD> <TD>Can only be used with 'aaa'</TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD> <TD>Close to the previous character</TD>
+<TD>(none)</TD> <TD>Used between adjacent characters</TD>
+</TR>
+<TR>
+<TD>,</TD> <TD>Uncertain word space</TD>
+<TD>,</TD> <TD> &nbsp;</TD>
+</TR>
+<TR>
+<TD>.</TD> <TD>Certain word space</TD>
+<TD>.</TD> <TD> &nbsp;</TD>
+</TR>
+<TR>
+<TD>!</TD> <TD>The start of a line</TD>
+<TD>(none)</TD> <TD>But not also the start of a paragraph</TD>
+</TR>
+<TR>
+<TD>%</TD> <TD>The start of a paragraph</TD>
+<TD>&lt;%&gt;</TD> <TD> &nbsp;</TD>
+</TR>
+<TR>
+<TD>-</TD> <TD>A drawing intrusion in the text</TD>
+<TD>&lt;-&gt;</TD> <TD>The writing is aligned vertically</TD>
+</TR>
+<TR>
+<TD>~</TD> <TD>A drawing intrusion in the text</TD>
+<TD>&lt;~&gt;</TD> <TD>The writing is not aligned vertically</TD>
+</TR>
+
+</TABLE>
+
+<P>
+N/A means 'not applicable' (or: does not exist). The code '~' is only used in the ZL
+transliteration, in fewer than 10 cases.
+<P>
+
+<P>
+As an example, the word <SPAN CLASS="Eva">&#xE064;&#xE061;&#xE069;&#xE069;&#xE06E;</SPAN> 
+at the start of a line (but not the start of a paragraph) would appear in a VDBTF file in STA1 
+and in aaa-1 as follows:
+</P>
+
+<DIV><PRE>
+!B1 A3 G1
+!d0 a0 i0 i0 i0:b0
+</PRE></DIV>
+
+<P>
+<A HREF="javascript:history.back()">
+<IMG SRC="../img/btn/back.gif" WIDTH=99 HEIGHT=23 ALT="back"></A>
+</P>
+
+
+<H2>Notes</H2>
+
+<DL>
+
+  <DT ID="n01">1</DT>
+  <DD>See <A HREF="../refs.html#zatr">Zandbergen (2022)</A></DD>
+
+  <DT ID="n02">2</DT>
+  <DD>See the  <A HREF="https://manuscriptroadtrip.wordpress.com/2024/09/08/multispectral-imaging-and-the-voynich-manuscript/">&gt;&gt;blog entry of Lisa Fagin Davis</A>. 
+  </DD>
+
+  <DT ID="n03">3</DT>
+  <DD>The four lost loci have been removed from the ZL and RF transliterations. The annotations of
+      Marci did not appear in any other transliterations, but the lost pharmaceutical label is still
+      included in the transliterations of Takeshi Takahashi and Glen Claston. At present I am uncertain
+      how best to deal with this issue.
+  </DD>
+
+  <DT ID="n04">4</DT>
+  <DD>Attempts to make this a publicly available MySQL database have so far been 
+      unsuccessful, but this will be explored further.
+  </DD>
+
+</DL>
+
+<P>
+&nbsp;
+</P>
+
+<TABLE CLASS="btn">
+  <TR>
+    <TD><A HREF="../toc.html"><IMG SRC="../img/btn/TOC.jpg" ALT="TOC"></A></TD>
+    <TD><A HREF="../index.html"><IMG SRC="../img/btn/start.jpg" ALT="Home"></A></TD>
+    <TD><A HREF="../roadmap.html"><IMG SRC="../img/btn/map.jpg" ALT="Map"></A></TD>
+  </TR>
+  <TR>
+    <TD><A HREF="javascript:history.back()">
+<IMG SRC="../img/btn/bback.gif" ALT="back"></A></TD>
+    <TD> </TD>
+    <TD> </TD>
+  </TR>
+</TABLE>
+
+<ADDRESS>
+  Copyright Ren&eacute; Zandbergen, 2025
+  <BR>
+  Comments, questions, suggestions?  Your feedback is welcome.
+  <BR>
+  Latest update: 27/05/2025
+</ADDRESS>
+
+</BODY>
+</HTML>

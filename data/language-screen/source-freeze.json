@@ -1,0 +1,104 @@
+{
+  "status": "EXTRACTION_FROZEN_BEFORE_COMPARATIVE_SCORES",
+  "files": {
+    "notes/experiment-012-design.md": "99a497ea5f6603008db17cb56d82aabab0637e19257b1240278738c6731e4890",
+    "notes/experiment-012-source-review.md": "90be82c09058db31bf5d5b5fb5fceb9eac8238ca5156f64f9708f0947d9f0415",
+    "src/language_sources.py": "65ccd5708566d4a08c4ee5fd84a71ca43b79a7203a7f44cc0a0826915fc2c29d",
+    "data/homophonic/manuscript.json": "cd094c7b7a2c67c4fce3a9c7ed0390e2f928e75a8784748d39d78d3b414bfe00",
+    "data/raw/language-screen/aquinas-q1.html": "5a12bc7d183bd6b68d389f5e46eaad8c366686cb74e97e2500a31a53d9a823b2",
+    "data/raw/language-screen/boccaccio-21424.html": "057489f9ae0890a55f7c8405cb76f4c3ef8b475e08196afd6a9db14c2e38c8bf",
+    "data/raw/language-screen/boccaccio-author.html": "bedb5d47384d4b77a92e366d1a612f5d9ae91807af8fd0333281ed8305c93109",
+    "data/raw/language-screen/brant-1494.xml": "a6e4543932362b19b45428ac23fa7bfe55b3ca88d55229fe4fd994057df86c0c",
+    "data/raw/language-screen/dante-1012.txt": "568035b4af7bda4f69f8ed5dea160f59bcf5b9371c7f2a62a97f94b826c0c1c6",
+    "data/raw/language-screen/locher-1497.xml": "82fa4bb95aea4664976f09bb6d321c9dcee626b373133c07b2ef325ad0700049",
+    "data/raw/language-screen/macer.html": "448d3a39d2fb958b1377cad08e1c1f56e576e245221656a96cfe78217d0aed22",
+    "data/raw/language-screen/narragonien-corpus.html": "2a73dc6e03cc81be09b7345c331a71c1713878bdd260478b410c97d837b03353",
+    "data/raw/language-screen/narragonien-rules.html": "d8a71bb3cf3866793b6b199cdd51d0dd913847f6497d5cead1bec37da02a7e5f",
+    "data/raw/language-screen/tepl-47465.html": "429b4f8b7c319556ae7d4cf9737439e873129e86d5ee5ac5b46cc8ed46f16b0f",
+    "data/language-screen/aquinas.json": "829f4d5909c170db7c4531b7cb6d43faf6521a2bcc88aa7bb789c7c14ffcdb67",
+    "data/language-screen/aquinas.txt": "42d83d73a3f5fcc93a0a46e2d28722a11ed84b9874ff202fbfed0af7ecdc01c9",
+    "data/language-screen/boccaccio.json": "6dc1234d2b37114a9d53e5f0c12a34ac8c6f8ab280f6e15943cf3b47a3fc0666",
+    "data/language-screen/boccaccio.txt": "270c0ce62262a5d4fcacf286abdbeda820f0a35e145842bba933f00f3882dcd8",
+    "data/language-screen/brant-diplomatic.json": "cfd3c6abc49aeb23e612f7effc04697147107455847dd2e489e50b1417ff3323",
+    "data/language-screen/brant-diplomatic.txt": "9ad5516a107b8b7bed756fcba29d06b117b4b6ea20b7f5c9b37e22777d148b60",
+    "data/language-screen/brant-reading.json": "9b4d0863fb742ac9d6bacf2612db87cf95429629c87a544dce20cd68ca64455a",
+    "data/language-screen/brant-reading.txt": "769e575b64b8199779f937c418d49bcf4dab0c5574632931818c278c1d44d02a",
+    "data/language-screen/dante.json": "2624e800c087ccd7b1efc1cfd680f6ae772fdf186cb73ba8f11516ea1519458b",
+    "data/language-screen/dante.txt": "3de8b0b0035bbf4191cdd81879bc2cf816df09ec110f718fc6e982fda9e5e5f2",
+    "data/language-screen/downloads-initial.json": "0a61ecb7d3bbb457668fb86aa80502c8e71f12cd780f3791e45ef63187ff8a5b",
+    "data/language-screen/downloads-second.json": "efc8638966b8d49441a35d307000a1feba41fdd8c9e4d3a6fd57fcbbccb7605f",
+    "data/language-screen/downloads-third.json": "26c425ec7f264ac60844f561eca527fbb95f3cde778463ce98dd117688606e7c",
+    "data/language-screen/locher-diplomatic.json": "c5240a96cc3b7201fc7e733d01fe8658401f110325159c8b3949dd0d41789a38",
+    "data/language-screen/locher-diplomatic.txt": "1165ee86b7ceb093985558779bba85ce11caeb4f11250455c917ca0342817e7c",
+    "data/language-screen/macer.json": "c8bf2113d1a352d73ca52257a6af8bae7742a01db98a679dfd8adbef4ce5c064",
+    "data/language-screen/macer.txt": "d639dcf4b96e808fbba7ca002546c2b43beedaaa00e1d0b2796c04ad9b4d4d72",
+    "data/language-screen/tepl.json": "84c1325ee842114e65f5317f113dc0f2f98e4d6b78effcf113e8013b5e3daa6b",
+    "data/language-screen/tepl.txt": "86f1415d83ca3ed8240630905157352cb03050dda9530c7be6c9e22c723f05da"
+  },
+  "sources": [
+    {
+      "name": "macer",
+      "file": "data/language-screen/macer.json",
+      "sha256": "c8bf2113d1a352d73ca52257a6af8bae7742a01db98a679dfd8adbef4ce5c064",
+      "records": 2269,
+      "first": "Herbarum quasdam dicturus carmine vires",
+      "last": "una diagridii, sic apta solutio fiet."
+    },
+    {
+      "name": "aquinas",
+      "file": "data/language-screen/aquinas.json",
+      "sha256": "829f4d5909c170db7c4531b7cb6d43faf6521a2bcc88aa7bb789c7c14ffcdb67",
+      "records": 66,
+      "first": "Et ut intentio nostra sub aliquibus certis limitibus comprehendatur, necessarium est primo investigare de ipsa sacra doctrina, qua",
+      "last": "mbrum significatur, scilicet virtus operativa. In quo patet quod sensui litterali sacrae Scripturae nunquam potest subesse falsum."
+    },
+    {
+      "name": "tepl",
+      "file": "data/language-screen/tepl.json",
+      "sha256": "84c1325ee842114e65f5317f113dc0f2f98e4d6b78effcf113e8013b5e3daa6b",
+      "records": 92,
+      "first": "Grimmiger tilger aller leute, schedlicher ächter aller welte, fraissamer morder aller leute, ir Tot, euch sei verfluchet! Gott ewr",
+      "last": "tragers fanen gehoret, es sei welicherlei creature es sei, helfe mir ausz hertzengrunde seligclichen mit innigkeit sprechen: Amen!"
+    },
+    {
+      "name": "boccaccio",
+      "file": "data/language-screen/boccaccio.json",
+      "sha256": "6dc1234d2b37114a9d53e5f0c12a34ac8c6f8ab280f6e15943cf3b47a3fc0666",
+      "records": 95,
+      "first": "Solone, il cui petto un umano tempio di divina sapienzia fu reputato, e le cui sacratissime leggi sono ancora alli presenti uomini",
+      "last": " non quelle, né cosí grandi come si converrieno, ma quelle che io posso, rendo, benedicendo in eterno il suo nome e 'l suo valore."
+    },
+    {
+      "name": "dante",
+      "file": "data/language-screen/dante.json",
+      "sha256": "2624e800c087ccd7b1efc1cfd680f6ae772fdf186cb73ba8f11516ea1519458b",
+      "records": 14233,
+      "first": "Nel mezzo del cammin di nostra vita",
+      "last": "l’amor che move il sole e l’altre stelle."
+    },
+    {
+      "name": "brant-reading",
+      "file": "data/language-screen/brant-reading.json",
+      "sha256": "9b4d0863fb742ac9d6bacf2612db87cf95429629c87a544dce20cd68ca64455a",
+      "records": 112,
+      "first": "Das jch sytz vornan jn dem schyff Das hat worlich eyn sundren gryff On vrsach ist das nit gethan Vff myn libry ich mych verlan Von",
+      "last": "ht wißheit hett erkannt Die jnn frt jnn das vatterlant Das vns gott geben well z hannt Wünsch ich Sebastianus Brant Deo gratias."
+    },
+    {
+      "name": "brant-diplomatic",
+      "file": "data/language-screen/brant-diplomatic.json",
+      "sha256": "cfd3c6abc49aeb23e612f7effc04697147107455847dd2e489e50b1417ff3323",
+      "records": 112,
+      "first": "Das jch ſy vornan jn dem ſchyﬀ Das hat worlich eyn ſundren gryﬀ On vrſach i das nit gethan Vﬀ myn libry ich mych verlan Von bch",
+      "last": "cht wißheit hett erkannt Die jnn frt jnn das vatterlant Das vns gott geben well ʒ hannt Wünſch ich Sebaianus Brant Deo gratias."
+    },
+    {
+      "name": "locher-diplomatic",
+      "file": "data/language-screen/locher-diplomatic.json",
+      "sha256": "c5240a96cc3b7201fc7e733d01fe8658401f110325159c8b3949dd0d41789a38",
+      "records": 110,
+      "first": "Primus in excelſa teneo ꝙ naue rudentes Stultiuagoſ ſequor comites per ﬂumina vaa: Non ratione vacat certa:ſenſu latenti: Conge",
+      "last": "ponere verbis Artificum:liuor peora cuna trahit. Temporibus noris qui conans ee laborat: Hunc ultum vulgus inſipidum vocat."
+    }
+  ]
+}

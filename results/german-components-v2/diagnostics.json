@@ -1,0 +1,38 @@
+{
+  "status": "DESCRIPTIVE_ONLY_NO_KEY_RESELECTION",
+  "primary_reserved": {
+    "conditional4": -3.081175663268175,
+    "emission_per_window": -0.07206309868014066,
+    "combined": -3.153238761948316,
+    "windows": 952,
+    "sixgram_seen": 0.11345939933259176,
+    "sixgram_hits": 102,
+    "sixgram_windows": 899,
+    "word_seen": 0.06832298136645963,
+    "word_hits": 11,
+    "complete_words_ge3": 161
+  },
+  "random_label_mean": -7.091651983473905,
+  "random_label_p": 0.001,
+  "shuffle_conditional_mean": -4.761682186757658,
+  "shuffle_conditional_range": [
+    -4.8627134615388155,
+    -4.586752214100699
+  ],
+  "shuffle_word_mean": 0.013112491373360938,
+  "shuffle_sixgram_mean": 0.011247064639723149,
+  "null_p": 0.1,
+  "top_two": {
+    "best_restart": 12,
+    "second_restart": 0,
+    "objective_gap": 0.00027136304335906303,
+    "different_glyphs": 13,
+    "total_glyphs": 63,
+    "affected_train_fraction": 0.0006361962163067135
+  },
+  "distinct_restart_keys": 16,
+  "inputs": {
+    "results/german-components-v2/attack.json": "f1a730cae0a1c7157343ef17d07751ad7105a08828efe91a3ef57595b2bcc509",
+    "results/german-components-v2/voynich.frozen.json": "f817bb3d2105dc6a7a0a02014e136ade4744a160d0368dc56ee87678c50880aa"
+  }
+}

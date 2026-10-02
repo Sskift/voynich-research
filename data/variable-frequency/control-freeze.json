@@ -1,0 +1,7 @@
+{
+  "status": "FROZEN_BEFORE_NATIVE_APPLICATION",
+  "hashes": {
+    "data/variable-frequency/envelope-freeze.json": "1759a07dd3b27f5369cc62aaed8e5665ae055b498c4a74f3f21ac1f3242c21bc",
+    "results/variable-frequency/controls.json": "de53054c4c317e115ea73b1d226971a78f956d1139063a40361366850a4f71e6"
+  }
+}

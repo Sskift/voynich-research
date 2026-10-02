@@ -1,0 +1,1417 @@
+{
+  "status": "CONSTRAINT_NOT_A_DECIPHERMENT",
+  "transfer_status": "PASS",
+  "block_transfer_failures": 0,
+  "native": {
+    "train": {
+      "loci": 980,
+      "known_words": 6586,
+      "excluded_unknown_words": 0,
+      "cipher_units": 23721,
+      "under_envelopes": {
+        "blocks": {
+          "cipher_units": 23721,
+          "cipher_types": 127,
+          "cipher_counts": {
+            "!": 16,
+            "#": 22,
+            "$": 4,
+            "%": 23,
+            "&": 6,
+            "(": 40,
+            "*": 43,
+            "+": 28,
+            "1": 2452,
+            "2": 634,
+            "3": 86,
+            "4": 566,
+            "5": 29,
+            "6": 6,
+            "7": 83,
+            "8": 1664,
+            "9": 2490,
+            "@156;": 1,
+            "@161;": 3,
+            "@162;": 2,
+            "@163;": 1,
+            "@166;": 1,
+            "@168;": 2,
+            "@169;": 1,
+            "@170;": 1,
+            "@173;": 1,
+            "@174;": 1,
+            "@176;": 1,
+            "@178;": 1,
+            "@181;": 2,
+            "@183;": 1,
+            "@184;": 2,
+            "@185;": 1,
+            "@186;": 5,
+            "@188;": 3,
+            "@189;": 1,
+            "@190;": 1,
+            "@191;": 1,
+            "@192;": 1,
+            "@193;": 1,
+            "@194;": 1,
+            "@196;": 1,
+            "@197;": 1,
+            "@198;": 4,
+            "@207;": 2,
+            "@208;": 2,
+            "@210;": 1,
+            "@215;": 1,
+            "@217;": 1,
+            "@218;": 1,
+            "@219;": 3,
+            "@220;": 2,
+            "@221;": 1,
+            "@222;": 1,
+            "@223;": 1,
+            "@224;": 1,
+            "@225;": 1,
+            "@226;": 1,
+            "@227;": 1,
+            "@228;": 3,
+            "@229;": 3,
+            "@232;": 3,
+            "@233;": 1,
+            "@234;": 1,
+            "@238;": 1,
+            "@240;": 1,
+            "@241;": 1,
+            "@242;": 2,
+            "@243;": 1,
+            "@244;": 2,
+            "@245;": 4,
+            "@246;": 1,
+            "@247;": 1,
+            "@249;": 1,
+            "@251;": 1,
+            "@252;": 1,
+            "@253;": 7,
+            "A": 109,
+            "B": 5,
+            "C": 176,
+            "D": 5,
+            "E": 24,
+            "F": 9,
+            "G": 39,
+            "H": 151,
+            "I": 24,
+            "J": 37,
+            "K": 373,
+            "L": 8,
+            "M": 25,
+            "N": 47,
+            "P": 6,
+            "Q": 3,
+            "R": 1,
+            "S": 3,
+            "T": 4,
+            "U": 9,
+            "V": 5,
+            "W": 1,
+            "X": 6,
+            "Y": 4,
+            "Z": 23,
+            "a": 1754,
+            "b": 1,
+            "c": 1140,
+            "d": 32,
+            "e": 1431,
+            "f": 43,
+            "g": 126,
+            "h": 1142,
+            "i": 27,
+            "j": 64,
+            "k": 1013,
+            "l": 4,
+            "m": 832,
+            "n": 147,
+            "o": 4621,
+            "p": 193,
+            "q": 2,
+            "r": 2,
+            "s": 544,
+            "t": 2,
+            "u": 14,
+            "v": 3,
+            "x": 16,
+            "y": 1146,
+            "z": 36
+          },
+          "max_cipher_frequency": {
+            "numerator": 4621,
+            "denominator": 23721,
+            "value": 0.1948062897854222
+          },
+          "maximizers": [
+            "o"
+          ],
+          "a": {
+            "numerator": 84,
+            "denominator": 625,
+            "value": 0.1344
+          },
+          "b": {
+            "numerator": 151,
+            "denominator": 5001,
+            "value": 0.030193961207758448
+          },
+          "lower": {
+            "numerator": 2888125,
+            "denominator": 1992564,
+            "value": 1.449451560903439
+          },
+          "upper": {
+            "numerator": 28589,
+            "denominator": 23721,
+            "value": 1.2052190042578306
+          },
+          "rejects": true,
+          "iterations": [
+            {
+              "upper_before": {
+                "numerator": 2,
+                "denominator": 1,
+                "value": 2.0
+              },
+              "forced_monographs": [
+                "1",
+                "8",
+                "9",
+                "a",
+                "o"
+              ],
+              "forced_mass": {
+                "numerator": 4327,
+                "denominator": 7907,
+                "value": 0.5472366257746301
+              },
+              "upper_after": {
+                "numerator": 11487,
+                "denominator": 7907,
+                "value": 1.4527633742253698
+              }
+            },
+            {
+              "upper_before": {
+                "numerator": 11487,
+                "denominator": 7907,
+                "value": 1.4527633742253698
+              },
+              "forced_monographs": [
+                "1",
+                "8",
+                "9",
+                "a",
+                "c",
+                "e",
+                "h",
+                "o",
+                "y"
+              ],
+              "forced_mass": {
+                "numerator": 17840,
+                "denominator": 23721,
+                "value": 0.7520762193836685
+              },
+              "upper_after": {
+                "numerator": 29602,
+                "denominator": 23721,
+                "value": 1.2479237806163315
+              }
+            },
+            {
+              "upper_before": {
+                "numerator": 29602,
+                "denominator": 23721,
+                "value": 1.2479237806163315
+              },
+              "forced_monographs": [
+                "1",
+                "8",
+                "9",
+                "a",
+                "c",
+                "e",
+                "h",
+                "k",
+                "o",
+                "y"
+              ],
+              "forced_mass": {
+                "numerator": 18853,
+                "denominator": 23721,
+                "value": 0.7947809957421694
+              },
+              "upper_after": {
+                "numerator": 28589,
+                "denominator": 23721,
+                "value": 1.2052190042578306
+              }
+            },
+            {
+              "upper_before": {
+                "numerator": 28589,
+                "denominator": 23721,
+                "value": 1.2052190042578306
+              },
+              "forced_monographs": [
+                "1",
+                "8",
+                "9",
+                "a",
+                "c",
+                "e",
+                "h",
+                "k",
+                "o",
+                "y"
+              ],
+              "forced_mass": {
+                "numerator": 18853,
+                "denominator": 23721,
+                "value": 0.7947809957421694
+              },
+              "upper_after": {
+                "numerator": 28589,
+                "denominator": 23721,
+                "value": 1.2052190042578306
+              }
+            }
+          ]
+        },
+        "full": {
+          "cipher_units": 23721,
+          "cipher_types": 127,
+          "cipher_counts": {
+            "!": 16,
+            "#": 22,
+            "$": 4,
+            "%": 23,
+            "&": 6,
+            "(": 40,
+            "*": 43,
+            "+": 28,
+            "1": 2452,
+            "2": 634,
+            "3": 86,
+            "4": 566,
+            "5": 29,
+            "6": 6,
+            "7": 83,
+            "8": 1664,
+            "9": 2490,
+            "@156;": 1,
+            "@161;": 3,
+            "@162;": 2,
+            "@163;": 1,
+            "@166;": 1,
+            "@168;": 2,
+            "@169;": 1,
+            "@170;": 1,
+            "@173;": 1,
+            "@174;": 1,
+            "@176;": 1,
+            "@178;": 1,
+            "@181;": 2,
+            "@183;": 1,
+            "@184;": 2,
+            "@185;": 1,
+            "@186;": 5,
+            "@188;": 3,
+            "@189;": 1,
+            "@190;": 1,
+            "@191;": 1,
+            "@192;": 1,
+            "@193;": 1,
+            "@194;": 1,
+            "@196;": 1,
+            "@197;": 1,
+            "@198;": 4,
+            "@207;": 2,
+            "@208;": 2,
+            "@210;": 1,
+            "@215;": 1,
+            "@217;": 1,
+            "@218;": 1,
+            "@219;": 3,
+            "@220;": 2,
+            "@221;": 1,
+            "@222;": 1,
+            "@223;": 1,
+            "@224;": 1,
+            "@225;": 1,
+            "@226;": 1,
+            "@227;": 1,
+            "@228;": 3,
+            "@229;": 3,
+            "@232;": 3,
+            "@233;": 1,
+            "@234;": 1,
+            "@238;": 1,
+            "@240;": 1,
+            "@241;": 1,
+            "@242;": 2,
+            "@243;": 1,
+            "@244;": 2,
+            "@245;": 4,
+            "@246;": 1,
+            "@247;": 1,
+            "@249;": 1,
+            "@251;": 1,
+            "@252;": 1,
+            "@253;": 7,
+            "A": 109,
+            "B": 5,
+            "C": 176,
+            "D": 5,
+            "E": 24,
+            "F": 9,
+            "G": 39,
+            "H": 151,
+            "I": 24,
+            "J": 37,
+            "K": 373,
+            "L": 8,
+            "M": 25,
+            "N": 47,
+            "P": 6,
+            "Q": 3,
+            "R": 1,
+            "S": 3,
+            "T": 4,
+            "U": 9,
+            "V": 5,
+            "W": 1,
+            "X": 6,
+            "Y": 4,
+            "Z": 23,
+            "a": 1754,
+            "b": 1,
+            "c": 1140,
+            "d": 32,
+            "e": 1431,
+            "f": 43,
+            "g": 126,
+            "h": 1142,
+            "i": 27,
+            "j": 64,
+            "k": 1013,
+            "l": 4,
+            "m": 832,
+            "n": 147,
+            "o": 4621,
+            "p": 193,
+            "q": 2,
+            "r": 2,
+            "s": 544,
+            "t": 2,
+            "u": 14,
+            "v": 3,
+            "x": 16,
+            "y": 1146,
+            "z": 36
+          },
+          "max_cipher_frequency": {
+            "numerator": 4621,
+            "denominator": 23721,
+            "value": 0.1948062897854222
+          },
+          "maximizers": [
+            "o"
+          ],
+          "a": {
+            "numerator": 3379,
+            "denominator": 27088,
+            "value": 0.12474158298877731
+          },
+          "b": {
+            "numerator": 6315,
+            "denominator": 275084,
+            "value": 0.02295662415843888
+          },
+          "lower": {
+            "numerator": 125173648,
+            "denominator": 80153259,
+            "value": 1.5616788332960985
+          },
+          "upper": {
+            "numerator": 27757,
+            "denominator": 23721,
+            "value": 1.1701445976139286
+          },
+          "rejects": true,
+          "iterations": [
+            {
+              "upper_before": {
+                "numerator": 2,
+                "denominator": 1,
+                "value": 2.0
+              },
+              "forced_monographs": [
+                "1",
+                "8",
+                "9",
+                "a",
+                "c",
+                "e",
+                "h",
+                "o",
+                "y"
+              ],
+              "forced_mass": {
+                "numerator": 17840,
+                "denominator": 23721,
+                "value": 0.7520762193836685
+              },
+              "upper_after": {
+                "numerator": 29602,
+                "denominator": 23721,
+                "value": 1.2479237806163315
+              }
+            },
+            {
+              "upper_before": {
+                "numerator": 29602,
+                "denominator": 23721,
+                "value": 1.2479237806163315
+              },
+              "forced_monographs": [
+                "1",
+                "8",
+                "9",
+                "a",
+                "c",
+                "e",
+                "h",
+                "k",
+                "m",
+                "o",
+                "y"
+              ],
+              "forced_mass": {
+                "numerator": 19685,
+                "denominator": 23721,
+                "value": 0.8298554023860714
+              },
+              "upper_after": {
+                "numerator": 27757,
+                "denominator": 23721,
+                "value": 1.1701445976139286
+              }
+            },
+            {
+              "upper_before": {
+                "numerator": 27757,
+                "denominator": 23721,
+                "value": 1.1701445976139286
+              },
+              "forced_monographs": [
+                "1",
+                "8",
+                "9",
+                "a",
+                "c",
+                "e",
+                "h",
+                "k",
+                "m",
+                "o",
+                "y"
+              ],
+              "forced_mass": {
+                "numerator": 19685,
+                "denominator": 23721,
+                "value": 0.8298554023860714
+              },
+              "upper_after": {
+                "numerator": 27757,
+                "denominator": 23721,
+                "value": 1.1701445976139286
+              }
+            }
+          ]
+        }
+      }
+    },
+    "development": {
+      "loci": 185,
+      "known_words": 1242,
+      "excluded_unknown_words": 0,
+      "cipher_units": 4653,
+      "under_envelopes": {
+        "blocks": {
+          "cipher_units": 4653,
+          "cipher_types": 69,
+          "cipher_counts": {
+            "!": 4,
+            "#": 3,
+            "$": 4,
+            "%": 4,
+            "(": 8,
+            "*": 6,
+            "+": 11,
+            "1": 464,
+            "2": 106,
+            "3": 19,
+            "4": 129,
+            "5": 7,
+            "7": 27,
+            "8": 358,
+            "9": 491,
+            "@161;": 2,
+            "@171;": 1,
+            "@177;": 2,
+            "@186;": 2,
+            "@196;": 1,
+            "@198;": 1,
+            "@210;": 2,
+            "@217;": 1,
+            "@231;": 1,
+            "@234;": 1,
+            "@239;": 1,
+            "@245;": 2,
+            "@247;": 1,
+            "@248;": 1,
+            "@254;": 1,
+            "A": 13,
+            "C": 34,
+            "D": 2,
+            "E": 3,
+            "F": 2,
+            "G": 5,
+            "H": 43,
+            "I": 5,
+            "J": 4,
+            "K": 86,
+            "L": 1,
+            "M": 3,
+            "N": 7,
+            "T": 2,
+            "U": 3,
+            "W": 1,
+            "X": 1,
+            "Z": 3,
+            "a": 333,
+            "b": 1,
+            "c": 214,
+            "d": 4,
+            "e": 255,
+            "f": 5,
+            "g": 17,
+            "h": 199,
+            "i": 3,
+            "j": 11,
+            "k": 226,
+            "m": 182,
+            "n": 26,
+            "o": 922,
+            "p": 23,
+            "q": 1,
+            "s": 106,
+            "u": 4,
+            "x": 2,
+            "y": 229,
+            "z": 11
+          },
+          "max_cipher_frequency": {
+            "numerator": 922,
+            "denominator": 4653,
+            "value": 0.19815173006662368
+          },
+          "maximizers": [
+            "o"
+          ],
+          "a": {
+            "numerator": 84,
+            "denominator": 625,
+            "value": 0.1344
+          },
+          "b": {
+            "numerator": 151,
+            "denominator": 5001,
+            "value": 0.030193961207758448
+          },
+          "lower": {
+            "numerator": 288125,
+            "denominator": 195426,
+            "value": 1.4743432296623786
+          },
+          "upper": {
+            "numerator": 1811,
+            "denominator": 1551,
+            "value": 1.1676337846550613
+          },
+          "rejects": true,
+          "iterations": [
+            {
+              "upper_before": {
+                "numerator": 2,
+                "denominator": 1,
+                "value": 2.0
+              },
+              "forced_monographs": [
+                "1",
+                "8",
+                "9",
+                "a",
+                "o"
+              ],
+              "forced_mass": {
+                "numerator": 856,
+                "denominator": 1551,
+                "value": 0.5519019987105094
+              },
+              "upper_after": {
+                "numerator": 2246,
+                "denominator": 1551,
+                "value": 1.4480980012894906
+              }
+            },
+            {
+              "upper_before": {
+                "numerator": 2246,
+                "denominator": 1551,
+                "value": 1.4480980012894906
+              },
+              "forced_monographs": [
+                "1",
+                "8",
+                "9",
+                "a",
+                "c",
+                "e",
+                "k",
+                "o",
+                "y"
+              ],
+              "forced_mass": {
+                "numerator": 388,
+                "denominator": 517,
+                "value": 0.7504835589941973
+              },
+              "upper_after": {
+                "numerator": 646,
+                "denominator": 517,
+                "value": 1.2495164410058026
+              }
+            },
+            {
+              "upper_before": {
+                "numerator": 646,
+                "denominator": 517,
+                "value": 1.2495164410058026
+              },
+              "forced_monographs": [
+                "1",
+                "8",
+                "9",
+                "a",
+                "c",
+                "e",
+                "h",
+                "k",
+                "m",
+                "o",
+                "y"
+              ],
+              "forced_mass": {
+                "numerator": 1291,
+                "denominator": 1551,
+                "value": 0.8323662153449387
+              },
+              "upper_after": {
+                "numerator": 1811,
+                "denominator": 1551,
+                "value": 1.1676337846550613
+              }
+            },
+            {
+              "upper_before": {
+                "numerator": 1811,
+                "denominator": 1551,
+                "value": 1.1676337846550613
+              },
+              "forced_monographs": [
+                "1",
+                "8",
+                "9",
+                "a",
+                "c",
+                "e",
+                "h",
+                "k",
+                "m",
+                "o",
+                "y"
+              ],
+              "forced_mass": {
+                "numerator": 1291,
+                "denominator": 1551,
+                "value": 0.8323662153449387
+              },
+              "upper_after": {
+                "numerator": 1811,
+                "denominator": 1551,
+                "value": 1.1676337846550613
+              }
+            }
+          ]
+        },
+        "full": {
+          "cipher_units": 4653,
+          "cipher_types": 69,
+          "cipher_counts": {
+            "!": 4,
+            "#": 3,
+            "$": 4,
+            "%": 4,
+            "(": 8,
+            "*": 6,
+            "+": 11,
+            "1": 464,
+            "2": 106,
+            "3": 19,
+            "4": 129,
+            "5": 7,
+            "7": 27,
+            "8": 358,
+            "9": 491,
+            "@161;": 2,
+            "@171;": 1,
+            "@177;": 2,
+            "@186;": 2,
+            "@196;": 1,
+            "@198;": 1,
+            "@210;": 2,
+            "@217;": 1,
+            "@231;": 1,
+            "@234;": 1,
+            "@239;": 1,
+            "@245;": 2,
+            "@247;": 1,
+            "@248;": 1,
+            "@254;": 1,
+            "A": 13,
+            "C": 34,
+            "D": 2,
+            "E": 3,
+            "F": 2,
+            "G": 5,
+            "H": 43,
+            "I": 5,
+            "J": 4,
+            "K": 86,
+            "L": 1,
+            "M": 3,
+            "N": 7,
+            "T": 2,
+            "U": 3,
+            "W": 1,
+            "X": 1,
+            "Z": 3,
+            "a": 333,
+            "b": 1,
+            "c": 214,
+            "d": 4,
+            "e": 255,
+            "f": 5,
+            "g": 17,
+            "h": 199,
+            "i": 3,
+            "j": 11,
+            "k": 226,
+            "m": 182,
+            "n": 26,
+            "o": 922,
+            "p": 23,
+            "q": 1,
+            "s": 106,
+            "u": 4,
+            "x": 2,
+            "y": 229,
+            "z": 11
+          },
+          "max_cipher_frequency": {
+            "numerator": 922,
+            "denominator": 4653,
+            "value": 0.19815173006662368
+          },
+          "maximizers": [
+            "o"
+          ],
+          "a": {
+            "numerator": 3379,
+            "denominator": 27088,
+            "value": 0.12474158298877731
+          },
+          "b": {
+            "numerator": 6315,
+            "denominator": 275084,
+            "value": 0.02295662415843888
+          },
+          "lower": {
+            "numerator": 24975136,
+            "denominator": 15722487,
+            "value": 1.5884977993621492
+          },
+          "upper": {
+            "numerator": 1768,
+            "denominator": 1551,
+            "value": 1.1399097356544166
+          },
+          "rejects": true,
+          "iterations": [
+            {
+              "upper_before": {
+                "numerator": 2,
+                "denominator": 1,
+                "value": 2.0
+              },
+              "forced_monographs": [
+                "1",
+                "8",
+                "9",
+                "a",
+                "c",
+                "e",
+                "k",
+                "o",
+                "y"
+              ],
+              "forced_mass": {
+                "numerator": 388,
+                "denominator": 517,
+                "value": 0.7504835589941973
+              },
+              "upper_after": {
+                "numerator": 646,
+                "denominator": 517,
+                "value": 1.2495164410058026
+              }
+            },
+            {
+              "upper_before": {
+                "numerator": 646,
+                "denominator": 517,
+                "value": 1.2495164410058026
+              },
+              "forced_monographs": [
+                "1",
+                "8",
+                "9",
+                "a",
+                "c",
+                "e",
+                "h",
+                "k",
+                "m",
+                "o",
+                "y"
+              ],
+              "forced_mass": {
+                "numerator": 1291,
+                "denominator": 1551,
+                "value": 0.8323662153449387
+              },
+              "upper_after": {
+                "numerator": 1811,
+                "denominator": 1551,
+                "value": 1.1676337846550613
+              }
+            },
+            {
+              "upper_before": {
+                "numerator": 1811,
+                "denominator": 1551,
+                "value": 1.1676337846550613
+              },
+              "forced_monographs": [
+                "1",
+                "4",
+                "8",
+                "9",
+                "a",
+                "c",
+                "e",
+                "h",
+                "k",
+                "m",
+                "o",
+                "y"
+              ],
+              "forced_mass": {
+                "numerator": 1334,
+                "denominator": 1551,
+                "value": 0.8600902643455834
+              },
+              "upper_after": {
+                "numerator": 1768,
+                "denominator": 1551,
+                "value": 1.1399097356544166
+              }
+            },
+            {
+              "upper_before": {
+                "numerator": 1768,
+                "denominator": 1551,
+                "value": 1.1399097356544166
+              },
+              "forced_monographs": [
+                "1",
+                "4",
+                "8",
+                "9",
+                "a",
+                "c",
+                "e",
+                "h",
+                "k",
+                "m",
+                "o",
+                "y"
+              ],
+              "forced_mass": {
+                "numerator": 1334,
+                "denominator": 1551,
+                "value": 0.8600902643455834
+              },
+              "upper_after": {
+                "numerator": 1768,
+                "denominator": 1551,
+                "value": 1.1399097356544166
+              }
+            }
+          ]
+        }
+      }
+    },
+    "reserve": {
+      "loci": 223,
+      "known_words": 2449,
+      "excluded_unknown_words": 31,
+      "cipher_units": 9276,
+      "under_envelopes": {
+        "blocks": {
+          "cipher_units": 9276,
+          "cipher_types": 71,
+          "cipher_counts": {
+            "!": 5,
+            "%": 11,
+            "&": 4,
+            "(": 11,
+            "*": 8,
+            "+": 7,
+            "1": 564,
+            "2": 181,
+            "3": 26,
+            "4": 298,
+            "5": 8,
+            "6": 7,
+            "7": 123,
+            "8": 491,
+            "9": 848,
+            "@149;": 1,
+            "@173;": 2,
+            "@175;": 1,
+            "@186;": 1,
+            "@193;": 1,
+            "@217;": 1,
+            "@228;": 6,
+            "@245;": 1,
+            "@247;": 7,
+            "@253;": 1,
+            "@255;": 2,
+            "A": 66,
+            "C": 185,
+            "D": 1,
+            "E": 4,
+            "F": 3,
+            "G": 5,
+            "H": 100,
+            "I": 8,
+            "J": 13,
+            "K": 60,
+            "M": 11,
+            "N": 2,
+            "P": 2,
+            "Q": 1,
+            "R": 1,
+            "S": 1,
+            "T": 3,
+            "U": 2,
+            "V": 2,
+            "W": 3,
+            "X": 3,
+            "Y": 2,
+            "Z": 7,
+            "a": 599,
+            "c": 965,
+            "d": 24,
+            "e": 749,
+            "f": 13,
+            "g": 25,
+            "h": 579,
+            "i": 20,
+            "j": 24,
+            "k": 154,
+            "l": 7,
+            "m": 261,
+            "n": 49,
+            "o": 1982,
+            "p": 59,
+            "q": 1,
+            "s": 227,
+            "u": 9,
+            "v": 1,
+            "x": 7,
+            "y": 394,
+            "z": 26
+          },
+          "max_cipher_frequency": {
+            "numerator": 991,
+            "denominator": 4638,
+            "value": 0.21366968520914187
+          },
+          "maximizers": [
+            "o"
+          ],
+          "a": {
+            "numerator": 84,
+            "denominator": 625,
+            "value": 0.1344
+          },
+          "b": {
+            "numerator": 151,
+            "denominator": 5001,
+            "value": 0.030193961207758448
+          },
+          "lower": {
+            "numerator": 619375,
+            "denominator": 389592,
+            "value": 1.5898042054251627
+          },
+          "upper": {
+            "numerator": 11381,
+            "denominator": 9276,
+            "value": 1.2269297110823632
+          },
+          "rejects": true,
+          "iterations": [
+            {
+              "upper_before": {
+                "numerator": 2,
+                "denominator": 1,
+                "value": 2.0
+              },
+              "forced_monographs": [
+                "1",
+                "9",
+                "a",
+                "c",
+                "e",
+                "h",
+                "o"
+              ],
+              "forced_mass": {
+                "numerator": 3143,
+                "denominator": 4638,
+                "value": 0.6776627856834843
+              },
+              "upper_after": {
+                "numerator": 6133,
+                "denominator": 4638,
+                "value": 1.3223372143165157
+              }
+            },
+            {
+              "upper_before": {
+                "numerator": 6133,
+                "denominator": 4638,
+                "value": 1.3223372143165157
+              },
+              "forced_monographs": [
+                "1",
+                "8",
+                "9",
+                "a",
+                "c",
+                "e",
+                "h",
+                "o",
+                "y"
+              ],
+              "forced_mass": {
+                "numerator": 7171,
+                "denominator": 9276,
+                "value": 0.773070288917637
+              },
+              "upper_after": {
+                "numerator": 11381,
+                "denominator": 9276,
+                "value": 1.2269297110823632
+              }
+            },
+            {
+              "upper_before": {
+                "numerator": 11381,
+                "denominator": 9276,
+                "value": 1.2269297110823632
+              },
+              "forced_monographs": [
+                "1",
+                "8",
+                "9",
+                "a",
+                "c",
+                "e",
+                "h",
+                "o",
+                "y"
+              ],
+              "forced_mass": {
+                "numerator": 7171,
+                "denominator": 9276,
+                "value": 0.773070288917637
+              },
+              "upper_after": {
+                "numerator": 11381,
+                "denominator": 9276,
+                "value": 1.2269297110823632
+              }
+            }
+          ]
+        },
+        "full": {
+          "cipher_units": 9276,
+          "cipher_types": 71,
+          "cipher_counts": {
+            "!": 5,
+            "%": 11,
+            "&": 4,
+            "(": 11,
+            "*": 8,
+            "+": 7,
+            "1": 564,
+            "2": 181,
+            "3": 26,
+            "4": 298,
+            "5": 8,
+            "6": 7,
+            "7": 123,
+            "8": 491,
+            "9": 848,
+            "@149;": 1,
+            "@173;": 2,
+            "@175;": 1,
+            "@186;": 1,
+            "@193;": 1,
+            "@217;": 1,
+            "@228;": 6,
+            "@245;": 1,
+            "@247;": 7,
+            "@253;": 1,
+            "@255;": 2,
+            "A": 66,
+            "C": 185,
+            "D": 1,
+            "E": 4,
+            "F": 3,
+            "G": 5,
+            "H": 100,
+            "I": 8,
+            "J": 13,
+            "K": 60,
+            "M": 11,
+            "N": 2,
+            "P": 2,
+            "Q": 1,
+            "R": 1,
+            "S": 1,
+            "T": 3,
+            "U": 2,
+            "V": 2,
+            "W": 3,
+            "X": 3,
+            "Y": 2,
+            "Z": 7,
+            "a": 599,
+            "c": 965,
+            "d": 24,
+            "e": 749,
+            "f": 13,
+            "g": 25,
+            "h": 579,
+            "i": 20,
+            "j": 24,
+            "k": 154,
+            "l": 7,
+            "m": 261,
+            "n": 49,
+            "o": 1982,
+            "p": 59,
+            "q": 1,
+            "s": 227,
+            "u": 9,
+            "v": 1,
+            "x": 7,
+            "y": 394,
+            "z": 26
+          },
+          "max_cipher_frequency": {
+            "numerator": 991,
+            "denominator": 4638,
+            "value": 0.21366968520914187
+          },
+          "maximizers": [
+            "o"
+          ],
+          "a": {
+            "numerator": 3379,
+            "denominator": 27088,
+            "value": 0.12474158298877731
+          },
+          "b": {
+            "numerator": 6315,
+            "denominator": 275084,
+            "value": 0.02295662415843888
+          },
+          "lower": {
+            "numerator": 13422104,
+            "denominator": 7835901,
+            "value": 1.7128986188059292
+          },
+          "upper": {
+            "numerator": 7,
+            "denominator": 6,
+            "value": 1.1666666666666667
+          },
+          "rejects": true,
+          "iterations": [
+            {
+              "upper_before": {
+                "numerator": 2,
+                "denominator": 1,
+                "value": 2.0
+              },
+              "forced_monographs": [
+                "1",
+                "8",
+                "9",
+                "a",
+                "c",
+                "e",
+                "h",
+                "o"
+              ],
+              "forced_mass": {
+                "numerator": 2259,
+                "denominator": 3092,
+                "value": 0.7305950840879689
+              },
+              "upper_after": {
+                "numerator": 3925,
+                "denominator": 3092,
+                "value": 1.269404915912031
+              }
+            },
+            {
+              "upper_before": {
+                "numerator": 3925,
+                "denominator": 3092,
+                "value": 1.269404915912031
+              },
+              "forced_monographs": [
+                "1",
+                "4",
+                "8",
+                "9",
+                "a",
+                "c",
+                "e",
+                "h",
+                "o",
+                "y"
+              ],
+              "forced_mass": {
+                "numerator": 7469,
+                "denominator": 9276,
+                "value": 0.8051962052608883
+              },
+              "upper_after": {
+                "numerator": 11083,
+                "denominator": 9276,
+                "value": 1.1948037947391117
+              }
+            },
+            {
+              "upper_before": {
+                "numerator": 11083,
+                "denominator": 9276,
+                "value": 1.1948037947391117
+              },
+              "forced_monographs": [
+                "1",
+                "4",
+                "8",
+                "9",
+                "a",
+                "c",
+                "e",
+                "h",
+                "m",
+                "o",
+                "y"
+              ],
+              "forced_mass": {
+                "numerator": 5,
+                "denominator": 6,
+                "value": 0.8333333333333334
+              },
+              "upper_after": {
+                "numerator": 7,
+                "denominator": 6,
+                "value": 1.1666666666666667
+              }
+            },
+            {
+              "upper_before": {
+                "numerator": 7,
+                "denominator": 6,
+                "value": 1.1666666666666667
+              },
+              "forced_monographs": [
+                "1",
+                "4",
+                "8",
+                "9",
+                "a",
+                "c",
+                "e",
+                "h",
+                "m",
+                "o",
+                "y"
+              ],
+              "forced_mass": {
+                "numerator": 5,
+                "denominator": 6,
+                "value": 0.8333333333333334
+              },
+              "upper_after": {
+                "numerator": 7,
+                "denominator": 6,
+                "value": 1.1666666666666667
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "scope": "All used79H/16H/16P are development; no015key used, no new reserve consumed.",
+  "interpretation": "Only compatibility with the stated reference envelopes. Neither rejection nor admission identifies language or supplies a reading."
+}

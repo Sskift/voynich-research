@@ -1,0 +1,300 @@
+locus	group	slot	stage	clock	zl_text	it_text	primary	exclusions
+f70v2.2	f70v2:outer	0	discovery	09:00	otalalg	otalalg	True	
+f70v2.3	f70v2:outer	1	discovery	10:00	ykary	okasy	False	disagreeing_reading_or_segmentation
+f70v2.4	f70v2:outer	2	discovery	10:30		otar	False	uncertain_ZL,disagreeing_reading_or_segmentation
+f70v2.5	f70v2:outer	3	discovery	11:00	oty	oty	True	
+f70v2.6	f70v2:outer	4	discovery	11:30	oky.ody	oky.ody	True	
+f70v2.7	f70v2:outer	5	discovery	00:00	oty.ar	oty.or	False	disagreeing_reading_or_segmentation
+f70v2.8	f70v2:outer	6	discovery	00:30	okala	okaly	False	disagreeing_reading_or_segmentation
+f70v2.9	f70v2:outer	7	discovery	01:00	otody	otody	True	
+f70v2.10	f70v2:outer	8	discovery	01:30	otald	otald	True	
+f70v2.11	f70v2:outer	9	discovery	02:00	otaldar	otal.dar	False	disagreeing_reading_or_segmentation
+f70v2.12	f70v2:outer	10	discovery	02:45	okody	okody	True	
+f70v2.13	f70v2:outer	11	discovery	03:15	opysam	opys.am	False	disagreeing_reading_or_segmentation
+f70v2.14	f70v2:outer	12	discovery	04:00	chckhhy	chckhhy	True	
+f70v2.15	f70v2:outer	13	discovery	04:30	otaly	otaly	True	
+f70v2.16	f70v2:outer	14	discovery	05:30	otal.arar	otal.rar	False	disagreeing_reading_or_segmentation
+f70v2.17	f70v2:outer	15	discovery	06:30	otaldy	otal.dy	False	disagreeing_reading_or_segmentation
+f70v2.18	f70v2:outer	16	discovery	07:00	okeoly	okeoly	True	
+f70v2.19	f70v2:outer	17	discovery	08:00	okydy	okydy	True	
+f70v2.20	f70v2:outer	18	discovery	08:30		okees	False	uncertain_ZL,disagreeing_reading_or_segmentation
+f70v2.22	f70v2:inner	0	discovery	10:00	otar.am	sar.am	False	disagreeing_reading_or_segmentation
+f70v2.23	f70v2:inner	1	discovery	11:00	otar.al	otaral	False	disagreeing_reading_or_segmentation
+f70v2.24	f70v2:inner	2	discovery	00:00	otalar	otalar	True	
+f70v2.25	f70v2:inner	3	discovery	01:30	otalam	otalam	True	
+f70v2.26	f70v2:inner	4	discovery	03:00	dolaram	dolaram	True	
+f70v2.27	f70v2:inner	5	discovery	04:00	okaram	okaram	True	
+f70v2.28	f70v2:inner	6	discovery	05:00	oteosal	oteosal	True	
+f70v2.29	f70v2:inner	7	discovery	06:30	salols	salols	True	
+f70v2.30	f70v2:inner	8	discovery	08:00	okaldal	okaldal	True	
+f70v2.31	f70v2:inner	9	discovery	09:00	ykolaiin	ykolaiin	True	
+f70v2.33	f70v2:centre	0	discovery		otolal	otylal	False	disagreeing_reading_or_segmentation
+f70v1.2	f70v1:outer	0	discovery	10:30	otalchy.tar.am.dy	otalchy.tar.am.dy	True	
+f70v1.3	f70v1:outer	1	discovery	00:00	opchey.sal	opchey.sal	True	
+f70v1.4	f70v1:outer	2	discovery	01:00	otakaizan	otokaiman	False	disagreeing_reading_or_segmentation
+f70v1.5	f70v1:outer	3	discovery	02:30	okalal	okalal	True	
+f70v1.6	f70v1:outer	4	discovery	03:30	otaly	otyly	False	disagreeing_reading_or_segmentation
+f70v1.7	f70v1:outer	5	discovery	04:30	oalcheg	oalcheg	True	
+f70v1.8	f70v1:outer	6	discovery	06:00	otchodals	otchodals	True	
+f70v1.9	f70v1:outer	7	discovery	07:00	okolshy	okolshy	True	
+f70v1.10	f70v1:outer	8	discovery	08:00	otshshdy	otshshdy	True	
+f70v1.11	f70v1:outer	9	discovery	09:00	otal.ypsharal	otol.ypsharal	False	disagreeing_reading_or_segmentation
+f70v1.13	f70v1:inner	0	discovery	10:30	okoly	okoly	True	
+f70v1.14	f70v1:inner	1	discovery	00:00	otalaiin	otolaiin	False	disagreeing_reading_or_segmentation
+f70v1.15	f70v1:inner	2	discovery	02:00	oteo.alals.araly	oteo.alols.asaly	False	disagreeing_reading_or_segmentation
+f70v1.16	f70v1:inner	3	discovery	05:00	oteoeey.otal.okealar	oteoeey.otal.okeal.ar	False	disagreeing_reading_or_segmentation
+f70v1.17	f70v1:inner	4	discovery	08:00	otear.araydy	oteas.araydy	False	disagreeing_reading_or_segmentation
+f71r.2	f71r:outer	0	discovery	10:00	oteos.arar	oteos.arar	True	
+f71r.3	f71r:outer	1	discovery	11:00	okldam	okldam	True	
+f71r.4	f71r:outer	2	discovery	00:00	oteoaldy	oteoaldy	True	
+f71r.5	f71r:outer	3	discovery	01:00	oteolar	oteolar	True	
+f71r.6	f71r:outer	4	discovery	02:00	okeoaly	okeoaly	True	
+f71r.7	f71r:outer	5	discovery	03:00	otaleky	otaleky	True	
+f71r.8	f71r:outer	6	discovery	04:30	otalsar	otalsar	True	
+f71r.9	f71r:outer	7	discovery	05:30	cheary	chsary	False	disagreeing_reading_or_segmentation
+f71r.10	f71r:outer	8	discovery	07:00	oteotey.rary	oteotey.sary	False	disagreeing_reading_or_segmentation
+f71r.11	f71r:outer	9	discovery	08:30	otalaly	otalaly	True	
+f71r.13	f71r:inner	0	discovery	11:00	otolchdy	otol.chdy	False	disagreeing_reading_or_segmentation
+f71r.14	f71r:inner	1	discovery	00:30	otoloaram	otoloaram	True	
+f71r.15	f71r:inner	2	discovery	03:30	oteeol	oteeol	True	
+f71r.16	f71r:inner	3	discovery	05:30	otolchd	otolchd	True	
+f71r.17	f71r:inner	4	discovery	08:00	otaldar	otal.dar	False	disagreeing_reading_or_segmentation
+f71v.2	f71v:outer	0	discovery	10:00	char.arom	char.orom	False	disagreeing_reading_or_segmentation
+f71v.3	f71v:outer	1	discovery	11:00	chfaly	chfaly	True	
+f71v.4	f71v:outer	2	discovery	00:00	okolar	okolar	True	
+f71v.5	f71v:outer	3	discovery	01:00	otchody	otchody	True	
+f71v.6	f71v:outer	4	discovery	02:00	alcphy	olcphy	False	disagreeing_reading_or_segmentation
+f71v.7	f71v:outer	5	discovery	03:00	otaiin	otaiin	True	
+f71v.8	f71v:outer	6	discovery	04:30	okaraiin	okaraiin	True	
+f71v.9	f71v:outer	7	discovery	05:30	otar.ar.aly	okar.ar.aly	False	disagreeing_reading_or_segmentation
+f71v.10	f71v:outer	8	discovery	07:00	opalar.am.dan	opalar.am.dan	True	
+f71v.11	f71v:outer	9	discovery	09:00	opalor.ar	opalor.ar	True	
+f71v.13	f71v:inner	0	discovery	10:00	ofaifom	ofacfom	False	disagreeing_reading_or_segmentation
+f71v.14	f71v:inner	1	discovery	00:00	otalody	otalody	True	
+f71v.15	f71v:inner	2	discovery	03:00	otalaiin	otalaiin	True	
+f71v.16	f71v:inner	3	discovery	05:30		otar.shor	False	uncertain_ZL,disagreeing_reading_or_segmentation
+f71v.17	f71v:inner	4	discovery	08:30	sholshdy	sholshdy	True	
+f72r1.2	f72r1:outer	0	discovery	09:30		oshodody	False	uncertain_ZL,disagreeing_reading_or_segmentation
+f72r1.3	f72r1:outer	1	discovery	10:30	chdaiirdainy	chdaiirsainy	False	disagreeing_reading_or_segmentation
+f72r1.4	f72r1:outer	2	discovery	00:00	oaiin.ar.ary	oaiin.ar.ary	True	
+f72r1.5	f72r1:outer	3	discovery	01:00	okalam	okalam	True	
+f72r1.6	f72r1:outer	4	discovery	02:00	ytalshdy	ytal.shda	False	disagreeing_reading_or_segmentation
+f72r1.7	f72r1:outer	5	discovery	03:00	char.alif	char.alf	False	disagreeing_reading_or_segmentation
+f72r1.8	f72r1:outer	6	discovery	03:30	otaraldy	otaraldy	True	
+f72r1.9	f72r1:outer	7	discovery	05:00	otaiin.otain	otaiin.otain	True	
+f72r1.10	f72r1:outer	8	discovery	07:00	otalef.ys.ainam	otalef.as.ainam	False	disagreeing_reading_or_segmentation
+f72r1.11	f72r1:outer	9	discovery	08:30	ochol.sharam	ochol.charam	False	disagreeing_reading_or_segmentation
+f72r1.13	f72r1:inner	0	discovery	09:00	ofaralar	ofaralar	True	
+f72r1.14	f72r1:inner	1	discovery	00:00	otchoshy	otchoshy	True	
+f72r1.15	f72r1:inner	2	discovery	02:00	otchdal	otchdal	True	
+f72r1.16	f72r1:inner	3	discovery	04:00	okeey.ary	okeey.ary	True	
+f72r1.17	f72r1:inner	4	discovery	07:00	otainy	otainy	True	
+f72r2.1	f72r2:top	0	discovery	10:30	ofchdamy	ofchdady	False	disagreeing_reading_or_segmentation
+f72r2.2	f72r2:top	1	discovery	11:00	oklairdy	oklairdy	True	
+f72r2.3	f72r2:top	2	discovery	00:00	okaram	okaram	True	
+f72r2.4	f72r2:top	3	discovery	00:30	okairy	okairy	True	
+f72r2.5	f72r2:top	4	discovery	01:00	okealar	okeolar	False	disagreeing_reading_or_segmentation
+f72r2.7	f72r2:outer	0	discovery	10:00	otaraldy	otaraldy	True	
+f72r2.8	f72r2:outer	1	discovery	11:00	okalar	okalar	True	
+f72r2.9	f72r2:outer	2	discovery	11:45	okal	okal	True	
+f72r2.10	f72r2:outer	3	discovery	00:15	okaly	okaly	True	
+f72r2.11	f72r2:outer	4	discovery	01:00	okal	okal	True	
+f72r2.12	f72r2:outer	5	discovery	02:00	okeey.ary	okeey.ary	True	
+f72r2.13	f72r2:outer	6	discovery	03:00	oteeary	oteeary	True	
+f72r2.14	f72r2:outer	7	discovery	04:00	otair.dy	otair.dy	True	
+f72r2.15	f72r2:outer	8	discovery	05:00	okaircham	okaircham	True	
+f72r2.16	f72r2:outer	9	discovery	06:00	okeal	okeal	True	
+f72r2.17	f72r2:outer	10	discovery	06:30	otarcr	otarar	False	disagreeing_reading_or_segmentation
+f72r2.18	f72r2:outer	11	discovery	07:30	okaly	okaly	True	
+f72r2.19	f72r2:outer	12	discovery	08:00	orary	orary	True	
+f72r2.20	f72r2:outer	14	discovery	09:00	okyd	okyd	True	
+f72r2.21	f72r2:outer	15	discovery	09:30	otolam	otolam	True	
+f72r2.23	f72r2:inner	0	discovery	10:30	otal	otal	True	
+f72r2.24	f72r2:inner	1	discovery	11:30	ralal	salal	False	disagreeing_reading_or_segmentation
+f72r2.25	f72r2:inner	2	discovery	00:30	okam	okam	True	
+f72r2.26	f72r2:inner	3	discovery	02:00	otalshy	otalshy	True	
+f72r2.27	f72r2:inner	4	discovery	03:30	okaldy	okaldy	True	
+f72r2.28	f72r2:inner	5	discovery	05:00	chosar	chosar	True	
+f72r2.29	f72r2:inner	6	discovery	06:30	otam	otam	True	
+f72r2.30	f72r2:inner	7	discovery	08:00	ainaly	ainaly	True	
+f72r2.31	f72r2:inner	8	discovery	09:00	okarcham	okar.cham	False	disagreeing_reading_or_segmentation
+f72r3.2	f72r3:outer	0	discovery	10:30	olkalaiin	olkalaiin	True	
+f72r3.3	f72r3:outer	1	discovery	11:00	olalsy	olalsy	True	
+f72r3.4	f72r3:outer	2	discovery	00:00	oraiinam	or.aiin.am	False	disagreeing_reading_or_segmentation
+f72r3.5	f72r3:outer	3	discovery	01:00	osarsheeeo	os.as.sheeen	False	disagreeing_reading_or_segmentation
+f72r3.6	f72r3:outer	4	discovery	02:00		otosaiin	False	uncertain_ZL,disagreeing_reading_or_segmentation
+f72r3.7	f72r3:outer	5	discovery	02:30		opoiisooin.al.aes	False	uncertain_ZL,disagreeing_reading_or_segmentation
+f72r3.8	f72r3:outer	6	discovery	04:00	ypaiin.alaly	ypaiin.aloly	False	disagreeing_reading_or_segmentation
+f72r3.9	f72r3:outer	7	discovery	05:00	oteey.daiin	oteey.daiin	True	
+f72r3.10	f72r3:outer	8	discovery	06:30	oeeodaiin	oeeeodaiin	False	disagreeing_reading_or_segmentation
+f72r3.11	f72r3:outer	9	discovery	07:00	ofsholdy	ofsholdy	True	
+f72r3.12	f72r3:outer	10	discovery	07:00	opoeey.okaiin	opoeey.okaiin	True	
+f72r3.13	f72r3:outer	11	discovery	10:00	ykolairol	ykolairol	True	
+f72r3.15	f72r3:middle	0	discovery	11:00	oralkam	or.alkam	False	disagreeing_reading_or_segmentation
+f72r3.16	f72r3:middle	1	discovery	00:00	ytairal	ytairal	True	
+f72r3.17	f72r3:middle	2	discovery	01:00		oeees.aiin	False	uncertain_ZL,disagreeing_reading_or_segmentation
+f72r3.18	f72r3:middle	3	discovery	01:30	ory	ory	True	
+f72r3.19	f72r3:middle	4	discovery	02:30	ochey.fydy	ochey.fydy	True	
+f72r3.20	f72r3:middle	5	discovery	03:30		ofais.o.seesaly	False	uncertain_ZL,disagreeing_reading_or_segmentation
+f72r3.21	f72r3:middle	6	discovery	05:00	ykaraiin.airal	ykairaiin.oiral	False	disagreeing_reading_or_segmentation
+f72r3.22	f72r3:middle	7	discovery	06:30	okalar	okalar	True	
+f72r3.23	f72r3:middle	8	discovery	08:00	orara	orara	True	
+f72r3.24	f72r3:middle	9	discovery	09:00	olaiin.olaikhy	oeaiin.olaikhy	False	disagreeing_reading_or_segmentation
+f72r3.25	f72r3:middle	10	discovery	10:00	olfsheoral	olfsheoral	True	
+f72r3.27	f72r3:inner	0	discovery	10:30	opalal	opalal	True	
+f72r3.28	f72r3:inner	1	discovery	00:00	yfary	yfary	True	
+f72r3.29	f72r3:inner	2	discovery	01:30	oraiiral	osaiisal	False	disagreeing_reading_or_segmentation
+f72r3.30	f72r3:inner	3	discovery	03:00	ytoar.shar	ytoar.shor	False	disagreeing_reading_or_segmentation
+f72r3.31	f72r3:inner	4	discovery	06:00	octho	octho	True	
+f72r3.32	f72r3:inner	5	discovery	07:30	aral	oral	False	disagreeing_reading_or_segmentation
+f72r3.33	f72r3:inner	6	discovery	09:00	oletal	oletal	True	
+f72v3.2	f72v3:outer	0	discovery	10:00	ocham	ogeom	False	disagreeing_reading_or_segmentation
+f72v3.3	f72v3:outer	1	discovery	11:00	orchey	oreeey	False	disagreeing_reading_or_segmentation
+f72v3.4	f72v3:outer	2	discovery	11:30	okam	okam	True	
+f72v3.5	f72v3:outer	3	discovery	00:00	okey	okey	True	
+f72v3.6	f72v3:outer	4	discovery	00:30	otcheody	oteeeody	False	disagreeing_reading_or_segmentation
+f72v3.7	f72v3:outer	5	discovery	01:00	okyeeshy	okyeeshy	True	
+f72v3.8	f72v3:outer	6	discovery	01:30			False	uncertain_ZL,uncertain_IT
+f72v3.9	f72v3:outer	7	discovery	02:00	okaly	okoly	False	disagreeing_reading_or_segmentation
+f72v3.10	f72v3:outer	8	discovery	02:45		otoly	False	uncertain_ZL,disagreeing_reading_or_segmentation
+f72v3.11	f72v3:outer	9	discovery	03:30	ofalals	ofalals	True	
+f72v3.12	f72v3:outer	10	discovery	04:00	sheeos.ocfhhy	reeeos.ocfhey	False	disagreeing_reading_or_segmentation
+f72v3.13	f72v3:outer	11	discovery	05:00	daiin.chepy	daiin.chcpy	False	disagreeing_reading_or_segmentation
+f72v3.14	f72v3:outer	12	discovery	06:00	oteey.deeal	oteey.dchyr	False	disagreeing_reading_or_segmentation
+f72v3.15	f72v3:outer	13	discovery	07:00	chealpy	cheolpy	False	disagreeing_reading_or_segmentation
+f72v3.16	f72v3:outer	14	discovery	07:30	okeeol	okeeol	True	
+f72v3.17	f72v3:outer	15	discovery	08:30	okaly	okaly	True	
+f72v3.18	f72v3:outer	16	discovery	09:00	okaldy	okaldy	True	
+f72v3.19	f72v3:outer	17	discovery	09:30	okeolyd		False	uncertain_IT,disagreeing_reading_or_segmentation
+f72v3.21	f72v3:inner	0	discovery	10:30	choleey	sholeey	False	disagreeing_reading_or_segmentation
+f72v3.22	f72v3:inner	1	discovery	11:30	oky	oky	True	
+f72v3.23	f72v3:inner	2	discovery	00:30	chcthhy	chcthhy	True	
+f72v3.24	f72v3:inner	3	discovery	01:00	laly	loly	False	disagreeing_reading_or_segmentation
+f72v3.25	f72v3:inner	4	discovery	02:00	oeedy	oeemy	False	disagreeing_reading_or_segmentation
+f72v3.26	f72v3:inner	5	discovery	03:00	odairan	odair.an	False	disagreeing_reading_or_segmentation
+f72v3.27	f72v3:inner	6	discovery	04:00	okary	okary	True	
+f72v3.28	f72v3:inner	7	discovery	05:00	oeesaiin	oecs.aiin	False	disagreeing_reading_or_segmentation
+f72v3.29	f72v3:inner	8	discovery	06:30	oteesed	oteesod	False	disagreeing_reading_or_segmentation
+f72v3.30	f72v3:inner	9	discovery	07:30	opal	epal	False	disagreeing_reading_or_segmentation
+f72v3.31	f72v3:inner	10	discovery	08:30	otaly	otaly	True	
+f72v3.32	f72v3:inner	11	discovery	09:30	otaly.yty	otoly.yty	False	disagreeing_reading_or_segmentation
+f72v2.2	f72v2:outer	0	discovery	10:00	oeedey	oeedey	True	
+f72v2.3	f72v2:outer	1	discovery	11:00	oeeodaiin	oeeo.daiin	False	disagreeing_reading_or_segmentation
+f72v2.4	f72v2:outer	2	discovery	11:45	okeoram	okeoram	True	
+f72v2.5	f72v2:outer	3	discovery	00:30	air.aim	airolm	False	disagreeing_reading_or_segmentation
+f72v2.6	f72v2:outer	4	discovery	01:00	oshesy	oshesy	True	
+f72v2.7	f72v2:outer	5	discovery	02:00		okeory	False	uncertain_ZL,disagreeing_reading_or_segmentation
+f72v2.8	f72v2:outer	6	discovery	02:30	cheoetey	cheoekcy	False	disagreeing_reading_or_segmentation
+f72v2.9	f72v2:outer	7	discovery	03:00		eeoeety	False	uncertain_ZL,disagreeing_reading_or_segmentation
+f72v2.10	f72v2:outer	8	discovery	04:00	sheoeky	sheoeky	True	
+f72v2.11	f72v2:outer	9	discovery	04:30	oteodar	oteodar	True	
+f72v2.12	f72v2:outer	10	discovery	05:30	ofchdysd	ofchdysd	True	
+f72v2.13	f72v2:outer	11	discovery	06:00	oteoyd	oeeod	False	disagreeing_reading_or_segmentation
+f72v2.14	f72v2:outer	12	discovery	06:30	yteody	yteody	True	
+f72v2.15	f72v2:outer	13	discovery	07:00	okeody	okeody	True	
+f72v2.16	f72v2:outer	14	discovery	08:00	okeoldy	okeoldy	True	
+f72v2.17	f72v2:outer	15	discovery	08:30	ykeeor	ykeeol	False	disagreeing_reading_or_segmentation
+f72v2.18	f72v2:outer	16	discovery	09:00		opaiinar	False	uncertain_ZL,disagreeing_reading_or_segmentation
+f72v2.19	f72v2:outer	17	discovery	09:30	cheoldy	eeeoloy	False	disagreeing_reading_or_segmentation
+f72v2.21	f72v2:inner	0	discovery	10:30		okaiin	False	uncertain_ZL,disagreeing_reading_or_segmentation
+f72v2.22	f72v2:inner	1	discovery	11:30	ockhol	oekeol	False	disagreeing_reading_or_segmentation
+f72v2.23	f72v2:inner	2	discovery	00:30	oeedy	oeedy	True	
+f72v2.24	f72v2:inner	3	discovery	01:00	opalg	opalg	True	
+f72v2.25	f72v2:inner	4	discovery	02:00	okeeom	okeeom	True	
+f72v2.26	f72v2:inner	5	discovery	03:00	olkar	olkar	True	
+f72v2.27	f72v2:inner	6	discovery	04:00	oeedaly	oeedaly	True	
+f72v2.28	f72v2:inner	7	discovery	05:00	cheosy		False	uncertain_IT,disagreeing_reading_or_segmentation
+f72v2.29	f72v2:inner	8	discovery	06:30	ofcheay	ofcheay	True	
+f72v2.30	f72v2:inner	9	discovery	07:30	yteedy	yteedy	True	
+f72v2.31	f72v2:inner	10	discovery	08:30		oraiin	False	uncertain_ZL,disagreeing_reading_or_segmentation
+f72v2.32	f72v2:inner	11	discovery	09:30	okeorar	okeo.rar	False	disagreeing_reading_or_segmentation
+f72v1.2	f72v1:outer	0	discovery	08:45	oeeoty	oeeoty	True	
+f72v1.3	f72v1:outer	1	discovery	09:30	octhy	octhy	True	
+f72v1.4	f72v1:outer	2	discovery	10:00	oteoly	oteoly	True	
+f72v1.5	f72v1:outer	3	discovery	10:30	okeoly	okeoly	True	
+f72v1.6	f72v1:outer	4	discovery	11:00	oeees	oeees	True	
+f72v1.7	f72v1:outer	5	discovery	11:30		ocfshy	False	uncertain_ZL,disagreeing_reading_or_segmentation
+f72v1.8	f72v1:outer	6	discovery	01:45	oees	oees	True	
+f72v1.9	f72v1:outer	7	discovery	01:00	okeeoly	okeeoly	True	
+f72v1.10	f72v1:outer	8	discovery	01:30	odal	odal	True	
+f72v1.11	f72v1:outer	9	discovery	02:00	aiinod	aiinod	True	
+f72v1.12	f72v1:outer	10	discovery	02:45		odody	False	uncertain_ZL,disagreeing_reading_or_segmentation
+f72v1.13	f72v1:outer	11	discovery	03:15	oteod	oteod	True	
+f72v1.14	f72v1:outer	12	discovery	03:45	yteod	yteod	True	
+f72v1.15	f72v1:outer	13	discovery	04:30		okchedy	False	uncertain_ZL,disagreeing_reading_or_segmentation
+f72v1.16	f72v1:outer	14	discovery	05:00	okal	okyl	False	disagreeing_reading_or_segmentation
+f72v1.17	f72v1:outer	15	discovery	05:30	ytaly	ytaly	True	
+f72v1.18	f72v1:outer	16	discovery	06:00	oeeeos	ocheos	False	disagreeing_reading_or_segmentation
+f72v1.19	f72v1:outer	17	discovery	06:30	oteofy	oteofy	True	
+f72v1.20	f72v1:outer	18	discovery	07:30	cheoepy	cheoepy	True	
+f72v1.21	f72v1:outer	19	discovery	08:00	ykeedy	ykeedy	True	
+f72v1.23	f72v1:inner	0	discovery	08:45	oeeoly	oeeoly	True	
+f72v1.24	f72v1:inner	1	discovery	10:00	okydy	okady	False	disagreeing_reading_or_segmentation
+f72v1.25	f72v1:inner	2	discovery	11:30	okeey	okeey	True	
+f72v1.26	f72v1:inner	3	discovery	00:00	oiiny	oiiny	True	
+f72v1.27	f72v1:inner	4	discovery	01:00	oeey	oeey	True	
+f72v1.28	f72v1:inner	5	discovery	03:00	okedy	okedy	True	
+f72v1.29	f72v1:inner	6	discovery	04:30	ypaim	ypain	False	disagreeing_reading_or_segmentation
+f72v1.30	f72v1:inner	7	discovery	05:30	okalair	okalair	True	
+f72v1.31	f72v1:inner	8	discovery	06:30	oeeody	oeeody	True	
+f72v1.32	f72v1:inner	9	discovery	07:30	okeol	okeol	True	
+f73r.1	f73r:top	0	confirmation	11:15	otaly	otoly	False	disagreeing_reading_or_segmentation
+f73r.2	f73r:top	1	confirmation	11:45	chockhy	chockhy	True	
+f73r.3	f73r:top	2	confirmation	00:30	otedy	okedy	False	disagreeing_reading_or_segmentation
+f73r.4	f73r:top	3	confirmation	01:00	yteeody	yteeody	True	
+f73r.6	f73r:outer	0	confirmation	11:00	otaly	otaly	True	
+f73r.7	f73r:outer	1	confirmation	11:30	okeody	okeody	True	
+f73r.8	f73r:outer	2	confirmation	00:00	oteedyl	oteedyl	True	
+f73r.9	f73r:outer	3	confirmation	00:30		okesdy	False	uncertain_ZL,disagreeing_reading_or_segmentation
+f73r.10	f73r:outer	4	confirmation	01:00	okeey	okery	False	disagreeing_reading_or_segmentation
+f73r.11	f73r:outer	5	confirmation	02:00	okeedy	oksedy	False	disagreeing_reading_or_segmentation
+f73r.12	f73r:outer	6	confirmation	02:30	ykeeory	ykeeory	True	
+f73r.13	f73r:outer	7	confirmation	03:30	oteeosy	oteeosy	True	
+f73r.14	f73r:outer	8	confirmation	04:30	shekal	shekal	True	
+f73r.15	f73r:outer	9	confirmation	05:30	oteedyy	oteedyg	False	disagreeing_reading_or_segmentation
+f73r.16	f73r:outer	10	confirmation	06:30		okedal	False	uncertain_ZL,disagreeing_reading_or_segmentation
+f73r.17	f73r:outer	11	confirmation	07:00	chdy	chdy	True	
+f73r.18	f73r:outer	12	confirmation	08:00	dalshey	dalshey	True	
+f73r.19	f73r:outer	13	confirmation	08:45	opaiin	opaiin	True	
+f73r.20	f73r:outer	14	confirmation	09:30	okeos	okeos	True	
+f73r.21	f73r:outer	15	confirmation	10:00	otey	otey	True	
+f73r.23	f73r:inner	0	confirmation	11:30	okary	okary	True	
+f73r.24	f73r:inner	1	confirmation	01:00	okeeody		False	uncertain_IT,disagreeing_reading_or_segmentation
+f73r.25	f73r:inner	2	confirmation	02:00	oyteedy	ootady	False	disagreeing_reading_or_segmentation
+f73r.26	f73r:inner	3	confirmation	03:00	oky	oky	True	
+f73r.27	f73r:inner	4	confirmation	04:30	chefy	chefy	True	
+f73r.28	f73r:inner	5	confirmation	06:00	otal	otal	True	
+f73r.29	f73r:inner	6	confirmation	07:00	chek	shek	False	disagreeing_reading_or_segmentation
+f73r.30	f73r:inner	7	confirmation	08:30	ar	ar	True	
+f73r.31	f73r:inner	8	confirmation	09:30	kar	kar	True	
+f73r.32	f73r:inner	9	confirmation	10:30	okeeos	okeos	False	disagreeing_reading_or_segmentation
+f73v.1	f73v:top	0	confirmation	11:00	okol	okol	True	
+f73v.2	f73v:top	1	confirmation	11:45	oteody	oteody	True	
+f73v.3	f73v:top	2	confirmation	00:30	oteedy	oteody	False	disagreeing_reading_or_segmentation
+f73v.4	f73v:top	3	confirmation	01:00	eeeody	cheody	False	disagreeing_reading_or_segmentation
+f73v.6	f73v:outer	0	confirmation	10:00	okeody	okeody	True	
+f73v.7	f73v:outer	1	confirmation	10:30	sheol	sheol	True	
+f73v.8	f73v:outer	2	confirmation	11:30	odees	odees	True	
+f73v.9	f73v:outer	3	confirmation	00:00		ecsy	False	uncertain_ZL,disagreeing_reading_or_segmentation
+f73v.10	f73v:outer	4	confirmation	01:00	okeor	ykeor	False	disagreeing_reading_or_segmentation
+f73v.11	f73v:outer	5	confirmation	01:30	ofals	opals	False	disagreeing_reading_or_segmentation
+f73v.12	f73v:outer	6	confirmation	02:00	ykeody	ykeody	True	
+f73v.13	f73v:outer	7	confirmation	03:00	oteody	okeody	False	disagreeing_reading_or_segmentation
+f73v.14	f73v:outer	8	confirmation	03:30	ypaiin	ypaiin	True	
+f73v.15	f73v:outer	9	confirmation	04:00	yfaiin.y	yfaiin.y	True	
+f73v.16	f73v:outer	10	confirmation	05:00	ofcheesy	ofcheesy	True	
+f73v.17	f73v:outer	11	confirmation	06:00	oraiiny	oraiiny	True	
+f73v.18	f73v:outer	12	confirmation	07:00	ykeeody	ykeeody	True	
+f73v.19	f73v:outer	13	confirmation	07:30	okeos	okeos	True	
+f73v.20	f73v:outer	14	confirmation	08:30	ykeear	ykeear	True	
+f73v.21	f73v:outer	15	confirmation	09:00	qokeoly	qokeoly	True	
+f73v.23	f73v:inner	0	confirmation	09:30	otedy	otedy	True	
+f73v.24	f73v:inner	1	confirmation	11:00	eeed	ched	False	disagreeing_reading_or_segmentation
+f73v.25	f73v:inner	2	confirmation	01:00	oky	oky	True	
+f73v.26	f73v:inner	3	confirmation	02:00		oiair	False	uncertain_ZL,disagreeing_reading_or_segmentation
+f73v.27	f73v:inner	4	confirmation	02:30	okal	okal	True	
+f73v.28	f73v:inner	5	confirmation	03:30	ykey	ykey	True	
+f73v.29	f73v:inner	6	confirmation	05:00	ykeee	ykeeo	False	disagreeing_reading_or_segmentation
+f73v.30	f73v:inner	7	confirmation	06:00	okeod	okeod	True	
+f73v.31	f73v:inner	8	confirmation	07:30	ykey	ykey	True	
+f73v.32	f73v:inner	9	confirmation	08:30	ypal	ypal	True	

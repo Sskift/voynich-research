@@ -1,0 +1,23 @@
+{
+  "status": "FROZEN_BEFORE_REFERENCE_PAIR_COUNTS",
+  "hashes": {
+    "notes/experiment-016-design.md": "56435da6cca3879068c66679ed2f01c4555b7695354109d74c55e6e34f921478",
+    "notes/experiment-016-rules.md": "4c222799cbd5b43c52b0b12646538e337c0ce0a7be862eda1e1f4347888769cc",
+    "src/variable_frequency.py": "b34435e29d3469a5b36c4318f77ac42739644f9c09a381222f4bcf48976b12b4",
+    "data/language-screen/macer.json": "c8bf2113d1a352d73ca52257a6af8bae7742a01db98a679dfd8adbef4ce5c064",
+    "data/language-screen/aquinas.json": "829f4d5909c170db7c4531b7cb6d43faf6521a2bcc88aa7bb789c7c14ffcdb67",
+    "data/homophonic/manuscript.json": "cd094c7b7a2c67c4fce3a9c7ed0390e2f928e75a8784748d39d78d3b414bfe00",
+    "data/latin/control-cicero.json": "edc005c2cd08044d7555c78605fc09dccf3bd544f2807a7e2f12f74c7447cff4",
+    "data/latin/control-celsus.json": "830229b1ebbba5b4743178d22ea042387c8a834f5a349c03828a41bb98847f63",
+    "data/latin/caesar-gallic-1.txt": "35b258e74dae3f93a15d630cf16f006990b63fbc74e4864aef48eeef56575d9a",
+    "data/latin/caesar-gallic-2.txt": "001dbb8c7956ae6249f76e03e35068ee6c9e24d07d6722ae07a87dce90ae91fb",
+    "data/latin/caesar-gallic-3.txt": "4743dba17c66f8406cd1f36f0bf027dd08924cb1bc468258a31beaf48679b117",
+    "data/latin/caesar-gallic-4.txt": "659d831ac7d6dddad32d1ff22b0b0ad681ed4319cb72195b484d76c197046750",
+    "data/latin/caesar-gallic-5.txt": "cf00920e1e51c10c8c08039400d9286f440996958bf7720d2a325acabf224f6c",
+    "data/latin/caesar-gallic-6.txt": "bb9f05d743ec451a5c94a472ac843b87d98877bef62632e1155a87ea03aa7318",
+    "data/latin/caesar-gallic-7.txt": "141880c012f10c49469e612350024e2c5f93b6b077b81ed104b5aecf35be210f",
+    "data/variable-units-v1/letter23.json": "c3b36ebbf28067b2e816357d75e54289e40b8d4e3b6c8407166349b8209abdf6",
+    "data/variable-units-v1/pair127.json": "d5a2a9656f3f5dde1b411f285a19780d9e3318f343a5b65b41bcb2072de61d68",
+    "data/variable-units-v1/homophone127.json": "249f477242c2e70c04345ba60a312936decdfda047d25af068622801f0e3716d"
+  }
+}

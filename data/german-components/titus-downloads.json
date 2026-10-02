@@ -1,0 +1,18 @@
+[
+  {
+    "path": "data/raw/titus-a.html",
+    "url": "https://titus.uni-frankfurt.de/unicode/unicsel/lat/0061.htm",
+    "bytes": 28143,
+    "sha256": "9a9bc3eb399ad71f25b8cef66d83dbf66b2a994a5db17334b265d20e5b0458a5"
+  },
+  {
+    "url": "https://titus.uni-frankfurt.de/unicode/unicsel/lat/006F.htm",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://titus.uni-frankfurt.de/unicode/unicsel/lat/006f.htm",
+    "path": "data/raw/titus-o.html",
+    "bytes": 35536,
+    "sha256": "6bb6415c33a53be0d949299b2d16560642c9ed5d39c17fe56021dd7fd0d9f6cf"
+  }
+]

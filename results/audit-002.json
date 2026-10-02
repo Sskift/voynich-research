@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "source_entries_hash_checked": 39,
+  "label_positions": 234,
+  "primary_plant_labels": 131,
+  "image_paths_exist": true,
+  "independent_exact_count_checks": [
+    {
+      "source": "ZL3b-n.txt",
+      "spacing": "split",
+      "observed": 10,
+      "independent_expected": 6.51145038167939,
+      "herbal_hits": 0
+    },
+    {
+      "source": "IT2a-n.txt",
+      "spacing": "split",
+      "observed": 9,
+      "independent_expected": 6.503816793893131,
+      "herbal_hits": 0
+    },
+    {
+      "source": "ZL3b-n.txt",
+      "spacing": "join",
+      "observed": 9,
+      "independent_expected": 5.862595419847322,
+      "herbal_hits": 0
+    }
+  ],
+  "limitation": "Automated checks verify hashes, counts and expectations; image identities require the documented manual review."
+}

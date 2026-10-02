@@ -1,0 +1,90 @@
+[
+  {
+    "file": "data/raw/q15-index.html",
+    "source_url": "https://www.voynich.nu/q15/index.html",
+    "bytes": 35198,
+    "sha256": "25a8bb0083a2c6c09913910c52d03a699091c100294f8fe3c604e3846253f3a7",
+    "file_mtime_utc": "2026-10-02T02:55:11.871956+00:00",
+    "note": "Source URL identifies archived resource; mtime is an approximate acquisition time, not an HTTP timestamp."
+  },
+  {
+    "file": "data/raw/q19-index.html",
+    "source_url": "https://www.voynich.nu/q19/index.html",
+    "bytes": 40151,
+    "sha256": "119fe32a005723833ec07a313fd87e1cd044a1f685ddd4fdd199e573c1dff1fb",
+    "file_mtime_utc": "2026-10-02T02:55:11.891956+00:00",
+    "note": "Source URL identifies archived resource; mtime is an approximate acquisition time, not an HTTP timestamp."
+  },
+  {
+    "file": "data/raw/illustr.html",
+    "source_url": "https://www.voynich.nu/illustr.html",
+    "bytes": 52123,
+    "sha256": "547ed7b0cd3295b3d826145c90084a868f686b52663d0ffb9d3e847df10a78a3",
+    "file_mtime_utc": "2026-10-02T02:54:59.983808+00:00",
+    "note": "Source URL identifies archived resource; mtime is an approximate acquisition time, not an HTTP timestamp."
+  },
+  {
+    "file": "data/raw/stolfi-labels-t.html",
+    "source_url": "https://www.ic.unicamp.br/~stolfi/EXPORT/voynich/98-02-01-lotsa-labels/labels-t.html",
+    "bytes": 136336,
+    "sha256": "a634a927fdc5039c55f0915629fb64bd9ae24e1ccb595366464db300c91521e8",
+    "file_mtime_utc": "2026-10-02T02:55:55.964470+00:00",
+    "note": "Source URL identifies archived resource; mtime is an approximate acquisition time, not an HTTP timestamp."
+  },
+  {
+    "file": "data/raw/jd-voynich.html",
+    "source_url": "https://www.jasondavies.com/voynich/",
+    "bytes": 1735,
+    "sha256": "86fdbb7668148109226796d671e8054f75d238ec662f18bf095d8d4deefb8923",
+    "file_mtime_utc": "2026-10-02T02:55:52.324429+00:00",
+    "note": "Source URL identifies archived resource; mtime is an approximate acquisition time, not an HTTP timestamp."
+  },
+  {
+    "file": "data/raw/jd-voynich.js",
+    "source_url": "https://www.jasondavies.com/voynich/js/voynich.js",
+    "bytes": 3921,
+    "sha256": "c5e461f911176188dfc11b523fa2a56b8f24347eb2fd3793f58f8795612f651b",
+    "file_mtime_utc": "2026-10-02T02:56:14.732674+00:00",
+    "note": "Source URL identifies archived resource; mtime is an approximate acquisition time, not an HTTP timestamp."
+  },
+  {
+    "file": "data/raw/jd-sizes.js",
+    "source_url": "https://www.jasondavies.com/voynich/js/sizes.js",
+    "bytes": 4577,
+    "sha256": "af6a3aad395a5813eacafec03a96be646b4da829c6fdab0a390b91b1223202c2",
+    "file_mtime_utc": "2026-10-02T02:56:14.716674+00:00",
+    "note": "Source URL identifies archived resource; mtime is an approximate acquisition time, not an HTTP timestamp."
+  },
+  {
+    "file": "data/raw/jd-beinecke.js",
+    "source_url": "https://www.jasondavies.com/voynich/js/beinecke.js",
+    "bytes": 5287,
+    "sha256": "8914865ab9b09d8550be79c5a4859e8b712752445fdd880d0fe4c279d11abd34",
+    "file_mtime_utc": "2026-10-02T02:56:14.708674+00:00",
+    "note": "Source URL identifies archived resource; mtime is an approximate acquisition time, not an HTTP timestamp."
+  },
+  {
+    "file": "data/images/f89r1-preview.jpg",
+    "source_url": "https://www.voynich.nu/q15/f089r1_crd.jpg",
+    "bytes": 46679,
+    "sha256": "74ea845dfcd4e429a1dcf8640e6759c399a27ce424ce2bca0c032109bdb4459d",
+    "file_mtime_utc": "2026-10-02T02:56:16.364691+00:00",
+    "note": "Source URL identifies archived resource; mtime is an approximate acquisition time, not an HTTP timestamp."
+  },
+  {
+    "file": "data/images/f101v2-preview.jpg",
+    "source_url": "https://www.voynich.nu/q19/f101v2_crd.jpg",
+    "bytes": 51873,
+    "sha256": "c1a9baef9edc1d84528576326f878fc305e28588c8ef540594c025c8582b97ef",
+    "file_mtime_utc": "2026-10-02T02:56:17.460703+00:00",
+    "note": "Source URL identifies archived resource; mtime is an approximate acquisition time, not an HTTP timestamp."
+  },
+  {
+    "file": "data/images/f101v2-z3-y0-x0.jpg",
+    "source_url": "https://voynich.jasondavies.com/f101v2/3/0/0.jpg",
+    "bytes": 36955,
+    "sha256": "9bc07d1f878783c8e80e17a733bfd02d06d3b489dc0ac1d9fa9910e2ae252e14",
+    "file_mtime_utc": "2026-10-02T02:56:38.868924+00:00",
+    "note": "Source URL identifies archived resource; mtime is an approximate acquisition time, not an HTTP timestamp."
+  }
+]

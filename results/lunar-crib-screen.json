@@ -1,0 +1,4716 @@
+{
+  "input_hashes": {
+    "notes/experiment-008-design.md": "24a2a3273524387b8de0edeab0a723450bc4fcf75a61c61c77946ca19f6b6d1a",
+    "data/lunar-crib-names.json": "be25e2346a9883b0721bda521c2cedd50f848b4a1f77f8f8c3645ed874c59333",
+    "results/lunar-crib-inventory.json": "f9583b4cea23c4eaa13eea8b94add4ed97770d45a351e73177df566aafb1524d",
+    "data/raw/ZL3b-n.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "data/raw/IT2a-n.txt": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5"
+  },
+  "exact_invariants": {
+    "repeated_agreed_labels": {
+      "retained": {
+        "okeod": [
+          "f69v.14",
+          "f69v.18",
+          "f69v.27"
+        ]
+      },
+      "removed": {
+        "okeody": [
+          "f69v.5",
+          "f69v.29"
+        ],
+        "okeod": [
+          "f69v.14",
+          "f69v.18",
+          "f69v.27"
+        ]
+      }
+    },
+    "all_crib_representations_have28_distinct_items": true,
+    "exact_position_independent_full_name_decoder_possible": false,
+    "maximal_distinct_name_matches_by_label_equality": {
+      "retained": 19,
+      "removed": 18
+    },
+    "qualification": "Assumes each full observed label alone deterministically decodes to its full distinct mansion name. Repetition observation preceded the design; this is an exact conditional contradiction, not a p value. Does not reject contextual codes, ambiguous abbreviation, non-name descriptions or all lunar interpretations."
+  },
+  "models": [
+    {
+      "id": "eva_letters:latin_symbols",
+      "unit_mode": "eva_letters",
+      "crib": "latin_symbols",
+      "strict_substitution_phase_diagnostics": [
+        {
+          "direction": 1,
+          "start": 0,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 1,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 2,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 3,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 4,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 5,
+          "length_compatible_labels": 6,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 6,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 7,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 8,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 9,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 10,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 11,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 12,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 13,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 14,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 15,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 16,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 17,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 18,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 19,
+          "length_compatible_labels": 5,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 20,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": 1,
+          "start": 21,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": 1,
+          "start": 22,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 23,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 24,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 25,
+          "length_compatible_labels": 5,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 26,
+          "length_compatible_labels": 5,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 27,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": -1,
+          "start": 0,
+          "length_compatible_labels": 5,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 1,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 2,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 3,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 4,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": -1,
+          "start": 5,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": -1,
+          "start": 6,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 7,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 8,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 9,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 10,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 11,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": -1,
+          "start": 12,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 13,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 14,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 15,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 16,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 17,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 18,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 19,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 20,
+          "length_compatible_labels": 5,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 21,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 22,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 23,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 24,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 25,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 26,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 27,
+          "length_compatible_labels": 7,
+          "within_word_pattern_compatible_labels": 0
+        }
+      ]
+    },
+    {
+      "id": "eva_letters:latin_expanded",
+      "unit_mode": "eva_letters",
+      "crib": "latin_expanded",
+      "strict_substitution_phase_diagnostics": [
+        {
+          "direction": 1,
+          "start": 0,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 1,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 2,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 3,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 4,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 5,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 6,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 7,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 8,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 9,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 10,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 11,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 12,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 13,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 14,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 15,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 16,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 17,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 18,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 19,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 20,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": 1,
+          "start": 21,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": 1,
+          "start": 22,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 23,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 24,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 25,
+          "length_compatible_labels": 5,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 26,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 27,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": -1,
+          "start": 0,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 1,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 2,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 3,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 4,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": -1,
+          "start": 5,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": -1,
+          "start": 6,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 7,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 8,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 9,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 10,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 11,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": -1,
+          "start": 12,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 13,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 14,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 15,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 16,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 17,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 18,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 19,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 20,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 21,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 22,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 23,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 24,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 25,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 26,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 27,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        }
+      ]
+    },
+    {
+      "id": "eva_letters:agrippa_first",
+      "unit_mode": "eva_letters",
+      "crib": "agrippa_first",
+      "strict_substitution_phase_diagnostics": [
+        {
+          "direction": 1,
+          "start": 0,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 1,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 2,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 3,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": 1,
+          "start": 4,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 5,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 6,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 7,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 8,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 9,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 10,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 11,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 12,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 13,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 14,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": 1,
+          "start": 15,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 16,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 17,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 18,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 19,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 20,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": 1,
+          "start": 21,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 22,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": 1,
+          "start": 23,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 24,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 25,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 26,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": 1,
+          "start": 27,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": -1,
+          "start": 0,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": -1,
+          "start": 1,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": -1,
+          "start": 2,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": -1,
+          "start": 3,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 4,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 5,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 6,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 7,
+          "length_compatible_labels": 5,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 8,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 9,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 10,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 11,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 12,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 13,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 14,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 15,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 16,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 17,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 18,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 19,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 20,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": -1,
+          "start": 21,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 22,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 23,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 24,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 25,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": -1,
+          "start": 26,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": -1,
+          "start": 27,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        }
+      ]
+    },
+    {
+      "id": "bench_units:latin_symbols",
+      "unit_mode": "bench_units",
+      "crib": "latin_symbols",
+      "strict_substitution_phase_diagnostics": [
+        {
+          "direction": 1,
+          "start": 0,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 1,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 2,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 3,
+          "length_compatible_labels": 5,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 4,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 5,
+          "length_compatible_labels": 5,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 6,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 7,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 8,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 9,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 10,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 11,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": 1,
+          "start": 12,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 13,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 14,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 15,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 16,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 17,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 18,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 19,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 20,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 21,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 22,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 23,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 24,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 25,
+          "length_compatible_labels": 5,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 26,
+          "length_compatible_labels": 5,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 27,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 0,
+          "length_compatible_labels": 5,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 1,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 2,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 3,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 4,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 5,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 6,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 7,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 8,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 9,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 10,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 11,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 12,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 13,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 14,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 15,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 16,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 17,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 18,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 19,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 20,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 21,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 22,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 23,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": -1,
+          "start": 24,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 25,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 26,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 27,
+          "length_compatible_labels": 7,
+          "within_word_pattern_compatible_labels": 0
+        }
+      ]
+    },
+    {
+      "id": "bench_units:latin_expanded",
+      "unit_mode": "bench_units",
+      "crib": "latin_expanded",
+      "strict_substitution_phase_diagnostics": [
+        {
+          "direction": 1,
+          "start": 0,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 1,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 2,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 3,
+          "length_compatible_labels": 5,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 4,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 5,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 6,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 7,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 8,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 9,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 10,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 11,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 12,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 13,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 14,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 15,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 16,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 17,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 18,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 19,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 20,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 21,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 22,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 23,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 24,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 25,
+          "length_compatible_labels": 5,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 26,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 27,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 0,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 1,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 2,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 3,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 4,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 5,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 6,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 7,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 8,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 9,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 10,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 11,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 12,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 13,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 14,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 15,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 16,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 17,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 18,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 19,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 20,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 21,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 22,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 23,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 24,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 25,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 26,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 27,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        }
+      ]
+    },
+    {
+      "id": "bench_units:agrippa_first",
+      "unit_mode": "bench_units",
+      "crib": "agrippa_first",
+      "strict_substitution_phase_diagnostics": [
+        {
+          "direction": 1,
+          "start": 0,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 1,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 2,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 3,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": 1,
+          "start": 4,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 5,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 6,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 7,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 8,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 9,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 10,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 11,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 12,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 13,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 14,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": 1,
+          "start": 15,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 16,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 17,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 18,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 19,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 20,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": 1,
+          "start": 21,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 22,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": 1,
+          "start": 23,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 24,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 25,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 26,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": 1,
+          "start": 27,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": -1,
+          "start": 0,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": -1,
+          "start": 1,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": -1,
+          "start": 2,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 3,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 4,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 5,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 6,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 7,
+          "length_compatible_labels": 5,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 8,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 9,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 10,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 11,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 12,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 13,
+          "length_compatible_labels": 4,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 14,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 15,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 16,
+          "length_compatible_labels": 0,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 17,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 18,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 19,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 20,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": -1,
+          "start": 21,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 22,
+          "length_compatible_labels": 1,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 23,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 24,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        },
+        {
+          "direction": -1,
+          "start": 25,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": -1,
+          "start": 26,
+          "length_compatible_labels": 2,
+          "within_word_pattern_compatible_labels": 1
+        },
+        {
+          "direction": -1,
+          "start": 27,
+          "length_compatible_labels": 3,
+          "within_word_pattern_compatible_labels": 0
+        }
+      ]
+    }
+  ],
+  "runs": [
+    {
+      "null": "all_slots",
+      "randomizations": 9999,
+      "seed": 20261008,
+      "n_accepted_labels": 21,
+      "n_pairwise_similarities": 210,
+      "independent_sample_size_note": "The210 pair scores share21 labels; inference permutes labels, not pair scores.",
+      "groups_of_exchangeable_loci": [
+        [
+          "f69v.5",
+          "f69v.6",
+          "f69v.7",
+          "f69v.10",
+          "f69v.11",
+          "f69v.12",
+          "f69v.14",
+          "f69v.15",
+          "f69v.16",
+          "f69v.17",
+          "f69v.18",
+          "f69v.19",
+          "f69v.20",
+          "f69v.21",
+          "f69v.22",
+          "f69v.23",
+          "f69v.24",
+          "f69v.27",
+          "f69v.28",
+          "f69v.29",
+          "f69v.31"
+        ]
+      ],
+      "global_six_model_maximum": {
+        "observed": 0.2405868632897273,
+        "null_mean": 0.2981719755283013,
+        "null_sd": 0.051312666647127005,
+        "p_greater": 0.8787,
+        "null_interval_95": [
+          0.21064389748417747,
+          0.40997560177066894
+        ]
+      },
+      "models": [
+        {
+          "id": "eva_letters:latin_symbols",
+          "score": {
+            "observed": 0.19493284303342553,
+            "null_mean": 0.2095289249742189,
+            "null_sd": 0.045937132233892106,
+            "p_greater": 0.5929,
+            "null_interval_95": [
+              0.1307068323807164,
+              0.3115846002822723
+            ]
+          },
+          "best_phase": {
+            "direction": -1,
+            "start": 22
+          },
+          "tied_best_phases": [
+            {
+              "direction": -1,
+              "start": 22
+            }
+          ],
+          "all_observed_phase_correlations": [
+            -0.07709903571049176,
+            -0.09145031861410789,
+            -0.012730016596140717,
+            0.018966734011016343,
+            0.06346478263363287,
+            0.149928875037195,
+            -0.017807296444371894,
+            0.05127553260004673,
+            0.0282844630583964,
+            -0.04367073470032569,
+            0.10764144217590263,
+            -0.08074616297465644,
+            -0.10726738470524816,
+            -0.05501241866013461,
+            0.04741976419293885,
+            0.055864294479664144,
+            -0.009733015391928616,
+            0.07547050244558517,
+            0.07909150153197764,
+            0.05132664049466734,
+            0.08855776745215542,
+            0.1099093147551426,
+            -0.07666820564531648,
+            -0.20932291402331737,
+            -0.12802231297104677,
+            -0.027773267038923383,
+            -0.004346979358099745,
+            -0.08617517448125941,
+            -0.10084293620983409,
+            0.08003565235881395,
+            -0.05120604186707731,
+            -0.029608100091927655,
+            -0.07609365171226706,
+            -0.09548972235142968,
+            -0.07870811903437566,
+            0.05890855362620183,
+            0.09126094596458335,
+            -0.0657599721087417,
+            0.012868825805890445,
+            0.022402380421055183,
+            0.028862917418027507,
+            0.04910769038415664,
+            -0.09880158912240052,
+            0.03591083159654363,
+            -0.07485553028408622,
+            -0.08858017141919182,
+            0.09059354909044638,
+            -0.003939324589112668,
+            -0.041305589866158045,
+            0.04583929647348957,
+            0.19493284303342553,
+            0.047315567988131794,
+            0.09518569043864326,
+            0.08257354223103383,
+            -0.07723502129167786,
+            -0.11329383964043595
+          ],
+          "phase_alignment_note": "A score-maximizing alignment only, not decoded plaintext.",
+          "best_alignment": [
+            {
+              "locus": "f69v.5",
+              "voynich": "okeo.dy",
+              "crib_item": 22,
+              "crib_text": "pastor"
+            },
+            {
+              "locus": "f69v.6",
+              "voynich": "ochoyk",
+              "crib_item": 21,
+              "crib_text": "desertum"
+            },
+            {
+              "locus": "f69v.7",
+              "voynich": "ykeey",
+              "crib_item": 20,
+              "crib_text": "trabs"
+            },
+            {
+              "locus": "f69v.10",
+              "voynich": "ytody",
+              "crib_item": 17,
+              "crib_text": "corona"
+            },
+            {
+              "locus": "f69v.11",
+              "voynich": "okody",
+              "crib_item": 16,
+              "crib_text": "cornua♏"
+            },
+            {
+              "locus": "f69v.12",
+              "voynich": "otody",
+              "crib_item": 15,
+              "crib_text": "cooperta"
+            },
+            {
+              "locus": "f69v.14",
+              "voynich": "okeod",
+              "crib_item": 13,
+              "crib_text": "canis"
+            },
+            {
+              "locus": "f69v.15",
+              "voynich": "oteeys",
+              "crib_item": 12,
+              "crib_text": "caudaleonis"
+            },
+            {
+              "locus": "f69v.16",
+              "voynich": "oteol",
+              "crib_item": 11,
+              "crib_text": "capillus"
+            },
+            {
+              "locus": "f69v.17",
+              "voynich": "ykeydy",
+              "crib_item": 10,
+              "crib_text": "frons♌"
+            },
+            {
+              "locus": "f69v.18",
+              "voynich": "okeod",
+              "crib_item": 9,
+              "crib_text": "oculus♌"
+            },
+            {
+              "locus": "f69v.19",
+              "voynich": "saral",
+              "crib_item": 8,
+              "crib_text": "nebulosa"
+            },
+            {
+              "locus": "f69v.20",
+              "voynich": "saiir",
+              "crib_item": 7,
+              "crib_text": "brachium♌"
+            },
+            {
+              "locus": "f69v.21",
+              "voynich": "okolar",
+              "crib_item": 6,
+              "crib_text": "sidusparvumlucismagne"
+            },
+            {
+              "locus": "f69v.22",
+              "voynich": "ykeody",
+              "crib_item": 5,
+              "crib_text": "caputcanisvalidi"
+            },
+            {
+              "locus": "f69v.23",
+              "voynich": "sarydy",
+              "crib_item": 4,
+              "crib_text": "cor♉"
+            },
+            {
+              "locus": "f69v.24",
+              "voynich": "otchy",
+              "crib_item": 3,
+              "crib_text": "caput♉"
+            },
+            {
+              "locus": "f69v.27",
+              "voynich": "okeod",
+              "crib_item": 28,
+              "crib_text": "piscis"
+            },
+            {
+              "locus": "f69v.28",
+              "voynich": "okodchy",
+              "crib_item": 27,
+              "crib_text": "haurienssecundus"
+            },
+            {
+              "locus": "f69v.29",
+              "voynich": "okeody",
+              "crib_item": 26,
+              "crib_text": "hauriensprimus"
+            },
+            {
+              "locus": "f69v.31",
+              "voynich": "oar.alys",
+              "crib_item": 24,
+              "crib_text": "sidusfortune"
+            }
+          ]
+        },
+        {
+          "id": "eva_letters:latin_expanded",
+          "score": {
+            "observed": 0.17708867726350055,
+            "null_mean": 0.2531627707889352,
+            "null_sd": 0.054066634675399496,
+            "p_greater": 0.9386,
+            "null_interval_95": [
+              0.16023155406391093,
+              0.37232271257525157
+            ]
+          },
+          "best_phase": {
+            "direction": -1,
+            "start": 7
+          },
+          "tied_best_phases": [
+            {
+              "direction": -1,
+              "start": 7
+            }
+          ],
+          "all_observed_phase_correlations": [
+            -0.12562988225400804,
+            -0.022257137781492624,
+            -0.05673033192279044,
+            0.053596179314432654,
+            0.14188515090288475,
+            0.17063347288965192,
+            -0.045340244665972695,
+            0.085436476644393,
+            0.10653711405900067,
+            -0.034138949897161756,
+            0.07105228687256986,
+            -0.021077789553525506,
+            -0.13372683255961165,
+            -0.15973104860633364,
+            0.13850474482511152,
+            -0.0007754186802776933,
+            -0.05723693498582739,
+            -0.04095313576573299,
+            0.012525139158330959,
+            -0.039554176493765345,
+            0.09691276304776024,
+            0.09334922356716883,
+            -0.09066853709923785,
+            -0.20418141347867963,
+            -0.09862878210112293,
+            0.007351434117911649,
+            -0.06260328231997114,
+            -0.07310865167567411,
+            -0.13290385436778202,
+            0.17069082565710986,
+            -0.11984230481885982,
+            -0.10338691453601281,
+            -0.08751734610040093,
+            -0.12645749388917238,
+            -0.08158711102506147,
+            0.17708867726350055,
+            0.12797670807187397,
+            -0.03185495171980788,
+            0.06440200723713242,
+            -0.012792154667254545,
+            0.13237699198304265,
+            0.05637259269239741,
+            -0.028540980642137746,
+            0.005436070930084404,
+            -0.03402496490451263,
+            -0.22123324353694312,
+            0.12064036260049299,
+            0.034219053852298016,
+            -0.11716407532538282,
+            -0.04957607132779424,
+            0.12219394729434305,
+            0.016408618991017747,
+            -0.01355092517980055,
+            0.10189007359084806,
+            -0.10675781530406686,
+            -0.11391389092736261
+          ],
+          "phase_alignment_note": "A score-maximizing alignment only, not decoded plaintext.",
+          "best_alignment": [
+            {
+              "locus": "f69v.5",
+              "voynich": "okeo.dy",
+              "crib_item": 7,
+              "crib_text": "brachiumleonis"
+            },
+            {
+              "locus": "f69v.6",
+              "voynich": "ochoyk",
+              "crib_item": 6,
+              "crib_text": "sidusparvumlucismagne"
+            },
+            {
+              "locus": "f69v.7",
+              "voynich": "ykeey",
+              "crib_item": 5,
+              "crib_text": "caputcanisvalidi"
+            },
+            {
+              "locus": "f69v.10",
+              "voynich": "ytody",
+              "crib_item": 2,
+              "crib_text": "venterarietis"
+            },
+            {
+              "locus": "f69v.11",
+              "voynich": "okody",
+              "crib_item": 1,
+              "crib_text": "cornuaarietis"
+            },
+            {
+              "locus": "f69v.12",
+              "voynich": "otody",
+              "crib_item": 28,
+              "crib_text": "piscis"
+            },
+            {
+              "locus": "f69v.14",
+              "voynich": "okeod",
+              "crib_item": 26,
+              "crib_text": "hauriensprimus"
+            },
+            {
+              "locus": "f69v.15",
+              "voynich": "oteeys",
+              "crib_item": 25,
+              "crib_text": "papilio"
+            },
+            {
+              "locus": "f69v.16",
+              "voynich": "oteol",
+              "crib_item": 24,
+              "crib_text": "sidusfortune"
+            },
+            {
+              "locus": "f69v.17",
+              "voynich": "ykeydy",
+              "crib_item": 23,
+              "crib_text": "glutiens"
+            },
+            {
+              "locus": "f69v.18",
+              "voynich": "okeod",
+              "crib_item": 22,
+              "crib_text": "pastor"
+            },
+            {
+              "locus": "f69v.19",
+              "voynich": "saral",
+              "crib_item": 21,
+              "crib_text": "desertum"
+            },
+            {
+              "locus": "f69v.20",
+              "voynich": "saiir",
+              "crib_item": 20,
+              "crib_text": "trabs"
+            },
+            {
+              "locus": "f69v.21",
+              "voynich": "okolar",
+              "crib_item": 19,
+              "crib_text": "caudascorpionis"
+            },
+            {
+              "locus": "f69v.22",
+              "voynich": "ykeody",
+              "crib_item": 18,
+              "crib_text": "corscorpionis"
+            },
+            {
+              "locus": "f69v.23",
+              "voynich": "sarydy",
+              "crib_item": 17,
+              "crib_text": "corona"
+            },
+            {
+              "locus": "f69v.24",
+              "voynich": "otchy",
+              "crib_item": 16,
+              "crib_text": "cornuascorpionis"
+            },
+            {
+              "locus": "f69v.27",
+              "voynich": "okeod",
+              "crib_item": 13,
+              "crib_text": "canis"
+            },
+            {
+              "locus": "f69v.28",
+              "voynich": "okodchy",
+              "crib_item": 12,
+              "crib_text": "caudaleonis"
+            },
+            {
+              "locus": "f69v.29",
+              "voynich": "okeody",
+              "crib_item": 11,
+              "crib_text": "capillus"
+            },
+            {
+              "locus": "f69v.31",
+              "voynich": "oar.alys",
+              "crib_item": 9,
+              "crib_text": "oculusleonis"
+            }
+          ]
+        },
+        {
+          "id": "eva_letters:agrippa_first",
+          "score": {
+            "observed": 0.22611162800200926,
+            "null_mean": 0.2700786834030004,
+            "null_sd": 0.0562193806826537,
+            "p_greater": 0.7731,
+            "null_interval_95": [
+              0.17487076375635988,
+              0.3913319321079994
+            ]
+          },
+          "best_phase": {
+            "direction": 1,
+            "start": 22
+          },
+          "tied_best_phases": [
+            {
+              "direction": 1,
+              "start": 22
+            }
+          ],
+          "all_observed_phase_correlations": [
+            0.07242101739343512,
+            -0.13448992337116347,
+            -0.14138249418017124,
+            0.04991959249291411,
+            0.17769510353479562,
+            -0.06566790945637231,
+            0.014207314633017488,
+            0.15526907735226148,
+            -0.07001106554739059,
+            -0.1121086414634384,
+            0.056962454721413536,
+            0.04985035136655473,
+            -0.20993659838417336,
+            0.0218169826034168,
+            -0.04963344302462452,
+            0.01746878487934952,
+            -0.17448373881466692,
+            0.04530792029543512,
+            0.029422901251276154,
+            -0.08864985359428067,
+            -0.05654730070571785,
+            0.12022801036815967,
+            0.22611162800200926,
+            -0.1209528195156672,
+            0.017998766170479286,
+            0.07794488286535876,
+            0.030747357988967237,
+            -0.00590347182984904,
+            0.13149964441492384,
+            0.008059276980371743,
+            0.07445794500422406,
+            0.016139264775941554,
+            0.060748709069221626,
+            -0.018050230784328953,
+            -0.19250782328132338,
+            0.08054537739315903,
+            0.0773300072195044,
+            -0.003074029959366566,
+            -0.11113926299783683,
+            0.1586099057285554,
+            -0.004725299125235813,
+            -0.007562465204343301,
+            -0.09348630267681836,
+            -0.020409351331404545,
+            -0.11656776408039016,
+            -0.060177095845569024,
+            0.0801119731008506,
+            -0.05995691650459109,
+            -0.2633611151015454,
+            0.04369080920809609,
+            -0.018715587938591467,
+            -0.12700252136351997,
+            0.050243211325858766,
+            0.15219190761722068,
+            0.10043474650104336,
+            -0.05691138547796788
+          ],
+          "phase_alignment_note": "A score-maximizing alignment only, not decoded plaintext.",
+          "best_alignment": [
+            {
+              "locus": "f69v.5",
+              "voynich": "okeo.dy",
+              "crib_item": 24,
+              "crib_text": "sadabath"
+            },
+            {
+              "locus": "f69v.6",
+              "voynich": "ochoyk",
+              "crib_item": 25,
+              "crib_text": "sadalabra"
+            },
+            {
+              "locus": "f69v.7",
+              "voynich": "ykeey",
+              "crib_item": 26,
+              "crib_text": "alpharg"
+            },
+            {
+              "locus": "f69v.10",
+              "voynich": "ytody",
+              "crib_item": 1,
+              "crib_text": "alnath"
+            },
+            {
+              "locus": "f69v.11",
+              "voynich": "okody",
+              "crib_item": 2,
+              "crib_text": "allothaim"
+            },
+            {
+              "locus": "f69v.12",
+              "voynich": "otody",
+              "crib_item": 3,
+              "crib_text": "achaomazon"
+            },
+            {
+              "locus": "f69v.14",
+              "voynich": "okeod",
+              "crib_item": 5,
+              "crib_text": "alchatay"
+            },
+            {
+              "locus": "f69v.15",
+              "voynich": "oteeys",
+              "crib_item": 6,
+              "crib_text": "alhanna"
+            },
+            {
+              "locus": "f69v.16",
+              "voynich": "oteol",
+              "crib_item": 7,
+              "crib_text": "aldimiach"
+            },
+            {
+              "locus": "f69v.17",
+              "voynich": "ykeydy",
+              "crib_item": 8,
+              "crib_text": "alnaza"
+            },
+            {
+              "locus": "f69v.18",
+              "voynich": "okeod",
+              "crib_item": 9,
+              "crib_text": "archaam"
+            },
+            {
+              "locus": "f69v.19",
+              "voynich": "saral",
+              "crib_item": 10,
+              "crib_text": "algelioche"
+            },
+            {
+              "locus": "f69v.20",
+              "voynich": "saiir",
+              "crib_item": 11,
+              "crib_text": "azobra"
+            },
+            {
+              "locus": "f69v.21",
+              "voynich": "okolar",
+              "crib_item": 12,
+              "crib_text": "alzarpha"
+            },
+            {
+              "locus": "f69v.22",
+              "voynich": "ykeody",
+              "crib_item": 13,
+              "crib_text": "alhaire"
+            },
+            {
+              "locus": "f69v.23",
+              "voynich": "sarydy",
+              "crib_item": 14,
+              "crib_text": "achureth"
+            },
+            {
+              "locus": "f69v.24",
+              "voynich": "otchy",
+              "crib_item": 15,
+              "crib_text": "agrapha"
+            },
+            {
+              "locus": "f69v.27",
+              "voynich": "okeod",
+              "crib_item": 18,
+              "crib_text": "alchas"
+            },
+            {
+              "locus": "f69v.28",
+              "voynich": "okodchy",
+              "crib_item": 19,
+              "crib_text": "allatha"
+            },
+            {
+              "locus": "f69v.29",
+              "voynich": "okeody",
+              "crib_item": 20,
+              "crib_text": "abnahaya"
+            },
+            {
+              "locus": "f69v.31",
+              "voynich": "oar.alys",
+              "crib_item": 22,
+              "crib_text": "sadahacha"
+            }
+          ]
+        },
+        {
+          "id": "bench_units:latin_symbols",
+          "score": {
+            "observed": 0.20828069029747892,
+            "null_mean": 0.20994664242905595,
+            "null_sd": 0.04598562643324064,
+            "p_greater": 0.4729,
+            "null_interval_95": [
+              0.13084611426374737,
+              0.3130333811584995
+            ]
+          },
+          "best_phase": {
+            "direction": -1,
+            "start": 22
+          },
+          "tied_best_phases": [
+            {
+              "direction": -1,
+              "start": 22
+            }
+          ],
+          "all_observed_phase_correlations": [
+            -0.09184847352570333,
+            -0.0778258884255875,
+            -0.012163485921951727,
+            0.01631134198549565,
+            0.06982485403525562,
+            0.1266518409808645,
+            -0.011960986229512315,
+            0.052108002416542176,
+            0.032032999911370645,
+            -0.04080282086957593,
+            0.10891459804603515,
+            -0.08239995573695397,
+            -0.09655736398661145,
+            -0.06720806948073639,
+            0.04270966102082314,
+            0.056553604188323565,
+            -0.012604743344569931,
+            0.0745252637619755,
+            0.0813851069995705,
+            0.04821341488544665,
+            0.10234387261517083,
+            0.11541216159084416,
+            -0.058006359435258205,
+            -0.23089510015193987,
+            -0.12543742614929504,
+            -0.027552060575661223,
+            0.014223515160334209,
+            -0.08183330467562834,
+            -0.10332515674177688,
+            0.08380291159566916,
+            -0.059994784117021305,
+            -0.03329296196106127,
+            -0.07232379502303797,
+            -0.08172549136047816,
+            -0.07152562854187153,
+            0.06480243426556825,
+            0.10206618060740412,
+            -0.07072290550465282,
+            0.01387675756066335,
+            0.021266192691297786,
+            0.03642956783833459,
+            0.05812919758954025,
+            -0.10234523689247535,
+            0.039870434379688645,
+            -0.07838991998409361,
+            -0.07603418520112065,
+            0.07067369984048176,
+            -0.0005144981155323319,
+            -0.05726512973103547,
+            0.05271909796583962,
+            0.20828069029747892,
+            0.05433602199409448,
+            0.09582801425731627,
+            0.06294983872209266,
+            -0.07894393683848393,
+            -0.11228783381752373
+          ],
+          "phase_alignment_note": "A score-maximizing alignment only, not decoded plaintext.",
+          "best_alignment": [
+            {
+              "locus": "f69v.5",
+              "voynich": "okeo.dy",
+              "crib_item": 22,
+              "crib_text": "pastor"
+            },
+            {
+              "locus": "f69v.6",
+              "voynich": "ochoyk",
+              "crib_item": 21,
+              "crib_text": "desertum"
+            },
+            {
+              "locus": "f69v.7",
+              "voynich": "ykeey",
+              "crib_item": 20,
+              "crib_text": "trabs"
+            },
+            {
+              "locus": "f69v.10",
+              "voynich": "ytody",
+              "crib_item": 17,
+              "crib_text": "corona"
+            },
+            {
+              "locus": "f69v.11",
+              "voynich": "okody",
+              "crib_item": 16,
+              "crib_text": "cornua♏"
+            },
+            {
+              "locus": "f69v.12",
+              "voynich": "otody",
+              "crib_item": 15,
+              "crib_text": "cooperta"
+            },
+            {
+              "locus": "f69v.14",
+              "voynich": "okeod",
+              "crib_item": 13,
+              "crib_text": "canis"
+            },
+            {
+              "locus": "f69v.15",
+              "voynich": "oteeys",
+              "crib_item": 12,
+              "crib_text": "caudaleonis"
+            },
+            {
+              "locus": "f69v.16",
+              "voynich": "oteol",
+              "crib_item": 11,
+              "crib_text": "capillus"
+            },
+            {
+              "locus": "f69v.17",
+              "voynich": "ykeydy",
+              "crib_item": 10,
+              "crib_text": "frons♌"
+            },
+            {
+              "locus": "f69v.18",
+              "voynich": "okeod",
+              "crib_item": 9,
+              "crib_text": "oculus♌"
+            },
+            {
+              "locus": "f69v.19",
+              "voynich": "saral",
+              "crib_item": 8,
+              "crib_text": "nebulosa"
+            },
+            {
+              "locus": "f69v.20",
+              "voynich": "saiir",
+              "crib_item": 7,
+              "crib_text": "brachium♌"
+            },
+            {
+              "locus": "f69v.21",
+              "voynich": "okolar",
+              "crib_item": 6,
+              "crib_text": "sidusparvumlucismagne"
+            },
+            {
+              "locus": "f69v.22",
+              "voynich": "ykeody",
+              "crib_item": 5,
+              "crib_text": "caputcanisvalidi"
+            },
+            {
+              "locus": "f69v.23",
+              "voynich": "sarydy",
+              "crib_item": 4,
+              "crib_text": "cor♉"
+            },
+            {
+              "locus": "f69v.24",
+              "voynich": "otchy",
+              "crib_item": 3,
+              "crib_text": "caput♉"
+            },
+            {
+              "locus": "f69v.27",
+              "voynich": "okeod",
+              "crib_item": 28,
+              "crib_text": "piscis"
+            },
+            {
+              "locus": "f69v.28",
+              "voynich": "okodchy",
+              "crib_item": 27,
+              "crib_text": "haurienssecundus"
+            },
+            {
+              "locus": "f69v.29",
+              "voynich": "okeody",
+              "crib_item": 26,
+              "crib_text": "hauriensprimus"
+            },
+            {
+              "locus": "f69v.31",
+              "voynich": "oar.alys",
+              "crib_item": 24,
+              "crib_text": "sidusfortune"
+            }
+          ]
+        },
+        {
+          "id": "bench_units:latin_expanded",
+          "score": {
+            "observed": 0.19339947363131357,
+            "null_mean": 0.25390164330024584,
+            "null_sd": 0.05405662656117951,
+            "p_greater": 0.8785,
+            "null_interval_95": [
+              0.1626253590647164,
+              0.37438096177017965
+            ]
+          },
+          "best_phase": {
+            "direction": -1,
+            "start": 7
+          },
+          "tied_best_phases": [
+            {
+              "direction": -1,
+              "start": 7
+            }
+          ],
+          "all_observed_phase_correlations": [
+            -0.13921892578136466,
+            -0.01871368244778256,
+            -0.05996723355779349,
+            0.0532963844507469,
+            0.15956236805729487,
+            0.16668042253985502,
+            -0.06183864741017531,
+            0.09197044374934504,
+            0.10479477191065066,
+            -0.03226082000158471,
+            0.09551519232434416,
+            -0.028442380459292028,
+            -0.1099660717449692,
+            -0.16728180234465884,
+            0.13092003990717024,
+            0.006951937027907365,
+            -0.07057567447972518,
+            -0.05372792176581512,
+            0.00936379153805585,
+            -0.02368920724677494,
+            0.09318386196043968,
+            0.09631017376483614,
+            -0.0725350481381909,
+            -0.22365192000889716,
+            -0.10151522409147298,
+            -0.004404806333786349,
+            -0.054151730030935506,
+            -0.08379036938882559,
+            -0.1367398172416539,
+            0.16219792170877323,
+            -0.11794480727056525,
+            -0.12279224755485164,
+            -0.07638050237725642,
+            -0.11992155256711538,
+            -0.07962671530777471,
+            0.19339947363131357,
+            0.13265573345095333,
+            -0.04429994159049003,
+            0.04648964831558988,
+            -0.009145437805478503,
+            0.11987378932311413,
+            0.07452564443348719,
+            -0.017708135739905345,
+            0.005207872898474729,
+            -0.04491457455719261,
+            -0.21938399799870092,
+            0.10625773386850776,
+            0.033334737548608405,
+            -0.14222185354795375,
+            -0.04526636427647689,
+            0.1316052020719105,
+            0.020056927810101165,
+            -0.0021919408459889333,
+            0.09556529773510561,
+            -0.09981673188530978,
+            -0.10312258611956765
+          ],
+          "phase_alignment_note": "A score-maximizing alignment only, not decoded plaintext.",
+          "best_alignment": [
+            {
+              "locus": "f69v.5",
+              "voynich": "okeo.dy",
+              "crib_item": 7,
+              "crib_text": "brachiumleonis"
+            },
+            {
+              "locus": "f69v.6",
+              "voynich": "ochoyk",
+              "crib_item": 6,
+              "crib_text": "sidusparvumlucismagne"
+            },
+            {
+              "locus": "f69v.7",
+              "voynich": "ykeey",
+              "crib_item": 5,
+              "crib_text": "caputcanisvalidi"
+            },
+            {
+              "locus": "f69v.10",
+              "voynich": "ytody",
+              "crib_item": 2,
+              "crib_text": "venterarietis"
+            },
+            {
+              "locus": "f69v.11",
+              "voynich": "okody",
+              "crib_item": 1,
+              "crib_text": "cornuaarietis"
+            },
+            {
+              "locus": "f69v.12",
+              "voynich": "otody",
+              "crib_item": 28,
+              "crib_text": "piscis"
+            },
+            {
+              "locus": "f69v.14",
+              "voynich": "okeod",
+              "crib_item": 26,
+              "crib_text": "hauriensprimus"
+            },
+            {
+              "locus": "f69v.15",
+              "voynich": "oteeys",
+              "crib_item": 25,
+              "crib_text": "papilio"
+            },
+            {
+              "locus": "f69v.16",
+              "voynich": "oteol",
+              "crib_item": 24,
+              "crib_text": "sidusfortune"
+            },
+            {
+              "locus": "f69v.17",
+              "voynich": "ykeydy",
+              "crib_item": 23,
+              "crib_text": "glutiens"
+            },
+            {
+              "locus": "f69v.18",
+              "voynich": "okeod",
+              "crib_item": 22,
+              "crib_text": "pastor"
+            },
+            {
+              "locus": "f69v.19",
+              "voynich": "saral",
+              "crib_item": 21,
+              "crib_text": "desertum"
+            },
+            {
+              "locus": "f69v.20",
+              "voynich": "saiir",
+              "crib_item": 20,
+              "crib_text": "trabs"
+            },
+            {
+              "locus": "f69v.21",
+              "voynich": "okolar",
+              "crib_item": 19,
+              "crib_text": "caudascorpionis"
+            },
+            {
+              "locus": "f69v.22",
+              "voynich": "ykeody",
+              "crib_item": 18,
+              "crib_text": "corscorpionis"
+            },
+            {
+              "locus": "f69v.23",
+              "voynich": "sarydy",
+              "crib_item": 17,
+              "crib_text": "corona"
+            },
+            {
+              "locus": "f69v.24",
+              "voynich": "otchy",
+              "crib_item": 16,
+              "crib_text": "cornuascorpionis"
+            },
+            {
+              "locus": "f69v.27",
+              "voynich": "okeod",
+              "crib_item": 13,
+              "crib_text": "canis"
+            },
+            {
+              "locus": "f69v.28",
+              "voynich": "okodchy",
+              "crib_item": 12,
+              "crib_text": "caudaleonis"
+            },
+            {
+              "locus": "f69v.29",
+              "voynich": "okeody",
+              "crib_item": 11,
+              "crib_text": "capillus"
+            },
+            {
+              "locus": "f69v.31",
+              "voynich": "oar.alys",
+              "crib_item": 9,
+              "crib_text": "oculusleonis"
+            }
+          ]
+        },
+        {
+          "id": "bench_units:agrippa_first",
+          "score": {
+            "observed": 0.2405868632897273,
+            "null_mean": 0.2713153374886561,
+            "null_sd": 0.05643972845046642,
+            "p_greater": 0.6796,
+            "null_interval_95": [
+              0.17684592564963625,
+              0.3937325489124955
+            ]
+          },
+          "best_phase": {
+            "direction": 1,
+            "start": 22
+          },
+          "tied_best_phases": [
+            {
+              "direction": 1,
+              "start": 22
+            }
+          ],
+          "all_observed_phase_correlations": [
+            0.07509323497182081,
+            -0.1238266759564623,
+            -0.13913354038562908,
+            0.0474496157286288,
+            0.1946346163852651,
+            -0.07051372759131254,
+            0.008552189573347833,
+            0.15712835102314016,
+            -0.06610929363057974,
+            -0.09692442896063268,
+            0.05801672277065405,
+            0.06556031064142955,
+            -0.21306794525800887,
+            0.0072410308555681795,
+            -0.06293651282892763,
+            0.015037068110519695,
+            -0.16459628815608568,
+            0.027715625086695214,
+            0.03557865564801515,
+            -0.11157180351448533,
+            -0.05314717775153658,
+            0.12377487500451498,
+            0.2405868632897273,
+            -0.11226396586722613,
+            0.005051302727827357,
+            0.08057929753511753,
+            0.005123003929525312,
+            0.009827262928438656,
+            0.10636371689430339,
+            0.021039732992402825,
+            0.06294881158974266,
+            0.026386219876631697,
+            0.06256362939126907,
+            -0.02526841111133414,
+            -0.181943905693976,
+            0.08196268686951282,
+            0.09442998289782402,
+            -0.01592399775569139,
+            -0.09491395693018763,
+            0.1395049424796306,
+            0.004237387699427546,
+            -0.009779000240275773,
+            -0.07836816359637369,
+            -0.015414903306784047,
+            -0.11729079742565099,
+            -0.06197740179080762,
+            0.06476353541610128,
+            -0.08133065507265902,
+            -0.2450328270230784,
+            0.03938862798962364,
+            -0.006528744004452025,
+            -0.12785230857689892,
+            0.06814337120729562,
+            0.16182431530498304,
+            0.07791217669476208,
+            -0.06144096389020211
+          ],
+          "phase_alignment_note": "A score-maximizing alignment only, not decoded plaintext.",
+          "best_alignment": [
+            {
+              "locus": "f69v.5",
+              "voynich": "okeo.dy",
+              "crib_item": 24,
+              "crib_text": "sadabath"
+            },
+            {
+              "locus": "f69v.6",
+              "voynich": "ochoyk",
+              "crib_item": 25,
+              "crib_text": "sadalabra"
+            },
+            {
+              "locus": "f69v.7",
+              "voynich": "ykeey",
+              "crib_item": 26,
+              "crib_text": "alpharg"
+            },
+            {
+              "locus": "f69v.10",
+              "voynich": "ytody",
+              "crib_item": 1,
+              "crib_text": "alnath"
+            },
+            {
+              "locus": "f69v.11",
+              "voynich": "okody",
+              "crib_item": 2,
+              "crib_text": "allothaim"
+            },
+            {
+              "locus": "f69v.12",
+              "voynich": "otody",
+              "crib_item": 3,
+              "crib_text": "achaomazon"
+            },
+            {
+              "locus": "f69v.14",
+              "voynich": "okeod",
+              "crib_item": 5,
+              "crib_text": "alchatay"
+            },
+            {
+              "locus": "f69v.15",
+              "voynich": "oteeys",
+              "crib_item": 6,
+              "crib_text": "alhanna"
+            },
+            {
+              "locus": "f69v.16",
+              "voynich": "oteol",
+              "crib_item": 7,
+              "crib_text": "aldimiach"
+            },
+            {
+              "locus": "f69v.17",
+              "voynich": "ykeydy",
+              "crib_item": 8,
+              "crib_text": "alnaza"
+            },
+            {
+              "locus": "f69v.18",
+              "voynich": "okeod",
+              "crib_item": 9,
+              "crib_text": "archaam"
+            },
+            {
+              "locus": "f69v.19",
+              "voynich": "saral",
+              "crib_item": 10,
+              "crib_text": "algelioche"
+            },
+            {
+              "locus": "f69v.20",
+              "voynich": "saiir",
+              "crib_item": 11,
+              "crib_text": "azobra"
+            },
+            {
+              "locus": "f69v.21",
+              "voynich": "okolar",
+              "crib_item": 12,
+              "crib_text": "alzarpha"
+            },
+            {
+              "locus": "f69v.22",
+              "voynich": "ykeody",
+              "crib_item": 13,
+              "crib_text": "alhaire"
+            },
+            {
+              "locus": "f69v.23",
+              "voynich": "sarydy",
+              "crib_item": 14,
+              "crib_text": "achureth"
+            },
+            {
+              "locus": "f69v.24",
+              "voynich": "otchy",
+              "crib_item": 15,
+              "crib_text": "agrapha"
+            },
+            {
+              "locus": "f69v.27",
+              "voynich": "okeod",
+              "crib_item": 18,
+              "crib_text": "alchas"
+            },
+            {
+              "locus": "f69v.28",
+              "voynich": "okodchy",
+              "crib_item": 19,
+              "crib_text": "allatha"
+            },
+            {
+              "locus": "f69v.29",
+              "voynich": "okeody",
+              "crib_item": 20,
+              "crib_text": "abnahaya"
+            },
+            {
+              "locus": "f69v.31",
+              "voynich": "oar.alys",
+              "crib_item": 22,
+              "crib_text": "sadahacha"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "null": "same_initial",
+      "randomizations": 9999,
+      "seed": 20261009,
+      "n_accepted_labels": 21,
+      "n_pairwise_similarities": 210,
+      "independent_sample_size_note": "The210 pair scores share21 labels; inference permutes labels, not pair scores.",
+      "groups_of_exchangeable_loci": [
+        [
+          "f69v.5",
+          "f69v.6",
+          "f69v.11",
+          "f69v.12",
+          "f69v.14",
+          "f69v.15",
+          "f69v.16",
+          "f69v.18",
+          "f69v.21",
+          "f69v.24",
+          "f69v.27",
+          "f69v.28",
+          "f69v.29",
+          "f69v.31"
+        ],
+        [
+          "f69v.19",
+          "f69v.20",
+          "f69v.23"
+        ],
+        [
+          "f69v.7",
+          "f69v.10",
+          "f69v.17",
+          "f69v.22"
+        ]
+      ],
+      "global_six_model_maximum": {
+        "observed": 0.2405868632897273,
+        "null_mean": 0.30000922160341303,
+        "null_sd": 0.0488291546788481,
+        "p_greater": 0.9002,
+        "null_interval_95": [
+          0.21630377970124748,
+          0.4065489724169612
+        ]
+      },
+      "models": [
+        {
+          "id": "eva_letters:latin_symbols",
+          "score": {
+            "observed": 0.19493284303342553,
+            "null_mean": 0.20175805127261154,
+            "null_sd": 0.042318275325315534,
+            "p_greater": 0.5295,
+            "null_interval_95": [
+              0.1304998329290682,
+              0.2952996212749462
+            ]
+          },
+          "best_phase": {
+            "direction": -1,
+            "start": 22
+          },
+          "tied_best_phases": [
+            {
+              "direction": -1,
+              "start": 22
+            }
+          ],
+          "all_observed_phase_correlations": [
+            -0.07709903571049176,
+            -0.09145031861410789,
+            -0.012730016596140717,
+            0.018966734011016343,
+            0.06346478263363287,
+            0.149928875037195,
+            -0.017807296444371894,
+            0.05127553260004673,
+            0.0282844630583964,
+            -0.04367073470032569,
+            0.10764144217590263,
+            -0.08074616297465644,
+            -0.10726738470524816,
+            -0.05501241866013461,
+            0.04741976419293885,
+            0.055864294479664144,
+            -0.009733015391928616,
+            0.07547050244558517,
+            0.07909150153197764,
+            0.05132664049466734,
+            0.08855776745215542,
+            0.1099093147551426,
+            -0.07666820564531648,
+            -0.20932291402331737,
+            -0.12802231297104677,
+            -0.027773267038923383,
+            -0.004346979358099745,
+            -0.08617517448125941,
+            -0.10084293620983409,
+            0.08003565235881395,
+            -0.05120604186707731,
+            -0.029608100091927655,
+            -0.07609365171226706,
+            -0.09548972235142968,
+            -0.07870811903437566,
+            0.05890855362620183,
+            0.09126094596458335,
+            -0.0657599721087417,
+            0.012868825805890445,
+            0.022402380421055183,
+            0.028862917418027507,
+            0.04910769038415664,
+            -0.09880158912240052,
+            0.03591083159654363,
+            -0.07485553028408622,
+            -0.08858017141919182,
+            0.09059354909044638,
+            -0.003939324589112668,
+            -0.041305589866158045,
+            0.04583929647348957,
+            0.19493284303342553,
+            0.047315567988131794,
+            0.09518569043864326,
+            0.08257354223103383,
+            -0.07723502129167786,
+            -0.11329383964043595
+          ],
+          "phase_alignment_note": "A score-maximizing alignment only, not decoded plaintext.",
+          "best_alignment": [
+            {
+              "locus": "f69v.5",
+              "voynich": "okeo.dy",
+              "crib_item": 22,
+              "crib_text": "pastor"
+            },
+            {
+              "locus": "f69v.6",
+              "voynich": "ochoyk",
+              "crib_item": 21,
+              "crib_text": "desertum"
+            },
+            {
+              "locus": "f69v.7",
+              "voynich": "ykeey",
+              "crib_item": 20,
+              "crib_text": "trabs"
+            },
+            {
+              "locus": "f69v.10",
+              "voynich": "ytody",
+              "crib_item": 17,
+              "crib_text": "corona"
+            },
+            {
+              "locus": "f69v.11",
+              "voynich": "okody",
+              "crib_item": 16,
+              "crib_text": "cornua♏"
+            },
+            {
+              "locus": "f69v.12",
+              "voynich": "otody",
+              "crib_item": 15,
+              "crib_text": "cooperta"
+            },
+            {
+              "locus": "f69v.14",
+              "voynich": "okeod",
+              "crib_item": 13,
+              "crib_text": "canis"
+            },
+            {
+              "locus": "f69v.15",
+              "voynich": "oteeys",
+              "crib_item": 12,
+              "crib_text": "caudaleonis"
+            },
+            {
+              "locus": "f69v.16",
+              "voynich": "oteol",
+              "crib_item": 11,
+              "crib_text": "capillus"
+            },
+            {
+              "locus": "f69v.17",
+              "voynich": "ykeydy",
+              "crib_item": 10,
+              "crib_text": "frons♌"
+            },
+            {
+              "locus": "f69v.18",
+              "voynich": "okeod",
+              "crib_item": 9,
+              "crib_text": "oculus♌"
+            },
+            {
+              "locus": "f69v.19",
+              "voynich": "saral",
+              "crib_item": 8,
+              "crib_text": "nebulosa"
+            },
+            {
+              "locus": "f69v.20",
+              "voynich": "saiir",
+              "crib_item": 7,
+              "crib_text": "brachium♌"
+            },
+            {
+              "locus": "f69v.21",
+              "voynich": "okolar",
+              "crib_item": 6,
+              "crib_text": "sidusparvumlucismagne"
+            },
+            {
+              "locus": "f69v.22",
+              "voynich": "ykeody",
+              "crib_item": 5,
+              "crib_text": "caputcanisvalidi"
+            },
+            {
+              "locus": "f69v.23",
+              "voynich": "sarydy",
+              "crib_item": 4,
+              "crib_text": "cor♉"
+            },
+            {
+              "locus": "f69v.24",
+              "voynich": "otchy",
+              "crib_item": 3,
+              "crib_text": "caput♉"
+            },
+            {
+              "locus": "f69v.27",
+              "voynich": "okeod",
+              "crib_item": 28,
+              "crib_text": "piscis"
+            },
+            {
+              "locus": "f69v.28",
+              "voynich": "okodchy",
+              "crib_item": 27,
+              "crib_text": "haurienssecundus"
+            },
+            {
+              "locus": "f69v.29",
+              "voynich": "okeody",
+              "crib_item": 26,
+              "crib_text": "hauriensprimus"
+            },
+            {
+              "locus": "f69v.31",
+              "voynich": "oar.alys",
+              "crib_item": 24,
+              "crib_text": "sidusfortune"
+            }
+          ]
+        },
+        {
+          "id": "eva_letters:latin_expanded",
+          "score": {
+            "observed": 0.17708867726350055,
+            "null_mean": 0.2656271005842473,
+            "null_sd": 0.052305085132296175,
+            "p_greater": 0.974,
+            "null_interval_95": [
+              0.1765189105154607,
+              0.3811396217634766
+            ]
+          },
+          "best_phase": {
+            "direction": -1,
+            "start": 7
+          },
+          "tied_best_phases": [
+            {
+              "direction": -1,
+              "start": 7
+            }
+          ],
+          "all_observed_phase_correlations": [
+            -0.12562988225400804,
+            -0.022257137781492624,
+            -0.05673033192279044,
+            0.053596179314432654,
+            0.14188515090288475,
+            0.17063347288965192,
+            -0.045340244665972695,
+            0.085436476644393,
+            0.10653711405900067,
+            -0.034138949897161756,
+            0.07105228687256986,
+            -0.021077789553525506,
+            -0.13372683255961165,
+            -0.15973104860633364,
+            0.13850474482511152,
+            -0.0007754186802776933,
+            -0.05723693498582739,
+            -0.04095313576573299,
+            0.012525139158330959,
+            -0.039554176493765345,
+            0.09691276304776024,
+            0.09334922356716883,
+            -0.09066853709923785,
+            -0.20418141347867963,
+            -0.09862878210112293,
+            0.007351434117911649,
+            -0.06260328231997114,
+            -0.07310865167567411,
+            -0.13290385436778202,
+            0.17069082565710986,
+            -0.11984230481885982,
+            -0.10338691453601281,
+            -0.08751734610040093,
+            -0.12645749388917238,
+            -0.08158711102506147,
+            0.17708867726350055,
+            0.12797670807187397,
+            -0.03185495171980788,
+            0.06440200723713242,
+            -0.012792154667254545,
+            0.13237699198304265,
+            0.05637259269239741,
+            -0.028540980642137746,
+            0.005436070930084404,
+            -0.03402496490451263,
+            -0.22123324353694312,
+            0.12064036260049299,
+            0.034219053852298016,
+            -0.11716407532538282,
+            -0.04957607132779424,
+            0.12219394729434305,
+            0.016408618991017747,
+            -0.01355092517980055,
+            0.10189007359084806,
+            -0.10675781530406686,
+            -0.11391389092736261
+          ],
+          "phase_alignment_note": "A score-maximizing alignment only, not decoded plaintext.",
+          "best_alignment": [
+            {
+              "locus": "f69v.5",
+              "voynich": "okeo.dy",
+              "crib_item": 7,
+              "crib_text": "brachiumleonis"
+            },
+            {
+              "locus": "f69v.6",
+              "voynich": "ochoyk",
+              "crib_item": 6,
+              "crib_text": "sidusparvumlucismagne"
+            },
+            {
+              "locus": "f69v.7",
+              "voynich": "ykeey",
+              "crib_item": 5,
+              "crib_text": "caputcanisvalidi"
+            },
+            {
+              "locus": "f69v.10",
+              "voynich": "ytody",
+              "crib_item": 2,
+              "crib_text": "venterarietis"
+            },
+            {
+              "locus": "f69v.11",
+              "voynich": "okody",
+              "crib_item": 1,
+              "crib_text": "cornuaarietis"
+            },
+            {
+              "locus": "f69v.12",
+              "voynich": "otody",
+              "crib_item": 28,
+              "crib_text": "piscis"
+            },
+            {
+              "locus": "f69v.14",
+              "voynich": "okeod",
+              "crib_item": 26,
+              "crib_text": "hauriensprimus"
+            },
+            {
+              "locus": "f69v.15",
+              "voynich": "oteeys",
+              "crib_item": 25,
+              "crib_text": "papilio"
+            },
+            {
+              "locus": "f69v.16",
+              "voynich": "oteol",
+              "crib_item": 24,
+              "crib_text": "sidusfortune"
+            },
+            {
+              "locus": "f69v.17",
+              "voynich": "ykeydy",
+              "crib_item": 23,
+              "crib_text": "glutiens"
+            },
+            {
+              "locus": "f69v.18",
+              "voynich": "okeod",
+              "crib_item": 22,
+              "crib_text": "pastor"
+            },
+            {
+              "locus": "f69v.19",
+              "voynich": "saral",
+              "crib_item": 21,
+              "crib_text": "desertum"
+            },
+            {
+              "locus": "f69v.20",
+              "voynich": "saiir",
+              "crib_item": 20,
+              "crib_text": "trabs"
+            },
+            {
+              "locus": "f69v.21",
+              "voynich": "okolar",
+              "crib_item": 19,
+              "crib_text": "caudascorpionis"
+            },
+            {
+              "locus": "f69v.22",
+              "voynich": "ykeody",
+              "crib_item": 18,
+              "crib_text": "corscorpionis"
+            },
+            {
+              "locus": "f69v.23",
+              "voynich": "sarydy",
+              "crib_item": 17,
+              "crib_text": "corona"
+            },
+            {
+              "locus": "f69v.24",
+              "voynich": "otchy",
+              "crib_item": 16,
+              "crib_text": "cornuascorpionis"
+            },
+            {
+              "locus": "f69v.27",
+              "voynich": "okeod",
+              "crib_item": 13,
+              "crib_text": "canis"
+            },
+            {
+              "locus": "f69v.28",
+              "voynich": "okodchy",
+              "crib_item": 12,
+              "crib_text": "caudaleonis"
+            },
+            {
+              "locus": "f69v.29",
+              "voynich": "okeody",
+              "crib_item": 11,
+              "crib_text": "capillus"
+            },
+            {
+              "locus": "f69v.31",
+              "voynich": "oar.alys",
+              "crib_item": 9,
+              "crib_text": "oculusleonis"
+            }
+          ]
+        },
+        {
+          "id": "eva_letters:agrippa_first",
+          "score": {
+            "observed": 0.22611162800200926,
+            "null_mean": 0.2705425341588012,
+            "null_sd": 0.05280701645176688,
+            "p_greater": 0.7929,
+            "null_interval_95": [
+              0.17897059222412862,
+              0.3822490266163593
+            ]
+          },
+          "best_phase": {
+            "direction": 1,
+            "start": 22
+          },
+          "tied_best_phases": [
+            {
+              "direction": 1,
+              "start": 22
+            }
+          ],
+          "all_observed_phase_correlations": [
+            0.07242101739343512,
+            -0.13448992337116347,
+            -0.14138249418017124,
+            0.04991959249291411,
+            0.17769510353479562,
+            -0.06566790945637231,
+            0.014207314633017488,
+            0.15526907735226148,
+            -0.07001106554739059,
+            -0.1121086414634384,
+            0.056962454721413536,
+            0.04985035136655473,
+            -0.20993659838417336,
+            0.0218169826034168,
+            -0.04963344302462452,
+            0.01746878487934952,
+            -0.17448373881466692,
+            0.04530792029543512,
+            0.029422901251276154,
+            -0.08864985359428067,
+            -0.05654730070571785,
+            0.12022801036815967,
+            0.22611162800200926,
+            -0.1209528195156672,
+            0.017998766170479286,
+            0.07794488286535876,
+            0.030747357988967237,
+            -0.00590347182984904,
+            0.13149964441492384,
+            0.008059276980371743,
+            0.07445794500422406,
+            0.016139264775941554,
+            0.060748709069221626,
+            -0.018050230784328953,
+            -0.19250782328132338,
+            0.08054537739315903,
+            0.0773300072195044,
+            -0.003074029959366566,
+            -0.11113926299783683,
+            0.1586099057285554,
+            -0.004725299125235813,
+            -0.007562465204343301,
+            -0.09348630267681836,
+            -0.020409351331404545,
+            -0.11656776408039016,
+            -0.060177095845569024,
+            0.0801119731008506,
+            -0.05995691650459109,
+            -0.2633611151015454,
+            0.04369080920809609,
+            -0.018715587938591467,
+            -0.12700252136351997,
+            0.050243211325858766,
+            0.15219190761722068,
+            0.10043474650104336,
+            -0.05691138547796788
+          ],
+          "phase_alignment_note": "A score-maximizing alignment only, not decoded plaintext.",
+          "best_alignment": [
+            {
+              "locus": "f69v.5",
+              "voynich": "okeo.dy",
+              "crib_item": 24,
+              "crib_text": "sadabath"
+            },
+            {
+              "locus": "f69v.6",
+              "voynich": "ochoyk",
+              "crib_item": 25,
+              "crib_text": "sadalabra"
+            },
+            {
+              "locus": "f69v.7",
+              "voynich": "ykeey",
+              "crib_item": 26,
+              "crib_text": "alpharg"
+            },
+            {
+              "locus": "f69v.10",
+              "voynich": "ytody",
+              "crib_item": 1,
+              "crib_text": "alnath"
+            },
+            {
+              "locus": "f69v.11",
+              "voynich": "okody",
+              "crib_item": 2,
+              "crib_text": "allothaim"
+            },
+            {
+              "locus": "f69v.12",
+              "voynich": "otody",
+              "crib_item": 3,
+              "crib_text": "achaomazon"
+            },
+            {
+              "locus": "f69v.14",
+              "voynich": "okeod",
+              "crib_item": 5,
+              "crib_text": "alchatay"
+            },
+            {
+              "locus": "f69v.15",
+              "voynich": "oteeys",
+              "crib_item": 6,
+              "crib_text": "alhanna"
+            },
+            {
+              "locus": "f69v.16",
+              "voynich": "oteol",
+              "crib_item": 7,
+              "crib_text": "aldimiach"
+            },
+            {
+              "locus": "f69v.17",
+              "voynich": "ykeydy",
+              "crib_item": 8,
+              "crib_text": "alnaza"
+            },
+            {
+              "locus": "f69v.18",
+              "voynich": "okeod",
+              "crib_item": 9,
+              "crib_text": "archaam"
+            },
+            {
+              "locus": "f69v.19",
+              "voynich": "saral",
+              "crib_item": 10,
+              "crib_text": "algelioche"
+            },
+            {
+              "locus": "f69v.20",
+              "voynich": "saiir",
+              "crib_item": 11,
+              "crib_text": "azobra"
+            },
+            {
+              "locus": "f69v.21",
+              "voynich": "okolar",
+              "crib_item": 12,
+              "crib_text": "alzarpha"
+            },
+            {
+              "locus": "f69v.22",
+              "voynich": "ykeody",
+              "crib_item": 13,
+              "crib_text": "alhaire"
+            },
+            {
+              "locus": "f69v.23",
+              "voynich": "sarydy",
+              "crib_item": 14,
+              "crib_text": "achureth"
+            },
+            {
+              "locus": "f69v.24",
+              "voynich": "otchy",
+              "crib_item": 15,
+              "crib_text": "agrapha"
+            },
+            {
+              "locus": "f69v.27",
+              "voynich": "okeod",
+              "crib_item": 18,
+              "crib_text": "alchas"
+            },
+            {
+              "locus": "f69v.28",
+              "voynich": "okodchy",
+              "crib_item": 19,
+              "crib_text": "allatha"
+            },
+            {
+              "locus": "f69v.29",
+              "voynich": "okeody",
+              "crib_item": 20,
+              "crib_text": "abnahaya"
+            },
+            {
+              "locus": "f69v.31",
+              "voynich": "oar.alys",
+              "crib_item": 22,
+              "crib_text": "sadahacha"
+            }
+          ]
+        },
+        {
+          "id": "bench_units:latin_symbols",
+          "score": {
+            "observed": 0.20828069029747892,
+            "null_mean": 0.20230765726907393,
+            "null_sd": 0.04232427358271135,
+            "p_greater": 0.4094,
+            "null_interval_95": [
+              0.13169298880024102,
+              0.2958641280878522
+            ]
+          },
+          "best_phase": {
+            "direction": -1,
+            "start": 22
+          },
+          "tied_best_phases": [
+            {
+              "direction": -1,
+              "start": 22
+            }
+          ],
+          "all_observed_phase_correlations": [
+            -0.09184847352570333,
+            -0.0778258884255875,
+            -0.012163485921951727,
+            0.01631134198549565,
+            0.06982485403525562,
+            0.1266518409808645,
+            -0.011960986229512315,
+            0.052108002416542176,
+            0.032032999911370645,
+            -0.04080282086957593,
+            0.10891459804603515,
+            -0.08239995573695397,
+            -0.09655736398661145,
+            -0.06720806948073639,
+            0.04270966102082314,
+            0.056553604188323565,
+            -0.012604743344569931,
+            0.0745252637619755,
+            0.0813851069995705,
+            0.04821341488544665,
+            0.10234387261517083,
+            0.11541216159084416,
+            -0.058006359435258205,
+            -0.23089510015193987,
+            -0.12543742614929504,
+            -0.027552060575661223,
+            0.014223515160334209,
+            -0.08183330467562834,
+            -0.10332515674177688,
+            0.08380291159566916,
+            -0.059994784117021305,
+            -0.03329296196106127,
+            -0.07232379502303797,
+            -0.08172549136047816,
+            -0.07152562854187153,
+            0.06480243426556825,
+            0.10206618060740412,
+            -0.07072290550465282,
+            0.01387675756066335,
+            0.021266192691297786,
+            0.03642956783833459,
+            0.05812919758954025,
+            -0.10234523689247535,
+            0.039870434379688645,
+            -0.07838991998409361,
+            -0.07603418520112065,
+            0.07067369984048176,
+            -0.0005144981155323319,
+            -0.05726512973103547,
+            0.05271909796583962,
+            0.20828069029747892,
+            0.05433602199409448,
+            0.09582801425731627,
+            0.06294983872209266,
+            -0.07894393683848393,
+            -0.11228783381752373
+          ],
+          "phase_alignment_note": "A score-maximizing alignment only, not decoded plaintext.",
+          "best_alignment": [
+            {
+              "locus": "f69v.5",
+              "voynich": "okeo.dy",
+              "crib_item": 22,
+              "crib_text": "pastor"
+            },
+            {
+              "locus": "f69v.6",
+              "voynich": "ochoyk",
+              "crib_item": 21,
+              "crib_text": "desertum"
+            },
+            {
+              "locus": "f69v.7",
+              "voynich": "ykeey",
+              "crib_item": 20,
+              "crib_text": "trabs"
+            },
+            {
+              "locus": "f69v.10",
+              "voynich": "ytody",
+              "crib_item": 17,
+              "crib_text": "corona"
+            },
+            {
+              "locus": "f69v.11",
+              "voynich": "okody",
+              "crib_item": 16,
+              "crib_text": "cornua♏"
+            },
+            {
+              "locus": "f69v.12",
+              "voynich": "otody",
+              "crib_item": 15,
+              "crib_text": "cooperta"
+            },
+            {
+              "locus": "f69v.14",
+              "voynich": "okeod",
+              "crib_item": 13,
+              "crib_text": "canis"
+            },
+            {
+              "locus": "f69v.15",
+              "voynich": "oteeys",
+              "crib_item": 12,
+              "crib_text": "caudaleonis"
+            },
+            {
+              "locus": "f69v.16",
+              "voynich": "oteol",
+              "crib_item": 11,
+              "crib_text": "capillus"
+            },
+            {
+              "locus": "f69v.17",
+              "voynich": "ykeydy",
+              "crib_item": 10,
+              "crib_text": "frons♌"
+            },
+            {
+              "locus": "f69v.18",
+              "voynich": "okeod",
+              "crib_item": 9,
+              "crib_text": "oculus♌"
+            },
+            {
+              "locus": "f69v.19",
+              "voynich": "saral",
+              "crib_item": 8,
+              "crib_text": "nebulosa"
+            },
+            {
+              "locus": "f69v.20",
+              "voynich": "saiir",
+              "crib_item": 7,
+              "crib_text": "brachium♌"
+            },
+            {
+              "locus": "f69v.21",
+              "voynich": "okolar",
+              "crib_item": 6,
+              "crib_text": "sidusparvumlucismagne"
+            },
+            {
+              "locus": "f69v.22",
+              "voynich": "ykeody",
+              "crib_item": 5,
+              "crib_text": "caputcanisvalidi"
+            },
+            {
+              "locus": "f69v.23",
+              "voynich": "sarydy",
+              "crib_item": 4,
+              "crib_text": "cor♉"
+            },
+            {
+              "locus": "f69v.24",
+              "voynich": "otchy",
+              "crib_item": 3,
+              "crib_text": "caput♉"
+            },
+            {
+              "locus": "f69v.27",
+              "voynich": "okeod",
+              "crib_item": 28,
+              "crib_text": "piscis"
+            },
+            {
+              "locus": "f69v.28",
+              "voynich": "okodchy",
+              "crib_item": 27,
+              "crib_text": "haurienssecundus"
+            },
+            {
+              "locus": "f69v.29",
+              "voynich": "okeody",
+              "crib_item": 26,
+              "crib_text": "hauriensprimus"
+            },
+            {
+              "locus": "f69v.31",
+              "voynich": "oar.alys",
+              "crib_item": 24,
+              "crib_text": "sidusfortune"
+            }
+          ]
+        },
+        {
+          "id": "bench_units:latin_expanded",
+          "score": {
+            "observed": 0.19339947363131357,
+            "null_mean": 0.2662904047382144,
+            "null_sd": 0.052442011765470996,
+            "p_greater": 0.9362,
+            "null_interval_95": [
+              0.17638843508635285,
+              0.3822893983419606
+            ]
+          },
+          "best_phase": {
+            "direction": -1,
+            "start": 7
+          },
+          "tied_best_phases": [
+            {
+              "direction": -1,
+              "start": 7
+            }
+          ],
+          "all_observed_phase_correlations": [
+            -0.13921892578136466,
+            -0.01871368244778256,
+            -0.05996723355779349,
+            0.0532963844507469,
+            0.15956236805729487,
+            0.16668042253985502,
+            -0.06183864741017531,
+            0.09197044374934504,
+            0.10479477191065066,
+            -0.03226082000158471,
+            0.09551519232434416,
+            -0.028442380459292028,
+            -0.1099660717449692,
+            -0.16728180234465884,
+            0.13092003990717024,
+            0.006951937027907365,
+            -0.07057567447972518,
+            -0.05372792176581512,
+            0.00936379153805585,
+            -0.02368920724677494,
+            0.09318386196043968,
+            0.09631017376483614,
+            -0.0725350481381909,
+            -0.22365192000889716,
+            -0.10151522409147298,
+            -0.004404806333786349,
+            -0.054151730030935506,
+            -0.08379036938882559,
+            -0.1367398172416539,
+            0.16219792170877323,
+            -0.11794480727056525,
+            -0.12279224755485164,
+            -0.07638050237725642,
+            -0.11992155256711538,
+            -0.07962671530777471,
+            0.19339947363131357,
+            0.13265573345095333,
+            -0.04429994159049003,
+            0.04648964831558988,
+            -0.009145437805478503,
+            0.11987378932311413,
+            0.07452564443348719,
+            -0.017708135739905345,
+            0.005207872898474729,
+            -0.04491457455719261,
+            -0.21938399799870092,
+            0.10625773386850776,
+            0.033334737548608405,
+            -0.14222185354795375,
+            -0.04526636427647689,
+            0.1316052020719105,
+            0.020056927810101165,
+            -0.0021919408459889333,
+            0.09556529773510561,
+            -0.09981673188530978,
+            -0.10312258611956765
+          ],
+          "phase_alignment_note": "A score-maximizing alignment only, not decoded plaintext.",
+          "best_alignment": [
+            {
+              "locus": "f69v.5",
+              "voynich": "okeo.dy",
+              "crib_item": 7,
+              "crib_text": "brachiumleonis"
+            },
+            {
+              "locus": "f69v.6",
+              "voynich": "ochoyk",
+              "crib_item": 6,
+              "crib_text": "sidusparvumlucismagne"
+            },
+            {
+              "locus": "f69v.7",
+              "voynich": "ykeey",
+              "crib_item": 5,
+              "crib_text": "caputcanisvalidi"
+            },
+            {
+              "locus": "f69v.10",
+              "voynich": "ytody",
+              "crib_item": 2,
+              "crib_text": "venterarietis"
+            },
+            {
+              "locus": "f69v.11",
+              "voynich": "okody",
+              "crib_item": 1,
+              "crib_text": "cornuaarietis"
+            },
+            {
+              "locus": "f69v.12",
+              "voynich": "otody",
+              "crib_item": 28,
+              "crib_text": "piscis"
+            },
+            {
+              "locus": "f69v.14",
+              "voynich": "okeod",
+              "crib_item": 26,
+              "crib_text": "hauriensprimus"
+            },
+            {
+              "locus": "f69v.15",
+              "voynich": "oteeys",
+              "crib_item": 25,
+              "crib_text": "papilio"
+            },
+            {
+              "locus": "f69v.16",
+              "voynich": "oteol",
+              "crib_item": 24,
+              "crib_text": "sidusfortune"
+            },
+            {
+              "locus": "f69v.17",
+              "voynich": "ykeydy",
+              "crib_item": 23,
+              "crib_text": "glutiens"
+            },
+            {
+              "locus": "f69v.18",
+              "voynich": "okeod",
+              "crib_item": 22,
+              "crib_text": "pastor"
+            },
+            {
+              "locus": "f69v.19",
+              "voynich": "saral",
+              "crib_item": 21,
+              "crib_text": "desertum"
+            },
+            {
+              "locus": "f69v.20",
+              "voynich": "saiir",
+              "crib_item": 20,
+              "crib_text": "trabs"
+            },
+            {
+              "locus": "f69v.21",
+              "voynich": "okolar",
+              "crib_item": 19,
+              "crib_text": "caudascorpionis"
+            },
+            {
+              "locus": "f69v.22",
+              "voynich": "ykeody",
+              "crib_item": 18,
+              "crib_text": "corscorpionis"
+            },
+            {
+              "locus": "f69v.23",
+              "voynich": "sarydy",
+              "crib_item": 17,
+              "crib_text": "corona"
+            },
+            {
+              "locus": "f69v.24",
+              "voynich": "otchy",
+              "crib_item": 16,
+              "crib_text": "cornuascorpionis"
+            },
+            {
+              "locus": "f69v.27",
+              "voynich": "okeod",
+              "crib_item": 13,
+              "crib_text": "canis"
+            },
+            {
+              "locus": "f69v.28",
+              "voynich": "okodchy",
+              "crib_item": 12,
+              "crib_text": "caudaleonis"
+            },
+            {
+              "locus": "f69v.29",
+              "voynich": "okeody",
+              "crib_item": 11,
+              "crib_text": "capillus"
+            },
+            {
+              "locus": "f69v.31",
+              "voynich": "oar.alys",
+              "crib_item": 9,
+              "crib_text": "oculusleonis"
+            }
+          ]
+        },
+        {
+          "id": "bench_units:agrippa_first",
+          "score": {
+            "observed": 0.2405868632897273,
+            "null_mean": 0.2708302769134879,
+            "null_sd": 0.05288165051215867,
+            "p_greater": 0.6939,
+            "null_interval_95": [
+              0.17996467148073614,
+              0.3850184227760025
+            ]
+          },
+          "best_phase": {
+            "direction": 1,
+            "start": 22
+          },
+          "tied_best_phases": [
+            {
+              "direction": 1,
+              "start": 22
+            }
+          ],
+          "all_observed_phase_correlations": [
+            0.07509323497182081,
+            -0.1238266759564623,
+            -0.13913354038562908,
+            0.0474496157286288,
+            0.1946346163852651,
+            -0.07051372759131254,
+            0.008552189573347833,
+            0.15712835102314016,
+            -0.06610929363057974,
+            -0.09692442896063268,
+            0.05801672277065405,
+            0.06556031064142955,
+            -0.21306794525800887,
+            0.0072410308555681795,
+            -0.06293651282892763,
+            0.015037068110519695,
+            -0.16459628815608568,
+            0.027715625086695214,
+            0.03557865564801515,
+            -0.11157180351448533,
+            -0.05314717775153658,
+            0.12377487500451498,
+            0.2405868632897273,
+            -0.11226396586722613,
+            0.005051302727827357,
+            0.08057929753511753,
+            0.005123003929525312,
+            0.009827262928438656,
+            0.10636371689430339,
+            0.021039732992402825,
+            0.06294881158974266,
+            0.026386219876631697,
+            0.06256362939126907,
+            -0.02526841111133414,
+            -0.181943905693976,
+            0.08196268686951282,
+            0.09442998289782402,
+            -0.01592399775569139,
+            -0.09491395693018763,
+            0.1395049424796306,
+            0.004237387699427546,
+            -0.009779000240275773,
+            -0.07836816359637369,
+            -0.015414903306784047,
+            -0.11729079742565099,
+            -0.06197740179080762,
+            0.06476353541610128,
+            -0.08133065507265902,
+            -0.2450328270230784,
+            0.03938862798962364,
+            -0.006528744004452025,
+            -0.12785230857689892,
+            0.06814337120729562,
+            0.16182431530498304,
+            0.07791217669476208,
+            -0.06144096389020211
+          ],
+          "phase_alignment_note": "A score-maximizing alignment only, not decoded plaintext.",
+          "best_alignment": [
+            {
+              "locus": "f69v.5",
+              "voynich": "okeo.dy",
+              "crib_item": 24,
+              "crib_text": "sadabath"
+            },
+            {
+              "locus": "f69v.6",
+              "voynich": "ochoyk",
+              "crib_item": 25,
+              "crib_text": "sadalabra"
+            },
+            {
+              "locus": "f69v.7",
+              "voynich": "ykeey",
+              "crib_item": 26,
+              "crib_text": "alpharg"
+            },
+            {
+              "locus": "f69v.10",
+              "voynich": "ytody",
+              "crib_item": 1,
+              "crib_text": "alnath"
+            },
+            {
+              "locus": "f69v.11",
+              "voynich": "okody",
+              "crib_item": 2,
+              "crib_text": "allothaim"
+            },
+            {
+              "locus": "f69v.12",
+              "voynich": "otody",
+              "crib_item": 3,
+              "crib_text": "achaomazon"
+            },
+            {
+              "locus": "f69v.14",
+              "voynich": "okeod",
+              "crib_item": 5,
+              "crib_text": "alchatay"
+            },
+            {
+              "locus": "f69v.15",
+              "voynich": "oteeys",
+              "crib_item": 6,
+              "crib_text": "alhanna"
+            },
+            {
+              "locus": "f69v.16",
+              "voynich": "oteol",
+              "crib_item": 7,
+              "crib_text": "aldimiach"
+            },
+            {
+              "locus": "f69v.17",
+              "voynich": "ykeydy",
+              "crib_item": 8,
+              "crib_text": "alnaza"
+            },
+            {
+              "locus": "f69v.18",
+              "voynich": "okeod",
+              "crib_item": 9,
+              "crib_text": "archaam"
+            },
+            {
+              "locus": "f69v.19",
+              "voynich": "saral",
+              "crib_item": 10,
+              "crib_text": "algelioche"
+            },
+            {
+              "locus": "f69v.20",
+              "voynich": "saiir",
+              "crib_item": 11,
+              "crib_text": "azobra"
+            },
+            {
+              "locus": "f69v.21",
+              "voynich": "okolar",
+              "crib_item": 12,
+              "crib_text": "alzarpha"
+            },
+            {
+              "locus": "f69v.22",
+              "voynich": "ykeody",
+              "crib_item": 13,
+              "crib_text": "alhaire"
+            },
+            {
+              "locus": "f69v.23",
+              "voynich": "sarydy",
+              "crib_item": 14,
+              "crib_text": "achureth"
+            },
+            {
+              "locus": "f69v.24",
+              "voynich": "otchy",
+              "crib_item": 15,
+              "crib_text": "agrapha"
+            },
+            {
+              "locus": "f69v.27",
+              "voynich": "okeod",
+              "crib_item": 18,
+              "crib_text": "alchas"
+            },
+            {
+              "locus": "f69v.28",
+              "voynich": "okodchy",
+              "crib_item": 19,
+              "crib_text": "allatha"
+            },
+            {
+              "locus": "f69v.29",
+              "voynich": "okeody",
+              "crib_item": 20,
+              "crib_text": "abnahaya"
+            },
+            {
+              "locus": "f69v.31",
+              "voynich": "oar.alys",
+              "crib_item": 22,
+              "crib_text": "sadahacha"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "no_holdout": true,
+  "no_decoding_key_assigned": true
+}

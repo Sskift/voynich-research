@@ -1,0 +1,21 @@
+{
+  "status": "FROZEN_BEFORE_MANUSCRIPT_KEY_SEARCH",
+  "hashes": {
+    "notes/experiment-014-design.md": "e00c19a4fd2d071e20e2414778c024a0e77627e847c790276549bc79aba40ed7",
+    "notes/experiment-014-v2-amendment.md": "fafb32d493cae88c0ca14bae01881af65fe746180e4669e8842d979aae5cccaf",
+    "data/german-components-v2/normalization-freeze.json": "77ac39f9d142ef7823ce3d46315a7d7c24ac691b1bb827f4fa5c90d5327a2ebd",
+    "data/german-components-v2/brant-base.json": "e20856e30d588b09060866a3fcdfd0262cc4eaf06c918a97036ec4bd1134279f",
+    "data/german-components-v2/tepl-base.json": "87209c3aa3618298c8a7e1e7c5fcc5441a7b30e14e2922ea97153f88be134b2e",
+    "src/german_components_v2.py": "1b7e85db393c9a80e12e165688f199d492cabcbe508d140d56cc1516443ccf8e",
+    "src/component_search.cpp": "1bc04e7d73a5f35c3b26ac962317af891dc65f9c436c1f61de9fe3b3eefb4490",
+    "bin/component_search": "d0108655d6bc33ac98c2634362f26f0fa59906b7e9c28c3391a0343dbcf78b2e",
+    "src/transcription_units.py": "d3901ba7efd218fa3450a7f17c5a459fda63a4e86dc035667d89662393cb53d0",
+    "data/german-components-v2/manuscript.json": "c3174e1016fb35a47139c1dd85025906399e2ef569d0b1b83e069109d8cb29b9",
+    "data/german-components-v2/language.json": "5b41c84b6adb8bd039e589153886da13c4e1d2f28092da07b815cae2fff6320b",
+    "data/german-components-v2/conditional4.bin": "5585cfc73524f183e08a905fbe57aa13e39de973b9323737dea963c0a1131438",
+    "data/german-components-v2/config-v2.json": "51748dfed459a3151144192641441bbe7e7b35a1daab5bd9761c4a1c7de483c7",
+    "results/german-components-v2/calibration-v2.json": "9dfc7917834e9584305ed9bb9c3c016c9ee41b4d8a3704c84ec8a96ce5cef5d3",
+    "data/german-components-v2/plain-control.json": "e72cc1d88eb1f721f76d9c6b3eb47928370210040f73c072b3c56beee8094983",
+    "data/language-screen/source-freeze.json": "9a439b5c79d04c04b225448b08de2e7ff93ab0097e98b32a6f4bd7c14241314c"
+  }
+}

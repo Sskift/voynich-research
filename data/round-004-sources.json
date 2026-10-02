@@ -1,0 +1,42 @@
+[
+  {
+    "file": "data/raw/q10-index.html",
+    "url": "https://www.voynich.nu/q10/index.html",
+    "bytes": 18808,
+    "sha256": "2f15159cd9ea04213f2031fbbebe33e3b057795656e349bf765e4f0344ff2ec5",
+    "file_mtime_utc": "2026-10-02T03:23:41.456394+00:00",
+    "note": "Acquired during experiment007. Filesystem mtime approximates acquisition completion. Catalogue interpretations are not established plaintext."
+  },
+  {
+    "file": "data/raw/q11-index.html",
+    "url": "https://www.voynich.nu/q11/index.html",
+    "bytes": 23226,
+    "sha256": "5553f82d3c7d016c3a9f7853388e844764239f929cdd24f2870a1d56b172ad64",
+    "file_mtime_utc": "2026-10-02T03:23:41.428394+00:00",
+    "note": "Acquired during experiment007. Filesystem mtime approximates acquisition completion. Catalogue interpretations are not established plaintext."
+  },
+  {
+    "file": "data/raw/q12-index.html",
+    "url": "https://www.voynich.nu/q12/index.html",
+    "bytes": 8452,
+    "sha256": "3a9b4e587c9b9d0228bf87eea1b3a0e34f3fcfe4abafd71e712213e0af9132b6",
+    "file_mtime_utc": "2026-10-02T03:23:41.392394+00:00",
+    "note": "Acquired during experiment007. Filesystem mtime approximates acquisition completion. Catalogue interpretations are not established plaintext."
+  },
+  {
+    "file": "data/images/f72r3-preview.jpg",
+    "url": "https://www.voynich.nu/q11/f072r3_crd.jpg",
+    "bytes": 42880,
+    "sha256": "6c2b8c45a6e65134481b7c860414e4320ce1c71a262de019fa28c57b16f831ee",
+    "file_mtime_utc": "2026-10-02T03:27:28.304185+00:00",
+    "note": "Acquired during experiment007. Filesystem mtime approximates acquisition completion. Catalogue interpretations are not established plaintext."
+  },
+  {
+    "file": "data/images/f72r3-bw-preview.jpg",
+    "url": "https://www.voynich.nu/q11/f072r3_BWcrd.jpg",
+    "bytes": 39794,
+    "sha256": "7decd8bd7694ccb11824ae6566ab854a607c943f305bb6f7fbf34f63c46763c2",
+    "file_mtime_utc": "2026-10-02T03:27:28.388185+00:00",
+    "note": "Acquired during experiment007. Filesystem mtime approximates acquisition completion. Catalogue interpretations are not established plaintext."
+  }
+]

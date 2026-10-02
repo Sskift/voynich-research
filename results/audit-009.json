@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "source_records_independently_reselected": 17089,
+  "source_full_and_block_summaries": 458,
+  "native_loci_rechecked": 1388,
+  "synthetic_controls_regenerated": 24,
+  "cross_work_comparisons": 644,
+  "cross_work_exact_rejections": 491,
+  "paired_brant_chapters": 112,
+  "source_frozen_hashes": 33,
+  "old_solver_frozen_hashes": {
+    "substitution": 8,
+    "homophonic": 10
+  },
+  "limitations": "Checks extraction, units, arithmetic and exact paired invariants; cannot authenticate every historical spelling, estimate whole-language probabilities, prove a cipher family, or decipher the manuscript.",
+  "audited_hashes": {
+    "src/audit_language_constraints.py": "c2385e365cdf5acf4a3c0073ec5f468a15b35abb2e002ceba56ff93ebd2559c9",
+    "data/language-screen/source-freeze.json": "9a439b5c79d04c04b225448b08de2e7ff93ab0097e98b32a6f4bd7c14241314c",
+    "results/language-screen/constraints.json": "245be5f8f05a971080eec6a75ad5a4ef8a36bb253a760584b034e1e8b48c11b3",
+    "results/language-screen/synthetic-controls.json": "a1018fc76048eb3cae1218a7c4d7fc09cb6d8a7c012932c0f79c934c715dea55"
+  }
+}

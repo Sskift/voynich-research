@@ -1,0 +1,13 @@
+{
+  "version": "v1",
+  "seed": 20261014,
+  "restarts": 16,
+  "cycles": 3,
+  "steps_per_cycle": 25000,
+  "temperature": [
+    0.02,
+    5e-05
+  ],
+  "emission_weight": 1,
+  "alphabet": "abcdefghijklmnopqrstuvwxyzäæëößü"
+}

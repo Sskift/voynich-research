@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "meaning": "Reproduction audit, not a translation or global-optimum certificate.",
+  "frozen_hashes": 33,
+  "native_loci": 1388,
+  "recomputed_fit_objectives": 160,
+  "random_label_scores": 999,
+  "regenerated_shuffled_pairs": 9,
+  "mechanical_outputs": 1388
+}

@@ -1,0 +1,10 @@
+{
+  "restarts": 16,
+  "steps_per_cycle": 15000,
+  "cycles": 3,
+  "temperatures": [
+    0.03,
+    0.0001
+  ],
+  "seed": 20261010
+}

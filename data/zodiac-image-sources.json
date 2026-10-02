@@ -1,0 +1,74 @@
+[
+  {
+    "file": "data/images/070r.jpg",
+    "url": "https://www.voynich.com/folios/color/070r.jpg",
+    "bytes": 295659,
+    "sha256": "74b3ef1d14261b04d0355a2bc332ce372b63591ce0d3babaabb3ea71c71c7f5d",
+    "retrieved_utc": "2026-10-02T03:24:38.501464+00:00",
+    "source": "Public mirror, linked by https://www.voynich.com/folios/",
+    "note": "Mirror photograph name must be mapped to zodiac diagram by visual inspection; not an IVTFF page identifier."
+  },
+  {
+    "file": "data/images/070v.jpg",
+    "url": "https://www.voynich.com/folios/color/070v.jpg",
+    "bytes": 221548,
+    "sha256": "4ac9cc9db634d4365779db8efd44cb49d181245dc9d1f84f53873589f50cb6bd",
+    "retrieved_utc": "2026-10-02T03:24:36.209208+00:00",
+    "source": "Public mirror, linked by https://www.voynich.com/folios/",
+    "note": "Mirror photograph name must be mapped to zodiac diagram by visual inspection; not an IVTFF page identifier."
+  },
+  {
+    "file": "data/images/071r.jpg",
+    "url": "https://www.voynich.com/folios/color/071r.jpg",
+    "bytes": 255975,
+    "sha256": "f969e7194abf4df6faa2e6ecbea697eab52c43df938a7aeba458deb2ec593f0f",
+    "retrieved_utc": "2026-10-02T03:24:36.215270+00:00",
+    "source": "Public mirror, linked by https://www.voynich.com/folios/",
+    "note": "Mirror photograph name must be mapped to zodiac diagram by visual inspection; not an IVTFF page identifier."
+  },
+  {
+    "file": "data/images/071v.jpg",
+    "url": "https://www.voynich.com/folios/color/071v.jpg",
+    "bytes": 135401,
+    "sha256": "de118c033d86033563834f8ed63b34809328641639ed997b843b66101706113f",
+    "retrieved_utc": "2026-10-02T03:24:39.901316+00:00",
+    "source": "Public mirror, linked by https://www.voynich.com/folios/",
+    "note": "Mirror photograph name must be mapped to zodiac diagram by visual inspection; not an IVTFF page identifier."
+  },
+  {
+    "file": "data/images/072r.jpg",
+    "url": "https://www.voynich.com/folios/color/072r.jpg",
+    "bytes": 203259,
+    "sha256": "af050da2d813e16651009a46e5a414e1aa3e9608ae7b275b4c7a7d04be887949",
+    "retrieved_utc": "2026-10-02T03:24:38.372443+00:00",
+    "source": "Public mirror, linked by https://www.voynich.com/folios/",
+    "note": "Mirror photograph name must be mapped to zodiac diagram by visual inspection; not an IVTFF page identifier."
+  },
+  {
+    "file": "data/images/072v.jpg",
+    "url": "https://www.voynich.com/folios/color/072v.jpg",
+    "bytes": 230206,
+    "sha256": "61aa7dd689e17126519c1fa7ce43218ffa5c6cfcc6e696037c494729b0c2c227",
+    "retrieved_utc": "2026-10-02T03:24:43.669787+00:00",
+    "source": "Public mirror, linked by https://www.voynich.com/folios/",
+    "note": "Mirror photograph name must be mapped to zodiac diagram by visual inspection; not an IVTFF page identifier."
+  },
+  {
+    "file": "data/images/073r.jpg",
+    "url": "https://www.voynich.com/folios/color/073r.jpg",
+    "bytes": 229201,
+    "sha256": "c0c0d2d1549ce60a55044213454b9f117cdaa5ae2deebd6a1387d19a733e552e",
+    "retrieved_utc": "2026-10-02T03:24:44.870106+00:00",
+    "source": "Public mirror, linked by https://www.voynich.com/folios/",
+    "note": "Mirror photograph name must be mapped to zodiac diagram by visual inspection; not an IVTFF page identifier."
+  },
+  {
+    "file": "data/images/073v.jpg",
+    "url": "https://www.voynich.com/folios/color/073v.jpg",
+    "bytes": 267169,
+    "sha256": "c2aa9c92a81c0f6e6e0f3bcb8ba00e79cca87d35af0ac0c5a9eda443f30c1d9e",
+    "retrieved_utc": "2026-10-02T03:24:45.956947+00:00",
+    "source": "Public mirror, linked by https://www.voynich.com/folios/",
+    "note": "Mirror photograph name must be mapped to zodiac diagram by visual inspection; not an IVTFF page identifier."
+  }
+]

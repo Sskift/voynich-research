@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "frozen_hashes_checked": true,
+  "raw_source_units_and_templates_checked": true,
+  "target_loci_and_uncertainty_masks_checked": true,
+  "all_observed_and_randomized_scores_recomputed": true,
+  "note": "Direct Python membership counts, independent of the experiment lookup-table score matrix; same specified RNG seed.",
+  "runs": [
+    {
+      "source": "ZL",
+      "all_phases_checked": 34,
+      "known_targets": 34,
+      "observed_matches": 4,
+      "direct_p": 0.9704,
+      "permutations_recounted": 9999
+    },
+    {
+      "source": "IT",
+      "all_phases_checked": 34,
+      "known_targets": 32,
+      "observed_matches": 4,
+      "direct_p": 0.9931,
+      "permutations_recounted": 9999
+    },
+    {
+      "source": "GC",
+      "all_phases_checked": 34,
+      "known_targets": 34,
+      "observed_matches": 4,
+      "direct_p": 0.9285,
+      "permutations_recounted": 9999
+    }
+  ]
+}

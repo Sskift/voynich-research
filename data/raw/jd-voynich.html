@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<title>Voyage the Voynich Manuscript</title>
+<meta name="description" content="Voynich Manuscript Viewer by Jason Davies.">
+<style>
+@import url(css/voynich.css);
+</style>
+
+<body>
+<div style="float: left; width: 300px; height: 100%; overflow-y: auto; overflow-x: hidden">
+  <div style="padding: 0 10px">
+    <h1 style="font-size: 1em">Voynich Manuscript Voyager</h1>
+    <p class="by">by <a href="http://www.jasondavies.com/">Jason Davies</a>.
+    <p style="font-size: small; font-style: italic">Zoom and pan these high-resolution scans of the <a href="https://en.wikipedia.org/wiki/Voynich_manuscript">Voynich Manuscript</a>.
+    If you find something interesting, you can bookmark or share the link in your address bar!
+    <p><a href="javascript:void()" id="expand-collapse">Expand/collapse all</a>
+    <ul id="menu"></ul>
+  </div>
+</div>
+<div style="margin-left: 300px; height: 100%">
+  <div id="map" style="position:relative; width:100%; height:100%; background: #000">
+    <div id="nav">
+      <span class="copy">All images courtesy of the <a href="http://beinecke.library.yale.edu/digitallibrary/voynich.html">Beinecke Rare Book and Manuscript Library, Yale University</a>.</span>
+      <a href="#" class="prev">&laquo; Previous</a>
+      <a href="#" class="next">Next &raquo;</a>
+    </div>
+  </div>
+</div>
+<script src="js/underscore.js"></script>
+<script src="js/polymaps.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/quires.js?20130112"></script>
+<script src="js/beinecke.js?20130112"></script>
+<script src="js/sizes.js?20130112"></script>
+<script src="js/voynich.js"></script>
+<script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>

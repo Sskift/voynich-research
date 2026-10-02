@@ -1,0 +1,482 @@
+{
+  "frozen_fit_sha256": "e6afd04aea2a54071809530772221aff6923c9394e7dfa591ba0a8a486c4e78f",
+  "rule": {
+    "id": "suffix:l->s",
+    "side": "suffix",
+    "old": "l",
+    "new": "s",
+    "changed_types": 14
+  },
+  "n_proposals": 22,
+  "n_eligible": 12,
+  "runs": [
+    {
+      "source": "ZL3b-n.txt",
+      "spacing": "split",
+      "n_pairs": 12,
+      "n_changed": 2,
+      "identity_hits": 0,
+      "rewritten_hits": 0,
+      "observed_gain": 0,
+      "exact_null_expected_gain": 0.0,
+      "centered_gain": 0.0,
+      "p_greater_gain": 1.0,
+      "null_gain_variance": 0.0,
+      "null_uninformative": true,
+      "identity_exact_null_expected_hits": 0.1,
+      "identity_p_greater": 1.0,
+      "identity_null_uninformative": false,
+      "strata": {
+        "('A', '1')": 10,
+        "('B', '5')": 1,
+        "('B', '2')": 1
+      },
+      "pairs": [
+        {
+          "fragment": 11,
+          "page": "f88r",
+          "target": "f90r2",
+          "source": "https://www.voynich.nu/q15/index.html#f88r",
+          "word": "ofaldo",
+          "rewritten": "ofaldo",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 25,
+          "page": "f89r1",
+          "target": "f57r",
+          "source": "https://www.voynich.nu/q15/index.html#f89r1",
+          "word": "otoldy",
+          "rewritten": "otoldy",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 28,
+          "page": "f89r1",
+          "target": "f30r",
+          "source": "https://www.voynich.nu/q15/index.html#f89r1",
+          "word": "otorain",
+          "rewritten": "otorain",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 50,
+          "page": "f89v2",
+          "target": "f10v",
+          "source": "https://www.voynich.nu/q15/index.html#f89v2",
+          "word": "okam",
+          "rewritten": "okam",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 80,
+          "page": "f99r",
+          "target": "f51r",
+          "source": "https://www.voynich.nu/q19/index.html#f99r",
+          "word": "oaro",
+          "rewritten": "oaro",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 94,
+          "page": "f99r",
+          "target": "f96v",
+          "source": "https://www.voynich.nu/q19/index.html#f99r",
+          "word": "tolsasy",
+          "rewritten": "tolsasy",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 95,
+          "page": "f99v",
+          "target": "f44r",
+          "source": "https://www.voynich.nu/q19/index.html#f99v",
+          "word": "otoldy",
+          "rewritten": "otoldy",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 110,
+          "page": "f99v",
+          "target": "f34v",
+          "source": "https://www.voynich.nu/q19/index.html#f99v",
+          "word": "otal",
+          "rewritten": "otas",
+          "changed": true,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 116,
+          "page": "f100r",
+          "target": "f96v",
+          "source": "https://www.voynich.nu/q19/index.html#f100r",
+          "word": "sochorcfhy",
+          "rewritten": "sochorcfhy",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 133,
+          "page": "f100v",
+          "target": "f13v",
+          "source": "https://www.voynich.nu/q19/index.html#f100v",
+          "word": "opchor",
+          "rewritten": "opchor",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 136,
+          "page": "f100v",
+          "target": "f90v2",
+          "source": "https://www.voynich.nu/q19/index.html#f100v",
+          "word": "ykchochdy",
+          "rewritten": "ykchochdy",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 225,
+          "page": "f102v2",
+          "target": "f36r",
+          "source": "https://www.voynich.nu/q19/index.html#f102v2",
+          "word": "sarol",
+          "rewritten": "saros",
+          "changed": true,
+          "original_positions": [],
+          "rewritten_positions": []
+        }
+      ]
+    },
+    {
+      "source": "IT2a-n.txt",
+      "spacing": "split",
+      "n_pairs": 12,
+      "n_changed": 2,
+      "identity_hits": 0,
+      "rewritten_hits": 0,
+      "observed_gain": 0,
+      "exact_null_expected_gain": 0.0,
+      "centered_gain": 0.0,
+      "p_greater_gain": 1.0,
+      "null_gain_variance": 0.0,
+      "null_uninformative": true,
+      "identity_exact_null_expected_hits": 0.1,
+      "identity_p_greater": 1.0,
+      "identity_null_uninformative": false,
+      "strata": {
+        "('A', '1')": 10,
+        "('B', '5')": 1,
+        "('B', '2')": 1
+      },
+      "pairs": [
+        {
+          "fragment": 11,
+          "page": "f88r",
+          "target": "f90r2",
+          "source": "https://www.voynich.nu/q15/index.html#f88r",
+          "word": "ofaldo",
+          "rewritten": "ofaldo",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 25,
+          "page": "f89r1",
+          "target": "f57r",
+          "source": "https://www.voynich.nu/q15/index.html#f89r1",
+          "word": "otoldy",
+          "rewritten": "otoldy",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 28,
+          "page": "f89r1",
+          "target": "f30r",
+          "source": "https://www.voynich.nu/q15/index.html#f89r1",
+          "word": "otorain",
+          "rewritten": "otorain",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 50,
+          "page": "f89v2",
+          "target": "f10v",
+          "source": "https://www.voynich.nu/q15/index.html#f89v2",
+          "word": "okam",
+          "rewritten": "okam",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 80,
+          "page": "f99r",
+          "target": "f51r",
+          "source": "https://www.voynich.nu/q19/index.html#f99r",
+          "word": "oaro",
+          "rewritten": "oaro",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 94,
+          "page": "f99r",
+          "target": "f96v",
+          "source": "https://www.voynich.nu/q19/index.html#f99r",
+          "word": "tolsasy",
+          "rewritten": "tolsasy",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 95,
+          "page": "f99v",
+          "target": "f44r",
+          "source": "https://www.voynich.nu/q19/index.html#f99v",
+          "word": "otoldy",
+          "rewritten": "otoldy",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 110,
+          "page": "f99v",
+          "target": "f34v",
+          "source": "https://www.voynich.nu/q19/index.html#f99v",
+          "word": "otal",
+          "rewritten": "otas",
+          "changed": true,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 116,
+          "page": "f100r",
+          "target": "f96v",
+          "source": "https://www.voynich.nu/q19/index.html#f100r",
+          "word": "sochorcfhy",
+          "rewritten": "sochorcfhy",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 133,
+          "page": "f100v",
+          "target": "f13v",
+          "source": "https://www.voynich.nu/q19/index.html#f100v",
+          "word": "opchor",
+          "rewritten": "opchor",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 136,
+          "page": "f100v",
+          "target": "f90v2",
+          "source": "https://www.voynich.nu/q19/index.html#f100v",
+          "word": "ykchochdy",
+          "rewritten": "ykchochdy",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 225,
+          "page": "f102v2",
+          "target": "f36r",
+          "source": "https://www.voynich.nu/q19/index.html#f102v2",
+          "word": "sarol",
+          "rewritten": "saros",
+          "changed": true,
+          "original_positions": [],
+          "rewritten_positions": []
+        }
+      ]
+    },
+    {
+      "source": "ZL3b-n.txt",
+      "spacing": "join",
+      "n_pairs": 12,
+      "n_changed": 2,
+      "identity_hits": 0,
+      "rewritten_hits": 0,
+      "observed_gain": 0,
+      "exact_null_expected_gain": 0.0,
+      "centered_gain": 0.0,
+      "p_greater_gain": 1.0,
+      "null_gain_variance": 0.0,
+      "null_uninformative": true,
+      "identity_exact_null_expected_hits": 0.1,
+      "identity_p_greater": 1.0,
+      "identity_null_uninformative": false,
+      "strata": {
+        "('A', '1')": 10,
+        "('B', '5')": 1,
+        "('B', '2')": 1
+      },
+      "pairs": [
+        {
+          "fragment": 11,
+          "page": "f88r",
+          "target": "f90r2",
+          "source": "https://www.voynich.nu/q15/index.html#f88r",
+          "word": "ofaldo",
+          "rewritten": "ofaldo",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 25,
+          "page": "f89r1",
+          "target": "f57r",
+          "source": "https://www.voynich.nu/q15/index.html#f89r1",
+          "word": "otoldy",
+          "rewritten": "otoldy",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 28,
+          "page": "f89r1",
+          "target": "f30r",
+          "source": "https://www.voynich.nu/q15/index.html#f89r1",
+          "word": "otorain",
+          "rewritten": "otorain",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 50,
+          "page": "f89v2",
+          "target": "f10v",
+          "source": "https://www.voynich.nu/q15/index.html#f89v2",
+          "word": "okam",
+          "rewritten": "okam",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 80,
+          "page": "f99r",
+          "target": "f51r",
+          "source": "https://www.voynich.nu/q19/index.html#f99r",
+          "word": "oaro",
+          "rewritten": "oaro",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 94,
+          "page": "f99r",
+          "target": "f96v",
+          "source": "https://www.voynich.nu/q19/index.html#f99r",
+          "word": "tolsasy",
+          "rewritten": "tolsasy",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 95,
+          "page": "f99v",
+          "target": "f44r",
+          "source": "https://www.voynich.nu/q19/index.html#f99v",
+          "word": "otoldy",
+          "rewritten": "otoldy",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 110,
+          "page": "f99v",
+          "target": "f34v",
+          "source": "https://www.voynich.nu/q19/index.html#f99v",
+          "word": "otal",
+          "rewritten": "otas",
+          "changed": true,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 116,
+          "page": "f100r",
+          "target": "f96v",
+          "source": "https://www.voynich.nu/q19/index.html#f100r",
+          "word": "sochorcfhy",
+          "rewritten": "sochorcfhy",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 133,
+          "page": "f100v",
+          "target": "f13v",
+          "source": "https://www.voynich.nu/q19/index.html#f100v",
+          "word": "opchor",
+          "rewritten": "opchor",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 136,
+          "page": "f100v",
+          "target": "f90v2",
+          "source": "https://www.voynich.nu/q19/index.html#f100v",
+          "word": "ykchochdy",
+          "rewritten": "ykchochdy",
+          "changed": false,
+          "original_positions": [],
+          "rewritten_positions": []
+        },
+        {
+          "fragment": 225,
+          "page": "f102v2",
+          "target": "f36r",
+          "source": "https://www.voynich.nu/q19/index.html#f102v2",
+          "word": "sarol",
+          "rewritten": "saros",
+          "changed": true,
+          "original_positions": [],
+          "rewritten_positions": []
+        }
+      ]
+    }
+  ]
+}

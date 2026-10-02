@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "scope": "Exact necessary constraints relative to stated source envelopes, not a language theorem or decipherment.",
+  "frozen_hash_checks": 79,
+  "reconstructed_source_profiles": 78,
+  "exhaustive_length_cases": 10800,
+  "exhaustive_length_assignments": 139860,
+  "endpoint_witnesses": 9437,
+  "decoded_toy_cases": 4504,
+  "verified_real_cipher_words": 28960,
+  "independently_recomputed_bounds": 39,
+  "native_loci": 1388,
+  "primary_transfer": "PASS",
+  "block_transfer_failures": 0
+}

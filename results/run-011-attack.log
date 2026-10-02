@@ -1,0 +1,11 @@
+SOLVED voynich -3.20590565064439
+SOLVED null-0 -4.83545527640412
+SOLVED null-1 -4.839555037272782
+SOLVED null-2 -4.837731267534614
+SOLVED null-3 -4.835860823357744
+SOLVED null-4 -4.835075446479909
+SOLVED null-5 -4.843220154514465
+SOLVED null-6 -4.8408112962494565
+SOLVED null-7 -4.833918859038235
+SOLVED null-8 -4.819538622278455
+ATTACK COMPLETE {'train': {'conditional4': np.float64(-2.8072433623527777), 'emission_per_window': -0.39866228829162786, 'combined': np.float64(-3.2059056506444055), 'windows': 28347, 'sixgram_seen': 0.24705347330124683, 'sixgram_hits': 6519, 'sixgram_windows': 26387, 'word_seen': 0.15808338049424636, 'word_hits': 838, 'complete_words_ge3': 5301}, 'development': {'conditional4': np.float64(-2.7866114942927913), 'emission_per_window': -0.3867315674510069, 'combined': np.float64(-3.1733430617437985), 'windows': 5504, 'sixgram_seen': 0.2595553822152886, 'sixgram_hits': 1331, 'sixgram_windows': 5128, 'word_seen': 0.1784313725490196, 'word_hits': 182, 'complete_words_ge3': 1020}, 'reserve': {'conditional4': np.float64(-2.884948269141172), 'emission_per_window': -0.408733678693694, 'combined': np.float64(-3.2936819478348656), 'windows': 11215, 'sixgram_seen': 0.23231286167631138, 'sixgram_hits': 2489, 'sixgram_windows': 10714, 'word_seen': 0.1418403660396543, 'word_hits': 279, 'complete_words_ge3': 1967}}

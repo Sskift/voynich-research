@@ -1,0 +1,17 @@
+{
+ "f88r":{"images":["data/images/088r.jpg"],"coverage":"whole page"},
+ "f88v":{"images":["data/images/088v.jpg"],"coverage":"left panel"},
+ "f89r1":{"images":["data/images/088v.jpg"],"coverage":"middle panel"},
+ "f89r2":{"images":["data/images/088v.jpg"],"coverage":"right foldout panel"},
+ "f89v2":{"images":["data/images/089r.jpg"],"coverage":"whole foreground page; mirror filename misleading"},
+ "f89v1":{"images":["data/images/089v.jpg"],"coverage":"left panel"},
+ "f99r":{"images":["data/images/099r.jpg"],"coverage":"whole page"},
+ "f99v":{"images":["data/images/099v.jpg"],"coverage":"whole page"},
+ "f100r":{"images":["data/images/100r.jpg"],"coverage":"whole page"},
+ "f100v":{"images":["data/images/100v.jpg"],"coverage":"left panel"},
+ "f101v":{"images":["data/images/101r.jpg","data/images/101v.jpg"],"coverage":"101r.jpg foreground is left half (old f101v2), including labels 1–4 and 10–13; 101v.jpg left panel is right half (old f101v1), including labels 5–9 and 14–18"},
+ "f102r1":{"images":["data/images/101v.jpg"],"coverage":"middle panel"},
+ "f102r2":{"images":["data/images/101v.jpg"],"coverage":"right foldout panel"},
+ "f102v2":{"images":["data/images/102r.jpg"],"coverage":"whole foreground page; mirror filename misleading"},
+ "f102v1":{"images":["data/images/102v.jpg"],"coverage":"whole foreground page"}
+}

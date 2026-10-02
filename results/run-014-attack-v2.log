@@ -1,0 +1,12 @@
+FIT voynich -3.1301347955036847
+ACTUAL SCORED {'train': {'conditional4': -3.0523683354520155, 'emission_per_window': -0.07776646005166832, 'combined': -3.130134795503684, 'windows': 34059, 'sixgram_seen': 0.11939316051781965, 'sixgram_hits': 3809, 'sixgram_windows': 31903, 'word_seen': 0.06222534716118826, 'word_hits': 354, 'complete_words_ge3': 5689}, 'development': {'conditional4': -3.047961224783531, 'emission_per_window': -0.06903797606819184, 'combined': -3.1169992008517227, 'windows': 6718, 'sixgram_seen': 0.12416851441241686, 'sixgram_hits': 784, 'sixgram_windows': 6314, 'word_seen': 0.062218214607754736, 'word_hits': 69, 'complete_words_ge3': 1109}, 'reserve': {'conditional4': -3.559717286270734, 'emission_per_window': -0.0638986423739058, 'combined': -3.62361592864464, 'windows': 13045, 'sixgram_seen': 0.08494177699792631, 'sixgram_hits': 1065, 'sixgram_windows': 12538, 'word_seen': 0.03011170471102477, 'word_hits': 62, 'complete_words_ge3': 2059}, 'score_reserve_f1r': {'conditional4': -3.081175663268175, 'emission_per_window': -0.07206309868014066, 'combined': -3.153238761948316, 'windows': 952, 'sixgram_seen': 0.11345939933259176, 'sixgram_hits': 102, 'sixgram_windows': 899, 'word_seen': 0.06832298136645963, 'word_hits': 11, 'complete_words_ge3': 161}}
+FIT null-0 -4.9317340215249335
+FIT null-1 -4.913203357110614
+FIT null-2 -4.9155832081485835
+FIT null-3 -4.918837236745511
+FIT null-4 -4.925714198881059
+FIT null-5 -4.91836779718086
+FIT null-6 -4.9174617731667105
+FIT null-7 -4.933132312433389
+FIT null-8 -4.922785295836134
+ATTACK COMPLETE {'conditional4': -3.081175663268175, 'emission_per_window': -0.07206309868014066, 'combined': -3.153238761948316, 'windows': 952, 'sixgram_seen': 0.11345939933259176, 'sixgram_hits': 102, 'sixgram_windows': 899, 'word_seen': 0.06832298136645963, 'word_hits': 11, 'complete_words_ge3': 161}

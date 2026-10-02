@@ -1,0 +1,8 @@
+{
+  "status": "FROZEN_BEFORE_CONTROL_TRANSFER",
+  "hashes": {
+    "data/variable-frequency/input-freeze.json": "60303e07724ccaeb69467f6fe2385f114b7527e659ceaa3ecbac6df20bb770f3",
+    "results/variable-frequency/toys.json": "569f4777c47184eac8ec8fae5ae83830a9d9cb36b5eabb5b669a3289cad054ed",
+    "data/variable-frequency/references.json": "d2a78999f326219bff389b275ea1666fa496bf21cccc1ebc345581453ff5d6d2"
+  }
+}

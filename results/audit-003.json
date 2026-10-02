@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "frozen_fit_sha256_unchanged": true,
+  "training_input_hashes_unchanged": true,
+  "catalog_proposals_complete": 22,
+  "primary_external_pairs": 12,
+  "training_labels": 114,
+  "disjoint_training_word_types_and_herbal_pages": true,
+  "independently_scored_candidates": 670,
+  "selected_rule": "suffix:l->s",
+  "independently_recomputed_max_score": 0.004616805170821792,
+  "external_zero_hit_counts_confirmed": true,
+  "positional_profile_support_counts_checked": true
+}

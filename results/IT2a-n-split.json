@@ -1,0 +1,404 @@
+{
+  "source": "IT2a-n.txt",
+  "uncertain_spaces": "split",
+  "seed": 20261002,
+  "randomizations": 1999,
+  "audit": {
+    "loci": 5215,
+    "pages": 225,
+    "paragraphs": 772,
+    "raw_token_slots": 37919,
+    "accepted_tokens": 37759,
+    "rejected_tokens": 160,
+    "eligible_P0_lines": 3837
+  },
+  "q_followers": {
+    "o": 5284,
+    "e": 66,
+    "c": 23,
+    "k": 19,
+    "y": 7,
+    "a": 6,
+    "s": 2,
+    "p": 2,
+    "t": 2,
+    "<END>": 1,
+    "f": 1,
+    "l": 1
+  },
+  "paragraph": {
+    "pf_token_rates": {
+      "first": {
+        "hits": 1507,
+        "n": 6710,
+        "rate": 0.22459016393442624
+      },
+      "other": {
+        "hits": 349,
+        "n": 26364,
+        "rate": 0.013237748444849037
+      }
+    },
+    "gallows_line_start_rates": {
+      "first": {
+        "hits": 612,
+        "n": 704,
+        "rate": 0.8693181818181818
+      },
+      "other": {
+        "hits": 276,
+        "n": 3120,
+        "rate": 0.08846153846153847
+      }
+    },
+    "n_paired_pages": 202,
+    "mean_page_difference_pf": 0.23538220335906246,
+    "page_bootstrap_95ci": [
+      0.21714853783881524,
+      0.2541449802825279
+    ],
+    "permutation_p_greater": 0.0005
+  },
+  "line_final_m": {
+    "n_lines": 3746,
+    "edge_rate": 0.16524292578750668,
+    "nonedge_line_mean_rate": 0.010023526813593081,
+    "paired_difference": 0.1552193989739136,
+    "page_bootstrap_95ci": [
+      0.1368525604273674,
+      0.17301900931935466
+    ],
+    "permutation_p_greater": 0.0005,
+    "null_sd": 0.002789912726207269,
+    "by_currier": {
+      "?": {
+        "n": 33,
+        "mean": 0.2393939393939394
+      },
+      "A": {
+        "n": 1426,
+        "mean": 0.10689011462462499
+      },
+      "B": {
+        "n": 2287,
+        "mean": 0.18413929387912772
+      }
+    },
+    "by_scribe": {
+      "1": {
+        "n": 1347,
+        "mean": 0.09816232672907638
+      },
+      "2": {
+        "n": 1084,
+        "mean": 0.13505673805489304
+      },
+      "3": {
+        "n": 1198,
+        "mean": 0.23092286122336206
+      },
+      "4": {
+        "n": 28,
+        "mean": 0.28214285714285714
+      },
+      "5": {
+        "n": 89,
+        "mean": 0.20539463657441187
+      }
+    }
+  },
+  "line_initial_gallows": {
+    "n_lines": 3746,
+    "edge_rate": 0.23384943940202882,
+    "nonedge_line_mean_rate": 0.05979033494408804,
+    "paired_difference": 0.1740591044579408,
+    "page_bootstrap_95ci": [
+      0.15549842051335128,
+      0.19057077281367515
+    ],
+    "permutation_p_greater": 0.0005,
+    "null_sd": 0.004683141180360332,
+    "by_currier": {
+      "?": {
+        "n": 33,
+        "mean": 0.23543661725479906
+      },
+      "A": {
+        "n": 1426,
+        "mean": 0.1334337433909951
+      },
+      "B": {
+        "n": 2287,
+        "mean": 0.19850436329448137
+      }
+    },
+    "by_scribe": {
+      "1": {
+        "n": 1347,
+        "mean": 0.1278308881865236
+      },
+      "2": {
+        "n": 1084,
+        "mean": 0.1709023013681685
+      },
+      "3": {
+        "n": 1198,
+        "mean": 0.22604376007965324
+      },
+      "4": {
+        "n": 28,
+        "mean": 0.2519686662543806
+      },
+      "5": {
+        "n": 89,
+        "mean": 0.1879051348152472
+      }
+    }
+  },
+  "repetition_full_line": {
+    "n_lines": 3746,
+    "n_pairs": 28650,
+    "observed_equal_pairs": 273,
+    "expected_equal_pairs": 257.91229550642595,
+    "observed_rate": 0.009528795811518324,
+    "null_expected_rate": 0.009002174363226036,
+    "ratio": 1.0584993610480975,
+    "null_mc_mean": 258.06853426713354,
+    "null_mc_sd": 13.808891732995626,
+    "permutation_p_greater": 0.1485,
+    "page_bootstrap_excess_rate_95ci": [
+      -0.0005426267281512526,
+      0.0016734886923526198
+    ]
+  },
+  "repetition_interior": {
+    "n_lines": 3445,
+    "n_pairs": 20960,
+    "observed_equal_pairs": 236,
+    "expected_equal_pairs": 249.5615624840453,
+    "observed_rate": 0.011259541984732824,
+    "null_expected_rate": 0.01190656309561285,
+    "ratio": 0.9456584485645207,
+    "null_mc_mean": 249.76088044022012,
+    "null_mc_sd": 12.556532839209826,
+    "permutation_p_greater": 0.879,
+    "page_bootstrap_excess_rate_95ci": [
+      -0.0020562636712835817,
+      0.0006990676820595407
+    ]
+  },
+  "suffix_screen": {
+    "training_nonfinal_tokens": 16376,
+    "training_types": 4012,
+    "heldout_final_m_tokens": 299,
+    "candidates": [
+      {
+        "replacement": "KEEP",
+        "n_test": 299,
+        "in_train": 137,
+        "coverage": 0.45819397993311034,
+        "mean_log2_score": -13.583869594284092
+      },
+      {
+        "replacement": "",
+        "n_test": 299,
+        "in_train": 109,
+        "coverage": 0.36454849498327757,
+        "mean_log2_score": -14.159753856772083
+      },
+      {
+        "replacement": "r",
+        "n_test": 299,
+        "in_train": 226,
+        "coverage": 0.7558528428093646,
+        "mean_log2_score": -11.146824350177607
+      },
+      {
+        "replacement": "l",
+        "n_test": 299,
+        "in_train": 213,
+        "coverage": 0.7123745819397993,
+        "mean_log2_score": -11.435242657990027
+      },
+      {
+        "replacement": "n",
+        "n_test": 299,
+        "in_train": 60,
+        "coverage": 0.20066889632107024,
+        "mean_log2_score": -14.481317898288738
+      },
+      {
+        "replacement": "y",
+        "n_test": 299,
+        "in_train": 28,
+        "coverage": 0.09364548494983277,
+        "mean_log2_score": -14.88571422517066
+      },
+      {
+        "replacement": "in",
+        "n_test": 299,
+        "in_train": 185,
+        "coverage": 0.6187290969899666,
+        "mean_log2_score": -11.96471420344105
+      },
+      {
+        "replacement": "iin",
+        "n_test": 299,
+        "in_train": 212,
+        "coverage": 0.7090301003344481,
+        "mean_log2_score": -11.10285393204827
+      },
+      {
+        "replacement": "iiin",
+        "n_test": 299,
+        "in_train": 113,
+        "coverage": 0.3779264214046823,
+        "mean_log2_score": -13.93156949046382
+      }
+    ],
+    "test_type_counts": {
+      "dam": 26,
+      "am": 25,
+      "qokam": 11,
+      "otam": 11,
+      "om": 8,
+      "ram": 7,
+      "okam": 6,
+      "alam": 6,
+      "oram": 5,
+      "olkam": 5,
+      "dom": 4,
+      "cham": 4,
+      "aim": 4,
+      "kam": 4,
+      "sam": 4,
+      "chom": 3,
+      "orom": 3,
+      "cheam": 3,
+      "m": 3,
+      "dalam": 3,
+      "opam": 3,
+      "qotam": 3,
+      "lcheam": 3,
+      "lom": 3,
+      "alom": 3,
+      "chedam": 3,
+      "lkam": 3,
+      "cthom": 2,
+      "ykam": 2,
+      "odam": 2,
+      "oldam": 2,
+      "aram": 2,
+      "okeeam": 2,
+      "daram": 2,
+      "olom": 2,
+      "darom": 2,
+      "sham": 2,
+      "ytam": 2,
+      "dalom": 2,
+      "tam": 2,
+      "tedam": 2,
+      "raram": 2,
+      "pchdam": 2,
+      "chotam": 2,
+      "qokaram": 2,
+      "rodam": 2,
+      "kchom": 1,
+      "dchm": 1,
+      "okchom": 1,
+      "ypaim": 1,
+      "chypcham": 1,
+      "doiiram": 1,
+      "otcheolom": 1,
+      "okeom": 1,
+      "otardam": 1,
+      "tom": 1,
+      "ctham": 1,
+      "aldalosam": 1,
+      "fardam": 1,
+      "daisam": 1,
+      "ytchdam": 1,
+      "daiim": 1,
+      "aldam": 1,
+      "olkardam": 1,
+      "talam": 1,
+      "sholalam": 1,
+      "choltam": 1,
+      "ealam": 1,
+      "arodaim": 1,
+      "ytaipom": 1,
+      "sheoctham": 1,
+      "olfcham": 1,
+      "ylam": 1,
+      "oalchdm": 1,
+      "cheotam": 1,
+      "chekam": 1,
+      "rom": 1,
+      "qokalom": 1,
+      "otaram": 1,
+      "lolom": 1,
+      "sheam": 1,
+      "lram": 1,
+      "damom": 1,
+      "araram": 1,
+      "oltam": 1,
+      "aiodam": 1,
+      "alkam": 1,
+      "dalkalytam": 1,
+      "ytaiim": 1,
+      "saim": 1,
+      "oreeem": 1,
+      "rolkam": 1,
+      "okeeom": 1,
+      "okeam": 1,
+      "airam": 1,
+      "saiim": 1,
+      "teedaram": 1,
+      "okaim": 1,
+      "aisam": 1,
+      "cholcham": 1,
+      "dadam": 1,
+      "chaim": 1,
+      "adam": 1,
+      "orodam": 1,
+      "qetam": 1,
+      "dkedam": 1,
+      "otedam": 1,
+      "chckhom": 1,
+      "cseam": 1,
+      "keam": 1,
+      "chectham": 1,
+      "okalam": 1,
+      "lchedam": 1,
+      "okeearam": 1,
+      "oam": 1,
+      "oteeam": 1,
+      "lokam": 1,
+      "lam": 1,
+      "lkaim": 1,
+      "cheom": 1,
+      "daim": 1,
+      "otaim": 1,
+      "gm": 1,
+      "chctham": 1,
+      "llm": 1,
+      "liiram": 1,
+      "qopam": 1,
+      "taram": 1,
+      "oriim": 1,
+      "olam": 1,
+      "qckham": 1,
+      "otcham": 1,
+      "cheoram": 1,
+      "lteam": 1,
+      "okchedam": 1,
+      "qtam": 1,
+      "ralom": 1,
+      "qopcham": 1,
+      "kchetam": 1,
+      "lcham": 1,
+      "cholaiim": 1
+    },
+    "warning": "Vocabulary compatibility only; neither allography nor meaning established."
+  }
+}

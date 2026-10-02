@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "raw_transcription_and_mask_checked": true,
+  "frozen_hashes_checked": true,
+  "repeated_word_contradiction_checked": true,
+  "independent_full_DP_and_scalar_Pearson": true,
+  "score_scope": "All336 observed phase scores recomputed independently; random samples were not independently regenerated. Exchangeability groups and reported observed family maximum checked.",
+  "models": [
+    {
+      "model": "eva_letters:latin_symbols",
+      "direct_max_correlation": 0.1949328430334256,
+      "phases_checked": 56
+    },
+    {
+      "model": "eva_letters:latin_expanded",
+      "direct_max_correlation": 0.17708867726350078,
+      "phases_checked": 56
+    },
+    {
+      "model": "eva_letters:agrippa_first",
+      "direct_max_correlation": 0.22611162800200935,
+      "phases_checked": 56
+    },
+    {
+      "model": "bench_units:latin_symbols",
+      "direct_max_correlation": 0.2082806902974789,
+      "phases_checked": 56
+    },
+    {
+      "model": "bench_units:latin_expanded",
+      "direct_max_correlation": 0.19339947363131355,
+      "phases_checked": 56
+    },
+    {
+      "model": "bench_units:agrippa_first",
+      "direct_max_correlation": 0.24058686328972753,
+      "phases_checked": 56
+    }
+  ]
+}

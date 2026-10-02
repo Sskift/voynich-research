@@ -1,0 +1,17 @@
+{
+  "seed": 20261025,
+  "restarts": 16,
+  "cycles": 3,
+  "steps_per_cycle": 25000,
+  "polish_passes": 20,
+  "temperature": [
+    0.02,
+    5e-05
+  ],
+  "criterion": {
+    "edit_accuracy": 0.95,
+    "word_accuracy": 0.85,
+    "length_ratio_min": 0.95,
+    "length_ratio_max": 1.05
+  }
+}

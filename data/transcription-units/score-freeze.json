@@ -1,0 +1,8 @@
+{
+  "status": "SCORING_FIX_FROZEN_BEFORE_SUCCESSFUL_PROFILE_EXPORT",
+  "reason": "v1 failed solely because in-memory word-length histogram keys are integers while JSON-loaded keys are strings. All GC full statistics match after JSON key conversion for each split. No new-language comparison values inspected.",
+  "files": {
+    "src/transcription_units_score.py": "6511be560886138d1d5778b6fbcdd7801a63cac311cf0cc573a5d58d39cd0a71",
+    "data/transcription-units/selection-freeze.json": "ccc8f41ec7bb6839347e7f30ddb1f369562941abe3b4e26b7a6ea401562a839b"
+  }
+}

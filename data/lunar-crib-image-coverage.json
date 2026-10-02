@@ -1,0 +1,44 @@
+{
+  "voynich_spread": {
+    "file": "data/images/069v.jpg",
+    "ivtff_pages_left_to_right": [
+      "f69v",
+      "f70r1",
+      "f70r2"
+    ],
+    "viewed": true
+  },
+  "tiles_viewed": [
+    "data/images/f69v-jd-z4-y1-x0.jpg",
+    "data/images/f69v-jd-z4-y1-x1.jpg",
+    "data/images/f69v-jd-z4-y1-x2.jpg",
+    "data/images/f69v-jd-z4-y1-x3.jpg",
+    "data/images/f69v-jd-z4-y2-x0.jpg",
+    "data/images/f69v-jd-z4-y2-x1.jpg",
+    "data/images/f69v-jd-z4-y2-x2.jpg",
+    "data/images/f69v-jd-z4-y2-x3.jpg",
+    "data/images/f69v-jd-z4-y3-x1.jpg",
+    "data/images/f69v-jd-z4-y3-x2.jpg",
+    "data/images/f69v-jd-z4-y3-x3.jpg"
+  ],
+  "tiles_downloaded_not_viewed": [
+    "data/images/f69v-jd-z4-y4-x1.jpg",
+    "data/images/f69v-jd-z4-y4-x2.jpg",
+    "data/images/f69v-jd-z4-y4-x3.jpg"
+  ],
+  "leupold_descriptor_pages": [
+    {
+      "file": "data/images/leupold-1489-canvas11.jpg",
+      "signature": "a6r",
+      "items": "1-5"
+    },
+    {
+      "file": "data/images/leupold-1489-canvas12.jpg",
+      "signature": "a6v",
+      "items": "6-28"
+    }
+  ],
+  "observation_scope": "Nonblind original-image layout comparison. Radial texts face inward. Clockwise sequence and clockwise clock annotations agree overall. Small original tiles were inspected without rotating or repainting glyphs; a complete independent paleographic reading of28 labels was NOT performed.",
+  "repeat_evidence": "The exact okeod repeat relies on ZL/IT agreement at f69v.14,.18,.27. Image views do not constitute a third independent transcription.",
+  "historical_reading_note": "Leupold prints Latin descriptors with zodiac symbols. Item7 shows Leo, unlike the Gemini wording in Agrippa English; retain the source discrepancy. Arabic-derived names come from the later Agrippa edition only."
+}

@@ -1,0 +1,1587 @@
+<!DOCTYPE HTML>
+<HTML LANG="en">
+
+<HEAD>
+  <META NAME="keywords" CONTENT="Voynich, manuscript">
+  <TITLE>Voynich MS - Text Analysis - Transliteration of the Text</TITLE>
+  <META charset=utf-8>
+  <LINK REL=stylesheet TYPE="text/css" HREF="vmsnv.css">
+</HEAD>
+
+<BODY>
+
+<TABLE CLASS="btn">
+
+  <TR>
+    <TD><A HREF="toc.html"><IMG SRC="img/btn/TOC.jpg" ALT="Contents"></A></TD>
+    <TD><A HREF="index.html"><IMG SRC="img/btn/start.jpg" ALT="Home"></A></TD>
+    <TD><A HREF="intro.html"><IMG SRC="img/btn/top.jpg" ALT="Top"></A></TD>
+    <TD><A HREF="writing.html"><IMG SRC="img/btn/prev.jpg" ALT="Prev"></A></TD>
+    <TD><A HREF="analysis.html"><IMG SRC="img/btn/next.jpg" ALT="Next"></A></TD>
+  </TR>
+
+  <TR>
+    <TD><A HREF="roadmap.html"><IMG SRC="img/btn/map.jpg" ALT="Map"></A></TD>
+    <TD><A HREF="refs.html"><IMG SRC="img/btn/refs.jpg" ALT="Refs"></A></TD>
+    <TD><A HREF="gallery.html"><IMG SRC="img/btn/pics.jpg" ALT="Pics"></A></TD>
+    <TD><A HREF="gloss.html"><IMG SRC="img/btn/gloss.jpg" ALT="Search"></A></TD>
+    <TD><A HREF="folios.html"><IMG SRC="img/btn/folios.jpg" ALT="Pages"></A></TD>
+  </TR>
+
+</TABLE>
+
+<H1>Text Analysis - Transliteration of the Text</H1>
+
+<H2>Introduction</H2>
+
+<P>
+The main mystery of the Voynich MS is clearly its unknown writing. This topic is addressed from three 
+different aspects, on three (sets of) pages: 
+</P>
+
+<DIV>
+<UL>
+  <LI>A look at the writing system, describing its main properties, and similarities and differences 
+      with other known writing systems;</LI>
+  <LI>Transliteration of the text;</LI>
+  <LI>Statistical analysis of the text of the MS (further subdivided into five areas).</LI>
+</UL>
+</DIV>
+
+<P>
+This page addresses the second part, the transliteration of the text. It summarises historical transliteration 
+efforts and describes the present state of affairs. This page is highly relevant for those who are interested 
+in the interpretation of the Voynich MS text, but it can be skipped by those who are not.
+</P>
+
+<P>
+A <A HREF="#links">table at the bottom of this page</A> 
+provides links to the main transliteration files.
+</P>
+
+<P>
+There is a <A HREF="extra/sp_transcr.html">second page</A> addressing some more specific topics related 
+to Voynich MS transliteration. Links to it are provided where relevant.
+</P>
+
+<H2>Purpose and terminology</H2>
+
+<P>
+The purpose of <SPAN CLASS="emph">transliteration</SPAN> of the text is the conversion of the handwritten text 
+of the Voynich MS into a computer-readable format (file). The aim of this is to allow computer software to 
+analyse the text, for example in order to derive statistics or to aid the interpretation and ideally translation 
+of the text. 
+</P>
+
+<P>
+Already in the 1976 seminar about the Voynich MS led by Mary D'Imperio
+<A HREF="#n01">(1)</A>
+this process was called 'transcription' and to my best knowledge this term has been used ever since, in 
+all discussions and publications about the MS. It has also been used throughout this web site until May 2019, 
+when the difference between transcription and transliteration was clarified to me by a professional linguist
+<A HREF="#n02">(2)</A>.
+In his words:
+</P>
+
+<BLOCKQUOTE>
+Transcription means a transformation of a text such that it will be substituted by another text made by a 
+well-known alphabet of phonetic symbols. This is only possible in case we already know how the text reads. 
+<BR>
+[...]
+<BR>
+Transliteration is a symbol-by-symbol conversion of one script into another. Transliteration is used for 
+practical purposes, but does not represent any hypothesis on the original pronunciation of the source text. 
+The distinctive feature of transliteration is that it preserves the source text and is reversible. 
+The phonetic data could be totally missing, or not yet available, or irrelevant.
+</BLOCKQUOTE>
+
+
+<P>
+The first time that this type of transliteration was exercised was by William Friedman after WWII, for 
+processing by so-called 'tabulating machines'. Many years before that, in the 1930's, Fr. Th. Petersen 
+of the Catholic University of America already made a complete hand-written copy 
+(in this case a transcription) of the MS using a 
+complete photocopy of the MS and in some cases, in order to transcribe difficult parts, the actual MS. 
+This document, in which he added many interesting annotations, is still preserved in the William F. Friedman 
+collection of the Marshall Library in Lexington (Va) 
+<A HREF="#n03">(3)</A>.
+</P>
+
+<P>
+A transliteration should be clearly distinguished from a proposed translation of the text. The only 
+purpose of a transliteration is to represent each handwritten character in the MS by a symbol in a 
+computer-readable file in a consistent manner. It doesn't really matter which symbol is used for which 
+character. Ever since the 1940's, different people have used different conventions, or transliteration 
+alphabets.
+</P>
+
+<H2>History</H2>
+
+<H3 ID="FSG">FSG</H3>
+
+<P>
+The earliest well-known transliteration of large parts of the Voynich MS was made in the 1940's by the 
+so-called First Study Group (FSG) of William Friedman, which was 
+<A HREF="solvers.html#friedman">briefly mentioned here</A>.
+The group was working from photostatic copies of the pages of the MS, and they worked with a transliteration 
+alphabet agreed by all members of the team. Because of the desire for secrecy by Friedman, for a very 
+long time nobody outside his team was aware of this transliteration exercise or the alphabet they used.
+</P>
+
+<P>
+The Friedman transliteration was never meant to be a complete transliteration of all text in the MS. 
+They decided to concentrate on the linear text written in paragraphs, and not to bother with the complicated 
+diagrams with labels and text written in circles. This is very clear from handwritten annotatations made 
+on the source copies saying "omit punch" or "punch just this".
+</P>
+  
+<P>
+The FSG transliteration alphabet uses capital letters and numbers. It has a rather unusual method (by 
+later standards) for transliterating the 'intruding gallows', namely by using a dedicated symbol (Z) 
+for the pedestal (<SPAN CLASS="Eva">&#xE063;&#xE068;</SPAN>).
+</P>
+
+<P>
+The FSG transliteration effort is described in detail in Reeds (1995)
+<A HREF="#n04">(4)</A>.
+A printout of the transliteration was discovered by Jim Reeds in the above-mentioned Marshall library, 
+and together with Jacques Guy he entered it in computer readable form. The resulting file is
+<A HREF="hist/reeds/FSG.txt">mirrored here</A>.
+This transliteration is not complete for the reasons mentioned above. It is one of the five main 
+transliterations of the Voynich MS that is used at this site, and will be reffered to with the 
+two-letter code FG.
+</P>
+
+<H4 ID="Benn">Bennett</H4>
+
+<P>
+In 1976 Prof. William R. Bennett of Yale University published a book on the use of the computer to 
+analyse certain properties of language and text 
+<A HREF="#n05">(5)</A>.
+In this book, he dedicated a chapter to an analysis of the Voynich MS text, and for this purpose he 
+needed a transliteration alphabet. Bennett's alphabet has not been used outside of this publication. 
+The transliteration was made from photographs and stored on paper tape. As reported by Brumbaugh
+<A HREF="#n06">(6)</A>, 
+Bennett was assisted in his Voynich MS analysis by Jonina Duker, who was then a sophomore student
+<A HREF="#n07">(7)</A>.
+</P>
+
+<H4 ID="Curr">Currier</H4>
+
+<P>
+Roughly at the same time, the cryptanalist Prescott Currier started a major transliteration effort, 
+using an alphabet he designed independently. This alphabet uses the capital letters A-Z and the numbers 
+0-9 (i.e. all 36). It does not represent some characters which the FSG alphabet does, and it uses single 
+characters for what appear to be composite characters in the MS. When Currier presented his findings at 
+the 1976 Voynich MS symposium, Mary D'Imperio suggested that it would be important that all researchers 
+use a unified alphabet. She had also started transliterating parts of the MS using her own alphabet, 
+which she abandoned in favour of Currier's, and the two files were merged. 
+The combined transliteration of Currier and D'Imperio, and the transliteration alphabet designed by 
+Currier, have been used well into the 1990's, also in the earliest years of the internet. 
+This is the second main transliteration used at this site, and in the following it will be referred 
+to by the two-letter code CD.
+</P>
+
+<P>
+Table 1 shows the three above-mentioned alphabets together.
+</P>
+
+<TABLE CLASS="cen">
+
+  <TR>
+    <TH>Char</TH>
+    <TH>Bennett</TH>
+    <TH>FSG</TH>
+    <TH>Currier</TH>
+    <TH> &nbsp; </TH>
+    <TH>Char</TH>
+    <TH>Bennett</TH>
+    <TH>FSG</TH>
+    <TH>Currier</TH>
+
+  </TR>
+
+  <TR>
+    <TD><IMG SRC="img/eva/q.gif" ALT="q"></TD>
+    <TD>D</TD> <TD>4</TD> <TD>4</TD>
+    <TD> &nbsp; </TD>
+    <TD><IMG SRC="img/eva/i.gif" ALT="i"></TD>
+    <TD>I</TD> <TD>I</TD> <TD>I</TD>
+  </TR>
+
+  <TR>
+    <TD><IMG SRC="img/eva/o.gif" ALT="o"></TD>
+    <TD>O</TD> <TD>O</TD> <TD>O</TD>
+    <TD> &nbsp; </TD>
+    <TD><IMG SRC="img/eva/il.gif" ALT="il"></TD>
+    <TD>IL</TD><TD>IE</TD> <TD>G</TD>
+  </TR>
+
+  <TR>
+    <TD><IMG SRC="img/eva/d.gif" ALT="d"></TD>
+    <TD>S</TD><TD>8</TD> <TD>8</TD>
+    <TD> &nbsp; </TD>
+    <TD><IMG SRC="img/eva/iil.gif" ALT="iil"></TD>
+    <TD>IIL</TD><TD>IIE</TD> <TD>H</TD>
+  </TR>
+
+  <TR>
+    <TD><IMG SRC="img/eva/y.gif" ALT="y"></TD>
+    <TD>G</TD><TD>G</TD> <TD>9</TD>
+    <TD> &nbsp; </TD>
+    <TD><IMG SRC="img/eva/iiil.gif" ALT="iiil"></TD>
+    <TD>IIIL</TD><TD>IIIE</TD> <TD>1</TD>
+  </TR>
+
+  <TR>
+    <TD><IMG SRC="img/eva/s.gif" ALT="s"></TD>
+    <TD>Z</TD><TD>2</TD> <TD>2</TD>
+    <TD> &nbsp; </TD>
+    <TD><IMG SRC="img/eva/ir.gif" ALT="ir"></TD>
+    <TD>IQ</TD><TD>IR</TD> <TD>T</TD>
+  </TR>
+
+  <TR>
+    <TD><IMG SRC="img/eva/l.gif" ALT="l"></TD>
+    <TD>L</TD><TD>E</TD> <TD>E</TD>
+    <TD> &nbsp; </TD>
+    <TD><IMG SRC="img/eva/iir.gif" ALT="iir"></TD>
+    <TD>IIQ</TD><TD>IIR</TD> <TD>U</TD>
+  </TR>
+
+  <TR>
+    <TD><IMG SRC="img/eva/r.gif" ALT="r"></TD>
+    <TD>Q</TD><TD>R</TD> <TD>R</TD>
+    <TD> &nbsp; </TD>
+    <TD><IMG SRC="img/eva/iiir.gif" ALT="iiir"></TD>
+    <TD>IIIQ</TD><TD>IIIR</TD> <TD>0</TD>
+  </TR>
+
+  <TR>
+    <TD><IMG SRC="img/eva/ch.gif" ALT="ch"></TD>
+    <TD>CT</TD><TD>T</TD> <TD>S</TD>
+    <TD> &nbsp; </TD>
+    <TD><IMG SRC="img/eva/n.gif" ALT="n"></TD>
+    <TD>U</TD><TD>L</TD> <TD>D</TD>
+  </TR>
+
+  <TR>
+    <TD><IMG SRC="img/eva/sh.gif" ALT="sh"></TD>
+    <TD>ET</TD><TD>S</TD> <TD>Z</TD>
+    <TD> &nbsp; </TD>
+    <TD><IMG SRC="img/eva/in.gif" ALT="in"></TD>
+    <TD>N</TD><TD>N (*)</TD> <TD>N</TD>
+  </TR>
+
+  <TR>
+    <TD><IMG SRC="img/eva/t.gif" ALT="t"></TD>
+    <TD>H</TD><TD>H</TD> <TD>P</TD>
+    <TD> &nbsp; </TD>
+    <TD><IMG SRC="img/eva/iin.gif" ALT="iin"></TD>
+    <TD>M</TD> <TD>M (*)</TD> <TD>M</TD>
+  </TR>
+
+  <TR>
+    <TD><IMG SRC="img/eva/p.gif" ALT="p"></TD>
+    <TD>P</TD><TD>P</TD> <TD>B</TD>
+    <TD> &nbsp; </TD>
+    <TD><IMG SRC="img/eva/iiin.gif" ALT="iiin"></TD>
+    <TD>IM</TD><TD>IIIL</TD> <TD>3</TD>
+  </TR>
+
+  <TR>
+    <TD><IMG SRC="img/eva/k.gif" ALT="k"></TD>
+    <TD>K</TD><TD>D</TD> <TD>F</TD>
+    <TD> &nbsp; </TD>
+    <TD><IMG SRC="img/eva/m.gif" ALT="m"></TD>
+    <TD>&nbsp;</TD><TD>K</TD> <TD>J</TD>
+  </TR>
+
+  <TR>
+    <TD><IMG SRC="img/eva/f.gif" ALT="f"></TD>
+    <TD>F</TD><TD>F</TD> <TD>V</TD>
+    <TD> &nbsp; </TD>
+    <TD><IMG SRC="img/eva/im.gif" ALT="im"></TD>
+    <TD>&nbsp;</TD><TD>IK</TD> <TD>K</TD>
+  </TR>
+
+  <TR>
+    <TD><IMG SRC="img/eva/cth.gif" ALT="cth"></TD>
+    <TD>CHT</TD><TD>HZ</TD> <TD>Q</TD>
+    <TD> &nbsp; </TD>
+    <TD><IMG SRC="img/eva/iim.gif" ALT="iim"></TD>
+    <TD>&nbsp;</TD><TD>IIK</TD> <TD>L</TD>
+  </TR>
+
+  <TR>
+    <TD><IMG SRC="img/eva/cph.gif" ALT="cph"></TD>
+    <TD>CPT</TD><TD>PZ</TD> <TD>W</TD>
+    <TD> &nbsp; </TD>
+    <TD><IMG SRC="img/eva/iiim.gif" ALT="iiim"></TD>
+    <TD>&nbsp;</TD><TD>IIIK</TD> <TD>5</TD>
+  </TR>
+
+  <TR>
+    <TD><IMG SRC="img/eva/ckh.gif" ALT="ckh"></TD>
+    <TD>CKT</TD><TD>DZ</TD> <TD>X</TD>
+    <TD> &nbsp; </TD>
+    <TD><IMG SRC="img/eva/g.gif" ALT="g"></TD>
+    <TD>&nbsp;</TD><TD>(6)</TD> <TD>6</TD>
+  </TR>
+
+  <TR>
+    <TD><IMG SRC="img/eva/cfh.gif" ALT="cfh"></TD>
+    <TD>CFT</TD><TD>FZ</TD> <TD>Y</TD>
+    <TD> &nbsp; </TD>
+    <TD><IMG SRC="img/eva/j.gif" ALT="j"></TD>
+    <TD>&nbsp;</TD><TD>(7)</TD> <TD>7</TD>
+  </TR>
+
+  <TR>
+    <TD><IMG SRC="img/eva/a.gif" ALT="a"></TD>
+    <TD>A</TD> <TD>A</TD> <TD>A</TD>
+    <TD> &nbsp; </TD>
+    <TD><IMG SRC="img/eva/x.gif" ALT="x"></TD>
+    <TD>Y</TD> <TD>Y</TD> <TD>(n)</TD>
+  </TR>
+
+  <TR>
+    <TD><IMG SRC="img/eva/e.gif" ALT="e"></TD>
+    <TD>C</TD> <TD>C</TD> <TD>C</TD>
+    <TD> &nbsp; </TD>
+    <TD><IMG SRC="img/eva/v.gif" ALT="v"></TD>
+    <TD>V</TD> <TD>V</TD> <TD>(v)</TD>
+  </TR>
+
+</TABLE>
+
+<P CLASS="centr">
+<SPAN CLASS="emph">Table 1: definition of the main historic alphabets</SPAN> 
+</P>
+
+<P>
+(*) Note: Tiltman used the FSG alphabet, but instead of
+N and M wrote IL and IIL.
+</P>
+
+<P>
+One thing that immediately appears from this table is that the various researchers did not agree on 
+what constitutes a single character in the Voynich MS text. 
+</P>
+
+<P>
+Later, Jim Reeds showed that many characters in the Voynich MS cannot be represented exactly by any 
+of the existing alphabets. There are some 'rare' characters, and in addition there are what appear 
+to be ligatures of several characters. These characters have traditionally been called 'weirdoes', 
+though here I will use the term 'rare characters'. Jim Reeds produced a document with an overview 
+of these rare characters, calling them 'X1' to 'X128'. An excerpt of this little known document is 
+shown below.
+<BR>
+&nbsp;
+</P>
+
+<P CLASS="centr">
+<IMG SRC="img/extra/reeds_wn.gif" WIDTH=850 HEIGHT=429 ALT="rare characters">
+<BR>
+<SPAN CLASS="emph">Table 2: early identification of rare characters in the MS</SPAN> 
+</P>
+
+<H4>Transliteration in the age of the WWW</H4>
+
+<P>
+With the emergence of the "World Wide Web" and the start of the Voynich mailing list, transliteration 
+of the parts that were still missing from Currier's and D'Imperio's efforts was continued using 
+Currier's alphabet. A number of characters using lower case were added to this alphabet. 
+These are already included (in parentheses) in Table 1. As part of this effort, 
+a file format for this transliteration file was adopted, about 
+which more will be said further below. 
+</P>
+
+<P>
+In parellel to this, a completely new type of transliteration alphabet was designed:
+</P>
+   
+<H4 ID="Guy">Frogguy</H4>
+
+<P>
+The 'Frogguy' transliteration alphabet was designed by Jacques Guy in 1991. It uses lower-case characters, 
+numbers and diacritical marks. Rather than representing complete characters, it represents the 'strokes' 
+or minims of the script of the Voynich MS. As a result of this approach, it creates a reasonably 
+close similarity between the script and the transliterated text. At the same time, some characters in the MS 
+which may be assumed to be a single character are represented by several using this alphabet. 
+By its nature, it is the first alphabet that allows to properly represent many of the ligatured characters 
+that were mentioned above. Jacques Guy also introduced the so-called 'capitalisation rule' which means 
+that a character that is connected to the following one should be represented by a capital letter. 
+The Frogguy transliteration alphabet and its use are explained in great in a locally preserved copy of
+<A HREF="hist/guy/tutorial.html">Jacques' tuturial</A>
+or alternatively in a shorter set of 
+<A HREF="hist/guy/frogguy.html">linked images</A>. 
+It may be of interest to show an example of this alphabet:
+</P>
+
+<P>
+<SPAN CLASS="Eva"> 
+&#xE064;&#xE061;&#xE069;&#xE069;&#xE06E;
+&#xE071;&#xE06F;&#xE074;&#xE065;&#xE064;&#xE079;
+&#xE064;&#xE061;&#xE072;
+&#xE06F;&#xE063;&#xE068;&#xE06F;&#xE06C;
+&#xE06F;&#xE073;&#xE061;&#xE072;&#xE06F;&#xE072;
+</SPAN>
+<BR>
+8aiiv &nbsp;&nbsp; 4oqpc89 &nbsp; 8a2 &nbsp; octox &nbsp; osa2o2
+</P>
+
+<P>
+An additional important contribution from Jacques Guy was a tool that allowed translation of transliteration 
+files from one alphabet to another. This tool was called 'bitrans', was written in Pascal and ran in DOS. 
+It could handle complex translation rules, such as needed for the Currier alphabet, where, 
+for example, the translation of the character <SPAN CLASS="Eva">&#xE069;</SPAN> depends on context.
+</P>
+
+<P>
+The Frogguy alphabet is the closest in appearance to the Voynich MS text, and it solves the main inconsistency 
+of the Currier alphabet, namely that Currier synthesised strings of consecutive <SPAN CLASS="Eva">&#xE069;</SPAN> 
+characters into single characters, while this was not done for strings of consecutive 
+<SPAN CLASS="Eva">&#xE065;</SPAN> characters
+<A HREF="#n08">(8)</A>.
+However, it has a distinct disadvantage in that it is not very well suited for the type of numerical 
+analysis mentioned at the top of this page, primarily because of its frequent use of the apostrophe, 
+and to a lesser extent the mixture of letters and numbers. No signficant transliterations have been made 
+using this alphabet.
+</P>
+
+<P>
+When Gabriel Landini and myself embarked on a new transliteration of the MS, a project that we named 
+"EVMT" at the time, we decided that a new alphabet, but one based on the principles of Frogguy, would 
+be needed.
+</P>
+
+<H4 ID="Eva">Landini-Zandbergen: Eva</H4>
+
+<P>
+EVA originally stood for European Voynich Alphabet, but later became 'Extensible Voynich Alphabet'. 
+It was designed to be similar to Frogguy, but to use only alphabetical characters. It was designed by 
+Gabriel Landini and myself with important contributions and suggestions from Jacques Guy. Its design 
+was part of a larger scheme which included:
+</P>
+
+<UL>
+ <LI>The need to be able to represent the entire text of the Voynich MS, including previously missing 
+     parts, e.g. some of the text outside the standard paragraphs.</LI>
+ <LI>The alphabet had to be a superset of FSG, Currier and Frogguy, such that a conversion of all 
+     existing transliteration to Eva would be possible and reversible
+<A HREF="#n09">(9)</A>.
+</LI>
+ <LI>A clear way to idenfity rare characters, inspired by the list of Reeds shown in Table 2.</LI> 
+ <LI>Standardisation of the transliteration file format, including a standard way to identify the 
+     location of all text items in the MS (called <SPAN CLASS="forn">loci</SPAN> in the following).</LI>
+ <LI>The capability to design a True Type Font that accurately represents the Voynich MS text
+<A HREF="#n10">(10)</A>.
+ </LI>
+</UL>
+
+<P>
+To achieve this, we heavily relied on the above-mentioned 'bitrans'.
+</P>
+
+<P>
+'Basic Eva' is the set of lower case characters that was identified, and 'Extended Eva' includes the 
+representation of all types of rare characters. The basic Eva alphabet was chosen such that the 
+transliterated text is almost pronouncible. This excellent idea from Gabriel was not to be able to 
+'speak Voynichese', but to make it very easy for the human brain to recognise and remember transliterated 
+words.
+</P>
+
+<P>
+The rare characters can be classified into three categories:
+</P>
+
+<OL>
+  <LI>Unusual or rare single characters</LI>
+  <LI>Ligatures of only 'Basic Eva' characters</LI>
+  <LI>Ligatures including rare single characters</LI>
+</OL>
+
+<P>
+These were all identified in the course of the transliteration exercise, which was based on two 
+documents: the Petersen handwritten copy of the MS already mentioned above
+<A HREF="#n03">(see note 3)</A>,
+and the Yale "copyflo"
+<A HREF="#n11">(11)</A>.
+As it turned out, there were three single characters that might be called unusual because they did 
+not appear in any of the previously defined transliteration alphabets, but which occurred several 
+times in the MS. These three characters: <SPAN CLASS="Eva">&#xE062;</SPAN>, 
+<SPAN CLASS="Eva">&#xE075;</SPAN> and <SPAN CLASS="Eva">&#xE07A;</SPAN> 
+were assigned their own 'Basic Eva' letter (b, u and z respectively). 
+The table of Basic Eva is included here:
+</P>
+
+<P CLASS="centr">
+<IMG SRC="img/extra/eva01.gif" WIDTH=640 HEIGHT=1032 ALT="basic Eva">
+<BR>
+<SPAN CLASS="emph">Table 3: definition of 'Basic Eva'</SPAN> 
+</P>
+
+<P>
+What appears from this table is that the characters <SPAN CLASS="Eva">&#xE069;&#xE06E;</SPAN> and 
+<SPAN CLASS="Eva">&#xE069;&#xE069;&#xE06E;</SPAN>
+that have typically been considered units, and transliterated as N and M 
+in both FSG and Currier, are transliterated in Eva as "in" and "iin". 
+It is very important to point out that Eva is not attempting to identify semantic units in the text. 
+It simply represents in an electronic form the shapes that are seen in the MS. 
+It is left to a later step by analysts to decide which combinations should be seen as units. 
+There is probably no right answer to this question, and the problems how to transliterate these 
+strings of minims is addressed in a dedicated area.
+</P>
+
+<TABLE CLASS="btn"><TR>
+<TD><IMG SRC="img/btn/rdmore.gif" WIDTH=200 HEIGHT=26 ALT="more"></TD>
+<TD><A HREF="extra/sp_analysis.html#iiii">
+Strings of i's</A></TD>
+</TR></TABLE>
+
+<P>
+While defining the alphabet, individual rare characters, or rare parts of ligatures, were assigned a 
+'high ASCII' code, and the way to include them into transliteration files is defined as follows: 
+@185; for ascii code 185
+<A HREF="#n12">(12)</A>.
+Table 4 shows all such rare characters addording to the latest version of the complete definition
+<A HREF="#n13">(13)</A>.
+</P>
+
+<P CLASS="centr">
+<IMG SRC="img/extra/eva01x_RZ.gif" WIDTH=738 HEIGHT=778 ALT="ext. Eva">
+<BR>
+<SPAN CLASS="emph">Table 4: the 'Extended Eva' character set</SPAN> 
+</P>
+
+<P>
+This table has been re-drawn using the latest Eva-2 font. A full explanation by Gabriel Landini may be found here:
+<A HREF="hist/www_old.html#gabriel">link to Eva-2 reference (2025)</A>.
+</P>
+ 
+<P>
+Ligatures of characters may be represented in two ways. The first is the previously mentioned capitalisation 
+rule introduced already by Jacques Guy. As Table 3 with the definition of basic Eva shows, this method allows 
+an accurate representation of the text using the Eva True Type font. A capitalised character always connects 
+to the next one. In addition, there are the following special cases:
+</P>
+
+<UL>
+<LI>c / <SPAN CLASS="Eva">&#xE063;</SPAN> and q / <SPAN CLASS="Eva">&#xE071;</SPAN> 
+    already connect to the right, so 
+    there is no need to capitalise them</LI>
+<LI>h / <SPAN CLASS="Eva">&#xE068;</SPAN> and H / <SPAN CLASS="Eva">&#xE048;</SPAN> 
+additionally connect to the left</LI>
+<LI>E / <SPAN CLASS="Eva">&#xE045;</SPAN> connects at the bottom.</LI>
+</UL>
+
+<P>
+Often, the characters Sh, cTh, cKh, cPh and cFh are simply written as sh, cth, ckh, sph and cfh respectively. 
+This is more convenient, but it has the result that their rendition in the True Type Font is sub-optimal.
+</P>
+
+<P>
+The second way to indicate ligatures in transliteration files, which is more intuitive for the human reader, 
+is to enclose the connected characters in curly brackets
+<A HREF="#n14">(14)</A>.
+Table 5 shows examples of this.
+</P>
+
+<TABLE CLASS="cen">
+
+<TR>
+ <TH>EVA</TH>
+ <TH>Capitalised EVA</TH>
+ <TH>Using TTF</TH>
+</TR>
+
+<TR>
+ <TD>{ao}</TD> <TD>Ao</TD>
+ <TD><SPAN CLASS="Eva">&#xE041;&#xE06F;</SPAN></TD>
+</TR>
+
+<TR>
+ <TD>{cthh}ey</TD> <TD>cTHhey</TD>
+ <TD><SPAN CLASS="Eva">&#xE063;&#xE054;&#xE048;&#xE068;&#xE065;&#xE079;</SPAN></TD>
+</TR>
+
+<TR>
+ <td>{yk}</td> <td>Yk</td>
+ <td><SPAN CLASS="Eva">&#xE059;&#xE06B;</SPAN></td>
+</TR>
+
+<TR>
+ <td>{c@245;h}y</td> <td>c@245;hy</td>
+ <td><SPAN CLASS="Eva">&#xE063;&#xE0F5;&#xE068;&#xE079;</SPAN></td>
+</TR>
+
+</TABLE>
+
+<P CLASS="centr">
+<SPAN CLASS="emph">Table 5: use of ligatures and the capitalisation rule</SPAN> 
+</P>
+
+<H4 ID="TT">Takeshi Takahashi</H4>
+
+<P>
+The Eva alphabet, primarily in its basic form, found great reception in the community, and it was used by 
+the Japanese Takeshi Takahashi to produce a new transliteration, also based on the Yale "copyflo"
+<A HREF="#n11">(see note 11)</A>,
+which was the first that could be considered essentially complete. He used 'capitalised Eva' to represent 
+all benched or pedestalled characters, e.g. 'Sh' for <SPAN CLASS="Eva">&#xE053;&#xE068;</SPAN>. 
+He has also updated his transliteration over time, based on reports from users. This is the third main 
+transliteration at this site, and it is referred to by the two-letter code TT.
+It is published by Takeshi at his web site (for which see the
+<A HREF="#links">table with links</A> near the bottom of this page. Alternative forms derived from this are 
+available in several places, see for example the following section.
+</P>
+
+<H4 ID="LSI">The interlinear transliteration file</H4>
+
+<P>
+Based on an initial effort by Jim Reeds, Gabriel Landini collected the important older transliterations 
+mentioned above into a single <SPAN CLASS="forn">interlinear</SPAN> file, meaning that they were presented 
+together line by line. They were all converted into Eva, since this conversion is consistent and reversible, 
+as mentioned above.
+</P>
+
+<P>
+The brazilian Jorge Stolfi took this interlinear file and put a very significant effort into improving it, 
+adding further transliterations. This included the complete transliteration of Takeshi Takahashi 
+(status of 1999), where he converted the capitalised Eva to lower case. He also added his own 
+transliterations and partial transliterations from several others, for example John Grove. 
+As a result, this interlinear file has become the <SPAN CLASS="forn">de facto</SPAN> source for 
+transliteration data. In the following, it will be referred to as the Landini-Stolfi Interlinear file, 
+with the abbreviation LSI.
+</P>
+ 
+<P>
+It includes in particular the above-mentioned version of the Takeshi Takahashi transliteration, in its 
+version of 1999. This copy of the Takahashi transliteration will be referred to with the two-letter
+code IT.
+</P>
+  
+<P>
+The above-mentioned EVMT project was partially completed, and led to two complete, but different 
+transliterations. Alignment of the two versions was started, but not completed. 
+The resulting files, which may be referred to as LZ, were never published.
+</P>
+
+<P>
+At a later stage, and as will be explained further below, my own part of this 
+transliteration has been gradually improved, and is now publicly available. 
+This is the fourth main transliteration used at this site, and it is referred to 
+with the two-letter code ZL. The character 'L' acknowledges the important influence 
+of Gabriel Landini in creating this transliteration.
+</P>
+
+<H4 ID="v101">v101</H4>
+
+<P>
+A few years later, Glen Claston, who referred to himself as "GC", embarked on a complete 
+transliteration of the Voynich MS and devised a transliteration alphabet which he called 
+Voynich 101 (here v101 for short). 
+The v101 alphabet was designed to keep stroke combinations that appeared to him to be single signs as 
+single characters. Furthermore, it distinguishes between several variants of characters that were 
+considered to be one and the same in all previous alphabets. He transliterated the entire text of the 
+Voynich MS using this alphabet. Following is his definition of the alphabet, and allocation to ASCII values.
+</P>
+
+<P CLASS="centr">
+<IMG SRC="img/extra/v101a_RZ.gif" WIDTH=495 HEIGHT=592 ALT="v101 low">
+<BR>
+<SPAN CLASS="emph">Table 6: the v101 basic character set</SPAN> 
+</P>
+
+<P CLASS="centr">
+<IMG SRC="img/extra/v101b_RZ.gif" WIDTH=689 HEIGHT=721 ALT="v101 high">
+<BR>
+<SPAN CLASS="emph">Table 7: the v101 extended character set</SPAN> 
+</P>
+ 
+<P>
+These tables have been re-drawn using the v101 font. The original tables by GC may be found here:
+<A HREF="img/extra/v101a.jpg">IMG: v101 keyboard assignments</A> ,
+<A HREF="img/extra/v101b.jpg">IMG: v101 extended glyphset</A>.
+&nbsp;
+<A HREF="#n15">(15)</A>
+</P>
+ 
+<P>
+Also for the v101 alphabet a True Type font has been designed, and like the Eva font it allows 
+high-quality rendition of the Voynich MS text in electronic documents (HTML, Word). 
+Also this font can be downloaded at the
+<A HREF="roadmap.html#fonts">site map</A>.
+This is the fifth main transliteration used at the site, and in the following, it will be indicated 
+by the two-letter code GC. 
+</P>
+
+<H2 ID="standard">Standardisation and other improvements</H2>
+
+<H3>Introduction</H3>
+
+<P>
+Around the year 2017, I decided to review the achievements and problem areas, and to embark 
+on a gradual activity to improve the general status of Voynich MS transliteration data. 
+In the following, I will fast forward through the work that has been done up to present. 
+Links to more detailed explanations are provided.
+</P>
+
+<H4>Achievements</H4>
+
+<P>
+Several independent transliterations of the Voynich MS are available. Among the ones listed above 
+there are a few that are almost complete:
+</P>
+
+<UL>
+ <LI>
+  The Landini-Zandbergen ("LZ") transliteration, which was, however, never published.
+ </LI>
+ <LI>
+  The Zandbergen-Landini ("ZL") file, which has been extracted from this.
+ </LI>
+ <LI>
+  Takeshi Takahashi's transliteration ("TT").
+ </LI>
+ <LI>
+  The Landini-Stolfi Interlinear ("LSI") file. The (older) version of the transliteration by 
+  Takeshi Takahashi, that is included in it ("IT"), is by itself almost complete. 
+ </LI>
+ <LI>
+  The v101 transliteration by Glen Claston ("GC").
+ </LI>
+</UL>
+
+<H4>Problem areas</H4>
+
+<P>
+Transliteration of the Voynich MS is particularly difficult, because one cannot read the text. 
+One has no help from context. The biggest problem is to decide whether two almost-similar-looking 
+written shapes are two different ones, or two representations of the same one, where the variation 
+is just caused by handwriting variations. 
+While transliterating, one is continually forced to make such decisions, and it is unavoidable 
+that these are subjective.
+</P>
+
+<P>
+A similar problem exists in deciding about word spaces. Sometimes, characters are offset just a 
+bit and it is hard to decide whether there is a space or not. 
+Traditionally, word spaces have been indicated by a period (.) in transliteration files, 
+while whitespace is irrelevant and used occasionally to improve the layout. 
+Even the introduction of the comma to represent an uncertain space does not completely resolve this problem. 
+</P>
+
+<P>
+One way out of both these problems would be to have these decision made more objectively, i.e. by 
+a piece of software (OCR) but it will take a bit more time before we can do this.
+</P>
+   
+<P>
+A second general problem is the lack of standards. As mentioned above, the transliteration files 
+all have rather significant differences in format. There is no place where they are all collected 
+together. Of the interlinear file there are also several versions. 
+Takeshi Takahashi's transliteration is represented in HTML format, separated into individual web 
+pages for each MS page. This makes it very suitable for browsing, but less for text processing.
+</P>
+
+<P>
+Until the year 2017 it was impossible to present the "GC" transliteration in any of the standard 
+formats, because many of the symbols that have a special meaning for annotation in the "LSI" 
+(and the "LZ") file are representations of Voynich MS text characters in the "GC" transliteration. 
+A solution to this problem had to be found.
+</P>
+ 
+<P>
+Finally, it is almost always impossible to repeat analyses done by others since one doesn't know which 
+data they used, and there isn't really any clear way how they could have specified it. 
+The file format(s) used nowadays are far removed from modern representation standards. 
+Already more than a decade ago, Rafa&#0322; Prinke suggested the use of TEI (Text Encoding Initiative) 
+but it never took off. There are a few more comments about this general topic on the
+<A HREF="myviews.html#tools">final page of this site</A>,
+and a more detailed description of the problem and its resolution is provided on a separate page:
+</P>
+
+<TABLE CLASS="btn"><TR>
+<TD><IMG SRC="img/btn/rdmore.gif" WIDTH=200 HEIGHT=26 ALT="more"></TD>
+<TD><A HREF="extra/sp_transcr.html#nextgen">
+Next-generation transliteration of the text</A></TD>
+</TR></TABLE>
+
+<H4 ID="file">Common transliteration file format</H4>
+
+<P>
+For analysis of the various Voynich MS text transliterations, it is highly desirable that these 
+transliterations are contained in files with a well-defined (standardised) format. 
+Such files should be 'annotated', meaning that they include so-called metadata, which is not the 
+text itself, but information about the text. This metadata should indicate, for example, for each 
+particular piece of text on which folio or page it is located, and where it is on the page. 
+This location information was called the <SPAN CLASS="forn">locus</SPAN>, 
+a term that I shall continue to use. Additional 
+relevant information about the pages or the text may be included. Analysis software should be 
+able to either interpret this information or to ignore it. 
+</P>
+
+<P>
+Closest to a standard was the format of the Stolfi-Landini interlinear file, but this did not allow
+representation of the GC transliteration file. Still, it was used as the basis for the new 
+standard. As a first step, and as mentioned already above, I took my own part of the EVMT transliteration 
+effort, as one of the inputs to this process, in order to also make it publicly available.
+This activity, which is 
+<A HREF="extra/sp_transcr.html#newfmt">described here in considerable detail</A>, 
+was completed in three stages:
+</P>
+
+<DIV>
+<OL>
+  <LI>To make an inventory of the main existing transliteration files, and to identify all text locations 
+      (<SPAN CLASS="forn">loci</SPAN>) included in them.</LI>
+  <LI>To resolve all inconsistencies in the <SPAN CLASS="forn">locus</SPAN> definitions used by different 
+      transcribers</LI>
+  <LI>To identify and resolve all format issues, in particular clashes between the use of individual characters, 
+      on the one hand as annotation, and the other as elements of one of the transliteration alphabets.</LI>  
+</OL>
+</DIV>
+
+<P>
+In this exercise, I included the 'IT' version of Takeshi Takahashi's transliteration, i.e. the version
+included in the LSI file, rather than the 'TT' version which was difficult to access.
+Stage 2 was a complicated process of comparing the transliteration files with each other and with
+the manuscript images, in order to consolidate what are the different text items, and in which
+order they should be presented. In stage 3, especially the v101 alphabet caused some clashes with symbols
+used for annotation in the LSI file, which had to be resolved.
+</P>
+
+<P>
+The result of this exercise was the definition of a new format, which I have called IVTFF 
+(Intermediate Voynich Transliteration File Format). The complete format description 
+(version 2.0 of February 2023) is presented
+<A HREF="software/ivtt/IVTFF_format.pdf">in this PDF document</A>. 
+The description of the previous version (version 1.7 of April 2020) is still preserved on a page 
+with some
+<A HREF="extra/legacy.html">legacy items</A>.
+</P>
+
+<P>
+Some of the main features of this format are:
+</P>
+
+<DIV>
+<UL>
+<LI>There are dedicated lines to indicate the start of a new page.</LI>
+<LI>Some properties of each page are included on these lines, using so-called page variables.
+Tools can easily access these variables in order to select data.</LI>
+<LI>There are dedicated lines to show the contents of each locus</LI>
+<LI>There are four types of locus: P: running text in paragraphs, L: labels and
+single words or characters, C: writing along circles, R: writing along radii of circles</LI>
+<LI>Locus subtypes allow a further distinction (e.g. different types of labels)</LI>
+<LI>The transliteration may be in any of the Currier, FSG, Eva or v101 alphabets</LI>
+<LI>A file header indicates the file format version and which alphabet is used in the file</LI>
+</UL>
+</DIV>
+
+<P>
+The five main files (FSG, Currier/D'Imperio, Takahashi, Zandbergen-Landini and Claston)
+have all been converted to the new format, and they can be retrieved through
+links provided in a
+<A HREF="#links">table near the bottom of this page</A>,
+together with later additions which will be described in the following.
+</P>
+
+<P>
+To pre-process all files in IVTFF format, a tool called IVTT is available.
+This tool can remove any combination of this metadata, but also select/delete parts of the text
+based on any combination of this metadata. 
+</P>
+
+<TABLE CLASS="btn"><TR>
+<TD><IMG SRC="img/btn/rdmore.gif" WIDTH=200 HEIGHT=26 ALT="more"></TD>
+<TD><A HREF="extra/sp_transcr.html#ivtt">
+Voynich Transliteration Tool</A></TD>
+</TR></TABLE>
+
+<H4 ID="sta">Superset of all transliteration alphabets: STA</H4>
+
+<P>
+Having all transliterations in a single standard format is clearly a great advantage, but
+it is still cumbersome, if not impossible, to compare the transliterated text contained in
+any two files in detail. 
+For that, it would be helpful if they were all represented in the same transliteration alphabet.
+This principle was already explored
+<A HREF="extra/sp_transcr.html#nextgen">on the parallel page with special topics</A>.
+</P>
+ 
+<P>
+I therefore decided to go ahead and define a Super Transliteration Alphabet, a superset of existing
+alphabets. The concept is explained by the following figure.
+</P>
+
+<P CLASS="centr">
+<IMG SRC="extra/img/sp_alphabets.gif" WIDTH=480 HEIGHT=332 ALT="alphabets">
+</P>
+
+<P CLASS="centr">
+<SPAN CLASS="emph">Figure 1: the hierarchical relationship between transliteration 
+alphabets</SPAN> 
+</P>
+
+<P>
+It shows the dependencies of all main transliteration alphabets that are discussed at this site.
+The arrows both mean: "is based on" and "fully includes", in the sense that the 'higher' alphabet can 
+fully represent texts expressed in the 'lower' alphabet. In the opposite direction this is generally 
+not the case. The figure shows that it is sufficient to make a superset of Extended Eva and v101, 
+as this automatically captures all other alphabets. 
+</P>
+
+<P>
+The process of creating this superset is explained in considerable detail on
+<A HREF="extra/sta.html">a dedicated page</A>.
+This work was first presented at the 2022 Voynich MS Conference, as the
+first keynote talk on 30 November: "Transliteration of the Voynich MS text"
+<A HREF="#n17">(17)</A>. 
+</P>
+
+<P>
+The first decision was to make this superset a synthetic alphabet, similar to Currier or v101. 
+This was done to avoid making too many subjective decisions related to the v101 alpabet.
+Since both Eva and v101 have of the order of 200 characters, the combination would certainly have even more. 
+A single character will not be enough to represent each character in this new alphabet, so
+it was decided to represent all Voynich characters in STA by two 
+Ascii characters. For this, all characters in the Voynich MS have been subdivided into groups, 
+or rather 'character families'.
+</P>
+
+<P>
+Characters that appear similar will be part of the same family. 
+Families are identified by a single capital letter. 
+The specific characters in each family will be called family members and are identified by a
+second character, where frequent characters are identified by a digit (1-9) and the
+rare ones by a lower-case character (a-z).
+</P>
+
+<P>
+Both the identification of the different families, and the list of members in each family, has been
+achieved through an iterative process. This would have been an impossible task without a tool like
+the afore-mentioned 'bitrans'. As the original source code was lost, this has been recreated from
+scratch, and it is introduced in more detail on
+<A HREF="extra/sp_transcr.html#bitrans">another page</A>.
+This tool will also be of significant use for future users of the STA transliteration files. 
+</P>
+
+<P>
+The list of families with the most important family members is shown in 
+<A HREF="data/sta/STA1-families.pdf">this PDF document</A>.
+Inevitably, there could be many other equivalent results, but some of the main reasons for 
+this design stem from the Voynich MS text complications mentioned before. Much more information
+about these aspects is provided on the
+<A HREF="extra/sta.html">dedicated page</A>.
+</P>
+ 
+<P>
+The detailed STA definition (after 16 intermediate versions) is provided in
+<A HREF="data/sta/STA1_def.pdf">this PDF document</A>.
+An example of Voynich MS text expressed in STA is included in Figure 2. 
+The top row includes a short line of writing that was taken from the fifth line of 
+<A HREF="../q05/index.html#f36v">f36v</A>.
+</P> 
+
+<P CLASS="centr">
+<IMG SRC="extra/img/sp_sta.png" WIDTH=534 HEIGHT=408 ALT="STA example">
+</P> 
+
+<P CLASS="centr">
+<SPAN CLASS="emph">Figure 2: an example of a transliteration in STA</SPAN> 
+</P>
+
+<P>
+The second row shows the representation of this line in five different original transliterations,
+using their 'native' alphabets, but already represented in the IVTFF file format. In the bottom row
+all text has been converted to the STA transliteration alphabet. Here, grey boxes indicate
+the remaining differences between the various transliterations. This demonstrates
+two aspects. The first is, that this transliteration is not suitable for human reading, but 
+only for computer processing. The second is, that transliterations will tend to be consistent 
+in the choice of character family, but mostly differ in the choice of family member for each 
+character.
+</P>
+
+<H4 ID="aaa">A second superset, this time analytical: aaa</H4>
+
+<P>
+In 2023, while working on alignment of the two most complete and accurate transliterations: ZL 
+and v101, in order to create some kind of optimal combination, I realised that for this 
+application an analytical 'super'-alphabet would be more appropriate. Since 'bitrans' allows
+an easy definition of new alphabets, it was decided to set up this 'analytical alignment
+alphabet', or 'aaa', specifically for this purpose.
+</P>
+
+<P>
+To do this, it was not necessary to go back to the definitions of Eva and v101. Instead, it
+could be derived directly from STA. Also, it was not necessary to include the entire definition
+of STA, but it could be based on a reduced set (197 out of 299 total STA codes). Similarly
+to Frogguy, the alphabet represents the strokes or minims of the writing in the MS.
+</P>
+
+<P>
+All details are provided on a <A HREF="extra/sta-aaa.html">dedicated page</A>.
+aaa characters are also subdivided into families, and are represented by a lower-case character
+followed by a single digit. Due to its verbosity, transliterations using aaa tend to be quite
+long. They are, however, reasonably easy to understand. As an example, following is the 
+transliteration of <SPAN CLASS="Eva">&#xE064;&#xE061;&#xE069;&#xE069;&#xE06E;</SPAN> 
+in STA and aaa. The colon (:) used in aaa indicates that the two minims are connected to each other.
+</P>
+
+<DIV><PRE>
+ B1 A3 G1
+ d0 a0 i0 i0 i0:b0
+</PRE></DIV>
+
+<H4 ID="RF">A reference transliteration</H4>
+
+<P>
+Using this new alphabet it was possible to create the above-mentioned combined transliteration
+of ZL and GC in a mostly automated manner. Details are included 
+<A HREF="extra/sta-aaa.html#reftrans">on this page</A>.
+</P>
+
+<P>
+This will henceforth be referred to as 
+the 'Reference Transliteration', with two-letter code 'RF'. It was not primarily intended to be 
+most accurate in the identification of the individual  characters (which in any case cannot be 
+achieved by an automated comparison), but I consider it the most reliable in that respect.
+Its main purpose is indeed to be a reference, which should first of all cover all characters in 
+the text in terms of STA codes. Other transliterations can be compared to it (using STA or aaa). 
+</P>
+
+<H2 ID="links">Location of main transliteration resources</H2>
+
+<P>
+Following are links to some original transliteration resources that are known to me, and to the new 
+copies in IVTFF format. The most recent format version is 2.0. Links to files in the previous format
+version (1.7) will continue to be provided in this table for a limited period of time. The reference
+transliteration is also inclduded using code 'RF'.
+</P>
+
+<P>
+For some years these versions have not changed, but in 2025 a few mistakes were fixed at the same time,
+leading to updates to some of the files, namely:
+</P>
+
+<DIV>
+<UL>
+<LI>One locus on f89v2 turned out to be spurious, and had to be removed
+<A HREF="#n18">(18)</A>.
+</LI>
+<LI>When removing this, it was decided to also remove three loci from f1r
+<A HREF="#n19">(19)</A>.
+</LI>
+<LI>I had misunderstood the definition of Eva high-Ascii code @169; and needed
+to fix this.</LI>
+<LI>At the same time three more high-Ascii codes were added to Eva
+<A HREF="#n13">(see note 13)</A>.
+</LI>
+</UL>
+</DIV>
+
+<TABLE>
+
+<TR>
+ <TH>Code</TH> <TH>Description</TH> <TH>Alphabet</TH>
+ <TH>Original</TH> <TH>IVTFF<BR>2.0</TH> <TH>IVTFF<BR>1.7</TH> <TH>(N)</TH>
+</TR>
+
+<TR><TD>FG</TD>
+  <TD>
+A copy of the FSG transliteration, created by Friedman's First Study Group, in the format prepared by Jim Reeds 
+and Jacques Guy.
+  </TD>
+ <TD> FSG </TD> 
+  <TD>
+<A HREF="hist/reeds/FSG.txt">(local copy)</A>
+  </TD>
+  <TD>
+   <A HREF="data/FG2a-n.txt">v. 2a</A>
+  </TD>
+  <TD>
+   <A HREF="data/previous/FG_ivtff_1e.txt">v. 1e</A>
+  </TD>
+ <TD> <A HREF="#n20">(20)</A> </TD> 
+</TR>
+
+<TR><TD>CD</TD>
+  <TD>
+The original transliteration of D'Imperio and Currier
+  </TD>
+ <TD> Currier </TD> 
+  <TD>
+<A HREF="hist/rand/voynich_orig.txt">(local copy)</A>
+  </TD>
+  <TD>
+   <A HREF="data/CD2a-n.txt">v. 2a</A>
+  </TD>
+  <TD>
+   <A HREF="data/previous/CD_ivtff_1a.txt">v. 1a</A>
+  </TD>
+ <TD> <A HREF="#n21">(21)</A> </TD> 
+</TR>
+
+<TR><TD>'Vnow'</TD>
+  <TD>
+The updated version of the C-D transliteration, made during the earliest years of the Voynich MS mailing list. 
+  </TD>
+ <TD> Currier </TD> 
+  <TD>
+<A HREF="hist/rand/voynich_now.txt">(local copy)</A>
+  </TD>
+  <TD>
+    N. av.
+  </TD>
+  <TD>
+    N. av.
+  </TD>
+ <TD> <A HREF="#n22">(22)</A> </TD> 
+</TR>
+
+<TR><TD>TT</TD>
+  <TD>
+The original transliteration by Takeshi Takahashi.
+  </TD>
+ <TD> Eva </TD> 
+  <TD>
+At a
+<A HREF="http://www.voynich.com/pages/">&gt;&gt;set of separate pages</A> at his web site. 
+  </TD>
+  <TD>
+    N. av.
+  </TD>
+  <TD>
+    N. av.
+  </TD>
+ <TD> &nbsp; </TD> 
+</TR>
+
+<TR><TD>IT</TD>
+  <TD>
+The converted transliteration by Takeshi Takahashi that is included in the Landini-Stolfi interlinear file.
+  </TD>
+ <TD> Eva-T </TD> 
+  <TD>
+    See "LSI" below.
+  </TD>
+  <TD>
+    <A HREF="data/IT2a-n.txt">v. 2a</A>
+  </TD>
+  <TD>
+    <A HREF="data/previous/IT_ivtff_1a.txt">v. 1a</A>
+  </TD>
+ <TD> <A HREF="#n23">(23)</A> </TD> 
+</TR>
+
+<TR><TD>VT</TD>
+  <TD>
+The transliteration (from LSI but mainly by Takeshi Takahashi) that is included in the Voyinch MS browser at 
+voynichese.com.
+  </TD>
+ <TD> Eva-T </TD> 
+  <TD>
+    <A HREF="https://www.voynichese.com">&gt;&gt;www.voynichese.com</A>
+  </TD>
+  <TD>
+    <A HREF="data/VT0e-n.txt">v. 0e</A>
+  </TD>
+  <TD>
+    N. av.
+  </TD>
+ <TD> <A HREF="#n24">(24)</A> </TD> 
+</TR>
+
+<TR><TD>'LSI'</TD>
+  <TD>
+    The Landini-Stolfi Interlinear file
+  </TD>
+ <TD> Eva-T </TD> 
+  <TD>
+    At a
+<A HREF="http://www.ic.unicamp.br/~stolfi/voynich/98-12-28-interln16e6/">&gt;&gt;page at Stolfi's site</A> 
+with links to the file in various compressed formats.
+  </TD>
+  <TD>
+   N. av.
+  </TD>
+  <TD>
+   <A HREF="data/beta/LSI_ivtff_0d.txt">beta</A>
+  </TD>
+  <TD>  </TD> 
+</TR>
+
+<TR><TD>ZL</TD>
+  <TD>
+The "Zandbergen" part of the LZ transliteration effort.
+  </TD>
+ <TD> Eva </TD> 
+  <TD> - </TD>
+  <TD>
+   <A HREF="data/ZL3b-n.txt">v. 3b</A>
+  </TD>
+  <TD>
+   <A HREF="data/previous/ZL_ivtff_2b.txt">v. 2b</A>
+  </TD>
+ <TD> <A HREF="#n25">(25)</A> </TD> 
+</TR>
+
+<TR><TD>GC</TD>
+  <TD>
+The v101 transliteration file.
+  </TD>
+ <TD> v101 </TD> 
+  <TD>
+<A HREF="data/voyn_101.txt">Local copy</A>.
+  </TD>
+  <TD>
+   <A HREF="data/GC2a-n.txt">v. 2a</A>
+  </TD>
+  <TD>
+   <A HREF="data/previous/GC_ivtff_1b.txt">v. 1b</A>
+  </TD>
+ <TD> <A HREF="#n26">(26)</A> </TD> 
+</TR>
+
+<TR><TD>RF</TD>
+  <TD>
+A "Reference" transliteration.
+  </TD>
+ <TD> (Eva) </TD> 
+  <TD>
+    <A HREF="data/sta/RF1b.txt">Uses STA1</A>.
+  </TD>
+  <TD>
+   v. 1b<BR>
+   <A HREF="data/RF1b-e.txt">full</A>
+   <A HREF="data/RF1b-er.txt">basic</A>
+   <BR>
+  </TD>
+  <TD>
+   N. av.
+  </TD>
+ <TD> <A HREF="#n27">(27)</A> </TD> 
+</TR>
+
+</TABLE>
+
+<P CLASS="centr">
+<SPAN CLASS="emph">Table 8: links to the main transliteration files</SPAN> 
+</P>
+
+<P>
+Older (legacy) versions are still available 
+<A HREF="extra/legacy.html">here</A>.
+</P>
+
+<P>
+A table with links to transliteration files using the STA1 alphabet is
+<A HREF="extra/sta.html#stalinks">provided here</A>.
+</P>
+
+<H2>Some statistics</H2>
+
+<P>
+Table 9 summarises some of the properties of those transliteration files that are available
+in the IVTFF format, with some explanatory notes below the table.
+</P>
+ 
+<TABLE CLASS="cen">
+
+<TR>
+<TH>Item</TH>  <TH>CD</TH>    <TH>FG</TH>     <TH>IT</TH>     <TH>ZL</TH>     <TH>GC</TH>     <TH>RF</TH>
+</TR>
+
+<TR><TH>Version</TH>
+               <TD>2a</TD>    <TD>2a</TD>     <TD>2a</TD>     <TD>3b</TD>     <TD>2a</TD>     <TD>1b</TD>
+</TR>
+
+<TR><TH>Loci</TH> 
+               <TD>2196</TD>  <TD>4060</TD>   <TD>5215</TD>   <TD>5385</TD>   <TD>5367</TD>   <TD>5385</TD>
+</TR>
+
+<TR><TH>Paragraphs</TH> 
+               <TD>236</TD>   <TD>734</TD>    <TD>772</TD>    <TD>740</TD>    <TD>775</TD>    <TD>-</TD>
+</TR>
+
+<TR><TH>Long words</TH> 
+               <TD>16,258</TD><TD>33,332</TD> <TD>37,919</TD> <TD>36,278</TD> <TD>38,242</TD> <TD>37,848</TD>
+</TR>
+
+<TR><TH>Characters</TH> 
+               <TD>65,167</TD><TD>135,568</TD><TD>155,292</TD><TD>157,304</TD><TD>157,096</TD><TD>157,254</TD>
+</TR>
+
+<TR><TH>Alternative readings</TH> 
+               <TD>-</TD>     <TD>-</TD>      <TD>-</TD>      <TD>Y</TD>      <TD>-</TD>      <TD>-</TD>
+</TR>
+
+<TR><TH>Uncertain spaces</TH>
+               <TD>-</TD>     <TD>(*)</TD>    <TD>-</TD>      <TD>Y</TD>      <TD>Y</TD>      <TD>Y</TD>
+</TR>
+
+<TR><TH>Drawing instrusions</TH>
+               <TD>Y</TD>     <TD>-</TD>      <TD>Y</TD>      <TD>Y</TD>      <TD>-</TD>      <TD>Y</TD>
+</TR>
+
+<TR><TH>High Ascii codes</TH>
+               <TD>-</TD>     <TD>-</TD>      <TD>-</TD>      <TD>Y</TD>      <TD>Y</TD>      <TD>Y</TD>
+</TR>
+
+</TABLE>
+
+<P CLASS="centr">
+<SPAN CLASS="emph">Table 9: some properties of the main transliteration files</SPAN> 
+</P>
+
+<P>
+In this table, "long words" is the number of words in case uncertain spaces are not counted.
+</P>
+
+<P>
+The IT and GC files still include the spurious label on f89v2
+<A HREF="#n18">(see note 18)</A>.
+</P>
+
+<P>
+Due to the differences in the three nearly complete transliterations (IT, ZL, GC), no consolidated 
+paragraph count exists today, so these have not (yet) been included in the Reference transliteration.
+</P>
+
+<P>
+The number of characters is based on the STA1 alphabet. Unknown characters (STA code Z1) are counted 
+as 1. Sequences of unknown characters are also counted as 1.
+</P>
+
+<P>
+The FSG file only has very few alternative readings, for cases where two punched records for the same 
+locus exist.
+</P>
+
+<P>
+The RF file was previously (version 1a) only provided in basic Eva, and did not have high Ascii codes. 
+Version 1b is additionally expressed in extended (full) Eva, which has many.
+</P>
+
+<P>
+The <A HREF="http://voynich.freie-literatur.de/index.php?show=extractor">&gt;&gt;Voynich Information Browser</A> 
+by Elias Schwerdtfeger allows extraction of individual transliterations from the "LSI" file, with many 
+useful options (to be checked).
+</P>
+
+<H2>Notes</H2>
+
+<DL>
+
+  <DT ID="n01">1</DT>
+  <DD>
+    See <A HREF="refs.html#dim6">D'Imperio (1976)</A>.
+  </DD>
+
+  <DT ID="n02">2</DT>
+  <DD>
+    I am grateful to prof. Artemij Keidan of the Sapienza University in Rome. 
+   His interesting paper refuting the incorrect proposed solution to the Voynich MS by G. Cheshire 
+   included clear statements about this terminology, which he was later able to clarify to me in great detail.
+  </DD>
+
+  <DT ID="n03">3</DT>
+  <DD>
+    It is contained in items 1615.1 and 1615.2 of the William F. Friedman collection. 
+    For more about the Marshall Library, 
+<A HREF="refs.html#marsh">see here</A>.
+  </DD>
+
+  <DT ID="n04">4</DT>
+  <DD>
+    See <A HREF="refs.html#jrwf">Reeds (1995)</A>.
+  </DD>
+
+  <DT ID="n05">5</DT>
+  <DD>
+    See <A HREF="refs.html#benn">Bennett (1976)</A>.
+  </DD>
+
+  <DT ID="n06">6</DT>
+  <DD>
+    See <A HREF="refs.html#brum">Brumbaugh (1978)</A>.
+  </DD>
+
+  <DT ID="n07">7</DT>
+  <DD>
+    I am grateful to Jonina Duker for her recollections of these events of (then) 40 years ago.
+  </DD>
+
+  <DT ID="n08">8</DT>
+  <DD>
+    Of course, we have no way of knowing whether either assumption is correct or not.
+  </DD>
+
+  <DT ID="n09">9</DT>
+  <DD>
+    On the other hand, it should be clear that not all features of a transliteration made 
+    directly in Eva can be converted into the older transliteration alphabets in a reversible manner.
+  </DD>
+
+  <DT ID="n10">10</DT>
+  <DD>
+    Such a font has been designed by Gabriel Landini, and is used extensively at this web site. See the 
+<A HREF="roadmap.html#fonts">site map</A>.
+  </DD>
+
+  <DT ID="n11">11</DT>
+  <DD>
+    A black-and-white printout of a microfilm made in the 1970's, see also <A HREF="refs.html#brbl">here</A>.
+  </DD>
+
+  <DT ID="n12">12</DT>
+  <DD>
+    This originally used the more intuitive ampersand, as in: &185; but in the 2017 
+    conversion exercise described in the following this had to be changed. 
+    See also <A HREF="extra/sp_transcr.html#newfmt">here</A>. 
+  </DD>
+
+  <DT ID="n13">13</DT>
+  <DD>
+    Over time, some characters have been moved: 173 to 240, 141-144 to 241-244 and 
+    157-158 to 245-246. In 2025 the three characters 221-223 were added.
+  </DD>
+
+  <DT ID="n14">14</DT>
+  <DD>
+    This used to be between parentheses but in the 2017 conversion exercise described in the following 
+    this had to be changed. 
+    See also <A HREF="extra/sp_transcr.html#ivtff">here</A>. 
+  </DD>
+
+  <DT ID="n15">15</DT>
+  <DD>
+    Characters "O", "=", "@" and high Ascii 152, 157, 159, 160 and 205 have not been assigned. 
+    Characters 172, 182, 195 and 216 have been assigned, but do not appear in the transliteration file. 
+    Character 167 was omitted in GC's original table. It is used in the transliteration file.  
+  </DD>
+
+  <DT ID="n16">16</DT>
+  <DD>
+    See also the <A HREF="writing.html">page about the writing system</A>. 
+  </DD>
+
+  <DT ID="n17">17</DT>
+  <DD>
+    See <A HREF="refs.html#zatr">Zandbergen (2022)</A>. Note that the STA version presented on this
+    web page (and generally at this web site) is a further evolution of the one used at the time of 
+    this presentation.
+  </DD>
+
+  <DT ID="n18">18</DT>
+  <DD>
+    This was pointed out to me via E-mail by Quentin Vuillemard. It concerns a label in the bottom
+    row of plant fragments (old locus f89v2.26) which is just a shine-through from the other side.
+  </DD>
+
+  <DT ID="n19">19</DT>
+  <DD>
+    When the multi-spectral scan of f1r was made available (for which see the relevant
+    <A HREF="https://manuscriptroadtrip.wordpress.com/2024/09/08/multispectral-imaging-and-the-voynich-manuscript/">&gt;&gt;blog
+    entry of Lisa Fagin Davis</A>)
+    several more characters could be identified, and these turned out to be later additions, quite
+    probably by Johannes Marcus Marci. As they are not original to the MS, it was decided to remove
+    the three corresponding loci.
+  </DD>
+
+  <DT ID="n20">20</DT>
+  <DD>
+    Extracted from the LSI file and converted back to the FSG alphabet. Checked against the 
+    original and against the full ZL transliteration.
+  </DD>
+
+  <DT ID="n21">21</DT>
+  <DD>
+    Converted from the original. Now using the IVTFF 2.0 convention, but final verification
+    will still be conducted.
+  </DD>
+
+  <DT ID="n22">22</DT>
+  <DD>
+    Extracted from the LSI file and converted back to the Currier alphabet. It turns out that the LSI 
+    file was incomplete, so this has to be re-done. Important, since this file was used by Reddy and Knight, 
+    and part of it by Hauer and Kondrak.
+  </DD>
+
+  <DT ID="n23">23</DT>
+  <DD>
+    The "IT" version has been extracted from the LSI file, and represents the state of this transliteration 
+    in 1999. The more up to date "TT" version still has to be processed.
+  </DD>
+
+  <DT ID="n24">24</DT>
+  <DD>
+    This file has been generated automatically.
+  </DD>
+
+  <DT ID="n25">25</DT>
+  <DD>
+    Version 3a has the same text as version 2b, with one exception: an old (invalid) use of * to indicate an
+    unreadable character in fRos locus 36 has been corrected.
+    Version 2b was a minor correction of version 2a, only affecting the $I page variable setting on some of the
+    text-only pages.
+    Version 2a had the same text as the previous version (1r). Versions 2a and 2b used IVTFF file format 1.7,
+    including paragraph start markers and LFD hands in variable $H.
+  </DD>
+
+  <DT ID="n26">26</DT>
+  <DD>
+    Version 2a has the same text as 1b, but the formatting has been cleaned up to conform to the IVTFF 2.0 standard.
+    Version 1b was a minor correction of version 1a, only affecting the $I page variable setting on some of the
+    text-only pages.
+    Version 1a had the same text as the previous version (0c). Versions 1a and 1b used IVTFF file format 1.7, 
+    including paragraph start markers and LFD hands in variable $H.
+  </DD>
+
+  <DT ID="n27">27</DT>
+  <DD>
+    The "Reference" transliteration is an automatically-generated combination of the ZL and GC files. Its 
+    original version uses the reduced STA1 alphabet. This allows its conversion to full extended Eva. 
+    This was not possible for RF version 1a, which was only approximated in
+    'nearest basic Eva'. Here, links to both full extended Eva and basic Eva are provided.
+  </DD>
+
+</DL>
+
+<P>
+&nbsp;
+</P>
+
+<TABLE CLASS="btn">
+
+  <TR>
+    <TD><A HREF="toc.html"><IMG SRC="img/btn/TOC.jpg" ALT="Contents"></A></TD>
+    <TD><A HREF="index.html"><IMG SRC="img/btn/start.jpg" ALT="Home"></A></TD>
+    <TD><A HREF="intro.html"><IMG SRC="img/btn/top.jpg" ALT="Top"></A></TD>
+    <TD><A HREF="writing.html"><IMG SRC="img/btn/prev.jpg" ALT="Prev"></A></TD>
+    <TD><A HREF="analysis.html"><IMG SRC="img/btn/next.jpg" ALT="Next"></A></TD>
+  </TR>
+
+  <TR>
+    <TD><A HREF="roadmap.html"><IMG SRC="img/btn/map.jpg" ALT="Map"></A></TD>
+    <TD><A HREF="refs.html"><IMG SRC="img/btn/refs.jpg" ALT="Refs"></A></TD>
+    <TD><A HREF="gallery.html"><IMG SRC="img/btn/pics.jpg" ALT="Pics"></A></TD>
+    <TD><A HREF="gloss.html"><IMG SRC="img/btn/gloss.jpg" ALT="Search"></A></TD>
+    <TD><A HREF="folios.html"><IMG SRC="img/btn/folios.jpg" ALT="Pages"></A></TD>
+  </TR>
+
+</TABLE>
+
+<ADDRESS>
+  <A HREF="roadmap.html#cop">Copyright</A> Ren&eacute; Zandbergen, 2025
+  <BR>
+  Comments, questions, suggestions?  Your feedback is welcome.
+  <BR>
+   Latest update: 31/05/2025
+</ADDRESS>
+
+</BODY>
+</HTML>

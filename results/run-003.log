@@ -1,0 +1,741 @@
+{
+  "inventory": {
+    "total": 234,
+    "by_subtype": {
+      "Lc": 40,
+      "Lf": 194
+    },
+    "agreed": 152,
+    "agreement_by_subtype": {
+      "Lc": 21,
+      "Lf": 131
+    },
+    "exclusions": {
+      "readings_disagree": 64,
+      "ZL_multiple_tokens": 14,
+      "IT_multiple_or_uncertain_tokens": 29,
+      "ZL_uncertain_reading": 18,
+      "missing_or_different_IT_locus_type": 3
+    },
+    "repeated_agreed_word_types": 6,
+    "cross_page_repeated_agreed_types": 5
+  },
+  "randomizations": 9999,
+  "seed": 20261003,
+  "runs": [
+    {
+      "source": "ZL3b-n.txt",
+      "spacing": "split",
+      "tests": {
+        "Lf": {
+          "n_labels": 131,
+          "observed_present": 10,
+          "exact_null_expected_present": 6.511450381679389,
+          "null_mc_mean": 6.514351435143515,
+          "null_mc_sd": 1.996288077939583,
+          "p_greater_presence": 0.0684,
+          "null_presence_95_interval": [
+            3.0,
+            11.0
+          ],
+          "observed_mean_frequency_per_1000": 0.5898876753949741,
+          "null_expected_mean_frequency_per_1000": 0.5031994815464922,
+          "p_greater_frequency": 0.3129,
+          "matches": [
+            {
+              "locus": "f88r.15",
+              "word": "okol",
+              "body_count": 1,
+              "body_tokens": 132,
+              "body_positions": [
+                "f88r.19:word7"
+              ]
+            },
+            {
+              "locus": "f89r2.5",
+              "word": "opcheor",
+              "body_count": 1,
+              "body_tokens": 209,
+              "body_positions": [
+                "f89r2.22:word5"
+              ]
+            },
+            {
+              "locus": "f89r2.19",
+              "word": "cheody",
+              "body_count": 1,
+              "body_tokens": 209,
+              "body_positions": [
+                "f89r2.8:word12"
+              ]
+            },
+            {
+              "locus": "f89v2.5",
+              "word": "sheol",
+              "body_count": 1,
+              "body_tokens": 161,
+              "body_positions": [
+                "f89v2.7:word2"
+              ]
+            },
+            {
+              "locus": "f99r.8",
+              "word": "okor",
+              "body_count": 1,
+              "body_tokens": 158,
+              "body_positions": [
+                "f99r.51:word6"
+              ]
+            },
+            {
+              "locus": "f99r.25",
+              "word": "okeoly",
+              "body_count": 1,
+              "body_tokens": 158,
+              "body_positions": [
+                "f99r.18:word8"
+              ]
+            },
+            {
+              "locus": "f99v.4",
+              "word": "oldy",
+              "body_count": 1,
+              "body_tokens": 146,
+              "body_positions": [
+                "f99v.24:word6"
+              ]
+            },
+            {
+              "locus": "f99v.31",
+              "word": "doldam",
+              "body_count": 1,
+              "body_tokens": 146,
+              "body_positions": [
+                "f99v.34:word11"
+              ]
+            },
+            {
+              "locus": "f102v2.11",
+              "word": "cheor",
+              "body_count": 3,
+              "body_tokens": 161,
+              "body_positions": [
+                "f102v2.32:word2",
+                "f102v2.33:word4",
+                "f102v2.39:word2"
+              ]
+            },
+            {
+              "locus": "f102v1.3",
+              "word": "okeody",
+              "body_count": 1,
+              "body_tokens": 112,
+              "body_positions": [
+                "f102v1.21:word3"
+              ]
+            }
+          ],
+          "strata": {
+            "('Lf', 'A', '1')": 131
+          }
+        },
+        "Lc": {
+          "n_labels": 21,
+          "observed_present": 0,
+          "exact_null_expected_present": 0.0,
+          "null_mc_mean": 0.0,
+          "null_mc_sd": 0.0,
+          "p_greater_presence": 1.0,
+          "null_presence_95_interval": [
+            0.0,
+            0.0
+          ],
+          "observed_mean_frequency_per_1000": 0.0,
+          "null_expected_mean_frequency_per_1000": 0.0,
+          "p_greater_frequency": 1.0,
+          "matches": [],
+          "strata": {
+            "('Lc', 'A', '1')": 21
+          }
+        },
+        "ALL": {
+          "n_labels": 152,
+          "observed_present": 10,
+          "exact_null_expected_present": 6.511450381679389,
+          "null_mc_mean": 6.487448744874487,
+          "null_mc_sd": 1.9762587384926267,
+          "p_greater_presence": 0.066,
+          "null_presence_95_interval": [
+            3.0,
+            10.0
+          ],
+          "observed_mean_frequency_per_1000": 0.5083900360311947,
+          "null_expected_mean_frequency_per_1000": 0.43367850054335844,
+          "p_greater_frequency": 0.3048,
+          "matches": [
+            {
+              "locus": "f88r.15",
+              "word": "okol",
+              "body_count": 1,
+              "body_tokens": 132,
+              "body_positions": [
+                "f88r.19:word7"
+              ]
+            },
+            {
+              "locus": "f89r2.5",
+              "word": "opcheor",
+              "body_count": 1,
+              "body_tokens": 209,
+              "body_positions": [
+                "f89r2.22:word5"
+              ]
+            },
+            {
+              "locus": "f89r2.19",
+              "word": "cheody",
+              "body_count": 1,
+              "body_tokens": 209,
+              "body_positions": [
+                "f89r2.8:word12"
+              ]
+            },
+            {
+              "locus": "f89v2.5",
+              "word": "sheol",
+              "body_count": 1,
+              "body_tokens": 161,
+              "body_positions": [
+                "f89v2.7:word2"
+              ]
+            },
+            {
+              "locus": "f99r.8",
+              "word": "okor",
+              "body_count": 1,
+              "body_tokens": 158,
+              "body_positions": [
+                "f99r.51:word6"
+              ]
+            },
+            {
+              "locus": "f99r.25",
+              "word": "okeoly",
+              "body_count": 1,
+              "body_tokens": 158,
+              "body_positions": [
+                "f99r.18:word8"
+              ]
+            },
+            {
+              "locus": "f99v.4",
+              "word": "oldy",
+              "body_count": 1,
+              "body_tokens": 146,
+              "body_positions": [
+                "f99v.24:word6"
+              ]
+            },
+            {
+              "locus": "f99v.31",
+              "word": "doldam",
+              "body_count": 1,
+              "body_tokens": 146,
+              "body_positions": [
+                "f99v.34:word11"
+              ]
+            },
+            {
+              "locus": "f102v2.11",
+              "word": "cheor",
+              "body_count": 3,
+              "body_tokens": 161,
+              "body_positions": [
+                "f102v2.32:word2",
+                "f102v2.33:word4",
+                "f102v2.39:word2"
+              ]
+            },
+            {
+              "locus": "f102v1.3",
+              "word": "okeody",
+              "body_count": 1,
+              "body_tokens": 112,
+              "body_positions": [
+                "f102v1.21:word3"
+              ]
+            }
+          ],
+          "strata": {
+            "('Lc', 'A', '1')": 21,
+            "('Lf', 'A', '1')": 131
+          }
+        }
+      }
+    },
+    {
+      "source": "IT2a-n.txt",
+      "spacing": "split",
+      "tests": {
+        "Lf": {
+          "n_labels": 131,
+          "observed_present": 9,
+          "exact_null_expected_present": 6.503816793893131,
+          "null_mc_mean": 6.520452045204521,
+          "null_mc_sd": 1.9974871079996719,
+          "p_greater_presence": 0.1598,
+          "null_presence_95_interval": [
+            3.0,
+            11.0
+          ],
+          "observed_mean_frequency_per_1000": 0.5317013476838401,
+          "null_expected_mean_frequency_per_1000": 0.529951072927897,
+          "p_greater_frequency": 0.4623,
+          "matches": [
+            {
+              "locus": "f88r.15",
+              "word": "okol",
+              "body_count": 1,
+              "body_tokens": 134,
+              "body_positions": [
+                "f88r.19:word7"
+              ]
+            },
+            {
+              "locus": "f89r2.5",
+              "word": "opcheor",
+              "body_count": 1,
+              "body_tokens": 220,
+              "body_positions": [
+                "f89r2.22:word5"
+              ]
+            },
+            {
+              "locus": "f89r2.19",
+              "word": "cheody",
+              "body_count": 1,
+              "body_tokens": 220,
+              "body_positions": [
+                "f89r2.8:word14"
+              ]
+            },
+            {
+              "locus": "f89v2.5",
+              "word": "sheol",
+              "body_count": 1,
+              "body_tokens": 153,
+              "body_positions": [
+                "f89v2.7:word2"
+              ]
+            },
+            {
+              "locus": "f99r.8",
+              "word": "okor",
+              "body_count": 1,
+              "body_tokens": 162,
+              "body_positions": [
+                "f99r.51:word6"
+              ]
+            },
+            {
+              "locus": "f99r.25",
+              "word": "okeoly",
+              "body_count": 1,
+              "body_tokens": 162,
+              "body_positions": [
+                "f99r.18:word8"
+              ]
+            },
+            {
+              "locus": "f99v.4",
+              "word": "oldy",
+              "body_count": 1,
+              "body_tokens": 147,
+              "body_positions": [
+                "f99v.24:word7"
+              ]
+            },
+            {
+              "locus": "f102v2.11",
+              "word": "cheor",
+              "body_count": 3,
+              "body_tokens": 159,
+              "body_positions": [
+                "f102v2.32:word2",
+                "f102v2.33:word4",
+                "f102v2.39:word2"
+              ]
+            },
+            {
+              "locus": "f102v1.3",
+              "word": "okeody",
+              "body_count": 1,
+              "body_tokens": 117,
+              "body_positions": [
+                "f102v1.21:word3"
+              ]
+            }
+          ],
+          "strata": {
+            "('Lf', 'A', '1')": 131
+          }
+        },
+        "Lc": {
+          "n_labels": 21,
+          "observed_present": 0,
+          "exact_null_expected_present": 0.0,
+          "null_mc_mean": 0.0,
+          "null_mc_sd": 0.0,
+          "p_greater_presence": 1.0,
+          "null_presence_95_interval": [
+            0.0,
+            0.0
+          ],
+          "observed_mean_frequency_per_1000": 0.0,
+          "null_expected_mean_frequency_per_1000": 0.0,
+          "p_greater_frequency": 1.0,
+          "matches": [],
+          "strata": {
+            "('Lc', 'A', '1')": 21
+          }
+        },
+        "ALL": {
+          "n_labels": 152,
+          "observed_present": 9,
+          "exact_null_expected_present": 6.503816793893131,
+          "null_mc_mean": 6.475547554755476,
+          "null_mc_sd": 1.9803942865045272,
+          "p_greater_presence": 0.1516,
+          "null_presence_95_interval": [
+            3.0,
+            10.0
+          ],
+          "observed_mean_frequency_per_1000": 0.45824260885909907,
+          "null_expected_mean_frequency_per_1000": 0.45673414837864806,
+          "p_greater_frequency": 0.4551,
+          "matches": [
+            {
+              "locus": "f88r.15",
+              "word": "okol",
+              "body_count": 1,
+              "body_tokens": 134,
+              "body_positions": [
+                "f88r.19:word7"
+              ]
+            },
+            {
+              "locus": "f89r2.5",
+              "word": "opcheor",
+              "body_count": 1,
+              "body_tokens": 220,
+              "body_positions": [
+                "f89r2.22:word5"
+              ]
+            },
+            {
+              "locus": "f89r2.19",
+              "word": "cheody",
+              "body_count": 1,
+              "body_tokens": 220,
+              "body_positions": [
+                "f89r2.8:word14"
+              ]
+            },
+            {
+              "locus": "f89v2.5",
+              "word": "sheol",
+              "body_count": 1,
+              "body_tokens": 153,
+              "body_positions": [
+                "f89v2.7:word2"
+              ]
+            },
+            {
+              "locus": "f99r.8",
+              "word": "okor",
+              "body_count": 1,
+              "body_tokens": 162,
+              "body_positions": [
+                "f99r.51:word6"
+              ]
+            },
+            {
+              "locus": "f99r.25",
+              "word": "okeoly",
+              "body_count": 1,
+              "body_tokens": 162,
+              "body_positions": [
+                "f99r.18:word8"
+              ]
+            },
+            {
+              "locus": "f99v.4",
+              "word": "oldy",
+              "body_count": 1,
+              "body_tokens": 147,
+              "body_positions": [
+                "f99v.24:word7"
+              ]
+            },
+            {
+              "locus": "f102v2.11",
+              "word": "cheor",
+              "body_count": 3,
+              "body_tokens": 159,
+              "body_positions": [
+                "f102v2.32:word2",
+                "f102v2.33:word4",
+                "f102v2.39:word2"
+              ]
+            },
+            {
+              "locus": "f102v1.3",
+              "word": "okeody",
+              "body_count": 1,
+              "body_tokens": 117,
+              "body_positions": [
+                "f102v1.21:word3"
+              ]
+            }
+          ],
+          "strata": {
+            "('Lc', 'A', '1')": 21,
+            "('Lf', 'A', '1')": 131
+          }
+        }
+      }
+    },
+    {
+      "source": "ZL3b-n.txt",
+      "spacing": "join",
+      "tests": {
+        "Lf": {
+          "n_labels": 131,
+          "observed_present": 9,
+          "exact_null_expected_present": 5.862595419847329,
+          "null_mc_mean": 5.867686768676868,
+          "null_mc_sd": 1.9746328252246896,
+          "p_greater_presence": 0.0939,
+          "null_presence_95_interval": [
+            2.0,
+            10.0
+          ],
+          "observed_mean_frequency_per_1000": 0.5839869643337533,
+          "null_expected_mean_frequency_per_1000": 0.49738303804490114,
+          "p_greater_frequency": 0.3179,
+          "matches": [
+            {
+              "locus": "f88r.15",
+              "word": "okol",
+              "body_count": 1,
+              "body_tokens": 124,
+              "body_positions": [
+                "f88r.19:word7"
+              ]
+            },
+            {
+              "locus": "f89r2.5",
+              "word": "opcheor",
+              "body_count": 1,
+              "body_tokens": 193,
+              "body_positions": [
+                "f89r2.22:word5"
+              ]
+            },
+            {
+              "locus": "f89r2.19",
+              "word": "cheody",
+              "body_count": 1,
+              "body_tokens": 193,
+              "body_positions": [
+                "f89r2.8:word12"
+              ]
+            },
+            {
+              "locus": "f89v2.5",
+              "word": "sheol",
+              "body_count": 1,
+              "body_tokens": 146,
+              "body_positions": [
+                "f89v2.7:word2"
+              ]
+            },
+            {
+              "locus": "f99r.8",
+              "word": "okor",
+              "body_count": 1,
+              "body_tokens": 148,
+              "body_positions": [
+                "f99r.51:word5"
+              ]
+            },
+            {
+              "locus": "f99r.25",
+              "word": "okeoly",
+              "body_count": 1,
+              "body_tokens": 148,
+              "body_positions": [
+                "f99r.18:word8"
+              ]
+            },
+            {
+              "locus": "f99v.31",
+              "word": "doldam",
+              "body_count": 1,
+              "body_tokens": 137,
+              "body_positions": [
+                "f99v.34:word10"
+              ]
+            },
+            {
+              "locus": "f102v2.11",
+              "word": "cheor",
+              "body_count": 3,
+              "body_tokens": 143,
+              "body_positions": [
+                "f102v2.32:word2",
+                "f102v2.33:word4",
+                "f102v2.39:word2"
+              ]
+            },
+            {
+              "locus": "f102v1.3",
+              "word": "okeody",
+              "body_count": 1,
+              "body_tokens": 106,
+              "body_positions": [
+                "f102v1.21:word3"
+              ]
+            }
+          ],
+          "strata": {
+            "('Lf', 'A', '1')": 131
+          }
+        },
+        "Lc": {
+          "n_labels": 21,
+          "observed_present": 0,
+          "exact_null_expected_present": 0.0,
+          "null_mc_mean": 0.0,
+          "null_mc_sd": 0.0,
+          "p_greater_presence": 1.0,
+          "null_presence_95_interval": [
+            0.0,
+            0.0
+          ],
+          "observed_mean_frequency_per_1000": 0.0,
+          "null_expected_mean_frequency_per_1000": 0.0,
+          "p_greater_frequency": 1.0,
+          "matches": [],
+          "strata": {
+            "('Lc', 'A', '1')": 21
+          }
+        },
+        "ALL": {
+          "n_labels": 152,
+          "observed_present": 9,
+          "exact_null_expected_present": 5.862595419847329,
+          "null_mc_mean": 5.831783178317832,
+          "null_mc_sd": 1.9468600317921514,
+          "p_greater_presence": 0.0882,
+          "null_presence_95_interval": [
+            2.0,
+            10.0
+          ],
+          "observed_mean_frequency_per_1000": 0.5033045547876426,
+          "null_expected_mean_frequency_per_1000": 0.428665644630803,
+          "p_greater_frequency": 0.3099,
+          "matches": [
+            {
+              "locus": "f88r.15",
+              "word": "okol",
+              "body_count": 1,
+              "body_tokens": 124,
+              "body_positions": [
+                "f88r.19:word7"
+              ]
+            },
+            {
+              "locus": "f89r2.5",
+              "word": "opcheor",
+              "body_count": 1,
+              "body_tokens": 193,
+              "body_positions": [
+                "f89r2.22:word5"
+              ]
+            },
+            {
+              "locus": "f89r2.19",
+              "word": "cheody",
+              "body_count": 1,
+              "body_tokens": 193,
+              "body_positions": [
+                "f89r2.8:word12"
+              ]
+            },
+            {
+              "locus": "f89v2.5",
+              "word": "sheol",
+              "body_count": 1,
+              "body_tokens": 146,
+              "body_positions": [
+                "f89v2.7:word2"
+              ]
+            },
+            {
+              "locus": "f99r.8",
+              "word": "okor",
+              "body_count": 1,
+              "body_tokens": 148,
+              "body_positions": [
+                "f99r.51:word5"
+              ]
+            },
+            {
+              "locus": "f99r.25",
+              "word": "okeoly",
+              "body_count": 1,
+              "body_tokens": 148,
+              "body_positions": [
+                "f99r.18:word8"
+              ]
+            },
+            {
+              "locus": "f99v.31",
+              "word": "doldam",
+              "body_count": 1,
+              "body_tokens": 137,
+              "body_positions": [
+                "f99v.34:word10"
+              ]
+            },
+            {
+              "locus": "f102v2.11",
+              "word": "cheor",
+              "body_count": 3,
+              "body_tokens": 143,
+              "body_positions": [
+                "f102v2.32:word2",
+                "f102v2.33:word4",
+                "f102v2.39:word2"
+              ]
+            },
+            {
+              "locus": "f102v1.3",
+              "word": "okeody",
+              "body_count": 1,
+              "body_tokens": 106,
+              "body_positions": [
+                "f102v1.21:word3"
+              ]
+            }
+          ],
+          "strata": {
+            "('Lc', 'A', '1')": 21,
+            "('Lf', 'A', '1')": 131
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+FIT v1-bijection32 -2.331265432996952
+CONTROL v1-bijection32 {'letter_accuracy': 0.9429642386789585, 'correct_letters': 18616, 'predicted_letters': 19742, 'total_letters': 19746, 'predicted_fraction': 0.9997974273270536, 'word_accuracy': 0.7574282786885246, 'correct_words': 2957, 'complete_words': 3904, 'key_accuracy': 0.7586206896551724}
+FIT v1-uniform64 -3.248895535996128
+CONTROL v1-uniform64 {'letter_accuracy': 0.9430597771023302, 'correct_letters': 18616, 'predicted_letters': 19740, 'total_letters': 19746, 'predicted_fraction': 0.9996961409905804, 'word_accuracy': 0.7578165043567401, 'correct_words': 2957, 'complete_words': 3902, 'key_accuracy': 0.8833333333333333}
+FIT v1-tail63 -2.4610483706448427
+CONTROL v1-tail63 {'letter_accuracy': 0.9427891578729568, 'correct_letters': 18226, 'predicted_letters': 19332, 'total_letters': 19746, 'predicted_fraction': 0.9790337283500455, 'word_accuracy': 0.7637346996868773, 'correct_words': 2683, 'complete_words': 3513, 'key_accuracy': 0.864406779661017}
+Traceback (most recent call last):
+  File "/home/skift/playground/voynich-research/src/german_components.py", line 184, in <module>
+    {'prepare':prepare,'controls':controls,'attack':attack}[a.stage]()
+  File "/home/skift/playground/voynich-research/src/german_components.py", line 152, in controls
+    if not passed:raise RuntimeError('Calibration failed: preserve it; do not search manuscript keys.')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Calibration failed: preserve it; do not search manuscript keys.

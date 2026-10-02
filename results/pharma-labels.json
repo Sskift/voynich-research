@@ -1,0 +1,7078 @@
+[
+  {
+    "locus": "f88r.1",
+    "page": "f88r",
+    "num": 1,
+    "subtype": "Lc",
+    "zl_raw": "otorchety",
+    "it_raw": "otorchety",
+    "zl_words": [
+      "otorchety"
+    ],
+    "it_words": [
+      "otorchety"
+    ],
+    "agreed_single_word": true,
+    "word": "otorchety",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088r.jpg"
+    ]
+  },
+  {
+    "locus": "f88r.2",
+    "page": "f88r",
+    "num": 2,
+    "subtype": "Lf",
+    "zl_raw": "osal",
+    "it_raw": "oral",
+    "zl_words": [
+      "osal"
+    ],
+    "it_words": [
+      "oral"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088r.jpg"
+    ]
+  },
+  {
+    "locus": "f88r.3",
+    "page": "f88r",
+    "num": 3,
+    "subtype": "Lf",
+    "zl_raw": "orald",
+    "it_raw": "orald",
+    "zl_words": [
+      "orald"
+    ],
+    "it_words": [
+      "orald"
+    ],
+    "agreed_single_word": true,
+    "word": "orald",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088r.jpg"
+    ]
+  },
+  {
+    "locus": "f88r.4",
+    "page": "f88r",
+    "num": 4,
+    "subtype": "Lf",
+    "zl_raw": "oldar",
+    "it_raw": "oldar",
+    "zl_words": [
+      "oldar"
+    ],
+    "it_words": [
+      "oldar"
+    ],
+    "agreed_single_word": true,
+    "word": "oldar",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088r.jpg"
+    ]
+  },
+  {
+    "locus": "f88r.5",
+    "page": "f88r",
+    "num": 5,
+    "subtype": "Lf",
+    "zl_raw": "otoky",
+    "it_raw": "otoky",
+    "zl_words": [
+      "otoky"
+    ],
+    "it_words": [
+      "otoky"
+    ],
+    "agreed_single_word": true,
+    "word": "otoky",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088r.jpg"
+    ]
+  },
+  {
+    "locus": "f88r.6",
+    "page": "f88r",
+    "num": 6,
+    "subtype": "Lf",
+    "zl_raw": "otaly",
+    "it_raw": "otaly",
+    "zl_words": [
+      "otaly"
+    ],
+    "it_words": [
+      "otaly"
+    ],
+    "agreed_single_word": true,
+    "word": "otaly",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088r.jpg"
+    ]
+  },
+  {
+    "locus": "f88r.12",
+    "page": "f88r",
+    "num": 12,
+    "subtype": "Lc",
+    "zl_raw": "otaldy",
+    "it_raw": "otaldy",
+    "zl_words": [
+      "otaldy"
+    ],
+    "it_words": [
+      "otaldy"
+    ],
+    "agreed_single_word": true,
+    "word": "otaldy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088r.jpg"
+    ]
+  },
+  {
+    "locus": "f88r.13",
+    "page": "f88r",
+    "num": 13,
+    "subtype": "Lf",
+    "zl_raw": "oram",
+    "it_raw": "oram",
+    "zl_words": [
+      "oram"
+    ],
+    "it_words": [
+      "oram"
+    ],
+    "agreed_single_word": true,
+    "word": "oram",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088r.jpg"
+    ]
+  },
+  {
+    "locus": "f88r.14",
+    "page": "f88r",
+    "num": 14,
+    "subtype": "Lf",
+    "zl_raw": "dary",
+    "it_raw": "dary",
+    "zl_words": [
+      "dary"
+    ],
+    "it_words": [
+      "dary"
+    ],
+    "agreed_single_word": true,
+    "word": "dary",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088r.jpg"
+    ]
+  },
+  {
+    "locus": "f88r.15",
+    "page": "f88r",
+    "num": 15,
+    "subtype": "Lf",
+    "zl_raw": "okol",
+    "it_raw": "okol",
+    "zl_words": [
+      "okol"
+    ],
+    "it_words": [
+      "okol"
+    ],
+    "agreed_single_word": true,
+    "word": "okol",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088r.jpg"
+    ]
+  },
+  {
+    "locus": "f88r.16",
+    "page": "f88r",
+    "num": 16,
+    "subtype": "Lf",
+    "zl_raw": "sorory",
+    "it_raw": "sorory",
+    "zl_words": [
+      "sorory"
+    ],
+    "it_words": [
+      "sorory"
+    ],
+    "agreed_single_word": true,
+    "word": "sorory",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088r.jpg"
+    ]
+  },
+  {
+    "locus": "f88r.17",
+    "page": "f88r",
+    "num": 17,
+    "subtype": "Lf",
+    "zl_raw": "otyda",
+    "it_raw": "otyda",
+    "zl_words": [
+      "otyda"
+    ],
+    "it_words": [
+      "otyda"
+    ],
+    "agreed_single_word": true,
+    "word": "otyda",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088r.jpg"
+    ]
+  },
+  {
+    "locus": "f88r.23",
+    "page": "f88r",
+    "num": 23,
+    "subtype": "Lc",
+    "zl_raw": "ofyskydal",
+    "it_raw": "ofyskydal",
+    "zl_words": [
+      "ofyskydal"
+    ],
+    "it_words": [
+      "ofyskydal"
+    ],
+    "agreed_single_word": true,
+    "word": "ofyskydal",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088r.jpg"
+    ]
+  },
+  {
+    "locus": "f88r.24",
+    "page": "f88r",
+    "num": 24,
+    "subtype": "Lf",
+    "zl_raw": "otor,am",
+    "it_raw": "otor.am",
+    "zl_words": [
+      "otor",
+      "am"
+    ],
+    "it_words": [
+      "otor",
+      "am"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_multiple_tokens",
+      "IT_multiple_or_uncertain_tokens"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088r.jpg"
+    ]
+  },
+  {
+    "locus": "f88r.25",
+    "page": "f88r",
+    "num": 25,
+    "subtype": "Lf",
+    "zl_raw": "ofaldo",
+    "it_raw": "ofaldo",
+    "zl_words": [
+      "ofaldo"
+    ],
+    "it_words": [
+      "ofaldo"
+    ],
+    "agreed_single_word": true,
+    "word": "ofaldo",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088r.jpg"
+    ]
+  },
+  {
+    "locus": "f88v.1",
+    "page": "f88v",
+    "num": 1,
+    "subtype": "Lc",
+    "zl_raw": "okalyd",
+    "it_raw": "okolyd",
+    "zl_words": [
+      "okalyd"
+    ],
+    "it_words": [
+      "okolyd"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f88v.2",
+    "page": "f88v",
+    "num": 2,
+    "subtype": "Lf",
+    "zl_raw": "cheocthy",
+    "it_raw": "cheocthy",
+    "zl_words": [
+      "cheocthy"
+    ],
+    "it_words": [
+      "cheocthy"
+    ],
+    "agreed_single_word": true,
+    "word": "cheocthy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f88v.3",
+    "page": "f88v",
+    "num": 3,
+    "subtype": "Lf",
+    "zl_raw": "cpheor",
+    "it_raw": "cpheor",
+    "zl_words": [
+      "cpheor"
+    ],
+    "it_words": [
+      "cpheor"
+    ],
+    "agreed_single_word": true,
+    "word": "cpheor",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f88v.4",
+    "page": "f88v",
+    "num": 4,
+    "subtype": "Lf",
+    "zl_raw": "otar.arody",
+    "it_raw": "otar.arody",
+    "zl_words": [
+      "otar",
+      "arody"
+    ],
+    "it_words": [
+      "otar",
+      "arody"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_multiple_tokens",
+      "IT_multiple_or_uncertain_tokens"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f88v.5",
+    "page": "f88v",
+    "num": 5,
+    "subtype": "Lf",
+    "zl_raw": "otokol",
+    "it_raw": "otokol",
+    "zl_words": [
+      "otokol"
+    ],
+    "it_words": [
+      "otokol"
+    ],
+    "agreed_single_word": true,
+    "word": "otokol",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f88v.11",
+    "page": "f88v",
+    "num": 11,
+    "subtype": "Lc",
+    "zl_raw": "otoram",
+    "it_raw": "otoram",
+    "zl_words": [
+      "otoram"
+    ],
+    "it_words": [
+      "otoram"
+    ],
+    "agreed_single_word": true,
+    "word": "otoram",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f88v.12",
+    "page": "f88v",
+    "num": 12,
+    "subtype": "Lf",
+    "zl_raw": "otor[a:y]",
+    "it_raw": "otory",
+    "zl_words": [
+      null
+    ],
+    "it_words": [
+      "otory"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_uncertain_reading",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f88v.13",
+    "page": "f88v",
+    "num": 13,
+    "subtype": "Lf",
+    "zl_raw": "cheosdy",
+    "it_raw": "cheosdy",
+    "zl_words": [
+      "cheosdy"
+    ],
+    "it_words": [
+      "cheosdy"
+    ],
+    "agreed_single_word": true,
+    "word": "cheosdy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f88v.14",
+    "page": "f88v",
+    "num": 14,
+    "subtype": "Lf",
+    "zl_raw": "okaiin",
+    "it_raw": "okaiin",
+    "zl_words": [
+      "okaiin"
+    ],
+    "it_words": [
+      "okaiin"
+    ],
+    "agreed_single_word": true,
+    "word": "okaiin",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f88v.27",
+    "page": "f88v",
+    "num": 27,
+    "subtype": "Lc",
+    "zl_raw": "daramdal",
+    "it_raw": "daramdal",
+    "zl_words": [
+      "daramdal"
+    ],
+    "it_words": [
+      "daramdal"
+    ],
+    "agreed_single_word": true,
+    "word": "daramdal",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f88v.28",
+    "page": "f88v",
+    "num": 28,
+    "subtype": "Lf",
+    "zl_raw": "otydary",
+    "it_raw": "otydary",
+    "zl_words": [
+      "otydary"
+    ],
+    "it_words": [
+      "otydary"
+    ],
+    "agreed_single_word": true,
+    "word": "otydary",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f88v.29",
+    "page": "f88v",
+    "num": 29,
+    "subtype": "Lf",
+    "zl_raw": "otdordy",
+    "it_raw": "otdordy",
+    "zl_words": [
+      "otdordy"
+    ],
+    "it_words": [
+      "otdordy"
+    ],
+    "agreed_single_word": true,
+    "word": "otdordy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f88v.30",
+    "page": "f88v",
+    "num": 30,
+    "subtype": "Lf",
+    "zl_raw": "dararda[?:]",
+    "it_raw": "dararda",
+    "zl_words": [
+      null
+    ],
+    "it_words": [
+      "dararda"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_uncertain_reading",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1",
+      "C": "4"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r1.1",
+    "page": "f89r1",
+    "num": 1,
+    "subtype": "Lc",
+    "zl_raw": "okchshy",
+    "it_raw": "okchshy",
+    "zl_words": [
+      "okchshy"
+    ],
+    "it_words": [
+      "okchshy"
+    ],
+    "agreed_single_word": true,
+    "word": "okchshy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "F",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r1.2",
+    "page": "f89r1",
+    "num": 2,
+    "subtype": "Lf",
+    "zl_raw": "qkol",
+    "it_raw": "qkol",
+    "zl_words": [
+      "qkol"
+    ],
+    "it_words": [
+      "qkol"
+    ],
+    "agreed_single_word": true,
+    "word": "qkol",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "F",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r1.3",
+    "page": "f89r1",
+    "num": 3,
+    "subtype": "Lf",
+    "zl_raw": "oldam",
+    "it_raw": "oldam",
+    "zl_words": [
+      "oldam"
+    ],
+    "it_words": [
+      "oldam"
+    ],
+    "agreed_single_word": true,
+    "word": "oldam",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "F",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r1.4",
+    "page": "f89r1",
+    "num": 4,
+    "subtype": "Lf",
+    "zl_raw": "otoldy",
+    "it_raw": "otoldy",
+    "zl_words": [
+      "otoldy"
+    ],
+    "it_words": [
+      "otoldy"
+    ],
+    "agreed_single_word": true,
+    "word": "otoldy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "F",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r1.5",
+    "page": "f89r1",
+    "num": 5,
+    "subtype": "Lf",
+    "zl_raw": "ararchodaiin",
+    "it_raw": "ararchodaiin",
+    "zl_words": [
+      "ararchodaiin"
+    ],
+    "it_words": [
+      "ararchodaiin"
+    ],
+    "agreed_single_word": true,
+    "word": "ararchodaiin",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "F",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r1.11",
+    "page": "f89r1",
+    "num": 11,
+    "subtype": "Lc",
+    "zl_raw": "ykyd",
+    "it_raw": "ykyd",
+    "zl_words": [
+      "ykyd"
+    ],
+    "it_words": [
+      "ykyd"
+    ],
+    "agreed_single_word": true,
+    "word": "ykyd",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "F",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r1.12",
+    "page": "f89r1",
+    "num": 12,
+    "subtype": "Lf",
+    "zl_raw": "chol,ches",
+    "it_raw": "chol.ches",
+    "zl_words": [
+      "chol",
+      "ches"
+    ],
+    "it_words": [
+      "chol",
+      "ches"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_multiple_tokens",
+      "IT_multiple_or_uncertain_tokens"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "F",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r1.13",
+    "page": "f89r1",
+    "num": 13,
+    "subtype": "Lf",
+    "zl_raw": "otorain",
+    "it_raw": "otorain",
+    "zl_words": [
+      "otorain"
+    ],
+    "it_words": [
+      "otorain"
+    ],
+    "agreed_single_word": true,
+    "word": "otorain",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "F",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r1.14",
+    "page": "f89r1",
+    "num": 14,
+    "subtype": "Lf",
+    "zl_raw": "okaiin,dan",
+    "it_raw": "okaiin.dan",
+    "zl_words": [
+      "okaiin",
+      "dan"
+    ],
+    "it_words": [
+      "okaiin",
+      "dan"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_multiple_tokens",
+      "IT_multiple_or_uncertain_tokens"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "F",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r1.24",
+    "page": "f89r1",
+    "num": 24,
+    "subtype": "Lc",
+    "zl_raw": "ykocfhy",
+    "it_raw": "ykocfhy",
+    "zl_words": [
+      "ykocfhy"
+    ],
+    "it_words": [
+      "ykocfhy"
+    ],
+    "agreed_single_word": true,
+    "word": "ykocfhy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "F",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r1.25",
+    "page": "f89r1",
+    "num": 25,
+    "subtype": "Lf",
+    "zl_raw": "saldam",
+    "it_raw": "saldam",
+    "zl_words": [
+      "saldam"
+    ],
+    "it_words": [
+      "saldam"
+    ],
+    "agreed_single_word": true,
+    "word": "saldam",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "F",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r1.26",
+    "page": "f89r1",
+    "num": 26,
+    "subtype": "Lf",
+    "zl_raw": "[s:r]ydarary",
+    "it_raw": "sydarary",
+    "zl_words": [
+      null
+    ],
+    "it_words": [
+      "sydarary"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_uncertain_reading",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "F",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r1.27",
+    "page": "f89r1",
+    "num": 27,
+    "subtype": "Lf",
+    "zl_raw": "yd{cpo}dy",
+    "it_raw": "ydcphdy",
+    "zl_words": [
+      "ydcpody"
+    ],
+    "it_words": [
+      "ydcphdy"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "F",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r2.1",
+    "page": "f89r2",
+    "num": 1,
+    "subtype": "Lc",
+    "zl_raw": "odory",
+    "it_raw": "odory",
+    "zl_words": [
+      "odory"
+    ],
+    "it_words": [
+      "odory"
+    ],
+    "agreed_single_word": true,
+    "word": "odory",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "G",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r2.2",
+    "page": "f89r2",
+    "num": 2,
+    "subtype": "Lf",
+    "zl_raw": "doly",
+    "it_raw": "doly",
+    "zl_words": [
+      "doly"
+    ],
+    "it_words": [
+      "doly"
+    ],
+    "agreed_single_word": true,
+    "word": "doly",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "G",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r2.3",
+    "page": "f89r2",
+    "num": 3,
+    "subtype": "Lf",
+    "zl_raw": "opchosam",
+    "it_raw": "opchosam",
+    "zl_words": [
+      "opchosam"
+    ],
+    "it_words": [
+      "opchosam"
+    ],
+    "agreed_single_word": true,
+    "word": "opchosam",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "G",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r2.4",
+    "page": "f89r2",
+    "num": 4,
+    "subtype": "Lf",
+    "zl_raw": "saloiinsheol",
+    "it_raw": "saloiin.sheol",
+    "zl_words": [
+      "saloiinsheol"
+    ],
+    "it_words": [
+      "saloiin",
+      "sheol"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "IT_multiple_or_uncertain_tokens",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "G",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r2.5",
+    "page": "f89r2",
+    "num": 5,
+    "subtype": "Lf",
+    "zl_raw": "opcheor",
+    "it_raw": "opcheor",
+    "zl_words": [
+      "opcheor"
+    ],
+    "it_words": [
+      "opcheor"
+    ],
+    "agreed_single_word": true,
+    "word": "opcheor",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "G",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r2.9",
+    "page": "f89r2",
+    "num": 9,
+    "subtype": "Lc",
+    "zl_raw": "otold[:y]",
+    "it_raw": "otoldy",
+    "zl_words": [
+      null
+    ],
+    "it_words": [
+      "otoldy"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_uncertain_reading",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "G",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r2.10",
+    "page": "f89r2",
+    "num": 10,
+    "subtype": "Lf",
+    "zl_raw": "okol.shol.dy",
+    "it_raw": "okol.shol.dy",
+    "zl_words": [
+      "okol",
+      "shol",
+      "dy"
+    ],
+    "it_words": [
+      "okol",
+      "shol",
+      "dy"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_multiple_tokens",
+      "IT_multiple_or_uncertain_tokens"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "G",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r2.11",
+    "page": "f89r2",
+    "num": 11,
+    "subtype": "Lf",
+    "zl_raw": "opchoroiin",
+    "it_raw": "opcharoiin",
+    "zl_words": [
+      "opchoroiin"
+    ],
+    "it_words": [
+      "opcharoiin"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "G",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r2.16",
+    "page": "f89r2",
+    "num": 16,
+    "subtype": "Lc",
+    "zl_raw": "korainy",
+    "it_raw": "korain.y",
+    "zl_words": [
+      "korainy"
+    ],
+    "it_words": [
+      "korain",
+      "y"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "IT_multiple_or_uncertain_tokens",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "G",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r2.17",
+    "page": "f89r2",
+    "num": 17,
+    "subtype": "Lf",
+    "zl_raw": "sodar",
+    "it_raw": "sodar",
+    "zl_words": [
+      "sodar"
+    ],
+    "it_words": [
+      "sodar"
+    ],
+    "agreed_single_word": true,
+    "word": "sodar",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "G",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r2.18",
+    "page": "f89r2",
+    "num": 18,
+    "subtype": "Lf",
+    "zl_raw": "cheys",
+    "it_raw": "cheys",
+    "zl_words": [
+      "cheys"
+    ],
+    "it_words": [
+      "cheys"
+    ],
+    "agreed_single_word": true,
+    "word": "cheys",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "G",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r2.19",
+    "page": "f89r2",
+    "num": 19,
+    "subtype": "Lf",
+    "zl_raw": "cheody",
+    "it_raw": "cheody",
+    "zl_words": [
+      "cheody"
+    ],
+    "it_words": [
+      "cheody"
+    ],
+    "agreed_single_word": true,
+    "word": "cheody",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "G",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r2.20",
+    "page": "f89r2",
+    "num": 20,
+    "subtype": "Lf",
+    "zl_raw": "oporain",
+    "it_raw": "oforain",
+    "zl_words": [
+      "oporain"
+    ],
+    "it_words": [
+      "oforain"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "G",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r2.21",
+    "page": "f89r2",
+    "num": 21,
+    "subtype": "Lf",
+    "zl_raw": "okshdchos",
+    "it_raw": "okshd.chos",
+    "zl_words": [
+      "okshdchos"
+    ],
+    "it_words": [
+      "okshd",
+      "chos"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "IT_multiple_or_uncertain_tokens",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "G",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r2.29",
+    "page": "f89r2",
+    "num": 29,
+    "subtype": "Lc",
+    "zl_raw": "okain",
+    "it_raw": "okain",
+    "zl_words": [
+      "okain"
+    ],
+    "it_words": [
+      "okain"
+    ],
+    "agreed_single_word": true,
+    "word": "okain",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "G",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r2.30",
+    "page": "f89r2",
+    "num": 30,
+    "subtype": "Lc",
+    "zl_raw": "yorain",
+    "it_raw": "yorain",
+    "zl_words": [
+      "yorain"
+    ],
+    "it_words": [
+      "yorain"
+    ],
+    "agreed_single_word": true,
+    "word": "yorain",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "G",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r2.31",
+    "page": "f89r2",
+    "num": 31,
+    "subtype": "Lf",
+    "zl_raw": "ofakal",
+    "it_raw": "ofakal",
+    "zl_words": [
+      "ofakal"
+    ],
+    "it_words": [
+      "ofakal"
+    ],
+    "agreed_single_word": true,
+    "word": "ofakal",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "G",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r2.32",
+    "page": "f89r2",
+    "num": 32,
+    "subtype": "Lf",
+    "zl_raw": "otalsy<!faint>",
+    "it_raw": "otalsy",
+    "zl_words": [
+      "otalsy"
+    ],
+    "it_words": [
+      "otalsy"
+    ],
+    "agreed_single_word": true,
+    "word": "otalsy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "G",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r2.33",
+    "page": "f89r2",
+    "num": 33,
+    "subtype": "Lf",
+    "zl_raw": "ytarem",
+    "it_raw": "ytarem",
+    "zl_words": [
+      "ytarem"
+    ],
+    "it_words": [
+      "ytarem"
+    ],
+    "agreed_single_word": true,
+    "word": "ytarem",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "G",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89r2.34",
+    "page": "f89r2",
+    "num": 34,
+    "subtype": "Lf",
+    "zl_raw": "otolarol",
+    "it_raw": "otolarol",
+    "zl_words": [
+      "otolarol"
+    ],
+    "it_words": [
+      "otolarol"
+    ],
+    "agreed_single_word": true,
+    "word": "otolarol",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "G",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/088v.jpg"
+    ]
+  },
+  {
+    "locus": "f89v2.1",
+    "page": "f89v2",
+    "num": 1,
+    "subtype": "Lc",
+    "zl_raw": "choeesy",
+    "it_raw": "choeesy",
+    "zl_words": [
+      "choeesy"
+    ],
+    "it_words": [
+      "choeesy"
+    ],
+    "agreed_single_word": true,
+    "word": "choeesy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "I",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/089r.jpg"
+    ]
+  },
+  {
+    "locus": "f89v2.2",
+    "page": "f89v2",
+    "num": 2,
+    "subtype": "Lf",
+    "zl_raw": "okam",
+    "it_raw": "okam",
+    "zl_words": [
+      "okam"
+    ],
+    "it_words": [
+      "okam"
+    ],
+    "agreed_single_word": true,
+    "word": "okam",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "I",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/089r.jpg"
+    ]
+  },
+  {
+    "locus": "f89v2.3",
+    "page": "f89v2",
+    "num": 3,
+    "subtype": "Lf",
+    "zl_raw": "darcheor",
+    "it_raw": "darcheos",
+    "zl_words": [
+      "darcheor"
+    ],
+    "it_words": [
+      "darcheos"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "I",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/089r.jpg"
+    ]
+  },
+  {
+    "locus": "f89v2.4",
+    "page": "f89v2",
+    "num": 4,
+    "subtype": "Lf",
+    "zl_raw": "chokaro",
+    "it_raw": "chokaro",
+    "zl_words": [
+      "chokaro"
+    ],
+    "it_words": [
+      "chokaro"
+    ],
+    "agreed_single_word": true,
+    "word": "chokaro",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "I",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/089r.jpg"
+    ]
+  },
+  {
+    "locus": "f89v2.5",
+    "page": "f89v2",
+    "num": 5,
+    "subtype": "Lf",
+    "zl_raw": "sheol",
+    "it_raw": "sheol",
+    "zl_words": [
+      "sheol"
+    ],
+    "it_words": [
+      "sheol"
+    ],
+    "agreed_single_word": true,
+    "word": "sheol",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "I",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/089r.jpg"
+    ]
+  },
+  {
+    "locus": "f89v2.6",
+    "page": "f89v2",
+    "num": 6,
+    "subtype": "Lf",
+    "zl_raw": "chokam",
+    "it_raw": "chokam",
+    "zl_words": [
+      "chokam"
+    ],
+    "it_words": [
+      "chokam"
+    ],
+    "agreed_single_word": true,
+    "word": "chokam",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "I",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/089r.jpg"
+    ]
+  },
+  {
+    "locus": "f89v2.11",
+    "page": "f89v2",
+    "num": 11,
+    "subtype": "Lc",
+    "zl_raw": "otory",
+    "it_raw": "okory",
+    "zl_words": [
+      "otory"
+    ],
+    "it_words": [
+      "okory"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "I",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/089r.jpg"
+    ]
+  },
+  {
+    "locus": "f89v2.12",
+    "page": "f89v2",
+    "num": 12,
+    "subtype": "Lf",
+    "zl_raw": "otair.chody",
+    "it_raw": "otair.chody",
+    "zl_words": [
+      "otair",
+      "chody"
+    ],
+    "it_words": [
+      "otair",
+      "chody"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_multiple_tokens",
+      "IT_multiple_or_uncertain_tokens"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "I",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/089r.jpg"
+    ]
+  },
+  {
+    "locus": "f89v2.13",
+    "page": "f89v2",
+    "num": 13,
+    "subtype": "Lf",
+    "zl_raw": "dykaran",
+    "it_raw": "dydariin",
+    "zl_words": [
+      "dykaran"
+    ],
+    "it_words": [
+      "dydariin"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "I",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/089r.jpg"
+    ]
+  },
+  {
+    "locus": "f89v2.14",
+    "page": "f89v2",
+    "num": 14,
+    "subtype": "Lf",
+    "zl_raw": "opcheedey",
+    "it_raw": "opcheedoy",
+    "zl_words": [
+      "opcheedey"
+    ],
+    "it_words": [
+      "opcheedoy"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "I",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/089r.jpg"
+    ]
+  },
+  {
+    "locus": "f89v2.23",
+    "page": "f89v2",
+    "num": 23,
+    "subtype": "Lc",
+    "zl_raw": "<!58a>opaloiiry",
+    "it_raw": "opaloiiry",
+    "zl_words": [
+      "opaloiiry"
+    ],
+    "it_words": [
+      "opaloiiry"
+    ],
+    "agreed_single_word": true,
+    "word": "opaloiiry",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "I",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/089r.jpg"
+    ]
+  },
+  {
+    "locus": "f89v2.24",
+    "page": "f89v2",
+    "num": 24,
+    "subtype": "Lf",
+    "zl_raw": "<!58b>otaram",
+    "it_raw": "otaram",
+    "zl_words": [
+      "otaram"
+    ],
+    "it_words": [
+      "otaram"
+    ],
+    "agreed_single_word": true,
+    "word": "otaram",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "I",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/089r.jpg"
+    ]
+  },
+  {
+    "locus": "f89v2.25",
+    "page": "f89v2",
+    "num": 25,
+    "subtype": "Lf",
+    "zl_raw": "<!59a>chtchy",
+    "it_raw": "chtody",
+    "zl_words": [
+      "chtchy"
+    ],
+    "it_words": [
+      "chtody"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "I",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/089r.jpg"
+    ]
+  },
+  {
+    "locus": "f89v2.27",
+    "page": "f89v2",
+    "num": 27,
+    "subtype": "Lf",
+    "zl_raw": "<!60>sada?",
+    "it_raw": "rady",
+    "zl_words": [
+      null
+    ],
+    "it_words": [
+      "rady"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_uncertain_reading",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "I",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/089r.jpg"
+    ]
+  },
+  {
+    "locus": "f89v2.28",
+    "page": "f89v2",
+    "num": 28,
+    "subtype": "Lf",
+    "zl_raw": "<!61>daseky",
+    "it_raw": "dareky",
+    "zl_words": [
+      "daseky"
+    ],
+    "it_words": [
+      "dareky"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "I",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/089r.jpg"
+    ]
+  },
+  {
+    "locus": "f89v1.1",
+    "page": "f89v1",
+    "num": 1,
+    "subtype": "Lc",
+    "zl_raw": "okoraldy",
+    "it_raw": "okoraldy",
+    "zl_words": [
+      "okoraldy"
+    ],
+    "it_words": [
+      "okoraldy"
+    ],
+    "agreed_single_word": true,
+    "word": "okoraldy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "J",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/089v.jpg"
+    ]
+  },
+  {
+    "locus": "f89v1.2",
+    "page": "f89v1",
+    "num": 2,
+    "subtype": "Lf",
+    "zl_raw": "oto{ikh}y",
+    "it_raw": "otoikhy",
+    "zl_words": [
+      "otoikhy"
+    ],
+    "it_words": [
+      "otoikhy"
+    ],
+    "agreed_single_word": true,
+    "word": "otoikhy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "J",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/089v.jpg"
+    ]
+  },
+  {
+    "locus": "f89v1.3",
+    "page": "f89v1",
+    "num": 3,
+    "subtype": "Lf",
+    "zl_raw": "otchar",
+    "it_raw": "otchar",
+    "zl_words": [
+      "otchar"
+    ],
+    "it_words": [
+      "otchar"
+    ],
+    "agreed_single_word": true,
+    "word": "otchar",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "J",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/089v.jpg"
+    ]
+  },
+  {
+    "locus": "f89v1.4",
+    "page": "f89v1",
+    "num": 4,
+    "subtype": "Lf",
+    "zl_raw": "darshody",
+    "it_raw": "darshody",
+    "zl_words": [
+      "darshody"
+    ],
+    "it_words": [
+      "darshody"
+    ],
+    "agreed_single_word": true,
+    "word": "darshody",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "J",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/089v.jpg"
+    ]
+  },
+  {
+    "locus": "f89v1.21",
+    "page": "f89v1",
+    "num": 21,
+    "subtype": "Lc",
+    "zl_raw": "koeeorain",
+    "it_raw": "koeeorain",
+    "zl_words": [
+      "koeeorain"
+    ],
+    "it_words": [
+      "koeeorain"
+    ],
+    "agreed_single_word": true,
+    "word": "koeeorain",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "O",
+      "P": "J",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/089v.jpg"
+    ]
+  },
+  {
+    "locus": "f89v1.22",
+    "page": "f89v1",
+    "num": 22,
+    "subtype": "Lf",
+    "zl_raw": "otorshos",
+    "it_raw": "otor.chos",
+    "zl_words": [
+      "otorshos"
+    ],
+    "it_words": [
+      "otor",
+      "chos"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "IT_multiple_or_uncertain_tokens",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "J",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/089v.jpg"
+    ]
+  },
+  {
+    "locus": "f89v1.23",
+    "page": "f89v1",
+    "num": 23,
+    "subtype": "Lf",
+    "zl_raw": "opol,olaiin",
+    "it_raw": "opol.olaiin",
+    "zl_words": [
+      "opol",
+      "olaiin"
+    ],
+    "it_words": [
+      "opol",
+      "olaiin"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_multiple_tokens",
+      "IT_multiple_or_uncertain_tokens"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "J",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/089v.jpg"
+    ]
+  },
+  {
+    "locus": "f89v1.24",
+    "page": "f89v1",
+    "num": 24,
+    "subtype": "Lf",
+    "zl_raw": "opaldaiin",
+    "it_raw": "opal.daiin",
+    "zl_words": [
+      "opaldaiin"
+    ],
+    "it_words": [
+      "opal",
+      "daiin"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "IT_multiple_or_uncertain_tokens",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "O",
+      "P": "J",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/089v.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.1",
+    "page": "f99r",
+    "num": 1,
+    "subtype": "Lc",
+    "zl_raw": "<!68a>okaradag",
+    "it_raw": "okoramog",
+    "zl_words": [
+      "okaradag"
+    ],
+    "it_words": [
+      "okoramog"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.2",
+    "page": "f99r",
+    "num": 2,
+    "subtype": "Lf",
+    "zl_raw": "<!68b>okar,y",
+    "it_raw": "okary",
+    "zl_words": [
+      "okar",
+      "y"
+    ],
+    "it_words": [
+      "okary"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_multiple_tokens",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.3",
+    "page": "f99r",
+    "num": 3,
+    "subtype": "Lf",
+    "zl_raw": "<!69>darar",
+    "it_raw": "darar",
+    "zl_words": [
+      "darar"
+    ],
+    "it_words": [
+      "darar"
+    ],
+    "agreed_single_word": true,
+    "word": "darar",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.4",
+    "page": "f99r",
+    "num": 4,
+    "subtype": "Lf",
+    "zl_raw": "<!70>oky",
+    "it_raw": "oky",
+    "zl_words": [
+      "oky"
+    ],
+    "it_words": [
+      "oky"
+    ],
+    "agreed_single_word": true,
+    "word": "oky",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.5",
+    "page": "f99r",
+    "num": 5,
+    "subtype": "Lf",
+    "zl_raw": "<!71>salo",
+    "it_raw": "salo",
+    "zl_words": [
+      "salo"
+    ],
+    "it_words": [
+      "salo"
+    ],
+    "agreed_single_word": true,
+    "word": "salo",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.6",
+    "page": "f99r",
+    "num": 6,
+    "subtype": "Lf",
+    "zl_raw": "<!72>aro",
+    "it_raw": "oro",
+    "zl_words": [
+      "aro"
+    ],
+    "it_words": [
+      "oro"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.7",
+    "page": "f99r",
+    "num": 7,
+    "subtype": "Lf",
+    "zl_raw": "<!72>ain",
+    "it_raw": "ain",
+    "zl_words": [
+      "ain"
+    ],
+    "it_words": [
+      "ain"
+    ],
+    "agreed_single_word": true,
+    "word": "ain",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.8",
+    "page": "f99r",
+    "num": 8,
+    "subtype": "Lf",
+    "zl_raw": "<!73>okor",
+    "it_raw": "okor",
+    "zl_words": [
+      "okor"
+    ],
+    "it_words": [
+      "okor"
+    ],
+    "agreed_single_word": true,
+    "word": "okor",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.9",
+    "page": "f99r",
+    "num": 9,
+    "subtype": "Lf",
+    "zl_raw": "<!74>ralol",
+    "it_raw": "salol",
+    "zl_words": [
+      "ralol"
+    ],
+    "it_words": [
+      "salol"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.10",
+    "page": "f99r",
+    "num": 10,
+    "subtype": "Lf",
+    "zl_raw": "<!75>skeeal",
+    "it_raw": "skeeal",
+    "zl_words": [
+      "skeeal"
+    ],
+    "it_words": [
+      "skeeal"
+    ],
+    "agreed_single_word": true,
+    "word": "skeeal",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.11",
+    "page": "f99r",
+    "num": 11,
+    "subtype": "Lf",
+    "zl_raw": "<!76>okary",
+    "it_raw": "okary",
+    "zl_words": [
+      "okary"
+    ],
+    "it_words": [
+      "okary"
+    ],
+    "agreed_single_word": true,
+    "word": "okary",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.12",
+    "page": "f99r",
+    "num": 12,
+    "subtype": "Lf",
+    "zl_raw": "<!77>okolo",
+    "it_raw": "okolo",
+    "zl_words": [
+      "okolo"
+    ],
+    "it_words": [
+      "okolo"
+    ],
+    "agreed_single_word": true,
+    "word": "okolo",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.13",
+    "page": "f99r",
+    "num": 13,
+    "subtype": "Lf",
+    "zl_raw": "<!78>otalam",
+    "it_raw": "otalam",
+    "zl_words": [
+      "otalam"
+    ],
+    "it_words": [
+      "otalam"
+    ],
+    "agreed_single_word": true,
+    "word": "otalam",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.14",
+    "page": "f99r",
+    "num": 14,
+    "subtype": "Lf",
+    "zl_raw": "<!79>otoldy",
+    "it_raw": "otoldy",
+    "zl_words": [
+      "otoldy"
+    ],
+    "it_words": [
+      "otoldy"
+    ],
+    "agreed_single_word": true,
+    "word": "otoldy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.19",
+    "page": "f99r",
+    "num": 19,
+    "subtype": "Lc",
+    "zl_raw": "<!80a>oparal",
+    "it_raw": "oparal",
+    "zl_words": [
+      "oparal"
+    ],
+    "it_words": [
+      "oparal"
+    ],
+    "agreed_single_word": true,
+    "word": "oparal",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.20",
+    "page": "f99r",
+    "num": 20,
+    "subtype": "Lf",
+    "zl_raw": "<!80b>oaro",
+    "it_raw": "oaro",
+    "zl_words": [
+      "oaro"
+    ],
+    "it_words": [
+      "oaro"
+    ],
+    "agreed_single_word": true,
+    "word": "oaro",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.21",
+    "page": "f99r",
+    "num": 21,
+    "subtype": "Lf",
+    "zl_raw": "<!81>aloly",
+    "it_raw": "aloly",
+    "zl_words": [
+      "aloly"
+    ],
+    "it_words": [
+      "aloly"
+    ],
+    "agreed_single_word": true,
+    "word": "aloly",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.22",
+    "page": "f99r",
+    "num": 22,
+    "subtype": "Lf",
+    "zl_raw": "<!82>aora[?:r]",
+    "it_raw": "ooror",
+    "zl_words": [
+      null
+    ],
+    "it_words": [
+      "ooror"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_uncertain_reading",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.23",
+    "page": "f99r",
+    "num": 23,
+    "subtype": "Lf",
+    "zl_raw": "<!83>choky",
+    "it_raw": "choky",
+    "zl_words": [
+      "choky"
+    ],
+    "it_words": [
+      "choky"
+    ],
+    "agreed_single_word": true,
+    "word": "choky",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.24",
+    "page": "f99r",
+    "num": 24,
+    "subtype": "Lf",
+    "zl_raw": "<!84>oky",
+    "it_raw": "oky",
+    "zl_words": [
+      "oky"
+    ],
+    "it_words": [
+      "oky"
+    ],
+    "agreed_single_word": true,
+    "word": "oky",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.25",
+    "page": "f99r",
+    "num": 25,
+    "subtype": "Lf",
+    "zl_raw": "<!85a>okeoly",
+    "it_raw": "okeoly",
+    "zl_words": [
+      "okeoly"
+    ],
+    "it_words": [
+      "okeoly"
+    ],
+    "agreed_single_word": true,
+    "word": "okeoly",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.26",
+    "page": "f99r",
+    "num": 26,
+    "subtype": "Lf",
+    "zl_raw": "<!85b>yteold",
+    "it_raw": "yteold",
+    "zl_words": [
+      "yteold"
+    ],
+    "it_words": [
+      "yteold"
+    ],
+    "agreed_single_word": true,
+    "word": "yteold",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.27",
+    "page": "f99r",
+    "num": 27,
+    "subtype": "Lf",
+    "zl_raw": "<!86a>cheotchy",
+    "it_raw": "cheotchy",
+    "zl_words": [
+      "cheotchy"
+    ],
+    "it_words": [
+      "cheotchy"
+    ],
+    "agreed_single_word": true,
+    "word": "cheotchy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.32",
+    "page": "f99r",
+    "num": 32,
+    "subtype": "Lc",
+    "zl_raw": "<!87a>tsholdy",
+    "it_raw": "tsholdy",
+    "zl_words": [
+      "tsholdy"
+    ],
+    "it_words": [
+      "tsholdy"
+    ],
+    "agreed_single_word": true,
+    "word": "tsholdy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.33",
+    "page": "f99r",
+    "num": 33,
+    "subtype": "Lf",
+    "zl_raw": "<!87b>okos",
+    "it_raw": "okos",
+    "zl_words": [
+      "okos"
+    ],
+    "it_words": [
+      "okos"
+    ],
+    "agreed_single_word": true,
+    "word": "okos",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.34",
+    "page": "f99r",
+    "num": 34,
+    "subtype": "Lf",
+    "zl_raw": "<!87c>oekey",
+    "it_raw": "oekey",
+    "zl_words": [
+      "oekey"
+    ],
+    "it_words": [
+      "oekey"
+    ],
+    "agreed_single_word": true,
+    "word": "oekey",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.35",
+    "page": "f99r",
+    "num": 35,
+    "subtype": "Lf",
+    "zl_raw": "<!88>dar",
+    "it_raw": "dor",
+    "zl_words": [
+      "dar"
+    ],
+    "it_words": [
+      "dor"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.36",
+    "page": "f99r",
+    "num": 36,
+    "subtype": "Lf",
+    "zl_raw": "<!89>chockhi[a:y]",
+    "it_raw": "chockhhy",
+    "zl_words": [
+      null
+    ],
+    "it_words": [
+      "chockhhy"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_uncertain_reading",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.37",
+    "page": "f99r",
+    "num": 37,
+    "subtype": "Lf",
+    "zl_raw": "<!90>r,cheyet",
+    "it_raw": "rchey.ot",
+    "zl_words": [
+      "r",
+      "cheyet"
+    ],
+    "it_words": [
+      "rchey",
+      "ot"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_multiple_tokens",
+      "IT_multiple_or_uncertain_tokens",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.38",
+    "page": "f99r",
+    "num": 38,
+    "subtype": "Lf",
+    "zl_raw": "<!91>saiiny",
+    "it_raw": "saiiny",
+    "zl_words": [
+      "saiiny"
+    ],
+    "it_words": [
+      "saiiny"
+    ],
+    "agreed_single_word": true,
+    "word": "saiiny",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.39",
+    "page": "f99r",
+    "num": 39,
+    "subtype": "Lf",
+    "zl_raw": "<!92>sory",
+    "it_raw": "rory",
+    "zl_words": [
+      "sory"
+    ],
+    "it_words": [
+      "rory"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.40",
+    "page": "f99r",
+    "num": 40,
+    "subtype": "Lf",
+    "zl_raw": "<!93>dam",
+    "it_raw": "dam",
+    "zl_words": [
+      "dam"
+    ],
+    "it_words": [
+      "dam"
+    ],
+    "agreed_single_word": true,
+    "word": "dam",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.45",
+    "page": "f99r",
+    "num": 45,
+    "subtype": "Lc",
+    "zl_raw": "<!94a>yteoldy",
+    "it_raw": "yteoldy",
+    "zl_words": [
+      "yteoldy"
+    ],
+    "it_words": [
+      "yteoldy"
+    ],
+    "agreed_single_word": true,
+    "word": "yteoldy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99r.46",
+    "page": "f99r",
+    "num": 46,
+    "subtype": "Lf",
+    "zl_raw": "<!94b>tolsasy",
+    "it_raw": "tolsasy",
+    "zl_words": [
+      "tolsasy"
+    ],
+    "it_words": [
+      "tolsasy"
+    ],
+    "agreed_single_word": true,
+    "word": "tolsasy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "A",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099r.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.1",
+    "page": "f99v",
+    "num": 1,
+    "subtype": "Lc",
+    "zl_raw": "<!95a>okaramy",
+    "it_raw": "otaramy",
+    "zl_words": [
+      "okaramy"
+    ],
+    "it_words": [
+      "otaramy"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.2",
+    "page": "f99v",
+    "num": 2,
+    "subtype": "Lf",
+    "zl_raw": "<!95b>otoldy",
+    "it_raw": "otoldy",
+    "zl_words": [
+      "otoldy"
+    ],
+    "it_words": [
+      "otoldy"
+    ],
+    "agreed_single_word": true,
+    "word": "otoldy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.3",
+    "page": "f99v",
+    "num": 3,
+    "subtype": "Lf",
+    "zl_raw": "<!96>otor<->chy",
+    "it_raw": "otor<->chy",
+    "zl_words": [
+      "otor",
+      "chy"
+    ],
+    "it_words": [
+      "otor",
+      "chy"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_multiple_tokens",
+      "IT_multiple_or_uncertain_tokens"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.4",
+    "page": "f99v",
+    "num": 4,
+    "subtype": "Lf",
+    "zl_raw": "<!97>oldy",
+    "it_raw": "oldy",
+    "zl_words": [
+      "oldy"
+    ],
+    "it_words": [
+      "oldy"
+    ],
+    "agreed_single_word": true,
+    "word": "oldy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.5",
+    "page": "f99v",
+    "num": 5,
+    "subtype": "Lf",
+    "zl_raw": "<!98>dar<->ary",
+    "it_raw": "dar<->ary",
+    "zl_words": [
+      "dar",
+      "ary"
+    ],
+    "it_words": [
+      "dar",
+      "ary"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_multiple_tokens",
+      "IT_multiple_or_uncertain_tokens"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.6",
+    "page": "f99v",
+    "num": 6,
+    "subtype": "Lf",
+    "zl_raw": "<!99>otaly",
+    "it_raw": "otaly",
+    "zl_words": [
+      "otaly"
+    ],
+    "it_words": [
+      "otaly"
+    ],
+    "agreed_single_word": true,
+    "word": "otaly",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.7",
+    "page": "f99v",
+    "num": 7,
+    "subtype": "Lf",
+    "zl_raw": "<!100>olsy",
+    "it_raw": "olsy",
+    "zl_words": [
+      "olsy"
+    ],
+    "it_words": [
+      "olsy"
+    ],
+    "agreed_single_word": true,
+    "word": "olsy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.8",
+    "page": "f99v",
+    "num": 8,
+    "subtype": "Lf",
+    "zl_raw": "<!101>arol",
+    "it_raw": "arol",
+    "zl_words": [
+      "arol"
+    ],
+    "it_words": [
+      "arol"
+    ],
+    "agreed_single_word": true,
+    "word": "arol",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.9",
+    "page": "f99v",
+    "num": 9,
+    "subtype": "Lf",
+    "zl_raw": "<!102>otoky",
+    "it_raw": "otoky",
+    "zl_words": [
+      "otoky"
+    ],
+    "it_words": [
+      "otoky"
+    ],
+    "agreed_single_word": true,
+    "word": "otoky",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.14",
+    "page": "f99v",
+    "num": 14,
+    "subtype": "Lc",
+    "zl_raw": "<!103a>okoldody",
+    "it_raw": "okoldody",
+    "zl_words": [
+      "okoldody"
+    ],
+    "it_words": [
+      "okoldody"
+    ],
+    "agreed_single_word": true,
+    "word": "okoldody",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.15",
+    "page": "f99v",
+    "num": 15,
+    "subtype": "Lf",
+    "zl_raw": "<!103b>oeeesary",
+    "it_raw": "oeeesary",
+    "zl_words": [
+      "oeeesary"
+    ],
+    "it_words": [
+      "oeeesary"
+    ],
+    "agreed_single_word": true,
+    "word": "oeeesary",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.16",
+    "page": "f99v",
+    "num": 16,
+    "subtype": "Lf",
+    "zl_raw": "<!104>daiiinc",
+    "it_raw": "daiiine",
+    "zl_words": [
+      "daiiinc"
+    ],
+    "it_words": [
+      "daiiine"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.17",
+    "page": "f99v",
+    "num": 17,
+    "subtype": "Lf",
+    "zl_raw": "<!105>sary",
+    "it_raw": "sory",
+    "zl_words": [
+      "sary"
+    ],
+    "it_words": [
+      "sory"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.18",
+    "page": "f99v",
+    "num": 18,
+    "subtype": "Lf",
+    "zl_raw": "<!106>saiino",
+    "it_raw": "saiino",
+    "zl_words": [
+      "saiino"
+    ],
+    "it_words": [
+      "saiino"
+    ],
+    "agreed_single_word": true,
+    "word": "saiino",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.19",
+    "page": "f99v",
+    "num": 19,
+    "subtype": "Lf",
+    "zl_raw": "<!107>otolsar",
+    "it_raw": "otolsar",
+    "zl_words": [
+      "otolsar"
+    ],
+    "it_words": [
+      "otolsar"
+    ],
+    "agreed_single_word": true,
+    "word": "otolsar",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.20",
+    "page": "f99v",
+    "num": 20,
+    "subtype": "Lf",
+    "zl_raw": "<!108>osary",
+    "it_raw": "osary",
+    "zl_words": [
+      "osary"
+    ],
+    "it_words": [
+      "osary"
+    ],
+    "agreed_single_word": true,
+    "word": "osary",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.25",
+    "page": "f99v",
+    "num": 25,
+    "subtype": "Lc",
+    "zl_raw": "<!109a>darolaly",
+    "it_raw": "darolaly",
+    "zl_words": [
+      "darolaly"
+    ],
+    "it_words": [
+      "darolaly"
+    ],
+    "agreed_single_word": true,
+    "word": "darolaly",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.26",
+    "page": "f99v",
+    "num": 26,
+    "subtype": "Lf",
+    "zl_raw": "<!109b>okechy",
+    "it_raw": "okechy",
+    "zl_words": [
+      "okechy"
+    ],
+    "it_words": [
+      "okechy"
+    ],
+    "agreed_single_word": true,
+    "word": "okechy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.27",
+    "page": "f99v",
+    "num": 27,
+    "subtype": "Lf",
+    "zl_raw": "<!110>otal",
+    "it_raw": "otal",
+    "zl_words": [
+      "otal"
+    ],
+    "it_words": [
+      "otal"
+    ],
+    "agreed_single_word": true,
+    "word": "otal",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.28",
+    "page": "f99v",
+    "num": 28,
+    "subtype": "Lf",
+    "zl_raw": "<!110b>chor.olekor",
+    "it_raw": "chor.olekor",
+    "zl_words": [
+      "chor",
+      "olekor"
+    ],
+    "it_words": [
+      "chor",
+      "olekor"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_multiple_tokens",
+      "IT_multiple_or_uncertain_tokens"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.29",
+    "page": "f99v",
+    "num": 29,
+    "subtype": "Lf",
+    "zl_raw": "<!111>okeodor",
+    "it_raw": "okeodor",
+    "zl_words": [
+      "okeodor"
+    ],
+    "it_words": [
+      "okeodor"
+    ],
+    "agreed_single_word": true,
+    "word": "okeodor",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.30",
+    "page": "f99v",
+    "num": 30,
+    "subtype": "Lf",
+    "zl_raw": "<!112>olky",
+    "it_raw": "olky",
+    "zl_words": [
+      "olky"
+    ],
+    "it_words": [
+      "olky"
+    ],
+    "agreed_single_word": true,
+    "word": "olky",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.31",
+    "page": "f99v",
+    "num": 31,
+    "subtype": "Lf",
+    "zl_raw": "<!113>doldam",
+    "it_raw": "doldam",
+    "zl_words": [
+      "doldam"
+    ],
+    "it_words": [
+      "doldam"
+    ],
+    "agreed_single_word": true,
+    "word": "doldam",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.36",
+    "page": "f99v",
+    "num": 36,
+    "subtype": "Lc",
+    "zl_raw": "<!114a>oralas",
+    "it_raw": "dralas",
+    "zl_words": [
+      "oralas"
+    ],
+    "it_words": [
+      "dralas"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f99v.44",
+    "page": "f99v",
+    "num": 44,
+    "subtype": "Lf",
+    "zl_raw": "<!114b>koleearol",
+    "it_raw": "koleearol",
+    "zl_words": [
+      "koleearol"
+    ],
+    "it_words": [
+      "koleearol"
+    ],
+    "agreed_single_word": true,
+    "word": "koleearol",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "B",
+      "F": "a",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/099v.jpg"
+    ]
+  },
+  {
+    "locus": "f100r.1",
+    "page": "f100r",
+    "num": 1,
+    "subtype": "Lf",
+    "zl_raw": "<!115>chosaroshol",
+    "it_raw": "chosaroshol",
+    "zl_words": [
+      "chosaroshol"
+    ],
+    "it_words": [
+      "chosaroshol"
+    ],
+    "agreed_single_word": true,
+    "word": "chosaroshol",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100r.jpg"
+    ]
+  },
+  {
+    "locus": "f100r.2",
+    "page": "f100r",
+    "num": 2,
+    "subtype": "Lf",
+    "zl_raw": "<!116>sochorcfhy",
+    "it_raw": "sochorcfhy",
+    "zl_words": [
+      "sochorcfhy"
+    ],
+    "it_words": [
+      "sochorcfhy"
+    ],
+    "agreed_single_word": true,
+    "word": "sochorcfhy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100r.jpg"
+    ]
+  },
+  {
+    "locus": "f100r.3",
+    "page": "f100r",
+    "num": 3,
+    "subtype": "Lf",
+    "zl_raw": "<!117>otear",
+    "it_raw": "otear",
+    "zl_words": [
+      "otear"
+    ],
+    "it_words": [
+      "otear"
+    ],
+    "agreed_single_word": true,
+    "word": "otear",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100r.jpg"
+    ]
+  },
+  {
+    "locus": "f100r.4",
+    "page": "f100r",
+    "num": 4,
+    "subtype": "Lf",
+    "zl_raw": "<!118>chofa[r:n]y",
+    "it_raw": "chofary",
+    "zl_words": [
+      null
+    ],
+    "it_words": [
+      "chofary"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_uncertain_reading",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100r.jpg"
+    ]
+  },
+  {
+    "locus": "f100r.5",
+    "page": "f100r",
+    "num": 5,
+    "subtype": "Lf",
+    "zl_raw": "<!119>sar,char<->daiindy",
+    "it_raw": "sar.char<->daiindy",
+    "zl_words": [
+      "sar",
+      "char",
+      "daiindy"
+    ],
+    "it_words": [
+      "sar",
+      "char",
+      "daiindy"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_multiple_tokens",
+      "IT_multiple_or_uncertain_tokens"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100r.jpg"
+    ]
+  },
+  {
+    "locus": "f100r.6",
+    "page": "f100r",
+    "num": 6,
+    "subtype": "Lf",
+    "zl_raw": "<!120>o[r:s]aro",
+    "it_raw": "osaro",
+    "zl_words": [
+      null
+    ],
+    "it_words": [
+      "osaro"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_uncertain_reading",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100r.jpg"
+    ]
+  },
+  {
+    "locus": "f100r.7",
+    "page": "f100r",
+    "num": 7,
+    "subtype": "Lf",
+    "zl_raw": "<!121>chalsain",
+    "it_raw": "chalsain",
+    "zl_words": [
+      "chalsain"
+    ],
+    "it_words": [
+      "chalsain"
+    ],
+    "agreed_single_word": true,
+    "word": "chalsain",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100r.jpg"
+    ]
+  },
+  {
+    "locus": "f100r.8",
+    "page": "f100r",
+    "num": 8,
+    "subtype": "Lf",
+    "zl_raw": "<!122>soity",
+    "it_raw": "soity",
+    "zl_words": [
+      "soity"
+    ],
+    "it_words": [
+      "soity"
+    ],
+    "agreed_single_word": true,
+    "word": "soity",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100r.jpg"
+    ]
+  },
+  {
+    "locus": "f100r.9",
+    "page": "f100r",
+    "num": 9,
+    "subtype": "Lf",
+    "zl_raw": "<!123>sosam",
+    "it_raw": "sosam",
+    "zl_words": [
+      "sosam"
+    ],
+    "it_words": [
+      "sosam"
+    ],
+    "agreed_single_word": true,
+    "word": "sosam",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100r.jpg"
+    ]
+  },
+  {
+    "locus": "f100r.10",
+    "page": "f100r",
+    "num": 10,
+    "subtype": "Lf",
+    "zl_raw": "<!124>dakocth",
+    "it_raw": "dakocth",
+    "zl_words": [
+      "dakocth"
+    ],
+    "it_words": [
+      "dakocth"
+    ],
+    "agreed_single_word": true,
+    "word": "dakocth",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100r.jpg"
+    ]
+  },
+  {
+    "locus": "f100r.11",
+    "page": "f100r",
+    "num": 11,
+    "subtype": "Lf",
+    "zl_raw": "<!125>sofam",
+    "it_raw": "sofal",
+    "zl_words": [
+      "sofam"
+    ],
+    "it_words": [
+      "sofal"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100r.jpg"
+    ]
+  },
+  {
+    "locus": "f100r.16",
+    "page": "f100r",
+    "num": 16,
+    "subtype": "Lf",
+    "zl_raw": "<!126/1st half>okeeos",
+    "it_raw": "okeeos",
+    "zl_words": [
+      "okeeos"
+    ],
+    "it_words": [
+      "okeeos"
+    ],
+    "agreed_single_word": true,
+    "word": "okeeos",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100r.jpg"
+    ]
+  },
+  {
+    "locus": "f100r.17",
+    "page": "f100r",
+    "num": 17,
+    "subtype": "Lf",
+    "zl_raw": "<!127>shockhey",
+    "it_raw": "shockhey",
+    "zl_words": [
+      "shockhey"
+    ],
+    "it_words": [
+      "shockhey"
+    ],
+    "agreed_single_word": true,
+    "word": "shockhey",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100r.jpg"
+    ]
+  },
+  {
+    "locus": "f100r.18",
+    "page": "f100r",
+    "num": 18,
+    "subtype": "Lf",
+    "zl_raw": "<!126/2nd half>orol",
+    "it_raw": "orol",
+    "zl_words": [
+      "orol"
+    ],
+    "it_words": [
+      "orol"
+    ],
+    "agreed_single_word": true,
+    "word": "orol",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100r.jpg"
+    ]
+  },
+  {
+    "locus": "f100r.19",
+    "page": "f100r",
+    "num": 19,
+    "subtype": "Lf",
+    "zl_raw": "<!128>olcheom",
+    "it_raw": "olcheom",
+    "zl_words": [
+      "olcheom"
+    ],
+    "it_words": [
+      "olcheom"
+    ],
+    "agreed_single_word": true,
+    "word": "olcheom",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100r.jpg"
+    ]
+  },
+  {
+    "locus": "f100r.20",
+    "page": "f100r",
+    "num": 20,
+    "subtype": "Lf",
+    "zl_raw": "<!130>oteol",
+    "it_raw": "oteol",
+    "zl_words": [
+      "oteol"
+    ],
+    "it_words": [
+      "oteol"
+    ],
+    "agreed_single_word": true,
+    "word": "oteol",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100r.jpg"
+    ]
+  },
+  {
+    "locus": "f100r.21",
+    "page": "f100r",
+    "num": 21,
+    "subtype": "Lf",
+    "zl_raw": "<!129>okols",
+    "it_raw": "okols",
+    "zl_words": [
+      "okols"
+    ],
+    "it_words": [
+      "okols"
+    ],
+    "agreed_single_word": true,
+    "word": "okols",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "C",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100r.jpg"
+    ]
+  },
+  {
+    "locus": "f100v.1",
+    "page": "f100v",
+    "num": 1,
+    "subtype": "Lf",
+    "zl_raw": "<!131>tolchd",
+    "it_raw": "tolchd",
+    "zl_words": [
+      "tolchd"
+    ],
+    "it_words": [
+      "tolchd"
+    ],
+    "agreed_single_word": true,
+    "word": "tolchd",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100v.jpg"
+    ]
+  },
+  {
+    "locus": "f100v.2",
+    "page": "f100v",
+    "num": 2,
+    "subtype": "Lf",
+    "zl_raw": "<!132>chols",
+    "it_raw": "chols",
+    "zl_words": [
+      "chols"
+    ],
+    "it_words": [
+      "chols"
+    ],
+    "agreed_single_word": true,
+    "word": "chols",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100v.jpg"
+    ]
+  },
+  {
+    "locus": "f100v.3",
+    "page": "f100v",
+    "num": 3,
+    "subtype": "Lf",
+    "zl_raw": "<!133>opchor",
+    "it_raw": "opchor",
+    "zl_words": [
+      "opchor"
+    ],
+    "it_words": [
+      "opchor"
+    ],
+    "agreed_single_word": true,
+    "word": "opchor",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100v.jpg"
+    ]
+  },
+  {
+    "locus": "f100v.4",
+    "page": "f100v",
+    "num": 4,
+    "subtype": "Lf",
+    "zl_raw": "<!134>solsy",
+    "it_raw": "rolsy",
+    "zl_words": [
+      "solsy"
+    ],
+    "it_words": [
+      "rolsy"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100v.jpg"
+    ]
+  },
+  {
+    "locus": "f100v.5",
+    "page": "f100v",
+    "num": 5,
+    "subtype": "Lf",
+    "zl_raw": "<!135>soleesos",
+    "it_raw": "sol.eesos",
+    "zl_words": [
+      "soleesos"
+    ],
+    "it_words": [
+      "sol",
+      "eesos"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "IT_multiple_or_uncertain_tokens",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100v.jpg"
+    ]
+  },
+  {
+    "locus": "f100v.6",
+    "page": "f100v",
+    "num": 6,
+    "subtype": "Lf",
+    "zl_raw": "<!136>ykchochdy",
+    "it_raw": "ykchochdy",
+    "zl_words": [
+      "ykchochdy"
+    ],
+    "it_words": [
+      "ykchochdy"
+    ],
+    "agreed_single_word": true,
+    "word": "ykchochdy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100v.jpg"
+    ]
+  },
+  {
+    "locus": "f100v.7",
+    "page": "f100v",
+    "num": 7,
+    "subtype": "Lf",
+    "zl_raw": "<!137>ykchdy",
+    "it_raw": "ykchdy",
+    "zl_words": [
+      "ykchdy"
+    ],
+    "it_words": [
+      "ykchdy"
+    ],
+    "agreed_single_word": true,
+    "word": "ykchdy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100v.jpg"
+    ]
+  },
+  {
+    "locus": "f100v.8",
+    "page": "f100v",
+    "num": 8,
+    "subtype": "Lf",
+    "zl_raw": "<!138>dchdy",
+    "it_raw": "dchdy",
+    "zl_words": [
+      "dchdy"
+    ],
+    "it_words": [
+      "dchdy"
+    ],
+    "agreed_single_word": true,
+    "word": "dchdy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100v.jpg"
+    ]
+  },
+  {
+    "locus": "f100v.9",
+    "page": "f100v",
+    "num": 9,
+    "subtype": "Lf",
+    "zl_raw": "<!139>dalsy",
+    "it_raw": "dalsy",
+    "zl_words": [
+      "dalsy"
+    ],
+    "it_words": [
+      "dalsy"
+    ],
+    "agreed_single_word": true,
+    "word": "dalsy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100v.jpg"
+    ]
+  },
+  {
+    "locus": "f100v.10",
+    "page": "f100v",
+    "num": 10,
+    "subtype": "Lf",
+    "zl_raw": "<!140>okcheor",
+    "it_raw": "okcheor",
+    "zl_words": [
+      "okcheor"
+    ],
+    "it_words": [
+      "okcheor"
+    ],
+    "agreed_single_word": true,
+    "word": "okcheor",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100v.jpg"
+    ]
+  },
+  {
+    "locus": "f100v.11",
+    "page": "f100v",
+    "num": 11,
+    "subtype": "Lf",
+    "zl_raw": "<!141>ytchol",
+    "it_raw": "ytchol",
+    "zl_words": [
+      "ytchol"
+    ],
+    "it_words": [
+      "ytchol"
+    ],
+    "agreed_single_word": true,
+    "word": "ytchol",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100v.jpg"
+    ]
+  },
+  {
+    "locus": "f100v.12",
+    "page": "f100v",
+    "num": 12,
+    "subtype": "Lf",
+    "zl_raw": "<!142>dykchal",
+    "it_raw": "dykchal",
+    "zl_words": [
+      "dykchal"
+    ],
+    "it_words": [
+      "dykchal"
+    ],
+    "agreed_single_word": true,
+    "word": "dykchal",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100v.jpg"
+    ]
+  },
+  {
+    "locus": "f100v.13",
+    "page": "f100v",
+    "num": 13,
+    "subtype": "Lf",
+    "zl_raw": "<!143>chos.ctharal",
+    "it_raw": "chos.cthoral",
+    "zl_words": [
+      "chos",
+      "ctharal"
+    ],
+    "it_words": [
+      "chos",
+      "cthoral"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_multiple_tokens",
+      "IT_multiple_or_uncertain_tokens",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "D",
+      "F": "b",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/100v.jpg"
+    ]
+  },
+  {
+    "locus": "f101v.1",
+    "page": "f101v",
+    "num": 1,
+    "subtype": "Lf",
+    "zl_raw": "[s:r]airaly",
+    "it_raw": "sairaly",
+    "zl_words": [
+      null
+    ],
+    "it_words": [
+      "sairaly"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_uncertain_reading",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "H",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101r.jpg",
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f101v.2",
+    "page": "f101v",
+    "num": 2,
+    "subtype": "Lf",
+    "zl_raw": "otaldy",
+    "it_raw": "otaldy",
+    "zl_words": [
+      "otaldy"
+    ],
+    "it_words": [
+      "otaldy"
+    ],
+    "agreed_single_word": true,
+    "word": "otaldy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "H",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101r.jpg",
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f101v.3",
+    "page": "f101v",
+    "num": 3,
+    "subtype": "Lf",
+    "zl_raw": "otol",
+    "it_raw": "otal",
+    "zl_words": [
+      "otol"
+    ],
+    "it_words": [
+      "otal"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "H",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101r.jpg",
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f101v.4",
+    "page": "f101v",
+    "num": 4,
+    "subtype": "Lf",
+    "zl_raw": "ytal",
+    "it_raw": "yta",
+    "zl_words": [
+      "ytal"
+    ],
+    "it_words": [
+      "yta"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "H",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101r.jpg",
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f101v.5",
+    "page": "f101v",
+    "num": 5,
+    "subtype": "Lf",
+    "zl_raw": "dokor",
+    "it_raw": "dokor",
+    "zl_words": [
+      "dokor"
+    ],
+    "it_words": [
+      "dokor"
+    ],
+    "agreed_single_word": true,
+    "word": "dokor",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "H",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101r.jpg",
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f101v.6",
+    "page": "f101v",
+    "num": 6,
+    "subtype": "Lf",
+    "zl_raw": "orar",
+    "it_raw": "orar",
+    "zl_words": [
+      "orar"
+    ],
+    "it_words": [
+      "orar"
+    ],
+    "agreed_single_word": true,
+    "word": "orar",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "H",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101r.jpg",
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f101v.7",
+    "page": "f101v",
+    "num": 7,
+    "subtype": "Lf",
+    "zl_raw": "otarar",
+    "it_raw": "otorar",
+    "zl_words": [
+      "otarar"
+    ],
+    "it_words": [
+      "otorar"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "H",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101r.jpg",
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f101v.8",
+    "page": "f101v",
+    "num": 8,
+    "subtype": "Lf",
+    "zl_raw": "ot[o:a]ly",
+    "it_raw": "otala",
+    "zl_words": [
+      null
+    ],
+    "it_words": [
+      "otala"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_uncertain_reading",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "H",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101r.jpg",
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f101v.9",
+    "page": "f101v",
+    "num": 9,
+    "subtype": "Lf",
+    "zl_raw": "soraly",
+    "it_raw": "soraly",
+    "zl_words": [
+      "soraly"
+    ],
+    "it_words": [
+      "soraly"
+    ],
+    "agreed_single_word": true,
+    "word": "soraly",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "H",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101r.jpg",
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f101v.10",
+    "page": "f101v",
+    "num": 10,
+    "subtype": "Lf",
+    "zl_raw": "okol",
+    "it_raw": "okol",
+    "zl_words": [
+      "okol"
+    ],
+    "it_words": [
+      "okol"
+    ],
+    "agreed_single_word": true,
+    "word": "okol",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "H",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101r.jpg",
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f101v.11",
+    "page": "f101v",
+    "num": 11,
+    "subtype": "Lf",
+    "zl_raw": "arom",
+    "it_raw": "arom",
+    "zl_words": [
+      "arom"
+    ],
+    "it_words": [
+      "arom"
+    ],
+    "agreed_single_word": true,
+    "word": "arom",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "H",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101r.jpg",
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f101v.12",
+    "page": "f101v",
+    "num": 12,
+    "subtype": "Lf",
+    "zl_raw": "oraram",
+    "it_raw": "orar.am",
+    "zl_words": [
+      "oraram"
+    ],
+    "it_words": [
+      "orar",
+      "am"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "IT_multiple_or_uncertain_tokens",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "H",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101r.jpg",
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f101v.13",
+    "page": "f101v",
+    "num": 13,
+    "subtype": "Lf",
+    "zl_raw": "oraeep",
+    "it_raw": "or?",
+    "zl_words": [
+      "oraeep"
+    ],
+    "it_words": [
+      null
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "IT_multiple_or_uncertain_tokens",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "H",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101r.jpg",
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f101v.14",
+    "page": "f101v",
+    "num": 14,
+    "subtype": "Lf",
+    "zl_raw": "dytolg",
+    "it_raw": "dytoly",
+    "zl_words": [
+      "dytolg"
+    ],
+    "it_words": [
+      "dytoly"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "H",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101r.jpg",
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f101v.15",
+    "page": "f101v",
+    "num": 15,
+    "subtype": "Lf",
+    "zl_raw": "olkor",
+    "it_raw": "olkor",
+    "zl_words": [
+      "olkor"
+    ],
+    "it_words": [
+      "olkor"
+    ],
+    "agreed_single_word": true,
+    "word": "olkor",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "H",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101r.jpg",
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f101v.16",
+    "page": "f101v",
+    "num": 16,
+    "subtype": "Lf",
+    "zl_raw": "dolary",
+    "it_raw": "dolary",
+    "zl_words": [
+      "dolary"
+    ],
+    "it_words": [
+      "dolary"
+    ],
+    "agreed_single_word": true,
+    "word": "dolary",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "H",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101r.jpg",
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f101v.17",
+    "page": "f101v",
+    "num": 17,
+    "subtype": "Lf",
+    "zl_raw": "odor",
+    "it_raw": "odor",
+    "zl_words": [
+      "odor"
+    ],
+    "it_words": [
+      "odor"
+    ],
+    "agreed_single_word": true,
+    "word": "odor",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "H",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101r.jpg",
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f101v.18",
+    "page": "f101v",
+    "num": 18,
+    "subtype": "Lf",
+    "zl_raw": "olaran",
+    "it_raw": "olaran",
+    "zl_words": [
+      "olaran"
+    ],
+    "it_words": [
+      "olaran"
+    ],
+    "agreed_single_word": true,
+    "word": "olaran",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "H",
+      "F": "y",
+      "B": "2",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101r.jpg",
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f102r1.1",
+    "page": "f102r1",
+    "num": 1,
+    "subtype": "Lc",
+    "zl_raw": "<!201a>daarod",
+    "it_raw": "dordod",
+    "zl_words": [
+      "daarod"
+    ],
+    "it_words": [
+      "dordod"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "L",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f102r1.2",
+    "page": "f102r1",
+    "num": 2,
+    "subtype": "Lf",
+    "zl_raw": "<!201b>otodeeodor",
+    "it_raw": "otodeeodor",
+    "zl_words": [
+      "otodeeodor"
+    ],
+    "it_words": [
+      "otodeeodor"
+    ],
+    "agreed_single_word": true,
+    "word": "otodeeodor",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "L",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f102r1.7",
+    "page": "f102r1",
+    "num": 7,
+    "subtype": "Lc",
+    "zl_raw": "<!202a>okolaly",
+    "it_raw": "orolaly",
+    "zl_words": [
+      "okolaly"
+    ],
+    "it_words": [
+      "orolaly"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "L",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f102r1.12",
+    "page": "f102r1",
+    "num": 12,
+    "subtype": "Lc",
+    "zl_raw": "<!203a>ddardsh",
+    "it_raw": "dardsh",
+    "zl_words": [
+      "ddardsh"
+    ],
+    "it_words": [
+      "dardsh"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "L",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f102r2.1",
+    "page": "f102r2",
+    "num": 1,
+    "subtype": "Lc",
+    "zl_raw": "kodaiig",
+    "it_raw": null,
+    "zl_words": [
+      "kodaiig"
+    ],
+    "it_words": null,
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "missing_or_different_IT_locus_type"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "M",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f102r2.7",
+    "page": "f102r2",
+    "num": 7,
+    "subtype": "Lc",
+    "zl_raw": "ok[?:o]rolda",
+    "it_raw": null,
+    "zl_words": [
+      null
+    ],
+    "it_words": null,
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "missing_or_different_IT_locus_type",
+      "ZL_uncertain_reading"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "M",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f102r2.13",
+    "page": "f102r2",
+    "num": 13,
+    "subtype": "Lc",
+    "zl_raw": "loeekadag<!top word>",
+    "it_raw": "de?d?loy",
+    "zl_words": [
+      "loeekadag"
+    ],
+    "it_words": [
+      null
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "IT_multiple_or_uncertain_tokens",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "M",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f102r2.14",
+    "page": "f102r2",
+    "num": 14,
+    "subtype": "Lc",
+    "zl_raw": "oshea??l<!middle word>",
+    "it_raw": "?o??sal",
+    "zl_words": [
+      null
+    ],
+    "it_words": [
+      null
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_uncertain_reading",
+      "IT_multiple_or_uncertain_tokens"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "M",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f102r2.15",
+    "page": "f102r2",
+    "num": 15,
+    "subtype": "Lc",
+    "zl_raw": "so???dch<!bottom word>",
+    "it_raw": "ra??l?r?",
+    "zl_words": [
+      null
+    ],
+    "it_words": [
+      null
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_uncertain_reading",
+      "IT_multiple_or_uncertain_tokens"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "M",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f102r2.21",
+    "page": "f102r2",
+    "num": 21,
+    "subtype": "Lf",
+    "zl_raw": "<!212>koldarod",
+    "it_raw": "koldarod",
+    "zl_words": [
+      "koldarod"
+    ],
+    "it_words": [
+      "koldarod"
+    ],
+    "agreed_single_word": true,
+    "word": "koldarod",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "M",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f102r2.22",
+    "page": "f102r2",
+    "num": 22,
+    "subtype": "Lf",
+    "zl_raw": "<!213>odalydary",
+    "it_raw": "odalydary",
+    "zl_words": [
+      "odalydary"
+    ],
+    "it_words": [
+      "odalydary"
+    ],
+    "agreed_single_word": true,
+    "word": "odalydary",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "M",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/101v.jpg"
+    ]
+  },
+  {
+    "locus": "f102v2.1",
+    "page": "f102v2",
+    "num": 1,
+    "subtype": "Lc",
+    "zl_raw": "<!214a>porshols",
+    "it_raw": "porshols",
+    "zl_words": [
+      "porshols"
+    ],
+    "it_words": [
+      "porshols"
+    ],
+    "agreed_single_word": true,
+    "word": "porshols",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "O",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102r.jpg"
+    ]
+  },
+  {
+    "locus": "f102v2.2",
+    "page": "f102v2",
+    "num": 2,
+    "subtype": "Lc",
+    "zl_raw": "<!214b>soaimy",
+    "it_raw": "soe.dy",
+    "zl_words": [
+      "soaimy"
+    ],
+    "it_words": [
+      "soe",
+      "dy"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "IT_multiple_or_uncertain_tokens",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "O",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102r.jpg"
+    ]
+  },
+  {
+    "locus": "f102v2.3",
+    "page": "f102v2",
+    "num": 3,
+    "subtype": "Lf",
+    "zl_raw": "<!214c>oror",
+    "it_raw": "oror",
+    "zl_words": [
+      "oror"
+    ],
+    "it_words": [
+      "oror"
+    ],
+    "agreed_single_word": true,
+    "word": "oror",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "O",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102r.jpg"
+    ]
+  },
+  {
+    "locus": "f102v2.4",
+    "page": "f102v2",
+    "num": 4,
+    "subtype": "Lf",
+    "zl_raw": "<!215>chor",
+    "it_raw": "eeor",
+    "zl_words": [
+      "chor"
+    ],
+    "it_words": [
+      "eeor"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "O",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102r.jpg"
+    ]
+  },
+  {
+    "locus": "f102v2.5",
+    "page": "f102v2",
+    "num": 5,
+    "subtype": "Lf",
+    "zl_raw": "<!216>sachy",
+    "it_raw": "sachy",
+    "zl_words": [
+      "sachy"
+    ],
+    "it_words": [
+      "sachy"
+    ],
+    "agreed_single_word": true,
+    "word": "sachy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "O",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102r.jpg"
+    ]
+  },
+  {
+    "locus": "f102v2.6",
+    "page": "f102v2",
+    "num": 6,
+    "subtype": "Lf",
+    "zl_raw": "<!217>okeo[s:r]",
+    "it_raw": "okeos",
+    "zl_words": [
+      null
+    ],
+    "it_words": [
+      "okeos"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_uncertain_reading",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "O",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102r.jpg"
+    ]
+  },
+  {
+    "locus": "f102v2.7",
+    "page": "f102v2",
+    "num": 7,
+    "subtype": "Lf",
+    "zl_raw": "<!218>okol",
+    "it_raw": "otol",
+    "zl_words": [
+      "okol"
+    ],
+    "it_words": [
+      "otol"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "O",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102r.jpg"
+    ]
+  },
+  {
+    "locus": "f102v2.8",
+    "page": "f102v2",
+    "num": 8,
+    "subtype": "Lf",
+    "zl_raw": "<!219>otory",
+    "it_raw": "otory",
+    "zl_words": [
+      "otory"
+    ],
+    "it_words": [
+      "otory"
+    ],
+    "agreed_single_word": true,
+    "word": "otory",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "O",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102r.jpg"
+    ]
+  },
+  {
+    "locus": "f102v2.9",
+    "page": "f102v2",
+    "num": 9,
+    "subtype": "Lf",
+    "zl_raw": "<!220>ok?",
+    "it_raw": "ok??",
+    "zl_words": [
+      null
+    ],
+    "it_words": [
+      null
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_uncertain_reading",
+      "IT_multiple_or_uncertain_tokens"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "O",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102r.jpg"
+    ]
+  },
+  {
+    "locus": "f102v2.10",
+    "page": "f102v2",
+    "num": 10,
+    "subtype": "Lf",
+    "zl_raw": "<!221>okody",
+    "it_raw": "okody",
+    "zl_words": [
+      "okody"
+    ],
+    "it_words": [
+      "okody"
+    ],
+    "agreed_single_word": true,
+    "word": "okody",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "O",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102r.jpg"
+    ]
+  },
+  {
+    "locus": "f102v2.11",
+    "page": "f102v2",
+    "num": 11,
+    "subtype": "Lf",
+    "zl_raw": "<!222>cheor",
+    "it_raw": "cheor",
+    "zl_words": [
+      "cheor"
+    ],
+    "it_words": [
+      "cheor"
+    ],
+    "agreed_single_word": true,
+    "word": "cheor",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "O",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102r.jpg"
+    ]
+  },
+  {
+    "locus": "f102v2.12",
+    "page": "f102v2",
+    "num": 12,
+    "subtype": "Lf",
+    "zl_raw": "<!223>okoroeey",
+    "it_raw": "okoroeey",
+    "zl_words": [
+      "okoroeey"
+    ],
+    "it_words": [
+      "okoroeey"
+    ],
+    "agreed_single_word": true,
+    "word": "okoroeey",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "O",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102r.jpg"
+    ]
+  },
+  {
+    "locus": "f102v2.13",
+    "page": "f102v2",
+    "num": 13,
+    "subtype": "Lf",
+    "zl_raw": "<!224>opchy",
+    "it_raw": "opchy",
+    "zl_words": [
+      "opchy"
+    ],
+    "it_words": [
+      "opchy"
+    ],
+    "agreed_single_word": true,
+    "word": "opchy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "O",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102r.jpg"
+    ]
+  },
+  {
+    "locus": "f102v2.14",
+    "page": "f102v2",
+    "num": 14,
+    "subtype": "Lf",
+    "zl_raw": "<!225>sarol",
+    "it_raw": "sarol",
+    "zl_words": [
+      "sarol"
+    ],
+    "it_words": [
+      "sarol"
+    ],
+    "agreed_single_word": true,
+    "word": "sarol",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "O",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102r.jpg"
+    ]
+  },
+  {
+    "locus": "f102v2.15",
+    "page": "f102v2",
+    "num": 15,
+    "subtype": "Lf",
+    "zl_raw": "<!226>olrodar",
+    "it_raw": "olrodar",
+    "zl_words": [
+      "olrodar"
+    ],
+    "it_words": [
+      "olrodar"
+    ],
+    "agreed_single_word": true,
+    "word": "olrodar",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "O",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102r.jpg"
+    ]
+  },
+  {
+    "locus": "f102v2.16",
+    "page": "f102v2",
+    "num": 16,
+    "subtype": "Lf",
+    "zl_raw": "<!227>to[d:?]?",
+    "it_raw": "tod?",
+    "zl_words": [
+      null
+    ],
+    "it_words": [
+      null
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "ZL_uncertain_reading",
+      "IT_multiple_or_uncertain_tokens"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "O",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102r.jpg"
+    ]
+  },
+  {
+    "locus": "f102v2.24",
+    "page": "f102v2",
+    "num": 24,
+    "subtype": "Lc",
+    "zl_raw": "<!229a>okolky",
+    "it_raw": "otolky",
+    "zl_words": [
+      "okolky"
+    ],
+    "it_words": [
+      "otolky"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "O",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102r.jpg"
+    ]
+  },
+  {
+    "locus": "f102v2.25",
+    "page": "f102v2",
+    "num": 25,
+    "subtype": "Lf",
+    "zl_raw": "<!229>osain",
+    "it_raw": "oran",
+    "zl_words": [
+      "osain"
+    ],
+    "it_words": [
+      "oran"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "O",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102r.jpg"
+    ]
+  },
+  {
+    "locus": "f102v2.26",
+    "page": "f102v2",
+    "num": 26,
+    "subtype": "Lf",
+    "zl_raw": "<!230>aiky",
+    "it_raw": "oika",
+    "zl_words": [
+      "aiky"
+    ],
+    "it_words": [
+      "oika"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "O",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102r.jpg"
+    ]
+  },
+  {
+    "locus": "f102v2.27",
+    "page": "f102v2",
+    "num": 27,
+    "subtype": "Lf",
+    "zl_raw": "<!231>okeeoraiin",
+    "it_raw": "okeeoraiin",
+    "zl_words": [
+      "okeeoraiin"
+    ],
+    "it_words": [
+      "okeeoraiin"
+    ],
+    "agreed_single_word": true,
+    "word": "okeeoraiin",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "O",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102r.jpg"
+    ]
+  },
+  {
+    "locus": "f102v2.28",
+    "page": "f102v2",
+    "num": 28,
+    "subtype": "Lf",
+    "zl_raw": "<!232>okockhy",
+    "it_raw": "okockhy",
+    "zl_words": [
+      "okockhy"
+    ],
+    "it_words": [
+      "okockhy"
+    ],
+    "agreed_single_word": true,
+    "word": "okockhy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "O",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102r.jpg"
+    ]
+  },
+  {
+    "locus": "f102v2.29",
+    "page": "f102v2",
+    "num": 29,
+    "subtype": "Lf",
+    "zl_raw": "<!233>os",
+    "it_raw": "e???ddy",
+    "zl_words": [
+      "os"
+    ],
+    "it_words": [
+      null
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "IT_multiple_or_uncertain_tokens",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "O",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102r.jpg"
+    ]
+  },
+  {
+    "locus": "f102v1.1",
+    "page": "f102v1",
+    "num": 1,
+    "subtype": "Lc",
+    "zl_raw": "<!234a>keoraiiin",
+    "it_raw": "ker.ron??",
+    "zl_words": [
+      "keoraiiin"
+    ],
+    "it_words": [
+      "ker",
+      null
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "IT_multiple_or_uncertain_tokens",
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "P",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102v.jpg"
+    ]
+  },
+  {
+    "locus": "f102v1.2",
+    "page": "f102v1",
+    "num": 2,
+    "subtype": "Lf",
+    "zl_raw": "<!234b>okeody",
+    "it_raw": "ykeody",
+    "zl_words": [
+      "okeody"
+    ],
+    "it_words": [
+      "ykeody"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "P",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102v.jpg"
+    ]
+  },
+  {
+    "locus": "f102v1.3",
+    "page": "f102v1",
+    "num": 3,
+    "subtype": "Lf",
+    "zl_raw": "<!235>okeody",
+    "it_raw": "okeody",
+    "zl_words": [
+      "okeody"
+    ],
+    "it_words": [
+      "okeody"
+    ],
+    "agreed_single_word": true,
+    "word": "okeody",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "P",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102v.jpg"
+    ]
+  },
+  {
+    "locus": "f102v1.4",
+    "page": "f102v1",
+    "num": 4,
+    "subtype": "Lf",
+    "zl_raw": "<!236>daiisaly",
+    "it_raw": "doiisaly",
+    "zl_words": [
+      "daiisaly"
+    ],
+    "it_words": [
+      "doiisaly"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "P",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102v.jpg"
+    ]
+  },
+  {
+    "locus": "f102v1.5",
+    "page": "f102v1",
+    "num": 5,
+    "subtype": "Lf",
+    "zl_raw": "<!237>ypary",
+    "it_raw": "ypory",
+    "zl_words": [
+      "ypary"
+    ],
+    "it_words": [
+      "ypory"
+    ],
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "readings_disagree"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "P",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102v.jpg"
+    ]
+  },
+  {
+    "locus": "f102v1.6",
+    "page": "f102v1",
+    "num": 6,
+    "subtype": "Lf",
+    "zl_raw": "<!238>opchyt{cy}",
+    "it_raw": "opchytcy",
+    "zl_words": [
+      "opchytcy"
+    ],
+    "it_words": [
+      "opchytcy"
+    ],
+    "agreed_single_word": true,
+    "word": "opchytcy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "P",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102v.jpg"
+    ]
+  },
+  {
+    "locus": "f102v1.15",
+    "page": "f102v1",
+    "num": 15,
+    "subtype": "Lc",
+    "zl_raw": "<!239a>d?indy",
+    "it_raw": null,
+    "zl_words": [
+      null
+    ],
+    "it_words": null,
+    "agreed_single_word": false,
+    "word": null,
+    "exclusion_reasons": [
+      "missing_or_different_IT_locus_type",
+      "ZL_uncertain_reading"
+    ],
+    "meta": {
+      "Q": "S",
+      "P": "P",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102v.jpg"
+    ]
+  },
+  {
+    "locus": "f102v1.16",
+    "page": "f102v1",
+    "num": 16,
+    "subtype": "Lf",
+    "zl_raw": "<!239b>ypcholdy",
+    "it_raw": "ypcholdy",
+    "zl_words": [
+      "ypcholdy"
+    ],
+    "it_words": [
+      "ypcholdy"
+    ],
+    "agreed_single_word": true,
+    "word": "ypcholdy",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "P",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102v.jpg"
+    ]
+  },
+  {
+    "locus": "f102v1.17",
+    "page": "f102v1",
+    "num": 17,
+    "subtype": "Lf",
+    "zl_raw": "<!240>loralody",
+    "it_raw": "loralody",
+    "zl_words": [
+      "loralody"
+    ],
+    "it_words": [
+      "loralody"
+    ],
+    "agreed_single_word": true,
+    "word": "loralody",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "P",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102v.jpg"
+    ]
+  },
+  {
+    "locus": "f102v1.18",
+    "page": "f102v1",
+    "num": 18,
+    "subtype": "Lf",
+    "zl_raw": "<!241>opchdard",
+    "it_raw": "opchdard",
+    "zl_words": [
+      "opchdard"
+    ],
+    "it_words": [
+      "opchdard"
+    ],
+    "agreed_single_word": true,
+    "word": "opchdard",
+    "exclusion_reasons": [],
+    "meta": {
+      "Q": "S",
+      "P": "P",
+      "F": "z",
+      "B": "1",
+      "I": "P",
+      "L": "A",
+      "H": "1"
+    },
+    "images": [
+      "data/images/102v.jpg"
+    ]
+  }
+]

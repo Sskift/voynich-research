@@ -1,0 +1,124 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "test": "Latin brute letter enumeration",
+      "length": 1,
+      "enumerated_words": 23,
+      "total": 0.006723746893925969,
+      "expected": 0.006723746893925971
+    },
+    {
+      "test": "Latin brute letter enumeration",
+      "length": 2,
+      "enumerated_words": 529,
+      "total": 0.12852748938455483,
+      "expected": 0.12852748938455485
+    },
+    {
+      "test": "Latin brute letter enumeration",
+      "length": 3,
+      "enumerated_words": 12167,
+      "total": 0.11749578302969681,
+      "expected": 0.11749578302969682
+    },
+    {
+      "test": "exact toy codebook mass",
+      "codebook": "complete",
+      "cipher_word_length": 1,
+      "total_valid": 1.0,
+      "expected": 1.0,
+      "failure_mass": 0.0
+    },
+    {
+      "test": "exact toy codebook mass",
+      "codebook": "complete",
+      "cipher_word_length": 2,
+      "total_valid": 1.0000000000000007,
+      "expected": 1.0,
+      "failure_mass": -6.661338147750939e-16
+    },
+    {
+      "test": "exact toy codebook mass",
+      "codebook": "complete",
+      "cipher_word_length": 3,
+      "total_valid": 1.000000000000001,
+      "expected": 1.0,
+      "failure_mass": -1.1102230246251565e-15
+    },
+    {
+      "test": "exact toy codebook mass",
+      "codebook": "homophonic",
+      "cipher_word_length": 1,
+      "total_valid": 1.0,
+      "expected": 1.0,
+      "failure_mass": 0.0
+    },
+    {
+      "test": "exact toy codebook mass",
+      "codebook": "homophonic",
+      "cipher_word_length": 2,
+      "total_valid": 1.0000000000000002,
+      "expected": 1.0,
+      "failure_mass": -2.220446049250313e-16
+    },
+    {
+      "test": "exact toy codebook mass",
+      "codebook": "homophonic",
+      "cipher_word_length": 3,
+      "total_valid": 1.0,
+      "expected": 1.0,
+      "failure_mass": 0.0
+    },
+    {
+      "test": "exact toy codebook mass",
+      "codebook": "monograph",
+      "cipher_word_length": 1,
+      "total_valid": 0.5555555555555555,
+      "expected": 0.5555555555555555,
+      "failure_mass": 0.44444444444444453
+    },
+    {
+      "test": "exact toy codebook mass",
+      "codebook": "monograph",
+      "cipher_word_length": 2,
+      "total_valid": 0.4098360655737705,
+      "expected": 0.4098360655737705,
+      "failure_mass": 0.5901639344262295
+    },
+    {
+      "test": "exact toy codebook mass",
+      "codebook": "monograph",
+      "cipher_word_length": 3,
+      "total_valid": 0.33875338753387535,
+      "expected": 0.33875338753387535,
+      "failure_mass": 0.6612466124661247
+    },
+    {
+      "test": "exact toy codebook mass",
+      "codebook": "digraph",
+      "cipher_word_length": 1,
+      "total_valid": 0.4444444444444445,
+      "expected": 0.4444444444444445,
+      "failure_mass": 0.5555555555555556
+    },
+    {
+      "test": "exact toy codebook mass",
+      "codebook": "digraph",
+      "cipher_word_length": 2,
+      "total_valid": 0.26229508196721313,
+      "expected": 0.26229508196721313,
+      "failure_mass": 0.7377049180327868
+    },
+    {
+      "test": "exact toy codebook mass",
+      "codebook": "digraph",
+      "cipher_word_length": 3,
+      "total_valid": 0.17344173441734423,
+      "expected": 0.1734417344173442,
+      "failure_mass": 0.8265582655826558
+    }
+  ],
+  "model_hash": "0213e0b135da4a2535d3c6d9ca963e2feccf365699c381c19e05133668fc1893",
+  "limitation": "Normalization is not a recovery or length-unbiasedness proof."
+}

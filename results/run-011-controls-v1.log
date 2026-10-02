@@ -1,0 +1,6 @@
+SOLVED v1-uniform60 -2.9583155388832547
+CONTROL v1-uniform60 {'letter_accuracy': 0.9999803667491263, 'correct_letters': 50933, 'predicted_letters': 50934, 'total_letters': 50937, 'predicted_fraction': 0.9999411037163555, 'word_accuracy': 0.9998874000675599, 'correct_words': 8880, 'complete_words': 8881, 'key_accuracy': 0.9827586206896551}
+SOLVED v1-medical127 -2.3990208064589065
+CONTROL v1-medical127 {'letter_accuracy': 0.9998436767234641, 'correct_letters': 6396, 'predicted_letters': 6397, 'total_letters': 6397, 'predicted_fraction': 1.0, 'word_accuracy': 0.999124343257443, 'correct_words': 1141, 'complete_words': 1142, 'key_accuracy': 0.992}
+SOLVED v1-tail127 -2.0057232469078095
+CONTROL v1-tail127 {'letter_accuracy': 0.9975159261188349, 'correct_letters': 49794, 'predicted_letters': 49918, 'total_letters': 50937, 'predicted_fraction': 0.9799948956554175, 'word_accuracy': 0.9866144715241824, 'correct_words': 7813, 'complete_words': 7919, 'key_accuracy': 0.9274193548387096}

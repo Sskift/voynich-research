@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "provenance_hashes": 127,
+  "frozen_hash_checks": 147,
+  "python_files_parsed": 5,
+  "local_links_checked": 22,
+  "complete_same_budget_shuffles": 9,
+  "goal_achieved": false
+}

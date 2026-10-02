@@ -1,0 +1,335 @@
+{
+  "page": "f69v",
+  "scope": "The28 inward radial loci only; circular texts excluded.",
+  "order": "Clockwise from locus4 near09:30, explicit integer locus order4..31. Missing/disputed labels retain slots; no assumption of equal physical angular spacing.",
+  "images": [
+    "data/images/069v.jpg"
+  ],
+  "labels": [
+    {
+      "locus": "f69v.4",
+      "slot": 0,
+      "zl_raw": "<!09:30>okeey,sar",
+      "it_raw": "okchy.sar",
+      "zl_text": "okeey.sar",
+      "it_text": "okchy.sar",
+      "accepted": false,
+      "exclusions": [
+        "reading_or_spacing_disagreement"
+      ],
+      "clock": "09:30"
+    },
+    {
+      "locus": "f69v.5",
+      "slot": 1,
+      "zl_raw": "<!10:00>okeo,dy",
+      "it_raw": "okeo.dy",
+      "zl_text": "okeo.dy",
+      "it_text": "okeo.dy",
+      "accepted": true,
+      "exclusions": [],
+      "clock": "10:00"
+    },
+    {
+      "locus": "f69v.6",
+      "slot": 2,
+      "zl_raw": "<!10:30>ochoyk",
+      "it_raw": "ochoyk",
+      "zl_text": "ochoyk",
+      "it_text": "ochoyk",
+      "accepted": true,
+      "exclusions": [],
+      "clock": "10:30"
+    },
+    {
+      "locus": "f69v.7",
+      "slot": 3,
+      "zl_raw": "<!11:00>ykeey",
+      "it_raw": "ykeey",
+      "zl_text": "ykeey",
+      "it_text": "ykeey",
+      "accepted": true,
+      "exclusions": [],
+      "clock": "11:00"
+    },
+    {
+      "locus": "f69v.8",
+      "slot": 4,
+      "zl_raw": "<!11:30>ytory",
+      "it_raw": "ytary",
+      "zl_text": "ytory",
+      "it_text": "ytary",
+      "accepted": false,
+      "exclusions": [
+        "reading_or_spacing_disagreement"
+      ],
+      "clock": "11:30"
+    },
+    {
+      "locus": "f69v.9",
+      "slot": 5,
+      "zl_raw": "<!00:00>oeesy",
+      "it_raw": "oeesa",
+      "zl_text": "oeesy",
+      "it_text": "oeesa",
+      "accepted": false,
+      "exclusions": [
+        "reading_or_spacing_disagreement"
+      ],
+      "clock": "00:00"
+    },
+    {
+      "locus": "f69v.10",
+      "slot": 6,
+      "zl_raw": "<!00:15>ytody",
+      "it_raw": "ytody",
+      "zl_text": "ytody",
+      "it_text": "ytody",
+      "accepted": true,
+      "exclusions": [],
+      "clock": "00:15"
+    },
+    {
+      "locus": "f69v.11",
+      "slot": 7,
+      "zl_raw": "<!00:30>okody",
+      "it_raw": "okody",
+      "zl_text": "okody",
+      "it_text": "okody",
+      "accepted": true,
+      "exclusions": [],
+      "clock": "00:30"
+    },
+    {
+      "locus": "f69v.12",
+      "slot": 8,
+      "zl_raw": "<!01:00>otody",
+      "it_raw": "otody",
+      "zl_text": "otody",
+      "it_text": "otody",
+      "accepted": true,
+      "exclusions": [],
+      "clock": "01:00"
+    },
+    {
+      "locus": "f69v.13",
+      "slot": 9,
+      "zl_raw": "<!01:30>oke[a:o]l",
+      "it_raw": "okeol",
+      "zl_text": null,
+      "it_text": "okeol",
+      "accepted": false,
+      "exclusions": [
+        "uncertain_ZL",
+        "reading_or_spacing_disagreement"
+      ],
+      "clock": "01:30"
+    },
+    {
+      "locus": "f69v.14",
+      "slot": 10,
+      "zl_raw": "<!02:00>okeod",
+      "it_raw": "okeod",
+      "zl_text": "okeod",
+      "it_text": "okeod",
+      "accepted": true,
+      "exclusions": [],
+      "clock": "02:00"
+    },
+    {
+      "locus": "f69v.15",
+      "slot": 11,
+      "zl_raw": "<!02:15>oteeys",
+      "it_raw": "oteeys",
+      "zl_text": "oteeys",
+      "it_text": "oteeys",
+      "accepted": true,
+      "exclusions": [],
+      "clock": "02:15"
+    },
+    {
+      "locus": "f69v.16",
+      "slot": 12,
+      "zl_raw": "<!02:45>oteol",
+      "it_raw": "oteol",
+      "zl_text": "oteol",
+      "it_text": "oteol",
+      "accepted": true,
+      "exclusions": [],
+      "clock": "02:45"
+    },
+    {
+      "locus": "f69v.17",
+      "slot": 13,
+      "zl_raw": "<!03:00>ykeydy",
+      "it_raw": "ykeydy",
+      "zl_text": "ykeydy",
+      "it_text": "ykeydy",
+      "accepted": true,
+      "exclusions": [],
+      "clock": "03:00"
+    },
+    {
+      "locus": "f69v.18",
+      "slot": 14,
+      "zl_raw": "<!03:15>okeod",
+      "it_raw": "okeod",
+      "zl_text": "okeod",
+      "it_text": "okeod",
+      "accepted": true,
+      "exclusions": [],
+      "clock": "03:15"
+    },
+    {
+      "locus": "f69v.19",
+      "slot": 15,
+      "zl_raw": "<!03:30>saral",
+      "it_raw": "saral",
+      "zl_text": "saral",
+      "it_text": "saral",
+      "accepted": true,
+      "exclusions": [],
+      "clock": "03:30"
+    },
+    {
+      "locus": "f69v.20",
+      "slot": 16,
+      "zl_raw": "<!04:00>saiir",
+      "it_raw": "saiir",
+      "zl_text": "saiir",
+      "it_text": "saiir",
+      "accepted": true,
+      "exclusions": [],
+      "clock": "04:00"
+    },
+    {
+      "locus": "f69v.21",
+      "slot": 17,
+      "zl_raw": "<!04:30>okolar",
+      "it_raw": "okolar",
+      "zl_text": "okolar",
+      "it_text": "okolar",
+      "accepted": true,
+      "exclusions": [],
+      "clock": "04:30"
+    },
+    {
+      "locus": "f69v.22",
+      "slot": 18,
+      "zl_raw": "<!05:00>ykeody",
+      "it_raw": "ykeody",
+      "zl_text": "ykeody",
+      "it_text": "ykeody",
+      "accepted": true,
+      "exclusions": [],
+      "clock": "05:00"
+    },
+    {
+      "locus": "f69v.23",
+      "slot": 19,
+      "zl_raw": "<!05:15>sarydy",
+      "it_raw": "sarydy",
+      "zl_text": "sarydy",
+      "it_text": "sarydy",
+      "accepted": true,
+      "exclusions": [],
+      "clock": "05:15"
+    },
+    {
+      "locus": "f69v.24",
+      "slot": 20,
+      "zl_raw": "<!05:45>otchy",
+      "it_raw": "otchy",
+      "zl_text": "otchy",
+      "it_text": "otchy",
+      "accepted": true,
+      "exclusions": [],
+      "clock": "05:45"
+    },
+    {
+      "locus": "f69v.25",
+      "slot": 21,
+      "zl_raw": "<!06:00>okeey,dy",
+      "it_raw": "okchy.dy",
+      "zl_text": "okeey.dy",
+      "it_text": "okchy.dy",
+      "accepted": false,
+      "exclusions": [
+        "reading_or_spacing_disagreement"
+      ],
+      "clock": "06:00"
+    },
+    {
+      "locus": "f69v.26",
+      "slot": 22,
+      "zl_raw": "<!06:30>okey,[d:g]",
+      "it_raw": "okey.d",
+      "zl_text": null,
+      "it_text": "okey.d",
+      "accepted": false,
+      "exclusions": [
+        "uncertain_ZL",
+        "reading_or_spacing_disagreement"
+      ],
+      "clock": "06:30"
+    },
+    {
+      "locus": "f69v.27",
+      "slot": 23,
+      "zl_raw": "<!07:00>okeod",
+      "it_raw": "okeod",
+      "zl_text": "okeod",
+      "it_text": "okeod",
+      "accepted": true,
+      "exclusions": [],
+      "clock": "07:00"
+    },
+    {
+      "locus": "f69v.28",
+      "slot": 24,
+      "zl_raw": "<!07:30>okodchy",
+      "it_raw": "okodchy",
+      "zl_text": "okodchy",
+      "it_text": "okodchy",
+      "accepted": true,
+      "exclusions": [],
+      "clock": "07:30"
+    },
+    {
+      "locus": "f69v.29",
+      "slot": 25,
+      "zl_raw": "<!08:00>okeody",
+      "it_raw": "okeody",
+      "zl_text": "okeody",
+      "it_text": "okeody",
+      "accepted": true,
+      "exclusions": [],
+      "clock": "08:00"
+    },
+    {
+      "locus": "f69v.30",
+      "slot": 26,
+      "zl_raw": "<!08:30>okchey[s:r]",
+      "it_raw": "okchey.s",
+      "zl_text": null,
+      "it_text": "okchey.s",
+      "accepted": false,
+      "exclusions": [
+        "uncertain_ZL",
+        "reading_or_spacing_disagreement"
+      ],
+      "clock": "08:30"
+    },
+    {
+      "locus": "f69v.31",
+      "slot": 27,
+      "zl_raw": "<!08:45>oar.alys",
+      "it_raw": "oar.alys",
+      "zl_text": "oar.alys",
+      "it_text": "oar.alys",
+      "accepted": true,
+      "exclusions": [],
+      "clock": "08:45"
+    }
+  ]
+}

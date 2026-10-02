@@ -1,0 +1,164 @@
+{
+  "status": "COMPLETED_EXPERIMENTS013_014_NOT_A_DECIPHERMENT",
+  "created_utc": "2026-10-02T06:07:58.555237+00:00",
+  "sources": [
+    {
+      "role": "native_manuscript_transcription",
+      "source": "GC",
+      "path": "data/raw/GC2a-n.txt",
+      "sha256": "b09570cb6c993bc2d87134d115e60a978650a8a6495483ddbb1f6005a586096f",
+      "note": "Same manuscript, not independent text evidence. Case/escapes retained."
+    },
+    {
+      "role": "native_manuscript_transcription",
+      "source": "ZL",
+      "path": "data/raw/ZL3b-n.txt",
+      "sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+      "note": "Same manuscript, not independent text evidence. Case/escapes retained."
+    },
+    {
+      "role": "native_manuscript_transcription",
+      "source": "IT",
+      "path": "data/raw/IT2a-n.txt",
+      "sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+      "note": "Same manuscript, not independent text evidence. Case/escapes retained."
+    },
+    {
+      "role": "archived format text from original PDF",
+      "path": "data/raw/IVTFF_format.txt",
+      "url": "https://www.voynich.nu/software/ivtt/IVTFF_format.pdf",
+      "sha256": "07f6940c86d728e1da8412729189cc398bae65e253f9de91059bc2d8d0288178"
+    },
+    {
+      "role": "original transcription-author definitions",
+      "path": "data/raw/transcr.html",
+      "url": "https://www.voynich.nu/transcr.html",
+      "sha256": "57f8aaf6b1cdd6a292361b3a94e723f8fb14f0960b2cb349acee142fbadb19a5"
+    },
+    {
+      "role": "E42C definition",
+      "path": "data/raw/titus-a.html",
+      "url": "https://titus.uni-frankfurt.de/unicode/unicsel/lat/0061.htm",
+      "sha256": "9a9bc3eb399ad71f25b8cef66d83dbf66b2a994a5db17334b265d20e5b0458a5"
+    },
+    {
+      "role": "E72B/E72D definitions",
+      "path": "data/raw/titus-u.html",
+      "url": "https://titus.uni-frankfurt.de/unicode/unicsel/lat/0075.htm",
+      "sha256": "c6b29dd5d38cb281204450e54f32c23b1f154fc219e1bd149f84af4f87029e06"
+    },
+    {
+      "role": "older o-superscript-e code E638; NOT proof of E644",
+      "path": "data/raw/titus-o.html",
+      "url": "https://titus.uni-frankfurt.de/unicode/unicsel/lat/006f.htm",
+      "sha256": "6bb6415c33a53be0d949299b2d16560642c9ed5d39c17fe56021dd7fd0d9f6cf"
+    },
+    {
+      "role": "E644=o+combining e definition",
+      "path": "data/raw/ocrd-character-table.html",
+      "url": "https://ocr-d.de/de/gt-guidelines/trans/ocr_d_koordinationsgremium_codierung.html",
+      "sha256": "3b14e74270c486fb8c283a1af29c3a8a7ce0100965d784789677705e1804cffa"
+    },
+    {
+      "role": "sole LM training work",
+      "path": "data/language-screen/brant-reading.json",
+      "sha256": "9b4d0863fb742ac9d6bacf2612db87cf95429629c87a544dce20cd68ca64455a",
+      "provenance": "data/round-009-sources.json"
+    },
+    {
+      "role": "separate-work known cipher; v2 development after v1",
+      "path": "data/language-screen/tepl.json",
+      "sha256": "84c1325ee842114e65f5317f113dc0f2f98e4d6b78effcf113e8013b5e3daa6b",
+      "provenance": "data/round-009-sources.json"
+    }
+  ],
+  "download_records": [
+    {
+      "url": "https://www.mufi.info/mufi/pdfs/MUFI%20v4.0%20alpha.pdf",
+      "error": "HTTP Error 404: Not Found",
+      "download_record": "data/german-components/mufi-downloads.json"
+    },
+    {
+      "url": "https://mufi.info/q.php?p=mufi%2Fchars%2Funichar%2F59181",
+      "path": "data/raw/mufi-u-entry.html",
+      "bytes": 1939,
+      "sha256": "b7030b4c4aa21f08554f9bf02cf64e5090582dc3f914b6b773e673859962a2c8",
+      "is_pdf": false,
+      "download_record": "data/german-components/mufi-downloads.json",
+      "content_usable": false,
+      "reason": "Browser verification response, not MUFI character content."
+    },
+    {
+      "url": "https://titus.uni-frankfurt.de/unicode/unicsel/lat/0075.htm",
+      "path": "data/raw/titus-u.html",
+      "bytes": 27626,
+      "sha256": "c6b29dd5d38cb281204450e54f32c23b1f154fc219e1bd149f84af4f87029e06",
+      "is_pdf": false,
+      "download_record": "data/german-components/mufi-downloads.json",
+      "content_usable": true
+    },
+    {
+      "path": "data/raw/titus-a.html",
+      "url": "https://titus.uni-frankfurt.de/unicode/unicsel/lat/0061.htm",
+      "bytes": 28143,
+      "sha256": "9a9bc3eb399ad71f25b8cef66d83dbf66b2a994a5db17334b265d20e5b0458a5",
+      "download_record": "data/german-components/titus-downloads.json",
+      "content_usable": true
+    },
+    {
+      "url": "https://titus.uni-frankfurt.de/unicode/unicsel/lat/006F.htm",
+      "error": "HTTP Error 404: Not Found",
+      "download_record": "data/german-components/titus-downloads.json"
+    },
+    {
+      "url": "https://titus.uni-frankfurt.de/unicode/unicsel/lat/006f.htm",
+      "path": "data/raw/titus-o.html",
+      "bytes": 35536,
+      "sha256": "6bb6415c33a53be0d949299b2d16560642c9ed5d39c17fe56021dd7fd0d9f6cf",
+      "download_record": "data/german-components/titus-downloads.json",
+      "content_usable": true
+    },
+    {
+      "url": "https://ocr-d.de/de/gt-guidelines/trans/ocr_d_koordinationsgremium_codierung.html",
+      "path": "data/raw/ocrd-character-table.html",
+      "bytes": 541968,
+      "sha256": "3b14e74270c486fb8c283a1af29c3a8a7ce0100965d784789677705e1804cffa",
+      "download_record": "data/german-components-v2/ocrd-source.json",
+      "content_usable": true
+    }
+  ],
+  "not_archived_primary_evidence": [
+    {
+      "url": "https://mufi.info/mufi/pdfs/MUFI%20v4.0%20alpha.pdf",
+      "role": "official search-index character definitions pp76,98; direct PDF download failed, no local PDF"
+    },
+    {
+      "url": "https://mufi.info/mufi/pdfs/MUFI%20v4.0%20chart.pdf",
+      "role": "official indexed code chart p154 confirmsE644=o+0364; no local PDF"
+    }
+  ],
+  "source_correction": "notes/experiment-014-character-source-correction.md",
+  "model_versions": [
+    {
+      "version": 1,
+      "status": "known_controls_failed_no_manuscript_search",
+      "freeze": "results/german-components/failed-v1-freeze.json"
+    },
+    {
+      "version": 2,
+      "status": "base_letter_projection_calibrated_and_applied",
+      "normalization": "data/german-components-v2/normalization-freeze.json",
+      "solver_freeze": "results/german-components-v2/solver-freeze.json"
+    }
+  ],
+  "compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0",
+  "binary": {
+    "path": "bin/component_search",
+    "sha256": "d0108655d6bc33ac98c2634362f26f0fa59906b7e9c28c3391a0343dbcf78b2e"
+  },
+  "audits": [
+    "results/audit-010-units.json",
+    "results/audit-010-decoder.json"
+  ],
+  "limitations": "No identified language, phonetics or semantic word values. f1r new score-reserve was one short previously visible T page and is now development. Both versions used same Tepl control text; normalization chosen on known controls only."
+}

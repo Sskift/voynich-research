@@ -1,0 +1,18 @@
+{
+  "status": "FROZEN_BEFORE_CALIBRATION_SCORES",
+  "hashes": {
+    "notes/experiment-015-design.md": "f0090491cc4cf44ef33c657a264901646e4b6c997e8ebea5bc5eebce8104112e",
+    "notes/experiment-015-v1-protocol.md": "7825e3dabfe32508926528c26cc831ac1061c721dbeefbf8c4d74a2f25808573",
+    "src/variable_units.py": "b5408bbb416233d64fcf2b8cbccbb38160fda33dc3d9862c0fa9280345798dec",
+    "src/variable_unit_search.cpp": "e197543e54b2e19c869725b2056c195722be96b697b647ab20c33ff3b5605958",
+    "bin/variable_unit_search": "c7d5831163f9d0a0447febaa9558ec280d964de1bac8553e72c7c19535160a34",
+    "results/variable-units-v1/normalization.json": "b767ef8cf58fea217c27e078b4b2b244dc78dcd18b366644cf02d5b010e7cf26",
+    "data/variable-units-v1/config.json": "44eb321e18b94b7a403e62bca2d842b04f487c9c4d42d6bee8c47e00edcd2c27",
+    "data/variable-units-v1/homophone127.json": "249f477242c2e70c04345ba60a312936decdfda047d25af068622801f0e3716d",
+    "data/variable-units-v1/language.json": "b7b1c242f08ec43eddb50f3917f99524e22034092408134e46957e31890fbf8e",
+    "data/variable-units-v1/length-terms.bin": "180e6f030e0d7d1da66a71431dc2a865c4340ba8c849960875a3b035e4b46c23",
+    "data/variable-units-v1/letter23.json": "c3b36ebbf28067b2e816357d75e54289e40b8d4e3b6c8407166349b8209abdf6",
+    "data/variable-units-v1/pair127.json": "d5a2a9656f3f5dde1b411f285a19780d9e3318f343a5b65b41bcb2072de61d68",
+    "data/variable-units-v1/word-conditional4.bin": "0213e0b135da4a2535d3c6d9ca963e2feccf365699c381c19e05133668fc1893"
+  }
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "path": "macer.html",
+    "url": "https://remacle.org/bloodwolf/erudits/floridus/plantes.htm",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "path": "data/raw/language-screen/aquinas-q1.html",
+    "url": "https://www.corpusthomisticum.org/sth1001.html",
+    "bytes": 49241,
+    "sha256": "5a12bc7d183bd6b68d389f5e46eaad8c366686cb74e97e2500a31a53d9a823b2",
+    "status": "DOWNLOADED_NOT_YET_VALIDATED"
+  },
+  {
+    "path": "data/raw/language-screen/dante-1012.txt",
+    "url": "https://www.gutenberg.org/cache/epub/1012/pg1012.txt",
+    "bytes": 626095,
+    "sha256": "568035b4af7bda4f69f8ed5dea160f59bcf5b9371c7f2a62a97f94b826c0c1c6",
+    "status": "DOWNLOADED_NOT_YET_VALIDATED"
+  },
+  {
+    "path": "data/raw/language-screen/narragonien-corpus.html",
+    "url": "https://www.narragonien-digital.de/exist/textkorpus/textkorpus.html",
+    "bytes": 53909,
+    "sha256": "2a73dc6e03cc81be09b7345c331a71c1713878bdd260478b410c97d837b03353",
+    "status": "DOWNLOADED_NOT_YET_VALIDATED"
+  },
+  {
+    "path": "decameron-download.html",
+    "url": "https://liberliber.it/opere/download/?op=2344551&type=opera_url_txt",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

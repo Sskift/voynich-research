@@ -1,0 +1,177 @@
+{
+  "status": "POSTHOC_DESCRIPTIVE; no model/key reselection",
+  "restart_comparison": [
+    {
+      "restart": 7,
+      "train_objective": -3.20590565064439,
+      "different_glyphs": 0,
+      "training_token_disagreement": 0.0
+    },
+    {
+      "restart": 2,
+      "train_objective": -3.2112246504006774,
+      "different_glyphs": 30,
+      "training_token_disagreement": 0.09826735803718224
+    },
+    {
+      "restart": 6,
+      "train_objective": -3.2474730287969122,
+      "different_glyphs": 105,
+      "training_token_disagreement": 0.8044348889169933
+    },
+    {
+      "restart": 8,
+      "train_objective": -3.247531708991139,
+      "different_glyphs": 105,
+      "training_token_disagreement": 0.8044348889169933
+    },
+    {
+      "restart": 0,
+      "train_objective": -3.2475552488665143,
+      "different_glyphs": 104,
+      "training_token_disagreement": 0.8044770456557481
+    },
+    {
+      "restart": 13,
+      "train_objective": -3.2730506531962904,
+      "different_glyphs": 109,
+      "training_token_disagreement": 0.9291345221533662
+    },
+    {
+      "restart": 1,
+      "train_objective": -3.2753277278608355,
+      "different_glyphs": 106,
+      "training_token_disagreement": 0.8541798406475275
+    },
+    {
+      "restart": 11,
+      "train_objective": -3.280846583985329,
+      "different_glyphs": 102,
+      "training_token_disagreement": 0.8008937228615994
+    },
+    {
+      "restart": 3,
+      "train_objective": -3.286593005383758,
+      "different_glyphs": 106,
+      "training_token_disagreement": 0.8510180852409258
+    },
+    {
+      "restart": 12,
+      "train_objective": -3.290245331831557,
+      "different_glyphs": 108,
+      "training_token_disagreement": 0.8577210067029215
+    },
+    {
+      "restart": 5,
+      "train_objective": -3.2975885187264145,
+      "different_glyphs": 86,
+      "training_token_disagreement": 0.5267906074786055
+    },
+    {
+      "restart": 4,
+      "train_objective": -3.338093170837965,
+      "different_glyphs": 99,
+      "training_token_disagreement": 0.6772480080940938
+    },
+    {
+      "restart": 10,
+      "train_objective": -3.3855770832580063,
+      "different_glyphs": 102,
+      "training_token_disagreement": 0.912566923822773
+    },
+    {
+      "restart": 9,
+      "train_objective": -3.4748490174074895,
+      "different_glyphs": 121,
+      "training_token_disagreement": 0.999578432612453
+    },
+    {
+      "restart": 15,
+      "train_objective": -3.58690809829106,
+      "different_glyphs": 118,
+      "training_token_disagreement": 0.8911091437966359
+    },
+    {
+      "restart": 14,
+      "train_objective": -3.640281997595514,
+      "different_glyphs": 108,
+      "training_token_disagreement": 0.8542219973862822
+    }
+  ],
+  "selected_training_letter_counts": {
+    "e": 4626,
+    "o": 2490,
+    "t": 2456,
+    "u": 1763,
+    "n": 1665,
+    "m": 3667,
+    "r": 2423,
+    "i": 1364,
+    "d": 1109,
+    "p": 567,
+    "s": 794,
+    "x": 147,
+    "a": 278,
+    "c": 146,
+    "l": 106,
+    "g": 39,
+    "h": 29,
+    "b": 23,
+    "f": 13,
+    "q": 7,
+    "y": 3,
+    "k": 3,
+    "z": 3
+  },
+  "cipher_o_fractions": {
+    "train": {
+      "total": 23721,
+      "o_count": 4621,
+      "o_fraction": 0.1948062897854222
+    },
+    "development": {
+      "total": 4653,
+      "o_count": 922,
+      "o_fraction": 0.19815173006662368
+    },
+    "reserve": {
+      "total": 9307,
+      "o_count": 1982,
+      "o_fraction": 0.2129579886107231
+    }
+  },
+  "latin_max_letter": "e",
+  "latin_max_letter_fraction": 0.1180912012330779,
+  "necessary_condition": "Deterministic many-to-one letter map has maximum plaintext token frequency >= maximum cipher-token frequency; empirical source distributions need not match across works.",
+  "null_metrics": {
+    "conditional4": {
+      "mean": -4.257058583075485,
+      "range": [
+        -4.411713420297523,
+        -3.943768865116732
+      ]
+    },
+    "combined": {
+      "mean": -5.039022617808072,
+      "range": [
+        -5.093692206031081,
+        -4.972079659361676
+      ]
+    },
+    "sixgram_seen": {
+      "mean": 0.04595233650675129,
+      "range": [
+        0.03593429158110883,
+        0.054694791861116296
+      ]
+    },
+    "word_seen": {
+      "mean": 0.0795910297689657,
+      "range": [
+        0.05592272496187087,
+        0.1265887137773259
+      ]
+    }
+  },
+  "random_label_mean": -7.555249288200088
+}

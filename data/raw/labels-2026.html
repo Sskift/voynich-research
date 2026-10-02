@@ -1,0 +1,859 @@
+<!DOCTYPE HTML>
+<HTML LANG="en">
+
+<HEAD>
+  <META NAME="keywords" CONTENT="Voynich, manuscript">
+  <TITLE>Some special properties of labels in the Voynich MS</TITLE>
+  <META charset=utf-8>
+  <LINK REL=stylesheet TYPE="text/css" HREF="../vmsnv.css">
+</HEAD>
+
+<BODY>
+
+<TABLE CLASS="btn">
+  <TR>
+    <TD><A HREF="../toc.html"><IMG SRC="../img/btn/TOC.jpg" ALT="TOC"></A></TD>
+    <TD><A HREF="../index.html"><IMG SRC="../img/btn/start.jpg" ALT="Home"></A></TD>
+    <TD><A HREF="../roadmap.html"><IMG SRC="../img/btn/map.jpg" ALT="Map"></A></TD>
+  </TR>
+  <TR>
+    <TD><A HREF="javascript:history.back()">
+<IMG SRC="../img/btn/bback.gif" ALT="back"></A></TD>
+    <TD> </TD>
+    <TD> </TD>
+  </TR>
+</TABLE>
+
+<H1>Some special properties of labels in the Voynich MS</H1>
+
+<H2>Introduction</H2>
+
+<P>
+Labels appear in the Voynich MS in several places. In the zodiac illustrations, essentially every degree of each sign 
+has a female figure holding a star, with a word written near it. This word (rarely also more than one word) will be 
+referred to here are a 'zodiac label'. A second specific set of labels appears near small plant drawings in the so-called 
+pharmaceutical section of the MS. These will be called 'pharma labels'
+<A HREF="#n01">(1)</A>.  
+</P>
+
+<P>
+Further examples are labels near stars on so-called astronomical pages and labels in the so-called biological pages.
+Most of our attention in the following will go to the zodiac labels. As only 10 of 12 signs have been preserved in the MS, 
+there should be 300 such labels, but, presumably due to a mistake by the author(s)/scribe(s), one is missing so we only 
+have 299.
+</P>
+
+<P>
+In total, 1029 labels have been identified in the MS, but a number of these are single words or characters that are not 
+near drawing elements. Some of these are part of sequences of words or characters. These will not be considered in this study. 
+It is tempting to think of labels as names, or at least nouns, but this may not necessarily be the case. 
+Labels may be adjectives, or in the case of the zodiac even numbers or coordinates. 
+We will do our analysis without making any such assumptions.
+</P>
+
+<H2>Input data</H2>
+
+<P>
+The analysis is based on a transliteration of the Voynich MS text: the Reference Transliteration version 1b, as provided 
+using the Basic Eva character set  
+(<A HREF="../data/RF1b-er.txt">link to file</A>). 
+This file includes a number of so-called ‘uncertain spaces’, which are represented by a comma. 
+In the following analysis, these are always ignored (considered not to represent a space).
+The 299 zodiac labels have been collected in a single text file. A few labels consist of two or three words, 
+and these have been treated as a single label (including spaces, which are represented by a period). 
+The first 30 labels are shown below, using the Eva transliteration alphabet.
+</P>
+
+<PRE>
+
+ otalalg      okody         otaral
+ okasy        opysam        otalar
+ otar?        chckhhy       otalam
+ oty          otaly         dolaram
+ oky.ody      otal.arar     okaram
+ oty.ar       otaldy        oteosal
+ okaly        okeoly        salols
+ otody        okydy         okaldal
+ otald        okees         ykolaiin
+ otaldar      atar.am       otolal
+
+</PRE>
+
+<P>
+Some aspects of these labels have already been commented on in the past: 
+</P>
+
+<UL>
+<LI>
+While it is quite common for Voynich words to start with Eva "qo", this is almost never the case with labels. 
+In the very partial list above, we already see that a majority of labels start with Eva "ok" or "ot".</LI>
+<LI>
+The most frequent words in the MS text (such as "daiin", "chedy", "chol") do not appear as labels words</LI>
+<LI>
+My own qualitative observation has been that the labels words have a very flat frequency distribution. 
+While they are not all unique, the situation is closer to that than for the running text of the MS.</LI>
+</UL>
+
+<P>
+The main reason for this mini-study is to test this third qualitative observation with quantitative data.
+</P>
+
+<H2>Frequency distribution of zodiac labels</H2>
+
+<H3>Zodiac labels</H3>
+
+<P>
+The 30 most frequent zodiac labels are shown below. The last four already appear only once, and this is true for all 
+other zodiac labels
+<A HREF="#n02">(2)</A>. 
+A word that appears only once in a text corpus is called a "hapax legomenon", which, for convenience,
+will just be called "hapax" in the following. It should be understood that these words are unique within
+this specific group of words, but may appear multiple times in the complete text of the MS.
+</P>
+
+<PRE>
+
+  5 otaly          2 otalaiin       2 okaram
+  5 okal           2 otal           2 okaldy
+  4 okaly          2 okydy          2 okalar
+  3 okeody         2 oky            2 oeeodaiin
+  2 ykey           2 okeos          2 oeedy
+  2 ykeedy         2 okeoly         2 cheoldy
+  2 oty            2 okeey.ary      1 ytoar.shar
+  2 oteody         2 okeey          1 yteody
+  2 otaraldy       2 okeeody        1 yteod
+  2 otaldar        2 okedy          1 yteeody
+
+</PRE>
+
+<P>
+Other terms that will be used frequently are "word token" 
+and "word type". A text of 200 words includes 200 word tokens. Since typically some words will appear more than once, 
+this text may have only 150 different words, or 150 word types.
+</P>
+
+<P>
+The above distribution of label words could be shown graphically, but this graph will be relatively uninteresting. 
+Instead, we can summarise it with two parameters: the frequency of the most common word type and the percentage of hapax. 
+The latter is computed as the number of hapax divided by the number of word tokens.
+</P>
+
+<P>
+These numbers are correlated with each other to some extent, but they can vary independently. A third parameter
+that has been used in this context is the number of word types divided by the number of word tokens (type-token
+ratio or TTR). This has been used in studies using MATTR (moving average TTR), which did not concentrate on the
+labels, but have their own interest 
+<A HREF="#n03">(3)</A>. 
+</P>
+
+<P>
+The most frequent word type among zodiac labels appears 5 times. The number of hapax in the zodiac labels is 238, 
+leading to a hapax-% of 80%.
+In order to decide if this distribution is unusual, we need to compare these two numbers with other groups of 299 words 
+in the MS. Since 299 is a relatively small sample of words, we may expect that the count of most frequent words
+is subject to aribitrary variations. For that reason, we may regularise the most frequent word count by using a 
+weighted average of the three most frequent words. These weights are set to 3/6, 2/6 and 1/6 for words 1-3 respectively.
+</P>
+
+<H4>Comparison texts</H4>
+
+<P>
+The first set of words for comparison is taken from the circular texts of the zodiac pages. These may be expected to 
+be most similar to the labels. These texts have not received much attention in Voynich MS text studies.
+The concatenation of these circular texts has 910 word tokens, which allows us to extract three groups of 299 words. 
+These have been chosen to be words 1-299, 301-599 and 601-899 respectively
+<A HREF="#n04">(4)</A>. 
+The relevant statistics for these three groups (called Cz-A, Cz-B and Cz-C) are shown in Table 1,
+together with the average of the three.
+</P>
+
+<TABLE CLASS="cen">
+
+ <TR>
+  <TH>Text group</TH> <TH>Freq.word</TH> <TH>Weighted</TH>
+  <TH>Hapax-%</TH>
+ </TR>
+
+ <TR>
+  <TH>Cz-A</TH> <TD>10</TD> <TD>9.2</TD> <TD>63%</TD>
+ </TR>
+ <TR>
+  <TH>Cz-B</TH> <TD>10</TD> <TD>8.0</TD> <TD>58%</TD>
+ </TR>
+ <TR>
+  <TH>Cz-C</TH> <TD>6</TD> <TD>5.5</TD> <TD>73%</TD>
+ </TR>
+ <TR>
+  <TH>Cz (avg)</TH> <TD>8.7</TD> <TD>7.6</TD> <TD>65%</TD>
+ </TR>
+ <TR>
+  <TH>Labels</TH> <TD>5</TD> <TD>4.8</TD> <TD>80%</TD>
+ </TR>
+
+</TABLE>
+ 
+<P CLASS="centr">
+<SPAN CLASS="emph">Table 1: frequency distribution parameters for circular texts in the zodiac,
+<BR>
+compared with the zodiac labels</SPAN> 
+</P>
+
+<P>
+A 'flat' distribution is characterised by a relatively low count on the most frequent word, and a high hapax 
+percentage. All three groups have a distribution that is less 'flat' than the zodiac labels, though the third comes 
+reasonably close. This last point may warrant a closer look. 
+The average of the three groups is quite distinct from the statistics of the labels.
+</P>
+
+<P>
+A second comparison text of interest is provided by the so-called recipes or stars section in quire 20 of the MS
+<A HREF="#n05">(5)</A>. 
+Here, each page has more than 299 word tokens, so the first 299 words of each page can be compared with the zodiac 
+labels. The results are shown in Table 2.
+</P>
+
+<TABLE CLASS="cen">
+
+ <TR>
+  <TH>Text group</TH> <TH>Freq.word</TH> <TH>Weighted</TH>
+  <TH>Hapax-%</TH>
+  <TH>Text group</TH> <TH>Freq.word</TH> <TH>Weighted</TH>
+  <TH>Hapax-%</TH>
+ </TR>
+
+ <TR>
+  <TH>f103r</TH> <TD>11</TD> <TD>10.3</TD> <TD>64%</TD>
+  <TH>f103v</TH> <TD>13</TD> <TD>10.8</TD> <TD>49%</TD>
+ </TR>
+ <TR>
+  <TH>f104r</TH> <TD>6</TD> <TD>6.0</TD> <TD>63%</TD>
+  <TH>f104v</TH> <TD>9</TD> <TD>7.5</TD> <TD>57%</TD>
+ </TR>
+ <TR>
+  <TH>f105r</TH> <TD>6</TD> <TD>5.8</TD> <TD>65%</TD>
+  <TH>f105v</TH> <TD>11</TD> <TD>9.5</TD> <TD>63%</TD>
+ </TR>
+ <TR>
+  <TH>f106r</TH> <TD>7</TD> <TD>6.7</TD> <TD>66%</TD>
+  <TH>f106v</TH> <TD>8</TD> <TD>7.2</TD> <TD>67%</TD>
+ </TR>
+ <TR>
+  <TH>f107r</TH> <TD>10</TD> <TD>8.5</TD> <TD>65%</TD>
+  <TH>f107v</TH> <TD>9</TD> <TD>8.5</TD> <TD>50%</TD>
+ </TR>
+ <TR>
+  <TH>f108r</TH> <TD>9</TD> <TD>8.3</TD> <TD>54%</TD>
+  <TH>f108v</TH> <TD>9</TD> <TD>8.3</TD> <TD>53%</TD>
+ </TR>
+ <TR>
+  <TH>f111r</TH> <TD>12</TD> <TD>9.5</TD> <TD>56%</TD>
+  <TH>f111v</TH> <TD>15</TD> <TD>11.7</TD> <TD>44%</TD>
+ </TR>
+ <TR>
+  <TH>f112r</TH> <TD>11</TD> <TD>9.3</TD> <TD>56%</TD>
+  <TH>f112v</TH> <TD>12</TD> <TD>9.8</TD> <TD>51%</TD>
+ </TR>
+ <TR>
+  <TH>f113r</TH> <TD>8</TD> <TD>6.5</TD> <TD>69%</TD>
+  <TH>f113v</TH> <TD>11</TD> <TD>10.0</TD> <TD>63%</TD>
+ </TR>
+ <TR>
+  <TH>f114r</TH> <TD>8</TD> <TD>7.0</TD> <TD>67%</TD>
+  <TH>f114v</TH> <TD>8</TD> <TD>7.5</TD> <TD>63%</TD>
+ </TR>
+ <TR>
+  <TH>f115r</TH> <TD>9</TD> <TD>7.5</TD> <TD>59%</TD>
+  <TH>f115v</TH> <TD>6</TD> <TD>5.0</TD> <TD>70%</TD>
+ </TR>
+ <TR>
+  <TH>f116r</TH> <TD>12</TD> <TD>10.3</TD> <TD>42%</TD>
+  <TH>f116v</TH> <TD>-</TD> <TD>-</TD> <TD>-</TD>
+ </TR>
+ <TR>
+  <TH>Avg page</TH> <TD>9.6</TD> <TD>8.3</TD> <TD>59%</TD>
+  <TD COLSPAN=4>&nbsp;</TD>
+ </TR>
+ <TR>
+  <TH>Labels</TH> <TD>5</TD> <TD>4.8</TD> <TD>80%</TD>
+  <TD COLSPAN=4>&nbsp;</TD>
+ </TR>
+
+</TABLE>
+ 
+<P CLASS="centr">
+<SPAN CLASS="emph">Table 2: frequency distribution parameters for text in quire 20,
+<BR>
+compared with the zodiac labels</SPAN> 
+</P>
+
+<P>
+We see that the weighted most frequent word ranges from 5.0 to 11.7, while the zodiac labels are at 4.8. 
+The average of these pages is 8.3, slightly higher also than the circular texts on the zodiac pages.
+The hapax-% ranges from 42% to 70%, while the zodiac labels are at 80%. The average of the stars pages is 59%, 
+lower than the circular texts on the zodiac pages. 
+Again, one page comes somewhat close to the statistics of the zodiac labels, at least for its first 299 words, 
+and also this may warrant a closer look. For the average, the differences with the zodiac labels are significant.
+</P>
+
+<P>
+The other parts of the Voynich MS text are also tested, but not to their full extent. They are summarised
+in Table 3. For the word count, only text in paragraphs (or along circles in one case) is included.
+When the individual pages of a particular area are not long enough to provide 299 word tokens,
+these sections are concatenated, and the total number of words is indicated in the Table. 
+</P>
+
+<P>
+As an addition made in September 2026, another group of words has been added for comparison, namely the 
+paragraph-initial words of the stars section. The reference transliteration (RF1b) does not include paragraph start 
+and end markers, so the paragraph definitions from the ZL3b transliteration file have been adopted. There are 292 
+such paragraph-initial words, which is slightly less than 299, but the difference is assumed to be small enough 
+not to cause any major error.
+</P>
+
+<TABLE CLASS="cen">
+
+ <TR>
+  <TH>Text</TH> <TH>Selection method</TH> <TH>Nr. of words</TH> <TH>Samples</TH>
+ </TR>
+
+ <TR>
+  <TH>Herbal-A</TH> <TD>Concatenation of short pages</TD> <TD>7669</TD> <TD>6</TD>
+ </TR>
+ <TR>
+  <TH>Herbal-B</TH> <TD>Concatenation of short pages</TD> <TD>3378</TD> <TD>6</TD>
+ </TR>
+ <TR>
+  <TH>Pharmaceutical</TH> <TD>Concatenation of short pages</TD> <TD>2287</TD> <TD>6</TD>
+ </TR>
+ <TR>
+  <TH>Biological</TH> <TD>Use individual pages</TD> <TD>-</TD> <TD>6</TD>
+ </TR>
+ <TR>
+  <TH>Astro-Cosmo circles</TH> <TD>Concatenation of circles</TD> <TD>1187</TD> <TD>3</TD>
+ </TR>
+ <TR>
+  <TH>f58 r+v</TH> <TD>Use individual pages</TD> <TD>-</TD> <TD>2</TD>
+ </TR>
+ <TR>
+  <TH>Stars</TH> <TD>Paragraph-initial words</TD> <TD>292</TD> <TD>1</TD>
+ </TR>
+
+</TABLE>
+
+<P CLASS="centr">
+<SPAN CLASS="emph">Table 3: Further text samples for analysis</SPAN> 
+</P>
+
+<P>
+For each group of concatenated pages, up to six 299-word samples are taken in exactly the same manner as 
+described for the zodiac circular text above. For the biological pages and f58r, f58v, the first 299
+words of each page are used.
+</P>
+
+<P>
+The individual samples are not listed, but they have all been included in Figure 1 below. 
+This shows the weighted count of the most frequent word along the X-axis and the hapax-% along 
+the Y-axis.
+</P>
+
+<P CLASS="centr">
+<IMG SRC="../img/stats/lbl_fig1a.png" WIDTH=600 HEIGHT=454 ALT="pages">
+</P>
+
+<P CLASS="centr">
+<SPAN CLASS="emph">Figure 1: Statistics of individual samples of 299 word tokens</SPAN> 
+</P>
+
+<P>
+With respect to the samples of running text (solid circles), the zodiac labels are clearly separated 
+from them in terms of hapax-%. In extreme cases, the most frequent word count (weighted) can come close 
+to that of the labels case, but the spread in this quantity is quite large. It turns out that, indeed, 
+the zodiac circles and the stars text of quire 20 do come closest to the zodiac labels, based on these statistics.
+</P>
+
+<P>
+The point nearest to the zodiac labels is that of the paragraph-initial words of the stars section
+(open diamond). This significant result still requires further analysis.
+</P>
+
+<P>
+The averages per section are listed in Table 4 (also including the earlier results), and shown in 
+Figure 2.
+</P>
+
+<TABLE CLASS="cen">
+
+ <TR>
+  <TH>Text group</TH> <TH>Freq.word</TH> <TH>Weighted</TH>
+  <TH>Hapax-%</TH>
+ </TR>
+
+ <TR>
+  <TH>Zodiac Labels</TH> <TD>5</TD> <TD>4.8</TD> <TD>80%</TD>
+ </TR>
+ <TR>
+  <TH>Zodiac circles average</TH> <TD>8.7</TD> <TD>7.6</TD> <TD>65%</TD>
+ </TR>
+ <TR>
+  <TH>Astro/Cosmo average</TH> <TD>8.7</TD> <TD>7.6</TD> <TD>62%</TD>
+ </TR>
+ <TR>
+  <TH>Stars average</TH> <TD>9.6</TD> <TD>8.3</TD> <TD>59%</TD>
+ </TR>
+ <TR>
+  <TH>f58 average</TH> <TD>10.5</TD> <TD>8.7</TD> <TD>59%</TD>
+ </TR>
+ <TR>
+  <TH>Herbal-A average</TH> <TD>14.0</TD> <TD>12.0</TD> <TD>57%</TD>
+ </TR>
+ <TR>
+  <TH>Herbal-B average</TH> <TD>10.8</TD> <TD>9.9</TD> <TD>56%</TD>
+ </TR>
+ <TR>
+  <TH>Pharma average</TH> <TD>14.3</TD> <TD>11.1</TD> <TD>54%</TD>
+ </TR>
+ <TR>
+  <TH>Biological average</TH> <TD>15.8</TD> <TD>14.0</TD> <TD>42%</TD>
+ </TR>
+
+</TABLE>
+
+<P CLASS="centr">
+<SPAN CLASS="emph">Table 4: Statistics for averages of 299-word samples</SPAN> 
+</P>
+
+<P CLASS="centr">
+<IMG SRC="../img/stats/lbl_fig2a.png" WIDTH=600 HEIGHT=454 ALT="averages">
+</P>
+
+<P CLASS="centr">
+<SPAN CLASS="emph">Figure 2: Statistics for averages of 299-word samples</SPAN> 
+</P>
+
+<P>
+For these averages, the difference between running text (also when along circles)
+and labels is very clear and significant. Before looking more deeply into these
+results, let us also analyse the Pharma labels.
+</P>
+
+<H2>Frequency distribution of pharma labels</H2>
+
+<P>
+On the three pharmaceutical bifolios, labels appear near plant fragments and near 
+containers. For this analysis both types are included. Based on this, there is a 
+total of 234 labels, a little less than the number of zodiac labels
+<A HREF="#n06">(6)</A>.  
+The most frequent label words are listed below
+<A HREF="#n02">(see note 2)</A>. 
+</P>
+
+<PRE>
+
+  3 otoldy         2 otaly          1 yteoldy
+  3 otaldy         2 otal           1 yteold
+  2 sary           2 oky            1 ytchol
+  2 otory          2 okol           1 ytasem
+  2 otoram         2 okeody         1 ytal
+  2 otoky          2 okary          1 ypcholdy
+
+</PRE>
+
+<P>
+In this case, already the 13th word type is a hapax.
+The most frequent word appears 3 times, and the weighted count is 2.8 .
+The hapax percentage is 89%. These numbers are even more indicative of a flat distribution
+than the zodiac labels, but for a fair comparison, we should also compute them for the first
+234 zodiac labels. These numbers are collected in Table 5.
+</P>
+
+<P>
+Here, we also have an additional data point, namely from the 246 paragraph-initial words of the
+Herbal pages in the MS, regardless of the Currier language. We use only the first 234 of these words.
+</P>
+
+<TABLE CLASS="cen">
+
+ <TR>
+  <TH>Text group</TH> <TH>Freq.word</TH> <TH>Weighted</TH>
+  <TH>Hapax-%</TH>
+ </TR>
+
+ <TR>
+  <TH>299 zodiac labels</TH> <TD>5</TD> <TD>4.8</TD> <TD>80%</TD>
+ </TR>
+ <TR>
+  <TH>234 pharma labels</TH> <TD>3</TD> <TD>2.8</TD> <TD>89%</TD>
+ </TR>
+ <TR>
+  <TH>234 zodiac labels</TH> <TD>4</TD> <TD>3.5</TD> <TD>85%</TD>
+ </TR>
+ <TR>
+  <TH>234 herbal paragraph starts</TH> <TD>5</TD> <TD>4.5</TD> <TD>78%</TD>
+ </TR>
+
+</TABLE>
+
+<P CLASS="centr">
+<SPAN CLASS="emph">Table 5: Statistics related to the pharma labels</SPAN> 
+</P>
+
+<P>
+The numbers for 234 pharma labels and 234 zodiac labels are relatively close, where 
+the pharma labels are marginally more 'flat', but it is hard to say whether this
+difference is significant or not. The herbal paragraph-initial words have a similar
+distribution, but are again slightly less 'flat'.
+In any case, it will not be necessary to do more comparisons with the other texts. 
+Both sets of labels, and the paragraph-initial words, have a flat frequency distribution
+that is very different from the running text.
+</P>
+
+<H2>The label vocabulary</H2>
+
+<P>
+Not only is the frequency distribution of label words different from the main text, also
+its vocabulary is distinct. While many if not most label words do appear in the running text, 
+the most common words in the running text do not appear as labels. It appears as if the label
+words form a specific subset of the Voynich MS text, but this remains to be investigated in 
+more detail. 
+</P>
+
+<P>
+Just for the sake of convenience, here we will only look at the distribution of word-initial character
+pairs for various different parts of the text, when these words are expressed in Eva.
+</P>
+
+<P>
+We had already seen from the short word lists above, that label words frequently start with
+"ok" or "ot". For the zodiac labels, these two cover 52% of all word tokens and for the 
+pharma labels 32%. More detailed distributions are shown below, as pie charts in 
+figures 3a,b (for the labels) and 4a,b (for running text: herbal-A and stars).
+</P>
+
+<P>
+The colour scheme is kept consistent for the four cases: light and medium blue for "ot" and
+"ok", yellow for "qo", light orange for "da", red for "ch", dark orange for "sh" etc.
+Grey means: "all the rest".
+</P>
+
+<P CLASS="centr">
+<IMG SRC="../img/stats/lbl_fig3a.png" WIDTH=360 HEIGHT=311 ALT="Lzodiac">
+<IMG SRC="../img/stats/lbl_fig3b.png" WIDTH=360 HEIGHT=311 ALT="Lpharma">
+</P>
+
+<P CLASS="centr">
+<SPAN CLASS="emph">Figure 3a,b: distribution of word-initial character pairs for labels</SPAN> 
+</P>
+
+<P CLASS="centr">
+<IMG SRC="../img/stats/lbl_fig4a.png" WIDTH=360 HEIGHT=311 ALT="HerbalA">
+<IMG SRC="../img/stats/lbl_fig4b.png" WIDTH=360 HEIGHT=311 ALT="Stars">
+</P>
+
+<P CLASS="centr">
+<SPAN CLASS="emph">Figure 4a,b: distribution of word-initial character pairs for running text</SPAN> 
+</P>
+
+<P>
+The majority of words both in the herbal A text and the stars texts start with
+character pairs that are barely represented in the labels. Much more could be said
+and analysed about this topic, but we will limit ourselves here to this short but 
+very clear example.
+</P>
+
+<P> 
+The two sets of labels appear similar, at least with respect to their word-initial
+character pairs, but it is worth checking in more detail whether they also include the same word types. 
+This would not be expected in case the zodiac labels represent zodiac-related terms while the 
+pharma labels represent herb-related terms.
+</P>
+
+<P>
+The combined list of zodiac and pharma labels includes 532 word tokens (299 + 233),
+469 word types and has 428 hapax. 
+The maximum number of hapax would have been the sum of 238 and 207 = 445.
+Following is the complete list of label words that appear as a label both in the zodiac and in 
+the pharma pages. The numbers after the word indicate how frequent they are among the zodiac and pharma 
+labels respectively. The ones preceded by an asterisk (*) were hapax in either list.
+</P>
+
+<PRE>
+   otaly     5 2
+   okeody    3 2
+   otal      2 2
+*  okaiin    1 1
+*  okary     1 2
+*  okeeos    1 1
+*  okeoly    2 1
+*  okody     1 1
+*  osary     1 1
+*  otalam    1 1
+*  otaldy    1 3
+*  otary     1 1
+*  otoly     1 1
+</PRE>
+
+<P>
+This shows that only 13 word types appear in both sets, and only 10 hapax are no longer hapax
+<A HREF="#n07">(7)</A>. 
+</P>
+
+<H2>The 'flatness' parameters for known texts</H2>
+
+<P>
+Figures 1 and 2 above show a relationship between two parameters that characterise
+the flatness or steepness of a frequency distribution: weighted most frequent word
+and hapax-%. To provide more context for these numbers, they have also been computed
+for a few known texts. These are listed in Table 6 below.
+</P>
+
+<P>
+The texts have been converted to a single case, and all interpunction and arabic
+numerals have been removed. Roman numerals appear in some of these texts and are kept.
+Six chunks of 299 word tokens have been taken from each text, and their average properties
+are shown in Table 6 below
+<A HREF="#n08">(8)</A>. 
+</P>
+
+<TABLE CLASS="cen">
+
+ <TR>
+  <TH>Text</TH> <TH>Century</TH> <TH>Language</TH>
+  <TH>Freq.word</TH> <TH>Weighted</TH> <TH>Hapax-%</TH>
+ </TR>
+
+ <TR>
+  <TH>Alchemical herbal</TH> <TD>14</TD> <TD>Latin, vulgar</TD> 
+  <TD>29.8</TD> <TD>19.9</TD> <TD>36%</TD>
+ </TR>
+ <TR>
+  <TH>Dante: Inferno</TH> <TD>14</TD><TD>Italian</TD> 
+  <TD>15.2</TD> <TD>13.3</TD> <TD>48%</TD>
+ </TR>
+ <TR>
+  <TH>Karel ende Elegast</TH> <TD>13</TD> <TD>Middle Dutch</TD> 
+  <TD>14.7</TD> <TD>12.9</TD> <TD>46%</TD>
+ </TR>
+ <TR>
+  <TH>Pliny the Elder</TH> <TD>1</TD> <TD>Classical Latin</TD> 
+  <TD>10.5</TD> <TD>8.7</TD> <TD>67%</TD>
+ </TR>
+
+</TABLE>
+
+<P CLASS="centr">
+<SPAN CLASS="emph">Table 6: Statistics for some known texts</SPAN> 
+</P>
+
+<P>
+They are also included in Figure 5 using open squares, together with the points for the various 
+parts of Voynich MS text. 
+</P>
+
+<P CLASS="centr">
+<IMG SRC="../img/stats/lbl_fig5.png" WIDTH=700 HEIGHT=433 ALT="combi">
+</P>
+
+<P CLASS="centr">
+<SPAN CLASS="emph">Figure 5: Combined Voynich MS and known-text statistics</SPAN> 
+</P>
+
+<P>
+The alchemical herbal text includes several recipes that tend to use rather similar
+descriptions, and this text has an even steeper word frequency distribution (for the 
+short 299-word samples) than Voynich biological.
+</P>
+
+<P>
+The two texts: Dante's "inferno" and "Karel ende Elegast" are narratives, and their
+properties are similar. Compared with the Voynich MS, they lie beween the biological
+and herbal pages. Both the Middle Dutch and Italian languages use inflection for verbs.
+</P>
+
+<P>
+Pliny's "Natural history" is an encyclopedic text, and is written in the even more inflected 
+classical Latin. As a result it has a much flatter distribution, similar to the Voynich
+stars section but with a slightly higher hapax percentage (see Figure 2). 
+</P>
+
+<P>
+Overall, this shows that the parameters that have been observed for the Voynich running text
+generally coincide with the known texts, while the labels are still outliers.
+</P> 
+
+<H2>Language aspects</H2>
+
+<P>
+People have long been familiar with Currier languages (A and B) in the MS. 
+In recent years I have proposed a refinement, where, first of all, a third main language is 
+defined (C) and, secondly, several dialect and variants have been added. 
+This is explained in detail on
+<A HREF="RZ_lang.html">this web page</A>.
+</P>
+
+<P>
+Looking at that web page, we see that the zodiac labels are on MS pages whose language type is 
+Ce- (based on the circular texts) and the labels themselves are also Ce-. This means that both sets 
+have a relatively high percentage of the character combination "eo", and are low in initial "qo".
+</P>
+
+<P>
+The pharma labels are on pages whose language type is Ae, meaning a relatively high percentage of
+the character combination "eo" and a moderate occurrence of initial "qo". The pharma labels
+are language type A-, meaning low occurrence of "eo" and of initial "qo". In that respect the pharma
+labels are different from the main text surrounding them, but also from the zodiac labels.
+</P>
+
+<P>
+The meaning or consequence of this is not clear, but there is another language-related aspect that is
+more surprising. Figure 2 is repeated below as Figure 6, but with an indication of the 'main' RZ language
+type of each average point. The figure does not include a point for the pharma labels, because
+this does not exist (we do not have 299 pharma labels). Had it existed, it would have been close to
+the zodiac labels, and have an arrow pointing to it from "A".
+</P>
+
+<P CLASS="centr">
+<IMG SRC="../img/stats/lbl_fig6.png" WIDTH=600 HEIGHT=454 ALT="lang">
+</P>
+
+<P CLASS="centr">
+<SPAN CLASS="emph">Figure 6: main 'RZ' languages of the average page statistics</SPAN> 
+</P>
+
+<P>
+The most remarkable aspect is that the distribution of the points representing the averages is
+not at all correlated with the language of the page. A and B languages are arbitrarily mixed.
+Equally surprisingly, there appears to be a correlation with the illustration type:
+</P>
+
+<UL>
+<LI>Zodiac and astro/cosmo, using circular texts, are close together. (These are also in the same
+language).</LI>
+<LI>The stars pages and f58 are very close together ! (f58 has text with a small number of
+marginal stars)</LI>
+<LI>The herbal and pharma pages, with very different language properties, are reasonably close
+together</LI>
+<LI>The unique biological pages are quite distinct from all others</LI>
+</UL>
+
+<P>
+These observations are not related to the main topic of this page, but they are quite unexpected
+and absolutely warrant a closer look.
+</P>
+
+<H2>Conclusions</H2>
+
+<P>
+We have seen that the zodiac and pharma labels in the Voynich MS have entirely different properties
+from the main, running text in the MS. They do not include any of the most common words in the MS,
+and their frequency distribution is almost flat. They are not all different, but they are close to that.
+</P>
+
+<P>
+This is an important result, when judging the meaning of the text in the Voynich MS.
+It is certainly not the result of chance, or some arbitrary process in the generation of the text
+by the MS creator(s). It is without any doubt the result of some purposeful action.
+</P>
+
+<P>
+I do not intend to argue that this implies that the text is meaningful. This is not yet proven by any
+means. However, the observed behaviour is fully compatible with the case that the MS contains a meaningful 
+text, and it is hard to explain in most scenarios where the text is proposed to be meaningless. 
+</P>
+
+<P>
+While it is not difficult to present arguments why the text could or should be meaningless, we have not seen
+many proposed methods how such a meaningless text would have been created.
+The best known examples of such methods are Gordon Rugg's moving grille, and Torsten Timm's auto-copy
+method.
+Any method to create meaningless text would have to include dedicated rules or actions just for the generation 
+of labels, in order to deliberately achieve their unusual properties. For the two named examples, which both
+rely on some arbitrary actions of the creator, it is not clear to me how the two features: a selective vocabulary
+and a flat frequency distribution, could even be achieved.
+</P>
+
+<P>
+More in general, with the text already being unreadable, there would hardly appear to be any need.
+</P>
+
+<P>
+I therefore contend that the balance should be a bit more in favour of the hypothesis that the contents of the 
+MS are meaningful.
+</P>
+
+<H2>Notes</H2>
+
+<DL>
+
+  <DT ID="n01">1</DT>
+  <DD>Readers are assumed to be familiar with all these terms. If not, a general description of the
+      MS may be found
+      <A HREF="../descr.html">here</A>,
+      and more information on the writing
+      <A HREF="../writing.html">here</A>.</DD>
+
+  <DT ID="n02">2</DT>
+  <DD>Words that appear equally frequently are listed in reverse alphabetical order.
+      This is a direct consequence of the method used to generate this list.</DD>
+
+  <DT ID="n03">3</DT>
+  <DD>See for example several blog posts by Koen Gheuens:
+      <A HREF="https://herculeaf.wordpress.com/2019/05/04/type-token-ratio/">&gt;&gt;part I</A>,
+      <A HREF="https://herculeaf.wordpress.com/2019/06/03/type-token-ratio-ii/">&gt;&gt;part II</A>,
+      <A HREF="https://herculeaf.wordpress.com/2019/07/18/type-token-ratio-iii-language-clouds-and-a-rebel-quire/">&gt;&gt;part III</A>,
+      <A HREF="https://herculeaf.wordpress.com/2019/07/19/type-token-ratio-iii-b/">&gt;&gt;part III B</A>,
+      or the later
+      <A HREF="../refs.html#lind">Lindemann (2022)</A>.</DD>
+
+  <DT ID="n04">4</DT>
+  <DD>Details like these are provided to allow others to replicate the analyses, and/or do
+      other related analyses based on the same data.</DD>
+
+  <DT ID="n05">5</DT>
+  <DD>The reason why this part is considered of particular interest may be left outside
+      of the scope of this small study.</DD>
+
+  <DT ID="n06">6</DT>
+  <DD>The first version of this page was based on an input file with an error, and reported 233
+      pharma labels, and also an incorrect number of total labels. This was all corrected
+      on 23 August.</DD>
+
+  <DT ID="n07">7</DT>
+  <DD>There are 7 word types that appear once in each list, and these reduce the combined
+      number of hapax by 2 each. The other three words reduce the combined number of 
+      hapax by 1 each. This means that the maximum number of hapax is reduced by 17,
+      which is indeed what we observed: 428 instead of 445.</DD>
+
+  <DT ID="n08">8</DT>
+  <DD>The alchemical herbal text has been prepared by Marco Ponzi, and is accessible
+      <A HREF="https://medium.com/viridisgreen/a-transcription-and-translation-of-the-so-called-alchemical-herbal-dcb741200488">&gt;&gt;at his blog</A>.</DD>
+
+</DL>
+
+<P>
+&nbsp;
+</P>
+
+<TABLE CLASS="btn">
+  <TR>
+    <TD><A HREF="../toc.html"><IMG SRC="../img/btn/TOC.jpg" ALT="TOC"></A></TD>
+    <TD><A HREF="../index.html"><IMG SRC="../img/btn/start.jpg" ALT="Home"></A></TD>
+    <TD><A HREF="../roadmap.html"><IMG SRC="../img/btn/map.jpg" ALT="Map"></A></TD>
+  </TR>
+  <TR>
+    <TD><A HREF="javascript:history.back()">
+<IMG SRC="../img/btn/bback.gif" ALT="back"></A></TD>
+    <TD> </TD>
+    <TD> </TD>
+  </TR>
+</TABLE>
+
+<ADDRESS>
+  Copyright Ren&eacute; Zandbergen, 2026
+  <BR>
+  Comments, questions, suggestions?  Your feedback is welcome.
+  <BR>
+  Latest update: 11/09/2026
+</ADDRESS>
+
+</BODY>
+</HTML>

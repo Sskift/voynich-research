@@ -1,0 +1,44 @@
+[
+  {
+    "path": "data/raw/language-screen/brant-1494.xml",
+    "url": "https://www.narragonien-digital.de/exist/data/GW/GW5041.xml",
+    "bytes": 1501339,
+    "sha256": "a6e4543932362b19b45428ac23fa7bfe55b3ca88d55229fe4fd994057df86c0c",
+    "status": "DOWNLOADED_NOT_YET_VALIDATED"
+  },
+  {
+    "path": "data/raw/language-screen/locher-1497.xml",
+    "url": "https://www.narragonien-digital.de/exist/resources/xml/GW5061lt.xml",
+    "bytes": 3195376,
+    "sha256": "82fa4bb95aea4664976f09bb6d321c9dcee626b373133c07b2ef325ad0700049",
+    "status": "DOWNLOADED_NOT_YET_VALIDATED"
+  },
+  {
+    "path": "data/raw/language-screen/tepl-47465.html",
+    "url": "https://www.gutenberg.org/cache/epub/47465/pg47465-images.html",
+    "bytes": 444807,
+    "sha256": "429b4f8b7c319556ae7d4cf9737439e873129e86d5ee5ac5b46cc8ed46f16b0f",
+    "status": "DOWNLOADED_NOT_YET_VALIDATED"
+  },
+  {
+    "path": "data/raw/language-screen/narragonien-rules.html",
+    "url": "https://www.narragonien-digital.de/exist/materialien/editionsrichtlinien.html",
+    "bytes": 24623,
+    "sha256": "d8a71bb3cf3866793b6b199cdd51d0dd913847f6497d5cead1bec37da02a7e5f",
+    "status": "DOWNLOADED_NOT_YET_VALIDATED"
+  },
+  {
+    "path": "data/raw/language-screen/boccaccio-author.html",
+    "url": "https://www.gutenberg.org/ebooks/author/1279",
+    "bytes": 13641,
+    "sha256": "bedb5d47384d4b77a92e366d1a612f5d9ae91807af8fd0333281ed8305c93109",
+    "status": "DOWNLOADED_NOT_YET_VALIDATED"
+  },
+  {
+    "path": "data/raw/language-screen/macer.html",
+    "url": "https://www.remacle.org/bloodwolf/erudits/floridus/plantes.htm",
+    "bytes": 657912,
+    "sha256": "448d3a39d2fb958b1377cad08e1c1f56e576e245221656a96cfe78217d0aed22",
+    "status": "DOWNLOADED_NOT_YET_VALIDATED"
+  }
+]

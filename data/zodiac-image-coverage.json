@@ -1,0 +1,91 @@
+{
+  "scope": "Visual layout checks against original scan previews, IVTFF comments and catalogue. Not an independent paleographic transcription. Nonblind to the source transcription and diagram identities.",
+  "warning": "Mirror file names do not identify IVTFF logical folios. No source image pixels were edited.",
+  "images": [
+    {
+      "file": "data/images/070r.jpg",
+      "ivtff_pages": [
+        "f70v2"
+      ],
+      "viewed": true,
+      "note": "Pisces, 19 outer human labels, 10 inner human labels, central star label."
+    },
+    {
+      "file": "data/images/070v.jpg",
+      "ivtff_pages": [
+        "f70v1"
+      ],
+      "viewed": true,
+      "note": "Dark Aries, outer10 and inner5."
+    },
+    {
+      "file": "data/images/071r.jpg",
+      "ivtff_pages": [
+        "f71r"
+      ],
+      "viewed": true,
+      "note": "Light Aries, outer10 and inner5."
+    },
+    {
+      "file": "data/images/071v.jpg",
+      "ivtff_pages": [
+        "f71v",
+        "f72r1",
+        "f72r2"
+      ],
+      "viewed": true,
+      "note": "Unfolded strip from left: light Taurus, dark Taurus, Gemini. Cancer mostly outside photographed coverage. Gemini has an unlabelled outer figure between loci19 and20; its physical slot is retained."
+    },
+    {
+      "file": "data/images/072r.jpg",
+      "ivtff_pages": [
+        "f72v3",
+        "f72v2"
+      ],
+      "viewed": true,
+      "note": "Left Leo, right Virgo; each outer18 and inner12. This photograph is not Cancer."
+    },
+    {
+      "file": "data/images/072v.jpg",
+      "ivtff_pages": [
+        "f72v1"
+      ],
+      "viewed": true,
+      "note": "Libra, outer20 and inner10."
+    },
+    {
+      "file": "data/images/073r.jpg",
+      "ivtff_pages": [
+        "f73r"
+      ],
+      "viewed": true,
+      "note": "Scorpio, top arc4, outer16 and inner10. Viewed after discovery scores were saved."
+    },
+    {
+      "file": "data/images/073v.jpg",
+      "ivtff_pages": [
+        "f73v"
+      ],
+      "viewed": true,
+      "note": "Sagittarius, top arc4, outer16 and inner10. Viewed after discovery scores were saved."
+    },
+    {
+      "file": "data/images/f72r3-preview.jpg",
+      "ivtff_pages": [
+        "f72r3"
+      ],
+      "viewed": true,
+      "note": "Cancer, small colour catalogue preview, faint three-ring layout; insufficient to re-read every glyph."
+    },
+    {
+      "file": "data/images/f72r3-bw-preview.jpg",
+      "ivtff_pages": [
+        "f72r3"
+      ],
+      "viewed": true,
+      "note": "Cancer, historical black-and-white catalogue preview; three-ring structure clearer, still insufficient for every glyph."
+    }
+  ],
+  "ordering_note": "Use explicit clockwise locus sequence, not sorted clock strings. f72v1.8 is annotated 01:45 before f72v1.9 at01:00 and .10 at01:30; this inconsistent clock text is preserved but does not set sequence.",
+  "gap_note": "Pisces is not missing a label: central star is its 30th label. Gemini has 29 labels on 30 figures; the unlabelled physical slot is not removed."
+}
