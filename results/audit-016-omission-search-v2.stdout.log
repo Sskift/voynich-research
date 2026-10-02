@@ -1,0 +1,1 @@
+{"status": "PASS", "totals": {"observation_slots": 66996, "known_observation_slots": 66438, "analyses": 12996, "singletons": 8153, "word_order_differences": 0, "rank_interval_ambiguities": 0, "full_prefix_searches": 4843, "expanded_prefixes": 67039, "lexicon_eos_rejected": 3140}}

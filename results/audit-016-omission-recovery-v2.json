@@ -1,0 +1,3186 @@
+{
+  "status": "V2_COMPLETE_RUN_INFERENCE_EVALUATION_AUDIT_PASS",
+  "complete_run": true,
+  "completed_cases": 18,
+  "planned_cases": 18,
+  "uncompleted_cases": [],
+  "manuscript_scoring_performed": false,
+  "calibration_claim": false,
+  "dependency_scope": {
+    "character_word_probabilities": "Independently recomputed from018 normalized P1..P4.",
+    "non_singleton_oov_mass": "Archived values only; infinite mass must be independently audited separately.",
+    "oov_candidate_search": "Archived top2 candidate set; concrete word scores independently recomputed, global optimality not re-searched.",
+    "actual_completed_case_uses_archived_oov_mass": true
+  },
+  "code_truth_separation": {
+    "frozen_production_sha256": "7c3fcfe6b9a23b11efd596121e1a5e84a3377280d135a350ef8d1758b817d9e0",
+    "prediction_write_line": 462,
+    "prediction_hash_line": 463,
+    "truth_read_line": 467,
+    "evidence": "Frozen code order and saved prediction/score hashes; not an independent runtime file-access trace."
+  },
+  "hash_manifests": [
+    "data/omission-oracle/input-freeze.json",
+    "data/omission-oracle/prepared-manifest.json",
+    "data/omission-oracle-v2/input-freeze.json",
+    "results/omission-oracle-v2/result-freeze.json"
+  ],
+  "distinct_frozen_files": 337,
+  "checks": {
+    "hash_checks": 671,
+    "completion_analyses": 23136,
+    "numeric_comparisons": 673924,
+    "top_path_scores": 3537,
+    "candidate_posteriors": 301332,
+    "word_posteriors": 66438,
+    "segments": 2358,
+    "physical_rows": 7344,
+    "true_path_scores": 2358,
+    "completed_cases": 18,
+    "lattices_using_archived_oov_mass": 9391
+  },
+  "maximum_absolute_errors": {
+    "log": 9.094947017729282e-13,
+    "probability": 1.1473044736476368e-12
+  },
+  "cases": {
+    "la/ordered-identity": {
+      "status": "PASS",
+      "rule": "identity",
+      "tests": {
+        "development": {
+          "known_words": 1242,
+          "exact_words": 1242,
+          "reference_characters": 6924,
+          "word_edit_distance": 0,
+          "char_edit_accuracy": 1.0,
+          "exact_word_accuracy": 1.0,
+          "lossy_words": 0,
+          "exact_lossy_words": 0,
+          "exact_lossy_word_accuracy": null,
+          "nontrivial_words": 1236,
+          "lossy_char_edit_accuracy": null,
+          "nontrivial_exact_word_accuracy": 1.0,
+          "nontrivial_char_edit_accuracy": 1.0,
+          "nontrivial_confident_words": 1236,
+          "nontrivial_confident_correct": 1236,
+          "nontrivial_confident_accuracy": 1.0,
+          "nontrivial_confident_coverage": 1.0,
+          "confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 1242,
+              "correct": 1242
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 1236,
+              "correct": 1236
+            }
+          ],
+          "eligible_complete_rows": 166,
+          "exact_complete_rows": 166,
+          "excluded_rows": 19,
+          "eligible_row_word_coverage": 0.9605475040257649,
+          "row_length_strata": {
+            "4-7": {
+              "rows": 92,
+              "exact": 92
+            },
+            "8-15": {
+              "rows": 74,
+              "exact": 74
+            }
+          },
+          "exact_complete_row_accuracy": 1.0,
+          "omitted_characters": 0,
+          "omitted_gap_edit_distance": 0,
+          "omitted_symbol_edit_accuracy": null,
+          "baseline_char_edit_accuracy": 1.0,
+          "baseline_exact_word_accuracy": 1.0,
+          "ordered_recovery_thresholds_pass": true,
+          "high_confidence_error_flag": false,
+          "identity_exact": true
+        },
+        "reserve": {
+          "known_words": 2449,
+          "exact_words": 2449,
+          "reference_characters": 13536,
+          "word_edit_distance": 0,
+          "char_edit_accuracy": 1.0,
+          "exact_word_accuracy": 1.0,
+          "lossy_words": 0,
+          "exact_lossy_words": 0,
+          "exact_lossy_word_accuracy": null,
+          "nontrivial_words": 2412,
+          "lossy_char_edit_accuracy": null,
+          "nontrivial_exact_word_accuracy": 1.0,
+          "nontrivial_char_edit_accuracy": 1.0,
+          "nontrivial_confident_words": 2412,
+          "nontrivial_confident_correct": 2412,
+          "nontrivial_confident_accuracy": 1.0,
+          "nontrivial_confident_coverage": 1.0,
+          "confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 2449,
+              "correct": 2449
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 2412,
+              "correct": 2412
+            }
+          ],
+          "eligible_complete_rows": 191,
+          "exact_complete_rows": 191,
+          "excluded_rows": 32,
+          "eligible_row_word_coverage": 0.7999183340138832,
+          "row_length_strata": {
+            "8-15": {
+              "rows": 143,
+              "exact": 143
+            },
+            "4-7": {
+              "rows": 29,
+              "exact": 29
+            },
+            "16+": {
+              "rows": 19,
+              "exact": 19
+            }
+          },
+          "exact_complete_row_accuracy": 1.0,
+          "omitted_characters": 0,
+          "omitted_gap_edit_distance": 0,
+          "omitted_symbol_edit_accuracy": null,
+          "baseline_char_edit_accuracy": 1.0,
+          "baseline_exact_word_accuracy": 1.0,
+          "ordered_recovery_thresholds_pass": true,
+          "high_confidence_error_flag": false,
+          "identity_exact": true
+        }
+      },
+      "unique_observations": 1707,
+      "prediction_sha256": "cdb5b1485905d2b1bd194d7a68e84034b8021f7ab34784eba2dcfbced9d9f1c2",
+      "score_sha256": "bf367284c7986f69e54d7af7e2426e35f3b5d7c1a28118845a644e8e42147ab9"
+    },
+    "la/ordered-omit-aeiou": {
+      "status": "PASS",
+      "rule": "omit-aeiou",
+      "tests": {
+        "development": {
+          "known_words": 1242,
+          "exact_words": 520,
+          "reference_characters": 6924,
+          "word_edit_distance": 1800,
+          "char_edit_accuracy": 0.7400346620450606,
+          "exact_word_accuracy": 0.41867954911433175,
+          "lossy_words": 1234,
+          "exact_lossy_words": 513,
+          "exact_lossy_word_accuracy": 0.41572123176661263,
+          "nontrivial_words": 1236,
+          "lossy_char_edit_accuracy": 0.7396526772793053,
+          "nontrivial_exact_word_accuracy": 0.41585760517799353,
+          "nontrivial_char_edit_accuracy": 0.739621003905685,
+          "nontrivial_confident_words": 260,
+          "nontrivial_confident_correct": 195,
+          "nontrivial_confident_accuracy": 0.75,
+          "nontrivial_confident_coverage": 0.21035598705501618,
+          "confidence_bins": [
+            {
+              "words": 576,
+              "correct": 117
+            },
+            {
+              "words": 400,
+              "correct": 202
+            },
+            {
+              "words": 160,
+              "correct": 110
+            },
+            {
+              "words": 106,
+              "correct": 91
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 576,
+              "correct": 117
+            },
+            {
+              "words": 400,
+              "correct": 202
+            },
+            {
+              "words": 160,
+              "correct": 110
+            },
+            {
+              "words": 100,
+              "correct": 85
+            }
+          ],
+          "eligible_complete_rows": 166,
+          "exact_complete_rows": 0,
+          "excluded_rows": 19,
+          "eligible_row_word_coverage": 0.9605475040257649,
+          "row_length_strata": {
+            "4-7": {
+              "rows": 92,
+              "exact": 0
+            },
+            "8-15": {
+              "rows": 74,
+              "exact": 0
+            }
+          },
+          "exact_complete_row_accuracy": 0.0,
+          "omitted_characters": 3238,
+          "omitted_gap_edit_distance": 1832,
+          "omitted_symbol_edit_accuracy": 0.4342186534898085,
+          "baseline_char_edit_accuracy": 0.5323512420566147,
+          "baseline_exact_word_accuracy": 0.00644122383252818,
+          "ordered_recovery_thresholds_pass": false,
+          "high_confidence_error_flag": true,
+          "identity_exact": false
+        },
+        "reserve": {
+          "known_words": 2449,
+          "exact_words": 1002,
+          "reference_characters": 13536,
+          "word_edit_distance": 3545,
+          "char_edit_accuracy": 0.738105791962175,
+          "exact_word_accuracy": 0.4091465904450796,
+          "lossy_words": 2412,
+          "exact_lossy_words": 965,
+          "exact_lossy_word_accuracy": 0.40008291873963514,
+          "nontrivial_words": 2412,
+          "lossy_char_edit_accuracy": 0.737290647695272,
+          "nontrivial_exact_word_accuracy": 0.40008291873963514,
+          "nontrivial_char_edit_accuracy": 0.737290647695272,
+          "nontrivial_confident_words": 485,
+          "nontrivial_confident_correct": 345,
+          "nontrivial_confident_accuracy": 0.711340206185567,
+          "nontrivial_confident_coverage": 0.20107794361525705,
+          "confidence_bins": [
+            {
+              "words": 1095,
+              "correct": 238
+            },
+            {
+              "words": 832,
+              "correct": 382
+            },
+            {
+              "words": 339,
+              "correct": 228
+            },
+            {
+              "words": 183,
+              "correct": 154
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 1095,
+              "correct": 238
+            },
+            {
+              "words": 832,
+              "correct": 382
+            },
+            {
+              "words": 339,
+              "correct": 228
+            },
+            {
+              "words": 146,
+              "correct": 117
+            }
+          ],
+          "eligible_complete_rows": 191,
+          "exact_complete_rows": 0,
+          "excluded_rows": 32,
+          "eligible_row_word_coverage": 0.7999183340138832,
+          "row_length_strata": {
+            "8-15": {
+              "rows": 143,
+              "exact": 0
+            },
+            "4-7": {
+              "rows": 29,
+              "exact": 0
+            },
+            "16+": {
+              "rows": 19,
+              "exact": 0
+            }
+          },
+          "exact_complete_row_accuracy": 0.0,
+          "omitted_characters": 6334,
+          "omitted_gap_edit_distance": 3622,
+          "omitted_symbol_edit_accuracy": 0.42816545626776126,
+          "baseline_char_edit_accuracy": 0.5320626477541371,
+          "baseline_exact_word_accuracy": 0.015108207431604737,
+          "ordered_recovery_thresholds_pass": false,
+          "high_confidence_error_flag": true,
+          "identity_exact": false
+        }
+      },
+      "unique_observations": 1240,
+      "prediction_sha256": "6d0943f101df5ad524cfca33e4ef9e9b928289cc727f8a2c533dcd7f0cf85703",
+      "score_sha256": "b5fec316689b6088a70e4ac6f94ce4902912212e7fd30c5f5fc431144dc6b540"
+    },
+    "la/iid-identity": {
+      "status": "PASS",
+      "rule": "identity",
+      "tests": {
+        "development": {
+          "known_words": 1242,
+          "exact_words": 1242,
+          "reference_characters": 6892,
+          "word_edit_distance": 0,
+          "char_edit_accuracy": 1.0,
+          "exact_word_accuracy": 1.0,
+          "lossy_words": 0,
+          "exact_lossy_words": 0,
+          "exact_lossy_word_accuracy": null,
+          "nontrivial_words": 1234,
+          "lossy_char_edit_accuracy": null,
+          "nontrivial_exact_word_accuracy": 1.0,
+          "nontrivial_char_edit_accuracy": 1.0,
+          "nontrivial_confident_words": 1234,
+          "nontrivial_confident_correct": 1234,
+          "nontrivial_confident_accuracy": 1.0,
+          "nontrivial_confident_coverage": 1.0,
+          "confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 1242,
+              "correct": 1242
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 1234,
+              "correct": 1234
+            }
+          ],
+          "eligible_complete_rows": 166,
+          "exact_complete_rows": 166,
+          "excluded_rows": 19,
+          "eligible_row_word_coverage": 0.9605475040257649,
+          "row_length_strata": {
+            "4-7": {
+              "rows": 92,
+              "exact": 92
+            },
+            "8-15": {
+              "rows": 74,
+              "exact": 74
+            }
+          },
+          "exact_complete_row_accuracy": 1.0,
+          "omitted_characters": 0,
+          "omitted_gap_edit_distance": 0,
+          "omitted_symbol_edit_accuracy": null,
+          "baseline_char_edit_accuracy": 1.0,
+          "baseline_exact_word_accuracy": 1.0,
+          "ordered_recovery_thresholds_pass": true,
+          "high_confidence_error_flag": false,
+          "identity_exact": true
+        },
+        "reserve": {
+          "known_words": 2449,
+          "exact_words": 2449,
+          "reference_characters": 13506,
+          "word_edit_distance": 0,
+          "char_edit_accuracy": 1.0,
+          "exact_word_accuracy": 1.0,
+          "lossy_words": 0,
+          "exact_lossy_words": 0,
+          "exact_lossy_word_accuracy": null,
+          "nontrivial_words": 2416,
+          "lossy_char_edit_accuracy": null,
+          "nontrivial_exact_word_accuracy": 1.0,
+          "nontrivial_char_edit_accuracy": 1.0,
+          "nontrivial_confident_words": 2416,
+          "nontrivial_confident_correct": 2416,
+          "nontrivial_confident_accuracy": 1.0,
+          "nontrivial_confident_coverage": 1.0,
+          "confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 2449,
+              "correct": 2449
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 2416,
+              "correct": 2416
+            }
+          ],
+          "eligible_complete_rows": 191,
+          "exact_complete_rows": 191,
+          "excluded_rows": 32,
+          "eligible_row_word_coverage": 0.7999183340138832,
+          "row_length_strata": {
+            "8-15": {
+              "rows": 143,
+              "exact": 143
+            },
+            "4-7": {
+              "rows": 29,
+              "exact": 29
+            },
+            "16+": {
+              "rows": 19,
+              "exact": 19
+            }
+          },
+          "exact_complete_row_accuracy": 1.0,
+          "omitted_characters": 0,
+          "omitted_gap_edit_distance": 0,
+          "omitted_symbol_edit_accuracy": null,
+          "baseline_char_edit_accuracy": 1.0,
+          "baseline_exact_word_accuracy": 1.0,
+          "ordered_recovery_thresholds_pass": true,
+          "high_confidence_error_flag": false,
+          "identity_exact": true
+        }
+      },
+      "unique_observations": 1201,
+      "prediction_sha256": "75a5be767a7a5344ce2759e4052b26cc9ffa2bed90f7723a829774f3d07d568f",
+      "score_sha256": "eab723860944889a96dc7633ad46c5beace8e3fe9e8886072dd236180a7dad91"
+    },
+    "la/iid-omit-aeiou": {
+      "status": "PASS",
+      "rule": "omit-aeiou",
+      "tests": {
+        "development": {
+          "known_words": 1242,
+          "exact_words": 479,
+          "reference_characters": 6892,
+          "word_edit_distance": 1857,
+          "char_edit_accuracy": 0.7305571677307023,
+          "exact_word_accuracy": 0.3856682769726248,
+          "lossy_words": 1227,
+          "exact_lossy_words": 468,
+          "exact_lossy_word_accuracy": 0.38141809290953543,
+          "nontrivial_words": 1234,
+          "lossy_char_edit_accuracy": 0.7300801165331391,
+          "nontrivial_exact_word_accuracy": 0.38168557536466774,
+          "nontrivial_char_edit_accuracy": 0.7299301919720769,
+          "nontrivial_confident_words": 183,
+          "nontrivial_confident_correct": 124,
+          "nontrivial_confident_accuracy": 0.6775956284153005,
+          "nontrivial_confident_coverage": 0.14829821717990274,
+          "confidence_bins": [
+            {
+              "words": 611,
+              "correct": 139
+            },
+            {
+              "words": 440,
+              "correct": 208
+            },
+            {
+              "words": 124,
+              "correct": 78
+            },
+            {
+              "words": 67,
+              "correct": 54
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 611,
+              "correct": 139
+            },
+            {
+              "words": 440,
+              "correct": 208
+            },
+            {
+              "words": 124,
+              "correct": 78
+            },
+            {
+              "words": 59,
+              "correct": 46
+            }
+          ],
+          "eligible_complete_rows": 166,
+          "exact_complete_rows": 2,
+          "excluded_rows": 19,
+          "eligible_row_word_coverage": 0.9605475040257649,
+          "row_length_strata": {
+            "4-7": {
+              "rows": 92,
+              "exact": 2
+            },
+            "8-15": {
+              "rows": 74,
+              "exact": 0
+            }
+          },
+          "exact_complete_row_accuracy": 0.012048192771084338,
+          "omitted_characters": 3218,
+          "omitted_gap_edit_distance": 1896,
+          "omitted_symbol_edit_accuracy": 0.4108141702921069,
+          "baseline_char_edit_accuracy": 0.5330818340104468,
+          "baseline_exact_word_accuracy": 0.012077294685990338,
+          "ordered_recovery_thresholds_pass": false,
+          "high_confidence_error_flag": true,
+          "identity_exact": false
+        },
+        "reserve": {
+          "known_words": 2449,
+          "exact_words": 919,
+          "reference_characters": 13506,
+          "word_edit_distance": 3713,
+          "char_edit_accuracy": 0.7250851473419221,
+          "exact_word_accuracy": 0.37525520620661496,
+          "lossy_words": 2416,
+          "exact_lossy_words": 886,
+          "exact_lossy_word_accuracy": 0.3667218543046358,
+          "nontrivial_words": 2416,
+          "lossy_char_edit_accuracy": 0.7243504083147736,
+          "nontrivial_exact_word_accuracy": 0.3667218543046358,
+          "nontrivial_char_edit_accuracy": 0.7243504083147736,
+          "nontrivial_confident_words": 380,
+          "nontrivial_confident_correct": 258,
+          "nontrivial_confident_accuracy": 0.6789473684210526,
+          "nontrivial_confident_coverage": 0.15728476821192053,
+          "confidence_bins": [
+            {
+              "words": 1178,
+              "correct": 247
+            },
+            {
+              "words": 858,
+              "correct": 381
+            },
+            {
+              "words": 280,
+              "correct": 177
+            },
+            {
+              "words": 133,
+              "correct": 114
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 1178,
+              "correct": 247
+            },
+            {
+              "words": 858,
+              "correct": 381
+            },
+            {
+              "words": 280,
+              "correct": 177
+            },
+            {
+              "words": 100,
+              "correct": 81
+            }
+          ],
+          "eligible_complete_rows": 191,
+          "exact_complete_rows": 0,
+          "excluded_rows": 32,
+          "eligible_row_word_coverage": 0.7999183340138832,
+          "row_length_strata": {
+            "8-15": {
+              "rows": 143,
+              "exact": 0
+            },
+            "4-7": {
+              "rows": 29,
+              "exact": 0
+            },
+            "16+": {
+              "rows": 19,
+              "exact": 0
+            }
+          },
+          "exact_complete_row_accuracy": 0.0,
+          "omitted_characters": 6344,
+          "omitted_gap_edit_distance": 3778,
+          "omitted_symbol_edit_accuracy": 0.4044766708701135,
+          "baseline_char_edit_accuracy": 0.5302828372575152,
+          "baseline_exact_word_accuracy": 0.01347488770926909,
+          "ordered_recovery_thresholds_pass": false,
+          "high_confidence_error_flag": true,
+          "identity_exact": false
+        }
+      },
+      "unique_observations": 882,
+      "prediction_sha256": "d5022b70814b82b990da53e84e47b9d0173baba877ad818329083a112b7b3686",
+      "score_sha256": "9e7260f723842445ee73afd1e574debb40e1dd836e34c9664e785153a0e934ba"
+    },
+    "la/copy-identity": {
+      "status": "PASS",
+      "rule": "identity",
+      "tests": {
+        "development": {
+          "known_words": 1242,
+          "exact_words": 1242,
+          "reference_characters": 7051,
+          "word_edit_distance": 0,
+          "char_edit_accuracy": 1.0,
+          "exact_word_accuracy": 1.0,
+          "lossy_words": 0,
+          "exact_lossy_words": 0,
+          "exact_lossy_word_accuracy": null,
+          "nontrivial_words": 1217,
+          "lossy_char_edit_accuracy": null,
+          "nontrivial_exact_word_accuracy": 1.0,
+          "nontrivial_char_edit_accuracy": 1.0,
+          "nontrivial_confident_words": 1217,
+          "nontrivial_confident_correct": 1217,
+          "nontrivial_confident_accuracy": 1.0,
+          "nontrivial_confident_coverage": 1.0,
+          "confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 1242,
+              "correct": 1242
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 1217,
+              "correct": 1217
+            }
+          ],
+          "eligible_complete_rows": 166,
+          "exact_complete_rows": 166,
+          "excluded_rows": 19,
+          "eligible_row_word_coverage": 0.9605475040257649,
+          "row_length_strata": {
+            "4-7": {
+              "rows": 92,
+              "exact": 92
+            },
+            "8-15": {
+              "rows": 74,
+              "exact": 74
+            }
+          },
+          "exact_complete_row_accuracy": 1.0,
+          "omitted_characters": 0,
+          "omitted_gap_edit_distance": 0,
+          "omitted_symbol_edit_accuracy": null,
+          "baseline_char_edit_accuracy": 1.0,
+          "baseline_exact_word_accuracy": 1.0,
+          "ordered_recovery_thresholds_pass": true,
+          "high_confidence_error_flag": false,
+          "identity_exact": true
+        },
+        "reserve": {
+          "known_words": 2449,
+          "exact_words": 2449,
+          "reference_characters": 13568,
+          "word_edit_distance": 0,
+          "char_edit_accuracy": 1.0,
+          "exact_word_accuracy": 1.0,
+          "lossy_words": 0,
+          "exact_lossy_words": 0,
+          "exact_lossy_word_accuracy": null,
+          "nontrivial_words": 2389,
+          "lossy_char_edit_accuracy": null,
+          "nontrivial_exact_word_accuracy": 1.0,
+          "nontrivial_char_edit_accuracy": 1.0,
+          "nontrivial_confident_words": 2389,
+          "nontrivial_confident_correct": 2389,
+          "nontrivial_confident_accuracy": 1.0,
+          "nontrivial_confident_coverage": 1.0,
+          "confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 2449,
+              "correct": 2449
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 2389,
+              "correct": 2389
+            }
+          ],
+          "eligible_complete_rows": 191,
+          "exact_complete_rows": 191,
+          "excluded_rows": 32,
+          "eligible_row_word_coverage": 0.7999183340138832,
+          "row_length_strata": {
+            "8-15": {
+              "rows": 143,
+              "exact": 143
+            },
+            "4-7": {
+              "rows": 29,
+              "exact": 29
+            },
+            "16+": {
+              "rows": 19,
+              "exact": 19
+            }
+          },
+          "exact_complete_row_accuracy": 1.0,
+          "omitted_characters": 0,
+          "omitted_gap_edit_distance": 0,
+          "omitted_symbol_edit_accuracy": null,
+          "baseline_char_edit_accuracy": 1.0,
+          "baseline_exact_word_accuracy": 1.0,
+          "ordered_recovery_thresholds_pass": true,
+          "high_confidence_error_flag": false,
+          "identity_exact": true
+        }
+      },
+      "unique_observations": 2051,
+      "prediction_sha256": "c9aed82ea07fe789834a9189cc4601f127db52736c251802a7e914e4609c20ff",
+      "score_sha256": "5004d14b9549f648f10fe75b7ac9181e1af2c521be25bd10b34d0b93ef08971f"
+    },
+    "la/copy-omit-aeiou": {
+      "status": "PASS",
+      "rule": "omit-aeiou",
+      "tests": {
+        "development": {
+          "known_words": 1242,
+          "exact_words": 323,
+          "reference_characters": 7051,
+          "word_edit_distance": 2503,
+          "char_edit_accuracy": 0.6450148915047511,
+          "exact_word_accuracy": 0.26006441223832527,
+          "lossy_words": 1182,
+          "exact_lossy_words": 297,
+          "exact_lossy_word_accuracy": 0.2512690355329949,
+          "nontrivial_words": 1217,
+          "lossy_char_edit_accuracy": 0.6501873738829633,
+          "nontrivial_exact_word_accuracy": 0.2448644207066557,
+          "nontrivial_char_edit_accuracy": 0.6427347987439338,
+          "nontrivial_confident_words": 168,
+          "nontrivial_confident_correct": 85,
+          "nontrivial_confident_accuracy": 0.5059523809523809,
+          "nontrivial_confident_coverage": 0.13804437140509448,
+          "confidence_bins": [
+            {
+              "words": 670,
+              "correct": 95
+            },
+            {
+              "words": 379,
+              "correct": 118
+            },
+            {
+              "words": 127,
+              "correct": 61
+            },
+            {
+              "words": 66,
+              "correct": 49
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 670,
+              "correct": 95
+            },
+            {
+              "words": 379,
+              "correct": 118
+            },
+            {
+              "words": 127,
+              "correct": 61
+            },
+            {
+              "words": 41,
+              "correct": 24
+            }
+          ],
+          "eligible_complete_rows": 166,
+          "exact_complete_rows": 0,
+          "excluded_rows": 19,
+          "eligible_row_word_coverage": 0.9605475040257649,
+          "row_length_strata": {
+            "4-7": {
+              "rows": 92,
+              "exact": 0
+            },
+            "8-15": {
+              "rows": 74,
+              "exact": 0
+            }
+          },
+          "exact_complete_row_accuracy": 0.0,
+          "omitted_characters": 3279,
+          "omitted_gap_edit_distance": 2549,
+          "omitted_symbol_edit_accuracy": 0.2226288502592254,
+          "baseline_char_edit_accuracy": 0.5349595802013899,
+          "baseline_exact_word_accuracy": 0.04830917874396135,
+          "ordered_recovery_thresholds_pass": false,
+          "high_confidence_error_flag": true,
+          "identity_exact": false
+        },
+        "reserve": {
+          "known_words": 2449,
+          "exact_words": 614,
+          "reference_characters": 13568,
+          "word_edit_distance": 4886,
+          "char_edit_accuracy": 0.6398879716981132,
+          "exact_word_accuracy": 0.2507145773785218,
+          "lossy_words": 2320,
+          "exact_lossy_words": 554,
+          "exact_lossy_word_accuracy": 0.23879310344827587,
+          "nontrivial_words": 2389,
+          "lossy_char_edit_accuracy": 0.6438150895332284,
+          "nontrivial_exact_word_accuracy": 0.23189619087484303,
+          "nontrivial_char_edit_accuracy": 0.6373756865073474,
+          "nontrivial_confident_words": 294,
+          "nontrivial_confident_correct": 151,
+          "nontrivial_confident_accuracy": 0.5136054421768708,
+          "nontrivial_confident_coverage": 0.12306404353285894,
+          "confidence_bins": [
+            {
+              "words": 1342,
+              "correct": 170
+            },
+            {
+              "words": 753,
+              "correct": 233
+            },
+            {
+              "words": 213,
+              "correct": 99
+            },
+            {
+              "words": 141,
+              "correct": 112
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 1342,
+              "correct": 170
+            },
+            {
+              "words": 753,
+              "correct": 233
+            },
+            {
+              "words": 213,
+              "correct": 99
+            },
+            {
+              "words": 81,
+              "correct": 52
+            }
+          ],
+          "eligible_complete_rows": 191,
+          "exact_complete_rows": 0,
+          "excluded_rows": 32,
+          "eligible_row_word_coverage": 0.7999183340138832,
+          "row_length_strata": {
+            "8-15": {
+              "rows": 143,
+              "exact": 0
+            },
+            "4-7": {
+              "rows": 29,
+              "exact": 0
+            },
+            "16+": {
+              "rows": 19,
+              "exact": 0
+            }
+          },
+          "exact_complete_row_accuracy": 0.0,
+          "omitted_characters": 6227,
+          "omitted_gap_edit_distance": 5013,
+          "omitted_symbol_edit_accuracy": 0.19495744339168142,
+          "baseline_char_edit_accuracy": 0.5410524764150944,
+          "baseline_exact_word_accuracy": 0.05267456104532462,
+          "ordered_recovery_thresholds_pass": false,
+          "high_confidence_error_flag": true,
+          "identity_exact": false
+        }
+      },
+      "unique_observations": 1127,
+      "prediction_sha256": "6500ff6a795b3e3e6f7b530bc3eb8b0920b4743a3e569fe7196243ad1efb9cc8",
+      "score_sha256": "572d38c6a893bbe557a97fcdf7c5f922a7e0a2284c121da8351604d051146815"
+    },
+    "de/ordered-identity": {
+      "status": "PASS",
+      "rule": "identity",
+      "tests": {
+        "development": {
+          "known_words": 1242,
+          "exact_words": 1242,
+          "reference_characters": 6328,
+          "word_edit_distance": 0,
+          "char_edit_accuracy": 1.0,
+          "exact_word_accuracy": 1.0,
+          "lossy_words": 0,
+          "exact_lossy_words": 0,
+          "exact_lossy_word_accuracy": null,
+          "nontrivial_words": 1242,
+          "lossy_char_edit_accuracy": null,
+          "nontrivial_exact_word_accuracy": 1.0,
+          "nontrivial_char_edit_accuracy": 1.0,
+          "nontrivial_confident_words": 1242,
+          "nontrivial_confident_correct": 1242,
+          "nontrivial_confident_accuracy": 1.0,
+          "nontrivial_confident_coverage": 1.0,
+          "confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 1242,
+              "correct": 1242
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 1242,
+              "correct": 1242
+            }
+          ],
+          "eligible_complete_rows": 166,
+          "exact_complete_rows": 166,
+          "excluded_rows": 19,
+          "eligible_row_word_coverage": 0.9605475040257649,
+          "row_length_strata": {
+            "4-7": {
+              "rows": 92,
+              "exact": 92
+            },
+            "8-15": {
+              "rows": 74,
+              "exact": 74
+            }
+          },
+          "exact_complete_row_accuracy": 1.0,
+          "omitted_characters": 0,
+          "omitted_gap_edit_distance": 0,
+          "omitted_symbol_edit_accuracy": null,
+          "baseline_char_edit_accuracy": 1.0,
+          "baseline_exact_word_accuracy": 1.0,
+          "ordered_recovery_thresholds_pass": true,
+          "high_confidence_error_flag": false,
+          "identity_exact": true
+        },
+        "reserve": {
+          "known_words": 2449,
+          "exact_words": 2449,
+          "reference_characters": 11878,
+          "word_edit_distance": 0,
+          "char_edit_accuracy": 1.0,
+          "exact_word_accuracy": 1.0,
+          "lossy_words": 0,
+          "exact_lossy_words": 0,
+          "exact_lossy_word_accuracy": null,
+          "nontrivial_words": 2439,
+          "lossy_char_edit_accuracy": null,
+          "nontrivial_exact_word_accuracy": 1.0,
+          "nontrivial_char_edit_accuracy": 1.0,
+          "nontrivial_confident_words": 2439,
+          "nontrivial_confident_correct": 2439,
+          "nontrivial_confident_accuracy": 1.0,
+          "nontrivial_confident_coverage": 1.0,
+          "confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 2449,
+              "correct": 2449
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 2439,
+              "correct": 2439
+            }
+          ],
+          "eligible_complete_rows": 191,
+          "exact_complete_rows": 191,
+          "excluded_rows": 32,
+          "eligible_row_word_coverage": 0.7999183340138832,
+          "row_length_strata": {
+            "8-15": {
+              "rows": 143,
+              "exact": 143
+            },
+            "4-7": {
+              "rows": 29,
+              "exact": 29
+            },
+            "16+": {
+              "rows": 19,
+              "exact": 19
+            }
+          },
+          "exact_complete_row_accuracy": 1.0,
+          "omitted_characters": 0,
+          "omitted_gap_edit_distance": 0,
+          "omitted_symbol_edit_accuracy": null,
+          "baseline_char_edit_accuracy": 1.0,
+          "baseline_exact_word_accuracy": 1.0,
+          "ordered_recovery_thresholds_pass": true,
+          "high_confidence_error_flag": false,
+          "identity_exact": true
+        }
+      },
+      "unique_observations": 1476,
+      "prediction_sha256": "1863c4b1a576ef14d16e2430d0d9213bacb77e057599822c762a139c738d5521",
+      "score_sha256": "fcd678709d414ce148ec35a8dd34707d6816581d3ab46aa95a1121ed62ec98f6"
+    },
+    "de/ordered-omit-aeiou": {
+      "status": "PASS",
+      "rule": "omit-aeiou",
+      "tests": {
+        "development": {
+          "known_words": 1242,
+          "exact_words": 392,
+          "reference_characters": 6328,
+          "word_edit_distance": 1451,
+          "char_edit_accuracy": 0.7707016434892541,
+          "exact_word_accuracy": 0.31561996779388085,
+          "lossy_words": 1242,
+          "exact_lossy_words": 392,
+          "exact_lossy_word_accuracy": 0.31561996779388085,
+          "nontrivial_words": 1242,
+          "lossy_char_edit_accuracy": 0.7707016434892541,
+          "nontrivial_exact_word_accuracy": 0.31561996779388085,
+          "nontrivial_char_edit_accuracy": 0.7707016434892541,
+          "nontrivial_confident_words": 303,
+          "nontrivial_confident_correct": 175,
+          "nontrivial_confident_accuracy": 0.5775577557755776,
+          "nontrivial_confident_coverage": 0.24396135265700483,
+          "confidence_bins": [
+            {
+              "words": 396,
+              "correct": 62
+            },
+            {
+              "words": 543,
+              "correct": 155
+            },
+            {
+              "words": 175,
+              "correct": 95
+            },
+            {
+              "words": 128,
+              "correct": 80
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 396,
+              "correct": 62
+            },
+            {
+              "words": 543,
+              "correct": 155
+            },
+            {
+              "words": 175,
+              "correct": 95
+            },
+            {
+              "words": 128,
+              "correct": 80
+            }
+          ],
+          "eligible_complete_rows": 166,
+          "exact_complete_rows": 0,
+          "excluded_rows": 19,
+          "eligible_row_word_coverage": 0.9605475040257649,
+          "row_length_strata": {
+            "4-7": {
+              "rows": 92,
+              "exact": 0
+            },
+            "8-15": {
+              "rows": 74,
+              "exact": 0
+            }
+          },
+          "exact_complete_row_accuracy": 0.0,
+          "omitted_characters": 2365,
+          "omitted_gap_edit_distance": 1461,
+          "omitted_symbol_edit_accuracy": 0.3822410147991543,
+          "baseline_char_edit_accuracy": 0.6262642225031605,
+          "baseline_exact_word_accuracy": 0.0,
+          "ordered_recovery_thresholds_pass": false,
+          "high_confidence_error_flag": true,
+          "identity_exact": false
+        },
+        "reserve": {
+          "known_words": 2449,
+          "exact_words": 898,
+          "reference_characters": 11878,
+          "word_edit_distance": 2610,
+          "char_edit_accuracy": 0.7802660380535443,
+          "exact_word_accuracy": 0.3666802776643528,
+          "lossy_words": 2438,
+          "exact_lossy_words": 887,
+          "exact_lossy_word_accuracy": 0.3638228055783429,
+          "nontrivial_words": 2439,
+          "lossy_char_edit_accuracy": 0.7798954292460786,
+          "nontrivial_exact_word_accuracy": 0.3640836408364084,
+          "nontrivial_char_edit_accuracy": 0.7799511002444988,
+          "nontrivial_confident_words": 642,
+          "nontrivial_confident_correct": 405,
+          "nontrivial_confident_accuracy": 0.6308411214953271,
+          "nontrivial_confident_coverage": 0.26322263222632225,
+          "confidence_bins": [
+            {
+              "words": 773,
+              "correct": 126
+            },
+            {
+              "words": 1024,
+              "correct": 357
+            },
+            {
+              "words": 391,
+              "correct": 239
+            },
+            {
+              "words": 261,
+              "correct": 176
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 773,
+              "correct": 126
+            },
+            {
+              "words": 1024,
+              "correct": 357
+            },
+            {
+              "words": 391,
+              "correct": 239
+            },
+            {
+              "words": 251,
+              "correct": 166
+            }
+          ],
+          "eligible_complete_rows": 191,
+          "exact_complete_rows": 1,
+          "excluded_rows": 32,
+          "eligible_row_word_coverage": 0.7999183340138832,
+          "row_length_strata": {
+            "8-15": {
+              "rows": 143,
+              "exact": 0
+            },
+            "4-7": {
+              "rows": 29,
+              "exact": 1
+            },
+            "16+": {
+              "rows": 19,
+              "exact": 0
+            }
+          },
+          "exact_complete_row_accuracy": 0.005235602094240838,
+          "omitted_characters": 4464,
+          "omitted_gap_edit_distance": 2626,
+          "omitted_symbol_edit_accuracy": 0.41173835125448033,
+          "baseline_char_edit_accuracy": 0.6241791547398552,
+          "baseline_exact_word_accuracy": 0.00449162923642303,
+          "ordered_recovery_thresholds_pass": false,
+          "high_confidence_error_flag": true,
+          "identity_exact": false
+        }
+      },
+      "unique_observations": 1192,
+      "prediction_sha256": "5e6eae612508fbcd129dbab173239f04209b21cf12ed510a24537385e67c83ad",
+      "score_sha256": "6be59f593aa300b1e7d977b181acb2e29ffb3188bc74bfe1dbd1cf6cb0511539"
+    },
+    "de/iid-identity": {
+      "status": "PASS",
+      "rule": "identity",
+      "tests": {
+        "development": {
+          "known_words": 1242,
+          "exact_words": 1242,
+          "reference_characters": 6326,
+          "word_edit_distance": 0,
+          "char_edit_accuracy": 1.0,
+          "exact_word_accuracy": 1.0,
+          "lossy_words": 0,
+          "exact_lossy_words": 0,
+          "exact_lossy_word_accuracy": null,
+          "nontrivial_words": 1242,
+          "lossy_char_edit_accuracy": null,
+          "nontrivial_exact_word_accuracy": 1.0,
+          "nontrivial_char_edit_accuracy": 1.0,
+          "nontrivial_confident_words": 1242,
+          "nontrivial_confident_correct": 1242,
+          "nontrivial_confident_accuracy": 1.0,
+          "nontrivial_confident_coverage": 1.0,
+          "confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 1242,
+              "correct": 1242
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 1242,
+              "correct": 1242
+            }
+          ],
+          "eligible_complete_rows": 166,
+          "exact_complete_rows": 166,
+          "excluded_rows": 19,
+          "eligible_row_word_coverage": 0.9605475040257649,
+          "row_length_strata": {
+            "4-7": {
+              "rows": 92,
+              "exact": 92
+            },
+            "8-15": {
+              "rows": 74,
+              "exact": 74
+            }
+          },
+          "exact_complete_row_accuracy": 1.0,
+          "omitted_characters": 0,
+          "omitted_gap_edit_distance": 0,
+          "omitted_symbol_edit_accuracy": null,
+          "baseline_char_edit_accuracy": 1.0,
+          "baseline_exact_word_accuracy": 1.0,
+          "ordered_recovery_thresholds_pass": true,
+          "high_confidence_error_flag": false,
+          "identity_exact": true
+        },
+        "reserve": {
+          "known_words": 2449,
+          "exact_words": 2449,
+          "reference_characters": 11898,
+          "word_edit_distance": 0,
+          "char_edit_accuracy": 1.0,
+          "exact_word_accuracy": 1.0,
+          "lossy_words": 0,
+          "exact_lossy_words": 0,
+          "exact_lossy_word_accuracy": null,
+          "nontrivial_words": 2437,
+          "lossy_char_edit_accuracy": null,
+          "nontrivial_exact_word_accuracy": 1.0,
+          "nontrivial_char_edit_accuracy": 1.0,
+          "nontrivial_confident_words": 2437,
+          "nontrivial_confident_correct": 2437,
+          "nontrivial_confident_accuracy": 1.0,
+          "nontrivial_confident_coverage": 1.0,
+          "confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 2449,
+              "correct": 2449
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 2437,
+              "correct": 2437
+            }
+          ],
+          "eligible_complete_rows": 191,
+          "exact_complete_rows": 191,
+          "excluded_rows": 32,
+          "eligible_row_word_coverage": 0.7999183340138832,
+          "row_length_strata": {
+            "8-15": {
+              "rows": 143,
+              "exact": 143
+            },
+            "4-7": {
+              "rows": 29,
+              "exact": 29
+            },
+            "16+": {
+              "rows": 19,
+              "exact": 19
+            }
+          },
+          "exact_complete_row_accuracy": 1.0,
+          "omitted_characters": 0,
+          "omitted_gap_edit_distance": 0,
+          "omitted_symbol_edit_accuracy": null,
+          "baseline_char_edit_accuracy": 1.0,
+          "baseline_exact_word_accuracy": 1.0,
+          "ordered_recovery_thresholds_pass": true,
+          "high_confidence_error_flag": false,
+          "identity_exact": true
+        }
+      },
+      "unique_observations": 1060,
+      "prediction_sha256": "17faf4d992182cd4ce81762680d7197381ff81cec7650645ee360c3ba59d65c3",
+      "score_sha256": "888d90dcff2acce2b5b2b9a36418aae79c262367d3067e20278091c86d827470"
+    },
+    "de/iid-omit-aeiou": {
+      "status": "PASS",
+      "rule": "omit-aeiou",
+      "tests": {
+        "development": {
+          "known_words": 1242,
+          "exact_words": 369,
+          "reference_characters": 6326,
+          "word_edit_distance": 1477,
+          "char_edit_accuracy": 0.7665191274106861,
+          "exact_word_accuracy": 0.2971014492753623,
+          "lossy_words": 1242,
+          "exact_lossy_words": 369,
+          "exact_lossy_word_accuracy": 0.2971014492753623,
+          "nontrivial_words": 1242,
+          "lossy_char_edit_accuracy": 0.7665191274106861,
+          "nontrivial_exact_word_accuracy": 0.2971014492753623,
+          "nontrivial_char_edit_accuracy": 0.7665191274106861,
+          "nontrivial_confident_words": 260,
+          "nontrivial_confident_correct": 135,
+          "nontrivial_confident_accuracy": 0.5192307692307693,
+          "nontrivial_confident_coverage": 0.20933977455716588,
+          "confidence_bins": [
+            {
+              "words": 423,
+              "correct": 67
+            },
+            {
+              "words": 559,
+              "correct": 167
+            },
+            {
+              "words": 150,
+              "correct": 73
+            },
+            {
+              "words": 110,
+              "correct": 62
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 423,
+              "correct": 67
+            },
+            {
+              "words": 559,
+              "correct": 167
+            },
+            {
+              "words": 150,
+              "correct": 73
+            },
+            {
+              "words": 110,
+              "correct": 62
+            }
+          ],
+          "eligible_complete_rows": 166,
+          "exact_complete_rows": 0,
+          "excluded_rows": 19,
+          "eligible_row_word_coverage": 0.9605475040257649,
+          "row_length_strata": {
+            "4-7": {
+              "rows": 92,
+              "exact": 0
+            },
+            "8-15": {
+              "rows": 74,
+              "exact": 0
+            }
+          },
+          "exact_complete_row_accuracy": 0.0,
+          "omitted_characters": 2341,
+          "omitted_gap_edit_distance": 1487,
+          "omitted_symbol_edit_accuracy": 0.36480136693720633,
+          "baseline_char_edit_accuracy": 0.6299399304457793,
+          "baseline_exact_word_accuracy": 0.0,
+          "ordered_recovery_thresholds_pass": false,
+          "high_confidence_error_flag": true,
+          "identity_exact": false
+        },
+        "reserve": {
+          "known_words": 2449,
+          "exact_words": 870,
+          "reference_characters": 11898,
+          "word_edit_distance": 2654,
+          "char_edit_accuracy": 0.7769373003866196,
+          "exact_word_accuracy": 0.35524703960800325,
+          "lossy_words": 2437,
+          "exact_lossy_words": 858,
+          "exact_lossy_word_accuracy": 0.35207221994255233,
+          "nontrivial_words": 2437,
+          "lossy_char_edit_accuracy": 0.7765617107257115,
+          "nontrivial_exact_word_accuracy": 0.35207221994255233,
+          "nontrivial_char_edit_accuracy": 0.7765617107257115,
+          "nontrivial_confident_words": 600,
+          "nontrivial_confident_correct": 351,
+          "nontrivial_confident_accuracy": 0.585,
+          "nontrivial_confident_coverage": 0.24620434961017645,
+          "confidence_bins": [
+            {
+              "words": 778,
+              "correct": 120
+            },
+            {
+              "words": 1059,
+              "correct": 387
+            },
+            {
+              "words": 361,
+              "correct": 197
+            },
+            {
+              "words": 251,
+              "correct": 166
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 778,
+              "correct": 120
+            },
+            {
+              "words": 1059,
+              "correct": 387
+            },
+            {
+              "words": 361,
+              "correct": 197
+            },
+            {
+              "words": 239,
+              "correct": 154
+            }
+          ],
+          "eligible_complete_rows": 191,
+          "exact_complete_rows": 0,
+          "excluded_rows": 32,
+          "eligible_row_word_coverage": 0.7999183340138832,
+          "row_length_strata": {
+            "8-15": {
+              "rows": 143,
+              "exact": 0
+            },
+            "4-7": {
+              "rows": 29,
+              "exact": 0
+            },
+            "16+": {
+              "rows": 19,
+              "exact": 0
+            }
+          },
+          "exact_complete_row_accuracy": 0.0,
+          "omitted_characters": 4428,
+          "omitted_gap_edit_distance": 2663,
+          "omitted_symbol_edit_accuracy": 0.39859981933152666,
+          "baseline_char_edit_accuracy": 0.6278366111951589,
+          "baseline_exact_word_accuracy": 0.004899959167006942,
+          "ordered_recovery_thresholds_pass": false,
+          "high_confidence_error_flag": true,
+          "identity_exact": false
+        }
+      },
+      "unique_observations": 873,
+      "prediction_sha256": "faf90ca26062d9c424792e821e6ede669160a2a06fc685a13e397ba226e1c822",
+      "score_sha256": "be3c4797fdf92768a0f0bdbfca1d2b306ced13286253716e0292f7c35a573f26"
+    },
+    "de/copy-identity": {
+      "status": "PASS",
+      "rule": "identity",
+      "tests": {
+        "development": {
+          "known_words": 1242,
+          "exact_words": 1242,
+          "reference_characters": 6161,
+          "word_edit_distance": 0,
+          "char_edit_accuracy": 1.0,
+          "exact_word_accuracy": 1.0,
+          "lossy_words": 0,
+          "exact_lossy_words": 0,
+          "exact_lossy_word_accuracy": null,
+          "nontrivial_words": 1230,
+          "lossy_char_edit_accuracy": null,
+          "nontrivial_exact_word_accuracy": 1.0,
+          "nontrivial_char_edit_accuracy": 1.0,
+          "nontrivial_confident_words": 1230,
+          "nontrivial_confident_correct": 1230,
+          "nontrivial_confident_accuracy": 1.0,
+          "nontrivial_confident_coverage": 1.0,
+          "confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 1242,
+              "correct": 1242
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 1230,
+              "correct": 1230
+            }
+          ],
+          "eligible_complete_rows": 166,
+          "exact_complete_rows": 166,
+          "excluded_rows": 19,
+          "eligible_row_word_coverage": 0.9605475040257649,
+          "row_length_strata": {
+            "4-7": {
+              "rows": 92,
+              "exact": 92
+            },
+            "8-15": {
+              "rows": 74,
+              "exact": 74
+            }
+          },
+          "exact_complete_row_accuracy": 1.0,
+          "omitted_characters": 0,
+          "omitted_gap_edit_distance": 0,
+          "omitted_symbol_edit_accuracy": null,
+          "baseline_char_edit_accuracy": 1.0,
+          "baseline_exact_word_accuracy": 1.0,
+          "ordered_recovery_thresholds_pass": true,
+          "high_confidence_error_flag": false,
+          "identity_exact": true
+        },
+        "reserve": {
+          "known_words": 2449,
+          "exact_words": 2449,
+          "reference_characters": 12049,
+          "word_edit_distance": 0,
+          "char_edit_accuracy": 1.0,
+          "exact_word_accuracy": 1.0,
+          "lossy_words": 0,
+          "exact_lossy_words": 0,
+          "exact_lossy_word_accuracy": null,
+          "nontrivial_words": 2409,
+          "lossy_char_edit_accuracy": null,
+          "nontrivial_exact_word_accuracy": 1.0,
+          "nontrivial_char_edit_accuracy": 1.0,
+          "nontrivial_confident_words": 2409,
+          "nontrivial_confident_correct": 2409,
+          "nontrivial_confident_accuracy": 1.0,
+          "nontrivial_confident_coverage": 1.0,
+          "confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 2449,
+              "correct": 2449
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 2409,
+              "correct": 2409
+            }
+          ],
+          "eligible_complete_rows": 191,
+          "exact_complete_rows": 191,
+          "excluded_rows": 32,
+          "eligible_row_word_coverage": 0.7999183340138832,
+          "row_length_strata": {
+            "8-15": {
+              "rows": 143,
+              "exact": 143
+            },
+            "4-7": {
+              "rows": 29,
+              "exact": 29
+            },
+            "16+": {
+              "rows": 19,
+              "exact": 19
+            }
+          },
+          "exact_complete_row_accuracy": 1.0,
+          "omitted_characters": 0,
+          "omitted_gap_edit_distance": 0,
+          "omitted_symbol_edit_accuracy": null,
+          "baseline_char_edit_accuracy": 1.0,
+          "baseline_exact_word_accuracy": 1.0,
+          "ordered_recovery_thresholds_pass": true,
+          "high_confidence_error_flag": false,
+          "identity_exact": true
+        }
+      },
+      "unique_observations": 1964,
+      "prediction_sha256": "2c93a992c77aeb6c5aedb31b1663508423b8b5d4eb581e7ed5ab7608e43aa233",
+      "score_sha256": "6d2d22242012e6fab67dc1691b188729d4a8f2c8e2187e9e159408b94ef10790"
+    },
+    "de/copy-omit-aeiou": {
+      "status": "PASS",
+      "rule": "omit-aeiou",
+      "tests": {
+        "development": {
+          "known_words": 1242,
+          "exact_words": 237,
+          "reference_characters": 6161,
+          "word_edit_distance": 1905,
+          "char_edit_accuracy": 0.6907969485473138,
+          "exact_word_accuracy": 0.19082125603864733,
+          "lossy_words": 1178,
+          "exact_lossy_words": 222,
+          "exact_lossy_word_accuracy": 0.18845500848896435,
+          "nontrivial_words": 1230,
+          "lossy_char_edit_accuracy": 0.6961242900100234,
+          "nontrivial_exact_word_accuracy": 0.18292682926829268,
+          "nontrivial_char_edit_accuracy": 0.6897899364924279,
+          "nontrivial_confident_words": 185,
+          "nontrivial_confident_correct": 65,
+          "nontrivial_confident_accuracy": 0.35135135135135137,
+          "nontrivial_confident_coverage": 0.15040650406504066,
+          "confidence_bins": [
+            {
+              "words": 502,
+              "correct": 56
+            },
+            {
+              "words": 543,
+              "correct": 104
+            },
+            {
+              "words": 120,
+              "correct": 36
+            },
+            {
+              "words": 77,
+              "correct": 41
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 502,
+              "correct": 56
+            },
+            {
+              "words": 543,
+              "correct": 104
+            },
+            {
+              "words": 120,
+              "correct": 36
+            },
+            {
+              "words": 65,
+              "correct": 29
+            }
+          ],
+          "eligible_complete_rows": 166,
+          "exact_complete_rows": 0,
+          "excluded_rows": 19,
+          "eligible_row_word_coverage": 0.9605475040257649,
+          "row_length_strata": {
+            "4-7": {
+              "rows": 92,
+              "exact": 0
+            },
+            "8-15": {
+              "rows": 74,
+              "exact": 0
+            }
+          },
+          "exact_complete_row_accuracy": 0.0,
+          "omitted_characters": 2214,
+          "omitted_gap_edit_distance": 1920,
+          "omitted_symbol_edit_accuracy": 0.13279132791327908,
+          "baseline_char_edit_accuracy": 0.6406427527998702,
+          "baseline_exact_word_accuracy": 0.05152979066022544,
+          "ordered_recovery_thresholds_pass": false,
+          "high_confidence_error_flag": true,
+          "identity_exact": false
+        },
+        "reserve": {
+          "known_words": 2449,
+          "exact_words": 581,
+          "reference_characters": 12049,
+          "word_edit_distance": 3636,
+          "char_edit_accuracy": 0.6982322184413644,
+          "exact_word_accuracy": 0.23723968966925277,
+          "lossy_words": 2304,
+          "exact_lossy_words": 540,
+          "exact_lossy_word_accuracy": 0.234375,
+          "nontrivial_words": 2409,
+          "lossy_char_edit_accuracy": 0.7022510231923602,
+          "nontrivial_exact_word_accuracy": 0.22457451224574512,
+          "nontrivial_char_edit_accuracy": 0.6969242310577645,
+          "nontrivial_confident_words": 465,
+          "nontrivial_confident_correct": 188,
+          "nontrivial_confident_accuracy": 0.4043010752688172,
+          "nontrivial_confident_coverage": 0.1930261519302615,
+          "confidence_bins": [
+            {
+              "words": 912,
+              "correct": 90
+            },
+            {
+              "words": 1032,
+              "correct": 263
+            },
+            {
+              "words": 300,
+              "correct": 110
+            },
+            {
+              "words": 205,
+              "correct": 118
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 912,
+              "correct": 90
+            },
+            {
+              "words": 1032,
+              "correct": 263
+            },
+            {
+              "words": 300,
+              "correct": 110
+            },
+            {
+              "words": 165,
+              "correct": 78
+            }
+          ],
+          "eligible_complete_rows": 191,
+          "exact_complete_rows": 0,
+          "excluded_rows": 32,
+          "eligible_row_word_coverage": 0.7999183340138832,
+          "row_length_strata": {
+            "8-15": {
+              "rows": 143,
+              "exact": 0
+            },
+            "4-7": {
+              "rows": 29,
+              "exact": 0
+            },
+            "16+": {
+              "rows": 19,
+              "exact": 0
+            }
+          },
+          "exact_complete_row_accuracy": 0.0,
+          "omitted_characters": 4357,
+          "omitted_gap_edit_distance": 3677,
+          "omitted_symbol_edit_accuracy": 0.15607069084232272,
+          "baseline_char_edit_accuracy": 0.6383932276537472,
+          "baseline_exact_word_accuracy": 0.05920783993466721,
+          "ordered_recovery_thresholds_pass": false,
+          "high_confidence_error_flag": true,
+          "identity_exact": false
+        }
+      },
+      "unique_observations": 1288,
+      "prediction_sha256": "c2123bb21f4b62a512a8f606b43a9a88f73b23047f9811f2813f4842175edf7e",
+      "score_sha256": "73e376bed0865b472e06dd145e36b6c48d46240521d6bcd9a92084e5f28cee19"
+    },
+    "it/ordered-identity": {
+      "status": "PASS",
+      "rule": "identity",
+      "tests": {
+        "development": {
+          "known_words": 1242,
+          "exact_words": 1242,
+          "reference_characters": 6091,
+          "word_edit_distance": 0,
+          "char_edit_accuracy": 1.0,
+          "exact_word_accuracy": 1.0,
+          "lossy_words": 0,
+          "exact_lossy_words": 0,
+          "exact_lossy_word_accuracy": null,
+          "nontrivial_words": 1143,
+          "lossy_char_edit_accuracy": null,
+          "nontrivial_exact_word_accuracy": 1.0,
+          "nontrivial_char_edit_accuracy": 1.0,
+          "nontrivial_confident_words": 1143,
+          "nontrivial_confident_correct": 1143,
+          "nontrivial_confident_accuracy": 1.0,
+          "nontrivial_confident_coverage": 1.0,
+          "confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 1242,
+              "correct": 1242
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 1143,
+              "correct": 1143
+            }
+          ],
+          "eligible_complete_rows": 166,
+          "exact_complete_rows": 166,
+          "excluded_rows": 19,
+          "eligible_row_word_coverage": 0.9605475040257649,
+          "row_length_strata": {
+            "4-7": {
+              "rows": 92,
+              "exact": 92
+            },
+            "8-15": {
+              "rows": 74,
+              "exact": 74
+            }
+          },
+          "exact_complete_row_accuracy": 1.0,
+          "omitted_characters": 0,
+          "omitted_gap_edit_distance": 0,
+          "omitted_symbol_edit_accuracy": null,
+          "baseline_char_edit_accuracy": 1.0,
+          "baseline_exact_word_accuracy": 1.0,
+          "ordered_recovery_thresholds_pass": true,
+          "high_confidence_error_flag": false,
+          "identity_exact": true
+        },
+        "reserve": {
+          "known_words": 2449,
+          "exact_words": 2449,
+          "reference_characters": 12214,
+          "word_edit_distance": 0,
+          "char_edit_accuracy": 1.0,
+          "exact_word_accuracy": 1.0,
+          "lossy_words": 0,
+          "exact_lossy_words": 0,
+          "exact_lossy_word_accuracy": null,
+          "nontrivial_words": 2278,
+          "lossy_char_edit_accuracy": null,
+          "nontrivial_exact_word_accuracy": 1.0,
+          "nontrivial_char_edit_accuracy": 1.0,
+          "nontrivial_confident_words": 2278,
+          "nontrivial_confident_correct": 2278,
+          "nontrivial_confident_accuracy": 1.0,
+          "nontrivial_confident_coverage": 1.0,
+          "confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 2449,
+              "correct": 2449
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 2278,
+              "correct": 2278
+            }
+          ],
+          "eligible_complete_rows": 191,
+          "exact_complete_rows": 191,
+          "excluded_rows": 32,
+          "eligible_row_word_coverage": 0.7999183340138832,
+          "row_length_strata": {
+            "8-15": {
+              "rows": 143,
+              "exact": 143
+            },
+            "4-7": {
+              "rows": 29,
+              "exact": 29
+            },
+            "16+": {
+              "rows": 19,
+              "exact": 19
+            }
+          },
+          "exact_complete_row_accuracy": 1.0,
+          "omitted_characters": 0,
+          "omitted_gap_edit_distance": 0,
+          "omitted_symbol_edit_accuracy": null,
+          "baseline_char_edit_accuracy": 1.0,
+          "baseline_exact_word_accuracy": 1.0,
+          "ordered_recovery_thresholds_pass": true,
+          "high_confidence_error_flag": false,
+          "identity_exact": true
+        }
+      },
+      "unique_observations": 1402,
+      "prediction_sha256": "b795dc7ba83258be21dfb2f51ed419ae734fa88453c612e5d97dba5b598e9f78",
+      "score_sha256": "a485b0ca86d3ae4965bf1ffb059fda0fb8a5024d2e6f6f031f57771496bb3ca4"
+    },
+    "it/ordered-omit-aeiou": {
+      "status": "PASS",
+      "rule": "omit-aeiou",
+      "tests": {
+        "development": {
+          "known_words": 1242,
+          "exact_words": 506,
+          "reference_characters": 6091,
+          "word_edit_distance": 1370,
+          "char_edit_accuracy": 0.7750779839106879,
+          "exact_word_accuracy": 0.4074074074074074,
+          "lossy_words": 1141,
+          "exact_lossy_words": 405,
+          "exact_lossy_word_accuracy": 0.3549517966695881,
+          "nontrivial_words": 1143,
+          "lossy_char_edit_accuracy": 0.77109440267335,
+          "nontrivial_exact_word_accuracy": 0.3560804899387577,
+          "nontrivial_char_edit_accuracy": 0.7711708702188074,
+          "nontrivial_confident_words": 178,
+          "nontrivial_confident_correct": 105,
+          "nontrivial_confident_accuracy": 0.5898876404494382,
+          "nontrivial_confident_coverage": 0.1557305336832896,
+          "confidence_bins": [
+            {
+              "words": 541,
+              "correct": 102
+            },
+            {
+              "words": 424,
+              "correct": 200
+            },
+            {
+              "words": 131,
+              "correct": 80
+            },
+            {
+              "words": 146,
+              "correct": 124
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 541,
+              "correct": 102
+            },
+            {
+              "words": 424,
+              "correct": 200
+            },
+            {
+              "words": 131,
+              "correct": 80
+            },
+            {
+              "words": 47,
+              "correct": 25
+            }
+          ],
+          "eligible_complete_rows": 166,
+          "exact_complete_rows": 2,
+          "excluded_rows": 19,
+          "eligible_row_word_coverage": 0.9605475040257649,
+          "row_length_strata": {
+            "4-7": {
+              "rows": 92,
+              "exact": 2
+            },
+            "8-15": {
+              "rows": 74,
+              "exact": 0
+            }
+          },
+          "exact_complete_row_accuracy": 0.012048192771084338,
+          "omitted_characters": 2808,
+          "omitted_gap_edit_distance": 1382,
+          "omitted_symbol_edit_accuracy": 0.5078347578347578,
+          "baseline_char_edit_accuracy": 0.5389919553439502,
+          "baseline_exact_word_accuracy": 0.08132045088566828,
+          "ordered_recovery_thresholds_pass": false,
+          "high_confidence_error_flag": true,
+          "identity_exact": false
+        },
+        "reserve": {
+          "known_words": 2449,
+          "exact_words": 1058,
+          "reference_characters": 12214,
+          "word_edit_distance": 2600,
+          "char_edit_accuracy": 0.7871295234976257,
+          "exact_word_accuracy": 0.43201306655777866,
+          "lossy_words": 2275,
+          "exact_lossy_words": 886,
+          "exact_lossy_word_accuracy": 0.38945054945054947,
+          "nontrivial_words": 2278,
+          "lossy_char_edit_accuracy": 0.7844082446808511,
+          "nontrivial_exact_word_accuracy": 0.38937664618086043,
+          "nontrivial_char_edit_accuracy": 0.7840531561461794,
+          "nontrivial_confident_words": 469,
+          "nontrivial_confident_correct": 315,
+          "nontrivial_confident_accuracy": 0.6716417910447762,
+          "nontrivial_confident_coverage": 0.20588235294117646,
+          "confidence_bins": [
+            {
+              "words": 1036,
+              "correct": 216
+            },
+            {
+              "words": 773,
+              "correct": 356
+            },
+            {
+              "words": 330,
+              "correct": 227
+            },
+            {
+              "words": 310,
+              "correct": 259
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 1036,
+              "correct": 216
+            },
+            {
+              "words": 773,
+              "correct": 356
+            },
+            {
+              "words": 330,
+              "correct": 227
+            },
+            {
+              "words": 139,
+              "correct": 88
+            }
+          ],
+          "eligible_complete_rows": 191,
+          "exact_complete_rows": 1,
+          "excluded_rows": 32,
+          "eligible_row_word_coverage": 0.7999183340138832,
+          "row_length_strata": {
+            "8-15": {
+              "rows": 143,
+              "exact": 0
+            },
+            "4-7": {
+              "rows": 29,
+              "exact": 1
+            },
+            "16+": {
+              "rows": 19,
+              "exact": 0
+            }
+          },
+          "exact_complete_row_accuracy": 0.005235602094240838,
+          "omitted_characters": 5650,
+          "omitted_gap_edit_distance": 2613,
+          "omitted_symbol_edit_accuracy": 0.5375221238938053,
+          "baseline_char_edit_accuracy": 0.5374160799083019,
+          "baseline_exact_word_accuracy": 0.07104940792160065,
+          "ordered_recovery_thresholds_pass": false,
+          "high_confidence_error_flag": true,
+          "identity_exact": false
+        }
+      },
+      "unique_observations": 999,
+      "prediction_sha256": "827a8f9fa5f6acb19791a7125d46df9adf2fcd38478ac6b93436dc833afbfacc",
+      "score_sha256": "07affafae423b37d28c70c61afeb212ab4448df4b7fdfeb32300bfebe981c7b1"
+    },
+    "it/iid-identity": {
+      "status": "PASS",
+      "rule": "identity",
+      "tests": {
+        "development": {
+          "known_words": 1242,
+          "exact_words": 1242,
+          "reference_characters": 6251,
+          "word_edit_distance": 0,
+          "char_edit_accuracy": 1.0,
+          "exact_word_accuracy": 1.0,
+          "lossy_words": 0,
+          "exact_lossy_words": 0,
+          "exact_lossy_word_accuracy": null,
+          "nontrivial_words": 1147,
+          "lossy_char_edit_accuracy": null,
+          "nontrivial_exact_word_accuracy": 1.0,
+          "nontrivial_char_edit_accuracy": 1.0,
+          "nontrivial_confident_words": 1147,
+          "nontrivial_confident_correct": 1147,
+          "nontrivial_confident_accuracy": 1.0,
+          "nontrivial_confident_coverage": 1.0,
+          "confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 1242,
+              "correct": 1242
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 1147,
+              "correct": 1147
+            }
+          ],
+          "eligible_complete_rows": 166,
+          "exact_complete_rows": 166,
+          "excluded_rows": 19,
+          "eligible_row_word_coverage": 0.9605475040257649,
+          "row_length_strata": {
+            "4-7": {
+              "rows": 92,
+              "exact": 92
+            },
+            "8-15": {
+              "rows": 74,
+              "exact": 74
+            }
+          },
+          "exact_complete_row_accuracy": 1.0,
+          "omitted_characters": 0,
+          "omitted_gap_edit_distance": 0,
+          "omitted_symbol_edit_accuracy": null,
+          "baseline_char_edit_accuracy": 1.0,
+          "baseline_exact_word_accuracy": 1.0,
+          "ordered_recovery_thresholds_pass": true,
+          "high_confidence_error_flag": false,
+          "identity_exact": true
+        },
+        "reserve": {
+          "known_words": 2449,
+          "exact_words": 2449,
+          "reference_characters": 12258,
+          "word_edit_distance": 0,
+          "char_edit_accuracy": 1.0,
+          "exact_word_accuracy": 1.0,
+          "lossy_words": 0,
+          "exact_lossy_words": 0,
+          "exact_lossy_word_accuracy": null,
+          "nontrivial_words": 2265,
+          "lossy_char_edit_accuracy": null,
+          "nontrivial_exact_word_accuracy": 1.0,
+          "nontrivial_char_edit_accuracy": 1.0,
+          "nontrivial_confident_words": 2265,
+          "nontrivial_confident_correct": 2265,
+          "nontrivial_confident_accuracy": 1.0,
+          "nontrivial_confident_coverage": 1.0,
+          "confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 2449,
+              "correct": 2449
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 2265,
+              "correct": 2265
+            }
+          ],
+          "eligible_complete_rows": 191,
+          "exact_complete_rows": 191,
+          "excluded_rows": 32,
+          "eligible_row_word_coverage": 0.7999183340138832,
+          "row_length_strata": {
+            "8-15": {
+              "rows": 143,
+              "exact": 143
+            },
+            "4-7": {
+              "rows": 29,
+              "exact": 29
+            },
+            "16+": {
+              "rows": 19,
+              "exact": 19
+            }
+          },
+          "exact_complete_row_accuracy": 1.0,
+          "omitted_characters": 0,
+          "omitted_gap_edit_distance": 0,
+          "omitted_symbol_edit_accuracy": null,
+          "baseline_char_edit_accuracy": 1.0,
+          "baseline_exact_word_accuracy": 1.0,
+          "ordered_recovery_thresholds_pass": true,
+          "high_confidence_error_flag": false,
+          "identity_exact": true
+        }
+      },
+      "unique_observations": 1020,
+      "prediction_sha256": "90b197af8d9eb2bb9c18cbe172c57e950bccb332e68088a23e8a8a8954058d58",
+      "score_sha256": "40f0690df447434baea331a8bfe8398263bb787244dee1ef5b9bd6ee31920165"
+    },
+    "it/iid-omit-aeiou": {
+      "status": "PASS",
+      "rule": "omit-aeiou",
+      "tests": {
+        "development": {
+          "known_words": 1242,
+          "exact_words": 422,
+          "reference_characters": 6251,
+          "word_edit_distance": 1581,
+          "char_edit_accuracy": 0.74708046712526,
+          "exact_word_accuracy": 0.3397745571658615,
+          "lossy_words": 1146,
+          "exact_lossy_words": 327,
+          "exact_lossy_word_accuracy": 0.28534031413612565,
+          "nontrivial_words": 1147,
+          "lossy_char_edit_accuracy": 0.742964047502847,
+          "nontrivial_exact_word_accuracy": 0.2850915431560593,
+          "nontrivial_char_edit_accuracy": 0.7428432010409889,
+          "nontrivial_confident_words": 126,
+          "nontrivial_confident_correct": 54,
+          "nontrivial_confident_accuracy": 0.42857142857142855,
+          "nontrivial_confident_coverage": 0.10985178727114212,
+          "confidence_bins": [
+            {
+              "words": 642,
+              "correct": 123
+            },
+            {
+              "words": 379,
+              "correct": 150
+            },
+            {
+              "words": 78,
+              "correct": 35
+            },
+            {
+              "words": 143,
+              "correct": 114
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 642,
+              "correct": 123
+            },
+            {
+              "words": 379,
+              "correct": 150
+            },
+            {
+              "words": 78,
+              "correct": 35
+            },
+            {
+              "words": 48,
+              "correct": 19
+            }
+          ],
+          "eligible_complete_rows": 166,
+          "exact_complete_rows": 1,
+          "excluded_rows": 19,
+          "eligible_row_word_coverage": 0.9605475040257649,
+          "row_length_strata": {
+            "4-7": {
+              "rows": 92,
+              "exact": 0
+            },
+            "8-15": {
+              "rows": 74,
+              "exact": 1
+            }
+          },
+          "exact_complete_row_accuracy": 0.006024096385542169,
+          "omitted_characters": 2882,
+          "omitted_gap_edit_distance": 1600,
+          "omitted_symbol_edit_accuracy": 0.4448299791811242,
+          "baseline_char_edit_accuracy": 0.5389537673972165,
+          "baseline_exact_word_accuracy": 0.07729468599033816,
+          "ordered_recovery_thresholds_pass": false,
+          "high_confidence_error_flag": true,
+          "identity_exact": false
+        },
+        "reserve": {
+          "known_words": 2449,
+          "exact_words": 931,
+          "reference_characters": 12258,
+          "word_edit_distance": 2867,
+          "char_edit_accuracy": 0.7661119269048784,
+          "exact_word_accuracy": 0.3801551653736219,
+          "lossy_words": 2263,
+          "exact_lossy_words": 747,
+          "exact_lossy_word_accuracy": 0.3300927971718957,
+          "nontrivial_words": 2265,
+          "lossy_char_edit_accuracy": 0.7628677994198094,
+          "nontrivial_exact_word_accuracy": 0.32980132450331123,
+          "nontrivial_char_edit_accuracy": 0.7625082836315441,
+          "nontrivial_confident_words": 301,
+          "nontrivial_confident_correct": 174,
+          "nontrivial_confident_accuracy": 0.5780730897009967,
+          "nontrivial_confident_coverage": 0.13289183222958056,
+          "confidence_bins": [
+            {
+              "words": 1237,
+              "correct": 265
+            },
+            {
+              "words": 727,
+              "correct": 308
+            },
+            {
+              "words": 190,
+              "correct": 110
+            },
+            {
+              "words": 295,
+              "correct": 248
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 1237,
+              "correct": 265
+            },
+            {
+              "words": 727,
+              "correct": 308
+            },
+            {
+              "words": 190,
+              "correct": 110
+            },
+            {
+              "words": 111,
+              "correct": 64
+            }
+          ],
+          "eligible_complete_rows": 191,
+          "exact_complete_rows": 1,
+          "excluded_rows": 32,
+          "eligible_row_word_coverage": 0.7999183340138832,
+          "row_length_strata": {
+            "8-15": {
+              "rows": 143,
+              "exact": 0
+            },
+            "4-7": {
+              "rows": 29,
+              "exact": 1
+            },
+            "16+": {
+              "rows": 19,
+              "exact": 0
+            }
+          },
+          "exact_complete_row_accuracy": 0.005235602094240838,
+          "omitted_characters": 5663,
+          "omitted_gap_edit_distance": 2878,
+          "omitted_symbol_edit_accuracy": 0.49178880452057216,
+          "baseline_char_edit_accuracy": 0.5380159895578398,
+          "baseline_exact_word_accuracy": 0.0759493670886076,
+          "ordered_recovery_thresholds_pass": false,
+          "high_confidence_error_flag": true,
+          "identity_exact": false
+        }
+      },
+      "unique_observations": 766,
+      "prediction_sha256": "b9821e748d6235f5cbfeb134358efef3d7ef5d6e3c819d05a7018fc91aeef263",
+      "score_sha256": "893aa7294c767eee31bf3e7428d71fcdbdd4d24b8d393e0c39ade68f4923ce59"
+    },
+    "it/copy-identity": {
+      "status": "PASS",
+      "rule": "identity",
+      "tests": {
+        "development": {
+          "known_words": 1242,
+          "exact_words": 1242,
+          "reference_characters": 6218,
+          "word_edit_distance": 0,
+          "char_edit_accuracy": 1.0,
+          "exact_word_accuracy": 1.0,
+          "lossy_words": 0,
+          "exact_lossy_words": 0,
+          "exact_lossy_word_accuracy": null,
+          "nontrivial_words": 1129,
+          "lossy_char_edit_accuracy": null,
+          "nontrivial_exact_word_accuracy": 1.0,
+          "nontrivial_char_edit_accuracy": 1.0,
+          "nontrivial_confident_words": 1129,
+          "nontrivial_confident_correct": 1129,
+          "nontrivial_confident_accuracy": 1.0,
+          "nontrivial_confident_coverage": 1.0,
+          "confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 1242,
+              "correct": 1242
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 1129,
+              "correct": 1129
+            }
+          ],
+          "eligible_complete_rows": 166,
+          "exact_complete_rows": 166,
+          "excluded_rows": 19,
+          "eligible_row_word_coverage": 0.9605475040257649,
+          "row_length_strata": {
+            "4-7": {
+              "rows": 92,
+              "exact": 92
+            },
+            "8-15": {
+              "rows": 74,
+              "exact": 74
+            }
+          },
+          "exact_complete_row_accuracy": 1.0,
+          "omitted_characters": 0,
+          "omitted_gap_edit_distance": 0,
+          "omitted_symbol_edit_accuracy": null,
+          "baseline_char_edit_accuracy": 1.0,
+          "baseline_exact_word_accuracy": 1.0,
+          "ordered_recovery_thresholds_pass": true,
+          "high_confidence_error_flag": false,
+          "identity_exact": true
+        },
+        "reserve": {
+          "known_words": 2449,
+          "exact_words": 2449,
+          "reference_characters": 12462,
+          "word_edit_distance": 0,
+          "char_edit_accuracy": 1.0,
+          "exact_word_accuracy": 1.0,
+          "lossy_words": 0,
+          "exact_lossy_words": 0,
+          "exact_lossy_word_accuracy": null,
+          "nontrivial_words": 2258,
+          "lossy_char_edit_accuracy": null,
+          "nontrivial_exact_word_accuracy": 1.0,
+          "nontrivial_char_edit_accuracy": 1.0,
+          "nontrivial_confident_words": 2258,
+          "nontrivial_confident_correct": 2258,
+          "nontrivial_confident_accuracy": 1.0,
+          "nontrivial_confident_coverage": 1.0,
+          "confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 2449,
+              "correct": 2449
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 0,
+              "correct": 0
+            },
+            {
+              "words": 2258,
+              "correct": 2258
+            }
+          ],
+          "eligible_complete_rows": 191,
+          "exact_complete_rows": 191,
+          "excluded_rows": 32,
+          "eligible_row_word_coverage": 0.7999183340138832,
+          "row_length_strata": {
+            "8-15": {
+              "rows": 143,
+              "exact": 143
+            },
+            "4-7": {
+              "rows": 29,
+              "exact": 29
+            },
+            "16+": {
+              "rows": 19,
+              "exact": 19
+            }
+          },
+          "exact_complete_row_accuracy": 1.0,
+          "omitted_characters": 0,
+          "omitted_gap_edit_distance": 0,
+          "omitted_symbol_edit_accuracy": null,
+          "baseline_char_edit_accuracy": 1.0,
+          "baseline_exact_word_accuracy": 1.0,
+          "ordered_recovery_thresholds_pass": true,
+          "high_confidence_error_flag": false,
+          "identity_exact": true
+        }
+      },
+      "unique_observations": 1864,
+      "prediction_sha256": "171e6c7f36aaeb6445a359bbdd5bfb34b2850b19eb9cf42db4716fb53d87a11f",
+      "score_sha256": "0b4b5c1b6372e03dc680bc2c8297dcfba55f80bd4b40becfc590d26147cb3e8a"
+    },
+    "it/copy-omit-aeiou": {
+      "status": "PASS",
+      "rule": "omit-aeiou",
+      "tests": {
+        "development": {
+          "known_words": 1242,
+          "exact_words": 319,
+          "reference_characters": 6218,
+          "word_edit_distance": 2058,
+          "char_edit_accuracy": 0.6690254100997105,
+          "exact_word_accuracy": 0.25684380032206117,
+          "lossy_words": 1093,
+          "exact_lossy_words": 205,
+          "exact_lossy_word_accuracy": 0.18755718206770358,
+          "nontrivial_words": 1129,
+          "lossy_char_edit_accuracy": 0.6667775744468474,
+          "nontrivial_exact_word_accuracy": 0.1824623560673162,
+          "nontrivial_char_edit_accuracy": 0.6611230034579285,
+          "nontrivial_confident_words": 111,
+          "nontrivial_confident_correct": 42,
+          "nontrivial_confident_accuracy": 0.3783783783783784,
+          "nontrivial_confident_coverage": 0.0983170947741364,
+          "confidence_bins": [
+            {
+              "words": 676,
+              "correct": 85
+            },
+            {
+              "words": 342,
+              "correct": 79
+            },
+            {
+              "words": 74,
+              "correct": 28
+            },
+            {
+              "words": 150,
+              "correct": 127
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 676,
+              "correct": 85
+            },
+            {
+              "words": 342,
+              "correct": 79
+            },
+            {
+              "words": 74,
+              "correct": 28
+            },
+            {
+              "words": 37,
+              "correct": 14
+            }
+          ],
+          "eligible_complete_rows": 166,
+          "exact_complete_rows": 1,
+          "excluded_rows": 19,
+          "eligible_row_word_coverage": 0.9605475040257649,
+          "row_length_strata": {
+            "4-7": {
+              "rows": 92,
+              "exact": 1
+            },
+            "8-15": {
+              "rows": 74,
+              "exact": 0
+            }
+          },
+          "exact_complete_row_accuracy": 0.006024096385542169,
+          "omitted_characters": 2787,
+          "omitted_gap_edit_distance": 2090,
+          "omitted_symbol_edit_accuracy": 0.2500897021887334,
+          "baseline_char_edit_accuracy": 0.5517851399163718,
+          "baseline_exact_word_accuracy": 0.11996779388083736,
+          "ordered_recovery_thresholds_pass": false,
+          "high_confidence_error_flag": true,
+          "identity_exact": false
+        },
+        "reserve": {
+          "known_words": 2449,
+          "exact_words": 636,
+          "reference_characters": 12462,
+          "word_edit_distance": 4288,
+          "char_edit_accuracy": 0.6559139784946236,
+          "exact_word_accuracy": 0.2596978358513679,
+          "lossy_words": 2191,
+          "exact_lossy_words": 443,
+          "exact_lossy_word_accuracy": 0.20219078046554084,
+          "nontrivial_words": 2258,
+          "lossy_char_edit_accuracy": 0.6548731090352979,
+          "nontrivial_exact_word_accuracy": 0.1970770593445527,
+          "nontrivial_char_edit_accuracy": 0.6489274602914687,
+          "nontrivial_confident_words": 227,
+          "nontrivial_confident_correct": 85,
+          "nontrivial_confident_accuracy": 0.3744493392070485,
+          "nontrivial_confident_coverage": 0.10053144375553587,
+          "confidence_bins": [
+            {
+              "words": 1409,
+              "correct": 173
+            },
+            {
+              "words": 622,
+              "correct": 187
+            },
+            {
+              "words": 151,
+              "correct": 46
+            },
+            {
+              "words": 267,
+              "correct": 230
+            }
+          ],
+          "nontrivial_confidence_bins": [
+            {
+              "words": 1409,
+              "correct": 173
+            },
+            {
+              "words": 622,
+              "correct": 187
+            },
+            {
+              "words": 151,
+              "correct": 46
+            },
+            {
+              "words": 76,
+              "correct": 39
+            }
+          ],
+          "eligible_complete_rows": 191,
+          "exact_complete_rows": 0,
+          "excluded_rows": 32,
+          "eligible_row_word_coverage": 0.7999183340138832,
+          "row_length_strata": {
+            "8-15": {
+              "rows": 143,
+              "exact": 0
+            },
+            "4-7": {
+              "rows": 29,
+              "exact": 0
+            },
+            "16+": {
+              "rows": 19,
+              "exact": 0
+            }
+          },
+          "exact_complete_row_accuracy": 0.0,
+          "omitted_characters": 5666,
+          "omitted_gap_edit_distance": 4305,
+          "omitted_symbol_edit_accuracy": 0.2402047299682316,
+          "baseline_char_edit_accuracy": 0.545337826994062,
+          "baseline_exact_word_accuracy": 0.10534912209064924,
+          "ordered_recovery_thresholds_pass": false,
+          "high_confidence_error_flag": true,
+          "identity_exact": false
+        }
+      },
+      "unique_observations": 1024,
+      "prediction_sha256": "40565e37bf16ec299fef439cee5f9db34c4310e6dd801de891c05afb83cb69bf",
+      "score_sha256": "d4b52a8667398f1e71fa07724dc4a3c35a55bc9a44ed57bececbf57a0b6a2fad"
+    }
+  },
+  "summary": {
+    "ordered_by_language_split": {
+      "la": {
+        "development": false,
+        "reserve": false
+      },
+      "de": {
+        "development": false,
+        "reserve": false
+      },
+      "it": {
+        "development": false,
+        "reserve": false
+      }
+    },
+    "identity_all_exact": true,
+    "ordered_oracle_gate_pass": false,
+    "confidence_flags": {
+      "la/ordered-identity": {
+        "development": false,
+        "reserve": false
+      },
+      "la/ordered-omit-aeiou": {
+        "development": true,
+        "reserve": true
+      },
+      "la/iid-identity": {
+        "development": false,
+        "reserve": false
+      },
+      "la/iid-omit-aeiou": {
+        "development": true,
+        "reserve": true
+      },
+      "la/copy-identity": {
+        "development": false,
+        "reserve": false
+      },
+      "la/copy-omit-aeiou": {
+        "development": true,
+        "reserve": true
+      },
+      "de/ordered-identity": {
+        "development": false,
+        "reserve": false
+      },
+      "de/ordered-omit-aeiou": {
+        "development": true,
+        "reserve": true
+      },
+      "de/iid-identity": {
+        "development": false,
+        "reserve": false
+      },
+      "de/iid-omit-aeiou": {
+        "development": true,
+        "reserve": true
+      },
+      "de/copy-identity": {
+        "development": false,
+        "reserve": false
+      },
+      "de/copy-omit-aeiou": {
+        "development": true,
+        "reserve": true
+      },
+      "it/ordered-identity": {
+        "development": false,
+        "reserve": false
+      },
+      "it/ordered-omit-aeiou": {
+        "development": true,
+        "reserve": true
+      },
+      "it/iid-identity": {
+        "development": false,
+        "reserve": false
+      },
+      "it/iid-omit-aeiou": {
+        "development": true,
+        "reserve": true
+      },
+      "it/copy-identity": {
+        "development": false,
+        "reserve": false
+      },
+      "it/copy-omit-aeiou": {
+        "development": true,
+        "reserve": true
+      }
+    }
+  },
+  "input_freeze_sha256": "c359314dc3758a4f757e2684e335130fcbb55fbd742ec6a05885a5f545a98797",
+  "parent020_input_freeze_sha256": "e5fea5cb85145251d97ae9c590777deae6a6fcf4f8488bd72d2db7cdcc461620",
+  "prepared_manifest_sha256": "d6692d1c16cd13a969cf97490c41b816bb6609618b74a62ea0fcc2b29fcbd895",
+  "audit_source_sha256": "1375b2151f1cf809f6a59e2ecf2404382c3011541851fa5ca35e2e18b20436d9"
+}

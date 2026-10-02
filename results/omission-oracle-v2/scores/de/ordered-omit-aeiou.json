@@ -1,0 +1,993 @@
+{
+  "tests": {
+    "development": {
+      "known_words": 1242,
+      "exact_words": 392,
+      "reference_characters": 6328,
+      "word_edit_distance": 1451,
+      "char_edit_accuracy": 0.7707016434892541,
+      "exact_word_accuracy": 0.31561996779388085,
+      "lossy_words": 1242,
+      "exact_lossy_words": 392,
+      "exact_lossy_word_accuracy": 0.31561996779388085,
+      "nontrivial_words": 1242,
+      "lossy_char_edit_accuracy": 0.7707016434892541,
+      "nontrivial_exact_word_accuracy": 0.31561996779388085,
+      "nontrivial_char_edit_accuracy": 0.7707016434892541,
+      "nontrivial_confident_words": 303,
+      "nontrivial_confident_correct": 175,
+      "nontrivial_confident_accuracy": 0.5775577557755776,
+      "nontrivial_confident_coverage": 0.24396135265700483,
+      "confidence_bins": [
+        {
+          "words": 396,
+          "correct": 62
+        },
+        {
+          "words": 543,
+          "correct": 155
+        },
+        {
+          "words": 175,
+          "correct": 95
+        },
+        {
+          "words": 128,
+          "correct": 80
+        }
+      ],
+      "nontrivial_confidence_bins": [
+        {
+          "words": 396,
+          "correct": 62
+        },
+        {
+          "words": 543,
+          "correct": 155
+        },
+        {
+          "words": 175,
+          "correct": 95
+        },
+        {
+          "words": 128,
+          "correct": 80
+        }
+      ],
+      "eligible_complete_rows": 166,
+      "exact_complete_rows": 0,
+      "excluded_rows": 19,
+      "eligible_row_word_coverage": 0.9605475040257649,
+      "row_length_strata": {
+        "4-7": {
+          "rows": 92,
+          "exact": 0
+        },
+        "8-15": {
+          "rows": 74,
+          "exact": 0
+        }
+      },
+      "exact_complete_row_accuracy": 0.0,
+      "omitted_characters": 2365,
+      "omitted_gap_edit_distance": 1461,
+      "omitted_symbol_edit_accuracy": 0.3822410147991543,
+      "baseline_char_edit_accuracy": 0.6262642225031605,
+      "baseline_exact_word_accuracy": 0.0,
+      "ordered_recovery_thresholds_pass": false,
+      "high_confidence_error_flag": true,
+      "identity_exact": false
+    },
+    "reserve": {
+      "known_words": 2449,
+      "exact_words": 898,
+      "reference_characters": 11878,
+      "word_edit_distance": 2610,
+      "char_edit_accuracy": 0.7802660380535443,
+      "exact_word_accuracy": 0.3666802776643528,
+      "lossy_words": 2438,
+      "exact_lossy_words": 887,
+      "exact_lossy_word_accuracy": 0.3638228055783429,
+      "nontrivial_words": 2439,
+      "lossy_char_edit_accuracy": 0.7798954292460786,
+      "nontrivial_exact_word_accuracy": 0.3640836408364084,
+      "nontrivial_char_edit_accuracy": 0.7799511002444988,
+      "nontrivial_confident_words": 642,
+      "nontrivial_confident_correct": 405,
+      "nontrivial_confident_accuracy": 0.6308411214953271,
+      "nontrivial_confident_coverage": 0.26322263222632225,
+      "confidence_bins": [
+        {
+          "words": 773,
+          "correct": 126
+        },
+        {
+          "words": 1024,
+          "correct": 357
+        },
+        {
+          "words": 391,
+          "correct": 239
+        },
+        {
+          "words": 261,
+          "correct": 176
+        }
+      ],
+      "nontrivial_confidence_bins": [
+        {
+          "words": 773,
+          "correct": 126
+        },
+        {
+          "words": 1024,
+          "correct": 357
+        },
+        {
+          "words": 391,
+          "correct": 239
+        },
+        {
+          "words": 251,
+          "correct": 166
+        }
+      ],
+      "eligible_complete_rows": 191,
+      "exact_complete_rows": 1,
+      "excluded_rows": 32,
+      "eligible_row_word_coverage": 0.7999183340138832,
+      "row_length_strata": {
+        "8-15": {
+          "rows": 143,
+          "exact": 0
+        },
+        "4-7": {
+          "rows": 29,
+          "exact": 1
+        },
+        "16+": {
+          "rows": 19,
+          "exact": 0
+        }
+      },
+      "exact_complete_row_accuracy": 0.005235602094240838,
+      "omitted_characters": 4464,
+      "omitted_gap_edit_distance": 2626,
+      "omitted_symbol_edit_accuracy": 0.41173835125448033,
+      "baseline_char_edit_accuracy": 0.6241791547398552,
+      "baseline_exact_word_accuracy": 0.00449162923642303,
+      "ordered_recovery_thresholds_pass": false,
+      "high_confidence_error_flag": true,
+      "identity_exact": false
+    }
+  },
+  "true_path_diagnostics": [
+    {
+      "segment": 0,
+      "log_prior": -543.4761007108245,
+      "posterior": 2.8483213056626274e-104,
+      "exact_map": false
+    },
+    {
+      "segment": 1,
+      "log_prior": -537.7288882149745,
+      "posterior": 7.732059100692162e-88,
+      "exact_map": false
+    },
+    {
+      "segment": 2,
+      "log_prior": -672.9801331993613,
+      "posterior": 1.460934466601602e-109,
+      "exact_map": false
+    },
+    {
+      "segment": 3,
+      "log_prior": -830.6317868520377,
+      "posterior": 7.135434003267335e-133,
+      "exact_map": false
+    },
+    {
+      "segment": 4,
+      "log_prior": -214.92449607051077,
+      "posterior": 6.014477923788978e-29,
+      "exact_map": false
+    },
+    {
+      "segment": 5,
+      "log_prior": -420.445691062643,
+      "posterior": 5.274421322304824e-73,
+      "exact_map": false
+    },
+    {
+      "segment": 6,
+      "log_prior": -169.35533369761748,
+      "posterior": 7.55089451279002e-24,
+      "exact_map": false
+    },
+    {
+      "segment": 7,
+      "log_prior": -593.9753976024205,
+      "posterior": 4.971310897574216e-78,
+      "exact_map": false
+    },
+    {
+      "segment": 8,
+      "log_prior": -730.520902274845,
+      "posterior": 3.700438799410644e-119,
+      "exact_map": false
+    },
+    {
+      "segment": 9,
+      "log_prior": -382.9989112425866,
+      "posterior": 1.683895723863423e-46,
+      "exact_map": false
+    },
+    {
+      "segment": 10,
+      "log_prior": -347.1832553192847,
+      "posterior": 1.2036933240766666e-48,
+      "exact_map": false
+    },
+    {
+      "segment": 11,
+      "log_prior": -134.40185958196315,
+      "posterior": 2.091154258421815e-27,
+      "exact_map": false
+    },
+    {
+      "segment": 12,
+      "log_prior": -335.0027228349028,
+      "posterior": 2.052161108774484e-40,
+      "exact_map": false
+    },
+    {
+      "segment": 13,
+      "log_prior": -116.47578228110633,
+      "posterior": 2.925048839783613e-14,
+      "exact_map": false
+    },
+    {
+      "segment": 14,
+      "log_prior": -363.8294734408816,
+      "posterior": 2.63396838810786e-43,
+      "exact_map": false
+    },
+    {
+      "segment": 15,
+      "log_prior": -486.61116099029886,
+      "posterior": 3.060053989617929e-60,
+      "exact_map": false
+    },
+    {
+      "segment": 16,
+      "log_prior": -608.2642163579071,
+      "posterior": 2.8287630087429806e-86,
+      "exact_map": false
+    },
+    {
+      "segment": 17,
+      "log_prior": -370.5833210830613,
+      "posterior": 2.1242065061519937e-54,
+      "exact_map": false
+    },
+    {
+      "segment": 18,
+      "log_prior": -5.334533109349663,
+      "posterior": 0.8683256803621353,
+      "exact_map": true
+    },
+    {
+      "segment": 19,
+      "log_prior": -1213.2175760523417,
+      "posterior": 1.3694010635211368e-191,
+      "exact_map": false
+    },
+    {
+      "segment": 20,
+      "log_prior": -618.197347533248,
+      "posterior": 3.636581365634767e-80,
+      "exact_map": false
+    },
+    {
+      "segment": 21,
+      "log_prior": -463.7577314152685,
+      "posterior": 1.2348111284198263e-60,
+      "exact_map": false
+    },
+    {
+      "segment": 22,
+      "log_prior": -91.56005874767543,
+      "posterior": 4.5457652153653395e-08,
+      "exact_map": false
+    },
+    {
+      "segment": 23,
+      "log_prior": -219.78114818450538,
+      "posterior": 2.3660448135713658e-33,
+      "exact_map": false
+    },
+    {
+      "segment": 24,
+      "log_prior": -473.63136436862845,
+      "posterior": 5.015868139985335e-65,
+      "exact_map": false
+    },
+    {
+      "segment": 25,
+      "log_prior": -505.03101325845006,
+      "posterior": 4.364932308065384e-79,
+      "exact_map": false
+    },
+    {
+      "segment": 26,
+      "log_prior": -120.31383286654236,
+      "posterior": 4.1979837426325684e-21,
+      "exact_map": false
+    },
+    {
+      "segment": 27,
+      "log_prior": -508.4342143524241,
+      "posterior": 3.8080770682511566e-86,
+      "exact_map": false
+    },
+    {
+      "segment": 28,
+      "log_prior": -168.95528151792655,
+      "posterior": 1.906563870503266e-15,
+      "exact_map": false
+    },
+    {
+      "segment": 29,
+      "log_prior": -556.6267709692978,
+      "posterior": 5.178939300949126e-84,
+      "exact_map": false
+    },
+    {
+      "segment": 30,
+      "log_prior": -1327.1752671472875,
+      "posterior": 1.209194071155103e-199,
+      "exact_map": false
+    },
+    {
+      "segment": 31,
+      "log_prior": -554.23823020107,
+      "posterior": 6.677336856926161e-88,
+      "exact_map": false
+    },
+    {
+      "segment": 32,
+      "log_prior": -587.316437538122,
+      "posterior": 2.661212414515828e-82,
+      "exact_map": false
+    },
+    {
+      "segment": 33,
+      "log_prior": -450.3510017459221,
+      "posterior": 9.303441176436127e-70,
+      "exact_map": false
+    },
+    {
+      "segment": 34,
+      "log_prior": -864.4936916009144,
+      "posterior": 8.211879723155669e-127,
+      "exact_map": false
+    },
+    {
+      "segment": 35,
+      "log_prior": -208.21830701228964,
+      "posterior": 1.729176396710589e-32,
+      "exact_map": false
+    },
+    {
+      "segment": 36,
+      "log_prior": -1102.1411272080286,
+      "posterior": 4.167728117113988e-166,
+      "exact_map": false
+    },
+    {
+      "segment": 37,
+      "log_prior": -345.98280925467816,
+      "posterior": 6.5314488871204335e-59,
+      "exact_map": false
+    },
+    {
+      "segment": 38,
+      "log_prior": -591.5784677223237,
+      "posterior": 4.496963269202481e-98,
+      "exact_map": false
+    },
+    {
+      "segment": 39,
+      "log_prior": -239.95934226524128,
+      "posterior": 4.6822801539307835e-37,
+      "exact_map": false
+    },
+    {
+      "segment": 40,
+      "log_prior": -616.8718487661821,
+      "posterior": 5.436293491276065e-76,
+      "exact_map": false
+    },
+    {
+      "segment": 41,
+      "log_prior": -475.4521111512807,
+      "posterior": 2.592425920387265e-69,
+      "exact_map": false
+    },
+    {
+      "segment": 42,
+      "log_prior": -434.73923526932043,
+      "posterior": 2.418857428865772e-69,
+      "exact_map": false
+    },
+    {
+      "segment": 43,
+      "log_prior": -144.00777957911285,
+      "posterior": 2.4315717627768757e-19,
+      "exact_map": false
+    },
+    {
+      "segment": 44,
+      "log_prior": -346.0654908580148,
+      "posterior": 1.1550560576811732e-47,
+      "exact_map": false
+    },
+    {
+      "segment": 45,
+      "log_prior": -179.21678923604946,
+      "posterior": 4.616674294061104e-15,
+      "exact_map": false
+    },
+    {
+      "segment": 46,
+      "log_prior": -789.918300209708,
+      "posterior": 7.926759299032757e-107,
+      "exact_map": false
+    },
+    {
+      "segment": 47,
+      "log_prior": -630.2464657785459,
+      "posterior": 1.0400635310546776e-102,
+      "exact_map": false
+    },
+    {
+      "segment": 48,
+      "log_prior": -428.4830293145393,
+      "posterior": 2.7028855616195032e-30,
+      "exact_map": false
+    },
+    {
+      "segment": 49,
+      "log_prior": -163.5935878956614,
+      "posterior": 2.6229529780068152e-21,
+      "exact_map": false
+    },
+    {
+      "segment": 50,
+      "log_prior": -89.64931400382135,
+      "posterior": 1.2417488661399078e-07,
+      "exact_map": false
+    },
+    {
+      "segment": 51,
+      "log_prior": -469.25386641835456,
+      "posterior": 2.0296678481738875e-71,
+      "exact_map": false
+    },
+    {
+      "segment": 52,
+      "log_prior": -540.1958721039903,
+      "posterior": 3.1688349742562056e-64,
+      "exact_map": false
+    },
+    {
+      "segment": 53,
+      "log_prior": -123.90963872560691,
+      "posterior": 5.2710001608317236e-17,
+      "exact_map": false
+    },
+    {
+      "segment": 54,
+      "log_prior": -406.29065507634306,
+      "posterior": 2.4613633810410128e-60,
+      "exact_map": false
+    },
+    {
+      "segment": 55,
+      "log_prior": -33.34019138168303,
+      "posterior": 5.532914719526023e-06,
+      "exact_map": false
+    },
+    {
+      "segment": 56,
+      "log_prior": -864.120256921334,
+      "posterior": 8.409754603285379e-127,
+      "exact_map": false
+    },
+    {
+      "segment": 57,
+      "log_prior": -156.7390728241927,
+      "posterior": 2.123041600525225e-21,
+      "exact_map": false
+    },
+    {
+      "segment": 58,
+      "log_prior": -624.8150311880868,
+      "posterior": 1.394143723654829e-80,
+      "exact_map": false
+    },
+    {
+      "segment": 59,
+      "log_prior": -1204.736823962255,
+      "posterior": 4.3560245303684855e-144,
+      "exact_map": false
+    },
+    {
+      "segment": 60,
+      "log_prior": -541.9679702205566,
+      "posterior": 2.2563467596200733e-67,
+      "exact_map": false
+    },
+    {
+      "segment": 61,
+      "log_prior": -270.0218652447149,
+      "posterior": 5.051223642313941e-30,
+      "exact_map": false
+    },
+    {
+      "segment": 62,
+      "log_prior": -47.53037790011706,
+      "posterior": 5.036963075372953e-06,
+      "exact_map": false
+    },
+    {
+      "segment": 63,
+      "log_prior": -177.13933393182668,
+      "posterior": 3.2655631665522665e-26,
+      "exact_map": false
+    },
+    {
+      "segment": 64,
+      "log_prior": -536.7722028404536,
+      "posterior": 2.115522284799481e-86,
+      "exact_map": false
+    },
+    {
+      "segment": 65,
+      "log_prior": -8.824047622090532,
+      "posterior": 0.7167047498698709,
+      "exact_map": true
+    },
+    {
+      "segment": 66,
+      "log_prior": -457.94209346542567,
+      "posterior": 7.050261383814388e-74,
+      "exact_map": false
+    },
+    {
+      "segment": 67,
+      "log_prior": -400.0618076733218,
+      "posterior": 2.5062958210528032e-67,
+      "exact_map": false
+    },
+    {
+      "segment": 68,
+      "log_prior": -471.32159121960456,
+      "posterior": 5.254619084506413e-77,
+      "exact_map": false
+    },
+    {
+      "segment": 69,
+      "log_prior": -787.5984258774322,
+      "posterior": 2.1610672774122137e-102,
+      "exact_map": false
+    },
+    {
+      "segment": 70,
+      "log_prior": -1051.6307163882402,
+      "posterior": 5.96716807439121e-143,
+      "exact_map": false
+    },
+    {
+      "segment": 71,
+      "log_prior": -42.816180112327416,
+      "posterior": 5.995718078242739e-06,
+      "exact_map": false
+    },
+    {
+      "segment": 72,
+      "log_prior": -234.27117026020693,
+      "posterior": 3.160381609328978e-35,
+      "exact_map": false
+    },
+    {
+      "segment": 73,
+      "log_prior": -494.43314916414107,
+      "posterior": 6.138586593842311e-71,
+      "exact_map": false
+    },
+    {
+      "segment": 74,
+      "log_prior": -503.1385201633951,
+      "posterior": 1.2795026624199583e-92,
+      "exact_map": false
+    },
+    {
+      "segment": 75,
+      "log_prior": -611.7795320341909,
+      "posterior": 2.1809271306393155e-102,
+      "exact_map": false
+    },
+    {
+      "segment": 76,
+      "log_prior": -511.6072145283734,
+      "posterior": 4.86968007998892e-69,
+      "exact_map": false
+    },
+    {
+      "segment": 77,
+      "log_prior": -453.9374630196391,
+      "posterior": 1.3989311965367484e-44,
+      "exact_map": false
+    },
+    {
+      "segment": 78,
+      "log_prior": -163.56240654504532,
+      "posterior": 1.4349648916021438e-23,
+      "exact_map": false
+    },
+    {
+      "segment": 79,
+      "log_prior": -461.3035107726556,
+      "posterior": 6.134791767911209e-68,
+      "exact_map": false
+    },
+    {
+      "segment": 80,
+      "log_prior": -16.648232920025407,
+      "posterior": 0.5324284559981273,
+      "exact_map": true
+    },
+    {
+      "segment": 81,
+      "log_prior": -458.91749942332814,
+      "posterior": 1.339783079242161e-44,
+      "exact_map": false
+    },
+    {
+      "segment": 82,
+      "log_prior": -657.1081261855866,
+      "posterior": 2.112418984484166e-75,
+      "exact_map": false
+    },
+    {
+      "segment": 83,
+      "log_prior": -445.67899101881943,
+      "posterior": 4.3501999176353205e-62,
+      "exact_map": false
+    },
+    {
+      "segment": 84,
+      "log_prior": -180.018792113667,
+      "posterior": 5.150895255849086e-29,
+      "exact_map": false
+    },
+    {
+      "segment": 85,
+      "log_prior": -720.5743640671716,
+      "posterior": 4.085248568923189e-117,
+      "exact_map": false
+    },
+    {
+      "segment": 86,
+      "log_prior": -1272.183710806442,
+      "posterior": 2.16557206390686e-216,
+      "exact_map": false
+    },
+    {
+      "segment": 87,
+      "log_prior": -124.98528334641867,
+      "posterior": 2.6843045578364197e-16,
+      "exact_map": false
+    },
+    {
+      "segment": 88,
+      "log_prior": -29.921488110542544,
+      "posterior": 0.006224460127206315,
+      "exact_map": false
+    },
+    {
+      "segment": 89,
+      "log_prior": -181.0317593346524,
+      "posterior": 2.220326234818834e-21,
+      "exact_map": false
+    },
+    {
+      "segment": 90,
+      "log_prior": -285.3539261910915,
+      "posterior": 2.6561534147993754e-38,
+      "exact_map": false
+    },
+    {
+      "segment": 91,
+      "log_prior": -120.13689043159464,
+      "posterior": 1.1183962601566978e-13,
+      "exact_map": false
+    },
+    {
+      "segment": 92,
+      "log_prior": -186.55494951859444,
+      "posterior": 7.427511499985094e-30,
+      "exact_map": false
+    },
+    {
+      "segment": 93,
+      "log_prior": -953.3106959566827,
+      "posterior": 1.1319253486480535e-104,
+      "exact_map": false
+    },
+    {
+      "segment": 94,
+      "log_prior": -128.15318806498863,
+      "posterior": 6.834265979806987e-17,
+      "exact_map": false
+    },
+    {
+      "segment": 95,
+      "log_prior": -907.1456496864345,
+      "posterior": 4.741185140596847e-140,
+      "exact_map": false
+    },
+    {
+      "segment": 96,
+      "log_prior": -160.03354101854978,
+      "posterior": 1.0063222863305174e-24,
+      "exact_map": false
+    },
+    {
+      "segment": 97,
+      "log_prior": -96.53107824145505,
+      "posterior": 1.2605032520340295e-21,
+      "exact_map": false
+    },
+    {
+      "segment": 98,
+      "log_prior": -149.48765446768738,
+      "posterior": 1.9839237212420233e-25,
+      "exact_map": false
+    },
+    {
+      "segment": 99,
+      "log_prior": -277.5038887179353,
+      "posterior": 2.1205369497104703e-42,
+      "exact_map": false
+    },
+    {
+      "segment": 100,
+      "log_prior": -101.16625560916835,
+      "posterior": 3.451621897781673e-21,
+      "exact_map": false
+    },
+    {
+      "segment": 101,
+      "log_prior": -339.6339405043602,
+      "posterior": 6.864539770123325e-50,
+      "exact_map": false
+    },
+    {
+      "segment": 102,
+      "log_prior": -117.54657338502534,
+      "posterior": 2.072563856171102e-15,
+      "exact_map": false
+    },
+    {
+      "segment": 103,
+      "log_prior": -374.1991781291931,
+      "posterior": 1.7258695463455132e-47,
+      "exact_map": false
+    },
+    {
+      "segment": 104,
+      "log_prior": -286.3718695906859,
+      "posterior": 1.5126226682554636e-32,
+      "exact_map": false
+    },
+    {
+      "segment": 105,
+      "log_prior": -52.912055974628025,
+      "posterior": 0.00030055251196362784,
+      "exact_map": false
+    },
+    {
+      "segment": 106,
+      "log_prior": -126.06732752092681,
+      "posterior": 1.3217214111262138e-17,
+      "exact_map": false
+    },
+    {
+      "segment": 107,
+      "log_prior": -260.83186683599644,
+      "posterior": 5.798093744559482e-37,
+      "exact_map": false
+    },
+    {
+      "segment": 108,
+      "log_prior": -382.7853942678027,
+      "posterior": 1.1301646687778619e-38,
+      "exact_map": false
+    },
+    {
+      "segment": 109,
+      "log_prior": -269.7228951541201,
+      "posterior": 3.9326932612712695e-34,
+      "exact_map": false
+    },
+    {
+      "segment": 110,
+      "log_prior": -485.9379315654225,
+      "posterior": 9.927045069377538e-69,
+      "exact_map": false
+    },
+    {
+      "segment": 111,
+      "log_prior": -402.3159987966283,
+      "posterior": 1.652495444092487e-42,
+      "exact_map": false
+    },
+    {
+      "segment": 112,
+      "log_prior": -9.073960191045527,
+      "posterior": 0.7021814123928237,
+      "exact_map": true
+    },
+    {
+      "segment": 113,
+      "log_prior": -611.1265121780184,
+      "posterior": 2.2643380139609948e-89,
+      "exact_map": false
+    },
+    {
+      "segment": 114,
+      "log_prior": -650.438305466139,
+      "posterior": 4.5147563267938004e-100,
+      "exact_map": false
+    },
+    {
+      "segment": 115,
+      "log_prior": -119.98184836401306,
+      "posterior": 7.359722062670061e-19,
+      "exact_map": false
+    },
+    {
+      "segment": 116,
+      "log_prior": -90.49598833482953,
+      "posterior": 1.9143349695099605e-08,
+      "exact_map": false
+    },
+    {
+      "segment": 117,
+      "log_prior": -124.2425756887107,
+      "posterior": 5.051740982891632e-18,
+      "exact_map": false
+    },
+    {
+      "segment": 118,
+      "log_prior": -119.0682816092487,
+      "posterior": 9.540542289069931e-12,
+      "exact_map": false
+    },
+    {
+      "segment": 119,
+      "log_prior": -180.51567624057182,
+      "posterior": 4.5722123395732325e-21,
+      "exact_map": false
+    },
+    {
+      "segment": 120,
+      "log_prior": -93.31466692929278,
+      "posterior": 1.565292177447824e-14,
+      "exact_map": false
+    },
+    {
+      "segment": 121,
+      "log_prior": -21.358141661285448,
+      "posterior": 0.330001051630462,
+      "exact_map": false
+    },
+    {
+      "segment": 122,
+      "log_prior": -446.1565155735007,
+      "posterior": 9.54050582643772e-55,
+      "exact_map": false
+    },
+    {
+      "segment": 123,
+      "log_prior": -196.33013212895017,
+      "posterior": 5.929998444191719e-32,
+      "exact_map": false
+    },
+    {
+      "segment": 124,
+      "log_prior": -125.78812189672652,
+      "posterior": 1.633698028497181e-15,
+      "exact_map": false
+    },
+    {
+      "segment": 125,
+      "log_prior": -103.89095653910154,
+      "posterior": 1.3651601883981538e-19,
+      "exact_map": false
+    },
+    {
+      "segment": 126,
+      "log_prior": -44.82645949872514,
+      "posterior": 6.415527537326064e-07,
+      "exact_map": false
+    },
+    {
+      "segment": 127,
+      "log_prior": -114.68983003098829,
+      "posterior": 1.8056086452777496e-11,
+      "exact_map": false
+    },
+    {
+      "segment": 128,
+      "log_prior": -265.38208729952794,
+      "posterior": 4.0018330313827757e-45,
+      "exact_map": false
+    },
+    {
+      "segment": 129,
+      "log_prior": -100.47142040761571,
+      "posterior": 7.696607207639525e-15,
+      "exact_map": false
+    },
+    {
+      "segment": 130,
+      "log_prior": -499.4412454386694,
+      "posterior": 9.498333466938078e-74,
+      "exact_map": false
+    },
+    {
+      "segment": 131,
+      "log_prior": -407.5667096954992,
+      "posterior": 1.2861821011172095e-56,
+      "exact_map": false
+    },
+    {
+      "segment": 132,
+      "log_prior": -405.2495921038439,
+      "posterior": 2.3024561544331447e-53,
+      "exact_map": false
+    },
+    {
+      "segment": 133,
+      "log_prior": -398.3818787239455,
+      "posterior": 4.729795864790922e-46,
+      "exact_map": false
+    },
+    {
+      "segment": 134,
+      "log_prior": -560.0646755221111,
+      "posterior": 1.832056603163592e-75,
+      "exact_map": false
+    },
+    {
+      "segment": 135,
+      "log_prior": -548.4958606054424,
+      "posterior": 2.4607297669906874e-85,
+      "exact_map": false
+    },
+    {
+      "segment": 136,
+      "log_prior": -180.88318128781515,
+      "posterior": 6.192839425331763e-23,
+      "exact_map": false
+    }
+  ],
+  "truth_used_only_after_prediction": true,
+  "case": "de/ordered-omit-aeiou",
+  "prediction_sha256": "5e6eae612508fbcd129dbab173239f04209b21cf12ed510a24537385e67c83ad",
+  "truth_sha256": "7de0a30c9310a03f18f55a8ca245915abc3832e49afee2950735c170b566f37a",
+  "status": "ORACLE_RECOVERY_NOT_A_MANUSCRIPT_READING"
+}

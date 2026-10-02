@@ -1,0 +1,67 @@
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "la", "complete": 100, "total": 1675}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "la", "complete": 200, "total": 1675}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "la", "complete": 300, "total": 1675}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "la", "complete": 400, "total": 1675}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "la", "complete": 500, "total": 1675}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "la", "complete": 600, "total": 1675}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "la", "complete": 700, "total": 1675}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "la", "complete": 800, "total": 1675}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "la", "complete": 900, "total": 1675}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "la", "complete": 1000, "total": 1675}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "la", "complete": 1100, "total": 1675}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "la", "complete": 1200, "total": 1675}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "la", "complete": 1300, "total": 1675}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "la", "complete": 1400, "total": 1675}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "la", "complete": 1500, "total": 1675}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "la", "complete": 1600, "total": 1675}
+{"progress": "LANGUAGE_MASS_AUDIT_COMPLETE", "language": "la", "unique_omission_skeletons": 1675}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "de", "complete": 100, "total": 1800}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "de", "complete": 200, "total": 1800}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "de", "complete": 300, "total": 1800}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "de", "complete": 400, "total": 1800}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "de", "complete": 500, "total": 1800}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "de", "complete": 600, "total": 1800}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "de", "complete": 700, "total": 1800}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "de", "complete": 800, "total": 1800}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "de", "complete": 900, "total": 1800}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "de", "complete": 1000, "total": 1800}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "de", "complete": 1100, "total": 1800}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "de", "complete": 1200, "total": 1800}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "de", "complete": 1300, "total": 1800}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "de", "complete": 1400, "total": 1800}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "de", "complete": 1500, "total": 1800}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "de", "complete": 1600, "total": 1800}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "de", "complete": 1700, "total": 1800}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "de", "complete": 1800, "total": 1800}
+{"progress": "LANGUAGE_MASS_AUDIT_COMPLETE", "language": "de", "unique_omission_skeletons": 1800}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "it", "complete": 100, "total": 1448}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "it", "complete": 200, "total": 1448}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "it", "complete": 300, "total": 1448}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "it", "complete": 400, "total": 1448}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "it", "complete": 500, "total": 1448}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "it", "complete": 600, "total": 1448}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "it", "complete": 700, "total": 1448}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "it", "complete": 800, "total": 1448}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "it", "complete": 900, "total": 1448}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "it", "complete": 1000, "total": 1448}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "it", "complete": 1100, "total": 1448}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "it", "complete": 1200, "total": 1448}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "it", "complete": 1300, "total": 1448}
+{"progress": "INDEPENDENT_MASS_AUDIT", "language": "it", "complete": 1400, "total": 1448}
+{"progress": "LANGUAGE_MASS_AUDIT_COMPLETE", "language": "it", "unique_omission_skeletons": 1448}
+{
+  "status": "V2_ALL_UNIQUE_OMISSION_MASS_AUDIT_PASS_NOT_A_READING",
+  "unique_omission_skeletons": 4923,
+  "all_vowel_singletons": 80,
+  "concrete_word_probability_checks": 18046,
+  "maximum_errors": {
+    "full_log_error": 1.4210854715202004e-14,
+    "oov_log_error": 1.4210854715202004e-14,
+    "full_relative_error": 1.4210854715202105e-14,
+    "oov_relative_error": 1.4210854715202105e-14,
+    "partition_log_error": 7.105427357601002e-15,
+    "concrete_word_log_error": 7.105427357601002e-15,
+    "scaled_equation_residual": 1.7763568394002505e-15,
+    "componentwise_relative_equation_residual": 2.177710874476659e-15
+  }
+}

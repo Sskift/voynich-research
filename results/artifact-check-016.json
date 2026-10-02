@@ -1,0 +1,10 @@
+{
+  "status": "PASS_BUNDLE_INTEGRITY_NOT_DECIPHERMENT",
+  "source_manifest_sha256": "b2ca4a44b317b95a0a2938ea611cfac499882e6a52d89e20765f3afb22b46bde",
+  "artifact_hashes": 357,
+  "frozen_hash_checks": 945,
+  "local_report_links": 11,
+  "csv_rows": 36,
+  "ordered_oracle_gate_pass": false,
+  "limitation": "Bundle correspondence only; scientific audit scopes remain those stated in their reports."
+}

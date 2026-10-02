@@ -1,0 +1,23 @@
+{
+  "status": "V2_COMPLETE_RUN_INFERENCE_EVALUATION_AUDIT_PASS",
+  "completed_cases": 18,
+  "planned_cases": 18,
+  "checks": {
+    "hash_checks": 671,
+    "completion_analyses": 23136,
+    "numeric_comparisons": 673924,
+    "top_path_scores": 3537,
+    "candidate_posteriors": 301332,
+    "word_posteriors": 66438,
+    "segments": 2358,
+    "physical_rows": 7344,
+    "true_path_scores": 2358,
+    "completed_cases": 18,
+    "lattices_using_archived_oov_mass": 9391
+  },
+  "maximum_absolute_errors": {
+    "log": 9.094947017729282e-13,
+    "probability": 1.1473044736476368e-12
+  },
+  "output": "/home/skift/playground/voynich-research/results/audit-016-omission-recovery-v2.json"
+}

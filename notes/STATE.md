@@ -1,52 +1,63 @@
 # Continuation state
 
 Objective: 试着破解伏尼契手稿. Goal remains ACTIVE; not achieved or blocked.
-Last completed work classified as PROGRESS: experiment019 COMPLETED, with36encoded
-controls,9plain invariance cases,native two-split scoring and independent audits.
+Last completed work classified as PROGRESS: experiment020 COMPLETED after an
+explicitly preserved numerical stop and separately frozen certificate repair.
 No verified connected reading, phonetic value, word meaning or language identified.
 
-Current checkpoint: experiment020 V1 STOPPED ON NUMERICAL CERTIFICATE; V2 FROZEN
-BEFORE REAL RUN. V1 input209hash/45mandatory, prepared58files/18cases. Prepare
-session72026 exited0. Oracle session99191 exited1 at la/ordered-omit-aeiou/ppl:
-search complete, conservative log-mass allowance1.2679094876184942e-8>fixed1e-8.
-Only la/ordered-identity completed (both splits exact);16cases unattempted and
-the omission case incomplete. No lossy-recovery accuracy/gate conclusion exists.
-The274hash failed-v1-freeze preserves all inputs, partial outputs and logs.
-Inputs audit PASS:2653SHA comparisons,18cases/66996slots/7344rows/267471RNG draws;
-all training counts and1630620LM entries verified. Four extra nested referenced
-files were verified beyond the209 flattened map and are included in v2 freeze.
-Partial recovery audit PASS for139segments/3691words/408rows, explicitly not a
-complete calibration. Independent np.linalg.solve/forward-prefix mass audit of
-ppl agrees with both v1 archived masses; it does not override the failed bound.
-V2 uses new omission_channel_v2.py/omission_oracle_v2.py and a separate protocol,
-input freeze and output directory. It changes only the represented-system error
-certificate: verify a componentwise M-matrix supersolution instead of dividing
-one global residual bound by the smallest solution component. Model/search/gates
-and1e-8 tolerance unchanged. V2 is motivated by the observed failure, not blind.
-Prefreeze checks:1144 exact Fraction inequalities,12 Decimal80 systems, inherited
-555channel comparisons and363sequence comparisons using v2 aliases all PASS.
-Next: push the frozen v2 checkpoint, then run src/omission_oracle_v2.py run once;
-independently audit full masses and inference/metrics. Preserve any new failure.
-No manuscript application or unknown-key search has run for020.
-The draft gives the true key and matching source-language prior, then asks for
-continuous recovery after literal a/e/i/o/u deletion (all-vowel words unchanged).
-Character completion includes infinite insertion mass, nonnegative OOV exclusion,
-and bounded top-two concrete-word search. HMM inference sums aggregate OOV mass
-but uses concrete OOV weights for MAP, preserving None/reset/physical-row layout.
-Both pure synthetic checks pass: character555 numerical comparisons (max error
-1.5543122344752192e-15); sequence363 comparisons/577 enumerated concrete paths
-and18 analytic aggregate paths (max2.1094237467877974e-15). The actual character
-component was integrated on synthetic probability tables. Source/real-model data
-were not read by those checks. Arithmetic/consistency failures now retain explicit
-failure artifacts and phase/case context; prediction words reference their full
-completion certificates, including OOV near-tie/strict-separation diagnostics.
-Independent implementation review prompted pre-truth prediction hashing, separate
-all-word/nontrivial confidence bins, mandatory prepared/input inventory checks,
-and toys for winning OOV words, exact-score lexical ties and full rows with resets.
-These checks establish arithmetic agreement on toys, not recovery or decipherment.
-Do not edit either version's frozen protocol/modules or the58prepared outputs.
-Preserve partial outputs and failures; do not reinterpret a numerical stop as a
-failed language or recovery gate.
+020 authoritative result: results/omission-oracle-v2/summary.json; ordered gate
+FAIL for every language and both splits.18cases complete; all9identity cases exact.
+Known true key AND matching source-language prior supplied; not a language-ID or
+unknown-key test. No native scoring or unknown-key search is permitted with this
+pipeline after the failed fixed gate. Failure does not exclude a language/channel.
+Ordered char/word/eligible whole-row accuracy, development then reserve:
+la74.003/41.868/0%;73.811/40.915/0%.
+de77.070/31.562/0%;78.027/36.668/0.524%.
+it77.508/40.741/1.205%;78.713/43.201/0.524%.
+Nontrivial posterior>=.9 actual accuracies only57.756–75.0% in ordered cases;
+all9omission cases×both splits trigger high-confidence error>5%.
+All4923unique omission observations completed numerical/search checks. Maximum
+log-mass allowance2.3111565691957246e-11; max search expansions37. The preserved
+consonants make raw character accuracy less informative than continuous recovery.
+
+V1 input209hash/45mandatory, prepared58files/18cases. Prepare72026 exited0;
+oracle99191 exited1 at la/ordered-omit-aeiou/ppl: search complete, log-mass
+allowance1.2679094876184942e-8>fixed1e-8. Onlyla/ordered-identity completed.
+274hash failed-v1-freeze preserves inputs/partialoutputs/logs; never overwrite it.
+V2freeze296hash preceded real run and was pushed as4fdfb27. Componentwise verified
+M-matrix majorant replaces globalresidual/minsolution; model/search/budgets/HMM/
+metrics/gates and1e-8tolerance unchanged. Synthetic checks1144Fraction inequalities,
+12Decimal80systems,555inheritedchannel and363sequencecomparisons PASS. V2 main
+session9785 terminal exit0;108hash result-freeze. No live research process remains.
+The repair was motivated by an observed failure and is not independent blind data.
+
+Independent audits complete:
+- inputs PASS2653SHA comparisons,18cases/66996slots/7344rows/267471RNG draws,
+  full training word/context/pair counts and1630620LM entries exact.4extra nested
+  references beyond209flattenedmap verified and included in296v2freeze. Initial
+  auditor-only type-error attempt preserved; no data discrepancy.
+- v1 partial recovery PASS139segments/3691words/408rows, not a fullcalibration;
+  separate np.linalg.solve/forward-prefix ppl mass audit agrees with archivedmass.
+- v2 recovery session91093 exit0:18cases,671hash,673924numeric comparisons,
+  66438word/301332candidateposteriors,7344rows,2358segments,3537top paths.
+  Maxlogdiff9.095e-13,maxposterior1.148e-12; gates identical. This audit uses archived
+  OOVmass/candidate lists, whose independent checks are separate below.
+- v2 mass session30024 exit0:all4923skeletons including80all-vowel singleton,
+ 18046concreteGchecks; maxfull/OOVlogdiff1.4211e-14,scaledresidual1.7764e-15.
+- v2 search session17452 exit0:12996analyses,4843independent integer-interval
+  prefixsearches+8153singletons;67039expansions; no incomplete/ambiguousrank/ties;
+  alltop2word orders match, maxlogprobdiff1.4211e-14. Not a recovery claim.
+
+notes/report-016-zh.md explains results, failure/repair and limits.
+results/omission-oracle-summary.csv has36rows; diagnostics.json retains bins,
+row-length strata and deterministic post-score error examples. They are known
+source controls, not readings of the manuscript locus names used for layout.
+Do not edit either frozen020version,58prepared outputs, archived failures or
+completed audit code/results. All010–019frozen artifacts remain unchanged.
+Next research must pursue a substantively different, evidenced constraint, with
+its own prospective recoverability test if needed. Do not tune this omission
+model's words/thresholds on the now-scored works, or revive unknown-key/native
+work as if the oracle gate had passed. Overall goal remains ACTIVE, not achieved.
 
 151input hashes were frozen before preparation/statistics;48prepared output hashes;
 51calibration-freeze hashes before native;6native-freeze hashes before stats audit.
@@ -82,22 +93,18 @@ P16pages/223rows/2449known+31unknown. Four generations of training locus/raw
 lists are identical. No new f49v text was inspected or scored. f49v/f58r/v unscored.
 See notes/experiment-019-scope-clarification.md; never rewrite old frozen reports.
 
-The concrete020 protocol is now frozen before new counts.
-notes/experiment-019-followup-review.md is a proposal ONLY, not frozen/run: remove
-normalized a/e/i/o/u within words, keep all-those-symbol words unchanged, retain
-boundaries, then fixed homophonic encoding. First reveal the true key and test
-continuous plaintext recovery/ambiguity on known source pairs; only if a prespecified
-oracle gate passes consider unknown-key calibration.019 does not identify/support
-this omission rule. i/u are not purely phonetic vowels in archived Latin. Freeze
-thresholds, model, boundary handling, corpus and budget before any020counts.
-IID/copy controls should be accurately recovered if possible; their failure mode is
-false high-confidence repair into different fluent sentences, not successful recovery
-of their unordered truth. No manual word repair, no broader glyph expansion by fiat.
+The019followup proposal became the completed020 oracle experiment above. Keep its
+proposal file unchanged as historical provenance, not a pending next action.
+The direct recovery gate failed.019 never identified/supports the omission rule;
+literal i/u are not purely phonetic vowels in archived Latin. IID/copy controls
+were actually decoded and evaluated, including wrong high-confidence repairs.
+No manual word repair, new aliases or relaxed gates should revive this pipeline.
 
 GitHub private repository: https://github.com/Sskift/voynich-research, main.
 016snapshot d4b8db3;017/pre01862c5deb;completed01822298d2;draft019a1baf81.
-Completed019 checkpoint5908e99. Current checkpoint adds the unrun020 draft and
-checked implementation; use git log for its ID. Push explicitly authorized.
+Completed0195908e99;draft020fd6e6f2;frozen020v189fdd52;
+preservedfailure/frozenv24fdfb27. Current checkpoint completes020 and allaudits;
+use git log for its ID. Push explicitly authorized.
 
 ## Current results
 
@@ -551,13 +558,11 @@ Latin. Keep016report condition and transfer clarifications linked fromreport013.
 The hiddenSPACEfixed-output route is now COMPLETED (018), including both admitted
 languages, allnullfits and independentaudits. It did not establish plaintext or
 language. Do not repeat these fits as progress or choose the better raw LMscore.
-Current next step: turn notes/experiment-018-followup-review.md into a fully fixed
-protocol BEFORE newscores. It asks whether cross-word order or local near-copy
-structure has detectable, transferable information after position/length/word-
-frequency controls. First require discrimination on ordinary encrypted cross-work
-prose and a specified copy-generator control; failed calibration means the statistic
-cannot support interpretation. This is NOT a proof of meaninglessness or copying.
-Do not select windows/smoothing/cipherfamily by manuscript effect sizes.
+That follow-up became completed019, and its recovery proposal became completed020.
+Neither established a language, copying mechanism or continuous reading. The020
+known-key omission gate failed; do not repeat these tests as a pending task or
+start unknown-key work with the rejected pipeline. A subsequent hypothesis needs
+its own evidence and prospective design. No claim of meaninglessness follows.
 Do not consume f49v to select a model. AlloldH/P/f1rpages remain development.
 Goalcompletion still requires independently supported connected readings and
 predictions beyond fitted text, not numeric scores, apparentwords or greenaudits.

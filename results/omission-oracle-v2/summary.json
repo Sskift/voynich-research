@@ -1,0 +1,95 @@
+{
+  "status": "COMPLETE_ORACLE_CALIBRATION_NO_NATIVE_SCORES",
+  "numerical_version": 2,
+  "ordered_by_language_split": {
+    "la": {
+      "development": false,
+      "reserve": false
+    },
+    "de": {
+      "development": false,
+      "reserve": false
+    },
+    "it": {
+      "development": false,
+      "reserve": false
+    }
+  },
+  "identity_all_exact": true,
+  "ordered_oracle_gate_pass": false,
+  "confidence_flags": {
+    "la/ordered-identity": {
+      "development": false,
+      "reserve": false
+    },
+    "la/ordered-omit-aeiou": {
+      "development": true,
+      "reserve": true
+    },
+    "la/iid-identity": {
+      "development": false,
+      "reserve": false
+    },
+    "la/iid-omit-aeiou": {
+      "development": true,
+      "reserve": true
+    },
+    "la/copy-identity": {
+      "development": false,
+      "reserve": false
+    },
+    "la/copy-omit-aeiou": {
+      "development": true,
+      "reserve": true
+    },
+    "de/ordered-identity": {
+      "development": false,
+      "reserve": false
+    },
+    "de/ordered-omit-aeiou": {
+      "development": true,
+      "reserve": true
+    },
+    "de/iid-identity": {
+      "development": false,
+      "reserve": false
+    },
+    "de/iid-omit-aeiou": {
+      "development": true,
+      "reserve": true
+    },
+    "de/copy-identity": {
+      "development": false,
+      "reserve": false
+    },
+    "de/copy-omit-aeiou": {
+      "development": true,
+      "reserve": true
+    },
+    "it/ordered-identity": {
+      "development": false,
+      "reserve": false
+    },
+    "it/ordered-omit-aeiou": {
+      "development": true,
+      "reserve": true
+    },
+    "it/iid-identity": {
+      "development": false,
+      "reserve": false
+    },
+    "it/iid-omit-aeiou": {
+      "development": true,
+      "reserve": true
+    },
+    "it/copy-identity": {
+      "development": false,
+      "reserve": false
+    },
+    "it/copy-omit-aeiou": {
+      "development": true,
+      "reserve": true
+    }
+  },
+  "limitation": "Known key only; posterior is conditional on this prior/channel. Failure does not exclude a language or the omission mechanism."
+}

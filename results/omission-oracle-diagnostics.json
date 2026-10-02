@@ -1,0 +1,1524 @@
+{
+  "status": "DESCRIPTIVE_SUMMARY_OF_FROZEN020_V2_OUTPUTS",
+  "result_freeze_sha256": "16d3b0f8061cde7b3dbf63a8b7e664ed03d487ae2ec733705fddd91ddbe53707",
+  "summary": {
+    "status": "COMPLETE_ORACLE_CALIBRATION_NO_NATIVE_SCORES",
+    "numerical_version": 2,
+    "ordered_by_language_split": {
+      "la": {
+        "development": false,
+        "reserve": false
+      },
+      "de": {
+        "development": false,
+        "reserve": false
+      },
+      "it": {
+        "development": false,
+        "reserve": false
+      }
+    },
+    "identity_all_exact": true,
+    "ordered_oracle_gate_pass": false,
+    "confidence_flags": {
+      "la/ordered-identity": {
+        "development": false,
+        "reserve": false
+      },
+      "la/ordered-omit-aeiou": {
+        "development": true,
+        "reserve": true
+      },
+      "la/iid-identity": {
+        "development": false,
+        "reserve": false
+      },
+      "la/iid-omit-aeiou": {
+        "development": true,
+        "reserve": true
+      },
+      "la/copy-identity": {
+        "development": false,
+        "reserve": false
+      },
+      "la/copy-omit-aeiou": {
+        "development": true,
+        "reserve": true
+      },
+      "de/ordered-identity": {
+        "development": false,
+        "reserve": false
+      },
+      "de/ordered-omit-aeiou": {
+        "development": true,
+        "reserve": true
+      },
+      "de/iid-identity": {
+        "development": false,
+        "reserve": false
+      },
+      "de/iid-omit-aeiou": {
+        "development": true,
+        "reserve": true
+      },
+      "de/copy-identity": {
+        "development": false,
+        "reserve": false
+      },
+      "de/copy-omit-aeiou": {
+        "development": true,
+        "reserve": true
+      },
+      "it/ordered-identity": {
+        "development": false,
+        "reserve": false
+      },
+      "it/ordered-omit-aeiou": {
+        "development": true,
+        "reserve": true
+      },
+      "it/iid-identity": {
+        "development": false,
+        "reserve": false
+      },
+      "it/iid-omit-aeiou": {
+        "development": true,
+        "reserve": true
+      },
+      "it/copy-identity": {
+        "development": false,
+        "reserve": false
+      },
+      "it/copy-omit-aeiou": {
+        "development": true,
+        "reserve": true
+      }
+    },
+    "limitation": "Known key only; posterior is conditional on this prior/channel. Failure does not exclude a language or the omission mechanism."
+  },
+  "languages": {
+    "la": {
+      "unique_omission_skeletons": 1675,
+      "maximum_log_mass_allowance": 1.76946450980429e-11,
+      "maximum_search_expanded_prefixes": 35,
+      "oov_top2_numerical_ties": 0,
+      "all_complete": true,
+      "cases": {
+        "ordered": {
+          "confidence_bins": {
+            "development": [
+              {
+                "words": 576,
+                "correct": 117
+              },
+              {
+                "words": 400,
+                "correct": 202
+              },
+              {
+                "words": 160,
+                "correct": 110
+              },
+              {
+                "words": 106,
+                "correct": 91
+              }
+            ],
+            "reserve": [
+              {
+                "words": 1095,
+                "correct": 238
+              },
+              {
+                "words": 832,
+                "correct": 382
+              },
+              {
+                "words": 339,
+                "correct": 228
+              },
+              {
+                "words": 183,
+                "correct": 154
+              }
+            ]
+          },
+          "nontrivial_confidence_bins": {
+            "development": [
+              {
+                "words": 576,
+                "correct": 117
+              },
+              {
+                "words": 400,
+                "correct": 202
+              },
+              {
+                "words": 160,
+                "correct": 110
+              },
+              {
+                "words": 100,
+                "correct": 85
+              }
+            ],
+            "reserve": [
+              {
+                "words": 1095,
+                "correct": 238
+              },
+              {
+                "words": 832,
+                "correct": 382
+              },
+              {
+                "words": 339,
+                "correct": 228
+              },
+              {
+                "words": 146,
+                "correct": 117
+              }
+            ]
+          },
+          "row_length_strata": {
+            "development": {
+              "4-7": {
+                "rows": 92,
+                "exact": 0
+              },
+              "8-15": {
+                "rows": 74,
+                "exact": 0
+              }
+            },
+            "reserve": {
+              "8-15": {
+                "rows": 143,
+                "exact": 0
+              },
+              "4-7": {
+                "rows": 29,
+                "exact": 0
+              },
+              "16+": {
+                "rows": 19,
+                "exact": 0
+              }
+            }
+          },
+          "high_confidence_error_words": 205,
+          "descriptive_top_five_errors": [
+            {
+              "locus": "f102v2.18",
+              "split": "reserve",
+              "slot": 6,
+              "truth": "domesticos",
+              "prediction": "domesticis",
+              "observation": "dmstcs",
+              "posterior": 0.9999784675390992
+            },
+            {
+              "locus": "f100v.16",
+              "split": "reserve",
+              "slot": 3,
+              "truth": "deprecer",
+              "prediction": "deprecari",
+              "observation": "dprcr",
+              "posterior": 0.9999735723184526
+            },
+            {
+              "locus": "f88r.8",
+              "split": "reserve",
+              "slot": 9,
+              "truth": "domesticae",
+              "prediction": "domestici",
+              "observation": "dmstc",
+              "posterior": 0.9999607388152191
+            },
+            {
+              "locus": "f90r1.5",
+              "split": "development",
+              "slot": 2,
+              "truth": "antiquissimo",
+              "prediction": "antiquissima",
+              "observation": "ntqssm",
+              "posterior": 0.9998797249628654
+            },
+            {
+              "locus": "f102v2.31",
+              "split": "reserve",
+              "slot": 9,
+              "truth": "perculsum",
+              "prediction": "periculosum",
+              "observation": "prclsm",
+              "posterior": 0.999581406282506
+            }
+          ],
+          "error_example_selection": "Posterior descending, then locus/slot; descriptive after scoring, never fed into decoding.",
+          "maximum_segment_sum_of_log_mass_allowances": 2.8684270559300864e-10,
+          "numerical_scope": "Sum of recorded completion allowances only; not a complete HMM posterior interval certificate."
+        },
+        "iid": {
+          "confidence_bins": {
+            "development": [
+              {
+                "words": 611,
+                "correct": 139
+              },
+              {
+                "words": 440,
+                "correct": 208
+              },
+              {
+                "words": 124,
+                "correct": 78
+              },
+              {
+                "words": 67,
+                "correct": 54
+              }
+            ],
+            "reserve": [
+              {
+                "words": 1178,
+                "correct": 247
+              },
+              {
+                "words": 858,
+                "correct": 381
+              },
+              {
+                "words": 280,
+                "correct": 177
+              },
+              {
+                "words": 133,
+                "correct": 114
+              }
+            ]
+          },
+          "nontrivial_confidence_bins": {
+            "development": [
+              {
+                "words": 611,
+                "correct": 139
+              },
+              {
+                "words": 440,
+                "correct": 208
+              },
+              {
+                "words": 124,
+                "correct": 78
+              },
+              {
+                "words": 59,
+                "correct": 46
+              }
+            ],
+            "reserve": [
+              {
+                "words": 1178,
+                "correct": 247
+              },
+              {
+                "words": 858,
+                "correct": 381
+              },
+              {
+                "words": 280,
+                "correct": 177
+              },
+              {
+                "words": 100,
+                "correct": 81
+              }
+            ]
+          },
+          "row_length_strata": {
+            "development": {
+              "4-7": {
+                "rows": 92,
+                "exact": 2
+              },
+              "8-15": {
+                "rows": 74,
+                "exact": 0
+              }
+            },
+            "reserve": {
+              "8-15": {
+                "rows": 143,
+                "exact": 0
+              },
+              "4-7": {
+                "rows": 29,
+                "exact": 0
+              },
+              "16+": {
+                "rows": 19,
+                "exact": 0
+              }
+            }
+          },
+          "high_confidence_error_words": 181,
+          "descriptive_top_five_errors": [
+            {
+              "locus": "f102v2.31",
+              "split": "reserve",
+              "slot": 4,
+              "truth": "domesticae",
+              "prediction": "domestici",
+              "observation": "dmstc",
+              "posterior": 0.9999607388152759
+            },
+            {
+              "locus": "f89r1.17",
+              "split": "reserve",
+              "slot": 1,
+              "truth": "perculsum",
+              "prediction": "periculosum",
+              "observation": "prclsm",
+              "posterior": 0.9995814062823923
+            },
+            {
+              "locus": "f99v.42",
+              "split": "reserve",
+              "slot": 5,
+              "truth": "perculsum",
+              "prediction": "periculosum",
+              "observation": "prclsm",
+              "posterior": 0.9995814062823923
+            },
+            {
+              "locus": "f10r.3",
+              "split": "development",
+              "slot": 0,
+              "truth": "perniciem",
+              "prediction": "prouinciam",
+              "observation": "prncm",
+              "posterior": 0.9994656887335807
+            },
+            {
+              "locus": "f51v.3",
+              "split": "development",
+              "slot": 1,
+              "truth": "seueritatem",
+              "prediction": "seruitutem",
+              "observation": "srttm",
+              "posterior": 0.999439090629159
+            }
+          ],
+          "error_example_selection": "Posterior descending, then locus/slot; descriptive after scoring, never fed into decoding.",
+          "maximum_segment_sum_of_log_mass_allowances": 2.6825319950150334e-10,
+          "numerical_scope": "Sum of recorded completion allowances only; not a complete HMM posterior interval certificate."
+        },
+        "copy": {
+          "confidence_bins": {
+            "development": [
+              {
+                "words": 670,
+                "correct": 95
+              },
+              {
+                "words": 379,
+                "correct": 118
+              },
+              {
+                "words": 127,
+                "correct": 61
+              },
+              {
+                "words": 66,
+                "correct": 49
+              }
+            ],
+            "reserve": [
+              {
+                "words": 1342,
+                "correct": 170
+              },
+              {
+                "words": 753,
+                "correct": 233
+              },
+              {
+                "words": 213,
+                "correct": 99
+              },
+              {
+                "words": 141,
+                "correct": 112
+              }
+            ]
+          },
+          "nontrivial_confidence_bins": {
+            "development": [
+              {
+                "words": 670,
+                "correct": 95
+              },
+              {
+                "words": 379,
+                "correct": 118
+              },
+              {
+                "words": 127,
+                "correct": 61
+              },
+              {
+                "words": 41,
+                "correct": 24
+              }
+            ],
+            "reserve": [
+              {
+                "words": 1342,
+                "correct": 170
+              },
+              {
+                "words": 753,
+                "correct": 233
+              },
+              {
+                "words": 213,
+                "correct": 99
+              },
+              {
+                "words": 81,
+                "correct": 52
+              }
+            ]
+          },
+          "row_length_strata": {
+            "development": {
+              "4-7": {
+                "rows": 92,
+                "exact": 0
+              },
+              "8-15": {
+                "rows": 74,
+                "exact": 0
+              }
+            },
+            "reserve": {
+              "8-15": {
+                "rows": 143,
+                "exact": 0
+              },
+              "4-7": {
+                "rows": 29,
+                "exact": 0
+              },
+              "16+": {
+                "rows": 19,
+                "exact": 0
+              }
+            }
+          },
+          "high_confidence_error_words": 226,
+          "descriptive_top_five_errors": [
+            {
+              "locus": "f102v2.31",
+              "split": "reserve",
+              "slot": 4,
+              "truth": "domesticae",
+              "prediction": "domestici",
+              "observation": "dmstc",
+              "posterior": 0.9999997272798654
+            },
+            {
+              "locus": "f10r.2",
+              "split": "development",
+              "slot": 0,
+              "truth": "immortalibs",
+              "prediction": "immortalibus",
+              "observation": "mmrtlbs",
+              "posterior": 0.9999846356110121
+            },
+            {
+              "locus": "f89r1.16",
+              "split": "reserve",
+              "slot": 7,
+              "truth": "mhi",
+              "prediction": "mihi",
+              "observation": "mh",
+              "posterior": 0.999685325370079
+            },
+            {
+              "locus": "f89r1.17",
+              "split": "reserve",
+              "slot": 1,
+              "truth": "perculsum",
+              "prediction": "periculosum",
+              "observation": "prclsm",
+              "posterior": 0.9995814062824492
+            },
+            {
+              "locus": "f99v.42",
+              "split": "reserve",
+              "slot": 5,
+              "truth": "perculsum",
+              "prediction": "periculosum",
+              "observation": "prclsm",
+              "posterior": 0.9995814062824492
+            }
+          ],
+          "error_example_selection": "Posterior descending, then locus/slot; descriptive after scoring, never fed into decoding.",
+          "maximum_segment_sum_of_log_mass_allowances": 3.527708778466537e-10,
+          "numerical_scope": "Sum of recorded completion allowances only; not a complete HMM posterior interval certificate."
+        }
+      }
+    },
+    "de": {
+      "unique_omission_skeletons": 1800,
+      "maximum_log_mass_allowance": 2.3111565691957246e-11,
+      "maximum_search_expanded_prefixes": 37,
+      "oov_top2_numerical_ties": 0,
+      "all_complete": true,
+      "cases": {
+        "ordered": {
+          "confidence_bins": {
+            "development": [
+              {
+                "words": 396,
+                "correct": 62
+              },
+              {
+                "words": 543,
+                "correct": 155
+              },
+              {
+                "words": 175,
+                "correct": 95
+              },
+              {
+                "words": 128,
+                "correct": 80
+              }
+            ],
+            "reserve": [
+              {
+                "words": 773,
+                "correct": 126
+              },
+              {
+                "words": 1024,
+                "correct": 357
+              },
+              {
+                "words": 391,
+                "correct": 239
+              },
+              {
+                "words": 261,
+                "correct": 176
+              }
+            ]
+          },
+          "nontrivial_confidence_bins": {
+            "development": [
+              {
+                "words": 396,
+                "correct": 62
+              },
+              {
+                "words": 543,
+                "correct": 155
+              },
+              {
+                "words": 175,
+                "correct": 95
+              },
+              {
+                "words": 128,
+                "correct": 80
+              }
+            ],
+            "reserve": [
+              {
+                "words": 773,
+                "correct": 126
+              },
+              {
+                "words": 1024,
+                "correct": 357
+              },
+              {
+                "words": 391,
+                "correct": 239
+              },
+              {
+                "words": 251,
+                "correct": 166
+              }
+            ]
+          },
+          "row_length_strata": {
+            "development": {
+              "4-7": {
+                "rows": 92,
+                "exact": 0
+              },
+              "8-15": {
+                "rows": 74,
+                "exact": 0
+              }
+            },
+            "reserve": {
+              "8-15": {
+                "rows": 143,
+                "exact": 0
+              },
+              "4-7": {
+                "rows": 29,
+                "exact": 1
+              },
+              "16+": {
+                "rows": 19,
+                "exact": 0
+              }
+            }
+          },
+          "high_confidence_error_words": 365,
+          "descriptive_top_five_errors": [
+            {
+              "locus": "f29v.10",
+              "split": "development",
+              "slot": 3,
+              "truth": "buchstabe",
+              "prediction": "buchstab",
+              "observation": "bchstb",
+              "posterior": 0.999989044467341
+            },
+            {
+              "locus": "f100v.19",
+              "split": "reserve",
+              "slot": 7,
+              "truth": "tods",
+              "prediction": "todes",
+              "observation": "tds",
+              "posterior": 0.9999583977838831
+            },
+            {
+              "locus": "f87r.16",
+              "split": "development",
+              "slot": 0,
+              "truth": "kunste",
+              "prediction": "kunst",
+              "observation": "knst",
+              "posterior": 0.9999529025684425
+            },
+            {
+              "locus": "f101v.19",
+              "split": "reserve",
+              "slot": 18,
+              "truth": "kanst",
+              "prediction": "kunst",
+              "observation": "knst",
+              "posterior": 0.9999523909287442
+            },
+            {
+              "locus": "f51v.6",
+              "split": "development",
+              "slot": 1,
+              "truth": "zurbrochen",
+              "prediction": "zerbrechen",
+              "observation": "zrbrchn",
+              "posterior": 0.9999337416391002
+            }
+          ],
+          "error_example_selection": "Posterior descending, then locus/slot; descriptive after scoring, never fed into decoding.",
+          "maximum_segment_sum_of_log_mass_allowances": 2.623369320436209e-10,
+          "numerical_scope": "Sum of recorded completion allowances only; not a complete HMM posterior interval certificate."
+        },
+        "iid": {
+          "confidence_bins": {
+            "development": [
+              {
+                "words": 423,
+                "correct": 67
+              },
+              {
+                "words": 559,
+                "correct": 167
+              },
+              {
+                "words": 150,
+                "correct": 73
+              },
+              {
+                "words": 110,
+                "correct": 62
+              }
+            ],
+            "reserve": [
+              {
+                "words": 778,
+                "correct": 120
+              },
+              {
+                "words": 1059,
+                "correct": 387
+              },
+              {
+                "words": 361,
+                "correct": 197
+              },
+              {
+                "words": 251,
+                "correct": 166
+              }
+            ]
+          },
+          "nontrivial_confidence_bins": {
+            "development": [
+              {
+                "words": 423,
+                "correct": 67
+              },
+              {
+                "words": 559,
+                "correct": 167
+              },
+              {
+                "words": 150,
+                "correct": 73
+              },
+              {
+                "words": 110,
+                "correct": 62
+              }
+            ],
+            "reserve": [
+              {
+                "words": 778,
+                "correct": 120
+              },
+              {
+                "words": 1059,
+                "correct": 387
+              },
+              {
+                "words": 361,
+                "correct": 197
+              },
+              {
+                "words": 239,
+                "correct": 154
+              }
+            ]
+          },
+          "row_length_strata": {
+            "development": {
+              "4-7": {
+                "rows": 92,
+                "exact": 0
+              },
+              "8-15": {
+                "rows": 74,
+                "exact": 0
+              }
+            },
+            "reserve": {
+              "8-15": {
+                "rows": 143,
+                "exact": 0
+              },
+              "4-7": {
+                "rows": 29,
+                "exact": 0
+              },
+              "16+": {
+                "rows": 19,
+                "exact": 0
+              }
+            }
+          },
+          "high_confidence_error_words": 374,
+          "descriptive_top_five_errors": [
+            {
+              "locus": "f87r.10",
+              "split": "development",
+              "slot": 3,
+              "truth": "buchstabe",
+              "prediction": "buchstab",
+              "observation": "bchstb",
+              "posterior": 0.9999890444673695
+            },
+            {
+              "locus": "f19r.10",
+              "split": "development",
+              "slot": 4,
+              "truth": "buchstabe",
+              "prediction": "buchstab",
+              "observation": "bchstb",
+              "posterior": 0.9999890444671421
+            },
+            {
+              "locus": "f89v2.7",
+              "split": "reserve",
+              "slot": 2,
+              "truth": "vand",
+              "prediction": "vnd",
+              "observation": "vnd",
+              "posterior": 0.9999830283216304
+            },
+            {
+              "locus": "f89r2.28",
+              "split": "reserve",
+              "slot": 5,
+              "truth": "kanst",
+              "prediction": "kunst",
+              "observation": "knst",
+              "posterior": 0.9999371095542436
+            },
+            {
+              "locus": "f35r.4",
+              "split": "development",
+              "slot": 6,
+              "truth": "zurbrochen",
+              "prediction": "zerbrechen",
+              "observation": "zrbrchn",
+              "posterior": 0.9999337416394413
+            }
+          ],
+          "error_example_selection": "Posterior descending, then locus/slot; descriptive after scoring, never fed into decoding.",
+          "maximum_segment_sum_of_log_mass_allowances": 2.2794683146582726e-10,
+          "numerical_scope": "Sum of recorded completion allowances only; not a complete HMM posterior interval certificate."
+        },
+        "copy": {
+          "confidence_bins": {
+            "development": [
+              {
+                "words": 502,
+                "correct": 56
+              },
+              {
+                "words": 543,
+                "correct": 104
+              },
+              {
+                "words": 120,
+                "correct": 36
+              },
+              {
+                "words": 77,
+                "correct": 41
+              }
+            ],
+            "reserve": [
+              {
+                "words": 912,
+                "correct": 90
+              },
+              {
+                "words": 1032,
+                "correct": 263
+              },
+              {
+                "words": 300,
+                "correct": 110
+              },
+              {
+                "words": 205,
+                "correct": 118
+              }
+            ]
+          },
+          "nontrivial_confidence_bins": {
+            "development": [
+              {
+                "words": 502,
+                "correct": 56
+              },
+              {
+                "words": 543,
+                "correct": 104
+              },
+              {
+                "words": 120,
+                "correct": 36
+              },
+              {
+                "words": 65,
+                "correct": 29
+              }
+            ],
+            "reserve": [
+              {
+                "words": 912,
+                "correct": 90
+              },
+              {
+                "words": 1032,
+                "correct": 263
+              },
+              {
+                "words": 300,
+                "correct": 110
+              },
+              {
+                "words": 165,
+                "correct": 78
+              }
+            ]
+          },
+          "row_length_strata": {
+            "development": {
+              "4-7": {
+                "rows": 92,
+                "exact": 0
+              },
+              "8-15": {
+                "rows": 74,
+                "exact": 0
+              }
+            },
+            "reserve": {
+              "8-15": {
+                "rows": 143,
+                "exact": 0
+              },
+              "4-7": {
+                "rows": 29,
+                "exact": 0
+              },
+              "16+": {
+                "rows": 19,
+                "exact": 0
+              }
+            }
+          },
+          "high_confidence_error_words": 397,
+          "descriptive_top_five_errors": [
+            {
+              "locus": "f87r.10",
+              "split": "development",
+              "slot": 4,
+              "truth": "buchstabe",
+              "prediction": "buchstab",
+              "observation": "bchstb",
+              "posterior": 0.9999891529368452
+            },
+            {
+              "locus": "f87r.10",
+              "split": "development",
+              "slot": 3,
+              "truth": "buchstabe",
+              "prediction": "buchstab",
+              "observation": "bchstb",
+              "posterior": 0.9999890444674832
+            },
+            {
+              "locus": "f19r.10",
+              "split": "development",
+              "slot": 4,
+              "truth": "buchstabe",
+              "prediction": "buchstab",
+              "observation": "bchstb",
+              "posterior": 0.9999890444672558
+            },
+            {
+              "locus": "f89r2.27",
+              "split": "reserve",
+              "slot": 17,
+              "truth": "seruog",
+              "prediction": "sorg",
+              "observation": "srg",
+              "posterior": 0.9998127895814645
+            },
+            {
+              "locus": "f102v1.11",
+              "split": "reserve",
+              "slot": 4,
+              "truth": "frauwen",
+              "prediction": "frowen",
+              "observation": "frwn",
+              "posterior": 0.9998100781384102
+            }
+          ],
+          "error_example_selection": "Posterior descending, then locus/slot; descriptive after scoring, never fed into decoding.",
+          "maximum_segment_sum_of_log_mass_allowances": 2.693693052136225e-10,
+          "numerical_scope": "Sum of recorded completion allowances only; not a complete HMM posterior interval certificate."
+        }
+      }
+    },
+    "it": {
+      "unique_omission_skeletons": 1448,
+      "maximum_log_mass_allowance": 1.2387325101281893e-11,
+      "maximum_search_expanded_prefixes": 30,
+      "oov_top2_numerical_ties": 0,
+      "all_complete": true,
+      "cases": {
+        "ordered": {
+          "confidence_bins": {
+            "development": [
+              {
+                "words": 541,
+                "correct": 102
+              },
+              {
+                "words": 424,
+                "correct": 200
+              },
+              {
+                "words": 131,
+                "correct": 80
+              },
+              {
+                "words": 146,
+                "correct": 124
+              }
+            ],
+            "reserve": [
+              {
+                "words": 1036,
+                "correct": 216
+              },
+              {
+                "words": 773,
+                "correct": 356
+              },
+              {
+                "words": 330,
+                "correct": 227
+              },
+              {
+                "words": 310,
+                "correct": 259
+              }
+            ]
+          },
+          "nontrivial_confidence_bins": {
+            "development": [
+              {
+                "words": 541,
+                "correct": 102
+              },
+              {
+                "words": 424,
+                "correct": 200
+              },
+              {
+                "words": 131,
+                "correct": 80
+              },
+              {
+                "words": 47,
+                "correct": 25
+              }
+            ],
+            "reserve": [
+              {
+                "words": 1036,
+                "correct": 216
+              },
+              {
+                "words": 773,
+                "correct": 356
+              },
+              {
+                "words": 330,
+                "correct": 227
+              },
+              {
+                "words": 139,
+                "correct": 88
+              }
+            ]
+          },
+          "row_length_strata": {
+            "development": {
+              "4-7": {
+                "rows": 92,
+                "exact": 2
+              },
+              "8-15": {
+                "rows": 74,
+                "exact": 0
+              }
+            },
+            "reserve": {
+              "8-15": {
+                "rows": 143,
+                "exact": 0
+              },
+              "4-7": {
+                "rows": 29,
+                "exact": 1
+              },
+              "16+": {
+                "rows": 19,
+                "exact": 0
+              }
+            }
+          },
+          "high_confidence_error_words": 227,
+          "descriptive_top_five_errors": [
+            {
+              "locus": "f101r.3",
+              "split": "reserve",
+              "slot": 24,
+              "truth": "complessioni",
+              "prediction": "complession",
+              "observation": "cmplssn",
+              "posterior": 0.9999995432226476
+            },
+            {
+              "locus": "f102v2.22",
+              "split": "reserve",
+              "slot": 3,
+              "truth": "sostenere",
+              "prediction": "sostener",
+              "observation": "sstnr",
+              "posterior": 0.9999978037662588
+            },
+            {
+              "locus": "f88v.25",
+              "split": "reserve",
+              "slot": 5,
+              "truth": "nepoti",
+              "prediction": "nepote",
+              "observation": "npt",
+              "posterior": 0.9999911293261993
+            },
+            {
+              "locus": "f99r.15",
+              "split": "reserve",
+              "slot": 8,
+              "truth": "intelligenzie",
+              "prediction": "intelligenza",
+              "observation": "ntllgnz",
+              "posterior": 0.9999820070458292
+            },
+            {
+              "locus": "f89v2.19",
+              "split": "reserve",
+              "slot": 5,
+              "truth": "ricchezze",
+              "prediction": "ricchezza",
+              "observation": "rcchzz",
+              "posterior": 0.9999811632085943
+            }
+          ],
+          "error_example_selection": "Posterior descending, then locus/slot; descriptive after scoring, never fed into decoding.",
+          "maximum_segment_sum_of_log_mass_allowances": 2.170778275161614e-10,
+          "numerical_scope": "Sum of recorded completion allowances only; not a complete HMM posterior interval certificate."
+        },
+        "iid": {
+          "confidence_bins": {
+            "development": [
+              {
+                "words": 642,
+                "correct": 123
+              },
+              {
+                "words": 379,
+                "correct": 150
+              },
+              {
+                "words": 78,
+                "correct": 35
+              },
+              {
+                "words": 143,
+                "correct": 114
+              }
+            ],
+            "reserve": [
+              {
+                "words": 1237,
+                "correct": 265
+              },
+              {
+                "words": 727,
+                "correct": 308
+              },
+              {
+                "words": 190,
+                "correct": 110
+              },
+              {
+                "words": 295,
+                "correct": 248
+              }
+            ]
+          },
+          "nontrivial_confidence_bins": {
+            "development": [
+              {
+                "words": 642,
+                "correct": 123
+              },
+              {
+                "words": 379,
+                "correct": 150
+              },
+              {
+                "words": 78,
+                "correct": 35
+              },
+              {
+                "words": 48,
+                "correct": 19
+              }
+            ],
+            "reserve": [
+              {
+                "words": 1237,
+                "correct": 265
+              },
+              {
+                "words": 727,
+                "correct": 308
+              },
+              {
+                "words": 190,
+                "correct": 110
+              },
+              {
+                "words": 111,
+                "correct": 64
+              }
+            ]
+          },
+          "row_length_strata": {
+            "development": {
+              "4-7": {
+                "rows": 92,
+                "exact": 0
+              },
+              "8-15": {
+                "rows": 74,
+                "exact": 1
+              }
+            },
+            "reserve": {
+              "8-15": {
+                "rows": 143,
+                "exact": 0
+              },
+              "4-7": {
+                "rows": 29,
+                "exact": 1
+              },
+              "16+": {
+                "rows": 19,
+                "exact": 0
+              }
+            }
+          },
+          "high_confidence_error_words": 199,
+          "descriptive_top_five_errors": [
+            {
+              "locus": "f101r.6",
+              "split": "reserve",
+              "slot": 15,
+              "truth": "sostenere",
+              "prediction": "sostener",
+              "observation": "sstnr",
+              "posterior": 0.9999934315690951
+            },
+            {
+              "locus": "f101v.19",
+              "split": "reserve",
+              "slot": 16,
+              "truth": "intelligenzie",
+              "prediction": "intelligenza",
+              "observation": "ntllgnz",
+              "posterior": 0.9999820070459713
+            },
+            {
+              "locus": "f101v.19",
+              "split": "reserve",
+              "slot": 0,
+              "truth": "intelligenzie",
+              "prediction": "intelligenza",
+              "observation": "ntllgnz",
+              "posterior": 0.9999820070459002
+            },
+            {
+              "locus": "f89v1.5",
+              "split": "reserve",
+              "slot": 4,
+              "truth": "ricchezze",
+              "prediction": "ricchezza",
+              "observation": "rcchzz",
+              "posterior": 0.9999807864799778
+            },
+            {
+              "locus": "f88v.17",
+              "split": "reserve",
+              "slot": 0,
+              "truth": "ricchezze",
+              "prediction": "ricchezza",
+              "observation": "rcchzz",
+              "posterior": 0.999980786479921
+            }
+          ],
+          "error_example_selection": "Posterior descending, then locus/slot; descriptive after scoring, never fed into decoding.",
+          "maximum_segment_sum_of_log_mass_allowances": 2.2178647182786935e-10,
+          "numerical_scope": "Sum of recorded completion allowances only; not a complete HMM posterior interval certificate."
+        },
+        "copy": {
+          "confidence_bins": {
+            "development": [
+              {
+                "words": 676,
+                "correct": 85
+              },
+              {
+                "words": 342,
+                "correct": 79
+              },
+              {
+                "words": 74,
+                "correct": 28
+              },
+              {
+                "words": 150,
+                "correct": 127
+              }
+            ],
+            "reserve": [
+              {
+                "words": 1409,
+                "correct": 173
+              },
+              {
+                "words": 622,
+                "correct": 187
+              },
+              {
+                "words": 151,
+                "correct": 46
+              },
+              {
+                "words": 267,
+                "correct": 230
+              }
+            ]
+          },
+          "nontrivial_confidence_bins": {
+            "development": [
+              {
+                "words": 676,
+                "correct": 85
+              },
+              {
+                "words": 342,
+                "correct": 79
+              },
+              {
+                "words": 74,
+                "correct": 28
+              },
+              {
+                "words": 37,
+                "correct": 14
+              }
+            ],
+            "reserve": [
+              {
+                "words": 1409,
+                "correct": 173
+              },
+              {
+                "words": 622,
+                "correct": 187
+              },
+              {
+                "words": 151,
+                "correct": 46
+              },
+              {
+                "words": 76,
+                "correct": 39
+              }
+            ]
+          },
+          "row_length_strata": {
+            "development": {
+              "4-7": {
+                "rows": 92,
+                "exact": 1
+              },
+              "8-15": {
+                "rows": 74,
+                "exact": 0
+              }
+            },
+            "reserve": {
+              "8-15": {
+                "rows": 143,
+                "exact": 0
+              },
+              "4-7": {
+                "rows": 29,
+                "exact": 0
+              },
+              "16+": {
+                "rows": 19,
+                "exact": 0
+              }
+            }
+          },
+          "high_confidence_error_words": 211,
+          "descriptive_top_five_errors": [
+            {
+              "locus": "f89r1.6",
+              "split": "reserve",
+              "slot": 8,
+              "truth": "salvatica",
+              "prediction": "salvatico",
+              "observation": "slvtc",
+              "posterior": 0.9999980100675334
+            },
+            {
+              "locus": "f101v.19",
+              "split": "reserve",
+              "slot": 0,
+              "truth": "intelligenzie",
+              "prediction": "intelligenza",
+              "observation": "ntllgnz",
+              "posterior": 0.9999820070459429
+            },
+            {
+              "locus": "f101v.19",
+              "split": "reserve",
+              "slot": 1,
+              "truth": "intelligenzie",
+              "prediction": "intelligenza",
+              "observation": "ntllgnz",
+              "posterior": 0.9999820070459287
+            },
+            {
+              "locus": "f101v.19",
+              "split": "reserve",
+              "slot": 2,
+              "truth": "intelligenzie",
+              "prediction": "intelligenza",
+              "observation": "ntllgnz",
+              "posterior": 0.9999820070459287
+            },
+            {
+              "locus": "f101v.19",
+              "split": "reserve",
+              "slot": 4,
+              "truth": "intelligeenzie",
+              "prediction": "intelligenza",
+              "observation": "ntllgnz",
+              "posterior": 0.9999820070459144
+            }
+          ],
+          "error_example_selection": "Posterior descending, then locus/slot; descriptive after scoring, never fed into decoding.",
+          "maximum_segment_sum_of_log_mass_allowances": 2.621841511717268e-10,
+          "numerical_scope": "Sum of recorded completion allowances only; not a complete HMM posterior interval certificate."
+        }
+      }
+    }
+  },
+  "limitation": "Known-key controls, not manuscript readings; complete computations do not establish recovery."
+}
