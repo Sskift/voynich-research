@@ -1,0 +1,444 @@
+{
+  "status": "PASS",
+  "stage": "all",
+  "integrity": {
+    "input_hashes": 151,
+    "prepared_hashes": 48,
+    "input_freeze_sha256": "0ae8e8dd60a918b96bca2a431b359ce87ed5fab924ff8a45302134eb593a9f75",
+    "prepared_manifest_sha256": "6228119a197645e65253ce29a82b4735207d54a05bb6ce979dafb71cc775ba38"
+  },
+  "checks": {
+    "frozen_hashes": 307,
+    "exact_values": 16145,
+    "floating_values": 344523,
+    "training_pair_entries": 427482,
+    "training_target_entries": 229436,
+    "training_context_entries": 227176,
+    "directed_exact1_relations": 307998,
+    "permutation_metric_statistics": 275724,
+    "bootstrap_metric_resamples": 551724,
+    "tested_splits": 92,
+    "cases": 46,
+    "bijection_invariance_cases": 9,
+    "calibration_label_groups": 24
+  },
+  "maximum_absolute_error": 9.094947017729282e-13,
+  "cases": [
+    {
+      "case": "la/ordered-plain",
+      "status": "PASS",
+      "result_sha256": "b74d28b0aeb5e687147d5a642097feda584c3b08faf30d0ed07498a52efe80c1",
+      "independent_training_count_sha256": {
+        "word_gain": "3697a9f055b6ed1619669fb026d1550f31d8a67c25fd61f414eba9d47504ba8e",
+        "edge_gain": "af7f1105ffe464554a496e14f3f66f8b0f4f8f5802d2c0233dc53d1df6edbca2"
+      }
+    },
+    {
+      "case": "la/ordered-bijective",
+      "status": "PASS",
+      "result_sha256": "c403908965c9e0bc782783395e1de8bc60f800c1fe2bd56dfedb32b8d9b04708",
+      "independent_training_count_sha256": {
+        "word_gain": "b8216fa2f38bde1d6ce8c4239afc07249c6b68713dd15d314bd62a20d36baa44",
+        "edge_gain": "1f8fb677bcfece5b32aca84542d337443ec7784415e164d021f7908e6683953f"
+      }
+    },
+    {
+      "case": "la/ordered-uniform127",
+      "status": "PASS",
+      "result_sha256": "20800fef44c0091072328d26f2e8031f1399c5a77b31d718cfbcd72d228d0a34",
+      "independent_training_count_sha256": {
+        "word_gain": "58bd7d739e541432b79bcbcd18d29815ba6d0959ecfffb8c7587c388571db7d9",
+        "edge_gain": "239d9ffd5e319e257b423c7bc94be64c8539309c79072e81fda774b1015237f0"
+      }
+    },
+    {
+      "case": "la/ordered-position127",
+      "status": "PASS",
+      "result_sha256": "6465db2b78b11ff1a38ba2a1463ccbcc906349e2460ebf608b3149e87e6aeb33",
+      "independent_training_count_sha256": {
+        "word_gain": "035e9ec8eb768414391e86c87db6ec00ce4e6044632d10e46aca0e12e08aaaa3",
+        "edge_gain": "38a414b77b419cb04fe4fbf34a9d475b27ce39c92819d155a9288f0d47b96030"
+      }
+    },
+    {
+      "case": "la/ordered-hidden-space127",
+      "status": "PASS",
+      "result_sha256": "29a9d4611f95f82f0b4cdca67f011d99b362a6c345eb586540b8d774c1550d08",
+      "independent_training_count_sha256": {
+        "word_gain": "9b933620a89418e607c49d37eecd4e83bbf13e1145f430a288c0f7c154d86c10",
+        "edge_gain": "6fe42a182346e192531b46eb2fe1bd84433872339768321ef7154860f9c5fa4b"
+      }
+    },
+    {
+      "case": "la/iid-plain",
+      "status": "PASS",
+      "result_sha256": "739d78391c511aab2ab6c96517342f55dd194880aa55a71f28884bfbdda018ba",
+      "independent_training_count_sha256": {
+        "word_gain": "dd83f6650075bd90850604821ed838f4183df690204f1a596c2c3eb5f3563061",
+        "edge_gain": "a1667dd5f795993dc9297b92d033e9c27a170b660d0b88210e484b8beb290eb2"
+      }
+    },
+    {
+      "case": "la/iid-bijective",
+      "status": "PASS",
+      "result_sha256": "a957f5b8ffbbb96d942cd7e86de2297c5ebf29446bada724f46cf3dc7f615589",
+      "independent_training_count_sha256": {
+        "word_gain": "cc787941f39a5caab2cd69194da6f29eb15ad1eac742f3a5a765e487cc68f6b5",
+        "edge_gain": "0de1ab07b5bf6040757e01a82ac8de6a4ca709d4ed01a0857d94d40570281a8e"
+      }
+    },
+    {
+      "case": "la/iid-uniform127",
+      "status": "PASS",
+      "result_sha256": "491db1b460e2db16271796cd8ded9c4ada95f171fc87ca6e8abd50f406e6a349",
+      "independent_training_count_sha256": {
+        "word_gain": "f6e1e6830d7d1ebc5582fd672dca168d78ce206fdd660808a740baf25d07c245",
+        "edge_gain": "59d6dc5634728a071b46cb43c22e6b6e43679466aa4cfc550a3f970a8aebb98d"
+      }
+    },
+    {
+      "case": "la/iid-position127",
+      "status": "PASS",
+      "result_sha256": "1b0b4f39e7ea6c78a90f1dc967631a55055c5b42c918e71bcc3096e52bf11768",
+      "independent_training_count_sha256": {
+        "word_gain": "106253156a2911b0149f817361fc3d65f7198df37f0c421a29d973b63018b0e3",
+        "edge_gain": "e9dae2fabc76959f6e5bdcae42757a4c07328ab83a45898c9f2f58d22d776c99"
+      }
+    },
+    {
+      "case": "la/iid-hidden-space127",
+      "status": "PASS",
+      "result_sha256": "febf0dcaf7a1973516fd965057ab176aee6b2e85ad319b2b76501e5607864e0c",
+      "independent_training_count_sha256": {
+        "word_gain": "3473d88f578fa5ac4e3e55997a75fc143bc53d5166a7207a84d88c07510eb844",
+        "edge_gain": "39f8b5bb1608ee83a417e7b40259a3900712f87a8ad79edf41f50fe69f30501a"
+      }
+    },
+    {
+      "case": "la/copy-plain",
+      "status": "PASS",
+      "result_sha256": "8139b3b422f89c488e7c852914e6e328ba5304646dac4e86661ba4ac1b34cf81",
+      "independent_training_count_sha256": {
+        "word_gain": "ee13d456ff81f9dd1908a27c03139bf341b5482b0c320bd9152d7fffe11264ca",
+        "edge_gain": "39968d32b915f3d7fa2f60bc3882520f1fb3a17a0c0d60779f8e9b4afab0c673"
+      }
+    },
+    {
+      "case": "la/copy-bijective",
+      "status": "PASS",
+      "result_sha256": "12b50145060e9ebe83bd667b9dec0fe4788fa4acdd466e58b7813a34894c8c2c",
+      "independent_training_count_sha256": {
+        "word_gain": "616fa0de95ecc3a3f314620443b21479abd4324d217c11ee197a94142093e67b",
+        "edge_gain": "63afeecd38084282d1b2196c4f424e0e56a43b2e1ea3dc8cb3782baecc550f42"
+      }
+    },
+    {
+      "case": "la/copy-uniform127",
+      "status": "PASS",
+      "result_sha256": "ae0530d9fdaeccb637393d16ac67a4894c2ad39c9c9ff25c5005960246c404b2",
+      "independent_training_count_sha256": {
+        "word_gain": "7839bf3a58973a016829ea14aa922b128a478037ce2c5b2e33e9bf8f3a6a96e1",
+        "edge_gain": "7e1ee0cde56c8b5fd84f97483ce41afb7c90811c5fbb28e08e025962053d54a3"
+      }
+    },
+    {
+      "case": "la/copy-position127",
+      "status": "PASS",
+      "result_sha256": "d57fe707b17e0caf146e290aa9d93d288b41126e381b4f4a8d5f0fd157c54860",
+      "independent_training_count_sha256": {
+        "word_gain": "05111cc07500e74bf5c6caf7cf102a3cd88b0a73547462f83d208c3503048be4",
+        "edge_gain": "648bf6f458927be081d315bf1b9644b0be33a8b57a11043daacedbe6e7b54003"
+      }
+    },
+    {
+      "case": "la/copy-hidden-space127",
+      "status": "PASS",
+      "result_sha256": "6b838372ea9534477d3ede4c859a866e62b75679b60dcdc138ae1c2d2f6480a9",
+      "independent_training_count_sha256": {
+        "word_gain": "37ee37a7fbe688402b60bb910caf4766697bfe577ab3b7ba365d1080f75e5fa2",
+        "edge_gain": "228bb5bb935b3cece7fcdcd3e7086cb6945b12d6ac62e6dec99d0969113d6f1c"
+      }
+    },
+    {
+      "case": "de/ordered-plain",
+      "status": "PASS",
+      "result_sha256": "9344194b3fac7527fd784d86ec0e0b955c334329748a4a3a52b4a9e78d7af21c",
+      "independent_training_count_sha256": {
+        "word_gain": "0730e7ca6aa2f0c6c5287ffc3632c6a4054b982fd79855287baa845ada793fb0",
+        "edge_gain": "964bf417f0ae67a9c8d6072bdd308648f9502706ee678b105ab726bb0b63b092"
+      }
+    },
+    {
+      "case": "de/ordered-bijective",
+      "status": "PASS",
+      "result_sha256": "2c48ceb3cf5ff55a6ae49e8786ab04e5e05c63803647b5dd3f8c1bf577b730a5",
+      "independent_training_count_sha256": {
+        "word_gain": "649b59e2171b2e9011a0cde7bdc2baae3f8d4a9cf84f553f5f75a341a373bad5",
+        "edge_gain": "23f4525562d79bbca7171c8d40d0e8c62f310db8abb19ec07c9cb176cb16831a"
+      }
+    },
+    {
+      "case": "de/ordered-uniform127",
+      "status": "PASS",
+      "result_sha256": "ac290be5b537de2730593b459955940db17adcc6787c733d456d6c11bd6ae27c",
+      "independent_training_count_sha256": {
+        "word_gain": "6160396f9845c4de3b12c65434cd26900f8f3a3bcc511b82adba27efb6b21d24",
+        "edge_gain": "7613e1de7477686382e0fd99e4f78ec7f91f9f879acb6092245adad1d8617157"
+      }
+    },
+    {
+      "case": "de/ordered-position127",
+      "status": "PASS",
+      "result_sha256": "db7ec38c6909be08a11211c029b7c33f212f837673258d82b6fc3d776554f745",
+      "independent_training_count_sha256": {
+        "word_gain": "44b6d3f160aae4c58d9d0d768b4dd4af5e167216420248e7d690c67952fe11e0",
+        "edge_gain": "01d56e4d015228f36fe80eb381a783bb818223995595507c419948be7fa64aa2"
+      }
+    },
+    {
+      "case": "de/ordered-hidden-space127",
+      "status": "PASS",
+      "result_sha256": "51c2f05517d26f01eaf9e20e8e20bed6c79dbd981bb48696c93b41ba742c4702",
+      "independent_training_count_sha256": {
+        "word_gain": "23056f842f307a99e953e4e7baad283270eb23136253de8bad6f088bf4d8c685",
+        "edge_gain": "d29b45966e7adce34d5f9fa9658494f788e6518fd0a57c8bb8c30f83e20a0978"
+      }
+    },
+    {
+      "case": "de/iid-plain",
+      "status": "PASS",
+      "result_sha256": "f4318052d3d6d05f22a7eb9e4f70c0a5a9cce8700f07d552cecec5bb0a861449",
+      "independent_training_count_sha256": {
+        "word_gain": "600e5fd0c19ce25959369c941c69e4eb24e5d01402cdf80ee6a14f77dc26c7ab",
+        "edge_gain": "df6dc8853ebe29a7245476d1349d98a3e3f61be6bc5e063b9d87340b71800089"
+      }
+    },
+    {
+      "case": "de/iid-bijective",
+      "status": "PASS",
+      "result_sha256": "e7f966530ed9a7737a9abbf66c97fb33252b753e577abf26971d0fd9315ed687",
+      "independent_training_count_sha256": {
+        "word_gain": "c69f6e13bdd73786e16b8864fda7d3c4772bd49bda9eaa8830bd4ee4b87a089d",
+        "edge_gain": "9e0f384ae11858af49ccf8a8aa6958c54238520e1704d25e979b77ca37ac82e0"
+      }
+    },
+    {
+      "case": "de/iid-uniform127",
+      "status": "PASS",
+      "result_sha256": "7be837069cfb2128392a09640486bd1bda40bc29936f7244db78639f585e5f70",
+      "independent_training_count_sha256": {
+        "word_gain": "d0fe03012bfe4a69fb72ad6ac473b638485188b58cf23dda5deac1dfacd8ba06",
+        "edge_gain": "0dee3a6b373252922f798e6643f0993133a4db57c2af88324a71f735893c963e"
+      }
+    },
+    {
+      "case": "de/iid-position127",
+      "status": "PASS",
+      "result_sha256": "e4342ee8c42a99ced263f2c06bdf539d32b9208f21e070c9acfb7af49101c2f7",
+      "independent_training_count_sha256": {
+        "word_gain": "a1df33a959fcf1dfbcde01a5dcf1babfc29a5176cc67d9328556333790da7603",
+        "edge_gain": "7d3959717b928ddc32312eb2bb52cbf4876287fad655f4ae720019a95547fade"
+      }
+    },
+    {
+      "case": "de/iid-hidden-space127",
+      "status": "PASS",
+      "result_sha256": "db7b0ff7ba3a6d4976d64652145a0a6490071040e810157d3f9c73789ef3e31f",
+      "independent_training_count_sha256": {
+        "word_gain": "2c2fae1406dc3c50acc02586c3205ab77fa101b208a8a91fdd9fb6ef6c35562f",
+        "edge_gain": "2fa729f8f8bc1a7066cb49e1b9d9ecb40c0c5ae3347842fc93bc24266033f51f"
+      }
+    },
+    {
+      "case": "de/copy-plain",
+      "status": "PASS",
+      "result_sha256": "5e2bb7a27b36434f1cf8b3b73fe76f53d78d1e32cbc0452ba14422880b53ffc8",
+      "independent_training_count_sha256": {
+        "word_gain": "d94cb99ce3dc07ac36105a753acecb1b3f1545c26e87af97eb197c91c3b3d787",
+        "edge_gain": "c79260d8784cc3a5ada9af35b156f1ec1ad94de510dcbfa634ab4b4b961d5184"
+      }
+    },
+    {
+      "case": "de/copy-bijective",
+      "status": "PASS",
+      "result_sha256": "e22c1f89770ab5b1bc5cb746e6f0548083ce97e773ca7738f3b97236dd5d7d65",
+      "independent_training_count_sha256": {
+        "word_gain": "5342fc8a70ee4ccbbaad51f4e7eb57beeb4c35326868aaf4af5e363cee447bdf",
+        "edge_gain": "dea8cdca1ed33f5d3aaa47bc0a065417065e554946571787e64596d00c26d87a"
+      }
+    },
+    {
+      "case": "de/copy-uniform127",
+      "status": "PASS",
+      "result_sha256": "fc81ff36dea13abebe305bc546aad4e412fe61f1e7f7a80b0de6d49a2c6a3e0d",
+      "independent_training_count_sha256": {
+        "word_gain": "5681067b26365acf96646730e31388dbb8a86f3a1d11d516729182024e5fe560",
+        "edge_gain": "9e36af5bab36d3ea83a866f68d820bb7cf470dd2e381c1e7f5d39e20c0bb4cb9"
+      }
+    },
+    {
+      "case": "de/copy-position127",
+      "status": "PASS",
+      "result_sha256": "6b6d86bb467b7798dd81bab121207a23678199a33b7416571351bd0ac91d3d7e",
+      "independent_training_count_sha256": {
+        "word_gain": "1ee5cdef6f5e9d994801b4146d07906e6767092dc2a4a53ab60e352a05f2a3ee",
+        "edge_gain": "83aa6c5fd95f855982c63717044118250dcf19837815cb84abbb529dd41e062c"
+      }
+    },
+    {
+      "case": "de/copy-hidden-space127",
+      "status": "PASS",
+      "result_sha256": "e90d0911f5c92ff59b8898c294a764ff51550e2f67031c32ec5e06961ab4e110",
+      "independent_training_count_sha256": {
+        "word_gain": "105bf6c88ad0676c867097665c9f3ab974646bda529dafe38408202767e29c48",
+        "edge_gain": "138c82c1993808fae8cdbd95817e538d9544f68f008e6e464d1d3c5d191a3b07"
+      }
+    },
+    {
+      "case": "it/ordered-plain",
+      "status": "PASS",
+      "result_sha256": "2d871d58d285a2cd29d208993a2c105be7b90d7511d8a36d16f395698c997b25",
+      "independent_training_count_sha256": {
+        "word_gain": "2f9e4fcaf27f356c9743dfb4833a10f1c90cf8d15135434328cfd6f263a07952",
+        "edge_gain": "09e10f3199bd17a76149d978ea5e4675c6bbf2d5694f5324898823d067bd8638"
+      }
+    },
+    {
+      "case": "it/ordered-bijective",
+      "status": "PASS",
+      "result_sha256": "52e3c24f9506341be80858e7260ea7be3e6dadfae9265bbe4af3a4b8478b12ef",
+      "independent_training_count_sha256": {
+        "word_gain": "34b3b2868f2590224fd8edd165ef22a77cba54f180ff95fb3e29ddff05f0c93b",
+        "edge_gain": "cc20c7eb33841a56d86b9d224d0f9371d2bbc1112fbd20c7b4f8c2b124596449"
+      }
+    },
+    {
+      "case": "it/ordered-uniform127",
+      "status": "PASS",
+      "result_sha256": "0c0246d36a5ae35fbb8a358658b96dc9986adc09b1c59d0540571990dde49697",
+      "independent_training_count_sha256": {
+        "word_gain": "4034dd4efcf6fa8b55ee9724e66bdf15ff1b6ad6e21fba25db0e5d42f460cbeb",
+        "edge_gain": "088a08468652c96daca35c2ec51d2c772757697b7d8f8c94694052a674ee0753"
+      }
+    },
+    {
+      "case": "it/ordered-position127",
+      "status": "PASS",
+      "result_sha256": "1f2a88e7a12a61e54d288ec01d140f23f6226d37cb0e9621eb0c08d36992409a",
+      "independent_training_count_sha256": {
+        "word_gain": "7b58ab5695e3465aace032864ccdeff68caf35c0ed3ffe7db2e3f484c06770e2",
+        "edge_gain": "9ea5aaf958e082f557620a7ba13b30e96390acd4553d15350b1d275ebb03048d"
+      }
+    },
+    {
+      "case": "it/ordered-hidden-space127",
+      "status": "PASS",
+      "result_sha256": "49fad3f2ff7bc2c18e6d240266e4ab63e6821cbebacc55aa1d3dda80532a64d3",
+      "independent_training_count_sha256": {
+        "word_gain": "841b0ebf21abbeb2c623e151b4800a606fdbf84945d77b543be22a20ce3a4710",
+        "edge_gain": "1d24d5423fde7fb9766d347dd8a052a7787c9769de3b57741f55031133d14c38"
+      }
+    },
+    {
+      "case": "it/iid-plain",
+      "status": "PASS",
+      "result_sha256": "5a745de0930eb0123eba78d5a8ff0b1988c99a0c8430b716914d3eb1382b59f2",
+      "independent_training_count_sha256": {
+        "word_gain": "836377f091576d531617d1d4cb93a5a64f0ded9c085f096103e5705a5098fcd8",
+        "edge_gain": "346171afcb241a687a33d0615200bb626d6d4cceb7e216a9ec41a224c3889804"
+      }
+    },
+    {
+      "case": "it/iid-bijective",
+      "status": "PASS",
+      "result_sha256": "e283cac4dc97c283a4e4d669cd03e5de72951dd811f6b26940f2c26e93572152",
+      "independent_training_count_sha256": {
+        "word_gain": "9a4bd2cab6157abfdc481d37a3a4cfb9d33b7d99c812d3a2993ade6ce049c2b8",
+        "edge_gain": "e7ae9aef9a1f562eecfbe7d1b4282075448ac1cd5345349b7a96774b29dee7c0"
+      }
+    },
+    {
+      "case": "it/iid-uniform127",
+      "status": "PASS",
+      "result_sha256": "787adac400e14d0d89bc86bdd9bb6ad8da047e2d4c354dfd60d897269cc4a8a5",
+      "independent_training_count_sha256": {
+        "word_gain": "51a36abd8d7a9c127a493e58c5ea5b12e58536eb764313e6e1a70b4f57efe003",
+        "edge_gain": "66da290fc41060abe3670dcf673d5bf75f87437f75d7efb7d9fad43c38890297"
+      }
+    },
+    {
+      "case": "it/iid-position127",
+      "status": "PASS",
+      "result_sha256": "0f71af274fbc6950463473b6bfb47ba51072f3748a6e3140bf4c1684d7dc0c74",
+      "independent_training_count_sha256": {
+        "word_gain": "32badde7ce8da2dabeaa1a7ffdcc5843e938cbe155f325206221336a7b117ca7",
+        "edge_gain": "4d28851cbfa6cdf4f0227e2645312f1d788eee8d70bdca79a518110d6e1dbe69"
+      }
+    },
+    {
+      "case": "it/iid-hidden-space127",
+      "status": "PASS",
+      "result_sha256": "be5000ac899be173052d0457cde08863472dda7601817aa6b6bf24d2deb37916",
+      "independent_training_count_sha256": {
+        "word_gain": "b3ce5a6549e4b1ec222cffdea49bea6b1a87a9aa289d4e7eecf07e279b44314a",
+        "edge_gain": "b72690c7c64066a04b1a449aeb52c16080780c3a009c3ca7b99a062dff0ad561"
+      }
+    },
+    {
+      "case": "it/copy-plain",
+      "status": "PASS",
+      "result_sha256": "dfd6250ce6f65f871003ba3bd1e9bc1eab4cc22b2f3130463e5cdb1914e21b78",
+      "independent_training_count_sha256": {
+        "word_gain": "d3eaaf0cbf370067875598a59ae4fe311ded0cc0b1ded04cd82ee12409137330",
+        "edge_gain": "e77f8c81350db1f8392dc0a1ece0501446d10f1229b3f27be87fc259f6bbeed7"
+      }
+    },
+    {
+      "case": "it/copy-bijective",
+      "status": "PASS",
+      "result_sha256": "135e2ae86235631c450fb0423d3a6ed87d5d27f45cf4aadc7495081796d7d983",
+      "independent_training_count_sha256": {
+        "word_gain": "dd91e2550eb9296467f3e94d133ac1bfe6bdece1acf0e65cf051795e5913811c",
+        "edge_gain": "4f77ae141e9f1fc7f0138c2eb504487909084f5bcbf443fecd0d70c66436bbff"
+      }
+    },
+    {
+      "case": "it/copy-uniform127",
+      "status": "PASS",
+      "result_sha256": "9f69eeed9a48b01ffb889294e5044fde5e28903eb0f07b2cbdb2455451c05853",
+      "independent_training_count_sha256": {
+        "word_gain": "d39e4c3e07ad5a743b6df76eb9089e1af65d87959ab5939e64ab97b1418f8403",
+        "edge_gain": "50a2be5ab7f57876b9379d4eb1da84283bccb8ba2f8476d023842e61e72a9bb9"
+      }
+    },
+    {
+      "case": "it/copy-position127",
+      "status": "PASS",
+      "result_sha256": "826a552ac783d932ecea3471d1b64a6083ce1e05b3b14545bb40a04e7f1e632c",
+      "independent_training_count_sha256": {
+        "word_gain": "439b665790fd95195b1ed66e64aff67aa64c98ee9639e62b2d8c02d30a9d366f",
+        "edge_gain": "02e2e1eafe4f38693297cc021176c23882342165b392bd1bd002397cc04d2e2b"
+      }
+    },
+    {
+      "case": "it/copy-hidden-space127",
+      "status": "PASS",
+      "result_sha256": "15d1d6b00b0b51e4a60a6413102e66ee75ac13c837348c107b934e283d9cd45b",
+      "independent_training_count_sha256": {
+        "word_gain": "3f98a3016e7646eba95738e7d4984647d32f5c927335f55441ec7d2f39a1c16c",
+        "edge_gain": "67473ab41ed8d6ffb23f8f23a0d88983fe3f0afe3662eb7695eb640d2b6a128f"
+      }
+    },
+    {
+      "case": "native",
+      "status": "PASS",
+      "result_sha256": "8129ef1f74979af13a23af18c9631ddb5c945c161dae35ddaf8510edceed8556",
+      "independent_training_count_sha256": {
+        "word_gain": "82fe87551ce40d2da232e52a80dc28b731dc905de84f63a8812362e3341e5600",
+        "edge_gain": "dc552a1806139ad5e513128025da2e0a0f8994611dbd85ac284c060078edbba0"
+      }
+    }
+  ],
+  "elapsed_seconds": 899.7858156859875,
+  "scope": "Independent statistics; source/generator/encoding reconstruction audited separately"
+}

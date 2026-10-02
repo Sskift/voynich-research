@@ -1,42 +1,59 @@
 # Continuation state
 
 Objective: 试着破解伏尼契手稿. Goal remains ACTIVE; not achieved or blocked.
-Last completed work classified as PROGRESS: experiment018 COMPLETED. New hidden-
-SPACE controls passed for German and Italian; BOTH actual GCfits,18samebudget
-shuffles,1998globalrenames and independent audits completed. Still no verified
-connected reading. Goal remains ACTIVE, not achieved or blocked.
-127input hashes before source counts;19prepared hashes; two21hash solver freezes.
-Primary gate: native.19480629; la ceiling.15038233 rejects and falsely rejects known
-Cicero bijective/train; de.20118154/it.20076726 admit with control transferPASS.
-Whole-work sensitivity rejects native for ALL3; neither gate identifies a language.
-All6selectedde/itcontrols meet >=.95character/letter/SPACEprecision/recall. German
-uniform127wordaccuracy89.53% is a separately reported weakness. Conditional
-accuracies exclude unknown/masked positions; coverage is separate.
-16P >=3letter sourcewordhits: de15/474=3.1646%,it93/800=11.625%, versus calibrated
-controls53.51–55.90% and73.84–73.90%. Top2keys differ on39.25%/48.15%trainingtokens.
-Actualobjectives -3.92568685/-3.64211968, nullmeans -5.41442188/-5.76167011;
-bothshufflep.1,renamep.001. Do not compare raw language scores or call this reading.
-All018processes completed exit0, including calibrate83300 and attack76519. No live
-research process to resume. Source/LM/calibrationaudit and bothactualauditsPASS.
-Current uncompleted work: experiment019 protocol and implementation are DRAFT,
-NOT FROZEN and NOT RUN. notes/experiment-019-design.md, src/sequence_inputs.py
-and src/sequence_dependence.py specify cross-word information and local similar-
-word dependence, with cross-work encrypted prose and copy-generator controls.
-No019prepared inputs, calibration or native scores exist at this checkpoint.
-AST/CLI checks and src/check_sequence_statistics.py passed on synthetic toy data
-only: 10 layouts,260 probability gains,14400 edit-distance pairs,6 permutation/
-bootstrap tests and2 bijection comparisons; maximum numeric error5.55e-16.
-The toy checker is part of the draft and should be included in the future freeze.
-Next: finish pre-execution review, freeze inputs, prepare once, then calibrate all
-controls before any native scoring. Preserve the distinction between code progress
-and completed experimental evidence.
-notes/experiment-018-followup-review.md is a proposal ONLY, not frozen019; no new
-manuscript scores for it. Do not merely extend mapping freedom or repair pseudowords.
-Preserve all010–018frozeninputs/code/results; f49v remains UNSCORED.
-GitHubprivate repository: https://github.com/Sskift/voynich-research, main.
-Initial016snapshot d4b8db3;017/pre018snapshot62c5deb; completed018snapshot22298d2.
-This checkpoint backs up unrun019work. Use git log for its commit ID.
-Repository creation/push explicitly authorized.
+Last completed work classified as PROGRESS: experiment019 COMPLETED, with36encoded
+controls,9plain invariance cases,native two-split scoring and independent audits.
+No verified connected reading, phonetic value, word meaning or language identified.
+
+151input hashes were frozen before preparation/statistics;48prepared output hashes;
+51calibration-freeze hashes before native;6native-freeze hashes before stats audit.
+All019processes terminal exit0: prepare20876,calibrate62582,native51440,audit80843.
+No live research process to resume. Never rerun019 in place or edit its frozen
+protocol/preparer/scorer/checker/inputs/results. Preserve all010–018artifacts too.
+
+Independent inputs audit results/audit-015-sequence-inputs.json PASS:690hash checks,
+1388rows/10308slots(31unknown),9plain truth cases/92772slots,36encoded cases,
+all RNG/source spans/breaks/hidden accounting and92test seeds regenerated.
+Independent statistics audit results/audit-015-sequence-statistics.json PASS:
+46cases×2split=92tests,275724permutation metrics,551724bootstrap metric draws,
+9bijection invariances,24calibration label groups,307hash checks including repeats.
+Maximum numeric difference9.094947017729282e-13. Auditor does not import runners;
+Counter count reconstruction, independent IDs/gain decomposition and Trie-DP edits.
+
+Native Hprimary: word gain-.046462904,edge-.263777866,shufflep.001both,rawgains
+negative so neither passes. local363/8928=4.065860%,null4.038503%,p.44;excessCI
+[-.208224,.232175]percentage points. Native Ptransfer: word-.043047517,
+edge-.326318372,p.001both but negative; local689/16967=4.060824%,null3.757916%,
+p.008positive,excessCI[.057093,.557962]percentage points. Do not replace HwithP,
+infer copying/language, or claim a chapter interaction from different p-values.
+Mobile slots H1072/1242,P2216/2449; all metrics informative; no zero bootstrap draws.
+All ordinary-prose prediction-sensitivity labels FAIL. Copy-specific controlpattern
+passes Hbijective only; Pbijective+uniform only. Pattern is limited to these controls,
+not a formal mechanism classifier. Weak calibration prevents exclusion arguments.
+
+notes/report-015-zh.md records all results; results/sequence-dependence/summary.csv
+contains276rows (46cases×2splits×3metrics); data/round-015-sources.json indexes artifacts.
+Scope correction: old79H means79metadata candidate pages, but f49v has no selected
+rows. Actualtrain78pages/980rows/6586known words; H16pages/185rows/1242words;
+P16pages/223rows/2449known+31unknown. Four generations of training locus/raw
+lists are identical. No new f49v text was inspected or scored. f49v/f58r/v unscored.
+See notes/experiment-019-scope-clarification.md; never rewrite old frozen reports.
+
+Next: review/freeze a concrete020 continuous-recovery experiment before new counts.
+notes/experiment-019-followup-review.md is a proposal ONLY, not frozen/run: remove
+normalized a/e/i/o/u within words, keep all-those-symbol words unchanged, retain
+boundaries, then fixed homophonic encoding. First reveal the true key and test
+continuous plaintext recovery/ambiguity on known source pairs; only if a prespecified
+oracle gate passes consider unknown-key calibration.019 does not identify/support
+this omission rule. i/u are not purely phonetic vowels in archived Latin. Freeze
+thresholds, model, boundary handling, corpus and budget before any020counts.
+IID/copy controls should be accurately recovered if possible; their failure mode is
+false high-confidence repair into different fluent sentences, not successful recovery
+of their unordered truth. No manual word repair, no broader glyph expansion by fiat.
+
+GitHub private repository: https://github.com/Sskift/voynich-research, main.
+016snapshot d4b8db3;017/pre01862c5deb;completed01822298d2;draft019a1baf81.
+Current checkpoint adds completed019; use git log for its ID. Push explicitly authorized.
 
 ## Current results
 

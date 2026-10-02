@@ -1,0 +1,12 @@
+{
+  "status": "FROZEN_AFTER_SINGLE_NATIVE019_RUN_BEFORE_INDEPENDENT_STATISTICS_AUDIT",
+  "created_utc": "2026-10-02T08:26:48.231908+00:00",
+  "hashes": {
+    "results/sequence-dependence/native.json": "8129ef1f74979af13a23af18c9631ddb5c945c161dae35ddaf8510edceed8556",
+    "results/sequence-dependence/calibration-freeze.json": "994bb37d4b41873772a48faedb7ec0e06d60712a131a587107b53b5833a076b8",
+    "results/run-019-native.log": "95835a373ccf94799cc9a031dd1e238323839cad966ed950ce2a2f3ed2ae6dd0",
+    "src/sequence_dependence.py": "e4b8a840fe437ecd093397b8ac4ee73b978da6e03d445ee2576b34d9fbfd3112",
+    "data/sequence-dependence/input-freeze.json": "0ae8e8dd60a918b96bca2a431b359ce87ed5fab924ff8a45302134eb593a9f75",
+    "data/sequence-dependence/prepared-manifest.json": "6228119a197645e65253ce29a82b4735207d54a05bb6ce979dafb71cc775ba38"
+  }
+}

@@ -1,8 +1,9 @@
 # Experiment019: calibrated tests of word order and local similarity
 
-Status: DRAFT / NOT FROZEN / NOT RUN. This checkpoint contains the proposed
-protocol and implementation, not new control or manuscript results. Complete
-pre-execution review and freeze all inputs before preparation or scoring.
+Protocol finalized before the experiment019 input freeze. Preparation/scoring
+must verify that freeze; execution status belongs in notes/STATE.md and results,
+without editing this protocol after freezing. No019source/control/target
+statistics were inspected when finalizing these choices.
 
 Protocol before new019source/model/control/target statistics.018completed without
 connected reading. This is a mechanism diagnostic, not a new substitution decoder.

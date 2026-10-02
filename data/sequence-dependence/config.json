@@ -1,0 +1,732 @@
+{
+  "schema": "experiment019-sequence-input-v1",
+  "experiment": "019",
+  "NOT_A_TRANSLATION": true,
+  "languages": [
+    "la",
+    "de",
+    "it"
+  ],
+  "mechanisms": [
+    "ordered",
+    "iid",
+    "copy"
+  ],
+  "channels": [
+    "bijective",
+    "uniform127",
+    "position127",
+    "hidden-space127"
+  ],
+  "splits": [
+    "train",
+    "development",
+    "reserve"
+  ],
+  "test_splits": [
+    "development",
+    "reserve"
+  ],
+  "primary_split": "development",
+  "tau_word": 100,
+  "tau_edge": 10,
+  "smoothing": 0.5,
+  "local_window": 8,
+  "local_primary_distance": 1,
+  "permutations": 999,
+  "bootstrap_replicates": 1999,
+  "bootstrap_confidence": 0.95,
+  "familywise_alpha": 0.05,
+  "bonferroni_tests": 3,
+  "strata": [
+    "page",
+    "paragraph_first_line",
+    "row_role",
+    "exact_atom_length",
+    "segment_start",
+    "segment_end"
+  ],
+  "strata_order": "lexicographic; saved slot order within each stratum",
+  "singleton_permutation": true,
+  "unknown_rule": "None independently clears history; no extra reset flags",
+  "word_pair_scope": "within one physical row, adjacent slots, no reset crossing",
+  "history_scope": "prescribed template/source resets and None",
+  "seeds": {
+    "cases": {
+      "la/ordered-bijective": {
+        "development": {
+          "shuffle": 20291201,
+          "bootstrap": 20791201
+        },
+        "reserve": {
+          "shuffle": 20291211,
+          "bootstrap": 20791211
+        }
+      },
+      "la/ordered-uniform127": {
+        "development": {
+          "shuffle": 20291301,
+          "bootstrap": 20791301
+        },
+        "reserve": {
+          "shuffle": 20291311,
+          "bootstrap": 20791311
+        }
+      },
+      "la/ordered-position127": {
+        "development": {
+          "shuffle": 20291401,
+          "bootstrap": 20791401
+        },
+        "reserve": {
+          "shuffle": 20291411,
+          "bootstrap": 20791411
+        }
+      },
+      "la/ordered-hidden-space127": {
+        "development": {
+          "shuffle": 20291501,
+          "bootstrap": 20791501
+        },
+        "reserve": {
+          "shuffle": 20291511,
+          "bootstrap": 20791511
+        }
+      },
+      "la/ordered-plain": {
+        "development": {
+          "shuffle": 20291201,
+          "bootstrap": 20791201
+        },
+        "reserve": {
+          "shuffle": 20291211,
+          "bootstrap": 20791211
+        }
+      },
+      "la/iid-bijective": {
+        "development": {
+          "shuffle": 20292201,
+          "bootstrap": 20792201
+        },
+        "reserve": {
+          "shuffle": 20292211,
+          "bootstrap": 20792211
+        }
+      },
+      "la/iid-uniform127": {
+        "development": {
+          "shuffle": 20292301,
+          "bootstrap": 20792301
+        },
+        "reserve": {
+          "shuffle": 20292311,
+          "bootstrap": 20792311
+        }
+      },
+      "la/iid-position127": {
+        "development": {
+          "shuffle": 20292401,
+          "bootstrap": 20792401
+        },
+        "reserve": {
+          "shuffle": 20292411,
+          "bootstrap": 20792411
+        }
+      },
+      "la/iid-hidden-space127": {
+        "development": {
+          "shuffle": 20292501,
+          "bootstrap": 20792501
+        },
+        "reserve": {
+          "shuffle": 20292511,
+          "bootstrap": 20792511
+        }
+      },
+      "la/iid-plain": {
+        "development": {
+          "shuffle": 20292201,
+          "bootstrap": 20792201
+        },
+        "reserve": {
+          "shuffle": 20292211,
+          "bootstrap": 20792211
+        }
+      },
+      "la/copy-bijective": {
+        "development": {
+          "shuffle": 20293201,
+          "bootstrap": 20793201
+        },
+        "reserve": {
+          "shuffle": 20293211,
+          "bootstrap": 20793211
+        }
+      },
+      "la/copy-uniform127": {
+        "development": {
+          "shuffle": 20293301,
+          "bootstrap": 20793301
+        },
+        "reserve": {
+          "shuffle": 20293311,
+          "bootstrap": 20793311
+        }
+      },
+      "la/copy-position127": {
+        "development": {
+          "shuffle": 20293401,
+          "bootstrap": 20793401
+        },
+        "reserve": {
+          "shuffle": 20293411,
+          "bootstrap": 20793411
+        }
+      },
+      "la/copy-hidden-space127": {
+        "development": {
+          "shuffle": 20293501,
+          "bootstrap": 20793501
+        },
+        "reserve": {
+          "shuffle": 20293511,
+          "bootstrap": 20793511
+        }
+      },
+      "la/copy-plain": {
+        "development": {
+          "shuffle": 20293201,
+          "bootstrap": 20793201
+        },
+        "reserve": {
+          "shuffle": 20293211,
+          "bootstrap": 20793211
+        }
+      },
+      "de/ordered-bijective": {
+        "development": {
+          "shuffle": 20391201,
+          "bootstrap": 20891201
+        },
+        "reserve": {
+          "shuffle": 20391211,
+          "bootstrap": 20891211
+        }
+      },
+      "de/ordered-uniform127": {
+        "development": {
+          "shuffle": 20391301,
+          "bootstrap": 20891301
+        },
+        "reserve": {
+          "shuffle": 20391311,
+          "bootstrap": 20891311
+        }
+      },
+      "de/ordered-position127": {
+        "development": {
+          "shuffle": 20391401,
+          "bootstrap": 20891401
+        },
+        "reserve": {
+          "shuffle": 20391411,
+          "bootstrap": 20891411
+        }
+      },
+      "de/ordered-hidden-space127": {
+        "development": {
+          "shuffle": 20391501,
+          "bootstrap": 20891501
+        },
+        "reserve": {
+          "shuffle": 20391511,
+          "bootstrap": 20891511
+        }
+      },
+      "de/ordered-plain": {
+        "development": {
+          "shuffle": 20391201,
+          "bootstrap": 20891201
+        },
+        "reserve": {
+          "shuffle": 20391211,
+          "bootstrap": 20891211
+        }
+      },
+      "de/iid-bijective": {
+        "development": {
+          "shuffle": 20392201,
+          "bootstrap": 20892201
+        },
+        "reserve": {
+          "shuffle": 20392211,
+          "bootstrap": 20892211
+        }
+      },
+      "de/iid-uniform127": {
+        "development": {
+          "shuffle": 20392301,
+          "bootstrap": 20892301
+        },
+        "reserve": {
+          "shuffle": 20392311,
+          "bootstrap": 20892311
+        }
+      },
+      "de/iid-position127": {
+        "development": {
+          "shuffle": 20392401,
+          "bootstrap": 20892401
+        },
+        "reserve": {
+          "shuffle": 20392411,
+          "bootstrap": 20892411
+        }
+      },
+      "de/iid-hidden-space127": {
+        "development": {
+          "shuffle": 20392501,
+          "bootstrap": 20892501
+        },
+        "reserve": {
+          "shuffle": 20392511,
+          "bootstrap": 20892511
+        }
+      },
+      "de/iid-plain": {
+        "development": {
+          "shuffle": 20392201,
+          "bootstrap": 20892201
+        },
+        "reserve": {
+          "shuffle": 20392211,
+          "bootstrap": 20892211
+        }
+      },
+      "de/copy-bijective": {
+        "development": {
+          "shuffle": 20393201,
+          "bootstrap": 20893201
+        },
+        "reserve": {
+          "shuffle": 20393211,
+          "bootstrap": 20893211
+        }
+      },
+      "de/copy-uniform127": {
+        "development": {
+          "shuffle": 20393301,
+          "bootstrap": 20893301
+        },
+        "reserve": {
+          "shuffle": 20393311,
+          "bootstrap": 20893311
+        }
+      },
+      "de/copy-position127": {
+        "development": {
+          "shuffle": 20393401,
+          "bootstrap": 20893401
+        },
+        "reserve": {
+          "shuffle": 20393411,
+          "bootstrap": 20893411
+        }
+      },
+      "de/copy-hidden-space127": {
+        "development": {
+          "shuffle": 20393501,
+          "bootstrap": 20893501
+        },
+        "reserve": {
+          "shuffle": 20393511,
+          "bootstrap": 20893511
+        }
+      },
+      "de/copy-plain": {
+        "development": {
+          "shuffle": 20393201,
+          "bootstrap": 20893201
+        },
+        "reserve": {
+          "shuffle": 20393211,
+          "bootstrap": 20893211
+        }
+      },
+      "it/ordered-bijective": {
+        "development": {
+          "shuffle": 20491201,
+          "bootstrap": 20991201
+        },
+        "reserve": {
+          "shuffle": 20491211,
+          "bootstrap": 20991211
+        }
+      },
+      "it/ordered-uniform127": {
+        "development": {
+          "shuffle": 20491301,
+          "bootstrap": 20991301
+        },
+        "reserve": {
+          "shuffle": 20491311,
+          "bootstrap": 20991311
+        }
+      },
+      "it/ordered-position127": {
+        "development": {
+          "shuffle": 20491401,
+          "bootstrap": 20991401
+        },
+        "reserve": {
+          "shuffle": 20491411,
+          "bootstrap": 20991411
+        }
+      },
+      "it/ordered-hidden-space127": {
+        "development": {
+          "shuffle": 20491501,
+          "bootstrap": 20991501
+        },
+        "reserve": {
+          "shuffle": 20491511,
+          "bootstrap": 20991511
+        }
+      },
+      "it/ordered-plain": {
+        "development": {
+          "shuffle": 20491201,
+          "bootstrap": 20991201
+        },
+        "reserve": {
+          "shuffle": 20491211,
+          "bootstrap": 20991211
+        }
+      },
+      "it/iid-bijective": {
+        "development": {
+          "shuffle": 20492201,
+          "bootstrap": 20992201
+        },
+        "reserve": {
+          "shuffle": 20492211,
+          "bootstrap": 20992211
+        }
+      },
+      "it/iid-uniform127": {
+        "development": {
+          "shuffle": 20492301,
+          "bootstrap": 20992301
+        },
+        "reserve": {
+          "shuffle": 20492311,
+          "bootstrap": 20992311
+        }
+      },
+      "it/iid-position127": {
+        "development": {
+          "shuffle": 20492401,
+          "bootstrap": 20992401
+        },
+        "reserve": {
+          "shuffle": 20492411,
+          "bootstrap": 20992411
+        }
+      },
+      "it/iid-hidden-space127": {
+        "development": {
+          "shuffle": 20492501,
+          "bootstrap": 20992501
+        },
+        "reserve": {
+          "shuffle": 20492511,
+          "bootstrap": 20992511
+        }
+      },
+      "it/iid-plain": {
+        "development": {
+          "shuffle": 20492201,
+          "bootstrap": 20992201
+        },
+        "reserve": {
+          "shuffle": 20492211,
+          "bootstrap": 20992211
+        }
+      },
+      "it/copy-bijective": {
+        "development": {
+          "shuffle": 20493201,
+          "bootstrap": 20993201
+        },
+        "reserve": {
+          "shuffle": 20493211,
+          "bootstrap": 20993211
+        }
+      },
+      "it/copy-uniform127": {
+        "development": {
+          "shuffle": 20493301,
+          "bootstrap": 20993301
+        },
+        "reserve": {
+          "shuffle": 20493311,
+          "bootstrap": 20993311
+        }
+      },
+      "it/copy-position127": {
+        "development": {
+          "shuffle": 20493401,
+          "bootstrap": 20993401
+        },
+        "reserve": {
+          "shuffle": 20493411,
+          "bootstrap": 20993411
+        }
+      },
+      "it/copy-hidden-space127": {
+        "development": {
+          "shuffle": 20493501,
+          "bootstrap": 20993501
+        },
+        "reserve": {
+          "shuffle": 20493511,
+          "bootstrap": 20993511
+        }
+      },
+      "it/copy-plain": {
+        "development": {
+          "shuffle": 20493201,
+          "bootstrap": 20993201
+        },
+        "reserve": {
+          "shuffle": 20493211,
+          "bootstrap": 20993211
+        }
+      }
+    },
+    "native": {
+      "development": {
+        "shuffle": 21161201,
+        "bootstrap": 21661201
+      },
+      "reserve": {
+        "shuffle": 21161211,
+        "bootstrap": 21661211
+      }
+    },
+    "generation": {
+      "la": {
+        "base": 20261201,
+        "iid_innovations": 20262201,
+        "copy_decisions": 20263201,
+        "cases": {
+          "ordered-bijective": {
+            "encoding": 20271202,
+            "grouping": 20271203
+          },
+          "ordered-uniform127": {
+            "encoding": 20271302,
+            "grouping": 20271303
+          },
+          "ordered-position127": {
+            "encoding": 20271402,
+            "grouping": 20271403
+          },
+          "ordered-hidden-space127": {
+            "encoding": 20271502,
+            "grouping": 20271503
+          },
+          "iid-bijective": {
+            "encoding": 20272202,
+            "grouping": 20272203
+          },
+          "iid-uniform127": {
+            "encoding": 20272302,
+            "grouping": 20272303
+          },
+          "iid-position127": {
+            "encoding": 20272402,
+            "grouping": 20272403
+          },
+          "iid-hidden-space127": {
+            "encoding": 20272502,
+            "grouping": 20272503
+          },
+          "copy-bijective": {
+            "encoding": 20273202,
+            "grouping": 20273203
+          },
+          "copy-uniform127": {
+            "encoding": 20273302,
+            "grouping": 20273303
+          },
+          "copy-position127": {
+            "encoding": 20273402,
+            "grouping": 20273403
+          },
+          "copy-hidden-space127": {
+            "encoding": 20273502,
+            "grouping": 20273503
+          }
+        }
+      },
+      "de": {
+        "base": 20361201,
+        "iid_innovations": 20362201,
+        "copy_decisions": 20363201,
+        "cases": {
+          "ordered-bijective": {
+            "encoding": 20371202,
+            "grouping": 20371203
+          },
+          "ordered-uniform127": {
+            "encoding": 20371302,
+            "grouping": 20371303
+          },
+          "ordered-position127": {
+            "encoding": 20371402,
+            "grouping": 20371403
+          },
+          "ordered-hidden-space127": {
+            "encoding": 20371502,
+            "grouping": 20371503
+          },
+          "iid-bijective": {
+            "encoding": 20372202,
+            "grouping": 20372203
+          },
+          "iid-uniform127": {
+            "encoding": 20372302,
+            "grouping": 20372303
+          },
+          "iid-position127": {
+            "encoding": 20372402,
+            "grouping": 20372403
+          },
+          "iid-hidden-space127": {
+            "encoding": 20372502,
+            "grouping": 20372503
+          },
+          "copy-bijective": {
+            "encoding": 20373202,
+            "grouping": 20373203
+          },
+          "copy-uniform127": {
+            "encoding": 20373302,
+            "grouping": 20373303
+          },
+          "copy-position127": {
+            "encoding": 20373402,
+            "grouping": 20373403
+          },
+          "copy-hidden-space127": {
+            "encoding": 20373502,
+            "grouping": 20373503
+          }
+        }
+      },
+      "it": {
+        "base": 20461201,
+        "iid_innovations": 20462201,
+        "copy_decisions": 20463201,
+        "cases": {
+          "ordered-bijective": {
+            "encoding": 20471202,
+            "grouping": 20471203
+          },
+          "ordered-uniform127": {
+            "encoding": 20471302,
+            "grouping": 20471303
+          },
+          "ordered-position127": {
+            "encoding": 20471402,
+            "grouping": 20471403
+          },
+          "ordered-hidden-space127": {
+            "encoding": 20471502,
+            "grouping": 20471503
+          },
+          "iid-bijective": {
+            "encoding": 20472202,
+            "grouping": 20472203
+          },
+          "iid-uniform127": {
+            "encoding": 20472302,
+            "grouping": 20472303
+          },
+          "iid-position127": {
+            "encoding": 20472402,
+            "grouping": 20472403
+          },
+          "iid-hidden-space127": {
+            "encoding": 20472502,
+            "grouping": 20472503
+          },
+          "copy-bijective": {
+            "encoding": 20473202,
+            "grouping": 20473203
+          },
+          "copy-uniform127": {
+            "encoding": 20473302,
+            "grouping": 20473303
+          },
+          "copy-position127": {
+            "encoding": 20473402,
+            "grouping": 20473403
+          },
+          "copy-hidden-space127": {
+            "encoding": 20473502,
+            "grouping": 20473503
+          }
+        }
+      }
+    }
+  },
+  "source_files": {
+    "la": {
+      "train": [
+        "data/latin/caesar-gallic-1.txt",
+        "data/latin/caesar-gallic-2.txt",
+        "data/latin/caesar-gallic-3.txt",
+        "data/latin/caesar-gallic-4.txt",
+        "data/latin/caesar-gallic-5.txt",
+        "data/latin/caesar-gallic-6.txt",
+        "data/latin/caesar-gallic-7.txt"
+      ],
+      "test": [
+        "data/latin/cicero-catilinam-1.txt",
+        "data/latin/cicero-catilinam-2.txt",
+        "data/latin/cicero-catilinam-3.txt",
+        "data/latin/cicero-catilinam-4.txt"
+      ]
+    },
+    "de": {
+      "train": [
+        "data/german-components-v2/brant-base.json"
+      ],
+      "test": [
+        "data/german-components-v2/tepl-base.json"
+      ]
+    },
+    "it": {
+      "train": [
+        "data/language-screen/dante.json"
+      ],
+      "test": [
+        "data/language-screen/boccaccio.json"
+      ]
+    }
+  },
+  "numpy_version": "2.5.3",
+  "rng": "numpy.random.default_rng",
+  "encoding_label_format": "c{original018_integer_label}",
+  "known_channels_space_codes_unused": true,
+  "hidden_unknown_rng": "opaque None; no encryption or grouping draw",
+  "copy_exact_rng": "history index then operation; exact draws no edit position",
+  "copy_history_order": "oldest to newest among the preceding at most eight words",
+  "group_choice_order": "unchanged018 groups array order",
+  "copy_letter_distribution": "frozen018 smoothed unigram without SPACE, normalized",
+  "calibration_encoded_cases": 36,
+  "plain_invariance_cases": 9,
+  "native_requires_frozen_calibration": true
+}

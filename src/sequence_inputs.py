@@ -39,7 +39,7 @@ SOURCE_FILES = {
 }
 INPUTS = [
     "notes/experiment-019-design.md", "src/sequence_inputs.py",
-    "src/sequence_dependence.py",
+    "src/sequence_dependence.py", "src/check_sequence_statistics.py",
     "data/transcription-units/selection.json",
     "data/transcription-units/selection-freeze.json",
     "data/gap-inference/input-freeze.json",
@@ -734,6 +734,7 @@ def prepare():
         "schema": SCHEMA, "status": "PREPARED_NOT_SCORED",
         "NOT_A_TRANSLATION": True, "complete": True,
         "input_freeze_sha256": sha("data/sequence-dependence/input-freeze.json"),
+        "input_hashes": frozen_hashes,
         "hashes": {path: sha(path) for path in sorted(outputs)},
         "excluded_from_hashes": [
             "data/sequence-dependence/input-freeze.json",

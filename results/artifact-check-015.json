@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "experiment": "019",
+  "freeze_checks": 256,
+  "indexed_artifacts": 263,
+  "source_index_sha256": "2f92836811ab3077a15098cf15e503d64fac9989dac0769ad59926034766121e",
+  "local_links_checked": 38,
+  "summary_rows": 276,
+  "all_independent_audits": "PASS"
+}

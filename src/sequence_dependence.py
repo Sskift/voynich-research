@@ -47,7 +47,8 @@ def verify_prepared():
     original = verify('data/sequence-dependence/input-freeze.json')
     prepared = verify('data/sequence-dependence/prepared-manifest.json')
     assert prepared['input_hashes'] == original['hashes']
-    expected = {'data/sequence-dependence/native.json', 'data/sequence-dependence/config.json'}
+    assert prepared['input_freeze_sha256'] == sha('data/sequence-dependence/input-freeze.json')
+    expected = {f'data/sequence-dependence/{name}.json' for name in ['template', 'native', 'config']}
     expected |= {f'data/sequence-dependence/{l}/{m}-{c}.json'
                  for l in LANGS for m in MECHANISMS for c in CHANNELS + ['plain']}
     assert expected <= set(prepared['hashes']), expected - set(prepared['hashes'])

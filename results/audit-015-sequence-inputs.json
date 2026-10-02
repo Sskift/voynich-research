@@ -1,0 +1,566 @@
+{
+  "language_audits": {
+    "la": {
+      "source_word_totals": {
+        "train": 44822,
+        "test": 12552
+      },
+      "consumed_words": {
+        "train": 6586,
+        "test": 3722
+      },
+      "split_spans": {
+        "train": {
+          "start": 0,
+          "stop": 6586,
+          "word_count": 6586
+        },
+        "development": {
+          "start": 0,
+          "stop": 1242,
+          "word_count": 1242
+        },
+        "reserve": {
+          "start": 1242,
+          "stop": 3722,
+          "word_count": 2480
+        }
+      },
+      "mechanisms": {
+        "ordered": {
+          "operations": {
+            "ordered": 10308
+          },
+          "channels": {
+            "bijective": {
+              "observed_slots": 10308,
+              "known_atoms": 59447
+            },
+            "uniform127": {
+              "observed_slots": 10308,
+              "known_atoms": 59447
+            },
+            "position127": {
+              "observed_slots": 10308,
+              "known_atoms": 59447
+            },
+            "hidden-space127": {
+              "observed_slots": 14459,
+              "known_atoms": 68073,
+              "hidden_accounting": {
+                "train": {
+                  "true_known_words": 6586,
+                  "unknown_slots": 0,
+                  "chunks": 1184,
+                  "true_spaces": 5402,
+                  "false_words": 9447,
+                  "encoded_atoms": 44389
+                },
+                "development": {
+                  "true_known_words": 1242,
+                  "unknown_slots": 0,
+                  "chunks": 197,
+                  "true_spaces": 1045,
+                  "false_words": 1726,
+                  "encoded_atoms": 7969
+                },
+                "reserve": {
+                  "true_known_words": 2449,
+                  "unknown_slots": 31,
+                  "chunks": 270,
+                  "true_spaces": 2179,
+                  "false_words": 3255,
+                  "encoded_atoms": 15715
+                }
+              }
+            }
+          }
+        },
+        "iid": {
+          "operations": {
+            "innovation": 10308
+          },
+          "channels": {
+            "bijective": {
+              "observed_slots": 10308,
+              "known_atoms": 59367
+            },
+            "uniform127": {
+              "observed_slots": 10308,
+              "known_atoms": 59367
+            },
+            "position127": {
+              "observed_slots": 10308,
+              "known_atoms": 59367
+            },
+            "hidden-space127": {
+              "observed_slots": 14367,
+              "known_atoms": 67993,
+              "hidden_accounting": {
+                "train": {
+                  "true_known_words": 6586,
+                  "unknown_slots": 0,
+                  "chunks": 1184,
+                  "true_spaces": 5402,
+                  "false_words": 9437,
+                  "encoded_atoms": 44371
+                },
+                "development": {
+                  "true_known_words": 1242,
+                  "unknown_slots": 0,
+                  "chunks": 197,
+                  "true_spaces": 1045,
+                  "false_words": 1655,
+                  "encoded_atoms": 7937
+                },
+                "reserve": {
+                  "true_known_words": 2449,
+                  "unknown_slots": 31,
+                  "chunks": 270,
+                  "true_spaces": 2179,
+                  "false_words": 3244,
+                  "encoded_atoms": 15685
+                }
+              }
+            }
+          }
+        },
+        "copy": {
+          "operations": {
+            "innovation": 5393,
+            "insert": 1243,
+            "exact": 1237,
+            "delete": 1212,
+            "substitute": 1223
+          },
+          "channels": {
+            "bijective": {
+              "observed_slots": 10308,
+              "known_atoms": 59668
+            },
+            "uniform127": {
+              "observed_slots": 10308,
+              "known_atoms": 59668
+            },
+            "position127": {
+              "observed_slots": 10308,
+              "known_atoms": 59668
+            },
+            "hidden-space127": {
+              "observed_slots": 14450,
+              "known_atoms": 68294,
+              "hidden_accounting": {
+                "train": {
+                  "true_known_words": 6586,
+                  "unknown_slots": 0,
+                  "chunks": 1184,
+                  "true_spaces": 5402,
+                  "false_words": 9441,
+                  "encoded_atoms": 44451
+                },
+                "development": {
+                  "true_known_words": 1242,
+                  "unknown_slots": 0,
+                  "chunks": 197,
+                  "true_spaces": 1045,
+                  "false_words": 1713,
+                  "encoded_atoms": 8096
+                },
+                "reserve": {
+                  "true_known_words": 2449,
+                  "unknown_slots": 31,
+                  "chunks": 270,
+                  "true_spaces": 2179,
+                  "false_words": 3265,
+                  "encoded_atoms": 15747
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "de": {
+      "source_word_totals": {
+        "train": 39406,
+        "test": 9768
+      },
+      "consumed_words": {
+        "train": 6586,
+        "test": 3722
+      },
+      "split_spans": {
+        "train": {
+          "start": 0,
+          "stop": 6586,
+          "word_count": 6586
+        },
+        "development": {
+          "start": 0,
+          "stop": 1242,
+          "word_count": 1242
+        },
+        "reserve": {
+          "start": 1242,
+          "stop": 3722,
+          "word_count": 2480
+        }
+      },
+      "mechanisms": {
+        "ordered": {
+          "operations": {
+            "ordered": 10308
+          },
+          "channels": {
+            "bijective": {
+              "observed_slots": 10308,
+              "known_atoms": 45361
+            },
+            "uniform127": {
+              "observed_slots": 10308,
+              "known_atoms": 45361
+            },
+            "position127": {
+              "observed_slots": 10308,
+              "known_atoms": 45361
+            },
+            "hidden-space127": {
+              "observed_slots": 11518,
+              "known_atoms": 54175,
+              "hidden_accounting": {
+                "train": {
+                  "true_known_words": 6586,
+                  "unknown_slots": 0,
+                  "chunks": 1000,
+                  "true_spaces": 5586,
+                  "false_words": 7026,
+                  "encoded_atoms": 32741
+                },
+                "development": {
+                  "true_known_words": 1242,
+                  "unknown_slots": 0,
+                  "chunks": 195,
+                  "true_spaces": 1047,
+                  "false_words": 1543,
+                  "encoded_atoms": 7375
+                },
+                "reserve": {
+                  "true_known_words": 2449,
+                  "unknown_slots": 31,
+                  "chunks": 268,
+                  "true_spaces": 2181,
+                  "false_words": 2918,
+                  "encoded_atoms": 14059
+                }
+              }
+            }
+          }
+        },
+        "iid": {
+          "operations": {
+            "innovation": 10308
+          },
+          "channels": {
+            "bijective": {
+              "observed_slots": 10308,
+              "known_atoms": 45331
+            },
+            "uniform127": {
+              "observed_slots": 10308,
+              "known_atoms": 45331
+            },
+            "position127": {
+              "observed_slots": 10308,
+              "known_atoms": 45331
+            },
+            "hidden-space127": {
+              "observed_slots": 11496,
+              "known_atoms": 54145,
+              "hidden_accounting": {
+                "train": {
+                  "true_known_words": 6586,
+                  "unknown_slots": 0,
+                  "chunks": 1000,
+                  "true_spaces": 5586,
+                  "false_words": 6918,
+                  "encoded_atoms": 32693
+                },
+                "development": {
+                  "true_known_words": 1242,
+                  "unknown_slots": 0,
+                  "chunks": 195,
+                  "true_spaces": 1047,
+                  "false_words": 1603,
+                  "encoded_atoms": 7373
+                },
+                "reserve": {
+                  "true_known_words": 2449,
+                  "unknown_slots": 31,
+                  "chunks": 268,
+                  "true_spaces": 2181,
+                  "false_words": 2944,
+                  "encoded_atoms": 14079
+                }
+              }
+            }
+          }
+        },
+        "copy": {
+          "operations": {
+            "innovation": 5311,
+            "exact": 1189,
+            "insert": 1273,
+            "delete": 1258,
+            "substitute": 1277
+          },
+          "channels": {
+            "bijective": {
+              "observed_slots": 10308,
+              "known_atoms": 45511
+            },
+            "uniform127": {
+              "observed_slots": 10308,
+              "known_atoms": 45511
+            },
+            "position127": {
+              "observed_slots": 10308,
+              "known_atoms": 45511
+            },
+            "hidden-space127": {
+              "observed_slots": 11603,
+              "known_atoms": 54325,
+              "hidden_accounting": {
+                "train": {
+                  "true_known_words": 6586,
+                  "unknown_slots": 0,
+                  "chunks": 1000,
+                  "true_spaces": 5586,
+                  "false_words": 7082,
+                  "encoded_atoms": 32887
+                },
+                "development": {
+                  "true_known_words": 1242,
+                  "unknown_slots": 0,
+                  "chunks": 195,
+                  "true_spaces": 1047,
+                  "false_words": 1500,
+                  "encoded_atoms": 7208
+                },
+                "reserve": {
+                  "true_known_words": 2449,
+                  "unknown_slots": 31,
+                  "chunks": 268,
+                  "true_spaces": 2181,
+                  "false_words": 2990,
+                  "encoded_atoms": 14230
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "it": {
+      "source_word_totals": {
+        "train": 97206,
+        "test": 19818
+      },
+      "consumed_words": {
+        "train": 6586,
+        "test": 3722
+      },
+      "split_spans": {
+        "train": {
+          "start": 0,
+          "stop": 6586,
+          "word_count": 6586
+        },
+        "development": {
+          "start": 0,
+          "stop": 1242,
+          "word_count": 1242
+        },
+        "reserve": {
+          "start": 1242,
+          "stop": 3722,
+          "word_count": 2480
+        }
+      },
+      "mechanisms": {
+        "ordered": {
+          "operations": {
+            "ordered": 10308
+          },
+          "channels": {
+            "bijective": {
+              "observed_slots": 10308,
+              "known_atoms": 45635
+            },
+            "uniform127": {
+              "observed_slots": 10308,
+              "known_atoms": 45635
+            },
+            "position127": {
+              "observed_slots": 10308,
+              "known_atoms": 45635
+            },
+            "hidden-space127": {
+              "observed_slots": 11826,
+              "known_atoms": 53648,
+              "hidden_accounting": {
+                "train": {
+                  "true_known_words": 6586,
+                  "unknown_slots": 0,
+                  "chunks": 1818,
+                  "true_spaces": 4768,
+                  "false_words": 7275,
+                  "encoded_atoms": 32098
+                },
+                "development": {
+                  "true_known_words": 1242,
+                  "unknown_slots": 0,
+                  "chunks": 189,
+                  "true_spaces": 1053,
+                  "false_words": 1541,
+                  "encoded_atoms": 7144
+                },
+                "reserve": {
+                  "true_known_words": 2449,
+                  "unknown_slots": 31,
+                  "chunks": 257,
+                  "true_spaces": 2192,
+                  "false_words": 2979,
+                  "encoded_atoms": 14406
+                }
+              }
+            }
+          }
+        },
+        "iid": {
+          "operations": {
+            "innovation": 10308
+          },
+          "channels": {
+            "bijective": {
+              "observed_slots": 10308,
+              "known_atoms": 45812
+            },
+            "uniform127": {
+              "observed_slots": 10308,
+              "known_atoms": 45812
+            },
+            "position127": {
+              "observed_slots": 10308,
+              "known_atoms": 45812
+            },
+            "hidden-space127": {
+              "observed_slots": 11933,
+              "known_atoms": 53825,
+              "hidden_accounting": {
+                "train": {
+                  "true_known_words": 6586,
+                  "unknown_slots": 0,
+                  "chunks": 1818,
+                  "true_spaces": 4768,
+                  "false_words": 7331,
+                  "encoded_atoms": 32071
+                },
+                "development": {
+                  "true_known_words": 1242,
+                  "unknown_slots": 0,
+                  "chunks": 189,
+                  "true_spaces": 1053,
+                  "false_words": 1545,
+                  "encoded_atoms": 7304
+                },
+                "reserve": {
+                  "true_known_words": 2449,
+                  "unknown_slots": 31,
+                  "chunks": 257,
+                  "true_spaces": 2192,
+                  "false_words": 3026,
+                  "encoded_atoms": 14450
+                }
+              }
+            }
+          }
+        },
+        "copy": {
+          "operations": {
+            "innovation": 5817,
+            "insert": 1188,
+            "delete": 1043,
+            "substitute": 1143,
+            "exact": 1117
+          },
+          "channels": {
+            "bijective": {
+              "observed_slots": 10308,
+              "known_atoms": 45754
+            },
+            "uniform127": {
+              "observed_slots": 10308,
+              "known_atoms": 45754
+            },
+            "position127": {
+              "observed_slots": 10308,
+              "known_atoms": 45754
+            },
+            "hidden-space127": {
+              "observed_slots": 11910,
+              "known_atoms": 53767,
+              "hidden_accounting": {
+                "train": {
+                  "true_known_words": 6586,
+                  "unknown_slots": 0,
+                  "chunks": 1818,
+                  "true_spaces": 4768,
+                  "false_words": 7277,
+                  "encoded_atoms": 31842
+                },
+                "development": {
+                  "true_known_words": 1242,
+                  "unknown_slots": 0,
+                  "chunks": 189,
+                  "true_spaces": 1053,
+                  "false_words": 1538,
+                  "encoded_atoms": 7271
+                },
+                "reserve": {
+                  "true_known_words": 2449,
+                  "unknown_slots": 31,
+                  "chunks": 257,
+                  "true_spaces": 2192,
+                  "false_words": 3064,
+                  "encoded_atoms": 14654
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "status": "PASS",
+  "audit": "independent019_input_reconstruction",
+  "NOT_A_TRANSLATION": true,
+  "counts": {
+    "hash_checks": 690,
+    "input_hash_entries": 151,
+    "prepared_hash_entries": 48,
+    "freeze_manifests_checked": 12,
+    "case_test_seed_pairs": 92,
+    "native_rows": 1388,
+    "native_slots": 10308,
+    "native_unknown_slots": 31,
+    "plaintext_cases": 9,
+    "generated_truth_slots": 92772,
+    "bijective_roundtrips": 9,
+    "encoded_cases": 36
+  },
+  "input_freeze_sha256": "0ae8e8dd60a918b96bca2a431b359ce87ed5fab924ff8a45302134eb593a9f75",
+  "prepared_manifest_sha256": "6228119a197645e65253ce29a82b4735207d54a05bb6ce979dafb71cc775ba38",
+  "auditor_sha256": "bbc0a03327c40787607badf33b37cc0e2e2622e9c9957ecc3e27efe2d89603d7",
+  "production_generator_imported": false,
+  "scope": "Sources, layout, masks, breaks, RNG, encoding and metadata; no statistics or scores"
+}

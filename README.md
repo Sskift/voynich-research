@@ -3,16 +3,15 @@
 **状态：尚未破解。** 当前没有确定的语言、读音、词义或可验证译文。
 本项目保存实际数据分析、失败的判别尝试及后续可检验的问题。
 
-最新已完成进展（实验018）：允许字形编码真实空格，德文和意大利文的六种
-已知密文均通过校准；随后完成两种实际拟合、各九组同预算打乱及独立审计。
-仍无可验证译文，较高拟合分数也不能识别语言。详见
-[第十四轮报告](notes/report-014-zh.md)与[当前研究状态](notes/STATE.md)。
+最新已完成进展（实验019）：36组编码对照、9组不变性检查、手稿固定评分
+及两套独立审计全部完成。草本主比较没有检出局部相似词的明确超额；
+预测分数虽高于置换，却仍低于频率基线。编码还会掩盖已知对照的信号，
+因此不能据此识别语言或复制机制。详见[第十五轮报告](notes/report-015-zh.md)
+与[当前研究状态](notes/STATE.md)。此前“79H”候选训练组实际使用78页，
+见[范围澄清](notes/experiment-019-scope-clarification.md)，原有数值结果未改。
 
-进行中的实验019已保存[方案草稿](notes/experiment-019-design.md)、输入准备和
-统计代码，拟检验跨词信息及局部相似词依赖。尚未冻结、准备数据或运行评分，
-因此本次代码进度备份不包含019的新研究结果。
-语法、命令行入口及独立玩具数据检查已通过；玩具检查可运行
-`.venv/bin/python -B src/check_sequence_statistics.py`，它不读取真实语料。
+实验018允许字形编码真实空格，已完成已知密文校准、德文／意大利文实际
+拟合及同预算打乱，仍无可验证译文。见[第十四轮报告](notes/report-014-zh.md)。
 
 实验017的全部72个频率条件均与所用拉丁参考上限冲突，但不是对整种语言
 的排除。见[第十三轮报告](notes/report-013-zh.md)。第十二轮报告另有
@@ -75,6 +74,7 @@
 - [第十二轮研究报告](notes/report-012-zh.md)
 - [第十三轮研究报告](notes/report-013-zh.md)
 - [第十四轮研究报告](notes/report-014-zh.md)
+- [第十五轮研究报告](notes/report-015-zh.md)
 - [标签与图像检查记录](notes/pharma-visual-review.md)
 - [最初实验设计](notes/experiment-001-design.md)
 - [上下文后续实验设计](notes/experiment-002-design.md)
@@ -141,6 +141,9 @@ g++ -O3 -std=c++17 -Wall -Wextra -o bin/component_search src/component_search.cp
 .venv/bin/python src/audit_transcription_frequency.py
 .venv/bin/python -B src/audit_gap_inference.py calibration
 .venv/bin/python -B src/audit_gap_attack.py
+.venv/bin/python -B src/check_sequence_statistics.py
+.venv/bin/python -B src/audit_sequence_inputs.py
+.venv/bin/python -B src/audit_sequence_dependence.py all
 ```
 
 上述完整重建命令会重写各轮派生文件；复查现有冻结结果时只运行对应
@@ -174,6 +177,10 @@ RF 参考转写只下载归档，没有用作独立验证材料。
 `notes/experiment-011-design.md`。新的127字形模型与旧23字形模型文件分开保存；
 冻结字形密钥和训练估计的输出概率后，才计算预留药方正文的解码分数。
 该16页现也已查看结果，不能再称作新的验证集。
+
+第十五轮来源与冻结文件索引在`data/round-015-sources.json`；全部三个指标、
+两个分段和46组数据的汇总在`results/sequence-dependence/summary.csv`。
+实验019的prepare/calibrate/native拒绝覆盖已有结果；复核只运行上述审计。
 
 数据及扫描图归各原作者／收藏机构所有。这里的脚本和研究报告不构成
 对原始材料的新所有权声明。未将研究结论提交给任何外部个人或机构。
