@@ -7,6 +7,16 @@ Previous goal turn classified as PROGRESS: primary Naibbe codebook review and
 independent boundary-ambiguity witness were archived and pushed as8b77964.
 No verified connected reading, phonetic value, word meaning or language identified.
 
+Current022 draft checkpoint (2026-10-02): src/naibbe_private_keys.py implements
+complete-six-table random keys, preserving role multiplicities and rejecting
+whole proposals with unsupported plaintext pairs. Its synthetic self_check PASS;
+independent read-only review found no blocker. No actual author-derived private
+keys, ciphertext or recovery scores were generated. src/naibbe_unknown.hpp is
+only shared types/channel helpers and declarations; decoder, optimizer and staged
+pipeline are not implemented. C++17 header syntax check passes; this is not a
+linked solver test. Protocol, budgets and gates remain unfrozen. See
+notes/experiment-022-draft-progress.md. Preserve all021 frozen artifacts.
+
 Current021: protocol/code21input hashes frozen and pushed as a446dde BEFORE
 preparation. prepare75000,predict36620,score80845 all terminal exit0.44prepared
 outputs/16cases/16prediction files/64summary rows;24ordered-trigram primary gates
