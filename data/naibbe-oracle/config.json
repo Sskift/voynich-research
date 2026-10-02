@@ -1,0 +1,50 @@
+{
+  "experiment": 21,
+  "channel": "BASE52_AUTHOR_f2675ec5",
+  "source_chunk_length": 128,
+  "test_chunks": 64,
+  "blocks": {
+    "A": [
+      0,
+      32
+    ],
+    "B": [
+      32,
+      64
+    ]
+  },
+  "languages": [
+    "la",
+    "it"
+  ],
+  "modes": [
+    "preserved",
+    "deleted"
+  ],
+  "ordered_replicates": 3,
+  "shuffle_replicates": 1,
+  "ordered_seed": "202102100+1000*language_index+replicate",
+  "shuffle_encoder_seed": "202102190+1000*language_index",
+  "shuffle_source_seed": "202102199+1000*language_index",
+  "known_key": true,
+  "matching_language_prior": true,
+  "score": "APPROXIMATE_PATH_MAX_NOT_POSTERIOR",
+  "support_scope": "EXACT_LOCAL_CODEBOOK_LANGUAGE_OVERAPPROXIMATES_STOCHASTIC_ENCODER_SUPPORT",
+  "model_order": 2,
+  "baseline_order": 0,
+  "tau": 20,
+  "additive": 0.5,
+  "single_probability": "17/36 except final forced singleton",
+  "gap_drop": 0.03,
+  "max_dfa_states": 100000,
+  "max_dfa_edges": 1000000,
+  "max_viterbi_states": 1000000,
+  "max_encoder_draws_per_chunk": 1000000,
+  "primary_gate": {
+    "coverage": 1.0,
+    "character_edit_accuracy": 0.99,
+    "exact_chunk_accuracy": 0.8
+  },
+  "manuscripts_read": false,
+  "original_word_boundaries_recovered": false
+}

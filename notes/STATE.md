@@ -1,11 +1,48 @@
 # Continuation state
 
 Objective: 试着破解伏尼契手稿. Goal remains ACTIVE; not achieved or blocked.
-Last completed work classified as PROGRESS: experiment020 COMPLETED after an
-explicitly preserved numerical stop and separately frozen certificate repair.
+Latest completed work is PROGRESS:021 oracle calibration and independent audits
+completed; all24prespecified primary gates PASS. This does not complete the goal.
+Previous goal turn classified as PROGRESS: primary Naibbe codebook review and
+independent boundary-ambiguity witness were archived and pushed as8b77964.
 No verified connected reading, phonetic value, word meaning or language identified.
 
-Latest checkpoint, 2026-10-02: exploratory primary-source/code review, not
+Current021: protocol/code21input hashes frozen and pushed as a446dde BEFORE
+preparation. prepare75000,predict36620,score80845 all terminal exit0.44prepared
+outputs/16cases/16prediction files/64summary rows;24ordered-trigram primary gates
+all PASS. Per32row block character edit accuracy99.8046875–100%, whole128letter
+row accuracy87.5–100%; true-path coverage100%. Given full actual codebook AND
+matching language prior; no unknown-key/native execution. Independent audit
+src/audit_naibbe_oracle.py completed: inputs27206 and complete33057 terminal exit0.
+notes/report-017-zh.md is the completed report; both audit JSONs are PASS.
+Source: rawCaesar1–7->Cicero1–4 preservingu/v, oldselectedDante->Boccaccio records;
+fulltrain275084/402801letters; eachtestfirst8192letters split64x128, A/B32rows.
+Threeordered52cardseeds+oneshuffle seed perlanguage, paired intact/.03drop output.
+Decoder explicit with-replacement approximation, proper bigram rejection
+renormalization, final singleton factor1, otherwise17/36or19/36, hiddenedge.03,
+observededge.97onlydropmode; continuous trigram+EOS. Unpruned path maximum,
+not marginal string-MAP or finite-deck posterior. Original words not restored.
+All14347unique(mode,observedtoken) inverses independently enumerated,37624distinct
+local candidates total, max216. Inputs audit65SHA/512generatedlines/65536letters/
+68748carddraws/1606retries/1289deletedgaps;Fraction LM/emission maxerror1.1102e-16.
+Complete audit83SHA/2048methodrows/64summaries/24gates; maxpathscoreerror1.1369e-12
+at1e-8tolerance.16fresh isolated subprocesses reproduced2048prediction digests
+with ALL file opens denied and zero attempts; each sees oneconditiononly.
+Italian source audit uses priorselected records.text and verifies rawhashes,
+not a new independent HTML selection. Main/reference source views are shared.
+Do not modify021frozenprotocol/5productionmodules/inputs/prepared/predictions/scores.
+No main or audit process remains live. Audit code/reports/logs are now stable.
+Shuffled-deleted trigram actualchar accuracy93.2373–96.9727%, whole128rows0–21.875%;
+unigram baseline is more faithful there. Never use fluent-looking output or a
+large LMscore as evidence of unknown plaintext correctness.
+Next research must address unknown mappings AND unknown same-letter homophone
+groups. notes/experiment-021-unknown-key-followup.md is a discussion memo, NOT a
+frozen022protocol. Shared23-letter renaming is merely an easy diagnostic; the
+fullbase52/six-table challenge remains. Inventory/role/grammar oracles and their
+gap from native information must be explicit.021contains no native scoring;
+first freeze and calibrate a genuine unknown-key recovery task.
+
+Prior checkpoint, 2026-10-02: exploratory primary-source/code review, not
 experiment021. Naibbe author code pinned at f2675ec5dd275268bc64dd48ea64fc0e0e9827a2,
 with CSV, licenses, repository metadata and Zenodo17219445 v2.1 supplement archived
 under data/naibbe-review/author-f2675ec5/. Publisher main-paper PDF was not obtained;
@@ -22,9 +59,10 @@ an exclusion of the cipher class, or a manuscript reading.
 notes/naibbe-channel-review.md distinguishes the source channel/decoder versions.
 notes/naibbe-and-units-primary-review.md reviews primary sources and proposes a
 same-target nested boundary predictor requiring synthetic sensitivity calibration.
-No new protocol is frozen, no021 native counts/fits exist, and no fresh holdout has
-been opened. A next research turn must choose and freeze a concrete new test;
-do not treat the speculative proposal as an already authorized scoring protocol.
+At that checkpoint no021protocol was frozen; it is superseded by021 above.
+No021native counts/fits exist and no fresh manuscript holdout has been opened.
+The nested boundary-predictor proposal remains unexecuted. Passing021 would only
+justify a separately frozen unknown-key calibration, not immediate native reading.
 
 020 authoritative result: results/omission-oracle-v2/summary.json; ordered gate
 FAIL for every language and both splits.18cases complete; all9identity cases exact.

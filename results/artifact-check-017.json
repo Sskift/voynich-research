@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "indexed_sha256_checks": 102,
+  "frozen_sha256_checks": 83,
+  "csv_rows": 64,
+  "local_links": 18,
+  "both_independent_audits": "PASS",
+  "source_index_sha256": "74ea2a2cb2d93366811afdbcd015703224585b3f7de4c1c8f881e94002755b76"
+}

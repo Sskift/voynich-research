@@ -3,13 +3,18 @@
 **状态：尚未破解。** 当前没有确定的语言、读音、词义或可验证译文。
 本项目保存实际数据分析、失败的判别尝试及后续可检验的问题。
 
-最新归档（2026-10-02）：核对了 Naibbe 的作者源码、码表及补充材料，
+最新实验（021）：给定真实码表的 Naibbe 编码恢复及独立复核已完成，
+24个主要检查均通过：字符恢复99.80%—100%，完整128字母片段恢复87.5%—100%。
+这些是已知文本校准，没有进行未知密钥或手稿解码。
+见[第十七轮报告](notes/report-017-zh.md)。
+
+此前归档（2026-10-02）：核对了 Naibbe 的作者源码、码表及补充材料，
 确认其“一个密文词承载一至两个明文字母”的模型与此前实验不同；
 保存了删去编码边界后两种明文产生同串的具体反例。这是探索性源码审查，
-尚未开展实验021或新手稿解码，见[通道核对](notes/naibbe-channel-review.md)
+其后的实验021已按新协议运行，见[通道核对](notes/naibbe-channel-review.md)
 与[主来源阅读](notes/naibbe-and-units-primary-review.md)。
 
-最近完成的实验（020）：18组正确密钥对照及独立复核已完成。删去字母a/e/i/o/u
+此前的实验（020）：18组正确密钥对照及独立复核已完成。删去字母a/e/i/o/u
 后，三种语言正常正文的整词恢复率仅31.56%—43.20%，完整行恢复率0%—1.20%，
 均未达到预定门槛；没有用于手稿或未知密钥搜索。首次数值中断和另行冻结的
 修正均完整保留，未放宽恢复门槛。见[第十六轮报告](notes/report-016-zh.md)。
@@ -87,6 +92,7 @@
 - [第十四轮研究报告](notes/report-014-zh.md)
 - [第十五轮研究报告](notes/report-015-zh.md)
 - [第十六轮研究报告](notes/report-016-zh.md)
+- [第十七轮研究报告](notes/report-017-zh.md)
 - [标签与图像检查记录](notes/pharma-visual-review.md)
 - [最初实验设计](notes/experiment-001-design.md)
 - [上下文后续实验设计](notes/experiment-002-design.md)
@@ -193,6 +199,13 @@ RF 参考转写只下载归档，没有用作独立验证材料。
 第十五轮来源与冻结文件索引在`data/round-015-sources.json`；全部三个指标、
 两个分段和46组数据的汇总在`results/sequence-dependence/summary.csv`。
 实验019的prepare/calibrate/native拒绝覆盖已有结果；复核只运行上述审计。
+
+实验021的来源与文件索引见 `data/round-017-sources.json`，
+64行指标见 `results/naibbe-oracle-summary.csv`。全部制备、预测、评分和审计
+输出均拒绝覆盖。重新复核可运行
+`.venv/bin/python src/audit_naibbe_oracle.py --stage complete --output results/audit-017-naibbe-rerun.json`，
+其中输出路径须尚不存在。下一步的信息条件见
+[未知密钥研究备忘](notes/experiment-021-unknown-key-followup.md)。
 
 数据及扫描图归各原作者／收藏机构所有。这里的脚本和研究报告不构成
 对原始材料的新所有权声明。未将研究结论提交给任何外部个人或机构。

@@ -1,0 +1,9 @@
+{"stage": "inputs", "language": "la", "variant": "ordered-r0", "status": "PASS"}
+{"stage": "inputs", "language": "la", "variant": "ordered-r1", "status": "PASS"}
+{"stage": "inputs", "language": "la", "variant": "ordered-r2", "status": "PASS"}
+{"stage": "inputs", "language": "la", "variant": "shuffled-r0", "status": "PASS"}
+{"stage": "inputs", "language": "it", "variant": "ordered-r0", "status": "PASS"}
+{"stage": "inputs", "language": "it", "variant": "ordered-r1", "status": "PASS"}
+{"stage": "inputs", "language": "it", "variant": "ordered-r2", "status": "PASS"}
+{"stage": "inputs", "language": "it", "variant": "shuffled-r0", "status": "PASS"}
+{"status": "PASS", "stage": "prepared", "counts": {"hash_assertions": 65, "numeric_comparisons": 27754, "raw_provenance_hashes": 2, "emission_rows": 552, "lm_training_characters": 677885, "lm_conditional_rows": 1156, "observed_tokens": 84557, "generation_rows": 512, "plaintext_letters_encoded": 65536, "card_draws": 68748, "unigram_collision_retries": 1606, "deleted_gaps": 1289}}

@@ -1,0 +1,196 @@
+{
+  "status": "PREPARED_NOT_PREDICTED",
+  "input_freeze_sha256": "8fc013d5a3a7ba83a775799654562df8a2add1e8b3203acc66b6b8e75e2e057d",
+  "hashes": {
+    "data/naibbe-oracle/config.json": "91b7033406d5adf85bac1b1209be671c6f132296727542b3537c8742b786821b",
+    "data/naibbe-oracle/generation/it-ordered-r0.json": "4d0596abe783e855ec872fa27bed27a924005a3e5c130db68aec2c5724cfef65",
+    "data/naibbe-oracle/generation/it-ordered-r1.json": "cabe1f160bafac78f57733e318c34d96d3beae2e9f9a9963cd275bc24bb78453",
+    "data/naibbe-oracle/generation/it-ordered-r2.json": "368aee9289947868cabdc1afbc13b702a340eeca8debc59310efb1a579171bfc",
+    "data/naibbe-oracle/generation/it-shuffled-r0.json": "accf488f18f9254fcb518443775ffbfd31cff2f939e6cba710c92f450f57f932",
+    "data/naibbe-oracle/generation/la-ordered-r0.json": "ca2d72424bc8c03d540d5c0e816ff3e4c016b0bc53fd946d5c468c9ecb7a1faa",
+    "data/naibbe-oracle/generation/la-ordered-r1.json": "1885fc4902f96b14cb0e4d0e99ad2e304c60f86b95a0976952d92bf6d7060d4a",
+    "data/naibbe-oracle/generation/la-ordered-r2.json": "7683bc417b2af98c1a1bc30a5053762aaee84df4bf064d6c78f04c5fba897d14",
+    "data/naibbe-oracle/generation/la-shuffled-r0.json": "0641320fd5fea782a048750e39e0148bd85c15e9c7218447760cab083e67ddc4",
+    "data/naibbe-oracle/it/model.json": "222d0c736d38b9154bc6c349cb1bc561fd57c2cbd01162b8a02939738d44a695",
+    "data/naibbe-oracle/la/model.json": "a97aa4aabbc3d4e24254e757cdbb891f18c3a26a864c0d7427f0fead5af927ef",
+    "data/naibbe-oracle/source-provenance.json": "e531fd3193de9d50408ec37f4f6e7796a5d4db78dfd7b827f1670fb6b34c380c",
+    "data/naibbe-oracle/tests/it-ordered-r0-deleted.json": "d8e7e2e4576b40bb7555a8b2ab6d1ce056f392241ea22665a5f8ce406ad6018e",
+    "data/naibbe-oracle/tests/it-ordered-r0-preserved.json": "1bc28fe00964a4b91b2574ef833e801169500000e8b06a1f8f118cc3d981d785",
+    "data/naibbe-oracle/tests/it-ordered-r1-deleted.json": "ad1d1cce7bd4b6466f6796a9c83e56e0d63dcff3382238538dcc5fdb164da698",
+    "data/naibbe-oracle/tests/it-ordered-r1-preserved.json": "3b79a30509f958dc2d47827101eee70b8940c6661ea3be7b3afcdb03fd5f7c36",
+    "data/naibbe-oracle/tests/it-ordered-r2-deleted.json": "4f2d19c3b1fe6027d85f1a0b110b02ddf3259fa09aee5bae8b04b4445ac8dec4",
+    "data/naibbe-oracle/tests/it-ordered-r2-preserved.json": "b5ba8eea96d295719d6dd846a0418c99bc8bf0ddb179df3242ff17d46e1b94c7",
+    "data/naibbe-oracle/tests/it-shuffled-r0-deleted.json": "0c1fe9247df3163645211c5a6529ea6b9c7468df36a0d007c8750548b7456bb2",
+    "data/naibbe-oracle/tests/it-shuffled-r0-preserved.json": "b4f16c2ca06c199feb66d9b0f96862eaf051495c5e1dcc7e1b2021109104dcb9",
+    "data/naibbe-oracle/tests/la-ordered-r0-deleted.json": "f067d6fceecdabeca4733a01cb4ed29b717bd0b1f0e1031deacf256b9dff3e5b",
+    "data/naibbe-oracle/tests/la-ordered-r0-preserved.json": "61b503ed77a4b4a34028e79dd26c942ea83166af84472e73a102485dbe82eadd",
+    "data/naibbe-oracle/tests/la-ordered-r1-deleted.json": "21bdab5a5b0ca20f065080abecde169d3a77e73f854d3c37b9cf60f38a9cf381",
+    "data/naibbe-oracle/tests/la-ordered-r1-preserved.json": "a7d7563602e49a763b2ec420bdb7380c0bfa385008fd7ce0b48027262a9c078c",
+    "data/naibbe-oracle/tests/la-ordered-r2-deleted.json": "bf4ac308d2732e8029ccd9491e0888bc5ab36c65ac89de0ec49528a910abab35",
+    "data/naibbe-oracle/tests/la-ordered-r2-preserved.json": "fe02a73b7ead6c674a559f27e3ddabd31f2b5d9a39ef7f27cc32d6176e944b20",
+    "data/naibbe-oracle/tests/la-shuffled-r0-deleted.json": "a08201de1485771c11bc55ade01cc97e29be984f64b9b5457eaf87fed839fe8e",
+    "data/naibbe-oracle/tests/la-shuffled-r0-preserved.json": "92334310fe5109b37fa6f9ccb911aad634342ba67bf9a6e40523b3ce1639fee6",
+    "data/naibbe-oracle/truth/it-ordered-r0-deleted.json": "932e206b1db5f09a5953039f9971fd8d5a78ebd409b15c4c9abd77ff2ee20911",
+    "data/naibbe-oracle/truth/it-ordered-r0-preserved.json": "3e2f5f2ec8fa70c91b0bd36836d9ca550113063709727222a6326ce25f85dc4d",
+    "data/naibbe-oracle/truth/it-ordered-r1-deleted.json": "e9ffa3f9376f62c2485e80c11ab5d1377ac5f492e7c59550ec5ecec804c05aa4",
+    "data/naibbe-oracle/truth/it-ordered-r1-preserved.json": "be7d63c61e18befea6274c64b6a7becea1eef3854419e640669b190a0193da8a",
+    "data/naibbe-oracle/truth/it-ordered-r2-deleted.json": "5b769c0a0c6d6f348de7624a0e2308c46207e0a156d2a012ac44b58b9ea9ac2b",
+    "data/naibbe-oracle/truth/it-ordered-r2-preserved.json": "37bf5d95f63d2f9fff7e481086b46d5f607cc7d4b003cbe532ca1ddfacd19d8a",
+    "data/naibbe-oracle/truth/it-shuffled-r0-deleted.json": "b4f4b506152937c71ea1eb574e346d183f07b0ed28b91fd9f88fcd6709cc72a9",
+    "data/naibbe-oracle/truth/it-shuffled-r0-preserved.json": "76f0dfa1b375dbae15546bd677e2acf920586a5bf9dfb5e2efdc498dd9ff107b",
+    "data/naibbe-oracle/truth/la-ordered-r0-deleted.json": "49f2536c0c8ffbabe6c6ebfc819201730c9b365c83e6d86c92ec66128055d455",
+    "data/naibbe-oracle/truth/la-ordered-r0-preserved.json": "de3626b16bdbf34f4459077f0dcf4e23b92058723fe4807ab8d70e11e7c2ae6c",
+    "data/naibbe-oracle/truth/la-ordered-r1-deleted.json": "bedc1e3601950b32f2e11f61779e8687fc16ae997caf6b277ccf57d8db795303",
+    "data/naibbe-oracle/truth/la-ordered-r1-preserved.json": "07e8b9ff09e042f876dd824456ad87ad2477225fdd1804670304dc70cc8c54db",
+    "data/naibbe-oracle/truth/la-ordered-r2-deleted.json": "418e7ff7a70a5e83ff2d765762197197139431652c5b1534cda02d752eab4df0",
+    "data/naibbe-oracle/truth/la-ordered-r2-preserved.json": "a3b7a1eb7c95e734dbd6676e984db51d94a4fd97ff87480e04f657f689dd4c02",
+    "data/naibbe-oracle/truth/la-shuffled-r0-deleted.json": "15a42ba65f4559cf22a172989139b63ddf9bf050da948814ab6d5d3d5e087b99",
+    "data/naibbe-oracle/truth/la-shuffled-r0-preserved.json": "577c0213e72e4f98b214292f9a0969c5397c6bd32d79b58a465892ff1f36ed28"
+  },
+  "cases": [
+    {
+      "name": "la-ordered-r0-preserved",
+      "language": "la",
+      "variant": "ordered-r0",
+      "mode": "preserved",
+      "test": "data/naibbe-oracle/tests/la-ordered-r0-preserved.json",
+      "truth": "data/naibbe-oracle/truth/la-ordered-r0-preserved.json",
+      "model": "data/naibbe-oracle/la/model.json"
+    },
+    {
+      "name": "la-ordered-r0-deleted",
+      "language": "la",
+      "variant": "ordered-r0",
+      "mode": "deleted",
+      "test": "data/naibbe-oracle/tests/la-ordered-r0-deleted.json",
+      "truth": "data/naibbe-oracle/truth/la-ordered-r0-deleted.json",
+      "model": "data/naibbe-oracle/la/model.json"
+    },
+    {
+      "name": "la-ordered-r1-preserved",
+      "language": "la",
+      "variant": "ordered-r1",
+      "mode": "preserved",
+      "test": "data/naibbe-oracle/tests/la-ordered-r1-preserved.json",
+      "truth": "data/naibbe-oracle/truth/la-ordered-r1-preserved.json",
+      "model": "data/naibbe-oracle/la/model.json"
+    },
+    {
+      "name": "la-ordered-r1-deleted",
+      "language": "la",
+      "variant": "ordered-r1",
+      "mode": "deleted",
+      "test": "data/naibbe-oracle/tests/la-ordered-r1-deleted.json",
+      "truth": "data/naibbe-oracle/truth/la-ordered-r1-deleted.json",
+      "model": "data/naibbe-oracle/la/model.json"
+    },
+    {
+      "name": "la-ordered-r2-preserved",
+      "language": "la",
+      "variant": "ordered-r2",
+      "mode": "preserved",
+      "test": "data/naibbe-oracle/tests/la-ordered-r2-preserved.json",
+      "truth": "data/naibbe-oracle/truth/la-ordered-r2-preserved.json",
+      "model": "data/naibbe-oracle/la/model.json"
+    },
+    {
+      "name": "la-ordered-r2-deleted",
+      "language": "la",
+      "variant": "ordered-r2",
+      "mode": "deleted",
+      "test": "data/naibbe-oracle/tests/la-ordered-r2-deleted.json",
+      "truth": "data/naibbe-oracle/truth/la-ordered-r2-deleted.json",
+      "model": "data/naibbe-oracle/la/model.json"
+    },
+    {
+      "name": "la-shuffled-r0-preserved",
+      "language": "la",
+      "variant": "shuffled-r0",
+      "mode": "preserved",
+      "test": "data/naibbe-oracle/tests/la-shuffled-r0-preserved.json",
+      "truth": "data/naibbe-oracle/truth/la-shuffled-r0-preserved.json",
+      "model": "data/naibbe-oracle/la/model.json"
+    },
+    {
+      "name": "la-shuffled-r0-deleted",
+      "language": "la",
+      "variant": "shuffled-r0",
+      "mode": "deleted",
+      "test": "data/naibbe-oracle/tests/la-shuffled-r0-deleted.json",
+      "truth": "data/naibbe-oracle/truth/la-shuffled-r0-deleted.json",
+      "model": "data/naibbe-oracle/la/model.json"
+    },
+    {
+      "name": "it-ordered-r0-preserved",
+      "language": "it",
+      "variant": "ordered-r0",
+      "mode": "preserved",
+      "test": "data/naibbe-oracle/tests/it-ordered-r0-preserved.json",
+      "truth": "data/naibbe-oracle/truth/it-ordered-r0-preserved.json",
+      "model": "data/naibbe-oracle/it/model.json"
+    },
+    {
+      "name": "it-ordered-r0-deleted",
+      "language": "it",
+      "variant": "ordered-r0",
+      "mode": "deleted",
+      "test": "data/naibbe-oracle/tests/it-ordered-r0-deleted.json",
+      "truth": "data/naibbe-oracle/truth/it-ordered-r0-deleted.json",
+      "model": "data/naibbe-oracle/it/model.json"
+    },
+    {
+      "name": "it-ordered-r1-preserved",
+      "language": "it",
+      "variant": "ordered-r1",
+      "mode": "preserved",
+      "test": "data/naibbe-oracle/tests/it-ordered-r1-preserved.json",
+      "truth": "data/naibbe-oracle/truth/it-ordered-r1-preserved.json",
+      "model": "data/naibbe-oracle/it/model.json"
+    },
+    {
+      "name": "it-ordered-r1-deleted",
+      "language": "it",
+      "variant": "ordered-r1",
+      "mode": "deleted",
+      "test": "data/naibbe-oracle/tests/it-ordered-r1-deleted.json",
+      "truth": "data/naibbe-oracle/truth/it-ordered-r1-deleted.json",
+      "model": "data/naibbe-oracle/it/model.json"
+    },
+    {
+      "name": "it-ordered-r2-preserved",
+      "language": "it",
+      "variant": "ordered-r2",
+      "mode": "preserved",
+      "test": "data/naibbe-oracle/tests/it-ordered-r2-preserved.json",
+      "truth": "data/naibbe-oracle/truth/it-ordered-r2-preserved.json",
+      "model": "data/naibbe-oracle/it/model.json"
+    },
+    {
+      "name": "it-ordered-r2-deleted",
+      "language": "it",
+      "variant": "ordered-r2",
+      "mode": "deleted",
+      "test": "data/naibbe-oracle/tests/it-ordered-r2-deleted.json",
+      "truth": "data/naibbe-oracle/truth/it-ordered-r2-deleted.json",
+      "model": "data/naibbe-oracle/it/model.json"
+    },
+    {
+      "name": "it-shuffled-r0-preserved",
+      "language": "it",
+      "variant": "shuffled-r0",
+      "mode": "preserved",
+      "test": "data/naibbe-oracle/tests/it-shuffled-r0-preserved.json",
+      "truth": "data/naibbe-oracle/truth/it-shuffled-r0-preserved.json",
+      "model": "data/naibbe-oracle/it/model.json"
+    },
+    {
+      "name": "it-shuffled-r0-deleted",
+      "language": "it",
+      "variant": "shuffled-r0",
+      "mode": "deleted",
+      "test": "data/naibbe-oracle/tests/it-shuffled-r0-deleted.json",
+      "truth": "data/naibbe-oracle/truth/it-shuffled-r0-deleted.json",
+      "model": "data/naibbe-oracle/it/model.json"
+    }
+  ]
+}

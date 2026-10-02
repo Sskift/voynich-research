@@ -1,0 +1,25 @@
+{
+  "status": "ALL_PREDICTIONS_SAVED_BEFORE_SCORING",
+  "hashes": {
+    "results/naibbe-oracle/predictions/it-ordered-r0-deleted.json": "3fcde03866081f3e5fe1191d1309f3d57929209282dd98ce0f13228bdc2f329d",
+    "results/naibbe-oracle/predictions/it-ordered-r0-preserved.json": "58ad756eee581a09b0329b5d5d09f8b20104c1cd49e0312149da67409336f37a",
+    "results/naibbe-oracle/predictions/it-ordered-r1-deleted.json": "967c296f61481d114e5e9ec80d241a29257cc2774f1ccde22666c10fa71d4549",
+    "results/naibbe-oracle/predictions/it-ordered-r1-preserved.json": "a92a4a41e029ae3751f5c72711db468332832172c709a47cc9031e2af6e42cfe",
+    "results/naibbe-oracle/predictions/it-ordered-r2-deleted.json": "bbea85c6d69b8ef73b48cdad5f40276e7e7c4c07ad35b774c34bd2178ede3f18",
+    "results/naibbe-oracle/predictions/it-ordered-r2-preserved.json": "3b9d1cab44a96564848cbd94e6b5279249912ef55aa5b342f661e20178e92bdc",
+    "results/naibbe-oracle/predictions/it-shuffled-r0-deleted.json": "81d07f0b408337bb71bbf4b0944627f87eb1854e75cd66895f06b2595a380ab3",
+    "results/naibbe-oracle/predictions/it-shuffled-r0-preserved.json": "0a8e338f7e12bae50dc60ba95dac5e82234f4b5cf6e63f85f2550bf742072874",
+    "results/naibbe-oracle/predictions/la-ordered-r0-deleted.json": "0eb8c829243c02e2585cf2d1bce13f1ca0b02bde4dbfd5374230e15f42ab2b09",
+    "results/naibbe-oracle/predictions/la-ordered-r0-preserved.json": "fb95748f3c579b098562f9896073fff22268f825e66e475ec1ccf521b8c34225",
+    "results/naibbe-oracle/predictions/la-ordered-r1-deleted.json": "04b8934659e0fcfbaa21a97484e4da8d4debcdc6263800acf5fa686b4257f962",
+    "results/naibbe-oracle/predictions/la-ordered-r1-preserved.json": "0290838ee3a2beea1a2d6ce3f58a488859aa198adc22e2db28cb76926a1057e9",
+    "results/naibbe-oracle/predictions/la-ordered-r2-deleted.json": "ee309c4cc6b9f89ed739881eea4c96f0d2441f2ba746f2b149aded2eb0e9c257",
+    "results/naibbe-oracle/predictions/la-ordered-r2-preserved.json": "9b0ccea1ae13ae08995821c575b2882f69b559c5f0c31f8d7c786a0403d11f6d",
+    "results/naibbe-oracle/predictions/la-shuffled-r0-deleted.json": "133e33dd568eed9dd612bb0f99d05d521bf41c3c2355ec1d502fbfe21a795551",
+    "results/naibbe-oracle/predictions/la-shuffled-r0-preserved.json": "7517e1eedf75a21c77e3eb90e45c57f529141b7c8358c2a3668a1e69c41c91ac"
+  },
+  "prepared_freeze_sha256": "d8ac6204ae47692d4192bf69cb718fe6ad2fb071c670a66672c8a7b9604f2110",
+  "input_freeze_sha256": "8fc013d5a3a7ba83a775799654562df8a2add1e8b3203acc66b6b8e75e2e057d",
+  "emission_rows_checked": 552,
+  "truth_access": "Only integrity hashing; no truth/source/trace parsed by prediction stage"
+}

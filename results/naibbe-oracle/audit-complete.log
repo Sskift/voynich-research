@@ -1,0 +1,41 @@
+{"stage": "inputs", "language": "la", "variant": "ordered-r0", "status": "PASS"}
+{"stage": "inputs", "language": "la", "variant": "ordered-r1", "status": "PASS"}
+{"stage": "inputs", "language": "la", "variant": "ordered-r2", "status": "PASS"}
+{"stage": "inputs", "language": "la", "variant": "shuffled-r0", "status": "PASS"}
+{"stage": "inputs", "language": "it", "variant": "ordered-r0", "status": "PASS"}
+{"stage": "inputs", "language": "it", "variant": "ordered-r1", "status": "PASS"}
+{"stage": "inputs", "language": "it", "variant": "ordered-r2", "status": "PASS"}
+{"stage": "inputs", "language": "it", "variant": "shuffled-r0", "status": "PASS"}
+{"stage": "recovery", "case": "la-ordered-r0-preserved", "status": "PASS"}
+{"stage": "recovery", "case": "la-ordered-r0-deleted", "status": "PASS"}
+{"stage": "recovery", "case": "la-ordered-r1-preserved", "status": "PASS"}
+{"stage": "recovery", "case": "la-ordered-r1-deleted", "status": "PASS"}
+{"stage": "recovery", "case": "la-ordered-r2-preserved", "status": "PASS"}
+{"stage": "recovery", "case": "la-ordered-r2-deleted", "status": "PASS"}
+{"stage": "recovery", "case": "la-shuffled-r0-preserved", "status": "PASS"}
+{"stage": "recovery", "case": "la-shuffled-r0-deleted", "status": "PASS"}
+{"stage": "recovery", "case": "it-ordered-r0-preserved", "status": "PASS"}
+{"stage": "recovery", "case": "it-ordered-r0-deleted", "status": "PASS"}
+{"stage": "recovery", "case": "it-ordered-r1-preserved", "status": "PASS"}
+{"stage": "recovery", "case": "it-ordered-r1-deleted", "status": "PASS"}
+{"stage": "recovery", "case": "it-ordered-r2-preserved", "status": "PASS"}
+{"stage": "recovery", "case": "it-ordered-r2-deleted", "status": "PASS"}
+{"stage": "recovery", "case": "it-shuffled-r0-preserved", "status": "PASS"}
+{"stage": "recovery", "case": "it-shuffled-r0-deleted", "status": "PASS"}
+{"stage": "isolation", "case": "la-ordered-r0-preserved", "status": "PASS"}
+{"stage": "isolation", "case": "la-ordered-r0-deleted", "status": "PASS"}
+{"stage": "isolation", "case": "la-ordered-r1-preserved", "status": "PASS"}
+{"stage": "isolation", "case": "la-ordered-r1-deleted", "status": "PASS"}
+{"stage": "isolation", "case": "la-ordered-r2-preserved", "status": "PASS"}
+{"stage": "isolation", "case": "la-ordered-r2-deleted", "status": "PASS"}
+{"stage": "isolation", "case": "la-shuffled-r0-preserved", "status": "PASS"}
+{"stage": "isolation", "case": "la-shuffled-r0-deleted", "status": "PASS"}
+{"stage": "isolation", "case": "it-ordered-r0-preserved", "status": "PASS"}
+{"stage": "isolation", "case": "it-ordered-r0-deleted", "status": "PASS"}
+{"stage": "isolation", "case": "it-ordered-r1-preserved", "status": "PASS"}
+{"stage": "isolation", "case": "it-ordered-r1-deleted", "status": "PASS"}
+{"stage": "isolation", "case": "it-ordered-r2-preserved", "status": "PASS"}
+{"stage": "isolation", "case": "it-ordered-r2-deleted", "status": "PASS"}
+{"stage": "isolation", "case": "it-shuffled-r0-preserved", "status": "PASS"}
+{"stage": "isolation", "case": "it-shuffled-r0-deleted", "status": "PASS"}
+{"status": "PASS", "stage": "complete", "counts": {"hash_assertions": 83, "numeric_comparisons": 27882, "raw_provenance_hashes": 2, "emission_rows": 552, "lm_training_characters": 677885, "lm_conditional_rows": 1156, "observed_tokens": 84557, "generation_rows": 512, "plaintext_letters_encoded": 65536, "card_draws": 68748, "unigram_collision_retries": 1606, "deleted_gaps": 1289, "unique_inverse_analyses": 14347, "inverse_candidate_strings": 37624, "maximum_local_candidate_count": 216, "prediction_method_rows": 2048}}

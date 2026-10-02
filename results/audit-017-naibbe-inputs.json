@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "stage": "prepared",
+  "audit_sha256": "73035fe877f62f4e91de05d7bc18f7ddf23633fbbe12ac4b9fa086dc2124852b",
+  "independent_reference_imports_production": false,
+  "limits": "Local inverse language is a deck-ignorant support superset. Viterbi is a path maximum, not a plaintext posterior.",
+  "prepared": {
+    "status": "PASS",
+    "input_hashes": 21,
+    "prepared_hashes": 44,
+    "direct_scope_only": true,
+    "reference_lm_arithmetic": "Exact Fraction backoff then float conversion",
+    "italian_scope": "Frozen records.text and raw provenance hash; no reinterpretation of older HTML extraction"
+  },
+  "counts": {
+    "hash_assertions": 65,
+    "numeric_comparisons": 27754,
+    "raw_provenance_hashes": 2,
+    "emission_rows": 552,
+    "lm_training_characters": 677885,
+    "lm_conditional_rows": 1156,
+    "observed_tokens": 84557,
+    "generation_rows": 512,
+    "plaintext_letters_encoded": 65536,
+    "card_draws": 68748,
+    "unigram_collision_retries": 1606,
+    "deleted_gaps": 1289
+  },
+  "maximum_errors": {
+    "general_numeric": 1.1102230246251565e-16
+  },
+  "unique_frozen_files_checked": 65
+}

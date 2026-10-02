@@ -1,0 +1,9 @@
+{"prepared": "la-ordered-r0", "rows": 64}
+{"prepared": "la-ordered-r1", "rows": 64}
+{"prepared": "la-ordered-r2", "rows": 64}
+{"prepared": "la-shuffled-r0", "rows": 64}
+{"prepared": "it-ordered-r0", "rows": 64}
+{"prepared": "it-ordered-r1", "rows": 64}
+{"prepared": "it-ordered-r2", "rows": 64}
+{"prepared": "it-shuffled-r0", "rows": 64}
+{"status": "PREPARATION_COMPLETE", "outputs": 44, "cases": 16}

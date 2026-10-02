@@ -1,0 +1,8 @@
+{
+  "status": "SCORED",
+  "hashes": {
+    "results/naibbe-oracle/row-scores.json": "665d21b85f41950c27c55ace64cc1d53aacf2869e961584c6afa24f40b31b693",
+    "results/naibbe-oracle/summary.json": "46cf54507ffce55485138e68b2a55682e38386975a36e0add73d040fb7d2f424"
+  },
+  "prediction_freeze_sha256": "b106b97074e3f3a5efb0fbdbb5ef87058dfe207d24ec5b53a433ce3b6041a291"
+}
