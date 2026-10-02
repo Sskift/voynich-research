@@ -18,14 +18,25 @@ Actualobjectives -3.92568685/-3.64211968, nullmeans -5.41442188/-5.76167011;
 bothshufflep.1,renamep.001. Do not compare raw language scores or call this reading.
 All018processes completed exit0, including calibrate83300 and attack76519. No live
 research process to resume. Source/LM/calibrationaudit and bothactualauditsPASS.
-Next: develop/freeze a mechanism test of cross-word information and local similar-
+Current uncompleted work: experiment019 protocol and implementation are DRAFT,
+NOT FROZEN and NOT RUN. notes/experiment-019-design.md, src/sequence_inputs.py
+and src/sequence_dependence.py specify cross-word information and local similar-
 word dependence, with cross-work encrypted prose and copy-generator controls.
+No019prepared inputs, calibration or native scores exist at this checkpoint.
+AST/CLI checks and src/check_sequence_statistics.py passed on synthetic toy data
+only: 10 layouts,260 probability gains,14400 edit-distance pairs,6 permutation/
+bootstrap tests and2 bijection comparisons; maximum numeric error5.55e-16.
+The toy checker is part of the draft and should be included in the future freeze.
+Next: finish pre-execution review, freeze inputs, prepare once, then calibrate all
+controls before any native scoring. Preserve the distinction between code progress
+and completed experimental evidence.
 notes/experiment-018-followup-review.md is a proposal ONLY, not frozen019; no new
 manuscript scores for it. Do not merely extend mapping freedom or repair pseudowords.
 Preserve all010–018frozeninputs/code/results; f49v remains UNSCORED.
 GitHubprivate repository: https://github.com/Sskift/voynich-research, main.
-Initial016snapshot d4b8db3;017/pre018snapshot62c5deb. This checkpoint adds completed
-018. Use git log for its commit ID. Repository creation/push explicitly authorized.
+Initial016snapshot d4b8db3;017/pre018snapshot62c5deb; completed018snapshot22298d2.
+This checkpoint backs up unrun019work. Use git log for its commit ID.
+Repository creation/push explicitly authorized.
 
 ## Current results
 

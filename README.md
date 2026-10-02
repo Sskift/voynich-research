@@ -8,6 +8,12 @@
 仍无可验证译文，较高拟合分数也不能识别语言。详见
 [第十四轮报告](notes/report-014-zh.md)与[当前研究状态](notes/STATE.md)。
 
+进行中的实验019已保存[方案草稿](notes/experiment-019-design.md)、输入准备和
+统计代码，拟检验跨词信息及局部相似词依赖。尚未冻结、准备数据或运行评分，
+因此本次代码进度备份不包含019的新研究结果。
+语法、命令行入口及独立玩具数据检查已通过；玩具检查可运行
+`.venv/bin/python -B src/check_sequence_statistics.py`，它不读取真实语料。
+
 实验017的全部72个频率条件均与所用拉丁参考上限冲突，但不是对整种语言
 的排除。见[第十三轮报告](notes/report-013-zh.md)。第十二轮报告另有
 [适用条件更正](notes/experiment-016-report-correction.md)。
