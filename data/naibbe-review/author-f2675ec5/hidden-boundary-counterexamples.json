@@ -1,0 +1,87 @@
+{
+  "scope": "STATIC_CODEBOOK_NON_UNIQUE_DECIPHERABILITY_WITNESSES_NOT_TEXT_RECOVERY",
+  "rule": "Unigrams plus bigram words with exactly one prefix/suffix code pair and not a unigram",
+  "witnesses": [
+    {
+      "observed": "yy",
+      "unsplit_plaintext": "ct",
+      "split": [
+        "y",
+        "y"
+      ],
+      "split_plaintext": "oo",
+      "unsplit_codes": [
+        [
+          "prefix_beta2_c",
+          "suffix_alpha_t"
+        ]
+      ],
+      "parts_accepted_by_strict_v2": true
+    },
+    {
+      "observed": "aly",
+      "unsplit_plaintext": "at",
+      "split": [
+        "al",
+        "y"
+      ],
+      "split_plaintext": "oo",
+      "unsplit_codes": [
+        [
+          "prefix_gamma2_a",
+          "suffix_alpha_t"
+        ]
+      ],
+      "parts_accepted_by_strict_v2": true
+    },
+    {
+      "observed": "ary",
+      "unsplit_plaintext": "tt",
+      "split": [
+        "ar",
+        "y"
+      ],
+      "split_plaintext": "eo",
+      "unsplit_codes": [
+        [
+          "prefix_beta3_t",
+          "suffix_alpha_t"
+        ]
+      ],
+      "parts_accepted_by_strict_v2": true
+    },
+    {
+      "observed": "day",
+      "unsplit_plaintext": "vt",
+      "split": [
+        "da",
+        "y"
+      ],
+      "split_plaintext": "mdo",
+      "unsplit_codes": [
+        [
+          "prefix_gamma1_v",
+          "suffix_alpha_t"
+        ]
+      ],
+      "parts_accepted_by_strict_v2": true
+    },
+    {
+      "observed": "ddy",
+      "unsplit_plaintext": "mi",
+      "split": [
+        "dd",
+        "y"
+      ],
+      "split_plaintext": "mno",
+      "unsplit_codes": [
+        [
+          "prefix_gamma2_m",
+          "suffix_alpha_i"
+        ]
+      ],
+      "parts_accepted_by_strict_v2": true
+    }
+  ],
+  "status": "EXPLORATORY_SOURCE_CODE_REVIEW_NOT_EXPERIMENT021"
+}

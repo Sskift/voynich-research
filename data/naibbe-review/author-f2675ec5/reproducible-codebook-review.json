@@ -1,0 +1,1619 @@
+{
+  "status": "EXPLORATORY_SOURCE_CODE_REVIEW_NOT_EXPERIMENT021",
+  "author_commit": "f2675ec5dd275268bc64dd48ea64fc0e0e9827a2",
+  "csv_sha256": "4e7cfd54b7ec66515d39a51e11ec97e8e19b643b0b189124eebc3982e707dcec",
+  "scope": "Finite codebook relations only; no author execution, corpus, manuscript, fitting or text recovery",
+  "rows": 414,
+  "letters": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "x",
+    "y",
+    "z"
+  ],
+  "missing_expected_26_alphabet_keys": [
+    "prefix_alpha_j",
+    "prefix_alpha_k",
+    "prefix_alpha_w",
+    "prefix_beta1_j",
+    "prefix_beta1_k",
+    "prefix_beta1_w",
+    "prefix_beta2_j",
+    "prefix_beta2_k",
+    "prefix_beta2_w",
+    "prefix_beta3_j",
+    "prefix_beta3_k",
+    "prefix_beta3_w",
+    "prefix_gamma1_j",
+    "prefix_gamma1_k",
+    "prefix_gamma1_w",
+    "prefix_gamma2_j",
+    "prefix_gamma2_k",
+    "prefix_gamma2_w",
+    "suffix_alpha_j",
+    "suffix_alpha_k",
+    "suffix_alpha_w",
+    "suffix_beta1_j",
+    "suffix_beta1_k",
+    "suffix_beta1_w",
+    "suffix_beta2_j",
+    "suffix_beta2_k",
+    "suffix_beta2_w",
+    "suffix_beta3_j",
+    "suffix_beta3_k",
+    "suffix_beta3_w",
+    "suffix_gamma1_j",
+    "suffix_gamma1_k",
+    "suffix_gamma1_w",
+    "suffix_gamma2_j",
+    "suffix_gamma2_k",
+    "suffix_gamma2_w",
+    "unigram_alpha_j",
+    "unigram_alpha_k",
+    "unigram_alpha_w",
+    "unigram_beta1_j",
+    "unigram_beta1_k",
+    "unigram_beta1_w",
+    "unigram_beta2_j",
+    "unigram_beta2_k",
+    "unigram_beta2_w",
+    "unigram_beta3_j",
+    "unigram_beta3_k",
+    "unigram_beta3_w",
+    "unigram_gamma1_j",
+    "unigram_gamma1_k",
+    "unigram_gamma1_w",
+    "unigram_gamma2_j",
+    "unigram_gamma2_k",
+    "unigram_gamma2_w"
+  ],
+  "within_role_different_letter_collisions": {
+    "unigram": {},
+    "prefix": {},
+    "suffix": {}
+  },
+  "unigram_bigram_collisions": {
+    "chckhey": {
+      "unigram": [
+        "d"
+      ],
+      "bigrams": [
+        "ae"
+      ]
+    },
+    "chckhy": {
+      "unigram": [
+        "e"
+      ],
+      "bigrams": [
+        "at"
+      ]
+    },
+    "chdy": {
+      "unigram": [
+        "a"
+      ],
+      "bigrams": [
+        "ei"
+      ]
+    },
+    "chedy": {
+      "unigram": [
+        "e"
+      ],
+      "bigrams": [
+        "ee"
+      ]
+    },
+    "cheedy": {
+      "unigram": [
+        "d"
+      ],
+      "bigrams": [
+        "er"
+      ]
+    },
+    "cheey": {
+      "unigram": [
+        "d"
+      ],
+      "bigrams": [
+        "eu"
+      ]
+    },
+    "cheol": {
+      "unigram": [
+        "a"
+      ],
+      "bigrams": [
+        "ea"
+      ]
+    },
+    "chey": {
+      "unigram": [
+        "c"
+      ],
+      "bigrams": [
+        "ee"
+      ]
+    },
+    "chol": {
+      "unigram": [
+        "a"
+      ],
+      "bigrams": [
+        "ee"
+      ]
+    },
+    "chor": {
+      "unigram": [
+        "d"
+      ],
+      "bigrams": [
+        "eo"
+      ]
+    },
+    "daiin": {
+      "unigram": [
+        "n"
+      ],
+      "bigrams": [
+        "ma",
+        "vq"
+      ]
+    },
+    "dain": {
+      "unigram": [
+        "n"
+      ],
+      "bigrams": [
+        "me",
+        "vz"
+      ]
+    },
+    "dair": {
+      "unigram": [
+        "n"
+      ],
+      "bigrams": [
+        "ma"
+      ]
+    },
+    "dal": {
+      "unigram": [
+        "n"
+      ],
+      "bigrams": [
+        "mn",
+        "vb"
+      ]
+    },
+    "dam": {
+      "unigram": [
+        "n"
+      ],
+      "bigrams": [
+        "mt",
+        "vi"
+      ]
+    },
+    "dar": {
+      "unigram": [
+        "e"
+      ],
+      "bigrams": [
+        "ms",
+        "vc"
+      ]
+    },
+    "dy": {
+      "unigram": [
+        "n"
+      ],
+      "bigrams": [
+        "mt"
+      ]
+    },
+    "lchedy": {
+      "unigram": [
+        "e"
+      ],
+      "bigrams": [
+        "ce"
+      ]
+    },
+    "lchey": {
+      "unigram": [
+        "c"
+      ],
+      "bigrams": [
+        "ce"
+      ]
+    },
+    "lkaiin": {
+      "unigram": [
+        "c"
+      ],
+      "bigrams": [
+        "sa"
+      ]
+    },
+    "lkain": {
+      "unigram": [
+        "d"
+      ],
+      "bigrams": [
+        "se"
+      ]
+    },
+    "okaiin": {
+      "unigram": [
+        "t"
+      ],
+      "bigrams": [
+        "ea"
+      ]
+    },
+    "okain": {
+      "unigram": [
+        "u"
+      ],
+      "bigrams": [
+        "ee"
+      ]
+    },
+    "okal": {
+      "unigram": [
+        "l"
+      ],
+      "bigrams": [
+        "en"
+      ]
+    },
+    "okar": {
+      "unigram": [
+        "m"
+      ],
+      "bigrams": [
+        "es"
+      ]
+    },
+    "okchdy": {
+      "unigram": [
+        "b"
+      ],
+      "bigrams": [
+        "ni"
+      ]
+    },
+    "okchedy": {
+      "unigram": [
+        "h"
+      ],
+      "bigrams": [
+        "ne"
+      ]
+    },
+    "okchey": {
+      "unigram": [
+        "f"
+      ],
+      "bigrams": [
+        "ne"
+      ]
+    },
+    "okchy": {
+      "unigram": [
+        "g"
+      ],
+      "bigrams": [
+        "nt"
+      ]
+    },
+    "okdy": {
+      "unigram": [
+        "y"
+      ],
+      "bigrams": [
+        "ei"
+      ]
+    },
+    "okedy": {
+      "unigram": [
+        "c"
+      ],
+      "bigrams": [
+        "ee"
+      ]
+    },
+    "okeedy": {
+      "unigram": [
+        "r"
+      ],
+      "bigrams": [
+        "er"
+      ]
+    },
+    "okeeedy": {
+      "unigram": [
+        "z"
+      ],
+      "bigrams": [
+        "eo"
+      ]
+    },
+    "okeey": {
+      "unigram": [
+        "s"
+      ],
+      "bigrams": [
+        "eu"
+      ]
+    },
+    "okey": {
+      "unigram": [
+        "v"
+      ],
+      "bigrams": [
+        "ee"
+      ]
+    },
+    "okol": {
+      "unigram": [
+        "q"
+      ],
+      "bigrams": [
+        "ee"
+      ]
+    },
+    "okor": {
+      "unigram": [
+        "x"
+      ],
+      "bigrams": [
+        "eo"
+      ]
+    },
+    "oky": {
+      "unigram": [
+        "p"
+      ],
+      "bigrams": [
+        "et"
+      ]
+    },
+    "ol": {
+      "unigram": [
+        "a"
+      ],
+      "bigrams": [
+        "db"
+      ]
+    },
+    "olkaiin": {
+      "unigram": [
+        "t"
+      ],
+      "bigrams": [
+        "ua"
+      ]
+    },
+    "olkain": {
+      "unigram": [
+        "u"
+      ],
+      "bigrams": [
+        "ue"
+      ]
+    },
+    "olkal": {
+      "unigram": [
+        "l"
+      ],
+      "bigrams": [
+        "un"
+      ]
+    },
+    "olkar": {
+      "unigram": [
+        "m"
+      ],
+      "bigrams": [
+        "us"
+      ]
+    },
+    "olkdy": {
+      "unigram": [
+        "y"
+      ],
+      "bigrams": [
+        "ui"
+      ]
+    },
+    "olkedy": {
+      "unigram": [
+        "d"
+      ],
+      "bigrams": [
+        "ue"
+      ]
+    },
+    "olkeedy": {
+      "unigram": [
+        "r"
+      ],
+      "bigrams": [
+        "ur"
+      ]
+    },
+    "olkeeedy": {
+      "unigram": [
+        "z"
+      ],
+      "bigrams": [
+        "uo"
+      ]
+    },
+    "olkeey": {
+      "unigram": [
+        "s"
+      ],
+      "bigrams": [
+        "uu"
+      ]
+    },
+    "olkey": {
+      "unigram": [
+        "v"
+      ],
+      "bigrams": [
+        "ue"
+      ]
+    },
+    "olkol": {
+      "unigram": [
+        "q"
+      ],
+      "bigrams": [
+        "ue"
+      ]
+    },
+    "olkor": {
+      "unigram": [
+        "x"
+      ],
+      "bigrams": [
+        "uo"
+      ]
+    },
+    "olky": {
+      "unigram": [
+        "p"
+      ],
+      "bigrams": [
+        "ut"
+      ]
+    },
+    "or": {
+      "unigram": [
+        "a"
+      ],
+      "bigrams": [
+        "dc"
+      ]
+    },
+    "otaiin": {
+      "unigram": [
+        "t"
+      ],
+      "bigrams": [
+        "ua"
+      ]
+    },
+    "otain": {
+      "unigram": [
+        "u"
+      ],
+      "bigrams": [
+        "ue"
+      ]
+    },
+    "otal": {
+      "unigram": [
+        "l"
+      ],
+      "bigrams": [
+        "un"
+      ]
+    },
+    "otar": {
+      "unigram": [
+        "m"
+      ],
+      "bigrams": [
+        "us"
+      ]
+    },
+    "otchdy": {
+      "unigram": [
+        "b"
+      ],
+      "bigrams": [
+        "ri"
+      ]
+    },
+    "otchedy": {
+      "unigram": [
+        "h"
+      ],
+      "bigrams": [
+        "re"
+      ]
+    },
+    "otchey": {
+      "unigram": [
+        "f"
+      ],
+      "bigrams": [
+        "re"
+      ]
+    },
+    "otchy": {
+      "unigram": [
+        "g"
+      ],
+      "bigrams": [
+        "rt"
+      ]
+    },
+    "otdy": {
+      "unigram": [
+        "y"
+      ],
+      "bigrams": [
+        "ui"
+      ]
+    },
+    "otedy": {
+      "unigram": [
+        "i"
+      ],
+      "bigrams": [
+        "ue"
+      ]
+    },
+    "oteedy": {
+      "unigram": [
+        "r"
+      ],
+      "bigrams": [
+        "ur"
+      ]
+    },
+    "oteeedy": {
+      "unigram": [
+        "z"
+      ],
+      "bigrams": [
+        "uo"
+      ]
+    },
+    "oteey": {
+      "unigram": [
+        "s"
+      ],
+      "bigrams": [
+        "uu"
+      ]
+    },
+    "otey": {
+      "unigram": [
+        "v"
+      ],
+      "bigrams": [
+        "ue"
+      ]
+    },
+    "otol": {
+      "unigram": [
+        "q"
+      ],
+      "bigrams": [
+        "ue"
+      ]
+    },
+    "otor": {
+      "unigram": [
+        "x"
+      ],
+      "bigrams": [
+        "uo"
+      ]
+    },
+    "oty": {
+      "unigram": [
+        "p"
+      ],
+      "bigrams": [
+        "ut"
+      ]
+    },
+    "qokaiin": {
+      "unigram": [
+        "t"
+      ],
+      "bigrams": [
+        "ta"
+      ]
+    },
+    "qokain": {
+      "unigram": [
+        "u"
+      ],
+      "bigrams": [
+        "te"
+      ]
+    },
+    "qokal": {
+      "unigram": [
+        "l"
+      ],
+      "bigrams": [
+        "tn"
+      ]
+    },
+    "qokar": {
+      "unigram": [
+        "m"
+      ],
+      "bigrams": [
+        "ts"
+      ]
+    },
+    "qokchdy": {
+      "unigram": [
+        "b"
+      ],
+      "bigrams": [
+        "li"
+      ]
+    },
+    "qokchedy": {
+      "unigram": [
+        "h"
+      ],
+      "bigrams": [
+        "le"
+      ]
+    },
+    "qokchey": {
+      "unigram": [
+        "f"
+      ],
+      "bigrams": [
+        "le"
+      ]
+    },
+    "qokchy": {
+      "unigram": [
+        "g"
+      ],
+      "bigrams": [
+        "lt"
+      ]
+    },
+    "qokdy": {
+      "unigram": [
+        "y"
+      ],
+      "bigrams": [
+        "ti"
+      ]
+    },
+    "qokedy": {
+      "unigram": [
+        "i"
+      ],
+      "bigrams": [
+        "te"
+      ]
+    },
+    "qokeedy": {
+      "unigram": [
+        "r"
+      ],
+      "bigrams": [
+        "tr"
+      ]
+    },
+    "qokeeedy": {
+      "unigram": [
+        "z"
+      ],
+      "bigrams": [
+        "to"
+      ]
+    },
+    "qokeey": {
+      "unigram": [
+        "s"
+      ],
+      "bigrams": [
+        "tu"
+      ]
+    },
+    "qokey": {
+      "unigram": [
+        "v"
+      ],
+      "bigrams": [
+        "te"
+      ]
+    },
+    "qokol": {
+      "unigram": [
+        "q"
+      ],
+      "bigrams": [
+        "te"
+      ]
+    },
+    "qokor": {
+      "unigram": [
+        "x"
+      ],
+      "bigrams": [
+        "to"
+      ]
+    },
+    "qoky": {
+      "unigram": [
+        "p"
+      ],
+      "bigrams": [
+        "tt"
+      ]
+    },
+    "qol": {
+      "unigram": [
+        "a"
+      ],
+      "bigrams": [
+        "eb",
+        "me"
+      ]
+    },
+    "qotaiin": {
+      "unigram": [
+        "t"
+      ],
+      "bigrams": [
+        "ia"
+      ]
+    },
+    "qotain": {
+      "unigram": [
+        "u"
+      ],
+      "bigrams": [
+        "ie"
+      ]
+    },
+    "qotal": {
+      "unigram": [
+        "l"
+      ],
+      "bigrams": [
+        "in"
+      ]
+    },
+    "qotar": {
+      "unigram": [
+        "m"
+      ],
+      "bigrams": [
+        "is"
+      ]
+    },
+    "qotchdy": {
+      "unigram": [
+        "b"
+      ],
+      "bigrams": [
+        "hi"
+      ]
+    },
+    "qotchedy": {
+      "unigram": [
+        "h"
+      ],
+      "bigrams": [
+        "he"
+      ]
+    },
+    "qotchey": {
+      "unigram": [
+        "f"
+      ],
+      "bigrams": [
+        "he"
+      ]
+    },
+    "qotchy": {
+      "unigram": [
+        "g"
+      ],
+      "bigrams": [
+        "ht"
+      ]
+    },
+    "qotdy": {
+      "unigram": [
+        "y"
+      ],
+      "bigrams": [
+        "ii"
+      ]
+    },
+    "qotedy": {
+      "unigram": [
+        "i"
+      ],
+      "bigrams": [
+        "ie"
+      ]
+    },
+    "qoteedy": {
+      "unigram": [
+        "r"
+      ],
+      "bigrams": [
+        "ir"
+      ]
+    },
+    "qoteeedy": {
+      "unigram": [
+        "z"
+      ],
+      "bigrams": [
+        "io"
+      ]
+    },
+    "qoteey": {
+      "unigram": [
+        "s"
+      ],
+      "bigrams": [
+        "iu"
+      ]
+    },
+    "qotey": {
+      "unigram": [
+        "v"
+      ],
+      "bigrams": [
+        "ie"
+      ]
+    },
+    "qotol": {
+      "unigram": [
+        "q"
+      ],
+      "bigrams": [
+        "ie"
+      ]
+    },
+    "qotor": {
+      "unigram": [
+        "x"
+      ],
+      "bigrams": [
+        "io"
+      ]
+    },
+    "qoty": {
+      "unigram": [
+        "p"
+      ],
+      "bigrams": [
+        "it"
+      ]
+    },
+    "raiin": {
+      "unigram": [
+        "i"
+      ],
+      "bigrams": [
+        "oa"
+      ]
+    },
+    "saiin": {
+      "unigram": [
+        "l"
+      ],
+      "bigrams": [
+        "ma"
+      ]
+    },
+    "sain": {
+      "unigram": [
+        "m"
+      ],
+      "bigrams": [
+        "me"
+      ]
+    },
+    "sar": {
+      "unigram": [
+        "c"
+      ],
+      "bigrams": [
+        "ms"
+      ]
+    },
+    "shaiin": {
+      "unigram": [
+        "x"
+      ],
+      "bigrams": [
+        "aa"
+      ]
+    },
+    "shain": {
+      "unigram": [
+        "y"
+      ],
+      "bigrams": [
+        "ae"
+      ]
+    },
+    "shal": {
+      "unigram": [
+        "f"
+      ],
+      "bigrams": [
+        "an"
+      ]
+    },
+    "shar": {
+      "unigram": [
+        "g"
+      ],
+      "bigrams": [
+        "as"
+      ]
+    },
+    "shckhy": {
+      "unigram": [
+        "c"
+      ],
+      "bigrams": [
+        "ft"
+      ]
+    },
+    "shedy": {
+      "unigram": [
+        "i"
+      ],
+      "bigrams": [
+        "ae"
+      ]
+    },
+    "sheedy": {
+      "unigram": [
+        "u"
+      ],
+      "bigrams": [
+        "ar"
+      ]
+    },
+    "sheeey": {
+      "unigram": [
+        "z"
+      ],
+      "bigrams": [
+        "ac"
+      ]
+    },
+    "sheey": {
+      "unigram": [
+        "t"
+      ],
+      "bigrams": [
+        "au"
+      ]
+    },
+    "sheody": {
+      "unigram": [
+        "p"
+      ],
+      "bigrams": [
+        "ai"
+      ]
+    },
+    "sheol": {
+      "unigram": [
+        "r"
+      ],
+      "bigrams": [
+        "aa"
+      ]
+    },
+    "shey": {
+      "unigram": [
+        "i"
+      ],
+      "bigrams": [
+        "ae"
+      ]
+    },
+    "shody": {
+      "unigram": [
+        "q"
+      ],
+      "bigrams": [
+        "am"
+      ]
+    },
+    "shol": {
+      "unigram": [
+        "s"
+      ],
+      "bigrams": [
+        "ae"
+      ]
+    },
+    "shor": {
+      "unigram": [
+        "v"
+      ],
+      "bigrams": [
+        "ao"
+      ]
+    },
+    "shy": {
+      "unigram": [
+        "h"
+      ],
+      "bigrams": [
+        "at"
+      ]
+    }
+  },
+  "cross_bigram_different_plaintext_collisions": {
+    "doly": [
+      "bt",
+      "md"
+    ],
+    "dols": [
+      "br",
+      "mq"
+    ],
+    "ody": [
+      "di",
+      "tt"
+    ],
+    "odaiin": [
+      "dr",
+      "ta"
+    ],
+    "osy": [
+      "dv",
+      "nt"
+    ],
+    "odol": [
+      "dd",
+      "te"
+    ],
+    "odaiiin": [
+      "df",
+      "tc"
+    ],
+    "osaiin": [
+      "dg",
+      "na"
+    ],
+    "odain": [
+      "dm",
+      "te"
+    ],
+    "osdy": [
+      "dv",
+      "ni"
+    ],
+    "odo": [
+      "df",
+      "ti"
+    ],
+    "osd": [
+      "dv",
+      "nn"
+    ],
+    "odal": [
+      "da",
+      "tn"
+    ],
+    "odaly": [
+      "dl",
+      "ta"
+    ],
+    "odor": [
+      "dm",
+      "to"
+    ],
+    "odair": [
+      "do",
+      "ta"
+    ],
+    "odam": [
+      "dr",
+      "tt"
+    ],
+    "odl": [
+      "dx",
+      "tb"
+    ],
+    "ory": [
+      "dy",
+      "st"
+    ],
+    "odar": [
+      "de",
+      "ts"
+    ],
+    "lsy": [
+      "at",
+      "mv"
+    ],
+    "lsaiin": [
+      "aa",
+      "mg"
+    ],
+    "lsdy": [
+      "ai",
+      "mv"
+    ],
+    "lsd": [
+      "an",
+      "mv"
+    ],
+    "lyl": [
+      "fb",
+      "my"
+    ],
+    "lyr": [
+      "fc",
+      "my"
+    ],
+    "ryl": [
+      "oy",
+      "yb"
+    ],
+    "ryr": [
+      "oy",
+      "yc"
+    ],
+    "olsaiin": [
+      "eg",
+      "za"
+    ],
+    "olsdy": [
+      "ev",
+      "zi"
+    ],
+    "olsy": [
+      "ev",
+      "zt"
+    ],
+    "olsd": [
+      "ev",
+      "zn"
+    ],
+    "daly": [
+      "dt",
+      "ma"
+    ],
+    "dalsy": [
+      "dv",
+      "mz"
+    ],
+    "dals": [
+      "dr",
+      "mq"
+    ],
+    "dalyl": [
+      "dy",
+      "vb"
+    ],
+    "dalyr": [
+      "dy",
+      "vc"
+    ],
+    "sody": [
+      "mm",
+      "zi"
+    ],
+    "sor": [
+      "mo",
+      "zc"
+    ],
+    "soin": [
+      "my",
+      "zz"
+    ],
+    "sory": [
+      "mb",
+      "tt",
+      "zy"
+    ],
+    "sals": [
+      "ir",
+      "mq"
+    ],
+    "soy": [
+      "mb",
+      "zt"
+    ],
+    "sol": [
+      "me",
+      "zb"
+    ],
+    "soiin": [
+      "mn",
+      "zq"
+    ],
+    "sosy": [
+      "my",
+      "zv"
+    ],
+    "soly": [
+      "md",
+      "st"
+    ],
+    "sols": [
+      "mq",
+      "sr"
+    ],
+    "syl": [
+      "gb",
+      "my"
+    ],
+    "sod": [
+      "mi",
+      "zn"
+    ],
+    "sary": [
+      "mt",
+      "vt"
+    ],
+    "saly": [
+      "it",
+      "ma"
+    ],
+    "soiiin": [
+      "mq",
+      "zf"
+    ],
+    "sos": [
+      "ms",
+      "zr"
+    ],
+    "som": [
+      "mt",
+      "zi"
+    ],
+    "syr": [
+      "gc",
+      "my"
+    ],
+    "salsy": [
+      "iv",
+      "mz"
+    ],
+    "oryl": [
+      "hb",
+      "sy"
+    ],
+    "oryr": [
+      "hc",
+      "sy"
+    ],
+    "dory": [
+      "bt",
+      "mb",
+      "xy"
+    ],
+    "olyl": [
+      "ey",
+      "nb"
+    ],
+    "olyr": [
+      "ey",
+      "nc"
+    ],
+    "alyl": [
+      "ay",
+      "hb"
+    ],
+    "alyr": [
+      "ay",
+      "hc"
+    ],
+    "daryl": [
+      "dy",
+      "qb"
+    ],
+    "daryr": [
+      "dy",
+      "qc"
+    ],
+    "odyl": [
+      "ob",
+      "ty"
+    ],
+    "odyr": [
+      "oc",
+      "ty"
+    ],
+    "dol": [
+      "me",
+      "xb"
+    ],
+    "dody": [
+      "mm",
+      "xi"
+    ],
+    "doiin": [
+      "mn",
+      "xq"
+    ],
+    "doy": [
+      "mb",
+      "xt"
+    ],
+    "dor": [
+      "mo",
+      "xc"
+    ],
+    "doiiin": [
+      "mq",
+      "xf"
+    ],
+    "dod": [
+      "mi",
+      "xn"
+    ],
+    "dosy": [
+      "my",
+      "xv"
+    ],
+    "dos": [
+      "ms",
+      "xr"
+    ],
+    "doin": [
+      "my",
+      "xz"
+    ],
+    "dom": [
+      "mt",
+      "xi"
+    ],
+    "dary": [
+      "dt",
+      "mt",
+      "vy"
+    ],
+    "qol": [
+      "eb",
+      "me"
+    ],
+    "qody": [
+      "ei",
+      "mm"
+    ],
+    "qoiin": [
+      "eq",
+      "mn"
+    ],
+    "qoy": [
+      "et",
+      "mb"
+    ],
+    "qor": [
+      "ec",
+      "mo"
+    ],
+    "qoiiin": [
+      "ef",
+      "mq"
+    ],
+    "qod": [
+      "en",
+      "mi"
+    ],
+    "qosy": [
+      "ev",
+      "my"
+    ],
+    "qos": [
+      "er",
+      "ms"
+    ],
+    "qory": [
+      "ey",
+      "mb",
+      "pt"
+    ],
+    "qoin": [
+      "ez",
+      "my"
+    ],
+    "qom": [
+      "ei",
+      "mt"
+    ],
+    "aryl": [
+      "bb",
+      "ty"
+    ],
+    "aryr": [
+      "bc",
+      "ty"
+    ],
+    "qoly": [
+      "dt",
+      "md"
+    ],
+    "qols": [
+      "dr",
+      "mq"
+    ],
+    "dal": [
+      "mn",
+      "vb"
+    ],
+    "dady": [
+      "mz",
+      "vi"
+    ],
+    "daiin": [
+      "ma",
+      "vq"
+    ],
+    "dar": [
+      "ms",
+      "vc"
+    ],
+    "daiiin": [
+      "mc",
+      "vf"
+    ],
+    "das": [
+      "mp",
+      "vr"
+    ],
+    "dain": [
+      "me",
+      "vz"
+    ],
+    "daiir": [
+      "mc",
+      "vg"
+    ],
+    "dam": [
+      "mt",
+      "vi"
+    ]
+  },
+  "bigram_without_unique_codepair_choice": [],
+  "distinct_bigram_words": 18935,
+  "unambiguous_unique_codepair_bigram_words": 18711,
+  "hidden_boundary_witnesses": [
+    {
+      "observed": "yy",
+      "unsplit_plaintext": "ct",
+      "split": [
+        "y",
+        "y"
+      ],
+      "split_plaintext": "oo",
+      "unsplit_codes": [
+        [
+          "prefix_beta2_c",
+          "suffix_alpha_t"
+        ]
+      ],
+      "parts_accepted_by_strict_v2": true
+    },
+    {
+      "observed": "aly",
+      "unsplit_plaintext": "at",
+      "split": [
+        "al",
+        "y"
+      ],
+      "split_plaintext": "oo",
+      "unsplit_codes": [
+        [
+          "prefix_gamma2_a",
+          "suffix_alpha_t"
+        ]
+      ],
+      "parts_accepted_by_strict_v2": true
+    },
+    {
+      "observed": "ary",
+      "unsplit_plaintext": "tt",
+      "split": [
+        "ar",
+        "y"
+      ],
+      "split_plaintext": "eo",
+      "unsplit_codes": [
+        [
+          "prefix_beta3_t",
+          "suffix_alpha_t"
+        ]
+      ],
+      "parts_accepted_by_strict_v2": true
+    },
+    {
+      "observed": "day",
+      "unsplit_plaintext": "vt",
+      "split": [
+        "da",
+        "y"
+      ],
+      "split_plaintext": "mdo",
+      "unsplit_codes": [
+        [
+          "prefix_gamma1_v",
+          "suffix_alpha_t"
+        ]
+      ],
+      "parts_accepted_by_strict_v2": true
+    },
+    {
+      "observed": "ddy",
+      "unsplit_plaintext": "mi",
+      "split": [
+        "dd",
+        "y"
+      ],
+      "split_plaintext": "mno",
+      "unsplit_codes": [
+        [
+          "prefix_gamma2_m",
+          "suffix_alpha_i"
+        ]
+      ],
+      "parts_accepted_by_strict_v2": true
+    }
+  ],
+  "interpretation": {
+    "unigram_bigram_collision_types": 125,
+    "different_plaintext_bigram_collision_types": 105,
+    "jkw_missing_keys_are_cleaner_normalizations": true,
+    "hidden_boundary_channel_is_not_injective": true,
+    "caveat": "Same normalized letters may have multiple code choices; retry fallback remains a separate implementation limitation."
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "status": "EXPLORATORY_SOURCE_CODE_REVIEW_NOT_EXPERIMENT021",
+  "author_commit": "f2675ec5dd275268bc64dd48ea64fc0e0e9827a2",
+  "paper": {
+    "doi": "10.1080/01611194.2025.2566408",
+    "published_url": "https://www.tandfonline.com/doi/full/10.1080/01611194.2025.2566408",
+    "local_full_paper_pdf_obtained": false,
+    "reason": "Publisher PDF and direct full-page access returned403. Substantial published-text sections were available through the primary publisher search index; this is not a claim that the full PDF was archived.",
+    "sections_consulted": [
+      "2.1 plaintext preparation",
+      "2.2 tables",
+      "2.4 example",
+      "2.5 decryption",
+      "3.3 fitted frequency-rank structure",
+      "4.1 rare-type coverage",
+      "4.4 information density",
+      "5 conclusion"
+    ],
+    "supplement_local": "supplementary-materials-1-4.pdf",
+    "supplement_record": "https://zenodo.org/records/17219445",
+    "supplement_version": "2.1",
+    "supplement_md5_verified": true
+  },
+  "licensing": {
+    "repository_LICENSE": "Standard MIT text; preserved unchanged.",
+    "README_and_python_headers": "Modified MIT notice additionally requires publication citation. Preserve notices and cite Greshko2025; do not relabel the whole archive as only standard MIT.",
+    "zenodo_metadata_license": "CC-BY-4.0",
+    "publisher_article_license": "CC-BY-4.0 per primary publisher/Crossref metadata"
+  },
+  "mechanism": {
+    "normalization": "Remove original spaces/case/punctuation/numerals/diacritics; W->UU,J->I,K->C; supported source table alphabet has23 letters.",
+    "random_units": "Single-letter probability17/36 except final forced singleton; otherwise a two-letter unit. These are newly inserted token boundaries, not original words.",
+    "emission": "One source letter in unigram role becomes a full cipherword; a bigram becomes prefix(first source letter)+suffix(second source letter). Six table choices per role use a shuffled weighted52/78-card deck, consumed without replacement and replenished.",
+    "line_reset": "Base/v2 encoder cleans and encodes each source line separately, with a new deck.",
+    "collision_modes": "Base naibbe.py rejects only collisions with unigram outputs. naibbe_v2.py additionally rejects any different prefix/suffix code pair sharing the emitted string; after10000 failed attempts it emits the last pair anyway.",
+    "cipher_spacing": "A separate output optionally removes each ciphertext token gap with default probability.03.",
+    "reuse_extension": "Copies prior ciphertext only for the same normalized plaintext signature; row-local history. This is homophone reuse, not substitution of unrelated plaintext."
+  },
+  "necessary_conditions": [
+    "With observed cipher-token boundaries, supported complete codebook, functional unigram inverse, and every bigram actually passing strict collision checks without fallback, inverse reconstruction of the normalized unspaced source letter stream is possible without knowing card draws.",
+    "Original spelling/word boundaries are not encoded and cannot be recovered as cipher information.",
+    "After cipher-gap deletion, unique recovery additionally requires unique decipherability of the variable-length codebook or an external disambiguating constraint. The current strict-v2 codebook fails this property.",
+    "The fixed paper structure emits one or two normalized source letters per token before gap deletion. Joined runs ofr tokens emit at mostr*2 letters, not arbitrary full plaintext words by default."
+  ],
+  "exact_counterexample": {
+    "observation": "yy",
+    "path1": {
+      "plaintext": "ct",
+      "codes": [
+        "prefix_beta2_c",
+        "suffix_alpha_t"
+      ],
+      "cipher_tokens": [
+        "yy"
+      ]
+    },
+    "path2": {
+      "plaintext": "oo",
+      "codes": [
+        "unigram_beta3_o",
+        "unigram_beta3_o"
+      ],
+      "cipher_tokens": [
+        "y",
+        "y"
+      ],
+      "deleted_cipher_gaps": [
+        0
+      ]
+    },
+    "csv_lines": [
+      83,
+      188,
+      295
+    ],
+    "independent_child_review": "Confirmed CSV keys, unique strict-v2 codepair, supported normalization,52/78-card counts and positive respacing/deletion probabilities; no author code/native execution.",
+    "positive_paths_52": {
+      "ct": "(19/36)*(8/52)*(20/51)",
+      "oo": "(17/36)*(8/52)*(7/51)*.03"
+    },
+    "positive_paths_78": {
+      "ct": "(19/36)*(11/78)*(28/77)",
+      "oo": "(17/36)*(11/78)*(10/77)*.03"
+    },
+    "scope": "Overlapping observation support for two different normalized sources when draws/deletion mask are unobserved; not a same-known-RNG collision. Applies to random respacing; CT is not a CV/VC bigram."
+  },
+  "implementation_cautions": [
+    {
+      "file": "naibbe_v2.py",
+      "line": 202,
+      "claim": "Retry-cap fallback can bypass the strict ambiguity checks."
+    },
+    {
+      "file": "decrypt_naibbe.py",
+      "line": 45,
+      "claim": "Single-valued inverse dict would overwrite differing-letter glyph collisions; current downloaded CSV has none within any role."
+    },
+    {
+      "file": "decrypt_naibbe.py",
+      "line": 76,
+      "claim": "Default prefers unigram and considers compounds only if direct parse fails."
+    },
+    {
+      "file": "decrypt_naibbe.py",
+      "line": 115,
+      "claim": "Compound parsing allows only two CSV atomic-glyph pieces, not arbitrary joined legal codewords."
+    },
+    {
+      "file": "naibbe_cv_vc_reuse.py",
+      "line": 552,
+      "claim": "Several CLI options are parsed but main keeps file-level globals; do not assume parameter switches took effect."
+    },
+    {
+      "file": "naibbe_cv_vc_reuse.py",
+      "line": 273,
+      "claim": "Aligned reuse can search beyond proposed lag caps and resets history per line; proposal distribution is not accepted lag distribution."
+    }
+  ],
+  "prior_experiments_boundary": "Different from fixed cipherglyph->1/2 plaintext characters: Naibbe replaces source letters with whole strings and role-dependent affixes, so one output glyph has no fixed inverse. Unlike hidden-SPACE glyph substitution it deletes original spaces before new grouping. Unlike vowel omission it retains all normalized source letters in order before optional cipher-gap deletion.",
+  "evidence_limit": "Constructive compatibility/example generation and fitted surface statistics do not identify the manuscript mechanism or provide its key/translation. The paper explicitly derives several design choices from Voynich B frequency-rank fitting, so those same fits are not untouched prediction tests.",
+  "next_experiment_proposal": {
+    "name": "Prospective identifiability and blind normalized-text recovery for a fixed verbose fragment channel",
+    "stage1": "Freeze exact codebook relation and independent arbitrary-token inverse parser. Oracle-key tests on new heldout sources measure true-stream candidate coverage and unique inverse rate for preserved boundaries vs fixed.03 gap deletion, retaining every ambiguous case.",
+    "stage2": "Predefine an unknown-key family before ciphertext generation; hide plaintext-letter assignments while retaining only declared public codebook structure. Fit one key on training ciphertext, then freeze it and decode a separate work without refitting. Primary outcomes are actual normalized-character/whole-segment correctness and calibrated error/abstention, not entropy resemblance.",
+    "controls": "Fresh natural source works plus same-alphabet IID and order-destroyed sources passed through the same frozen encoder; wrong-language controls and true-key oracle identify search failures. CV/VC variants require plaintext-side controls rather than unconstrained cipher-token permutations.",
+    "scope": "A proposed experiment only: no new source generation, native scoring, parameter fit, or preregistered021 result in this review."
+  },
+  "source_urls": {
+    "naibbe.py": "https://github.com/greshko/naibbe-cipher/blob/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/naibbe.py",
+    "naibbe_v2.py": "https://github.com/greshko/naibbe-cipher/blob/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/naibbe_v2.py",
+    "naibbe_cv_vc_reuse.py": "https://github.com/greshko/naibbe-cipher/blob/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/naibbe_cv_vc_reuse.py",
+    "decrypt_naibbe.py": "https://github.com/greshko/naibbe-cipher/blob/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/decrypt_naibbe.py",
+    "references/naibbe_tables.csv": "https://github.com/greshko/naibbe-cipher/blob/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/references/naibbe_tables.csv"
+  }
+}

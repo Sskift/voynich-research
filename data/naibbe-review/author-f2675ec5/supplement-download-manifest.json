@@ -1,0 +1,26 @@
+{
+  "retrieved_utc": "2026-10-02T10:09:40.499745+00:00",
+  "files": [
+    {
+      "url": "https://zenodo.org/api/records/17219445",
+      "path": "data/naibbe-review/author-f2675ec5/zenodo-17219445-metadata.json",
+      "sha256": "3bb4490551c340dfc4f1bb02cc4c5525c7d895c9fea2f10aeb75ab6faa6f97c5",
+      "bytes": 9098,
+      "publisher_checksum": null
+    },
+    {
+      "url": "https://zenodo.org/api/records/17219445/files/Greshko%202025%20-%20Supplementary%20Materials%201%E2%80%934.pdf/content",
+      "path": "data/naibbe-review/author-f2675ec5/supplementary-materials-1-4.pdf",
+      "sha256": "badd602dd3a5f831fe79ed434ee7bada9da35b435531bfa979f5a85c9848bf0e",
+      "bytes": 2563905,
+      "publisher_checksum": "md5:562fecb3b3bd80ee9e3f307d05383f06"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/references/naibbe_tables.csv",
+      "path": "data/naibbe-review/author-f2675ec5/naibbe_tables.csv",
+      "sha256": "4e7cfd54b7ec66515d39a51e11ec97e8e19b643b0b189124eebc3982e707dcec",
+      "bytes": 8913,
+      "publisher_checksum": null
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "status": "EXPLORATORY_SOURCE_REVIEW_ARCHIVE_STABLE_NOT_EXPERIMENT021",
+  "completed_utc": "2026-10-02T10:16:12.658233+00:00",
+  "author_repository": "https://github.com/greshko/naibbe-cipher",
+  "author_commit": "f2675ec5dd275268bc64dd48ea64fc0e0e9827a2",
+  "raw_downloads": 12,
+  "files": [
+    {
+      "path": "data/naibbe-review/author-f2675ec5/LICENSE",
+      "bytes": 1064,
+      "sha256": "e8fb5c1110aaa38618eab2013d1e7c5cae343efd21ea9859478df4930f7746bc",
+      "classification": "UNCHANGED_PRIMARY_DOWNLOAD",
+      "source_url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/LICENSE"
+    },
+    {
+      "path": "data/naibbe-review/author-f2675ec5/README.md",
+      "bytes": 3227,
+      "sha256": "b9e78e849a3478341d1c3167b7c3ae960e18f57b4857a0297d296adfe480ec99",
+      "classification": "UNCHANGED_PRIMARY_DOWNLOAD",
+      "source_url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/README.md"
+    },
+    {
+      "path": "data/naibbe-review/author-f2675ec5/decrypt_naibbe.py",
+      "bytes": 6752,
+      "sha256": "1c18514bbaba914989f1961f41a3930b7c1afe81d6db37b07b1dd7d9e6ea3b49",
+      "classification": "UNCHANGED_PRIMARY_DOWNLOAD",
+      "source_url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/decrypt_naibbe.py"
+    },
+    {
+      "path": "data/naibbe-review/author-f2675ec5/download-manifest.json",
+      "bytes": 3042,
+      "sha256": "92a5cbe209ccbe6bde015522e6d1e8ffb98db6ff909e0bedab6f337eada2475a",
+      "classification": "LOCAL_REVIEW_OR_PROVENANCE_DERIVATIVE",
+      "source_url": null
+    },
+    {
+      "path": "data/naibbe-review/author-f2675ec5/github-commit.json",
+      "bytes": 4368,
+      "sha256": "5c082f1688b6daa839e47a670b417419027ffccea5c76dbbe2ccdf5a24ab8601",
+      "classification": "UNCHANGED_PRIMARY_DOWNLOAD",
+      "source_url": "https://api.github.com/repos/greshko/naibbe-cipher/commits/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2"
+    },
+    {
+      "path": "data/naibbe-review/author-f2675ec5/github-tree.json",
+      "bytes": 155104,
+      "sha256": "2c852949aefb4b6a4b106d1814406bcbc253778dc19fb8208bf02954d22e698c",
+      "classification": "UNCHANGED_PRIMARY_DOWNLOAD",
+      "source_url": "https://api.github.com/repos/greshko/naibbe-cipher/git/trees/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2?recursive=1"
+    },
+    {
+      "path": "data/naibbe-review/author-f2675ec5/hidden-boundary-counterexamples.json",
+      "bytes": 1800,
+      "sha256": "c25bf7659319b5c14552d81d08ac0faaa7acd122f088072bcfbfa1d1420a419c",
+      "classification": "LOCAL_REVIEW_OR_PROVENANCE_DERIVATIVE",
+      "source_url": null
+    },
+    {
+      "path": "data/naibbe-review/author-f2675ec5/naibbe.py",
+      "bytes": 9468,
+      "sha256": "3f5e353d2c50f4e6a6b81567ca31cee4f0537a490b6346d054d26661648a6003",
+      "classification": "UNCHANGED_PRIMARY_DOWNLOAD",
+      "source_url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/naibbe.py"
+    },
+    {
+      "path": "data/naibbe-review/author-f2675ec5/naibbe_cv_vc_reuse.py",
+      "bytes": 23132,
+      "sha256": "097b7130484dcd95ec3ffdac9f01bf0c8297a9837cb72723eb4d1cf8ec2b922d",
+      "classification": "UNCHANGED_PRIMARY_DOWNLOAD",
+      "source_url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/naibbe_cv_vc_reuse.py"
+    },
+    {
+      "path": "data/naibbe-review/author-f2675ec5/naibbe_tables.csv",
+      "bytes": 8913,
+      "sha256": "4e7cfd54b7ec66515d39a51e11ec97e8e19b643b0b189124eebc3982e707dcec",
+      "classification": "UNCHANGED_PRIMARY_DOWNLOAD",
+      "source_url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/references/naibbe_tables.csv"
+    },
+    {
+      "path": "data/naibbe-review/author-f2675ec5/naibbe_v2.py",
+      "bytes": 11626,
+      "sha256": "8a28fc7677a9a117ad79e8060b42059eb17069bea58d82ccf7ef1f0747ea06b7",
+      "classification": "UNCHANGED_PRIMARY_DOWNLOAD",
+      "source_url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/naibbe_v2.py"
+    },
+    {
+      "path": "data/naibbe-review/author-f2675ec5/reproducible-codebook-review.json",
+      "bytes": 21624,
+      "sha256": "61256edfad5e8d8ff0dacb50867f72cd2382ebf7374f5469643105b3aaaccb97",
+      "classification": "LOCAL_REVIEW_OR_PROVENANCE_DERIVATIVE",
+      "source_url": null
+    },
+    {
+      "path": "data/naibbe-review/author-f2675ec5/review-summary.json",
+      "bytes": 8543,
+      "sha256": "119b29510f57637832253057246c2424c397cdf1019d073798f2097c24b2f3d1",
+      "classification": "LOCAL_REVIEW_OR_PROVENANCE_DERIVATIVE",
+      "source_url": null
+    },
+    {
+      "path": "data/naibbe-review/author-f2675ec5/static-codebook-relations.json",
+      "bytes": 19598,
+      "sha256": "3e8b414e5a78054bf441dd941935f1c3137c442f0ded446476c751ddfe5d8514",
+      "classification": "LOCAL_REVIEW_OR_PROVENANCE_DERIVATIVE",
+      "source_url": null
+    },
+    {
+      "path": "data/naibbe-review/author-f2675ec5/supplement-download-manifest.json",
+      "bytes": 1134,
+      "sha256": "77f495b1c6ada9d9fcc53021f2eb5c22202e6ea861d74aea1f5701b44662eeda",
+      "classification": "LOCAL_REVIEW_OR_PROVENANCE_DERIVATIVE",
+      "source_url": null
+    },
+    {
+      "path": "data/naibbe-review/author-f2675ec5/supplementary-materials-1-4.pdf",
+      "bytes": 2563905,
+      "sha256": "badd602dd3a5f831fe79ed434ee7bada9da35b435531bfa979f5a85c9848bf0e",
+      "classification": "UNCHANGED_PRIMARY_DOWNLOAD",
+      "source_url": "https://zenodo.org/api/records/17219445/files/Greshko%202025%20-%20Supplementary%20Materials%201%E2%80%934.pdf/content"
+    },
+    {
+      "path": "data/naibbe-review/author-f2675ec5/supplementary-materials-1-4.txt",
+      "bytes": 80502,
+      "sha256": "e35ef9d0fbcec4e03f0ea7557bae03ce7f1dc6b43a3043e675219dc4d81679b6",
+      "classification": "LOCAL_REVIEW_OR_PROVENANCE_DERIVATIVE",
+      "source_url": null
+    },
+    {
+      "path": "data/naibbe-review/author-f2675ec5/voynichesque.py",
+      "bytes": 17997,
+      "sha256": "8559417099ca48f070ffeb9bf6e94760706d3c0bfceafdc63384f97714fbb86f",
+      "classification": "UNCHANGED_PRIMARY_DOWNLOAD",
+      "source_url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/voynichesque.py"
+    },
+    {
+      "path": "data/naibbe-review/author-f2675ec5/zenodo-17219445-metadata.json",
+      "bytes": 9098,
+      "sha256": "3bb4490551c340dfc4f1bb02cc4c5525c7d895c9fea2f10aeb75ab6faa6f97c5",
+      "classification": "UNCHANGED_PRIMARY_DOWNLOAD",
+      "source_url": "https://zenodo.org/api/records/17219445"
+    }
+  ],
+  "reproduction": {
+    "script": "src/review_naibbe_codebook.py",
+    "sha256": "9f239b8c0cb4afdc4dbc7ff6bc563aa33e8d962cd001dcc77fb244a267365ad6",
+    "command": ".venv/bin/python src/review_naibbe_codebook.py",
+    "result": "reproducible-codebook-review.json",
+    "agreement": "Script output relation fields and five witnesses exactly match both initial exploratory JSON reports."
+  },
+  "frozen010_020_artifacts_modified": false,
+  "author_code_executed": false,
+  "manuscript_or_source_recovery_run": false,
+  "license_summary": {
+    "repository_LICENSE": "Standard MIT text; preserved unchanged.",
+    "README_and_python_headers": "Modified MIT notice additionally requires publication citation. Preserve notices and cite Greshko2025; do not relabel the whole archive as only standard MIT.",
+    "zenodo_metadata_license": "CC-BY-4.0",
+    "publisher_article_license": "CC-BY-4.0 per primary publisher/Crossref metadata"
+  },
+  "main_paper_pdf_obtained": false,
+  "supplement_pdf_obtained": true,
+  "inventory_scope": "Every file in this archive except this inventory itself;12 raw downloads unchanged and SHA-verified. No implementation or experiment021 freeze is implied."
+}

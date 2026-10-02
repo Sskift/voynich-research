@@ -1,0 +1,62 @@
+{
+  "status": "PRIMARY_AUTHOR_CODE_READ_ONLY_NOT_EXECUTED",
+  "repository": "https://github.com/greshko/naibbe-cipher",
+  "commit": "f2675ec5dd275268bc64dd48ea64fc0e0e9827a2",
+  "retrieved_utc": "2026-10-02T10:07:03.504206+00:00",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/README.md",
+      "path": "data/naibbe-review/author-f2675ec5/README.md",
+      "sha256": "b9e78e849a3478341d1c3167b7c3ae960e18f57b4857a0297d296adfe480ec99",
+      "bytes": 3227
+    },
+    {
+      "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/LICENSE",
+      "path": "data/naibbe-review/author-f2675ec5/LICENSE",
+      "sha256": "e8fb5c1110aaa38618eab2013d1e7c5cae343efd21ea9859478df4930f7746bc",
+      "bytes": 1064
+    },
+    {
+      "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/naibbe.py",
+      "path": "data/naibbe-review/author-f2675ec5/naibbe.py",
+      "sha256": "3f5e353d2c50f4e6a6b81567ca31cee4f0537a490b6346d054d26661648a6003",
+      "bytes": 9468
+    },
+    {
+      "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/naibbe_v2.py",
+      "path": "data/naibbe-review/author-f2675ec5/naibbe_v2.py",
+      "sha256": "8a28fc7677a9a117ad79e8060b42059eb17069bea58d82ccf7ef1f0747ea06b7",
+      "bytes": 11626
+    },
+    {
+      "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/naibbe_cv_vc_reuse.py",
+      "path": "data/naibbe-review/author-f2675ec5/naibbe_cv_vc_reuse.py",
+      "sha256": "097b7130484dcd95ec3ffdac9f01bf0c8297a9837cb72723eb4d1cf8ec2b922d",
+      "bytes": 23132
+    },
+    {
+      "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/decrypt_naibbe.py",
+      "path": "data/naibbe-review/author-f2675ec5/decrypt_naibbe.py",
+      "sha256": "1c18514bbaba914989f1961f41a3930b7c1afe81d6db37b07b1dd7d9e6ea3b49",
+      "bytes": 6752
+    },
+    {
+      "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/voynichesque.py",
+      "path": "data/naibbe-review/author-f2675ec5/voynichesque.py",
+      "sha256": "8559417099ca48f070ffeb9bf6e94760706d3c0bfceafdc63384f97714fbb86f",
+      "bytes": 17997
+    },
+    {
+      "url": "https://api.github.com/repos/greshko/naibbe-cipher/git/trees/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2?recursive=1",
+      "path": "data/naibbe-review/author-f2675ec5/github-tree.json",
+      "sha256": "2c852949aefb4b6a4b106d1814406bcbc253778dc19fb8208bf02954d22e698c",
+      "bytes": 155104
+    },
+    {
+      "url": "https://api.github.com/repos/greshko/naibbe-cipher/commits/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2",
+      "path": "data/naibbe-review/author-f2675ec5/github-commit.json",
+      "sha256": "5c082f1688b6daa839e47a670b417419027ffccea5c76dbbe2ccdf5a24ab8601",
+      "bytes": 4368
+    }
+  ]
+}

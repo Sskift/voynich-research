@@ -5,6 +5,27 @@ Last completed work classified as PROGRESS: experiment020 COMPLETED after an
 explicitly preserved numerical stop and separately frozen certificate repair.
 No verified connected reading, phonetic value, word meaning or language identified.
 
+Latest checkpoint, 2026-10-02: exploratory primary-source/code review, not
+experiment021. Naibbe author code pinned at f2675ec5dd275268bc64dd48ea64fc0e0e9827a2,
+with CSV, licenses, repository metadata and Zenodo17219445 v2.1 supplement archived
+under data/naibbe-review/author-f2675ec5/. Publisher main-paper PDF was not obtained;
+do not mislabel the supplement as the main paper. No external generator executed.
+src/review_naibbe_codebook.py enumerates only the external finite CSV relations;
+it does not load a plaintext corpus or manuscript. Counts and witnesses were first
+found exploratorily, so they must not later be described as prospective tests.
+Verified boundary witness: prefix_beta2_c='y', suffix_alpha_t='y' encodes ct as yy;
+unigram_beta3_o='y' twice encodes oo as y y, which becomes yy after space deletion.
+The ct path passes strict-v2 filters; both paths have positive probability under
+either deck and respacing. This establishes overlapping observation support for
+different normalized plaintexts with deleted boundaries, not a text error rate,
+an exclusion of the cipher class, or a manuscript reading.
+notes/naibbe-channel-review.md distinguishes the source channel/decoder versions.
+notes/naibbe-and-units-primary-review.md reviews primary sources and proposes a
+same-target nested boundary predictor requiring synthetic sensitivity calibration.
+No new protocol is frozen, no021 native counts/fits exist, and no fresh holdout has
+been opened. A next research turn must choose and freeze a concrete new test;
+do not treat the speculative proposal as an already authorized scoring protocol.
+
 020 authoritative result: results/omission-oracle-v2/summary.json; ordered gate
 FAIL for every language and both splits.18cases complete; all9identity cases exact.
 Known true key AND matching source-language prior supplied; not a language-ID or
